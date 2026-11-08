@@ -23,7 +23,8 @@ src/app/                       App, routes (hash router), shell (rail, topbar, t
 src/core/                      types (domain model), rbac, auth, store, persistence adapters, select (tenant read model), actions
 src/engines/                   pure logic: practice generator, coach planner, scheduling conflicts, eligibility, pitch counts,
                                achievements, search, standings, ICS, turf calculator, PDF writer, draft board (ratings, snake order,
-                               balance warnings), report cards (lesson recommendations), game day (lineup rules, scorebook, playing time)
+                               balance warnings), report cards (lesson recommendations), game day (lineup rules, scorebook, playing time),
+                               certification (quiz grading, per-role status and renewals)
 src/components/                design system (ui.tsx), icons, Diamond (SVG field), Calendar, Brand
 src/features/                  one folder per product area (home, academy, parents, practice, iq, coaches, league, admin, tryouts, reports, gameday, …)
 data/content/                  educational library (validated by scripts/validate-content.mjs)

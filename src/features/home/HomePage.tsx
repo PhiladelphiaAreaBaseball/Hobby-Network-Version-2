@@ -11,6 +11,7 @@ import { pitcherStatus } from "../../engines/pitchCount";
 import { MyDutiesCard } from "../teams/TeamSignups";
 import { ReportCardSummary } from "../reports/ReportCardPages";
 import { nextGameFor } from "../gameday/GameDayPage";
+import { CertificationStrip } from "../coaches/CertificationPages";
 export function HomePage() {
   const ss = useSession(); const t = ss.tenant; if (!t) return null;
   if (ss.isStaff && !ss.isGuardian && !ss.isCoach) return <AdminDashboard />;
@@ -52,6 +53,7 @@ function FamilyHome() {
         {child && <Card title={`${child.displayName}'s week`} action={<Link to="player" id={child.id}>Dashboard</Link>}><div className="flex items-center gap-4"><Ring value={Math.min(weekPractices, child.weeklyPracticeGoal)} max={child.weeklyPracticeGoal} label="Weekly practice goal" tone="var(--grass)" /><div className="col gap-1"><strong>{weekPractices} of {child.weeklyPracticeGoal} practices this week</strong><span className="small muted">{done.size} lessons completed · {t.awards.filter((a) => a.playerId === child.id).length} badges</span><span className="small"><Link to="achievements">Challenges and achievements</Link></span></div></div></Card>}
         {child && <ReportCardSummary player={child} />}
         <MyDutiesCard />
+        {ss.isCoach && <CertificationStrip />}
         {ss.children.map((c) => c.teamId && t.teamById.get(c.teamId)).filter(Boolean).map((team: any) => <Card key={team.id} onClick={() => navigate("team", team.id)}><div className="flex items-center gap-3"><TeamMark name={team.name} color={team.color} abbr={team.abbreviation} /><div className="grow col" style={{ minWidth: 0 }}><strong>{team.name}</strong><span className="small muted">{t.divisionById.get(team.divisionId)?.name} · Coach {t.userName(team.headCoachUserId)}</span></div><I.chevronRight className="faint" /></div></Card>)}
         <Card title="League news" action={<Link to="league">All news</Link>}>{pinned.length === 0 ? <p className="small muted">No announcements yet.</p> : <div className="list">{pinned.map((a) => <div key={a.id} className="list-item"><div className="grow col" style={{ minWidth: 0 }}><span className="list-item-title">{a.pinned && <I.pin size={12} style={{ display: "inline", marginRight: 4 }} />}{a.title}</span><span className="list-item-sub">{a.body.slice(0, 120)}{a.body.length > 120 ? "…" : ""}</span><span className="xsmall faint">{relativeDay(a.publishedAt)}</span></div></div>)}</div>}</Card>
       </div>

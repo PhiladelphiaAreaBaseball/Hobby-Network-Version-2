@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { ratePlayers, rankPool, snakeOrder, onTheClock, availablePool, teamStrengths, balanceWarnings, autoPick } from "../../dist/test/engines/draft.mjs";
 import { recommendLessons, ratingsFromNotes, cardSummary, cardDeltas, REPORT_SKILLS } from "../../dist/test/engines/reportCard.mjs";
+import { gradeQuiz, personStatus, expiryFor } from "../../dist/test/engines/certification.mjs";
 import { autoRotation, lineupWarnings, advanceOut, addRun, scoreTotals, playingTime, fairnessNotes, DEFAULT_PLAY_RULES, BENCH, POSITIONS } from "../../dist/test/engines/gameDay.mjs";
 const load = (f) => JSON.parse(readFileSync(`data/content/${f}`, "utf8")).items;
 const lessons = ["lessons-hitting.json", "lessons-fielding.json", "lessons-throwing.json", "lessons-baserunning.json", "lessons-positions-mental.json"].flatMap(load);
@@ -69,4 +70,19 @@ test("demo data: tryout pool, live draft and published report cards are consiste
   const jack = demo.players.find((p) => p.firstName === "Jack" && p.lastName === "Hill"); const rc = demo.reportCards.find((c) => c.playerId === jack.id); assert.equal(rc.status, "published"); assert.equal(rc.focusSkillId, "ground_balls"); assert.ok(rc.recommendedLessonIds.includes("fld-20"));
   for (const c of demo.reportCards) { assert.equal(demo.players.find((p) => p.id === c.playerId).teamId, c.teamId); for (const lid of c.recommendedLessonIds) assert.ok(lessons.some((l) => l.id === lid), lid); }
   const teamShifts = demo.shifts.filter((s) => s.teamId); assert.ok(teamShifts.length >= 12); for (const s of teamShifts) { const ev = demo.events.find((e) => e.id === s.eventId); assert.ok(ev.teamIds.includes(s.teamId)); }
+});
+
+test("certification: quizzes grade against the pass mark; status honours role audience, expiry and renewal window", () => {
+  const cert = JSON.parse(readFileSync("data/content/certification.json", "utf8")); const mod = cert.items.find((m) => m.id === "cert-concussion");
+  const right = Object.fromEntries(mod.quiz.map((q) => [q.id, q.correct])); const pass = gradeQuiz(mod, right, cert.passingScorePct); assert.equal(pass.pct, 100); assert.ok(pass.passed);
+  const wrong = { ...right, [mod.quiz[0].id]: (mod.quiz[0].correct + 1) % mod.quiz[0].options.length, [mod.quiz[1].id]: null }; const fail = gradeQuiz(mod, wrong, cert.passingScorePct); assert.equal(fail.correct, mod.quiz.length - 2); assert.ok(!fail.passed); assert.equal(fail.perQuestion[1].chosen, null);
+  assert.equal(expiryFor({ renewMonths: 12 }, "2026-01-15T10:00:00"), "2027-01-15");
+  const today = "2026-11-08"; const recs = [{ id: "a", leagueId: "x", userId: "u", moduleId: "cert-abuse-awareness", completedAt: "2026-06-01T10:00:00", expiresAt: "2027-06-01", score: 100, passed: true, attempts: 1 }, { id: "b", leagueId: "x", userId: "u", moduleId: "cert-concussion", completedAt: "2025-12-15T10:00:00", expiresAt: "2026-12-15", score: 100, passed: true, attempts: 1 }, { id: "c", leagueId: "x", userId: "u", moduleId: "cert-first-aid", completedAt: "2024-01-01T10:00:00", expiresAt: "2026-01-01", score: 80, passed: true, attempts: 1 }, { id: "d", leagueId: "x", userId: "u", moduleId: "cert-pitching-rules", completedAt: "2026-10-01T10:00:00", expiresAt: "2027-10-01", score: 60, passed: false, attempts: 1 }];
+  const coach = personStatus(cert.items, recs, "u", "head_coach", today); const by = Object.fromEntries(coach.modules.map((m) => [m.module.id, m.state]));
+  assert.equal(by["cert-abuse-awareness"], "complete"); assert.equal(by["cert-concussion"], "expiring"); assert.equal(by["cert-first-aid"], "expired"); assert.equal(by["cert-pitching-rules"], "not_started", "a failed attempt does not count"); assert.equal(coach.requiredTotal, 5); assert.equal(coach.requiredDone, 2); assert.ok(!coach.complete);
+  const vol = personStatus(cert.items, recs, "u", "volunteer", today); assert.ok(!vol.modules.some((m) => m.module.id === "cert-pitching-rules"), "volunteers are not asked for pitching rules"); assert.equal(vol.requiredTotal, 4);
+  const other = personStatus(cert.items, recs, "someone-else", "head_coach", today); assert.equal(other.requiredDone, 0);
+  for (const m of cert.items) assert.ok(m.quiz.length >= 3 && m.sections.length >= 3, m.id);
+  assert.ok(demo.certifications.length > 30); const mark = demo.users.find((u) => u.firstName === "Mark" && u.lastName === "Galasso"); const markSt = personStatus(cert.items, demo.certifications, mark.id, "head_coach", today); assert.equal(markSt.requiredDone, 4); assert.ok(!markSt.complete);
+  const teamPlan = demo.practicePlans.find((p) => p.id === "plan_team_demo1"); assert.equal(teamPlan.blocks.reduce((a, b) => a + b.minutes, 0), teamPlan.totalMinutes);
 });

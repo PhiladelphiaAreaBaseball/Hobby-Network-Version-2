@@ -26,6 +26,8 @@ import { DemoEntry } from "../features/auth/WelcomePage";
 import { TryoutEvaluatePage, DraftPage } from "../features/tryouts/TryoutPages";
 import { ReportCardPage } from "../features/reports/ReportCardPages";
 import { GameDayPage } from "../features/gameday/GameDayPage";
+import { RunPracticePage } from "../features/practice/RunPracticePage";
+import { CertificationPage, CertModulePage } from "../features/coaches/CertificationPages";
 export function routeView(r: Route): { frame: "app" | "public" | "none"; element: ReactNode } {
   switch (r.name) {
     case "marketing": return { frame: "public", element: <MarketingPage /> };
@@ -51,7 +53,9 @@ export function routeView(r: Route): { frame: "app" | "public" | "none"; element
     case "iq-lesson": return { frame: "app", element: <IQLessonPage id={r.id!} /> };
     case "iq-quiz": return { frame: "app", element: <QuizPage id={r.id ?? "mixed"} /> };
     case "achievements": return { frame: "app", element: <AchievementsPage /> };
-    case "coaches": return { frame: "app", element: r.id === "planner" ? <CoachPlannerPage /> : r.id === "plans" ? <CoachLibraryPage /> : r.id === "video" ? <VideoReviewPage /> : r.id === "pitching" ? <PitchingPage /> : <CoachesPage section={r.id} /> };
+    case "coaches": return { frame: "app", element: r.id === "planner" ? <CoachPlannerPage /> : r.id === "plans" ? <CoachLibraryPage /> : r.id === "video" ? <VideoReviewPage /> : r.id === "pitching" ? <PitchingPage /> : r.id === "certification" ? <CertificationPage /> : <CoachesPage section={r.id} /> };
+    case "cert": return { frame: "app", element: <CertModulePage id={r.id!} /> };
+    case "run": return { frame: "none", element: <RunPracticePage id={r.id!} /> };
     case "coaches-team": return { frame: "app", element: <CoachTeamPage id={r.id!} /> };
     case "tryout": return { frame: "app", element: <TryoutEvaluatePage id={r.id!} /> };
     case "draft": return { frame: "app", element: <DraftPage id={r.id!} /> };

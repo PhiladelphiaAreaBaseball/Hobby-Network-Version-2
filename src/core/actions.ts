@@ -7,6 +7,7 @@ import { selectTenant, type Tenant } from "./select";
 import { evaluateChallenges } from "../engines/achievements";
 import { onTheClock, availablePool, autoPick, ratePlayers } from "../engines/draft";
 import { emptySheet, scoreTotals } from "../engines/gameDay";
+import { gradeQuiz, expiryFor } from "../engines/certification";
 import type * as T from "./types";
 import type { Permission } from "./types";
 import { newId, nowIso, todayIso } from "./util";
@@ -21,7 +22,7 @@ function ctx() {
 }
 function tenant(leagueId: string | null): Tenant { const s = store.get(); if (!leagueId) throw new PermissionError("Choose a league first."); const t = selectTenant(s, leagueId); if (!t) throw new Error("League not found"); return t; }
 function requirePerm(perm: Permission, scope: Scope = {}) { const c = ctx(); const sc = { leagueId: c.leagueId ?? undefined, ...scope }; if (!can(c.memberships, perm, sc)) throw new PermissionError("You do not have permission to do that."); return c; }
-const SEED_KEY: Partial<Record<CollectionName, keyof T.DemoBundle>> = { leagues: "leagues", users: "users", memberships: "memberships", seasons: "seasons", divisions: "divisions", teams: "teams", players: "players", registrations: "registrations", payments: "payments", expenses: "expenses", fields: "fields", events: "events", attendance: "attendance", pitching: "pitching", volunteers: "volunteers", shifts: "shifts", sponsors: "sponsors", fundraisers: "fundraisers", announcements: "announcements", threads: "threads", completions: "completions", assignments: "assignments", iqProgress: "iqProgress", awards: "awards", enrollments: "enrollments", notes: "notes", practicePlans: "practicePlans", videos: "videos", plans: "plans", siteContent: "siteContent", tryouts: "tryouts", evaluations: "evaluations", drafts: "drafts", reportCards: "reportCards", gameSheets: "gameSheets" };
+const SEED_KEY: Partial<Record<CollectionName, keyof T.DemoBundle>> = { leagues: "leagues", users: "users", memberships: "memberships", seasons: "seasons", divisions: "divisions", teams: "teams", players: "players", registrations: "registrations", payments: "payments", expenses: "expenses", fields: "fields", events: "events", attendance: "attendance", pitching: "pitching", volunteers: "volunteers", shifts: "shifts", sponsors: "sponsors", fundraisers: "fundraisers", announcements: "announcements", threads: "threads", completions: "completions", assignments: "assignments", iqProgress: "iqProgress", awards: "awards", enrollments: "enrollments", notes: "notes", practicePlans: "practicePlans", videos: "videos", plans: "plans", siteContent: "siteContent", tryouts: "tryouts", evaluations: "evaluations", drafts: "drafts", reportCards: "reportCards", gameSheets: "gameSheets", certifications: "certifications" };
 function isSeeded(col: CollectionName, id: string) { const d = store.get().demo; const k = SEED_KEY[col]; if (!d || !k) return false; return (d[k] as any[]).some((x) => x.id === id); }
 async function put<X extends { id: string }>(leagueId: string | null, col: CollectionName, doc: X): Promise<X> { await persistence().put(leagueId, col, doc.id, doc); return doc; }
 async function remove(leagueId: string | null, col: CollectionName, id: string) { await persistence().remove(leagueId, col, id, isSeeded(col, id)); }
@@ -343,6 +344,17 @@ export const actions = {
     return totals;
   },
   async reopenGame(eventId: string) { const c = requirePerm("league.schedule"); const t = tenant(c.leagueId); const sheet = t.gameSheets.find((g) => g.eventId === eventId); if (!sheet) return; await put(t.leagueId, "gameSheets", { ...sheet, status: "live", finalizedAt: undefined, updatedAt: nowIso() }); const e = t.eventById.get(eventId); if (e) await put(t.leagueId, "events", { ...e, status: "in_progress", updatedAt: nowIso() }); await audit(t.leagueId, "game.reopen", "event", eventId); },
+  /* ---------------- Coach certification ---------------- */
+  async submitCertQuiz(moduleId: string, answers: Record<string, number | null | undefined>) {
+    const c = ctx(); const t = tenant(c.leagueId); const content = store.get().content!; const mod = content.certModules.find((m) => m.id === moduleId); if (!mod) throw new Error("Module not found");
+    const result = gradeQuiz(mod, answers, content.certPassingPct); const prior = t.certifications.filter((x) => x.userId === c.userId && x.moduleId === moduleId); const attempts = prior.reduce((a, x) => Math.max(a, x.attempts), 0) + 1;
+    const existing = prior.find((x) => x.passed); const now = nowIso();
+    const doc: T.Certification = { id: existing?.id ?? prior[0]?.id ?? newId("cert"), leagueId: t.leagueId, userId: c.userId, moduleId, completedAt: result.passed ? now : existing?.completedAt ?? now, expiresAt: result.passed ? expiryFor(mod, now) : existing?.expiresAt ?? expiryFor(mod, now), score: result.passed ? result.pct : existing?.score ?? result.pct, passed: result.passed || !!existing, attempts };
+    await put(t.leagueId, "certifications", doc);
+    if (result.passed) { await audit(t.leagueId, "certification.pass", "user", c.userId, `${moduleId} ${result.pct}%`); const v = t.volunteers.find((x) => x.userId === c.userId); if (v && !v.trainingComplete.includes(mod.title)) await put(t.leagueId, "volunteers", { ...v, trainingComplete: [...v.trainingComplete, mod.title] }); }
+    return result;
+  },
+  async resetCertification(userId: string, moduleId: string) { const c = requirePerm("league.volunteers"); const t = tenant(c.leagueId); for (const x of t.certifications.filter((r) => r.userId === userId && r.moduleId === moduleId)) await remove(t.leagueId, "certifications", x.id); await audit(t.leagueId, "certification.reset", "user", userId, moduleId); },
   /* ---------------- Platform ---------------- */
   async savePlan(plan: T.SubscriptionPlan) { requirePerm("platform.manage"); await put(null, "plans", plan); await audit(null, "platform.plan", "plan", plan.id); },
   async updateLeagueSubscription(leagueId: string, sub: T.League["subscription"]) { requirePerm("platform.manage"); const s = store.get(); const l = selectTenant(s, leagueId)?.league; if (!l) return; await put(null, "leagues", { ...l, subscription: sub }); await audit(null, "platform.subscription", "league", leagueId, sub.status); },

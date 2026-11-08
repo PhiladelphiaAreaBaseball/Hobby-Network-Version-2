@@ -5,10 +5,11 @@ import { useAppStore, currentMemberships } from "../../core/store";
 import { navigate } from "../../core/router";
 import { visibleAdminNav } from "../../app/nav";
 import { findConflicts } from "../../engines/scheduling";
+import { certificationTasks } from "../coaches/CertificationPages";
 import { fmtDate, fmtTime, relativeDay } from "../../core/dates";
 import { money, pct, todayIso } from "../../core/util";
 export function AdminDashboard() {
-  const t = useTenant(); const s = useAppStore(); const memberships = currentMemberships(s); if (!t) return null;
+  const t = useTenant(); const s = useAppStore(); const memberships = currentMemberships(s); if (!t) return null; const uncertified = s.content ? certificationTasks(t, s.content.certModules) : 0;
   const nav = visibleAdminNav(memberships, t.leagueId); const today = todayIso(); const season = t.activeSeason;
   const rostered = t.players.filter((p) => p.teamId).length; const regSeason = t.seasons.find((x) => x.status === "registration");
   const upcomingGames = t.events.filter((e) => e.type === "game" && e.status === "scheduled" && e.start.slice(0, 10) >= today).sort((a, b) => (a.start < b.start ? -1 : 1));
@@ -25,6 +26,7 @@ export function AdminDashboard() {
     has("admin-registrations") && pendingDocs > 0 && { label: `${pendingDocs} registrations waiting on document review`, route: "admin-registrations" },
     has("admin-registrations") && waitlist > 0 && { label: `${waitlist} players on the waitlist for ${regSeason?.name ?? "next season"}`, route: "admin-registrations" },
     has("admin-schedule") && conflicts.length > 0 && { label: `${conflicts.length} scheduling conflicts to resolve`, route: "admin-schedule" },
+    has("admin-volunteers") && uncertified > 0 && { label: `${uncertified} coaches have not finished the required certification modules`, route: "admin-volunteers" },
     has("admin-volunteers") && bgNeeded > 0 && { label: `${bgNeeded} volunteers without a cleared background check`, route: "admin-volunteers" },
     has("admin-fields") && t.fields.some((f) => f.status !== "open") && { label: `Field status needs a decision: ${t.fields.filter((f) => f.status !== "open").map((f) => f.name).join(", ")}`, route: "admin-fields" },
     has("admin-tryouts") && t.drafts.some((d) => d.status === "live") && { label: `${t.drafts.filter((d) => d.status === "live").map((d) => d.title).join(", ")}: draft in progress`, route: "admin-tryouts" },

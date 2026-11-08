@@ -170,6 +170,9 @@ export interface CurriculumWeek { week: number; title: string; focus: string; su
 export interface Challenge { id: ID; title: string; description: string; rule: { type: "lessons_completed" | "practices_completed" | "iq_correct" | "curriculum_week_completed" | "parent_child_practice" | "lessons_in_category" | "positions_identified" | "sportsmanship_lesson"; target: number; category: Category | null; periodDays: number | null }; badgeId: string; ageGroups: AgeGroupId[]; points: number; }
 export interface Badge { id: ID; name: string; description: string; icon: string; tier: "bronze" | "silver" | "gold"; }
 export interface Resource { id: ID; title: string; category: string; audience: string[]; summary: string; body: string[]; checklist: string[]; officialLinks: { label: string; url: string }[]; disclaimer: string | null; }
+export interface CertQuestion { id: ID; prompt: string; options: string[]; correct: number; explanation: string; }
+export interface CertModule { id: ID; title: string; summary: string; durationMin: number; required: boolean; renewMonths: number; audience: Role[]; sections: { heading: string; body: string[] }[]; keyPoints: string[]; resourceIds: ID[]; quiz: CertQuestion[]; }
+export interface Certification { id: ID; leagueId: ID; userId: ID; moduleId: ID; completedAt: ISODateTime; expiresAt: ISODate; score: number; passed: boolean; attempts: number; }
 export interface GlossaryTerm { id: ID; term: string; definition: string; example: string; relatedLessonIds: string[]; }
 
 /* ---------- Player development state (tenant-owned, mutable) ---------- */
@@ -221,12 +224,13 @@ export interface SiteContent {
 export interface ContentBundle {
   lessons: Lesson[]; drills: Drill[]; parentGuides: ParentGuide[]; coachPlans: CoachPlan[]; iqLessons: IQLesson[]; iqQuestions: IQQuestion[];
   curricula: Curriculum[]; challenges: Challenge[]; badges: Badge[]; resources: Resource[]; glossary: GlossaryTerm[]; drillVideos: DrillVideo[];
+  certModules: CertModule[]; certPassingPct: number;
   manifest: { ageGroups: { id: AgeGroupId; label: string; min: number; max: number }[] };
 }
 export interface DemoBundle {
   leagues: League[]; users: User[]; memberships: Membership[]; seasons: Season[]; divisions: Division[]; teams: Team[]; players: Player[]; registrations: Registration[]; payments: Payment[]; expenses: Expense[];
   fields: Field[]; events: ScheduleEvent[]; attendance: Attendance[]; pitching: PitchingAppearance[]; volunteers: Volunteer[]; shifts: VolunteerShift[]; sponsors: Sponsor[]; fundraisers: Fundraiser[]; announcements: Announcement[]; threads: MessageThread[];
   completions: LessonCompletion[]; assignments: Assignment[]; iqProgress: IQProgress[]; awards: AchievementAward[]; enrollments: CurriculumEnrollment[]; notes: PlayerNote[]; practicePlans: PracticePlan[]; videos: VideoSubmission[]; plans: SubscriptionPlan[]; siteContent: SiteContent[]; personas: Persona[];
-  tryouts?: Tryout[]; evaluations?: Evaluation[]; drafts?: Draft[]; reportCards?: ReportCard[]; gameSheets?: GameSheet[];
+  tryouts?: Tryout[]; evaluations?: Evaluation[]; drafts?: Draft[]; reportCards?: ReportCard[]; gameSheets?: GameSheet[]; certifications?: Certification[];
 }
 export interface Persona { id: ID; userId: ID; leagueId: ID | null; label: string; role: Role; description: string; playerId?: ID; teamId?: ID; }

@@ -51,6 +51,8 @@ gap · **Integration** = architecture in place, needs an external service or cre
 | Coach-to-parent assignment loop | Done | One tap assigns a lesson + home practice to a team; completion visible to coach |
 | Player report cards (mid-season, end of season) | Done | Coach rates ten skills (pre-filled from the practice checklist), writes strengths, one focus and a note; engine suggests age-matched Academy lessons for the focus skill; publish notifies guardians; parent acknowledges; PDF download; end-of-season card shows change since mid-season |
 | Game day: lineup card builder | Done | Auto-rotation with fixed pitcher/catcher, per-inning position grid, diamond view; warnings for league minimum-play rules (configurable per division), consecutive bench innings, pitcher rest, catcher/pitcher rule; season playing-time table with fairness notes |
+| Run practice mode | Done | Full-screen, phone-first runner for any saved home or team plan: big clock, one block at a time, cues, drill video one tap away, +/−1 minute, block list, progress; keeps its place across reloads; finish logs the practice and offers the home assignment |
+| Coach certification path | Done | Six modules (abuse awareness, concussion, first aid and emergency plan, pitch counts and arm care, heat/lightning/field safety, conduct and communication) with reading, key points, linked resources and a graded check; renewals per module; per-role requirements; printable certificate; admin tab in Volunteers with readiness (modules + background check) and dashboard attention item |
 | Game day: scorebook and pitch counts | Done | Inning-by-inning runs, outs, half-inning advance, per-pitcher tap counter with daily-max and rest-day preview; finalize writes the result, standings and pitching appearances in one action; league staff can reopen |
 | Video review | Partial | Uploads stored via artifact assets for editors inside Claude; feedback with timestamps; consent, limits, retention; no automated analysis |
 | Global search with natural-language phrasing; "Ask the Academy" (Claude) | Done | AI summarizes approved lessons only; hidden when the capability is unavailable |
@@ -73,14 +75,14 @@ gap · **Integration** = architecture in place, needs an external service or cre
 | Platform super admin (leagues, subscriptions, plans, usage, support, health) | Done | |
 
 ## Testing (this build)
-- Unit: 22 tests pass (`npm test`): calculator formulas and default example, clamping, scenario codes, PDF writer, RBAC scoping, router,
+- Unit: 23 tests pass (`npm test`): calculator formulas and default example, clamping, scenario codes, PDF writer, RBAC scoping, router,
   scheduling conflicts, eligibility, pitch counts, search relevance, practice generator safety, team planner timing, standings, ICS, demo data integrity,
-  draft ratings/snake order/balance warnings, report card recommendations, lineup auto-rotation and play-rule warnings, scorebook state, demo tryout/draft/report-card consistency.
-- Browser (`npm run e2e`): 123 routes across 10 personas render with no console errors or dead ends; tenant isolation; board-member denial (including tryouts);
+  draft ratings/snake order/balance warnings, report card recommendations, lineup auto-rotation and play-rule warnings, scorebook state, demo tryout/draft/report-card consistency, certification grading and status.
+- Browser (`npm run e2e`): 134 routes across 10 personas render with no console errors or dead ends; tenant isolation; board-member denial (including tryouts);
   parent workflows (complete lesson, generate and log practice, answer an IQ question, register a child, send a message, search);
   coach workflows (assign home practice, attendance, pitch count rest calculation, tryout scoring, publish a report card, lineup card, scorebook through
-  a finalized game, planner); commissioner draft pick; admin workflows (field status, announcement, approve registration, create event, CMS change visible
-  on the public site, tryout rankings); parent team-duty sign-up and report-card acknowledgement; phone-width overflow checks on 19 pages; dark theme render;
+  a finalized game, certification quiz to a certificate, run-mode timer to completion, planner); commissioner draft pick; admin workflows (field status, announcement, approve registration, create event, CMS change visible
+  on the public site, tryout rankings, certification readiness tab); parent team-duty sign-up and report-card acknowledgement; phone-width overflow checks on 22 pages; dark theme render;
   calculator interactions including PDF bytes and saved scenario.
 
 ## Known limitations
