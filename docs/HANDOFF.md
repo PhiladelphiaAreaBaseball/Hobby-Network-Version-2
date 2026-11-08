@@ -5,7 +5,8 @@
   To update it from a new conversation, publish `dist/index.html` with `url` set to that link (a publish without `url` creates a separate artifact).
   Supporting files to publish with `root: "dist"`: `app.js`, `assets/gameplaniq-logo.png`, every file in `data/content/`, and `data/demo/demo.json`.
   Capabilities already declared and carried forward: `db`, `user`, `sample`, `assets`, `downloads`.
-- **Repository branch:** `claude/little-league-platform-hkhs8v` (local commits are ahead of origin; pushing is blocked until the Claude GitHub App is installed for `PhiladelphiaAreaBaseball/Hobby-Network-Version-2`).
+- **Repository branches:** `claude/gameplaniq-restore-source-ceah9g` (current session) and `claude/little-league-platform-hkhs8v` point at the same restored tree. Pushing is blocked (403 from both `git push` and the GitHub app API) until the Claude GitHub App is installed for `PhiladelphiaAreaBaseball/Hobby-Network-Version-2` or GitHub is reconnected from claude.ai settings.
+- **Source snapshot inside the artifact:** asset `4120a9218e4441eb8a9f9d57ac612f07` (`gameplaniq-src.tar.gz.b64.txt`) is a base64 git archive of commit `01f9ed6`. Restore with `base64 -d > src.tar.gz && tar -xzf src.tar.gz`, then `npm install`. Refresh this snapshot after major changes while GitHub remains unreachable.
 
 ## Rebuild and verify
 ```

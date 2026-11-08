@@ -67,7 +67,7 @@ gap · **Integration** = architecture in place, needs an external service or cre
 | Platform super admin (leagues, subscriptions, plans, usage, support, health) | Done | |
 
 ## Testing (this build)
-- Unit: 20 tests pass (`npm test`): calculator formulas and default example, clamping, scenario codes, PDF writer, RBAC scoping, router,
+- Unit: 16 tests pass (`npm test`): calculator formulas and default example, clamping, scenario codes, PDF writer, RBAC scoping, router,
   scheduling conflicts, eligibility, pitch counts, search relevance, practice generator safety, team planner timing, standings, ICS, demo data integrity.
 - Browser (`npm run e2e`): 108 routes across 10 personas render with no console errors or dead ends; tenant isolation; board-member denial;
   parent workflows (complete lesson, generate and log practice, answer an IQ question, register a child, send a message, search);
