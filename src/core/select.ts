@@ -15,6 +15,7 @@ function merge<X extends { id: string }>(seed: X[], overlay: Overlay | undefined
   inner.set(ov, out); return out;
 }
 const EMPTY: Overlay = {};
+const EMPTY_ARR: any[] = [];
 const drillCache = new WeakMap<object, { key: string; out: T.Drill[] }>();
 function drillsWithVideos(drills: T.Drill[], videos: Map<string, T.DrillVideo>): T.Drill[] { const key = [...videos.values()].map((v) => v.drillId + ":" + v.videoId).sort().join("|"); const hit = drillCache.get(drills); if (hit && hit.key === key) return hit.out; const out = drills.map((d) => { const v = videos.get(d.id); return v ? { ...d, video: v } : d; }); drillCache.set(drills, { key, out }); return out; }
 const byLeague = <X extends { leagueId?: string | null }>(arr: X[], leagueId: string) => arr.filter((x) => x.leagueId === leagueId);
@@ -25,6 +26,7 @@ export interface Tenant {
   fields: T.Field[]; events: T.ScheduleEvent[]; attendance: T.Attendance[]; pitching: T.PitchingAppearance[]; volunteers: T.Volunteer[]; shifts: T.VolunteerShift[]; sponsors: T.Sponsor[]; fundraisers: T.Fundraiser[]; announcements: T.Announcement[]; threads: T.MessageThread[]; notifications: T.Notification[];
   completions: T.LessonCompletion[]; assignments: T.Assignment[]; iqProgress: T.IQProgress[]; awards: T.AchievementAward[]; enrollments: T.CurriculumEnrollment[]; notes: T.PlayerNote[]; practicePlans: T.PracticePlan[]; videos: T.VideoSubmission[]; favorites: T.Favorite[]; playlists: T.Playlist[]; siteContent: T.SiteContent; audit: T.AuditLog[];
   users: T.User[]; memberships: T.Membership[]; lessons: T.Lesson[]; iqQuestions: T.IQQuestion[]; curricula: T.Curriculum[]; scenarios: T.FinancialScenario[]; guideProgress: T.GuideProgress[]; drills: T.Drill[]; drillVideos: T.DrillVideo[];
+  tryouts: T.Tryout[]; evaluations: T.Evaluation[]; drafts: T.Draft[]; reportCards: T.ReportCard[]; gameSheets: T.GameSheet[];
   teamById: Map<string, T.Team>; playerById: Map<string, T.Player>; userById: Map<string, T.User>; divisionById: Map<string, T.Division>; fieldById: Map<string, T.Field>; lessonById: Map<string, T.Lesson>; eventById: Map<string, T.ScheduleEvent>;
   userName: (id: string | undefined) => string; teamName: (id: string | undefined) => string;
 }
@@ -49,6 +51,7 @@ export function selectTenant(s: AppState, leagueId: string): Tenant | null {
     completions: byLeague(merge(d.completions, ov.completions), leagueId), assignments: byLeague(merge(d.assignments, ov.assignments), leagueId), iqProgress: byLeague(merge(d.iqProgress, ov.iqProgress), leagueId), awards: byLeague(merge(d.awards, ov.awards), leagueId), enrollments: byLeague(merge(d.enrollments, ov.enrollments), leagueId),
     notes: byLeague(merge(d.notes, ov.notes), leagueId), practicePlans: byLeague(merge(d.practicePlans, ov.practicePlans), leagueId), videos: byLeague(merge(d.videos, ov.videos), leagueId), favorites: byLeague(merge([] as T.Favorite[], ov.favorites), leagueId), playlists: byLeague(merge([] as T.Playlist[], ov.playlists), leagueId), siteContent, audit: byLeague(merge([] as T.AuditLog[], ov.audit), leagueId),
     users, memberships, lessons, iqQuestions: merge(c.iqQuestions, ov.iqQuestions).filter((q) => !q.leagueId || q.leagueId === leagueId), curricula: merge(c.curricula, ov.curricula).filter((q) => !q.leagueId || q.leagueId === leagueId), scenarios: byLeague(merge([] as T.FinancialScenario[], ov.scenarios), leagueId), guideProgress: byLeague(merge([] as T.GuideProgress[], ov.guideProgress), leagueId), drills, drillVideos,
+    tryouts: byLeague(merge(d.tryouts ?? EMPTY_ARR, ov.tryouts), leagueId), evaluations: byLeague(merge(d.evaluations ?? EMPTY_ARR, ov.evaluations), leagueId), drafts: byLeague(merge(d.drafts ?? EMPTY_ARR, ov.drafts), leagueId), reportCards: byLeague(merge(d.reportCards ?? EMPTY_ARR, ov.reportCards), leagueId), gameSheets: byLeague(merge(d.gameSheets ?? EMPTY_ARR, ov.gameSheets), leagueId),
     teamById, playerById: indexBy(players), userById, divisionById: indexBy(divisions), fieldById: indexBy(fields), lessonById: indexBy(lessons), eventById: indexBy(events),
     userName: (id) => { const u = id ? userById.get(id) : undefined; return u ? `${u.firstName} ${u.lastName}` : "Unknown"; },
     teamName: (id) => (id ? teamById.get(id)?.name ?? "Unassigned" : "Unassigned"),

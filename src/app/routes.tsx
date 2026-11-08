@@ -23,6 +23,9 @@ import { PlatformPage } from "../features/platform/PlatformPage";
 import { SearchPage } from "../features/search/SearchPage";
 import { UmpirePage, VolunteerPage, PlayerPage, EventPage } from "../features/roles/RolePages";
 import { DemoEntry } from "../features/auth/WelcomePage";
+import { TryoutEvaluatePage, DraftPage } from "../features/tryouts/TryoutPages";
+import { ReportCardPage } from "../features/reports/ReportCardPages";
+import { GameDayPage } from "../features/gameday/GameDayPage";
 export function routeView(r: Route): { frame: "app" | "public" | "none"; element: ReactNode } {
   switch (r.name) {
     case "marketing": return { frame: "public", element: <MarketingPage /> };
@@ -50,6 +53,10 @@ export function routeView(r: Route): { frame: "app" | "public" | "none"; element
     case "achievements": return { frame: "app", element: <AchievementsPage /> };
     case "coaches": return { frame: "app", element: r.id === "planner" ? <CoachPlannerPage /> : r.id === "plans" ? <CoachLibraryPage /> : r.id === "video" ? <VideoReviewPage /> : r.id === "pitching" ? <PitchingPage /> : <CoachesPage section={r.id} /> };
     case "coaches-team": return { frame: "app", element: <CoachTeamPage id={r.id!} /> };
+    case "tryout": return { frame: "app", element: <TryoutEvaluatePage id={r.id!} /> };
+    case "draft": return { frame: "app", element: <DraftPage id={r.id!} /> };
+    case "report": return { frame: "app", element: <ReportCardPage id={r.id!} /> };
+    case "gameday": return { frame: "app", element: <GameDayPage id={r.id!} /> };
     case "messages": return { frame: "app", element: <MessagesPage /> };
     case "thread": return { frame: "app", element: <MessagesPage threadId={r.id} /> };
     case "resources": return { frame: "app", element: <ResourcesPage category={r.id} /> };

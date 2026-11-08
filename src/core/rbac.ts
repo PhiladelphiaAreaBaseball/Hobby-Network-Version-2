@@ -5,16 +5,16 @@ export const ROLE_LABELS: Record<Role, string> = {
   head_coach: "Head Coach", assistant_coach: "Assistant Coach", guardian: "Parent / Guardian", player: "Player", umpire: "Umpire", volunteer: "Volunteer",
 };
 
-const ALL_LEAGUE: Permission[] = ["league.manage", "league.settings", "league.website", "league.finance", "league.finance.view", "league.registrations", "league.schedule", "league.fields", "league.volunteers", "league.sponsors", "league.communications", "league.content", "league.reports", "league.members", "division.manage", "team.manage", "team.view", "team.attendance", "team.notes", "team.assign", "team.message", "team.pitching", "team.video_review"];
-const COACH: Permission[] = ["team.manage", "team.view", "team.attendance", "team.notes", "team.assign", "team.message", "team.pitching", "team.video_review", "player.academy"];
+const ALL_LEAGUE: Permission[] = ["league.manage", "league.settings", "league.website", "league.finance", "league.finance.view", "league.registrations", "league.schedule", "league.fields", "league.volunteers", "league.sponsors", "league.communications", "league.content", "league.reports", "league.members", "division.manage", "team.manage", "team.view", "team.attendance", "team.notes", "team.assign", "team.message", "team.pitching", "team.video_review", "league.tryouts", "tryout.evaluate", "team.gameday"];
+const COACH: Permission[] = ["team.manage", "team.view", "team.attendance", "team.notes", "team.assign", "team.message", "team.pitching", "team.video_review", "team.gameday", "tryout.evaluate", "player.academy"];
 
 export const ROLE_PERMISSIONS: Record<Role, Permission[]> = {
   platform_admin: ["platform.manage", ...ALL_LEAGUE, "family.academy", "player.academy"],
   league_admin: [...ALL_LEAGUE, "family.academy", "player.academy"],
   board_member: ["league.finance.view", "league.reports", "team.view", "family.academy"], // plus configurable extraPermissions
-  division_commissioner: ["division.manage", "league.schedule", "league.registrations", "team.view", "team.manage", "team.message", "league.reports", "family.academy", "player.academy"],
+  division_commissioner: ["division.manage", "league.schedule", "league.registrations", "team.view", "team.manage", "team.message", "league.reports", "league.tryouts", "tryout.evaluate", "team.gameday", "family.academy", "player.academy"],
   head_coach: COACH,
-  assistant_coach: ["team.view", "team.attendance", "team.message", "team.assign", "player.academy"],
+  assistant_coach: ["team.view", "team.attendance", "team.message", "team.assign", "team.gameday", "tryout.evaluate", "player.academy"],
   guardian: ["family.manage", "family.register", "family.pay", "family.academy", "family.messages", "family.video_upload", "team.view", "player.academy"],
   player: ["player.academy"],
   umpire: ["umpire.assignments", "team.view"],

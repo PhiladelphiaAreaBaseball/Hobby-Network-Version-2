@@ -49,6 +49,9 @@ gap · **Integration** = architecture in place, needs an external service or cre
 | Challenges, badges, certificates | Done | 22 challenges, 14 badges; PDF certificates |
 | Coaches' HQ: team planner, plan library (20 plans), attendance, notes and skill checklist, lineup rotation, pitch counts with configurable table, video review | Done | Pitch-count values are league-configured starting values, labeled as such |
 | Coach-to-parent assignment loop | Done | One tap assigns a lesson + home practice to a team; completion visible to coach |
+| Player report cards (mid-season, end of season) | Done | Coach rates ten skills (pre-filled from the practice checklist), writes strengths, one focus and a note; engine suggests age-matched Academy lessons for the focus skill; publish notifies guardians; parent acknowledges; PDF download; end-of-season card shows change since mid-season |
+| Game day: lineup card builder | Done | Auto-rotation with fixed pitcher/catcher, per-inning position grid, diamond view; warnings for league minimum-play rules (configurable per division), consecutive bench innings, pitcher rest, catcher/pitcher rule; season playing-time table with fairness notes |
+| Game day: scorebook and pitch counts | Done | Inning-by-inning runs, outs, half-inning advance, per-pitcher tap counter with daily-max and rest-day preview; finalize writes the result, standings and pitching appearances in one action; league staff can reopen |
 | Video review | Partial | Uploads stored via artifact assets for editors inside Claude; feedback with timestamps; consent, limits, retention; no automated analysis |
 | Global search with natural-language phrasing; "Ask the Academy" (Claude) | Done | AI summarizes approved lessons only; hidden when the capability is unavailable |
 
@@ -59,6 +62,9 @@ gap · **Integration** = architecture in place, needs an external service or cre
 | Registration admin (review, verify documents, approve, waitlist, assign to team, payments, export) | Done | |
 | Teams & rosters, players & guardians, staff & permissions | Done | |
 | Volunteers: roles, shifts, assignment, background-check status, training | Done | Reports never stored |
+| Team game-day duties (snacks, scorekeeper, pitch counter, dugout parent, field prep) | Done | Coach adds duties per game or the standard three; team families claim and release slots; coach can assign directly and nudge everyone; confirmation notification; league volunteer pages exclude team duties |
+| Tryouts and evaluations | Done | Commissioner creates a tryout per division and season, assigns evaluators (coaches, board); tablet-friendly 1–5 scoring board across six stations with notes; pool derived from registrations; rankings combine all evaluators; close/reopen |
+| Draft board | Done | Snake draft with pick order, rounds, protected coaches' children; best-available sorted by tryout rating; coaches pick on the clock, commissioner can pick for anyone or auto-pick; balance warnings (team average, age spread, pitcher depth) advise without blocking; undo; finalize with optional roster application |
 | Finance dashboard, transactions, expenses, assistance, exports | Done | |
 | Sponsors, packages, placements, fundraising | Done | Online donations need the payment processor |
 | Field Improvement Fund Calculator | Done | Sliders + typed inputs, four summary cards, distribution bar, timeline, progress, 10-year chart with goal marker and tooltips, presets, reset, PDF, print view, share link, saved scenarios; default example verified (3.75 years, 4 cycles) |
@@ -67,12 +73,14 @@ gap · **Integration** = architecture in place, needs an external service or cre
 | Platform super admin (leagues, subscriptions, plans, usage, support, health) | Done | |
 
 ## Testing (this build)
-- Unit: 16 tests pass (`npm test`): calculator formulas and default example, clamping, scenario codes, PDF writer, RBAC scoping, router,
-  scheduling conflicts, eligibility, pitch counts, search relevance, practice generator safety, team planner timing, standings, ICS, demo data integrity.
-- Browser (`npm run e2e`): 108 routes across 10 personas render with no console errors or dead ends; tenant isolation; board-member denial;
+- Unit: 22 tests pass (`npm test`): calculator formulas and default example, clamping, scenario codes, PDF writer, RBAC scoping, router,
+  scheduling conflicts, eligibility, pitch counts, search relevance, practice generator safety, team planner timing, standings, ICS, demo data integrity,
+  draft ratings/snake order/balance warnings, report card recommendations, lineup auto-rotation and play-rule warnings, scorebook state, demo tryout/draft/report-card consistency.
+- Browser (`npm run e2e`): 123 routes across 10 personas render with no console errors or dead ends; tenant isolation; board-member denial (including tryouts);
   parent workflows (complete lesson, generate and log practice, answer an IQ question, register a child, send a message, search);
-  coach workflows (assign home practice, attendance, pitch count rest calculation, planner); admin workflows (field status, announcement,
-  approve registration, create event, CMS change visible on the public site); phone-width overflow checks on 16 pages; dark theme render;
+  coach workflows (assign home practice, attendance, pitch count rest calculation, tryout scoring, publish a report card, lineup card, scorebook through
+  a finalized game, planner); commissioner draft pick; admin workflows (field status, announcement, approve registration, create event, CMS change visible
+  on the public site, tryout rankings); parent team-duty sign-up and report-card acknowledgement; phone-width overflow checks on 19 pages; dark theme render;
   calculator interactions including PDF bytes and saved scenario.
 
 ## Known limitations

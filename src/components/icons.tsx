@@ -63,6 +63,8 @@ export const I = {
   sliders: (p: P) => <svg {...base(p)}><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0" /><circle cx="16" cy="6" r="2" /><circle cx="10" cy="12" r="2" /><circle cx="18" cy="18" r="2" /></svg>,
   whistle: (p: P) => <svg {...base(p)}><path d="M9 10h7l5-2v4l-5 2a6 6 0 1 1-7-4z" /><circle cx="9" cy="16" r="2" /></svg>,
   refresh: (p: P) => <svg {...base(p)}><path d="M20 12a8 8 0 1 1-2.3-5.7" /><path d="M20 4v5h-5" /></svg>,
+  clipboard: (p: P) => <svg {...base(p)}><rect x="5" y="4" width="14" height="17" rx="2" /><path d="M9 4a3 3 0 0 1 6 0" /><path d="M9 11h6M9 15h4" /></svg>,
+  scoreboard: (p: P) => <svg {...base(p)}><rect x="3" y="5" width="18" height="12" rx="2" /><path d="M12 5v12M7 9v4M17 9v4M9 21h6" /></svg>,
   arrowRight: (p: P) => <svg {...base(p)}><path d="M5 12h14M13 6l6 6-6 6" /></svg>,
 };
 export type IconName = keyof typeof I;

@@ -1,7 +1,7 @@
 /* Hash router. The artifact host passes only plain `#name` hashes (letters, digits, hyphens), so routes are flat tokens
    like `lesson-hit-01` or `admin-schedule` and we parse by known prefixes. */
 export interface Route { name: string; id?: string; raw: string; }
-const PREFIXED = ["demo", "lesson", "guide", "team", "player", "curriculum", "iq-lesson", "iq-quiz", "resource", "thread", "site", "practice-plan", "coaches-team", "admin", "platform", "registration", "event", "academy", "coaches", "parents", "league", "messages", "account", "register", "iq", "practice", "schedule", "achievements", "resources", "glossary", "home", "pricing", "directory", "marketing", "search", "teams", "volunteer", "umpire", "privacy", "about"];
+const PREFIXED = ["demo", "tryout", "draft", "report", "gameday", "lesson", "guide", "team", "player", "curriculum", "iq-lesson", "iq-quiz", "resource", "thread", "site", "practice-plan", "coaches-team", "admin", "platform", "registration", "event", "academy", "coaches", "parents", "league", "messages", "account", "register", "iq", "practice", "schedule", "achievements", "resources", "glossary", "home", "pricing", "directory", "marketing", "search", "teams", "volunteer", "umpire", "privacy", "about"];
 const RESERVED = new Set(["settings", "sidebar", "customize", "upgrade", "downloads"]);
 export function parseRoute(hash: string): Route {
   let raw = (hash || "").replace(/^#/, "").trim();

@@ -26,7 +26,8 @@ export type Permission =
   | "league.content" | "league.reports" | "league.members"
   | "division.manage" | "team.manage" | "team.view" | "team.attendance" | "team.notes" | "team.assign" | "team.message" | "team.pitching" | "team.video_review"
   | "family.manage" | "family.register" | "family.pay" | "family.academy" | "family.messages" | "family.video_upload"
-  | "player.academy" | "umpire.assignments" | "volunteer.shifts";
+  | "player.academy" | "umpire.assignments" | "volunteer.shifts"
+  | "league.tryouts" | "tryout.evaluate" | "team.gameday";
 
 export interface Membership {
   id: ID; userId: ID; leagueId: ID; role: Role;
@@ -80,7 +81,9 @@ export interface Division {
   id: ID; leagueId: ID; seasonId: ID; name: string; shortName: string; ageGroup: AgeGroupId;
   minLeagueAge: number; maxLeagueAge: number; fee: number; capacity: number; waitlistEnabled: boolean;
   curriculumId?: ID; commissionerUserId?: ID; description: string; gameLengthInnings: number; baseDistanceFt: number; pitchingDistanceFt: number; machineOrCoachPitch?: "tee" | "coach" | "machine" | "player";
+  playRules?: PlayRules; // league-configured minimum-play rules used by the lineup card builder
 }
+export interface PlayRules { minFieldInnings: number; maxConsecutiveBench: number; everyoneBats: boolean; note: string; }
 export interface Team {
   id: ID; leagueId: ID; seasonId: ID; divisionId: ID; name: string; color: string; abbreviation: string;
   headCoachUserId?: ID; assistantCoachUserIds: ID[]; sponsorId?: ID; practiceSlot?: string;
@@ -119,7 +122,7 @@ export interface Attendance { id: ID; leagueId: ID; eventId: ID; teamId: ID; rec
 export interface PitchingAppearance { id: ID; leagueId: ID; playerId: ID; teamId: ID; eventId?: ID; date: ISODate; pitches: number; caughtInnings?: number; recordedByUserId: ID; }
 
 export interface Volunteer { id: ID; leagueId: ID; userId: ID; roles: string[]; backgroundCheck: { status: "not_started" | "submitted" | "cleared" | "expired" | "flagged"; expiresAt?: ISODate }; trainingComplete: string[]; availability?: string; }
-export interface VolunteerShift { id: ID; leagueId: ID; title: string; kind: "concessions" | "field_prep" | "umpire" | "scorekeeper" | "team_parent" | "event" | "other"; start: ISODateTime; end: ISODateTime; fieldId?: ID; slots: number; assignedUserIds: ID[]; }
+export interface VolunteerShift { id: ID; leagueId: ID; title: string; kind: "concessions" | "field_prep" | "umpire" | "scorekeeper" | "team_parent" | "event" | "other" | "snack" | "dugout" | "pitch_count"; start: ISODateTime; end: ISODateTime; fieldId?: ID; slots: number; assignedUserIds: ID[]; teamId?: ID; eventId?: ID; note?: string; createdByUserId?: ID; }
 export interface Sponsor { id: ID; leagueId: ID; name: string; tier: "platinum" | "gold" | "silver" | "bronze" | "team"; amount: number; contactName: string; contactEmail: string; website?: string; logoText: string; color: string; teamId?: ID; status: "prospect" | "applied" | "active" | "renewing" | "lapsed"; placements: ("website_home" | "field_banner" | "jersey" | "newsletter" | "scoreboard")[]; since: number; }
 export interface Fundraiser { id: ID; leagueId: ID; title: string; kind: "event" | "campaign" | "product"; goal: number; raised: number; date?: ISODate; description: string; status: "planned" | "active" | "complete"; }
 
@@ -189,6 +192,23 @@ export interface Playlist { id: ID; leagueId: ID; userId: ID; title: string; les
 export interface GuideProgress { id: ID; leagueId: ID; userId: ID; guideId: ID; completedAt: ISODateTime; }
 export interface FinancialScenario { id: ID; leagueId: ID; name: string; inputs: { players: number; fee: number; league: number; turf: number; cost: number }; presetId: string | null; createdByUserId: ID; createdAt: ISODateTime; updatedAt: ISODateTime; }
 
+
+/* ---------- Tryouts, evaluations and the draft ---------- */
+export type EvalSkill = "hitting" | "throwing" | "fielding" | "running" | "pitching" | "coachability";
+export interface Tryout { id: ID; leagueId: ID; seasonId: ID; divisionId: ID; title: string; date: ISODate; startTime: string; fieldId?: ID; status: "scheduled" | "in_progress" | "complete"; evaluatorUserIds: ID[]; stations: EvalSkill[]; notes?: string; createdByUserId: ID; updatedAt: ISODateTime; }
+export interface Evaluation { id: ID; leagueId: ID; tryoutId: ID; playerId: ID; evaluatorUserId: ID; scores: Partial<Record<EvalSkill, number>>; notes: string; updatedAt: ISODateTime; }
+export interface DraftPick { round: number; pick: number; overall: number; teamId: ID; playerId: ID; byUserId: ID; at: ISODateTime; auto?: boolean; }
+export interface Draft { id: ID; leagueId: ID; seasonId: ID; divisionId: ID; tryoutId?: ID; title: string; status: "setup" | "live" | "complete"; teamOrder: ID[]; rounds: number; picks: DraftPick[]; protectedPlayerIds: Record<ID, ID[]>; rostersApplied?: boolean; startedAt?: ISODateTime; completedAt?: ISODateTime; createdByUserId: ID; updatedAt: ISODateTime; }
+
+/* ---------- Report cards ---------- */
+export type SkillRating = 1 | 2 | 3; // 1 not yet · 2 developing · 3 consistent
+export interface ReportCard { id: ID; leagueId: ID; teamId: ID; playerId: ID; seasonId: ID; coachUserId: ID; period: "mid" | "end"; ratings: Record<string, SkillRating>; strengths: string; focus: string; focusSkillId: string | null; recommendedLessonIds: ID[]; coachNote: string; status: "draft" | "published"; createdAt: ISODateTime; updatedAt: ISODateTime; publishedAt?: ISODateTime; parentAcknowledgedAt?: ISODateTime; }
+
+/* ---------- Game day ---------- */
+export interface LineupPlan { order: ID[]; positions: Record<ID, string[]>; absent: ID[]; updatedAt: ISODateTime; byUserId: ID; }
+export interface PitcherLine { playerId: ID; pitches: number; }
+export interface GameSheet { id: ID; leagueId: ID; eventId: ID; status: "pre" | "live" | "final"; innings: { top: number | null; bottom: number | null }[]; current: { inning: number; half: "top" | "bottom"; outs: number }; lineups: Record<ID, LineupPlan>; pitchers: Record<ID, PitcherLine[]>; keeperUserId?: ID; notes?: string; updatedAt: ISODateTime; finalizedAt?: ISODateTime; }
+
 /* ---------- Platform ---------- */
 export interface SubscriptionPlan { id: ID; name: string; monthlyPrice: number; annualPrice: number; description: string; features: string[]; limits: { players: number | null; teams: number | null; admins: number | null }; trialDays: number; featured?: boolean; }
 export interface SiteContent {
@@ -207,5 +227,6 @@ export interface DemoBundle {
   leagues: League[]; users: User[]; memberships: Membership[]; seasons: Season[]; divisions: Division[]; teams: Team[]; players: Player[]; registrations: Registration[]; payments: Payment[]; expenses: Expense[];
   fields: Field[]; events: ScheduleEvent[]; attendance: Attendance[]; pitching: PitchingAppearance[]; volunteers: Volunteer[]; shifts: VolunteerShift[]; sponsors: Sponsor[]; fundraisers: Fundraiser[]; announcements: Announcement[]; threads: MessageThread[];
   completions: LessonCompletion[]; assignments: Assignment[]; iqProgress: IQProgress[]; awards: AchievementAward[]; enrollments: CurriculumEnrollment[]; notes: PlayerNote[]; practicePlans: PracticePlan[]; videos: VideoSubmission[]; plans: SubscriptionPlan[]; siteContent: SiteContent[]; personas: Persona[];
+  tryouts?: Tryout[]; evaluations?: Evaluation[]; drafts?: Draft[]; reportCards?: ReportCard[]; gameSheets?: GameSheet[];
 }
 export interface Persona { id: ID; userId: ID; leagueId: ID | null; label: string; role: Role; description: string; playerId?: ID; teamId?: ID; }

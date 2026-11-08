@@ -14,7 +14,7 @@ npm install
 npm run validate      # content files
 npm run seed          # regenerate demo data around today's date
 npm run build         # dist/
-npm test              # unit tests (engines, RBAC, data integrity, drill videos)
+npm test              # unit tests (engines, RBAC, data integrity, drill videos, draft, report cards, game day)
 npm run e2e           # Playwright smoke across roles + calculator checks
 ```
 
@@ -22,6 +22,10 @@ npm run e2e           # Playwright smoke across roles + calculator checks
 - League: **DVYAA** (internal id `lg_riverside` kept for saved-data compatibility) with divisions T-ball, Coach pitch, Minor, Major; a second tenant, Harbor Point, proves isolation.
 - Personas: Kenny Koplove (president), Mark Galasso (head coach, Minor Comets), Tyler Hill (parent of Jack and Owen), Steve Koplove (treasurer), plus generic male names elsewhere. "Go into demo mode" signs in as Tyler.
 - Field Improvement Fund Calculator under Administration (and admin dashboard / Finance).
+- **Tryouts & draft** under Administration (`#admin-tryouts`): tryout scoring board (`#tryout-<id>`, open to assigned evaluators), live snake draft board (`#draft-<id>`, coaches pick on the clock). Demo: Minor tryout complete + draft live; Major tryout upcoming with Mark Galasso as an evaluator.
+- **Report cards**: Coaches' HQ → team tools → Report cards tab; families open `#report-<id>` from the player dashboard, team page or home. Jack Hill has a published mid-season card.
+- **Game day** (`#gameday-<eventId>`): lineup card, scorebook with pitch counts, finalize → result + standings + pitching appearances. Linked from the event page, team page, Coaches' HQ and the coach strip on Home. Engines: `src/engines/gameDay.ts`, `draft.ts`, `reportCard.ts`.
+- **Team game-day duties**: team page → Sign-ups tab (families claim snacks, scorekeeper, pitch counter, dugout parent); coaches manage from team tools → Game-day duties. Stored as `VolunteerShift` with `teamId`/`eventId`; league volunteer pages exclude them.
 - Drill video library: `data/content/drill-videos.json` holds one oEmbed-verified YouTube video per drill (target 50). Edit per drill in Administration → Academy content → Videos. Research part files, if any remain, are merged with `npm run merge-videos`.
 
 ## Open items

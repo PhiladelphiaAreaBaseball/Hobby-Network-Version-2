@@ -14,7 +14,7 @@ export function AdminDashboard() {
   const upcomingGames = t.events.filter((e) => e.type === "game" && e.status === "scheduled" && e.start.slice(0, 10) >= today).sort((a, b) => (a.start < b.start ? -1 : 1));
   const pendingBalance = t.registrations.filter((r) => !["withdrawn", "refunded", "draft"].includes(r.status)).reduce((a, r) => a + Math.max(0, r.balance), 0);
   const pendingCount = t.registrations.filter((r) => r.balance > 0 && !["withdrawn", "refunded", "draft"].includes(r.status)).length;
-  const upcomingShifts = t.shifts.filter((sh) => sh.start.slice(0, 10) >= today); const slots = upcomingShifts.reduce((a, sh) => a + sh.slots, 0); const filled = upcomingShifts.reduce((a, sh) => a + Math.min(sh.slots, sh.assignedUserIds.length), 0);
+  const upcomingShifts = t.shifts.filter((sh) => !sh.teamId && sh.start.slice(0, 10) >= today); const slots = upcomingShifts.reduce((a, sh) => a + sh.slots, 0); const filled = upcomingShifts.reduce((a, sh) => a + Math.min(sh.slots, sh.assignedUserIds.length), 0);
   const academyActive = new Set(t.completions.map((c) => c.playerId)).size;
   const conflicts = findConflicts(t.events.filter((e) => e.start.slice(0, 10) >= today), t.teams, (id) => t.teamName(id), (id) => t.fieldById.get(id)?.name ?? id, (id) => t.userName(id));
   const pendingDocs = t.registrations.filter((r) => r.status === "pending_documents" || r.documents.some((d) => d.status === "uploaded")).length;
@@ -27,6 +27,8 @@ export function AdminDashboard() {
     has("admin-schedule") && conflicts.length > 0 && { label: `${conflicts.length} scheduling conflicts to resolve`, route: "admin-schedule" },
     has("admin-volunteers") && bgNeeded > 0 && { label: `${bgNeeded} volunteers without a cleared background check`, route: "admin-volunteers" },
     has("admin-fields") && t.fields.some((f) => f.status !== "open") && { label: `Field status needs a decision: ${t.fields.filter((f) => f.status !== "open").map((f) => f.name).join(", ")}`, route: "admin-fields" },
+    has("admin-tryouts") && t.drafts.some((d) => d.status === "live") && { label: `${t.drafts.filter((d) => d.status === "live").map((d) => d.title).join(", ")}: draft in progress`, route: "admin-tryouts" },
+    has("admin-tryouts") && t.tryouts.some((x) => x.status !== "complete" && x.date <= today) && { label: `${t.tryouts.filter((x) => x.status !== "complete" && x.date <= today).length} tryouts to close out`, route: "admin-tryouts" },
     has("admin-finance") && pendingCount > 0 && { label: `${pendingCount} registrations with an outstanding balance (${money(pendingBalance)})`, route: "admin-finance" },
   ].filter(Boolean) as { label: string; route: string }[];
   return <Page>

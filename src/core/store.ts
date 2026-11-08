@@ -5,8 +5,9 @@ import type { Route } from "./router";
 export type CollectionName =
   | "leagues" | "users" | "memberships" | "seasons" | "divisions" | "teams" | "players" | "registrations" | "payments" | "expenses" | "fields" | "events" | "attendance" | "pitching"
   | "volunteers" | "shifts" | "sponsors" | "fundraisers" | "announcements" | "threads" | "notifications" | "completions" | "assignments" | "iqProgress" | "awards" | "enrollments" | "notes"
-  | "practicePlans" | "videos" | "favorites" | "playlists" | "siteContent" | "lessons" | "iqQuestions" | "curricula" | "audit" | "plans" | "consentLog" | "scenarios" | "guideProgress" | "drillVideos";
-export const TENANT_COLLECTIONS: CollectionName[] = ["leagues", "users", "memberships", "seasons", "divisions", "teams", "players", "registrations", "payments", "expenses", "fields", "events", "attendance", "pitching", "volunteers", "shifts", "sponsors", "fundraisers", "announcements", "threads", "notifications", "completions", "assignments", "iqProgress", "awards", "enrollments", "notes", "practicePlans", "videos", "favorites", "playlists", "siteContent", "lessons", "iqQuestions", "curricula", "audit", "consentLog", "scenarios", "guideProgress", "drillVideos"];
+  | "practicePlans" | "videos" | "favorites" | "playlists" | "siteContent" | "lessons" | "iqQuestions" | "curricula" | "audit" | "plans" | "consentLog" | "scenarios" | "guideProgress" | "drillVideos"
+  | "tryouts" | "evaluations" | "drafts" | "reportCards" | "gameSheets";
+export const TENANT_COLLECTIONS: CollectionName[] = ["leagues", "users", "memberships", "seasons", "divisions", "teams", "players", "registrations", "payments", "expenses", "fields", "events", "attendance", "pitching", "volunteers", "shifts", "sponsors", "fundraisers", "announcements", "threads", "notifications", "completions", "assignments", "iqProgress", "awards", "enrollments", "notes", "practicePlans", "videos", "favorites", "playlists", "siteContent", "lessons", "iqQuestions", "curricula", "audit", "consentLog", "scenarios", "guideProgress", "drillVideos", "tryouts", "evaluations", "drafts", "reportCards", "gameSheets"];
 export const PLATFORM_COLLECTIONS: CollectionName[] = ["plans", "leagues", "audit"];
 
 export type Overlay = Record<string, any>; // docId -> document (with optional _deleted tombstone)

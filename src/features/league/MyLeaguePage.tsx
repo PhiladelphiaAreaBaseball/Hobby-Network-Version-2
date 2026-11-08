@@ -9,7 +9,7 @@ import { todayIso, money } from "../../core/util";
 export function MyLeaguePage({ section }: { section?: string }) {
   const ss = useSession(); const t = ss.tenant!; const [tab, setTab] = useState<string>(section ?? "news"); const today = todayIso();
   const news = [...t.announcements].filter((a) => a.audience.scope === "league" || (a.audience.scope === "division" && ss.children.some((c) => c.divisionId === a.audience.id)) || (a.audience.scope === "team" && ss.teams.some((x) => x.id === a.audience.id))).sort((a, b) => (a.pinned === b.pinned ? (a.publishedAt < b.publishedAt ? 1 : -1) : a.pinned ? -1 : 1));
-  const openShifts = t.shifts.filter((sh) => sh.start.slice(0, 10) >= today && sh.assignedUserIds.length < sh.slots).length; const regSeason = t.seasons.find((x) => x.status === "registration");
+  const openShifts = t.shifts.filter((sh) => !sh.teamId && sh.start.slice(0, 10) >= today && sh.assignedUserIds.length < sh.slots).length; const regSeason = t.seasons.find((x) => x.status === "registration");
   return <Page>
     <PageHead eyebrow={`${t.league.city}, ${t.league.state} · chartered${t.league.founded ? ` since ${t.league.founded}` : ""}`} title={<span className="flex items-center gap-3"><TeamMark name={t.league.shortName} color={t.league.colors.primary} abbr={t.league.logoText} size={44} />{t.league.name}</span>} lede={t.siteContent.hero.subheadline} actions={<><LinkButton to="site" id={t.league.slug} icon={<I.external size={16} />}>Public website</LinkButton>{regSeason && <LinkButton to="register" variant="primary">Register for {regSeason.name}</LinkButton>}</>} />
     {t.siteContent.hero.bannerActive && t.siteContent.hero.bannerText && <Notice kind="warn">{t.siteContent.hero.bannerText}</Notice>}

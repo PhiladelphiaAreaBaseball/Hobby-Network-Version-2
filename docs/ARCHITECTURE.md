@@ -22,9 +22,10 @@ src/main.tsx                   boot: load content + demo JSON, init capabilities
 src/app/                       App, routes (hash router), shell (rail, topbar, tab bar, persona switcher)
 src/core/                      types (domain model), rbac, auth, store, persistence adapters, select (tenant read model), actions
 src/engines/                   pure logic: practice generator, coach planner, scheduling conflicts, eligibility, pitch counts,
-                               achievements, search, standings, ICS, turf calculator, PDF writer
+                               achievements, search, standings, ICS, turf calculator, PDF writer, draft board (ratings, snake order,
+                               balance warnings), report cards (lesson recommendations), game day (lineup rules, scorebook, playing time)
 src/components/                design system (ui.tsx), icons, Diamond (SVG field), Calendar, Brand
-src/features/                  one folder per product area (home, academy, parents, practice, iq, coaches, league, admin, …)
+src/features/                  one folder per product area (home, academy, parents, practice, iq, coaches, league, admin, tryouts, reports, gameday, …)
 data/content/                  educational library (validated by scripts/validate-content.mjs)
 data/demo/demo.json            DVYAA + Harbor Point fictional data (scripts/seed-demo.mjs)
 ```
@@ -37,7 +38,9 @@ data/demo/demo.json            DVYAA + Harbor Point fictional data (scripts/seed
   `platform/<collection>/<id>`. Switching leagues (platform admin, or the Harbor Point president persona) restarts the tenant subscription.
 - `can(memberships, permission, { leagueId, teamId, divisionId })` scopes coaches to their teams and commissioners to their divisions.
   Guardians act only on their own children (`requirePlayerAccess`).
-- Tests: `tests/unit/engines.test.mjs` (RBAC and demo-data integrity) and `tests/e2e/smoke.mjs` (Harbor Point sees no DVYAA data).
+- Tests: `tests/unit/engines.test.mjs` (RBAC and demo-data integrity), `tests/unit/features.test.mjs` (draft, report cards, game day) and `tests/e2e/smoke.mjs` (Harbor Point sees no DVYAA data).
+- New permissions: `league.tryouts` (commissioners for their divisions, league admins), `tryout.evaluate` (coaches, commissioners; an evaluator must also be assigned to the tryout), `team.gameday` (coaches of that team; scorekeepers assigned to a game's duty and umpires on the game may also keep score).
+- Tryout pools and draft pools are derived from registrations for the season and division, never stored, so late registrations appear automatically. Finalizing a draft records picks and only moves players onto rosters when the commissioner chooses to.
 
 ## Routing
 
