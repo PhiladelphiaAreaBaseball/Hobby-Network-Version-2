@@ -1,0 +1,219 @@
+{
+  "$schema": "challenge",
+  "items": [
+    {
+      "id": "ch-01",
+      "title": "First Lesson",
+      "description": "Open any lesson, watch or read it, and mark it complete. That is the whole challenge. Every player on GamePlanIQ starts here, and nobody is behind.",
+      "rule": { "type": "lessons_completed", "target": 1, "category": null, "periodDays": null },
+      "badgeId": "bdg-rookie-card",
+      "ageGroups": ["a4_6", "a7_8", "a9_10", "a11_12", "a13_16"],
+      "points": 10
+    },
+    {
+      "id": "ch-02",
+      "title": "Throwing Trio",
+      "description": "Complete three throwing lessons, any three, at your own pace. Grip, step, arm circle, or playing catch all count. There is no throw count here: you earn this by learning, not by how many balls you throw.",
+      "rule": { "type": "lessons_in_category", "target": 3, "category": "throwing", "periodDays": null },
+      "badgeId": "bdg-point-step-throw",
+      "ageGroups": ["a4_6", "a7_8", "a9_10", "a11_12", "a13_16"],
+      "points": 30
+    },
+    {
+      "id": "ch-03",
+      "title": "Glove Work Week",
+      "description": "Log two fielding practices within seven days. Ten minutes of rolled ground balls in the yard counts as a practice. Two sessions with rest days in between is the goal; more is not better.",
+      "rule": { "type": "practices_completed", "target": 2, "category": "fielding", "periodDays": 7 },
+      "badgeId": "bdg-glove-work-rookie",
+      "ageGroups": ["a4_6", "a7_8", "a9_10", "a11_12", "a13_16"],
+      "points": 20
+    },
+    {
+      "id": "ch-04",
+      "title": "Know All Nine",
+      "description": "Correctly identify all nine defensive positions on the diamond in the Baseball IQ position quizzes: pitcher, catcher, first base, second base, shortstop, third base, left field, center field, and right field. Take as many tries as you need.",
+      "rule": { "type": "positions_identified", "target": 9, "category": "positions", "periodDays": null },
+      "badgeId": "bdg-diamond-navigator",
+      "ageGroups": ["a4_6", "a7_8", "a9_10", "a11_12"],
+      "points": 30
+    },
+    {
+      "id": "ch-05",
+      "title": "Five for Five",
+      "description": "Answer five Baseball IQ questions correctly. They do not have to be in a row and they do not have to be on the same topic. Wrong answers come with an explanation, so a miss is just a lesson in disguise.",
+      "rule": { "type": "iq_correct", "target": 5, "category": "baseball_iq", "periodDays": null },
+      "badgeId": "bdg-baseball-brain",
+      "ageGroups": ["a4_6", "a7_8", "a9_10", "a11_12", "a13_16"],
+      "points": 20
+    },
+    {
+      "id": "ch-06",
+      "title": "Backyard Session",
+      "description": "Complete one parent-child practice together and log it. Ten minutes of catch or rolled ground balls in the driveway is plenty. The grown-up does not need to know baseball; the parent guide tells you exactly what to do.",
+      "rule": { "type": "parent_child_practice", "target": 1, "category": null, "periodDays": null },
+      "badgeId": "bdg-backyard-buddies",
+      "ageGroups": ["a4_6", "a7_8", "a9_10"],
+      "points": 15
+    },
+    {
+      "id": "ch-07",
+      "title": "Week Complete",
+      "description": "Finish one full week of a curriculum: the lessons, the home practice minutes, and the IQ questions for that week. Finishing a week is how real progress gets built, one block at a time.",
+      "rule": { "type": "curriculum_week_completed", "target": 1, "category": null, "periodDays": null },
+      "badgeId": "bdg-week-finisher",
+      "ageGroups": ["a4_6", "a7_8", "a9_10", "a11_12", "a13_16"],
+      "points": 20
+    },
+    {
+      "id": "ch-08",
+      "title": "Good Sport",
+      "description": "Complete the sportsmanship lesson about teammates, opponents, and umpires. Then show it: shake hands after the game, pick up a teammate after an error, and say thank you to the umpire. The badge is for the lesson; the habit is for life.",
+      "rule": { "type": "sportsmanship_lesson", "target": 1, "category": "mental", "periodDays": null },
+      "badgeId": "bdg-good-sport",
+      "ageGroups": ["a4_6", "a7_8", "a9_10", "a11_12", "a13_16"],
+      "points": 25
+    },
+    {
+      "id": "ch-09",
+      "title": "Try Everything",
+      "description": "Complete at least one lesson in each of the seven categories: hitting, throwing, fielding, baserunning, positions, Baseball IQ, and the mental game. Well-rounded players understand the whole game, not just the part they are already good at.",
+      "rule": { "type": "lessons_in_category", "target": 7, "category": null, "periodDays": null },
+      "badgeId": "bdg-utility-player",
+      "ageGroups": ["a4_6", "a7_8", "a9_10", "a11_12", "a13_16"],
+      "points": 60
+    },
+    {
+      "id": "ch-10",
+      "title": "Home Practice Hero",
+      "description": "Log ten home practices during a twelve-week season. That is less than one a week, so there is no pressure to practice every day. Short, focused sessions with rest days in between are exactly what growing arms need.",
+      "rule": { "type": "practices_completed", "target": 10, "category": null, "periodDays": 84 },
+      "badgeId": "bdg-home-practice-hero",
+      "ageGroups": ["a4_6", "a7_8", "a9_10", "a11_12", "a13_16"],
+      "points": 50
+    },
+    {
+      "id": "ch-11",
+      "title": "Hitting Trio",
+      "description": "Complete three hitting lessons. Grip, stance, tee work, and tracking the ball all count. Swings are learned slowly and in the right order, so take them one lesson at a time.",
+      "rule": { "type": "lessons_in_category", "target": 3, "category": "hitting", "periodDays": null },
+      "badgeId": "bdg-contact-club",
+      "ageGroups": ["a4_6", "a7_8", "a9_10", "a11_12", "a13_16"],
+      "points": 30
+    },
+    {
+      "id": "ch-12",
+      "title": "Fielding Trio",
+      "description": "Complete three fielding lessons, such as the ready position, the fielding triangle, and catching with two hands. Good fielders are made from a few habits repeated correctly, and these lessons teach the habits.",
+      "rule": { "type": "lessons_in_category", "target": 3, "category": "fielding", "periodDays": null },
+      "badgeId": "bdg-glove-work-rookie",
+      "ageGroups": ["a4_6", "a7_8", "a9_10", "a11_12", "a13_16"],
+      "points": 30
+    },
+    {
+      "id": "ch-13",
+      "title": "Tee Time Twice",
+      "description": "Log two hitting practices within seven days. A tee and a net, a tee and a fence, or shadow swings in the garage with no ball at all each count. Two short sessions beat one marathon.",
+      "rule": { "type": "practices_completed", "target": 2, "category": "hitting", "periodDays": 7 },
+      "badgeId": "bdg-contact-club",
+      "ageGroups": ["a4_6", "a7_8", "a9_10", "a11_12", "a13_16"],
+      "points": 20
+    },
+    {
+      "id": "ch-14",
+      "title": "Two Short Catches",
+      "description": "Log two throwing practices within seven days, each one short, about ten to fifteen minutes, with at least one rest day between them. Quality catch with good footwork is the goal. Never throw through arm pain, and stop while the arm still feels fresh.",
+      "rule": { "type": "practices_completed", "target": 2, "category": "throwing", "periodDays": 7 },
+      "badgeId": "bdg-point-step-throw",
+      "ageGroups": ["a4_6", "a7_8", "a9_10", "a11_12", "a13_16"],
+      "points": 20
+    },
+    {
+      "id": "ch-15",
+      "title": "Base Path Basics",
+      "description": "Complete two baserunning lessons, such as running through first base and touching every base. Baserunning is the one skill every player uses in every game, no matter where they play in the field.",
+      "rule": { "type": "lessons_in_category", "target": 2, "category": "baserunning", "periodDays": null },
+      "badgeId": "bdg-diamond-navigator",
+      "ageGroups": ["a4_6", "a7_8", "a9_10", "a11_12", "a13_16"],
+      "points": 20
+    },
+    {
+      "id": "ch-16",
+      "title": "Go or Stay?",
+      "description": "Answer four baserunning IQ questions correctly. These are the go-or-stay decisions: a fly ball with one out, a ground ball to the left side with a runner on second, a tag-up chance. Thinking it through here makes the real decision on the field feel familiar.",
+      "rule": { "type": "iq_correct", "target": 4, "category": "baserunning", "periodDays": null },
+      "badgeId": "bdg-diamond-navigator",
+      "ageGroups": ["a9_10", "a11_12", "a13_16"],
+      "points": 25
+    },
+    {
+      "id": "ch-17",
+      "title": "Cutoff Captain",
+      "description": "Answer six defensive IQ questions correctly, the ones about cutoffs, relays, covering bases, and backing up throws. The cutoff man, the infielder who lines up between the outfielder and the base, is the quiet hero of team defense.",
+      "rule": { "type": "iq_correct", "target": 6, "category": "fielding", "periodDays": null },
+      "badgeId": "bdg-cutoff-captain",
+      "ageGroups": ["a9_10", "a11_12", "a13_16"],
+      "points": 30
+    },
+    {
+      "id": "ch-18",
+      "title": "Field General",
+      "description": "Answer twenty Baseball IQ questions correctly across any topics. A player who knows the situation before every pitch helps the whole team, and that is a skill anyone can build regardless of size or speed.",
+      "rule": { "type": "iq_correct", "target": 20, "category": "baseball_iq", "periodDays": null },
+      "badgeId": "bdg-field-general",
+      "ageGroups": ["a9_10", "a11_12", "a13_16"],
+      "points": 50
+    },
+    {
+      "id": "ch-19",
+      "title": "Season Finisher",
+      "description": "Complete all twelve weeks of a curriculum. Twelve weeks of steady, patient work is a real accomplishment, and this badge is one of the hardest on GamePlanIQ to earn.",
+      "rule": { "type": "curriculum_week_completed", "target": 12, "category": null, "periodDays": null },
+      "badgeId": "bdg-season-finisher",
+      "ageGroups": ["a4_6", "a7_8", "a9_10", "a11_12", "a13_16"],
+      "points": 100
+    },
+    {
+      "id": "ch-20",
+      "title": "Mind Over Mistakes",
+      "description": "Complete three mental-game lessons, such as the next-pitch mentality, the flush routine for handling mistakes, and being a great dugout teammate. Every player makes errors; the ones who recover fastest are the ones who practiced recovering.",
+      "rule": { "type": "lessons_in_category", "target": 3, "category": "mental", "periodDays": null },
+      "badgeId": "bdg-good-sport",
+      "ageGroups": ["a7_8", "a9_10", "a11_12", "a13_16"],
+      "points": 30
+    },
+    {
+      "id": "ch-21",
+      "title": "Backyard Regulars",
+      "description": "Complete four parent-child practices within four weeks, about one a week. Short sessions with a parent, grandparent, or older sibling are where young players get comfortable with the ball. Rest days in between are part of the plan.",
+      "rule": { "type": "parent_child_practice", "target": 4, "category": null, "periodDays": 28 },
+      "badgeId": "bdg-backyard-buddies",
+      "ageGroups": ["a4_6", "a7_8", "a9_10"],
+      "points": 30
+    },
+    {
+      "id": "ch-22",
+      "title": "Positions Primer",
+      "description": "Complete two positions lessons, for example first base footwork and outfield positioning. Knowing the job of a position you do not usually play makes you a smarter teammate at the one you do.",
+      "rule": { "type": "lessons_in_category", "target": 2, "category": "positions", "periodDays": null },
+      "badgeId": "bdg-diamond-navigator",
+      "ageGroups": ["a9_10", "a11_12", "a13_16"],
+      "points": 25
+    }
+  ],
+  "badges": [
+    { "id": "bdg-rookie-card", "name": "Rookie Card", "description": "You finished your very first lesson. Every big leaguer started exactly here.", "icon": "star", "tier": "bronze" },
+    { "id": "bdg-point-step-throw", "name": "Point, Step, Throw", "description": "You learned how a good throw works: point the shoulder, step at the target, throw with a full arm circle. Earned through lessons and short, smart catch sessions, never through throw counts.", "icon": "ball", "tier": "bronze" },
+    { "id": "bdg-glove-work-rookie", "name": "Glove Work Rookie", "description": "You put in real glove work: fielding lessons learned and ground balls practiced on a sensible schedule.", "icon": "glove", "tier": "bronze" },
+    { "id": "bdg-contact-club", "name": "Contact Club", "description": "You studied the swing and put in tee time. Members of the Contact Club know the ball is hit with the eyes first and the hands second.", "icon": "bat", "tier": "bronze" },
+    { "id": "bdg-diamond-navigator", "name": "Diamond Navigator", "description": "You know your way around the diamond: the nine positions, the base paths, and the go-or-stay decisions that happen between them.", "icon": "diamond", "tier": "silver" },
+    { "id": "bdg-baseball-brain", "name": "Baseball Brain", "description": "You answered Baseball IQ questions correctly and started thinking the game before the pitch is thrown.", "icon": "book", "tier": "bronze" },
+    { "id": "bdg-cutoff-captain", "name": "Cutoff Captain", "description": "You understand cutoffs, relays, and who covers what. Teams that hit the cutoff man win close games, and you know why.", "icon": "target", "tier": "silver" },
+    { "id": "bdg-field-general", "name": "Field General", "description": "Twenty correct Baseball IQ answers. You know the situation before every pitch and you help your teammates know it too.", "icon": "shield", "tier": "gold" },
+    { "id": "bdg-backyard-buddies", "name": "Backyard Buddies", "description": "You and a grown-up practiced together. The best baseball memories are made ten minutes at a time in the yard.", "icon": "heart", "tier": "bronze" },
+    { "id": "bdg-week-finisher", "name": "Week Finisher", "description": "You completed a full curriculum week: lessons, home practice, and IQ questions. That is how steady players are built.", "icon": "sun", "tier": "bronze" },
+    { "id": "bdg-season-finisher", "name": "Season Finisher", "description": "All twelve weeks of a curriculum, start to finish. Patience and follow-through are the rarest skills in baseball, and you showed both.", "icon": "trophy", "tier": "gold" },
+    { "id": "bdg-good-sport", "name": "Good Sport", "description": "You learned how to treat teammates, opponents, and umpires, and how to handle your own mistakes. Good sports make everyone around them better.", "icon": "heart", "tier": "silver" },
+    { "id": "bdg-utility-player", "name": "Utility Player", "description": "You learned something in every part of the game: hitting, throwing, fielding, baserunning, positions, Baseball IQ, and the mental game. A utility player is someone a coach can put anywhere.", "icon": "lightning", "tier": "gold" },
+    { "id": "bdg-home-practice-hero", "name": "Home Practice Hero", "description": "Ten home practices in one season, spaced out with plenty of rest. Consistency, not volume, is what this badge celebrates.", "icon": "star", "tier": "gold" }
+  ]
+}

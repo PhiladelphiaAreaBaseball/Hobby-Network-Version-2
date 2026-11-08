@@ -1,0 +1,1502 @@
+{
+  "$schema": "lesson",
+  "items": [
+    {
+      "id": "thr-01",
+      "title": "The Four-Seam Grip",
+      "category": "throwing",
+      "subcategory": "Baseball grip",
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to pick up a baseball and hold it with a four-seam grip, fingertips across the horseshoe and a gap under the ball, without looking at the ball for more than a second.",
+      "summary": "Learn the grip every throw starts with: two fingertips across the horseshoe seam, thumb underneath, and a little space between the ball and the palm.",
+      "video": {
+        "status": "placeholder",
+        "note": "Close-up of a child's hand finding the horseshoe seam, placing two fingertips across it, and showing the gap under the ball by sliding a pencil between the ball and the palm."
+      },
+      "explanation": [
+        "Every baseball has one long stitch that curves around it. If you turn the ball in your hand, you will find a spot where the stitches make a U shape, like a horseshoe. That horseshoe is where your fingers go.",
+        "Lay your pointer finger and your middle finger across the top of the horseshoe, so the pads of your fingertips rest right on the stitches. Your thumb goes underneath the ball, on the smooth leather, roughly under the space between your two fingers. Your ring finger and pinky rest lightly on the side of the ball.",
+        "Now the most important part: do not squeeze the ball into your palm. Hold it out in your fingers so there is a small gap between the ball and your hand, big enough to slide a pencil through. Coaches say to hold the ball like an egg you do not want to crack. A ball held in the fingertips comes out faster and straighter than a ball buried in the palm.",
+        "This is called a four-seam grip because when the ball spins out of your hand, four seams cut through the air on every turn. That spin helps the ball fly straight. Small hands can use three fingers on top instead of two; that is normal for ages 4 to 6 and nothing to fix yet."
+      ],
+      "parentInstructions": [
+        "Sit on the floor across from your child with a baseball or a safety ball. You do not need a glove for this lesson, and nobody throws anything.",
+        "Find the horseshoe yourself first. Turn the ball until you see the stitches make a U shape, then show your child where it is.",
+        "Place the ball in your child's throwing hand with two fingertips across the horseshoe and the thumb underneath. Then take it out and ask them to find the grip on their own.",
+        "Check the gap: try to slide your pinky or a pencil between the ball and your child's palm. If it will not fit, say 'hold it like an egg' and loosen the grip together.",
+        "Make it a game: hand them the ball with the horseshoe hidden, count 'one, two, three,' and see if they can find the grip before you finish counting.",
+        "Keep it short. Five minutes of grip practice is plenty for a young child. Stop while they are still having fun."
+      ],
+      "equipment": [
+        "ball"
+      ],
+      "equipmentFreeAlternative": "Use a tennis ball with a line drawn around it in marker, or a rolled-up sock with a loop of tape as a pretend seam, and practice placing two fingertips across the line.",
+      "steps": [
+        "Hold the ball in your glove hand and turn it slowly until you see the horseshoe, the U shape in the stitches.",
+        "Put your pointer finger and middle finger across the top of the horseshoe so your fingertips touch the stitches.",
+        "Slide your thumb under the ball onto the smooth leather, under the gap between your two fingers.",
+        "Let your ring finger and pinky rest on the side of the ball without squeezing.",
+        "Check the gap: a grown-up should be able to slide a pencil between the ball and your palm.",
+        "Close your eyes, let a partner hand you the ball, and find the grip by feel. Open your eyes and check.",
+        "Repeat the eyes-closed grip ten times, then show your best grip to your partner."
+      ],
+      "durationMin": 5,
+      "commonMistakes": [
+        {
+          "mistake": "The ball is jammed deep in the palm with no gap.",
+          "fix": "Hold the ball like an egg. Push it out toward the fingertips until a pencil fits underneath."
+        },
+        {
+          "mistake": "Fingers are spread far apart, like a peace sign.",
+          "fix": "Bring the two fingers close together, about one finger-width apart, both touching the stitches."
+        },
+        {
+          "mistake": "Thumb is on the side of the ball instead of underneath.",
+          "fix": "Point the thumb at the ground so it sits directly under the ball to support it."
+        },
+        {
+          "mistake": "The child stares at the ball for a long time before every throw.",
+          "fix": "Play the eyes-closed game until finding the horseshoe takes one quick turn of the ball."
+        }
+      ],
+      "cues": [
+        "Find the horseshoe",
+        "Two fingers across the stitches",
+        "Thumb underneath",
+        "Hold it like an egg",
+        "Pencil gap"
+      ],
+      "safety": [
+        "No throwing is needed in this lesson. Keep the ball in hands, not in the air, while learning the grip.",
+        "Ages 4 to 8 should use a safety ball or soft training ball, which has the same seams as a real baseball.",
+        "Sit or kneel for this lesson so a dropped ball cannot roll under feet."
+      ],
+      "progression": {
+        "easier": "Use a bigger, softer ball and allow three fingers on top. Just find the horseshoe and put the thumb underneath.",
+        "harder": "Pick the ball up off the ground and find the four-seam grip in one motion while bringing it to your ear, as a fielder would.",
+        "nextLessonId": "thr-02"
+      },
+      "tags": [
+        "grip",
+        "four-seam",
+        "horseshoe",
+        "how to hold a baseball",
+        "fingertips",
+        "palms the ball",
+        "tee ball throwing",
+        "first throwing lesson",
+        "holds ball wrong",
+        "ages 4-8"
+      ],
+      "drillIds": [
+        "drill-thr-01"
+      ]
+    },
+    {
+      "id": "thr-02",
+      "title": "Throwing Basics: Point, Step, Throw",
+      "category": "throwing",
+      "subcategory": "Throwing fundamentals",
+      "ageGroups": [
+        "a4_6"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to throw a soft ball toward a partner using three steps in order: point the glove at the target, step with the front foot, and throw.",
+      "summary": "A three-word throwing routine for the youngest players. Point at your target, step toward it, and throw. That is the whole lesson.",
+      "video": {
+        "status": "placeholder",
+        "note": "A five-year-old standing sideways to a parent, calling out 'point, step, throw' while tossing a soft ball from twelve feet away, shown from the side and then from behind."
+      },
+      "explanation": [
+        "Little kids throw by facing the target and pushing the ball with their arm, like tossing a beanbag. Baseball throwing starts sideways. Stand so your glove shoulder faces the person you are throwing to, and the ball is in the hand farther from them.",
+        "Point: reach your glove arm straight out and point your glove at your partner's chest. Pointing turns your body sideways and tells your arm where the ball is going.",
+        "Step: pick up the foot on your glove side and step toward your partner. Your toes should point right at them. The step should be about as long as your own shoe, not a giant lunge.",
+        "Throw: bring the ball up by your ear with your elbow about as high as your shoulder, then throw it to your partner's glove and let your throwing hand finish down by your other knee. Saying the three words out loud, 'point, step, throw,' helps the body remember the order."
+      ],
+      "parentInstructions": [
+        "Stand 10 to 12 feet from your child, about four big adult steps. Kneel on one knee so your chest is at your child's eye level, and hold your glove or two open hands up at your chest as the target.",
+        "If your child is right-handed, their left shoulder and left foot face you; if left-handed, the right side faces you. Help them turn sideways by gently turning their hips with your hands.",
+        "Say the words with them every time: 'Point... step... throw.' Wait for the point and the step before they let go. Slow is fine.",
+        "Watch the elbow. At the moment before the throw, the throwing elbow should be about as high as the shoulder. If the elbow hangs down by the ribs and the ball comes out low and sideways, say 'show me your elbow' and have them freeze in the ready-to-throw shape.",
+        "Count throws. Young arms should stop at about 20 to 25 throws for the whole session, including the warm-up tosses. Finish with a high five, not with 'five more'.",
+        "Celebrate the sequence, not the result. If they point, step, and throw and the ball still bounces to you, that was a great throw."
+      ],
+      "equipment": [
+        "soft_ball"
+      ],
+      "equipmentFreeAlternative": "Roll two socks into a ball and throw it to a parent, into a laundry basket, or at a pillow leaned against the couch.",
+      "steps": [
+        "Stand about 10 feet from your partner, who kneels with a glove or open hands at chest height.",
+        "Turn sideways so your glove shoulder faces your partner and the ball hand is away from them.",
+        "Say 'point' and point your glove right at your partner's chest.",
+        "Say 'step' and step toward your partner with your glove-side foot, toes pointed at them.",
+        "Say 'throw' and throw the ball to the glove, letting your hand finish down by your opposite knee.",
+        "Partner tosses the ball back gently so it lands in your glove or hands.",
+        "Repeat for 15 throws, saying the three words every time.",
+        "Finish by trying three throws without saying the words out loud, thinking them instead."
+      ],
+      "durationMin": 10,
+      "commonMistakes": [
+        {
+          "mistake": "The child faces the target with both shoulders square and pushes the ball.",
+          "fix": "Reset the sideways start every throw. Point the glove at the target first, which turns the shoulders automatically."
+        },
+        {
+          "mistake": "Stepping with the wrong foot (same side as the throwing arm).",
+          "fix": "Put a chalk mark or a paper plate where the glove-side foot should land and have them step on it."
+        },
+        {
+          "mistake": "Letting go of the ball too late so it bounces, or too early so it sails.",
+          "fix": "Hold the target glove up and say 'throw to the glove.' Move closer until the ball reaches the glove in the air, then slowly back up."
+        },
+        {
+          "mistake": "Throwing before pointing or stepping.",
+          "fix": "Make them freeze after 'point' and after 'step' for one second. Speed comes later."
+        }
+      ],
+      "cues": [
+        "Point",
+        "Step",
+        "Throw",
+        "Sideways to start",
+        "Elbow up by your ear",
+        "Finish at your knee"
+      ],
+      "safety": [
+        "Use a soft or safety ball only. Four- to six-year-olds cannot always catch a hard ball and should not have one thrown at them.",
+        "Keep the session to 20 to 25 throws, including returns. Young arms need to stop before they are tired.",
+        "Clear the throwing lane of other children, pets, and toys so a missed throw does not hit anyone."
+      ],
+      "progression": {
+        "easier": "Throw from 6 feet into a laundry basket with no catching. Just point, step, and let it go.",
+        "harder": "Back up to 15 feet and ask the child to hit a glove held at the parent's chest three times in a row.",
+        "nextLessonId": "thr-05"
+      },
+      "tags": [
+        "point step throw",
+        "tee ball throwing",
+        "first throw",
+        "how to teach my kid to throw",
+        "pushes the ball",
+        "faces the target",
+        "wrong foot",
+        "ages 4-6",
+        "soft ball",
+        "beginner throwing"
+      ],
+      "drillIds": [
+        "drill-thr-02"
+      ]
+    },
+    {
+      "id": "thr-03",
+      "title": "The Throwing Motion: Arm Circle and Elbow Height",
+      "category": "throwing",
+      "subcategory": "Throwing fundamentals",
+      "ageGroups": [
+        "a7_8",
+        "a9_10"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to take the ball out of the glove thumb-down, circle it up into an L shape with the elbow at shoulder height, and finish the throw with the hand at the opposite hip.",
+      "summary": "The arm circle is the engine of a throw. Learn the path the ball takes from the glove, down, up to an L, and through to the opposite hip, and why the elbow belongs at shoulder height.",
+      "video": {
+        "status": "placeholder",
+        "note": "Slow-motion side view of a nine-year-old's arm circle, pausing at the thumb-down position, the L position with the elbow level with the shoulder, and the finish at the opposite hip, with each pause labeled on screen."
+      },
+      "explanation": [
+        "When you take the ball out of your glove, do not lift it straight up to your ear. Instead, let your hand drop down past your back pocket with your thumb pointing at the ground. Coaches say 'thumb down' or 'thumb to thigh.' This start makes the arm swing in a smooth circle instead of a short jerk.",
+        "From thumb-down, keep the arm swinging back and up until your throwing arm makes the shape of the letter L. The elbow is bent, the elbow is at the same height as your shoulder, and your fingers are on top of the ball pointing away from your target. If someone took a picture at this moment, the ball would be about as high as the top of your head.",
+        "The elbow at shoulder height is the single most important checkpoint in throwing. When the elbow sags below the shoulder, the arm has to push the ball forward instead of whipping it, the throw loses speed and accuracy, and the arm and shoulder work harder than they should. 'Elbow up' does not mean straight up toward the sky; it means level with the shoulder.",
+        "Now the throw: the elbow leads toward the target, the hand follows and snaps the ball out of the fingertips, and the arm keeps going across the body until the throwing hand touches the opposite hip, like reaching into your other pocket. A throw that stops right after the release is a throw that was slowed down on purpose. Let the arm finish."
+      ],
+      "parentInstructions": [
+        "Start with no ball at all. Stand beside your child, both of you sideways to an imaginary target, and do slow-motion arm circles together: hand out of the glove thumb down, up to the L, then through to the opposite hip. Do ten slowly.",
+        "Check the L from the side. At the top of the circle, the elbow should be about level with the shoulder and the ball should be above the head. Take a photo and show your child; kids fix what they can see.",
+        "How to spot a low elbow: the hand is beside the ear with the elbow pointed at the ground, the ball sprays sideways, or the throw looks like a shot put. Say 'show me your L' and have them freeze at the top before every throw for a few throws.",
+        "When you add a ball, use a sock ball or tennis ball first and throw from 10 to 15 feet into a glove held at your chest. Do not move back until the circle looks the same on every throw.",
+        "Limit live throws to about 25 for this session. The rest of the practice can be towel snaps and shadow circles, which teach the same motion with no stress on the arm.",
+        "Praise the shape, not the speed. 'That L was perfect' is more useful than 'nice hard throw.'"
+      ],
+      "equipment": [
+        "soft_ball",
+        "glove"
+      ],
+      "equipmentFreeAlternative": "A hand towel is the best tool for this lesson. Hold one end, make the arm circle, and snap the towel at a partner's open hand held at the height of the target. No ball needed.",
+      "steps": [
+        "Stand sideways to your target with your feet a little wider than your shoulders and the ball in your glove at your chest.",
+        "Take the ball out of the glove and drop the hand down past your back pocket with the thumb pointing at the ground.",
+        "Swing the arm back and up into the L: elbow bent, elbow level with your shoulder, fingers on top of the ball.",
+        "Freeze in the L for two seconds and have a partner check the elbow height.",
+        "Throw by leading with the elbow and snapping the ball out of the fingertips toward the target.",
+        "Let the arm keep going until your throwing hand touches your opposite hip.",
+        "Do ten slow-motion circles with no ball, then ten towel snaps, then 15 to 20 soft-ball throws from 10 to 15 feet.",
+        "End with three throws where you call out 'thumb down, L up, hip' as you move."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Elbow drops below the shoulder and the ball comes out sidearm or low.",
+          "fix": "Freeze at the L before each throw. Have a partner hold a hand at shoulder height for the elbow to touch."
+        },
+        {
+          "mistake": "Short-arming: the ball goes straight from the glove to the ear with no circle.",
+          "fix": "Say 'thumb down' and make the hand touch the back of the thigh on the way out of the glove."
+        },
+        {
+          "mistake": "Fingers under or beside the ball at the top of the circle.",
+          "fix": "At the L, the fingers should be on top with the back of the hand facing the sky. Check it in a mirror."
+        },
+        {
+          "mistake": "Stopping the arm right after letting go of the ball.",
+          "fix": "Reach into your opposite pocket after every throw. Make the finish the loudest part of the cue."
+        },
+        {
+          "mistake": "Elbow pointed straight up with the hand behind the head.",
+          "fix": "Elbow up means shoulder height, not sky high. Lower the elbow until the upper arm is level with the ground."
+        }
+      ],
+      "cues": [
+        "Thumb down out of the glove",
+        "Up to the L",
+        "Elbow level with your shoulder",
+        "Fingers on top",
+        "Snap it",
+        "Hand to the opposite hip"
+      ],
+      "safety": [
+        "Do most of this lesson without a ball or with a towel. Live throws are capped at about 25 so the arm is never tired while learning.",
+        "Use a soft or tennis ball indoors or in a garage, and only throw at a target with nothing breakable behind it.",
+        "If anything in the arm or shoulder hurts, stop throwing for the day and tell a parent or coach. Do not throw through pain."
+      ],
+      "progression": {
+        "easier": "Do only the circle, with no ball, standing next to a parent who does it with you. Add a towel once the L looks right every time.",
+        "harder": "Make the circle from a fielding position: pretend to field a ground ball, then thumb down, L up, throw to a target 30 feet away.",
+        "nextLessonId": "thr-04"
+      },
+      "tags": [
+        "arm circle",
+        "elbow height",
+        "elbow drops",
+        "throws sidearm",
+        "short arm",
+        "L position",
+        "thumb down",
+        "towel drill",
+        "throwing motion",
+        "pushes the ball",
+        "arm path",
+        "ages 7-10"
+      ],
+      "drillIds": [
+        "drill-thr-03"
+      ]
+    },
+    {
+      "id": "thr-04",
+      "title": "Front Shoulder and Glove-Side Direction",
+      "category": "throwing",
+      "subcategory": "Throwing fundamentals",
+      "ageGroups": [
+        "a7_8",
+        "a9_10"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to aim a throw by pointing the front shoulder and glove at the target, then pull the glove in to the chest as the throwing arm comes through.",
+      "summary": "Your front shoulder is your aiming device. Point it and your glove at the target, keep them closed until the last moment, then pull the glove in to let the throwing side fire.",
+      "video": {
+        "status": "placeholder",
+        "note": "Front and overhead views of a player lining up the front shoulder and glove at a target, with a line drawn on screen from the glove to the catcher's chest and the glove tucking to the chest as the throw releases."
+      },
+      "explanation": [
+        "In the last lesson you learned what the throwing arm does. This lesson is about the other half of your body: the glove side. Your front shoulder, the one closer to the target, works like the sight on a camera. Where it points when you start the throw is where the ball wants to go.",
+        "Before the throw, turn so your front shoulder points at the target and reach your glove toward it. Many coaches say 'show the back of your glove to the target.' You should be able to look over your front shoulder straight at the person you are throwing to.",
+        "The front shoulder must stay closed, pointing at the target, until your front foot lands. If it swings open early, the whole body turns before the arm is ready, and the ball flies off to the glove side. Think of the front shoulder as a door you keep shut until it is time to throw.",
+        "When you throw, do not let the glove arm just drop or fly out to the side. Pull the glove in to your chest, like you are grabbing something out of the air and hugging it. That pull helps the throwing shoulder come through faster and keeps you balanced over your front foot. Glove out, glove in: that is the rhythm."
+      ],
+      "parentInstructions": [
+        "Stand 15 feet from your child with your glove held at your chest. Before each throw, ask them to point their front shoulder and the back of their glove at your glove. Have them hold it for one second so you can check.",
+        "Stand behind the target sometimes. From there you can see whether the front shoulder points at you or off to the side. If it points left or right of you, that is where the ball will go.",
+        "Watch for the early turn: if your child's chest faces you before the front foot has landed, say 'stay closed' and have them freeze with the shoulder pointed at you for a count of one.",
+        "To teach the glove pull, have your child throw with a sock ball while you hold a hand on their chest where the glove should land. Say 'glove to my hand' and watch the glove tuck in instead of flying out.",
+        "Keep the ball soft and the distance short, 10 to 15 feet, with a limit of about 25 throws. Direction work does not need a long throw.",
+        "If they are a tee ball graduate who was taught only 'point, step, throw,' this lesson is the next layer. Keep saying 'point' for the glove and add 'shoulder at the target.'"
+      ],
+      "equipment": [
+        "soft_ball",
+        "glove"
+      ],
+      "equipmentFreeAlternative": "Throw a rolled sock at a wall target, with a parent standing behind the thrower to check that the front shoulder points at the target before each throw. The glove can be an empty hand.",
+      "steps": [
+        "Stand sideways to your target with the ball in your glove at your chest.",
+        "Point your front shoulder at the target and reach your glove toward it so the back of the glove faces the target.",
+        "Look over your front shoulder straight at your partner's chest. Hold for one second.",
+        "Step with your glove-side foot and start the arm circle while the front shoulder stays pointed at the target.",
+        "As your front foot lands, pull the glove in to your chest and let the throwing arm come through.",
+        "Finish with your throwing hand at the opposite hip and your chest now facing the target.",
+        "Do five throws from your knees (knee-to-knee) to feel the shoulder and glove, then 15 standing throws from 15 feet.",
+        "On the last five throws, have your partner stand behind the target and call 'good line' or 'open early.'"
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Front shoulder flies open before the foot lands, and the ball misses to the glove side.",
+          "fix": "Freeze with the shoulder pointed at the target for one count, then throw. Say 'stay closed.'"
+        },
+        {
+          "mistake": "The glove arm drops or swings out wide during the throw.",
+          "fix": "Pull the glove in to the chest like catching a bug. A partner's hand on the chest gives the glove a landing spot."
+        },
+        {
+          "mistake": "Shoulder points to one side of the target.",
+          "fix": "Stand behind the target and point out where the shoulder aims. Reset the feet so the shoulder line and the step both point at the catcher."
+        },
+        {
+          "mistake": "Child looks at the ground or the ball instead of the target.",
+          "fix": "Eyes on your partner's chest, then look over the front shoulder before you throw. Call out the color of the catcher's shirt as you let go."
+        }
+      ],
+      "cues": [
+        "Front shoulder at the target",
+        "Show the back of your glove",
+        "Stay closed",
+        "Glove out, glove in",
+        "Look over your shoulder"
+      ],
+      "safety": [
+        "Soft ball or tennis ball only for indoor or garage work, with 10 to 15 feet of clear space in front of a wall or net.",
+        "Cap live throws at about 25 for this age group. Use shadow throws for extra reps.",
+        "Players kneel on a towel or grass for knee-to-knee throws, not on concrete."
+      ],
+      "progression": {
+        "easier": "Do the whole lesson from one knee, which removes the feet and lets the child feel the shoulder and glove only.",
+        "harder": "Field a rolled ball, turn, point the front shoulder at a target 40 feet away, and throw. Count how many of ten throws hit the partner's chest without the partner moving.",
+        "nextLessonId": "thr-08"
+      },
+      "tags": [
+        "front shoulder",
+        "glove side",
+        "opens up early",
+        "flies open",
+        "misses to the left",
+        "aim",
+        "glove tuck",
+        "knee to knee",
+        "throwing direction",
+        "ages 7-10"
+      ],
+      "drillIds": [
+        "drill-thr-04"
+      ]
+    },
+    {
+      "id": "thr-05",
+      "title": "Footwork: Step Toward Your Target",
+      "category": "throwing",
+      "subcategory": "Footwork",
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to step directly at the target with the glove-side foot on every throw, landing with the toes pointed at the target and the body balanced.",
+      "summary": "Where your front foot lands, your throw goes. Learn to step with the glove-side foot straight at your target, not too long and not across your body.",
+      "video": {
+        "status": "placeholder",
+        "note": "Overhead view of a child's feet on a chalk line pointing at a target, stepping with the glove-side foot onto a painted footprint and throwing, with a wrong step across the line shown and then corrected."
+      },
+      "explanation": [
+        "Throwing starts from the ground up. Your legs are bigger and stronger than your arm, so a good step gives the throw power and a bad step steals it. The foot that steps is always the glove-side foot: the left foot for right-handed throwers and the right foot for left-handed throwers.",
+        "Step straight at the target. Imagine a chalk line running from your back foot to the person you are throwing to. Your front foot should land on that line, or just a little to the glove side of it, with your toes pointing at the target. If the foot lands across the line, your hips lock and you have to throw around your own body.",
+        "The step should be a normal step, about the length of your own foot or a bit more, not a huge lunge. A giant step drops your body down and makes the ball sail high. A tiny step or no step at all leaves all the work to the arm.",
+        "Land softly on the front foot with your knee a little bent, like a cat landing from a jump. Then the throw happens over that bent front leg, and your back foot drags forward to finish. If you fall sideways after the throw, the step went in the wrong direction."
+      ],
+      "parentInstructions": [
+        "Draw a chalk line on the driveway from where your child stands to where you stand, 10 to 15 feet away. Indoors, lay down a line of painter's tape or a jump rope.",
+        "Put a paper plate, a chalk footprint, or a flat marker on the line about one shoe-length in front of their glove-side foot. The job is to land on the plate every throw.",
+        "Say the foot out loud before each throw. For a right-handed child, 'left foot to the plate.' Do not say 'step with your other foot,' which confuses young kids. Name the foot.",
+        "Watch for the step across the line. If the front foot lands on the throwing-arm side of the line, move the plate a little toward the glove side and try again. This is one of the most common faults in young throwers and is easy to fix early.",
+        "Use a sock ball or soft ball and keep live throws under 25. Step practice can also be done with no ball at all: step to the plate, pretend to throw, step back, repeat.",
+        "If your child is 4 to 6, let them say 'step' as they land and 'throw' as they throw. The rhythm helps more than any explanation."
+      ],
+      "equipment": [
+        "soft_ball"
+      ],
+      "equipmentFreeAlternative": "No ball needed: put a shoe or a paper plate where the front foot should land and practice step-and-shadow-throw, ten in a row, landing on the plate each time.",
+      "steps": [
+        "Stand sideways on the line with your glove shoulder toward the target and the ball in your throwing hand.",
+        "Look at the plate in front of your glove-side foot. That is where you will land.",
+        "Step onto the plate with your toes pointed at your partner.",
+        "Freeze. Check: is your foot on the plate? Are your toes pointing at the target? Is your knee a little bent?",
+        "Throw over your front leg and let your back foot drag forward.",
+        "Do five step-and-freeze reps with no throw, then 15 to 20 soft-ball throws from 10 to 15 feet, landing on the plate every time.",
+        "Finish with a game: your partner calls 'plate' only when your foot lands on it. Try for ten plates in a row."
+      ],
+      "durationMin": 10,
+      "commonMistakes": [
+        {
+          "mistake": "Stepping with the throwing-side foot.",
+          "fix": "Say the correct foot by name before every throw and put the plate only where that foot can reach it comfortably."
+        },
+        {
+          "mistake": "Stepping across the body so the front foot lands on the throwing-arm side of the line.",
+          "fix": "Move the plate slightly to the glove side of the line. Cue 'open the gate' and have the toes point at the target."
+        },
+        {
+          "mistake": "A giant lunge that drops the body and sails the ball high.",
+          "fix": "Shorten the step to about one shoe-length. Put the plate closer and say 'small step.'"
+        },
+        {
+          "mistake": "No step at all; the child throws flat-footed with the arm only.",
+          "fix": "Go back to step-and-freeze reps with no ball until the step is automatic, then add the ball."
+        }
+      ],
+      "cues": [
+        "Glove-side foot",
+        "Step on the plate",
+        "Toes at the target",
+        "Small step, soft knee",
+        "Stay on the line"
+      ],
+      "safety": [
+        "Use soft balls and a clear lane 10 to 15 feet long. Remove toys and tripping hazards from the step area.",
+        "Chalk and tape are safer than loose objects as markers; a plate can slide on a smooth floor, so tape it down indoors.",
+        "Keep total throws under 25 for ages 4 to 8 and fill the rest of the time with no-ball step reps."
+      ],
+      "progression": {
+        "easier": "Place the child's front foot on the plate for them, then let them throw from that position without stepping. Add the step once the finish feels balanced.",
+        "harder": "Take away the plate and the line. Have the child step and throw to a target that moves a few feet left or right between throws, so they must pick a new line each time.",
+        "nextLessonId": "thr-09"
+      },
+      "tags": [
+        "footwork",
+        "step toward target",
+        "steps across the body",
+        "wrong foot",
+        "stride",
+        "throws off the back foot",
+        "falls over when throwing",
+        "chalk line",
+        "tee ball",
+        "ages 4-8"
+      ],
+      "drillIds": [
+        "drill-thr-05"
+      ]
+    },
+    {
+      "id": "thr-06",
+      "title": "The Crow Hop for Outfield Throws",
+      "category": "throwing",
+      "subcategory": "Footwork",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to field a ball in the outfield and use a crow hop, a hop onto the back foot followed by a step at the target, to make a strong, accurate throw to a base or cutoff.",
+      "summary": "Outfielders need to throw far and straight. The crow hop is a hop-and-step that turns running momentum into throwing power without rushing the arm.",
+      "video": {
+        "status": "placeholder",
+        "note": "Side view of an outfielder fielding a ground ball, hopping onto the throwing-side foot, stepping at the cutoff, and throwing, replayed in slow motion with the hop, step, and release each marked."
+      },
+      "explanation": [
+        "An outfielder's throw has to travel a long way, so the arm needs help from the legs. The crow hop is how outfielders build momentum toward the target. It looks like a little skip: you hop onto your throwing-side foot, then step toward the target with your glove-side foot and throw.",
+        "Here is the sequence for a right-handed thrower. Field the ball with your body moving toward the target. Push off your left foot and hop forward onto your right foot, turning your body sideways so your front shoulder points at the target while you are in the air. Land on the right foot, then step with the left foot straight at the target and throw with your full arm circle.",
+        "The hop should move you forward, not upward. Think of skipping a stone across water: the energy goes toward the target. A high, bouncy hop wastes time and throws your head around. Stay low and go forward.",
+        "The crow hop also protects your arm. Because your legs and body are doing the work of getting the ball far, the arm does not have to strain. Outfielders who skip the crow hop and try to muscle a long throw from flat feet make weaker throws and get tired faster.",
+        "Throw to the cutoff man, the infielder who runs out between you and the base, unless your coach tells you otherwise. A crow hop throw that reaches the cutoff chest-high on a line is better than a rainbow throw that sails over everyone."
+      ],
+      "parentInstructions": [
+        "You need about 60 feet of grass or a park field for this lesson. Start closer, at 40 feet, until the footwork looks smooth.",
+        "Teach the feet before you add a ball. Have your child walk through 'field, hop, step, throw' in slow motion, saying each word. Then jog it. Then add a rolled ball.",
+        "Watch the hop. It should travel forward a foot or two and stay low. If your child is bouncing high, say 'skip the stone' and demonstrate a low skip yourself; you do not need to throw well to show this.",
+        "Check that the front shoulder is already pointing at you when the hop lands. If the child lands facing you with the chest open, the hop did not turn the body and the throw will be weak.",
+        "These are long throws, so count them. About 15 to 20 crow hop throws is a full session for a 9- to 12-year-old. Let your child throw the rest to you on a short, easy distance to cool down.",
+        "Stand where the cutoff man would stand, about two-thirds of the way to an imaginary base, and ask for the throw to come to your chest. Praise the low line drive, not the high moonshot."
+      ],
+      "equipment": [
+        "ball",
+        "glove"
+      ],
+      "equipmentFreeAlternative": "Practice the footwork with no ball: jog three steps, hop onto the back foot while turning sideways, step, and shadow throw. In a small yard, use a tennis ball and throw to a parent 30 feet away at half effort.",
+      "steps": [
+        "Place a glove or cone as the 'ball' about 20 feet in front of you and have your partner stand 40 to 60 feet away as the cutoff.",
+        "Walk through the footwork with no ball: jog to the spot, hop forward onto your throwing-side foot while turning sideways, step with the glove-side foot at the partner, shadow throw.",
+        "Repeat at a jog five times, saying 'hop, step, throw.'",
+        "Now your partner rolls a ball toward you. Field it in front of your body while moving toward the partner.",
+        "Push off the glove-side foot and hop forward onto the throwing-side foot, front shoulder pointing at the partner as you land.",
+        "Step straight at the partner and throw with a full arm circle, finishing with the hand at the opposite hip.",
+        "Aim for a chest-high throw that the partner can catch without moving. Make 15 to 20 throws total.",
+        "Finish with five easy short throws from 30 feet to cool the arm down."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "The hop goes up instead of forward and the player loses time and balance.",
+          "fix": "Say 'skip the stone' and ask for a low hop that covers a foot or two of ground."
+        },
+        {
+          "mistake": "Landing with the chest open toward the target after the hop.",
+          "fix": "Turn sideways in the air during the hop so the front shoulder points at the target when the foot lands."
+        },
+        {
+          "mistake": "Throwing a high rainbow to try to reach the base.",
+          "fix": "Throw to the cutoff's chest on a line. A long throw that bounces once to the right place beats a high throw that goes nowhere."
+        },
+        {
+          "mistake": "Rushing the arm so the circle gets short.",
+          "fix": "Slow the feet down. The crow hop buys time for a full thumb-down, L-up arm circle."
+        }
+      ],
+      "cues": [
+        "Field it moving forward",
+        "Hop low, go forward",
+        "Turn in the air",
+        "Step at the target",
+        "Line drive to the chest"
+      ],
+      "safety": [
+        "Long throws tire arms quickly. Cap the session at 15 to 20 crow hop throws and finish with short, easy throws.",
+        "Use a full field or open park with no people in the throwing lane. Crow hop throws travel far and can be hard to catch for a beginner partner, so the catcher wears a glove.",
+        "Do not practice crow hops on wet grass or a slippery floor where the hop can slide out."
+      ],
+      "progression": {
+        "easier": "Start from a standstill: ball in hand, hop, step, throw to a partner 40 feet away, with no fielding first.",
+        "harder": "Partner throws a fly ball or a hard ground ball; the player fields it and crow hops to a cutoff 80 feet away, then the cutoff relays to a third person at a base.",
+        "nextLessonId": "thr-10"
+      },
+      "tags": [
+        "crow hop",
+        "outfield throw",
+        "outfield footwork",
+        "throwing far",
+        "weak outfield arm",
+        "rainbow throws",
+        "cutoff man",
+        "momentum",
+        "long throw",
+        "ages 9-12"
+      ],
+      "drillIds": [
+        "drill-thr-06"
+      ]
+    },
+    {
+      "id": "thr-07",
+      "title": "Quick Feet: Infield Throwing Footwork",
+      "category": "throwing",
+      "subcategory": "Footwork",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to field a ground ball and use a right-left (or left-right for lefties) shuffle to line up the feet and release an accurate throw in under two seconds.",
+      "summary": "Infielders do not have time for a big wind-up. Learn the shuffle step that gets your feet lined up and the ball out quickly while keeping the throw accurate.",
+      "video": {
+        "status": "placeholder",
+        "note": "A shortstop fielding a ground ball and shuffling right-left toward first base before throwing, filmed from behind with the footprints traced on screen and a stopwatch showing the release time."
+      },
+      "explanation": [
+        "In the infield, the race is between your throw and the runner. A big crow hop takes too long. Instead, infielders use a quick shuffle: after you field the ball, your feet go right-left (for a right-handed thrower) toward the target, and the ball comes out on the left step. Lefties go left-right.",
+        "Think of it as replacing the hop with a slide of the feet. Field the ball out in front, bring the glove and ball to your chest, and as you stand up, your back foot (right for righties) replaces the spot where your front foot was while your body turns sideways to the target. Then step with the front foot and throw. Two steps, one throw.",
+        "The shuffle does two jobs. It moves you toward the target so the throw has momentum, and it lines your feet up so the front shoulder points where the ball is going. An infielder who throws without shuffling usually throws across the body or off the back foot, and the ball tails away from the first baseman.",
+        "Quick does not mean rushed. Your feet are quick, but the arm still makes its full circle. The fastest infielders look calm because their feet get them ready early. A good target is to release the ball within two seconds of it hitting your glove on a routine ground ball.",
+        "Throw to a spot, not just a person. Aim for the chest of the first baseman, or the letters on the jersey. On a quick throw the ball will tail a little, so aiming at the middle of the body gives the catcher room to adjust."
+      ],
+      "parentInstructions": [
+        "Set up two markers 40 feet apart in the yard or on a field: a fielding spot and a 'first base' where you stand with a glove. Start at 30 feet if the throws are not reaching you on a line.",
+        "Teach the feet with no ball first. Have your child pretend to field, then say 'right, left, throw' (or 'left, right, throw' for a lefty) while shuffling toward you. Ten slow reps, then ten at jog speed.",
+        "Roll ground balls gently right at your child so the drill is about the feet, not a tough play. Watch that the glove comes to the chest before the feet move; a child who starts throwing before the ball is secured will drop it.",
+        "Use your phone's stopwatch for fun once the footwork is smooth: start when the ball hits the glove, stop at release. Beating two seconds is a good goal for 9- to 12-year-olds.",
+        "Stand still at first base and hold your glove up at your chest. If throws keep tailing to your right or left, the feet are probably not pointing at you; look at the front foot on landing.",
+        "Count throws. About 20 to 25 at this distance is enough. Do a few more reps of footwork only if your child wants to keep going."
+      ],
+      "equipment": [
+        "ball",
+        "glove",
+        "cones"
+      ],
+      "equipmentFreeAlternative": "Use a tennis ball and a wall target 20 feet away: field a self-rolled ball off the wall, shuffle right-left, and throw to the target at half speed. Footwork can be rehearsed with no ball at all in a hallway.",
+      "steps": [
+        "Place a cone where you will field and have your partner stand at 'first base' 30 to 40 feet away with a glove at chest height.",
+        "With no ball, practice: pretend to field, bring hands to chest, shuffle right-left (left-right for lefties) toward the partner, and shadow throw. Ten reps.",
+        "Partner rolls an easy ground ball. Field it out front with your glove and bare hand, and bring it to your chest.",
+        "Shuffle: back foot replaces front foot while you turn sideways, then step with the front foot at the partner.",
+        "Throw with a full arm circle, aiming at the partner's chest, and finish with the hand at the opposite hip.",
+        "Partner says 'tail' if the ball tails away and 'line' if it comes straight. Adjust your front foot until you hear 'line.'",
+        "Make 20 throws. On the last ten, have the partner time you from glove to release and try to beat two seconds without rushing the arm."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Throwing from where the ball was fielded with no shuffle, so the ball comes out flat-footed and tails.",
+          "fix": "Say 'feet first.' Make the right-left shuffle happen before any arm movement for ten slow reps."
+        },
+        {
+          "mistake": "Rushing the arm and short-arming the throw.",
+          "fix": "Quick feet, full arm. Slow the drill down and bring back the thumb-down, L-up circle."
+        },
+        {
+          "mistake": "Shuffling sideways or away from the target.",
+          "fix": "Put a cone halfway to first base and shuffle toward the cone so the momentum goes to the target."
+        },
+        {
+          "mistake": "Starting the shuffle before the ball is secured in the glove.",
+          "fix": "Glove to chest first, then feet. Say 'catch, chest, feet, throw' until the order is automatic."
+        }
+      ],
+      "cues": [
+        "Catch, chest, feet, throw",
+        "Right-left, release",
+        "Shuffle at the target",
+        "Quick feet, full arm",
+        "Hit the letters"
+      ],
+      "safety": [
+        "Roll ground balls gently on smooth grass or dirt; bad hops teach fear, not footwork. Use a soft ball if the surface is rough.",
+        "Keep the session at 20 to 25 throws from 30 to 40 feet. Timing with a stopwatch should never become a contest to throw harder.",
+        "The partner at first base wears a glove and stays alert; quick throws arrive faster than the thrower expects."
+      ],
+      "progression": {
+        "easier": "Start from a kneeling fielding position with the ball already in the glove: stand, shuffle, throw. Add rolled balls once the feet work.",
+        "harder": "Partner rolls balls a few feet to either side so the player must field on the move, then shuffle and throw to a target 50 feet away under a two-second count.",
+        "nextLessonId": "thr-06"
+      },
+      "tags": [
+        "infield footwork",
+        "quick feet",
+        "shuffle step",
+        "right left throw",
+        "slow release",
+        "throws tail",
+        "throws off the back foot",
+        "ground ball to first",
+        "transfer",
+        "ages 9-12"
+      ],
+      "drillIds": [
+        "drill-thr-07"
+      ]
+    },
+    {
+      "id": "thr-08",
+      "title": "Accuracy: Throwing to a Target",
+      "category": "throwing",
+      "subcategory": "Accuracy",
+      "ageGroups": [
+        "a7_8",
+        "a9_10"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to hit a chest-high target from 20 to 30 feet at least six times out of ten by picking a small spot, lining up the step and shoulder, and finishing every throw.",
+      "summary": "Accuracy is a habit, not a talent. Learn to pick a tiny target, aim with your feet and shoulder, and let your follow-through point the ball home.",
+      "video": {
+        "status": "placeholder",
+        "note": "A player throwing tennis balls at a chalk square on a garage wall from ten feet, then baseballs at a partner's glove from thirty feet, with a counter on screen tracking hits out of ten."
+      },
+      "explanation": [
+        "A throw is only as good as where it lands. A fast throw that pulls the first baseman off the bag is worse than a medium throw to the chest. Accurate throwers all do the same thing: they pick a small target and aim their whole body at it, not just their arm.",
+        "Pick the smallest target you can. Not 'the catcher' but 'the logo on the glove' or 'the top button of the shirt.' Aim small, miss small. If you aim at a whole person and miss by a little, the ball is in the dirt or over the head. If you aim at a button and miss by a little, it is still a catch.",
+        "Your aim comes from three things you already know: the front shoulder pointed at the target, the front foot stepping at the target, and the fingers staying behind the ball so it spins straight. If the throw misses to the glove side, the shoulder opened early. If it misses high, the step was too long or you let go too early. If it misses low, you held on too long or dropped the elbow. The miss tells you what to fix.",
+        "Finish every throw. Your throwing hand should end at your opposite hip, pointing roughly at the target. Players who stop their arm to 'steer' the ball actually become less accurate because the steering changes every throw. Trust the circle and let it finish.",
+        "Accuracy improves with targets and games, not with harder throwing. Ten relaxed throws at a small target teach more than fifty throws aimed at nothing."
+      ],
+      "parentInstructions": [
+        "Start close: 10 feet with a tennis ball against a garage wall or fence, with a chalk or tape square about the size of a sheet of paper at your child's chest height. Hitting the square is the only goal.",
+        "Move back to 15, then 20, then 30 feet only when your child hits the square six out of ten times. Going back too early teaches wild throws.",
+        "When you are the target, hold your glove still at your chest and do not reach for bad throws right away. Let your child see where the ball actually went, then catch it. Say where it missed: 'a little high' or 'glove side.'",
+        "Ask your child to tell you which button or logo they are aiming at before each throw. Saying it out loud makes the target real.",
+        "Keep the elbow check in mind. If misses are low and the ball looks like it is pushed, have them freeze at the L position before the next throw.",
+        "Hold the count to about 25 throws. Play a points game so stopping feels like the end of a game rather than a limit."
+      ],
+      "equipment": [
+        "tennis_ball",
+        "wall"
+      ],
+      "equipmentFreeAlternative": "Throw a sock ball at a pillow leaned against the couch with a taped square on it, or at a hula hoop hung from a tree branch. Any soft ball and any target works.",
+      "steps": [
+        "Mark a target square about the size of a sheet of paper on a wall or fence at your chest height, or have a partner hold a glove still at chest height.",
+        "Stand 10 feet away with a tennis ball. Point your front shoulder and glove at the square.",
+        "Say out loud the exact spot you are aiming for, such as 'the middle of the square.'",
+        "Step at the target with your glove-side foot and throw with a full arm circle, finishing with your hand at your opposite hip.",
+        "Call where the ball went: 'hit,' 'high,' 'low,' 'glove side,' or 'arm side.' Decide what to fix on the next one.",
+        "Throw ten. If you hit the square six or more times, back up five feet. If not, stay and throw ten more.",
+        "When you reach 20 to 30 feet with a partner, play 'Ten for Ten': one point for hitting the glove without the partner moving it.",
+        "Stop at 25 throws total and write down your best distance."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Aiming at the whole person instead of a small spot.",
+          "fix": "Name a button or a logo before each throw. Aim small, miss small."
+        },
+        {
+          "mistake": "Throwing harder when misses happen.",
+          "fix": "Slow down to 70 percent effort and get three hits in a row before adding any speed."
+        },
+        {
+          "mistake": "Steering the ball by stopping the arm early.",
+          "fix": "Reach into the opposite pocket after every throw and let the fingers finish toward the target."
+        },
+        {
+          "mistake": "Backing up too soon and spraying throws everywhere.",
+          "fix": "Follow the six-out-of-ten rule before moving back. Move up a step if two sets in a row miss."
+        },
+        {
+          "mistake": "Misses low and sidearm as the child gets tired.",
+          "fix": "Tired throws drop the elbow. Stop for the day at 25 throws and start fresh next time."
+        }
+      ],
+      "cues": [
+        "Aim small, miss small",
+        "Pick a button",
+        "Shoulder and step at the target",
+        "Let it finish",
+        "Six out of ten, then back up"
+      ],
+      "safety": [
+        "Tennis balls or soft balls only against a wall in a garage or driveway; never a hard baseball indoors or near windows and cars.",
+        "Stop at 25 throws. Accuracy drops when arms get tired, so extra throws make it worse, not better.",
+        "Make sure nobody walks between the thrower and the wall, and that rebounds off the wall will not roll into a street."
+      ],
+      "progression": {
+        "easier": "Use a bigger target, like a hula hoop or a laundry basket, from 8 feet, and count every throw that touches it.",
+        "harder": "Split the target into four small squares and have the partner call which square to hit before each throw. Add a one-second time limit from catch to release.",
+        "nextLessonId": "thr-11"
+      },
+      "tags": [
+        "accuracy",
+        "wild throws",
+        "can't hit the target",
+        "throws over everyone's head",
+        "throws in the dirt",
+        "wall target",
+        "tennis ball drill",
+        "aim small miss small",
+        "target game",
+        "ages 7-10"
+      ],
+      "drillIds": [
+        "drill-thr-08",
+        "drill-thr-09"
+      ]
+    },
+    {
+      "id": "thr-09",
+      "title": "Playing Catch the Right Way",
+      "category": "throwing",
+      "subcategory": "Playing catch",
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to play catch with a partner for five minutes using a ready position, two hands to catch, a good grip, and a sideways throw back to the partner's chest.",
+      "summary": "Playing catch is the heart of baseball. Learn how to get ready, how to catch with two hands, and how to make the throw back so a game of catch flows without chasing the ball.",
+      "video": {
+        "status": "placeholder",
+        "note": "A parent and a seven-year-old playing catch at fifteen feet, with pauses showing the ready position with the glove open, two-hand catches above and below the waist, and a quick turn sideways to throw back."
+      },
+      "explanation": [
+        "A game of catch has two halves: catching and throwing. Most beginners only practice the throw and spend half the session chasing the ball. Learning both halves makes catch fun, and fun is what makes players want to do it every day.",
+        "Get ready before every throw. Face your partner with your feet about shoulder width apart, knees a little bent, and your glove out in front of your chest with the pocket open toward the partner. Keep your bare hand next to the glove. This is your catching ready position, and your partner should not throw until they see it.",
+        "Catch with two hands. For a ball above your waist, your glove fingers point up and your thumbs come together, like saying 'hello' to the ball. For a ball below your waist, the glove fingers point down and your pinkies come together. As the ball hits the glove, your bare hand covers it so it cannot pop out. Watch the ball all the way into the glove.",
+        "Now throw it back. Take the ball out with your four-seam grip while you turn sideways, step with your glove-side foot, and throw to your partner's chest with the arm circle you have learned. Then get back into your ready position for the next catch. Ready, catch, turn, throw, ready: that is the rhythm of catch.",
+        "Catch is not a contest. Throw so your partner can catch it, not as hard as you can. The best game of catch is one where the ball never touches the ground."
+      ],
+      "parentInstructions": [
+        "Stand 10 to 15 feet apart to start, on grass if you can. Face your child with your knees bent and your glove open at your chest so they see what the ready position looks like.",
+        "Do not throw until your child shows the ready position: glove out, pocket open, bare hand next to it. Say 'show me you're ready' and wait.",
+        "Throw underhand or with a soft, easy motion right to the glove. Your job is to make catching easy; the throw back is their practice.",
+        "Say 'two hands' before the ball arrives and 'thumbs together' for high balls or 'pinkies together' for low ones. Keep the words the same every time.",
+        "Watch the throw back. Sideways turn, step with the glove-side foot, elbow about shoulder height, finish at the opposite hip. If the elbow is low and the ball comes out sideways, pause for three shadow throws and start again.",
+        "Keep the game to about 20 to 25 throws for your child, which takes about five to eight minutes. End when it is still fun, and tell them one thing they did well.",
+        "If your child is afraid of the ball, use a soft training ball or a tennis ball and move closer, not farther. Fear goes away with hundreds of easy catches, never with hard ones."
+      ],
+      "equipment": [
+        "soft_ball",
+        "glove"
+      ],
+      "equipmentFreeAlternative": "Play catch with a rolled-up sock ball and bare hands indoors, or toss a tennis ball to yourself against a wall and catch it with two hands. The ready position and two-hand catch are the same with any ball.",
+      "steps": [
+        "Stand 10 to 15 feet from your partner facing them, knees bent, glove open at your chest, bare hand beside the glove.",
+        "Partner throws an easy ball to your glove. Watch it all the way in and catch it with two hands.",
+        "Say 'thumbs together' or 'pinkies together' depending on whether the ball was high or low.",
+        "Take the ball out with your four-seam grip while turning sideways to your partner.",
+        "Step with your glove-side foot and throw to your partner's chest, finishing at your opposite hip.",
+        "Get right back into your ready position before the ball comes back.",
+        "Count how many catches in a row you and your partner can make without the ball touching the ground. Try to beat your record next time.",
+        "Stop after about 20 to 25 throws each and name the best catch of the day."
+      ],
+      "durationMin": 10,
+      "commonMistakes": [
+        {
+          "mistake": "Standing straight up with the glove hanging at the side when the ball is thrown.",
+          "fix": "Partner waits until the glove is up and open. 'Show me you're ready' before every throw."
+        },
+        {
+          "mistake": "Catching with one hand and the ball pops out.",
+          "fix": "Say 'two hands' before the ball arrives and have the bare hand cover the ball in the glove."
+        },
+        {
+          "mistake": "Turning the head away or closing the eyes as the ball comes.",
+          "fix": "Move closer and use a softer ball. Ask the child to call out 'now' when the ball hits the glove so they watch it in."
+        },
+        {
+          "mistake": "Throwing the ball back as hard as possible.",
+          "fix": "Make the goal the number of catches in a row. A throw the partner cannot catch ends the streak."
+        }
+      ],
+      "cues": [
+        "Show me you're ready",
+        "Two hands",
+        "Thumbs together high, pinkies together low",
+        "Watch it in",
+        "Turn, step, throw",
+        "Back to ready"
+      ],
+      "safety": [
+        "Ages 4 to 8 use a soft or safety ball. A hard baseball is for older players who catch consistently.",
+        "Start at 10 to 15 feet and move back only when catches are easy. A longer distance means faster, scarier throws.",
+        "Keep the thrower's total to 20 to 25 throws per session so the arm never gets tired."
+      ],
+      "progression": {
+        "easier": "Partner tosses underhand from 8 feet to a child using two bare hands and a sock ball. No glove until the two-hand catch is automatic.",
+        "harder": "Move to 25 feet and ask for catches at different heights, with the child calling 'thumbs' or 'pinkies' before each one. Add a streak goal of 20 in a row.",
+        "nextLessonId": "thr-03"
+      },
+      "tags": [
+        "playing catch",
+        "how to play catch",
+        "catching",
+        "two hands",
+        "ready position",
+        "afraid of the ball",
+        "drops the ball",
+        "glove pocket",
+        "tee ball",
+        "coach pitch",
+        "ages 4-8"
+      ],
+      "drillIds": [
+        "drill-thr-10"
+      ]
+    },
+    {
+      "id": "thr-10",
+      "title": "Catch Progression: Distance and Pace",
+      "category": "throwing",
+      "subcategory": "Throwing progression",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to run a structured game of catch that starts close and easy, moves back in steps as throws stay accurate, and finishes with a few firm throws to the chest from game distance.",
+      "summary": "Good players do not just play catch; they build it. Start close, move back one step at a time, keep every throw catchable, and let the pace rise only when the accuracy stays.",
+      "video": {
+        "status": "placeholder",
+        "note": "Two eleven-year-olds playing catch with cones at 30, 45, 60, and 75 feet, moving back only after five clean throws at each cone and finishing with firm chest-high throws from 60 feet."
+      },
+      "explanation": [
+        "Playing catch is where good throwers are made, but only if catch has a plan. The plan is simple: start close with easy throws, move back in steps, and never let accuracy fall apart to gain distance or speed. A catch session that starts long and hard tires the arm and teaches wild habits.",
+        "Start at about 30 feet with half-speed throws, concentrating on the arm circle and the step. After five throws in a row that your partner catches at the chest without moving, both of you back up about 15 feet. Repeat at 45 feet, then 60 feet. The rule is always the same: accuracy earns distance.",
+        "As the distance grows, the throw should stay on a line as long as possible. When a throw starts to arc like a rainbow, you have reached today's distance; do not go farther. Players at this age usually top out between 60 and 90 feet, and that is plenty.",
+        "Pace means how firm the throw is. Pace rises slowly with distance, and the last few throws can be firm and quick, like an infield throw, from about 60 feet. Firm does not mean maximum effort. Think of it as 80 percent: fast enough to pop the glove, slow enough that your mechanics look the same as they did at 30 feet.",
+        "Finish the session by coming back in. Move up to 45 feet and then 30 feet for a few easy throws. This gives the arm a gentle ending and makes the next session feel better."
+      ],
+      "parentInstructions": [
+        "Put four markers down at 30, 45, 60, and 75 feet: cones, hats, or chalk marks. Measure once by walking ten, fifteen, twenty, and twenty-five big steps.",
+        "You are the judge of 'clean' throws. A clean throw hits your glove at chest height without you taking a step. Hold the glove still and let the throw come to you.",
+        "Count out loud: 'That's three clean.' After five clean throws, both of you back up to the next marker. If your child misses two in a row at a marker, move up one marker instead.",
+        "If you cannot throw far yourself, roll or bounce the ball back on one hop from the longer distances. Your throw does not matter; the drill is about your child's throws.",
+        "Watch for the rainbow. When throws start arcing high to reach you, stop backing up. Also watch the arm circle: if the elbow drops or the arm gets short at long distance, come in 15 feet.",
+        "Total throws for the session should stay around 30 to 35, including the easy ones coming back in. Write the farthest clean distance on a sticky note so your child can try to beat it next week."
+      ],
+      "equipment": [
+        "ball",
+        "glove",
+        "cones"
+      ],
+      "equipmentFreeAlternative": "Alone, throw a tennis ball against a wall from 10 feet, then 15, then 20, moving back only after five throws that return to your chest. Keep a hand on the wall target with chalk so you can see your accuracy.",
+      "steps": [
+        "Set markers at 30, 45, 60, and 75 feet. Warm up with ten easy throws at 30 feet, focusing on the arm circle and the step.",
+        "Throw at 30 feet until you make five throws in a row that your partner catches at the chest without moving. Count them out loud.",
+        "Back up to 45 feet. Throw at about 70 percent effort and repeat the five-clean-throws rule.",
+        "Back up to 60 feet. Keep the ball on a line. If it starts to rainbow, this is today's distance.",
+        "Try 75 feet only if the 60-foot throws are still on a line and the arm feels loose.",
+        "Come back to 60 feet and make five firm, quick throws to the chest at about 80 percent effort, like an infield throw.",
+        "Move in to 45 feet and then 30 feet for five easy throws at each to finish.",
+        "Write down the farthest marker you reached with clean throws."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Backing up before the throws are accurate.",
+          "fix": "Five clean throws in a row before every move back. Two misses in a row means move up a marker."
+        },
+        {
+          "mistake": "Rainbow throws to reach a long distance.",
+          "fix": "Stop at the distance where the ball stays on a line. Distance will come as mechanics improve."
+        },
+        {
+          "mistake": "Throwing at full effort as soon as the distance grows.",
+          "fix": "Hold pace at 70 to 80 percent. If the mechanics change from 30 feet to 60 feet, the pace is too high."
+        },
+        {
+          "mistake": "Ending the session at the longest, hardest distance.",
+          "fix": "Always walk back in to 45 and 30 feet for easy throws to finish."
+        }
+      ],
+      "cues": [
+        "Accuracy earns distance",
+        "Five clean, then back up",
+        "Keep it on a line",
+        "80 percent, same mechanics",
+        "Walk it back in"
+      ],
+      "safety": [
+        "Keep the session to about 30 to 35 throws including the easy throws coming back in. More distance is not better for a growing arm.",
+        "Throw on grass or dirt with a clear lane at least 90 feet long and no one standing behind either player.",
+        "If the arm feels tight or heavy at any distance, come in to 30 feet for a few easy throws and end the session. Tell a parent or coach if it still feels that way later."
+      ],
+      "progression": {
+        "easier": "Use markers at 20, 30, and 40 feet, and require only three clean throws before moving back.",
+        "harder": "Add a target game at each distance: the partner holds the glove at the chest, then at the knee, then above the head, and only a throw to the called spot counts as clean.",
+        "nextLessonId": "thr-12"
+      },
+      "tags": [
+        "catch progression",
+        "distance",
+        "how far should my kid throw",
+        "backing up",
+        "rainbow throws",
+        "arm strength",
+        "structured catch",
+        "accuracy earns distance",
+        "warm-up catch",
+        "ages 9-12"
+      ],
+      "drillIds": [
+        "drill-thr-11"
+      ]
+    },
+    {
+      "id": "thr-11",
+      "title": "The Warm-Up Throwing Routine",
+      "category": "throwing",
+      "subcategory": "Safe arm care",
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to run the same eight-minute throwing warm-up before every practice and game: body first, then arm circles, then easy throws that grow in distance and pace.",
+      "summary": "Never throw cold. Learn a short routine that wakes up the legs, loosens the shoulder, and builds from soft tosses to game throws so your arm is ready before the first real throw.",
+      "video": {
+        "status": "placeholder",
+        "note": "A team of ten-year-olds moving through the full warm-up in real time: a jog, arm circles and trunk twists, knee-to-knee tosses, then catch at 20, 30, and 45 feet, with a clock in the corner."
+      },
+      "explanation": [
+        "Your arm is not ready to throw the moment you get out of the car. Muscles throw better and feel better after they are warm, which is why every good player, from Little League to the big leagues, does the same thing before they pick up a ball: they get their body moving first. Throwing hard with a cold arm is the fastest way to end up with a sore one.",
+        "Step one is the body, not the arm. Jog for a minute, do some skips and high knees, and swing your arms in big slow circles, small to big, forward and backward. Add trunk twists with your hands on your hips. This takes about two minutes and gets your blood moving and your shoulders loose.",
+        "Step two is easy throwing from short distance. Start on one knee about 15 feet from your partner, tossing with just the upper body so you can feel the arm circle and the fingers on top of the ball. Then stand up at 20 feet and throw with your legs, still soft. These throws should feel like you are playing catch with a little kid: smooth, easy, no pop in the glove.",
+        "Step three is building up. Back up to 30 feet, then 45 feet, adding a little pace at each step while your mechanics stay the same. For 9- to 12-year-olds, finish at 45 to 60 feet with a few throws at about 80 percent effort. The whole routine is about 20 to 25 throws and takes eight minutes.",
+        "The warm-up is the same every time, and that is the point. Your arm learns what is coming. Players who skip it or rush through it in two minutes are the ones whose first real throw sails over the first baseman's head."
+      ],
+      "parentInstructions": [
+        "Do the body warm-up together. You do not need any skill to jog, skip, and swing your arms with your child, and a parent who does it makes it normal instead of a chore.",
+        "Start throwing from one knee at 15 feet. Hold your glove at your chest and ask for soft tosses. If the first throws are hard, say 'half speed, we are just waking up.'",
+        "Move back in steps: 20 feet standing, 30 feet, 45 feet. Spend about five throws at each spot. Let your child set the pace, but do not let the first five minutes include anything that pops your glove.",
+        "How to tell if the elbow is too low: during the warm-up, watch the top of the arm circle from the side. The elbow should be about even with the shoulder. The warm-up is the best time to notice and fix this, because nobody is tired yet.",
+        "Count the throws. About 20 to 25 is the whole warm-up for a young arm. If a practice or game follows, this count is part of the day's total.",
+        "Make it the same every time: same order, same words. Within a few weeks your child will run it without you."
+      ],
+      "equipment": [
+        "ball",
+        "glove"
+      ],
+      "equipmentFreeAlternative": "Do the full body warm-up and arm circles, then towel snaps or sock-ball tosses against a wall from 10 to 15 feet, moving back as the arm loosens. The structure is the same without a baseball.",
+      "steps": [
+        "Jog easily for one minute, then do 20 yards each of skips, high knees, and side shuffles.",
+        "Stand tall and make 10 small arm circles forward, then 10 big ones, then the same backward. Add 10 trunk twists with hands on hips.",
+        "Kneel on your throwing-side knee 15 feet from your partner and make 5 soft upper-body throws, feeling the arm circle and the fingers on top of the ball.",
+        "Stand up at 20 feet and make 5 easy throws using your legs and a full step.",
+        "Back up to 30 feet for 5 throws at about 60 percent effort, keeping the ball on a line.",
+        "Back up to 45 feet for 5 throws at about 70 to 80 percent, mechanics unchanged.",
+        "Players 11 and up may finish with 3 to 5 throws at 60 feet at game pace. Younger players stop at 45 feet.",
+        "Total: about 20 to 25 throws. Now you are ready for practice."
+      ],
+      "durationMin": 10,
+      "commonMistakes": [
+        {
+          "mistake": "Picking up a ball and throwing hard right away.",
+          "fix": "Body first for two minutes, then one-knee tosses. The first ten throws should not pop the glove."
+        },
+        {
+          "mistake": "Rushing the whole routine in two minutes.",
+          "fix": "Use a clock. Eight minutes is the goal, with about five throws at each distance."
+        },
+        {
+          "mistake": "Starting far apart because that is where the game will be played.",
+          "fix": "Start at 15 feet on one knee no matter what. Distance is earned during the warm-up, not assumed."
+        },
+        {
+          "mistake": "Long-tossing at maximum effort as part of the warm-up.",
+          "fix": "The warm-up ends at 45 to 60 feet at 80 percent. Long toss is a separate workout for older players, not a warm-up."
+        }
+      ],
+      "cues": [
+        "Body first, then arm",
+        "Small circles to big circles",
+        "Start on a knee",
+        "Soft to firm, close to far",
+        "Same routine every time"
+      ],
+      "safety": [
+        "Never throw hard with a cold arm. The two-minute body warm-up and one-knee tosses are not optional.",
+        "The warm-up's 20 to 25 throws count toward the day's total. Coaches and parents should plan the practice with that in mind.",
+        "If any throw during the warm-up causes a pinch or sharp feeling, stop and tell the coach or parent. The warm-up is the time to notice, not push through."
+      ],
+      "progression": {
+        "easier": "For 7- to 8-year-olds, skip the 45-foot step and finish at 30 feet with soft balls, keeping the total under 20 throws.",
+        "harder": "Add a footwork element: the last five throws at 45 feet come from a fielding position with a quick right-left shuffle, at game speed.",
+        "nextLessonId": "thr-13"
+      },
+      "tags": [
+        "warm-up",
+        "warm up before throwing",
+        "arm warm-up routine",
+        "sore arm",
+        "cold arm",
+        "pre-game routine",
+        "arm circles",
+        "one knee throws",
+        "arm care",
+        "ages 7-12"
+      ],
+      "drillIds": [
+        "drill-thr-12"
+      ]
+    },
+    {
+      "id": "thr-12",
+      "title": "Long Toss Introduction",
+      "category": "throwing",
+      "subcategory": "Throwing progression",
+      "ageGroups": [
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to complete a controlled long-toss session that extends distance gradually with full mechanics, stays within a set throw count, and pulls back in with on-a-line throws to finish.",
+      "summary": "Long toss builds arm strength and a full, free arm circle when it is done with a plan. Learn the stretch-out, the pull-down, and the limits that keep it safe for growing arms.",
+      "video": {
+        "status": "placeholder",
+        "note": "A fourteen-year-old long-tossing on a field with cones at 60, 90, 120, and 150 feet, showing the gradual stretch-out with a slight arc, then pull-down throws coming back in on a line, with a throw counter on screen."
+      },
+      "explanation": [
+        "Long toss means playing catch at distances longer than you throw in a game. Done right, it teaches your arm to make a full, loose circle and builds strength over months. Done wrong, as a contest to see who can throw the farthest, it is one of the most common ways young players hurt their arms. This lesson is the 'done right' version.",
+        "Long toss has two parts. The first is the stretch-out: you and your partner start at 45 to 60 feet and back up in steps of about 15 feet, making five throws at each spot. The throws can have a little arc as the distance grows, but your mechanics should look exactly like your 60-foot throws, only with more leg drive and a bigger crow hop. If the arm circle shortens or the elbow drops, you are too far.",
+        "You stop stretching out when a throw needs real strain to reach your partner. For most 11- and 12-year-olds, that is around 90 to 120 feet; for 13- to 16-year-olds, 120 to 180 feet is common. Your farthest distance is not a score. It changes with the day, the weather, and how tired you are, and a shorter day is fine.",
+        "The second part is the pull-down: you come back in, 15 feet at a time, and throw the ball on a line to your partner's chest with the same effort you used at the longest distance. These throws should have no arc. The pull-down teaches your arm to keep the long-toss freedom while hitting a target, which is what you actually need in a game.",
+        "Long toss replaces throwing; it does not add to it. On a long-toss day you should not also pitch or throw a full practice. Most players do long toss one or two days a week, never the day before pitching, never the day after a heavy pitching outing, and always after the full warm-up routine. The GamePlanIQ arm care lesson explains how rest days work."
+      ],
+      "parentInstructions": [
+        "You need a real field or large park with 150 feet or more of clear grass. If you cannot throw that far yourself, your child can throw to you and you can roll or bounce the ball back; your throw does not matter.",
+        "Insist on the full warm-up routine first. Long toss begins at 45 to 60 feet only after the body is warm and the arm has made 20 easy throws.",
+        "Place cones every 15 feet from 60 to 150 feet. The rule for backing up is five throws that reach you with the same smooth mechanics. If the throws start to strain, stop backing up; your child does not need to reach the last cone.",
+        "Watch for the signs of 'too far': the arm circle gets short, the elbow drops, the throw gets a big rainbow arc, or the face shows strain. Any of those means come in 15 feet.",
+        "Keep the count. A full long-toss session is about 35 to 45 total throws including the warm-up, with the farthest distance being only five to eight of them. Then pull down in steps and finish at 60 feet.",
+        "Do not schedule long toss on a pitching day or the day before one, and skip it entirely if your child says the arm feels tired or sore. Tell the coach about any pain; do not try to figure it out yourselves."
+      ],
+      "equipment": [
+        "ball",
+        "glove",
+        "cones"
+      ],
+      "equipmentFreeAlternative": null,
+      "steps": [
+        "Complete the full warm-up throwing routine first: body, arm circles, one-knee tosses, and catch out to 45 feet.",
+        "Set cones at 60, 75, 90, 105, 120, and 150 feet. Start at 60 feet and make five throws using a crow hop and a full arm circle.",
+        "Back up one cone at a time after five smooth throws at each. Let the ball arc a little as the distance grows, but keep the same mechanics.",
+        "Stop backing up at the first cone where a throw needs strain to reach your partner. That is today's farthest distance. Make five to eight throws there, no more.",
+        "Pull down: come in one cone at a time and throw the ball on a line to your partner's chest at the same effort, five throws at each cone.",
+        "Finish at 60 feet with five easy throws, then do the arm care cool-down.",
+        "Record your farthest cone and total throw count. Total should stay between 35 and 45 including the warm-up."
+      ],
+      "durationMin": 20,
+      "commonMistakes": [
+        {
+          "mistake": "Turning long toss into a distance contest.",
+          "fix": "Farthest distance is not a score. Back up only after five smooth throws and stop at the first sign of strain."
+        },
+        {
+          "mistake": "Shortening the arm circle and pushing the ball to reach a cone.",
+          "fix": "Come in 15 feet. Full thumb-down, L-up circle at every distance or the distance is too long."
+        },
+        {
+          "mistake": "Skipping the pull-down and ending at the farthest distance.",
+          "fix": "Always come back in with on-a-line throws. The pull-down is where accuracy and arm speed meet."
+        },
+        {
+          "mistake": "Long-tossing the day before or after pitching.",
+          "fix": "Long toss is a throwing day, not an extra. Check the week's pitching schedule and the league's rest rules before planning it."
+        },
+        {
+          "mistake": "Skipping the warm-up because 'we are only playing catch.'",
+          "fix": "Long toss starts at 60 feet after 20 easy throws, never cold."
+        }
+      ],
+      "cues": [
+        "Full warm-up first",
+        "Five smooth throws, then back up",
+        "Same mechanics, more legs",
+        "Stop at the first strain",
+        "Pull down on a line",
+        "Count every throw"
+      ],
+      "safety": [
+        "Long toss is for ages 11 and up and only after the full warm-up routine. Total throws for the session stay between 35 and 45.",
+        "Never long toss on a pitching day, the day before pitching, or when the arm feels tired, heavy, or sore. Tell a coach or parent about any arm pain and let an adult decide the next step.",
+        "Use an open field with at least 150 feet of clear space and nobody in the lane. Long throws are hard to track, so both players wear gloves and watch every throw in.",
+        "Growing arms differ. A player who tops out at 90 feet is not behind; distance comes with age and sound mechanics, not with forcing it."
+      ],
+      "progression": {
+        "easier": "Cap the stretch-out at 90 feet with cones every 15 feet and only three throws at the farthest cone. Spend extra time on the pull-down at 60 and 75 feet.",
+        "harder": "For 13- to 16-year-olds with clean mechanics, extend the pull-down to include five throws at 90 feet on a line to a called target, chest or knee, before finishing at 60 feet.",
+        "nextLessonId": "thr-14"
+      },
+      "tags": [
+        "long toss",
+        "arm strength",
+        "how far should my kid throw",
+        "throwing program",
+        "pull down",
+        "stretch out",
+        "arm care",
+        "crow hop",
+        "overthrowing",
+        "ages 11-16"
+      ],
+      "drillIds": [
+        "drill-thr-13"
+      ]
+    },
+    {
+      "id": "thr-13",
+      "title": "Arm Care: Rest, Recovery, and Pitch Counts",
+      "category": "throwing",
+      "subcategory": "Safe arm care",
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to explain why pitch counts and rest days exist, track their own throwing days, and tell an adult right away about any arm pain, tiredness, or soreness.",
+      "summary": "Your arm is the only one you get. Learn why leagues count pitches and require rest days, how to keep track of your own throwing, and what to do if your arm hurts: tell an adult, every time.",
+      "video": {
+        "status": "placeholder",
+        "note": "A coach and a twelve-year-old looking at a pitch count log together, counting rest days on a calendar, and role-playing the player saying 'my arm feels sore' and the coach responding with 'thanks for telling me, you're done for today.'"
+      },
+      "explanation": [
+        "A young arm is still growing. The bones in a child's elbow and shoulder have soft growth areas that adult arms do not have, and every hard throw puts stress on them. A little stress with rest in between makes the arm stronger. Too much stress with too little rest is how young players end up unable to throw for months. That is why pitch counts and rest days exist: not to hold you back, but to keep you playing.",
+        "A pitch count is the number of pitches a pitcher throws in a game. Little League sets a maximum number of pitches per day for each age, and the more pitches you throw in a day, the more days of rest you must take before pitching again. Those limits change over time and can differ by division, so GamePlanIQ uses the pitch-count table your league has configured, and your league follows the current Little League rulebook. If something on GamePlanIQ and your league's rulebook ever disagree, the rulebook wins. Ask your coach to show you the table.",
+        "Pitch counts only cover pitching, but your arm counts everything. Catching a full game, taking fifty throws of infield, playing catch at home, and long toss all add up. A good rule is one throwing-heavy day followed by a lighter day. Many leagues and medical groups also recommend taking at least a couple of months off from overhead throwing every year and not pitching for more than one team at a time. Check your league's current rulebook and ask your coach what they recommend for your age.",
+        "Recovery is what you do between throwing days. Sleep, water, a real cool-down after throwing, and easy movement like jogging and light stretching all help the arm bounce back. Ice packs are something some coaches use after pitching; follow your league's and your family's guidance on that. What never helps is throwing more to 'work through' a tired arm.",
+        "Here is the most important part of this lesson. If your arm hurts, feels tired in a new way, tingles, or just does not feel right, stop throwing and tell a parent or coach right away. That is not being weak; it is being a good teammate, because a player who speaks up today is a player who can pitch next month. GamePlanIQ cannot tell you what is wrong with your arm, and neither can your coach. Only a doctor can do that. The adults' job is to listen, stop the throwing for the day, and decide with your family whether a doctor should take a look."
+      ],
+      "parentInstructions": [
+        "Learn your league's pitch-count and rest-day rules. GamePlanIQ shows the table your league has configured, but the league's current Little League rulebook is the official source. Ask the coach or league official if anything is unclear.",
+        "Keep a simple throwing log on the fridge or in your phone: the date, what your child did (pitched, caught, played catch, long toss), and roughly how many throws. Patterns of too many heavy days in a row are easy to see on paper and hard to see in the moment.",
+        "Make 'my arm hurts' a safe sentence in your house. Respond with thanks, stop throwing for the day, and never with disappointment. If pain lasts beyond the day, keeps coming back, or your child favors the arm, call your doctor. Do not diagnose it yourself and do not rely on the internet or GamePlanIQ to tell you what it is.",
+        "Watch for quiet signs of a tired arm: throws losing accuracy late in a session, a dropping elbow, rubbing the shoulder or elbow, or asking to stop. Those are your cue to end the throwing portion, not to push for 'a few more.'",
+        "If your child plays on more than one team, tell every coach. Pitch counts and rest days only work when every adult knows the whole picture.",
+        "Build the off-season into the year. A few months without overhead throwing, filled with other sports or activities, is widely recommended for young players and gives the arm a real break."
+      ],
+      "equipment": [
+        "none"
+      ],
+      "equipmentFreeAlternative": "This lesson needs no equipment. Use a calendar, a notebook, or the GamePlanIQ log to track throwing days and rest days.",
+      "steps": [
+        "With a parent or coach, find your league's pitch-count table on GamePlanIQ and in the league's current rulebook. Write down your age group's daily maximum and the rest days required.",
+        "Count back through the last week together and write down each day you threw and roughly how much: pitched, caught, infield, catch at home, long toss.",
+        "Circle any stretch of three heavy throwing days in a row. Talk about which day could have been a light or rest day.",
+        "Practice the sentence out loud: 'Coach, my arm feels sore.' Have the adult practice the answer: 'Thanks for telling me. You're done throwing today.'",
+        "Make a list of three things you will do on a rest day that help your arm: sleep, water, easy movement, a different activity.",
+        "Do the arm care cool-down drill together after today's practice so you know how it feels.",
+        "Set a reminder to update your throwing log after every practice and game this week."
+      ],
+      "durationMin": 10,
+      "commonMistakes": [
+        {
+          "mistake": "Thinking only pitches count toward a tired arm.",
+          "fix": "Log every kind of throwing: catching, infield, catch at home, long toss. Plan one heavy day, then a lighter one."
+        },
+        {
+          "mistake": "Hiding soreness to stay in the game or avoid letting the team down.",
+          "fix": "Speaking up is the team play. A player who rests today pitches next week; a player who hides it may miss the season."
+        },
+        {
+          "mistake": "Pitching for two teams without each coach knowing the full count.",
+          "fix": "Parents tell every coach about every outing. The rest-day rule applies to the player, not the team."
+        },
+        {
+          "mistake": "Throwing more to 'loosen up' a tired or sore arm.",
+          "fix": "Stop throwing for the day and tell an adult. If it lasts beyond the day or keeps returning, the family calls a doctor."
+        },
+        {
+          "mistake": "Treating the GamePlanIQ table as the rulebook.",
+          "fix": "GamePlanIQ shows what the league configured; the league's current Little League rulebook is official and wins any disagreement."
+        }
+      ],
+      "cues": [
+        "One arm, one career",
+        "Count everything you throw",
+        "Heavy day, light day",
+        "Sore means stop and say so",
+        "Rulebook wins"
+      ],
+      "safety": [
+        "This lesson gives no medical advice. Any arm pain, swelling, numbness, or soreness that lasts beyond the day should be discussed with a doctor, not diagnosed by a coach, parent, or GamePlanIQ.",
+        "Follow your league's configured pitch-count and rest-day rules exactly, and check the league's current Little League rulebook because limits can change by year and division.",
+        "A player should stop throwing for the day whenever the arm hurts, and the adults should support that choice without pressure."
+      ],
+      "progression": {
+        "easier": "For 9- and 10-year-olds, keep it to two ideas: everything you throw counts, and if it hurts, stop and tell a grown-up. Make the throwing log a sticker chart.",
+        "harder": "For 13- to 16-year-olds, plan a full week: pitching day, rest days, a long-toss day, and lighter catch days, matched against the league table and the team schedule.",
+        "nextLessonId": "thr-15"
+      },
+      "tags": [
+        "arm care",
+        "pitch count",
+        "rest days",
+        "sore arm",
+        "my kid's arm hurts",
+        "elbow pain",
+        "overuse",
+        "how many pitches",
+        "throwing log",
+        "recovery",
+        "little league pitch rules",
+        "ages 9-16"
+      ],
+      "drillIds": [
+        "drill-thr-14"
+      ]
+    },
+    {
+      "id": "thr-14",
+      "title": "Throwing on the Run and Off-Balance Throws",
+      "category": "throwing",
+      "subcategory": "Throwing progression",
+      "ageGroups": [
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevel": "advanced",
+      "objective": "The player will be able to field a slow roller or a ball to the glove side while moving and make an accurate throw without stopping, using small steps to keep the body under control.",
+      "summary": "Not every play lets you set your feet. Learn how to throw while moving, how to stay under control when you cannot, and when the smart play is to hold the ball.",
+      "video": {
+        "status": "placeholder",
+        "note": "A third baseman charging a slow roller, fielding it with the bare hand, and throwing on the run across the body; then a second baseman fielding on the move toward first and flipping underhand, each shown at full speed and in slow motion."
+      },
+      "explanation": [
+        "Everything you have learned so far assumes you have time to set your feet. In a real game, a slow roller or a ball hit to your glove side sometimes gives you no time at all. Advanced infielders learn to throw while still moving, and they learn it one step at a time, starting slow.",
+        "The first rule of throwing on the run is to keep your feet under you. Small, quick steps keep your head still and your eyes on the target. Long, leaping steps feel fast but throw your body off and send the ball wild. Run through the ball, not at it, so that your momentum is already going toward the target when you field it.",
+        "On a slow roller, a right-handed third baseman charges, fields the ball off the outside of the glove-side foot (or with the bare hand if it has stopped rolling), and throws on the next step with the throwing-side foot planted. The arm stays over the top as much as possible. A lower arm slot is sometimes needed on a very quick play, but it should be a choice for that play, not a habit. The throw will not be as hard as a set-feet throw, so pick a lower target and let the ball get there.",
+        "When you are moving toward first base and are very close to it, an underhand flip or a short dart is safer than a full throw. Keep the ball visible to the receiver, flip it firm and chest-high, and keep moving after the flip. If you are moving away from your target, the odds of an accurate throw drop fast; a smart player eats the ball, meaning holds it, instead of risking an error that gives the runner an extra base.",
+        "Off-balance throwing adds stress to the arm because the legs cannot help as much. That is why this lesson is for ages 11 and up, why reps are limited, and why most of the practice happens at jog speed. Game speed is the last thing you add, not the first."
+      ],
+      "parentInstructions": [
+        "This is an advanced lesson. Your child should already have a smooth arm circle, a straight step, and clean footwork before trying it, and should warm up fully first.",
+        "Set a cone where a slow roller might stop, about 20 feet in front of your child, and stand at 'first base' 40 to 50 feet away with a glove. Roll the ball slowly so it is barely moving when your child reaches it.",
+        "Start at a walk, then a jog. Say 'small steps' every time the steps get long. Only after ten controlled throws at jog speed should the drill go to full speed.",
+        "Watch the head. If it is bouncing or the eyes leave the target, the steps are too big or the child is rushing. Slow it back down.",
+        "Teach the 'eat it' decision: have your child call 'throw' or 'hold' as they field the ball based on whether they are moving toward you. Praise a smart hold as much as a good throw.",
+        "Keep this to 15 to 20 throws. These throws are harder on the arm than set-feet throws, so this lesson should not be on a day with pitching or long toss."
+      ],
+      "equipment": [
+        "ball",
+        "glove",
+        "cones"
+      ],
+      "equipmentFreeAlternative": "Practice the footwork with no ball: jog toward a cone, pretend to scoop at the glove-side foot, and shadow throw on the next step. Outdoors with a tennis ball, roll it slowly yourself and throw to a wall target at half effort.",
+      "steps": [
+        "Complete the full warm-up routine. Set a cone 20 feet in front of you and have your partner at 'first base' 40 to 50 feet away.",
+        "Walk through the footwork with no ball: approach the cone, scoop at the glove-side foot, plant the throwing-side foot, throw on the next step. Five reps.",
+        "Partner rolls a very slow ball. Jog to it with small steps, field it with the glove or bare hand, and throw to the partner's chest on the next step.",
+        "Repeat ten times at jog speed, calling out 'throw' or 'hold' based on whether your momentum is toward the partner.",
+        "Move to 'running toward first': start 30 feet from the partner, field a rolled ball while moving toward them, and flip underhand chest-high from 15 feet, continuing to move after the flip.",
+        "Finish with five slow-roller throws at game speed, only if the jog-speed throws were accurate.",
+        "Total about 15 to 20 throws. End with five easy set-feet throws from 40 feet."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Long, leaping steps that bounce the head and spray the throw.",
+          "fix": "Small, quick steps. Run through the ball so your momentum already points at the target."
+        },
+        {
+          "mistake": "Dropping to a sidearm slot on every running throw.",
+          "fix": "Stay over the top as much as the play allows. A low slot is a choice for one play, not a new habit."
+        },
+        {
+          "mistake": "Throwing while moving away from the target and making an error.",
+          "fix": "Call 'hold' when momentum is wrong. Eating the ball is a good play."
+        },
+        {
+          "mistake": "Trying to throw as hard as a set-feet throw.",
+          "fix": "Pick a lower target and let the ball get there. Accuracy beats velocity on the run."
+        },
+        {
+          "mistake": "Going to full speed before jog-speed throws are accurate.",
+          "fix": "Ten controlled jog-speed throws earn five game-speed throws."
+        }
+      ],
+      "cues": [
+        "Small steps, still head",
+        "Run through it",
+        "Scoop at the front foot, throw on the next step",
+        "Throw or hold",
+        "Flip it firm and high"
+      ],
+      "safety": [
+        "Ages 11 and up only, after a full warm-up, and never on a day with pitching or long toss. Limit to 15 to 20 throws because off-balance throws load the arm more than set-feet throws.",
+        "Practice on dry, even grass or dirt. Running throws on wet grass or uneven ground can cause slips and falls.",
+        "The receiver wears a glove and stands still with a clear target; running throws arrive from odd angles."
+      ],
+      "progression": {
+        "easier": "Walk-speed only, with the ball already stopped at the cone. Focus on scooping at the front foot and throwing on the next step.",
+        "harder": "Add a live runner timing the play (with a soft ball), or add a backhand version where the player fields across the body and throws with a hop to re-balance.",
+        "nextLessonId": null
+      },
+      "tags": [
+        "throwing on the run",
+        "slow roller",
+        "off balance throw",
+        "do or die play",
+        "underhand flip",
+        "eat the ball",
+        "barehand play",
+        "third base charge",
+        "advanced infield",
+        "ages 11-16"
+      ],
+      "drillIds": [
+        "drill-thr-15"
+      ]
+    },
+    {
+      "id": "thr-15",
+      "title": "Fixing Common Throwing Faults",
+      "category": "throwing",
+      "subcategory": "Throwing fundamentals",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to recognize four common throwing faults in themselves or a partner (sidearm or short-arm, stepping across the body, throwing off the back foot, and pushing the ball) and apply the matching fix and cue for each.",
+      "summary": "Almost every wild or weak throw comes from one of four faults. Learn to spot them, understand why they happen, and use one simple fix and one short cue for each.",
+      "video": {
+        "status": "placeholder",
+        "note": "Split-screen demonstrations of each fault beside its corrected version: a dropped-elbow sidearm throw next to an L-position throw, a step across the body next to a chalk-line step, a back-foot throw next to a front-leg finish, and a pushed ball next to a thumb-down whip."
+      },
+      "explanation": [
+        "Coaches see the same four throwing faults on every field. The good news is that each one has a cause you can feel, a fix you can practice at home without a ball, and a two- or three-word cue a partner can call out. This lesson is a repair guide. Find the fault, apply the fix, and say the cue until it sticks.",
+        "Fault one: sidearm and short-arm. The ball comes out from beside the hip or the hand goes straight from the glove to the ear with no circle, usually because the elbow dropped below the shoulder. The ball tails, sinks, and loses speed, and the shoulder takes extra strain. Fix: slow-motion arm circles in front of a mirror, freezing at the L with the elbow level with the shoulder, then towel snaps from the same L. Cue: 'thumb down, L up.'",
+        "Fault two: stepping across the body. The front foot lands on the throwing-arm side of the line to the target, so the hips lock and the player throws around their own body, usually missing to the arm side. Fix: draw a chalk line from the back foot to the target and put a marker just to the glove side of it where the front foot must land. Cue: 'open the gate' or 'step on the line.'",
+        "Fault three: throwing off the back foot. The player's weight never moves forward; they let go of the ball while leaning back, and the throw floats high and short. This often comes from rushing or from a tiny step. Fix: step-and-freeze reps where the player steps, pauses with the weight over a bent front knee, and then throws; the back foot must drag or lift at the finish. Cue: 'nose over your front knee' or 'finish over the front leg.'",
+        "Fault four: pushing the ball. The hand stays behind the ball with the elbow leading only a little, like a shot put, and the ball comes out slow with no snap. It usually happens when the arm circle is skipped or when a player tries to steer the ball to the target. Fix: towel drill and wrist-flip throws from one knee that make the fingers whip over the top of the ball, then full throws with a loud 'snap' finish at the opposite hip. Cue: 'snap it' or 'fingers over the top.'",
+        "Work on one fault at a time, and work on it without a ball first. A player trying to fix three things at once fixes none of them. Pick the one that shows up most, spend a week on it, and then move on."
+      ],
+      "parentInstructions": [
+        "Film three throws from the side and three from behind with your phone, then watch them in slow motion with your child. You do not need to know baseball to compare the picture to the four faults in this lesson.",
+        "Elbow check: at the moment just before the throw, is the throwing elbow about even with the shoulder? If it is pointing at the ground, that is fault one. Say 'thumb down, L up' and do ten slow shadow circles together.",
+        "Step check: from behind, draw an imaginary line from the back foot to you. Does the front foot land across it? Chalk the line, put a marker on the glove side of it, and ask for ten steps onto the marker with no throw.",
+        "Weight check: after the throw, is your child leaning backward or standing on the back foot? Ask them to freeze after each throw; the nose should be over the front knee and the back heel should be off the ground.",
+        "Push check: does the throw look like a shot put, with no snap? Use a hand towel and have them snap it at your open hand held at chest height, ten times, then throw a sock ball with the same snap.",
+        "Pick one fault for the week. Twenty-five soft-ball throws per session is plenty; the rest can be shadow work and towel snaps, which teach the same thing with no load on the arm."
+      ],
+      "equipment": [
+        "soft_ball"
+      ],
+      "equipmentFreeAlternative": "Everything in this lesson can be done with a hand towel, a chalk line, and a mirror or a parent's phone camera. No ball is needed to fix any of the four faults.",
+      "steps": [
+        "Film or watch three throws from the side and three from behind. Decide with a partner which one fault shows up most.",
+        "For sidearm or short-arm: ten slow arm circles in front of a mirror, freezing at the L with the elbow level with the shoulder, then ten towel snaps from the L.",
+        "For stepping across: draw a chalk line to the target, place a marker just to the glove side of it, and make ten step-and-freeze reps landing on the marker with toes at the target.",
+        "For throwing off the back foot: ten step-pause-throw reps with a sock ball, freezing with the nose over a bent front knee before the throw and lifting the back heel at the finish.",
+        "For pushing the ball: ten wrist-flip throws from one knee at 10 feet so the fingers whip over the top, then ten towel snaps finishing at the opposite hip.",
+        "Make 15 to 20 soft-ball throws from 15 to 20 feet with a partner calling the cue for your fault before each throw.",
+        "Film three more throws and compare them to the first three. Write down the cue you will use this week."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Trying to fix every fault in one session.",
+          "fix": "One fault per week. Pick the one that shows up most and ignore the rest for now."
+        },
+        {
+          "mistake": "Doing all the repair work with full-speed throws.",
+          "fix": "Shadow circles, towel snaps, and step-and-freeze reps first. Live throws come last and stay soft."
+        },
+        {
+          "mistake": "Cue overload: the parent says five things before each throw.",
+          "fix": "One cue, two or three words, said once. 'Thumb down, L up.' Then quiet."
+        },
+        {
+          "mistake": "Only fixing the fault at 15 feet and losing it at game distance.",
+          "fix": "When the fix holds at 15 feet, move to 30, then 45, keeping the same cue. Film again at each distance."
+        },
+        {
+          "mistake": "Assuming a fault means the child is 'not a thrower.'",
+          "fix": "All four faults are habits, and habits change with two weeks of correct reps. Most players have one or two."
+        }
+      ],
+      "cues": [
+        "Thumb down, L up",
+        "Open the gate",
+        "Nose over your front knee",
+        "Snap it",
+        "One fault, one cue"
+      ],
+      "safety": [
+        "Do the repair work without a ball or with a towel and sock ball. Live throws stay at about 25 per session and at soft-ball distance of 15 to 20 feet.",
+        "Fixing a fault can feel awkward and the arm may be used in a new way; stop for the day if anything hurts and tell a parent or coach.",
+        "Indoors or in a garage, use a towel or sock ball only and face a wall or net with nothing breakable nearby."
+      ],
+      "progression": {
+        "easier": "Work only on the arm circle with a towel and a mirror until 'thumb down, L up' looks right every time; the other faults often shrink once the elbow is up.",
+        "harder": "Have the player coach a younger sibling or teammate: spot the fault, name it, and give the cue. Teaching it proves they understand it.",
+        "nextLessonId": "thr-07"
+      },
+      "tags": [
+        "throws sidearm",
+        "elbow drops",
+        "short arm",
+        "pushes the ball",
+        "steps across the body",
+        "throws off the back foot",
+        "wild throws",
+        "weak throws",
+        "fix throwing",
+        "throwing faults",
+        "towel drill",
+        "ages 9-12"
+      ],
+      "drillIds": [
+        "drill-thr-16"
+      ]
+    }
+  ]
+}

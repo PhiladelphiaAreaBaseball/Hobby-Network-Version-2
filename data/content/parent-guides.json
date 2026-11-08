@@ -1,0 +1,1721 @@
+{
+  "$schema": "parent_guide",
+  "items": [
+    {
+      "id": "pg-01",
+      "title": "How to Play Catch With Your Child",
+      "summary": "The single most useful thing you can do at home: a short, close, gentle game of catch, explained for a parent who has never thrown a baseball.",
+      "category": "throwing",
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10"
+      ],
+      "pathwayStep": 3,
+      "durationMin": 15,
+      "video": {
+        "status": "placeholder",
+        "note": "A parent and a six-year-old playing catch 12 feet apart with a tennis ball, showing the glove-up position, a chest-high underhand toss, and the two-hand catch."
+      },
+      "intro": [
+        "Playing catch is the heart of baseball, and it is the one thing you can do at home every week that helps more than anything else. You do not need to throw well yourself. You need to stand close, toss gently, and pay attention.",
+        "A good game of catch has a rhythm: the ball goes back and forth, nobody chases it very far, and your child feels successful most of the time. That success is the whole point. Arm strength and speed come later, on their own."
+      ],
+      "whatToDo": [
+        "Start close. Stand about 10 to 15 feet apart, roughly the length of a parked car. If the ball is flying over heads or bouncing short, you are too far apart, not bad at this.",
+        "Use a soft ball for ages 4 to 8: a tennis ball, a foam ball, or a 'safety ball' (a baseball with a soft core). Save the hard baseball for older kids who already catch well.",
+        "Before the first throw, have your child hold the glove open and facing you, like a big hand saying 'stop.' Say 'show me the pocket' and wait until you can see the inside of the glove.",
+        "Throw underhand at first, aiming for the chest. A chest-high toss is the easiest ball to catch. Once your child catches 8 out of 10, switch to a gentle overhand throw.",
+        "Ask your child to catch with two hands: the glove catches, the bare hand covers the ball like a lid. Then they take the ball out and throw it back to your chest.",
+        "Give one target for the throw back: hold your glove or both hands up at your chest and say 'hit my glove.' Praise throws that reach you, even if they are not pretty.",
+        "Keep it short. Ten minutes of good catch beats thirty minutes that ends in tears. Stop while your child still wants more.",
+        "Count catches together, not misses. 'That is six in a row. Let's get to ten.'"
+      ],
+      "whatToSay": [
+        "Show me the pocket.",
+        "Two hands, like an alligator closing its mouth.",
+        "Watch the ball all the way into your glove.",
+        "Step toward me, then throw.",
+        "Hit my glove.",
+        "Six in a row! Let's get to ten."
+      ],
+      "whatToWatchFor": [
+        "The glove is open and facing you before you throw, instead of hanging at their side.",
+        "Their eyes follow the ball into the glove rather than turning away at the last second.",
+        "The bare hand comes over the glove to trap the ball, so fewer balls pop out.",
+        "Throws back start to arrive near your chest instead of at your feet or over your head.",
+        "They ask to keep going. Enjoyment is a sign it is working."
+      ],
+      "whatToAvoid": [
+        "Standing too far away. Most of the frustration in a game of catch comes from distance. Move closer the moment things get messy.",
+        "Throwing too hard or too fast. Your 'easy' is still fast to a six-year-old. Toss slower than feels natural.",
+        "Saying 'just catch it' or 'watch the ball' over and over. If they could, they would. Give one specific thing to do instead, like 'glove up before I throw.'",
+        "Correcting three things at once. Pick one cue for the whole session and let everything else go.",
+        "Turning every game of catch into a lesson. Some days, just play catch and talk about their day."
+      ],
+      "ifStruggling": [
+        "Take the glove off and play catch with a soft ball using bare hands. Gloves are stiff and awkward; two bare hands teach catching faster at first.",
+        "Roll the ball back and forth on the ground, then bounce it once before they catch it. A bounce slows the ball down and gives them time.",
+        "Drop the ball from just above their open glove so they only have to close on it. Then step back one pace at a time.",
+        "Switch to a balloon or a beach ball for a few minutes. It floats slowly and builds the habit of tracking with the eyes."
+      ],
+      "makeItFun": [
+        "Catch Countdown: start at 10 and count down one for each catch; a drop sends you back up two. Celebrate at zero with a silly dance.",
+        "Around the World: catch at the chest, then knee height, then above the head, then to the left and right. One catch at each spot wins the round.",
+        "Step Back Catch: each clean catch earns one step back; a drop means one step forward. See how far apart you get in five minutes."
+      ],
+      "equipment": [
+        "tennis_ball",
+        "glove"
+      ],
+      "relatedLessonIds": [
+        "thr-09",
+        "thr-05",
+        "fld-19",
+        "fld-04",
+        "thr-11"
+      ],
+      "tags": [
+        "how to play catch with my child",
+        "playing catch",
+        "my kid can't catch",
+        "how to teach catching",
+        "first game of catch",
+        "catch at home",
+        "glove up",
+        "tennis ball catch",
+        "catch for beginners",
+        "two hand catch"
+      ]
+    },
+    {
+      "id": "pg-02",
+      "title": "How to Teach Throwing Mechanics",
+      "summary": "Point, step, throw: the three-part throwing motion broken down so a parent with no baseball background can teach it one piece at a time.",
+      "category": "throwing",
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10"
+      ],
+      "pathwayStep": 4,
+      "durationMin": 15,
+      "video": {
+        "status": "placeholder",
+        "note": "Slow-motion side view of a child turning sideways, pointing the glove at the target, stepping with the glove-side foot, and throwing with the elbow at shoulder height, then a parent checking the finish."
+      },
+      "intro": [
+        "A throw looks like one motion, but it is really three small ones: point, step, throw. If you can learn those three words, you can teach throwing. You never have to demonstrate a perfect throw yourself.",
+        "Young children often 'push' the ball like a dart, with the chest facing the target and the elbow low. That is normal. The fix is to turn them sideways and give them one thing to think about at a time."
+      ],
+      "whatToDo": [
+        "Figure out which hand throws. Hand your child a ball and watch which hand they use to toss it. That is the throwing hand; the other hand is the glove hand. For a right-handed thrower, the left foot is the stepping foot.",
+        "Teach the grip with a picture: find the horseshoe-shaped seam and lay the first two fingers across it, thumb underneath. Leave a small gap between the ball and the palm, 'like holding an egg you do not want to crack.' With small hands, three fingers across the seam is fine.",
+        "Start sideways. Have your child turn so their glove-side shoulder points at you. If their chest faces you, they will push the ball like a dart. Say 'point your shoulder at me.'",
+        "Teach 'point, step, throw' slowly, with no ball at first. Point the glove hand at the target, step toward the target with the glove-side foot, then throw. Do it three times in slow motion, then with a ball.",
+        "Watch the arm: it should swing down past the hip, back, and up so the elbow is about as high as the shoulder when the ball comes forward. If the elbow stays low, say 'show the ball to the sky' before the throw.",
+        "Finish the throw. The throwing hand should end up low, near the opposite knee, and the back foot should drag forward. Say 'pick up the grass' for the finish.",
+        "Stand 10 to 20 feet away and hold a target at your chest. Give one cue per session. If today's cue is the step, ignore the elbow for now.",
+        "Keep the total under 25 to 30 throws, and stop if your child says their arm feels tired or you see them rubbing it."
+      ],
+      "whatToSay": [
+        "Egg grip. Don't crack it.",
+        "Point your shoulder at me.",
+        "Point, step, throw.",
+        "Show the ball to the sky.",
+        "Pick up the grass.",
+        "Hit my glove."
+      ],
+      "whatToWatchFor": [
+        "They turn sideways on their own before throwing, without being reminded.",
+        "The glove-side foot steps toward you, not sideways and not the wrong foot.",
+        "The elbow rises to roughly shoulder height as the arm comes forward, so the ball comes from above the shoulder rather than from the hip.",
+        "Throws land near your chest from 20 feet with a little arc, not a lob and not a line drive at your shins.",
+        "They can explain 'point, step, throw' back to you in their own words."
+      ],
+      "whatToAvoid": [
+        "Giving three corrections at once ('grip, elbow, feet!'). A child can hold one idea per throw. Pick one.",
+        "Fixing the throw during a game of catch every single time. Let several throws go by without comment.",
+        "Asking for more speed. 'Throw harder' makes kids muscle the ball and lose the form you just taught. Speed comes from good form repeated.",
+        "Letting them throw flat-footed with the chest forward because it is 'close enough.' Turning sideways is the one habit worth guarding.",
+        "Big throwing volume. Thirty throws with good form is plenty; a hundred throws is too many for a young arm."
+      ],
+      "ifStruggling": [
+        "Use a rolled-up sock ball or a tennis ball and throw at a wall from 8 feet away. There is nothing to chase and nothing to fear.",
+        "Do 'point, step, throw' with no ball at all, like a dance move, until they can do it with their eyes closed.",
+        "Put a shoe or a piece of tape on the ground where the stepping foot should land. A visual target fixes most footwork problems without words.",
+        "Have them kneel on the throwing-side knee and throw with just the arm and upper body for a few throws. This takes the feet out of the puzzle for a moment."
+      ],
+      "makeItFun": [
+        "Target Practice: draw chalk circles on a wall or hang a towel over a fence. One point for the towel, three for the circle. First to 10 wins.",
+        "Knock It Down: stack three empty plastic cups or water bottles on an upside-down bucket and knock them off from 15 feet.",
+        "Statue Throws: freeze at 'point,' freeze at 'step,' then throw. You call out 'Statue!' at random moments and inspect the pose."
+      ],
+      "equipment": [
+        "ball",
+        "glove"
+      ],
+      "relatedLessonIds": [
+        "thr-01",
+        "thr-02",
+        "thr-03",
+        "thr-05",
+        "thr-15"
+      ],
+      "tags": [
+        "how do I teach a 7 year old to throw",
+        "how to throw a baseball",
+        "throwing mechanics for kids",
+        "my kid throws like a dart",
+        "point step throw",
+        "four seam grip",
+        "elbow too low",
+        "kid throws sidearm",
+        "teach my son to throw",
+        "teach my daughter to throw"
+      ]
+    },
+    {
+      "id": "pg-03",
+      "title": "How to Roll Ground Balls Properly",
+      "summary": "How to kneel, roll, and set up your child so a rolled ground ball is easy to field, which is the first fielding skill every child learns.",
+      "category": "fielding",
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10"
+      ],
+      "pathwayStep": 5,
+      "durationMin": 10,
+      "video": {
+        "status": "placeholder",
+        "note": "A parent kneeling 12 feet from a child, rolling a soft ball underhand along the grass while the child waits in the ready position with the glove on the ground, fingers down."
+      },
+      "intro": [
+        "Rolling a ground ball sounds too simple to need a guide. But how you roll it decides whether your child learns to field or learns to flinch. A smooth, slow roll from a low position is a gift; a bouncing ball thrown from standing height is a scare.",
+        "Your job here is to be a reliable ball machine with a kind voice. Same spot, same speed, same cue, over and over."
+      ],
+      "whatToDo": [
+        "Get low yourself. Kneel on one knee or squat, about 10 to 12 feet from your child. A ball rolled from standing height bounces; a ball rolled from knee height stays on the ground.",
+        "Roll underhand with your palm facing up, and let the ball leave your fingertips smoothly. Aim for a steady roll that reaches your child's feet without stopping short or racing past.",
+        "Set your child up first: feet wider than shoulders, knees bent, bottom down, glove open on the ground in front of them with the fingers pointing down. Say 'show me your ready position' before every roll.",
+        "Roll the first ten straight at the glove. Only after they field those cleanly should you roll a few one step to the left or right.",
+        "Ask for two hands: the glove scoops, the bare hand covers like a lid, then they bring the ball up to their belly. Call it 'the funnel.'",
+        "Let them stand up and make an easy throw back to you, or just toss it back underhand. The throw matters less than the scoop right now.",
+        "Match the surface to the ball. On grass, roll a little firmer because grass slows the ball. On a driveway, use a tennis ball and roll softer.",
+        "Ten to fifteen rolls is a full session for a young child. Stop on a clean scoop."
+      ],
+      "whatToSay": [
+        "Show me your ready position.",
+        "Fingers down, glove on the grass.",
+        "Alligator hands: glove on the bottom, hand on top.",
+        "Funnel it to your belly.",
+        "Watch it into the glove.",
+        "Nice scoop!"
+      ],
+      "whatToWatchFor": [
+        "The glove touches the ground before the ball arrives, not after.",
+        "Their head stays down watching the ball instead of popping up to look at you.",
+        "Their bottom gets low with bent knees instead of bending only at the waist like a straight-legged bow.",
+        "The bare hand comes over the top so the ball stays in the glove.",
+        "They move their feet to get in front of a ball rolled slightly to the side."
+      ],
+      "whatToAvoid": [
+        "Rolling too hard or bouncing the ball. A ball that hops toward the face teaches fear, not fielding. Smooth and slow first.",
+        "Standing too far away. Twelve feet is plenty. Distance makes the roll bumpy and the child's attention wander.",
+        "Saying 'get in front of it' without showing what that means. Walk over and gently set their feet with your hands if you need to.",
+        "Rolling the next ball before they are back in the ready position. Rushing turns practice into chasing.",
+        "Using a hard baseball with a young child on hard ground. Reach for a tennis ball or a soft safety ball instead."
+      ],
+      "ifStruggling": [
+        "Take the glove away and let them scoop a tennis ball with two bare hands. It is easier to feel the ball.",
+        "Roll slower and from closer, about 6 feet, so they have time to get the glove down.",
+        "Have them start with the glove already on the ground and just let the ball roll into it. No movement required.",
+        "Use a bigger ball, like a playground ball, for a few rolls to build the habit of getting low and watching."
+      ],
+      "makeItFun": [
+        "Goalie: put two shoes 6 feet apart as a goal. Your child is the goalie; every ball that gets through is a point for you. Ten rolls, see who wins.",
+        "Hot Potato Scoop: field the ball and get it back to you as fast as possible; count how many clean round trips you make in one minute.",
+        "Word Scoop: roll the ball and shout a letter; they field it and shout a word that starts with that letter before throwing back."
+      ],
+      "equipment": [
+        "tennis_ball",
+        "glove"
+      ],
+      "relatedLessonIds": [
+        "fld-03",
+        "fld-02",
+        "fld-04",
+        "fld-01"
+      ],
+      "tags": [
+        "how to roll ground balls",
+        "ground balls for kids",
+        "teach my kid to field",
+        "fielding at home",
+        "ready position",
+        "alligator hands",
+        "my kid is scared of ground balls",
+        "rolled grounders",
+        "tee ball fielding",
+        "how to practice grounders with a 5 year old"
+      ]
+    },
+    {
+      "id": "pg-04",
+      "title": "How to Help a Child Field a Baseball",
+      "summary": "Moving past rolled balls: the fielding triangle, fingers-down glove rule, moving the feet, and the glove-to-hand transfer, with a safe way to feed balls at home.",
+      "category": "fielding",
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "pathwayStep": 6,
+      "durationMin": 15,
+      "video": {
+        "status": "placeholder",
+        "note": "A nine-year-old fielding tossed ground balls in the backyard: the fielding triangle from the front, the right-left-field approach from the side, and the funnel-and-throw in one motion."
+      },
+      "intro": [
+        "Once rolled balls are easy, fielding becomes a sequence: get ready, move the feet, get the glove down and out front, catch with two hands, bring the ball to the belly, throw. Each piece can be taught on its own in the backyard.",
+        "You do not need to hit balls with a bat to do this. Tossing by hand is safer, more accurate, and easier to control. Coaches use hand tosses with professionals for the same reason."
+      ],
+      "whatToDo": [
+        "Review the ready position: feet wider than shoulders, knees bent, weight on the balls of the feet, hands out in front. From here your child can move either way.",
+        "Teach the fielding triangle. The two feet, wide apart, are two points; the glove out in front on the ground is the third point. If the glove is back between the feet, it is too far back. Say 'glove out front, make the triangle.'",
+        "Teach the glove rule: fingers point down for a ball below the waist, fingers point up for a ball above the waist. Have them show you both with no ball.",
+        "Progress the ball: first roll it, then toss it underhand so it takes one or two bounces, then toss from farther away so it bounces more. Move to the next stage only when 8 out of 10 are clean.",
+        "Teach the approach: 'right, left, field' for a right-handed thrower (left, right, field for a lefty). Start a few steps back; as the ball comes, step right foot, left foot, then field with the glove out front. Then 'funnel' the ball to the belly.",
+        "Add the throw: after fielding, they step toward you with the glove-side foot and throw to your chest. Stay close, 20 to 30 feet, so the throw is easy.",
+        "Add variety one piece at a time: a ball to the glove side, a ball to the backhand side (across the body), a slow roller they must run in on. One new look per session, not all three.",
+        "Keep balls soft for ages 7 and 8, and never hit hard balls at a child in a small space."
+      ],
+      "whatToSay": [
+        "Ready position. Show me your hands.",
+        "Make the triangle.",
+        "Fingers down for low, fingers up for high.",
+        "Right, left, field.",
+        "Funnel it, then throw.",
+        "Play the ball. Don't let it play you."
+      ],
+      "whatToWatchFor": [
+        "The glove is out in front of the feet, not under the body, when the ball arrives.",
+        "They bend at the knees so their eyes stay level and low, rather than only bending at the waist.",
+        "Fingers point down for ground balls without a reminder.",
+        "They move their feet to get in front of a ball hit to the side instead of reaching with a stiff arm.",
+        "The ball goes from glove to throwing hand in one smooth motion near the belly, and the throw follows without a long pause."
+      ],
+      "whatToAvoid": [
+        "Hitting ground balls with a bat before they can handle tosses. A mishit ball off a bat comes faster and bouncier than you intend.",
+        "Standing 50 feet away because that is what the field looks like on TV. Close is better; your rolls and tosses stay accurate.",
+        "Coaching every rep. Say something after every third or fourth ball at most. Silence lets them feel the play.",
+        "Rushing the throw. Field first, then throw. A quick throw with a dropped ball is worse than a slow, clean play.",
+        "Blaming the child for a stiff new glove. If the glove will not close, work it with your hands or play catch with it for a week before expecting it to catch."
+      ],
+      "ifStruggling": [
+        "Go back to rolled balls from a knee for a full session. There is no shame in it; big leaguers field rolled balls in warm-ups.",
+        "Lay a towel on the ground out in front of their feet as the 'triangle point.' They field every ball with the glove touching the towel.",
+        "Use a tennis ball on a driveway for predictable bounces that are easy to read.",
+        "Practice the transfer by itself: ball in glove, pull it out to the throwing hand ten times fast, no throw. Then add the throw."
+      ],
+      "makeItFun": [
+        "Twenty-One: 1 point for a clean field, 2 for a clean field plus a chest-high throw. First to 21 wins; you play too and your child rolls to you.",
+        "Wall Ball Reflex: they throw a tennis ball against a wall and field the rebound. Count catches in a row and beat yesterday's record.",
+        "Backhand Bonus: a regular ball is 1 point, a backhand is 3 points. They start asking for backhands."
+      ],
+      "equipment": [
+        "ball",
+        "glove"
+      ],
+      "relatedLessonIds": [
+        "fld-02",
+        "fld-04",
+        "fld-08",
+        "fld-05",
+        "fld-14"
+      ],
+      "tags": [
+        "how to help my child field a baseball",
+        "fielding tips for kids",
+        "ground ball fundamentals",
+        "fielding triangle",
+        "fingers down fingers up",
+        "my kid reaches instead of moving",
+        "how to practice fielding at home",
+        "infield practice at home",
+        "transfer glove to hand",
+        "backhand for kids"
+      ]
+    },
+    {
+      "id": "pg-05",
+      "title": "How to Introduce Batting",
+      "summary": "Safe first swings: a safety zone, a light bat, the knocking-knuckles grip, a simple stance, and tee work with soft balls before anything moves.",
+      "category": "hitting",
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "pathwayStep": 7,
+      "durationMin": 15,
+      "video": {
+        "status": "placeholder",
+        "note": "A parent setting a safety zone, checking a bat's weight with the ten-second hold, lining up a five-year-old's knocking knuckles, and five tee swings into a hanging blanket."
+      },
+      "intro": [
+        "Batting is the part kids want most and the part parents worry about most. Both feelings are correct. The bat is the only piece of equipment in the backyard that can really hurt someone, so the first lesson is always where everyone stands.",
+        "After safety, early hitting is about three things: a bat light enough to swing fast, hands placed correctly, and eyes on the ball. Everything you see on TV, the stride, the hips, the follow-through, comes years later."
+      ],
+      "whatToDo": [
+        "Set a safety zone before anything else. Nobody stands within two bat lengths of the hitter, and the bat swings only when you say 'hitter ready.' Teach 'bat down' when the swing is done: lay it down, never throw it.",
+        "Pick a light bat: your child should be able to hold it straight out to the side with one hand on the handle for ten seconds without the end drooping. A light bat teaches a good swing; a heavy bat teaches a bad one.",
+        "Teach the grip. For a right-handed hitter, the left hand goes on the bottom of the handle and the right hand stacks on top, touching it. Line up the middle knuckles of both hands roughly, the 'knocking knuckles,' as if knocking on a door. Hold the bat in the fingers, not deep in the palms.",
+        "Set the stance: feet a little wider than shoulders, knees soft, body sideways to the tee, hands up by the back shoulder. The front shoulder points where the ball should go.",
+        "Put the tee at belly-button height with the ball a little in front of the front foot. Use a soft ball or a tennis ball, and hit toward a fence, a net, or an open yard.",
+        "Have them swing and keep watching the spot where the ball was. Say 'eyes on the ball' and then 'nose to the ball' so the head stays still. Five swings, then a break.",
+        "When tee swings are steady, kneel to the side and gently toss underhand (soft toss) so the ball arrives at the same spot. Still soft balls, still outdoors, and a helmet on for anything tossed.",
+        "End with three swings they are proud of, and let them pick their favorite."
+      ],
+      "whatToSay": [
+        "Hitter ready?",
+        "Knocking knuckles.",
+        "Feet wide, knees soft.",
+        "Eyes on the ball. Nose to the ball.",
+        "Hit the ball, not the tee.",
+        "Bat down. Nice."
+      ],
+      "whatToWatchFor": [
+        "They pick up the bat with the correct hand on the bottom without being told.",
+        "They hit the ball more often than the tee; hitting the tee means the swing is too low or the eyes left early.",
+        "The head stays still and the eyes stay on the tee until after contact.",
+        "They swing with the body turning, not only the arms, so the belly button ends up facing the field.",
+        "They lay the bat down after the swing instead of flinging it."
+      ],
+      "whatToAvoid": [
+        "Buying a heavy or long bat 'to grow into.' A bat that is too heavy ruins the swing and the fun. Lighter is better at every young age.",
+        "Standing where the bat can reach you. Stay behind the hitter or well to the side, especially during soft toss.",
+        "Giving three swing tips at once. Grip one day, stance another day. One cue per session.",
+        "Narrating results ('you popped it up again'). Comment on the swing, not where the ball went, at this age.",
+        "Pitching hard balls to a five-year-old. The tee and soft toss with soft balls are the whole menu for ages 4 to 6."
+      ],
+      "ifStruggling": [
+        "Shadow swings: no ball, no tee. Ten slow swings in front of a window reflection or a phone camera, checking that the hands and feet are in the right place.",
+        "Put a bigger, softer ball on the tee, like a foam ball or a small playground ball, so contact is easier and louder.",
+        "Lower the tee a little so the ball sits between the knees and the belly button if they keep swinging under it.",
+        "Hold the bat with them from behind for three swings so they feel the path, then let go."
+      ],
+      "makeItFun": [
+        "Home Run Derby: five swings, with points for distance zones you mark with shoes: 1, 2, 3. Celebrate every zone.",
+        "Color Call: put a colored dot sticker on the ball; they call out the color as they hit it. It trains the eyes without anyone saying 'watch the ball.'",
+        "Knock the Box: set an empty cardboard box 15 feet away as a target; hitting it earns a point, hitting the tee loses one."
+      ],
+      "equipment": [
+        "bat",
+        "tee",
+        "soft_ball",
+        "helmet"
+      ],
+      "relatedLessonIds": [
+        "hit-01",
+        "hit-02",
+        "hit-13",
+        "hit-10",
+        "hit-15"
+      ],
+      "tags": [
+        "how to introduce batting",
+        "how to teach a child to hit",
+        "first bat for a 5 year old",
+        "tee ball hitting at home",
+        "knocking knuckles grip",
+        "what size bat for my kid",
+        "my kid keeps hitting the tee",
+        "hitting practice in the backyard",
+        "soft toss",
+        "teach my 6 year old to hit"
+      ]
+    },
+    {
+      "id": "pg-06",
+      "title": "How to Teach the Bases",
+      "summary": "Which way to run, touching every base, running through first, and looking at the coach: the baserunning basics for a backyard diamond made of shoes.",
+      "category": "baserunning",
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "pathwayStep": 8,
+      "durationMin": 10,
+      "video": {
+        "status": "placeholder",
+        "note": "A backyard diamond made of four shoes; a parent walks a five-year-old around the bases naming each one, then the child sprints through first base to a finish-line shoe."
+      },
+      "intro": [
+        "Every parent has watched a tee baller hit the ball and run straight to third base. It is funny once. Teaching the bases at home, with a diamond made of shoes, means your child will know where to go when the moment comes.",
+        "Keep it physical and simple: walk it, run it, touch every base, and run through first. The finer rules come later, one at a time."
+      ],
+      "whatToDo": [
+        "Build a mini diamond. Use four shoes, pieces of cardboard, or chalk marks about 20 to 30 big steps apart in a square. Home plate is where the hitter stands; first base is to the hitter's right.",
+        "Walk it first. Hold their hand and walk from home to first to second to third and back home, saying each base out loud. The bases always go counterclockwise; make a big circle in the air with your arm to show it.",
+        "Teach that a foot must touch every base. Have them stomp each base like a giant for one lap; the stomp makes the habit stick.",
+        "Teach 'run through first.' First base is the one base you do not stop on: they sprint past it like a finish line and slow down afterward. Set a shoe 15 feet past first base as the real finish line.",
+        "Teach 'stop and look' at second and third. When they reach the base, they stop on it and look at the coach (you) for the sign: two hands up means stop, an arm circling means keep going.",
+        "Play the coach: stand near third base and give the signals. Mix them up so they learn to look at you instead of guessing.",
+        "Teach the simplest rule they will hear on the field: when the ball is caught in the air, go back to your base; when it hits the ground, run. Practice it by tossing a ball up and either catching it or letting it drop.",
+        "Keep laps short. Three or four trips around a backyard diamond is a lot of sprinting for a young child."
+      ],
+      "whatToSay": [
+        "Home, first, second, third, home.",
+        "Touch every base.",
+        "Run through first. Don't stop!",
+        "Stop and look at me.",
+        "Ball in the air, stay. Ball on the ground, go.",
+        "Which way do we run? That way!"
+      ],
+      "whatToWatchFor": [
+        "They run toward first base, not toward third, every time, without hesitating at home.",
+        "Their foot hits each base instead of running a wide circle around it.",
+        "They keep sprinting through first and slow down after it, instead of stopping on the bag.",
+        "They pick up their head at second and third to look at you for a signal.",
+        "They can tell you what to do if the ball is caught in the air."
+      ],
+      "whatToAvoid": [
+        "Two adults yelling 'go!' and 'stop!' at the same time. One voice, one signal.",
+        "Teaching sliding right away. Sliding on a lawn without instruction means scrapes. Running the bases comes first; sliding is a later lesson.",
+        "Making the bases too far apart. A tired five-year-old stops listening. Shorten the diamond for little legs.",
+        "Explaining every baserunning rule in one afternoon. Direction, touching bases, and running through first are enough for the first few weeks.",
+        "Letting them stop on first base because 'the play is over.' Running through first is a habit that has to be built early."
+      ],
+      "ifStruggling": [
+        "Put a bright object, like a cone or a colored towel, on first base so they always know where to run first.",
+        "Run beside them holding their hand and saying the base names out loud for the first few laps.",
+        "Shrink the diamond to 10 steps per side and play 'touch every base' as a game of tag.",
+        "Practice only home to first: ten sprints through the base to a finish-line shoe, nothing else."
+      ],
+      "makeItFun": [
+        "Race the Clock: time one lap with your phone. Each day they try to beat the record by one second, and you are a generous timer.",
+        "Red Light, Green Light on the Bases: they run on 'green' and freeze on 'red.' Freezing on a base earns a bonus point.",
+        "Pizza Run: each base is a pizza topping. They shout the topping as they touch it: 'cheese, pepperoni, mushroom, home!'"
+      ],
+      "equipment": [
+        "bases"
+      ],
+      "relatedLessonIds": [
+        "run-10",
+        "run-01",
+        "run-02",
+        "run-07",
+        "run-08"
+      ],
+      "tags": [
+        "how to teach the bases",
+        "which way do you run the bases",
+        "run through first base",
+        "baserunning for kids",
+        "my kid ran to third base",
+        "teach a 5 year old to run the bases",
+        "tee ball baserunning",
+        "touch every base",
+        "base coach signals",
+        "backyard baseball bases"
+      ]
+    },
+    {
+      "id": "pg-07",
+      "title": "How to Teach Catching Fly Balls",
+      "summary": "Fingers to the sky, get under it, two hands, and call for it: how to toss fly balls by hand so your child learns to catch them without learning to fear them.",
+      "category": "fielding",
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10"
+      ],
+      "pathwayStep": null,
+      "durationMin": 15,
+      "video": {
+        "status": "placeholder",
+        "note": "A parent 10 feet away tossing a tennis ball in a low arc while a seven-year-old holds the glove up like a sun visor, calls 'mine,' and catches with two hands in front of the forehead."
+      },
+      "intro": [
+        "A ball coming down out of the sky is the scariest thing in baseball for a young child, and the most common place fear starts. The good news is that fly balls are easy to practice safely: you toss them by hand, with a tennis ball, from close by.",
+        "The whole skill is getting the glove up early, moving the feet so the body is under the ball, and watching the ball into the glove. Height and distance come much later."
+      ],
+      "whatToDo": [
+        "Use a tennis ball or a soft training ball. A tennis ball on the nose is a surprise, not an injury, and your child knows it.",
+        "Start with the glove up: fingers pointing to the sky, pocket facing the ball, held just above and in front of the forehead like a sun visor. Have them show you this position before the first toss.",
+        "Stand 10 feet away and toss underhand so the ball peaks about 6 to 8 feet in the air and comes down right to the glove. No movement needed yet.",
+        "Teach two hands: the bare hand covers the ball as it lands in the glove. Say 'close the alligator.' Then they toss it back.",
+        "Teach them to catch slightly in front of the face, not directly overhead, so they can see the ball and the glove at the same time. A catch straight over the head means they lost sight of the ball.",
+        "Add the call. Before the ball comes down, they yell 'mine!' or 'I got it!' three times. It feels silly at home and prevents collisions on the field.",
+        "Once they catch 8 of 10 standing still, toss one step to the left or right so they must move their feet under the ball first, then catch.",
+        "Raise the height a little at a time. Higher tosses are harder to judge; go up only when the current height is easy."
+      ],
+      "whatToSay": [
+        "Fingers to the sky.",
+        "Get under it.",
+        "Catch it in front of your eyes.",
+        "Mine, mine, mine!",
+        "Two hands. Close the alligator.",
+        "Watch it all the way in."
+      ],
+      "whatToWatchFor": [
+        "The glove is up with fingers pointing up before the ball reaches its highest point.",
+        "Their feet move first and the catch happens with the body under the ball, not with a long reach.",
+        "They keep their eyes open on the ball into the glove instead of blinking or turning their head away.",
+        "They call for the ball out loud without being reminded.",
+        "They catch slightly in front of the forehead and bring the ball down to the chest with two hands."
+      ],
+      "whatToAvoid": [
+        "Hitting fly balls with a bat to a young child. Hit balls come down hard and wild. Toss underhand until they are 9 or 10 and catching with confidence.",
+        "Throwing the ball too high to start. A high ball looks exciting but is much harder to judge. Low, slow arcs first.",
+        "Using a hard baseball with a child who is still flinching. Fear sticks around a long time. Tennis ball until there is no flinch.",
+        "Saying 'don't be scared.' Say 'glove up, I'll toss it soft.' Give them something to do.",
+        "Standing far apart so the ball floats a long way. Ten feet is right; farther is harder for both of you to be accurate."
+      ],
+      "ifStruggling": [
+        "Have them toss the ball up to themselves, just a foot or two, and catch it with two bare hands. Then with the glove. Then you toss.",
+        "Use a balloon or a beach ball. It floats slowly, so they can practice getting under it and raising the glove at the right time.",
+        "Stand very close, 5 feet, and simply drop the ball into their raised glove from above their head so they feel the catch position.",
+        "Let them catch a few with a bare hand and no glove. Gloves are stiff and the ball bounces out; bare-hand catches build confidence."
+      ],
+      "makeItFun": [
+        "Sky Ball Points: 1 point for a regular catch, 2 for a catch after moving, 3 for a catch while calling 'mine!' loud enough to make the neighbors look.",
+        "Pop-Up Bingo: catch one at the chest, one above the head, one to the left, one to the right. Fill the card and win.",
+        "Ten in a Row: count catches in a row; a drop resets to zero. Set a record and write it on the fridge."
+      ],
+      "equipment": [
+        "tennis_ball",
+        "glove"
+      ],
+      "relatedLessonIds": [
+        "fld-10",
+        "fld-19",
+        "fld-04",
+        "fld-12",
+        "fld-11"
+      ],
+      "tags": [
+        "how to teach catching fly balls",
+        "my kid is afraid of fly balls",
+        "pop fly practice at home",
+        "fly balls for kids",
+        "fingers up catching",
+        "call the ball",
+        "tennis ball fly balls",
+        "outfield practice for 7 year old",
+        "how to catch a pop up",
+        "get under the ball"
+      ]
+    },
+    {
+      "id": "pg-08",
+      "title": "How to Run a Backyard Practice",
+      "summary": "A 15-to-25-minute home practice that works: warm-up, catch, one skill, a game. Short enough that your child is sad when it ends.",
+      "category": "general",
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "pathwayStep": null,
+      "durationMin": 20,
+      "video": {
+        "status": "placeholder",
+        "note": "A time-lapse of a 20-minute backyard practice: two-minute warm-up jog and arm circles, five minutes of catch, eight minutes of rolled grounders, five-minute Goalie game, and a one-question wrap-up."
+      },
+      "intro": [
+        "You do not need a field, a bucket of balls, or a plan from a coaching book. You need 20 minutes, a ball, and four lines on an index card. The best home practices are short, predictable, and end with a game.",
+        "Think of it as a sandwich: a quick warm-up and catch on one side, a game on the other, and one skill in the middle. Just one."
+      ],
+      "whatToDo": [
+        "Plan 15 to 25 minutes total. Write four lines on an index card: warm-up, catch, one skill, game. That card is the whole practice plan.",
+        "Warm up for 2 to 3 minutes: jog to the fence and back, arm circles, a few jumping jacks. Then easy underhand tosses before any real throws.",
+        "Play catch for 5 minutes at a comfortable distance. This is the most important block every single day; if you only have 5 minutes, this is the 5 minutes.",
+        "Work on one skill for 5 to 8 minutes. One, not three. Rolled ground balls one day, tee swings the next, fly balls the day after. If you know what the coach worked on at the last practice, use that.",
+        "Finish with a 5-minute game that uses the skill: a points contest, a race against the clock, a silly challenge. The game is the part they will remember and ask for again.",
+        "Count throws. Aim for 30 to 40 total throws in a backyard session for a young child, and fewer if they also had team practice or a game that day.",
+        "Cool down with a one-minute walk and one question: 'What was your favorite part?' Then put the gear away together.",
+        "Keep a simple log on the fridge: date, skill, one note. After a month you will both see progress you had forgotten."
+      ],
+      "whatToSay": [
+        "Four things today: warm-up, catch, grounders, game.",
+        "Your pick: tee or grounders?",
+        "Twenty throws, then the game.",
+        "That's the plan. Let's go.",
+        "Best part of today?"
+      ],
+      "whatToWatchFor": [
+        "They start getting their glove and ball out before you ask. The routine is working.",
+        "The skill block carries over: the fielding triangle you worked on Tuesday shows up in Thursday's game of catch.",
+        "They ask to play the game again next time. That is the hook that brings them back outside.",
+        "They stay engaged for the whole session without wandering off, a sign the pace and length are right."
+      ],
+      "whatToAvoid": [
+        "Covering hitting, throwing, fielding, and baserunning in one session. Each gets two minutes and nothing sticks.",
+        "Practicing every day. Two or three short sessions a week, plus team practice, is plenty. Rest days are part of training.",
+        "Letting it turn into a two-hour marathon because the weather is nice. Twenty-five minutes, then free play or go inside.",
+        "Skipping the game at the end because 'we ran out of time.' Cut the skill block instead. The game is the reward.",
+        "Hitting hard baseballs toward the house, cars, or siblings. Soft balls in the yard; hard balls at the field."
+      ],
+      "ifStruggling": [
+        "Cut it to 10 minutes: warm-up, catch, game. Skip the skill block entirely for a week.",
+        "Let your child be the coach and run the practice while you follow instructions. Children who resist practice often love being in charge of it.",
+        "Move the whole practice to a park with more room so nobody is worried about windows.",
+        "Do just the game. A 10-minute game that happens beats a 25-minute practice that does not."
+      ],
+      "makeItFun": [
+        "Practice Bingo: a card with nine squares like 'catch 5 in a row,' 'hit the tee ball past the tree,' 'field 3 grounders clean.' Mark squares across sessions and earn a reward for a row.",
+        "Mystery Skill: write skills on slips of paper and let your child draw one from a hat for today's skill block.",
+        "Parent Versus Kid: you take a turn in every challenge. Children love watching a parent miss."
+      ],
+      "equipment": [
+        "tennis_ball",
+        "glove"
+      ],
+      "relatedLessonIds": [
+        "thr-09",
+        "fld-03",
+        "hit-13",
+        "run-10",
+        "thr-11"
+      ],
+      "tags": [
+        "how to run a backyard practice",
+        "baseball practice at home",
+        "practice plan for kids",
+        "how long should practice be",
+        "what to do at baseball practice with my kid",
+        "20 minute baseball practice",
+        "home practice routine",
+        "backyard baseball drills",
+        "practice ideas for 8 year old",
+        "my kid hates practice"
+      ]
+    },
+    {
+      "id": "pg-09",
+      "title": "How to Practice Without a Batting Cage",
+      "summary": "A hanging blanket, plastic balls, a tee, and soft toss: real hitting practice in a backyard or driveway with nothing to chase and nothing to break.",
+      "category": "hitting",
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "pathwayStep": null,
+      "durationMin": 15,
+      "video": {
+        "status": "placeholder",
+        "note": "A hitting corner built from a blanket hung on a fence: tee swings into the blanket, a parent kneeling to the side for soft toss, and front toss from behind a laundry basket shield."
+      },
+      "intro": [
+        "Batting cages are great and completely optional. A blanket hung over a fence catches a ball hit from 6 feet away and drops it at your feet. Plastic balls with holes and tennis balls fly short and hurt nothing.",
+        "Most of what changes a young swing happens slowly and without a ball at all: ten careful shadow swings a day. The cage is the least important part of hitting practice."
+      ],
+      "whatToDo": [
+        "Make a hitting corner. Hang an old blanket, a tarp, or a cheap net over a fence or clothesline. A tee ball hit into a blanket from 6 feet away drops straight down. No chasing, no broken windows.",
+        "Use plastic balls with holes (often called whiffle balls) or tennis balls for anything that is not on a tee. They are safe, cheap, and fly short.",
+        "Tee work: 10 swings with the tee at belly-button height, 10 with the tee moved a little toward the back foot, 10 moved a little toward the front foot. Pause between swings to reset the feet.",
+        "Soft toss: kneel to the side of the hitter, about 6 feet away and a little in front of their front foot, and toss underhand so the ball arrives belt-high over the plate while they hit into the blanket. Stay out of the bat's path.",
+        "Front toss: sit on a bucket or chair 15 to 20 feet in front of the hitter, with a laundry basket or a sheet of plywood in front of you as a shield, and toss underhand. This is the closest thing to a pitcher without a cage.",
+        "Shadow swings: 10 slow swings a day with no ball, checking one thing in a window reflection or a phone video. This is where the swing actually changes.",
+        "Bounce hitting: drop a tennis ball from waist height, let it bounce once, and hit it with an easy swing on the way up. Great for eyes and timing in a driveway.",
+        "Keep sessions to 40 to 60 total swings. A tired swing teaches bad habits."
+      ],
+      "whatToSay": [
+        "Hitting corner is open.",
+        "Ten on the tee, ten soft toss, ten shadow.",
+        "Slow swing. Feel it.",
+        "Line drive into the blanket.",
+        "Reset your feet."
+      ],
+      "whatToWatchFor": [
+        "Balls hit the blanket at about chest height, which means the swing is level and contact is clean.",
+        "They repeat the same stance and grip on every swing without you fixing it.",
+        "Shadow swings look like the real swing; if they look different, they are not thinking about the same things.",
+        "On front toss, they start the swing as the ball leaves your hand, not when it is already on top of them."
+      ],
+      "whatToAvoid": [
+        "Soft toss from in front of the hitter without a shield. Toss from the side, or from the front behind a screen. Line drives hurt.",
+        "Hard baseballs in the backyard. Plastic or tennis balls do the job and are far safer around people, pets, and property.",
+        "Swinging 200 times because the cage is not available. Quality swings, not volume. Sixty is a lot.",
+        "Changing the swing based on where a plastic ball went. Plastic balls curve and die; judge the contact, not the flight.",
+        "Ending with 'you did not hit well today.' End with one specific good swing you saw."
+      ],
+      "ifStruggling": [
+        "Go back to the tee only, with a big soft ball, until contact is solid.",
+        "Make the target bigger: hang the blanket wider and lower, and put a strip of tape at belly height as the 'line drive zone.'",
+        "Toss from closer, 4 to 5 feet, and slower. The goal is contact, not realism.",
+        "Do a week of shadow swings and tee only. Many kids need the moving ball to go away for a while."
+      ],
+      "makeItFun": [
+        "Zone Points: put three strips of tape on the blanket. Low is 1 point, middle is 3, high is 2. Ten swings, add it up.",
+        "Pitcher's Duel: you front-toss 10 pitches; every solid hit is a run for the hitter, every miss or weak hit is an out for the pitcher. Then switch roles with a tennis ball and a plastic bat.",
+        "Bottle Cap Challenge: toss a plastic bottle cap or a tiny plastic golf ball and hit it with a broomstick. Tiny target, big laughs, great eyes."
+      ],
+      "equipment": [
+        "bat",
+        "tee",
+        "soft_ball",
+        "tennis_ball"
+      ],
+      "relatedLessonIds": [
+        "hit-13",
+        "hit-15",
+        "hit-16",
+        "hit-06",
+        "hit-10"
+      ],
+      "tags": [
+        "how to practice hitting without a batting cage",
+        "hitting practice at home",
+        "no batting cage near me",
+        "backyard hitting drills",
+        "whiffle ball practice",
+        "soft toss at home",
+        "front toss",
+        "shadow swings",
+        "hitting into a net",
+        "tee drills"
+      ]
+    },
+    {
+      "id": "pg-10",
+      "title": "How to Encourage a Struggling Player",
+      "summary": "Specific praise, honest talk about failure, small goals they control, and listening before fixing: how to help a child who is having a hard time with baseball.",
+      "category": "mental",
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "pathwayStep": 12,
+      "durationMin": 10,
+      "video": {
+        "status": "placeholder",
+        "note": "A parent and a ten-year-old on the back steps after a tough game: the parent names one specific thing done well, asks one question, and listens without coaching."
+      },
+      "intro": [
+        "Baseball is a game built on failure. The best hitters in the world make an out about seven times out of ten. Your child does not know that yet, so a bad week feels like proof that something is wrong with them.",
+        "Your job is not to fix the swing. Your job is to be the steady person who notices effort, tells the truth kindly, and keeps the game feeling safe enough to try again tomorrow."
+      ],
+      "whatToDo": [
+        "Notice the specific thing they did right, out loud, within a few seconds. 'You got your glove down on that grounder' lands much better than 'good job.'",
+        "Praise effort and choices, not results. 'You kept swinging with two strikes' is something they control. 'Great hit' is partly luck.",
+        "Tell them the truth about baseball: the best hitters in the world fail about 7 out of 10 times. Say it often. Failure is the normal state of this game, not a sign something is wrong with them.",
+        "Set one small goal they control for the next practice or game: 'Get in the ready position before every pitch' or 'Call for one fly ball.' Celebrate the goal, not the score.",
+        "Listen first when they are upset. Say 'that was hard' and wait. Fixing comes later, if they ask.",
+        "Tilt practice toward success for a couple of weeks: more catches at close range, more tee hits into a blanket. Confidence comes from a pile of small wins.",
+        "Talk to the coach privately, not in front of your child, if you think something at practice is the problem. Ask what the coach sees and what you can work on at home.",
+        "Offer a choice: 'Do you want to work on this at home, or just play catch and talk?' Choice gives control back to a kid who feels like they have none."
+      ],
+      "whatToSay": [
+        "I noticed you kept your head down on that one.",
+        "That was hard. I'm proud you stayed in there.",
+        "Even the pros miss 7 out of 10.",
+        "What's one thing you want to try next time?",
+        "I love watching you play.",
+        "Want to work on it, or just play catch?"
+      ],
+      "whatToWatchFor": [
+        "They start naming their own small wins ('I got my glove down!') instead of only pointing out mistakes.",
+        "They bounce back faster after a miss: a shrug and a reset instead of a long slump of the shoulders.",
+        "They ask to go to practice, or at least stop fighting it.",
+        "They try a hard thing again, like asking for backhands or a fly ball, after missing it."
+      ],
+      "whatToAvoid": [
+        "Comparing them to a sibling or a teammate, even as a compliment. 'You're better than Jake' teaches them to measure themselves against others, which is a losing game.",
+        "Coaching in the moment of failure. Right after a strikeout is the worst time for a swing tip. Wait until they ask or until the next practice.",
+        "Bribing results: 'Five dollars for a hit.' It raises the pressure on the one thing they cannot fully control.",
+        "Faking enthusiasm or saying 'it was great!' when they know it was not. Kids can tell. Be honest and kind: 'That was a tough day. You showed up anyway.'",
+        "Letting your mood depend on how they played. The car ride home should feel the same after a bad game as after a good one."
+      ],
+      "ifStruggling": [
+        "Take a week off from skill work and just play catch and talk. No corrections. Rebuild the fun first.",
+        "Pick one tiny win per practice and write it on a sticky note on their bedroom door. One note a day for a week.",
+        "Ask the coach for a role your child can succeed in for a game or two, like a position they like or a softer ball in practice.",
+        "If the struggle is bigger than baseball, like worry that keeps them up at night, talk with your pediatrician or school counselor. You know your child best."
+      ],
+      "makeItFun": [
+        "Failure Jar: every miss at home earns a bean in a jar, and when the jar is full you go for ice cream. It turns failure into progress you can see.",
+        "Highlight Reel: each night they tell you one highlight from practice, even if it is 'I tied my cleats fast.' You write it down and read the list on game day.",
+        "Parent Strikes Out: you take 10 swings against their pitching and miss plenty. Laugh about it together."
+      ],
+      "equipment": [
+        "none"
+      ],
+      "relatedLessonIds": [
+        "mnt-01",
+        "mnt-03",
+        "mnt-06",
+        "mnt-02"
+      ],
+      "tags": [
+        "how to encourage a struggling player",
+        "my kid hates practice",
+        "my son wants to quit baseball",
+        "my daughter is frustrated with baseball",
+        "kid cries after strikeout",
+        "how to motivate my child in sports",
+        "baseball confidence for kids",
+        "my kid is the worst on the team",
+        "praise effort not results",
+        "struggling at baseball"
+      ]
+    },
+    {
+      "id": "pg-11",
+      "title": "How to Build Confidence",
+      "summary": "Confidence is a memory of success. How to stack small wins, teach a reset routine, model calm, and keep a proof list so your child believes in the next pitch.",
+      "category": "mental",
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "pathwayStep": null,
+      "durationMin": 10,
+      "video": {
+        "status": "placeholder",
+        "note": "A nine-year-old misses a ground ball, takes a breath, taps the glove twice, says 'next pitch,' and fields the next one, while the parent on the sideline just nods."
+      },
+      "intro": [
+        "Confidence is not something you give a child with words. It is a memory of success that they build themselves, one small win at a time, plus a way to recover when a win does not come.",
+        "Two things you control: the difficulty of what you ask, and the face you make when they fail. Get those right and confidence takes care of itself."
+      ],
+      "whatToDo": [
+        "Practice at a level where they succeed about 7 or 8 times out of 10, then make it a little harder. Too easy is boring; too hard is crushing.",
+        "Give them a reset routine for mistakes: take a breath, tap the glove twice, say 'next pitch.' Practice it at home when nothing is wrong so it is automatic when something is.",
+        "Teach helpful self-talk. Replace 'I always miss' with 'I'm learning this.' Model it first: 'I missed that catch. Next one.'",
+        "Build a pre-game routine together: same breakfast, same stretch, same song in the car, same three words before the first pitch. Routines calm nerves because the body knows what comes next.",
+        "Keep your face calm when they fail. Your reaction on the sideline is the mirror they check. A nod or a thumbs-up says 'you are fine.'",
+        "Have them teach you a skill. Explaining the ready position to a parent who 'does not get it' makes a child feel like an expert.",
+        "Keep a 'proof list' of things they could not do a month ago and can do now. Confidence is memory of success; help them remember."
+      ],
+      "whatToSay": [
+        "Next pitch.",
+        "You're learning this.",
+        "Show me how it's done.",
+        "Breathe, tap, go.",
+        "Remember when you couldn't catch a fly ball? Look at you now.",
+        "You have done harder things than this."
+      ],
+      "whatToWatchFor": [
+        "After a miss, they do the reset routine on their own instead of looking at you for a reaction.",
+        "They volunteer for harder things: a tougher position, the first turn in a drill.",
+        "They talk about what they will do next time instead of what went wrong last time.",
+        "Their body language stays upright after an out: shoulders back, jogging to the dugout."
+      ],
+      "whatToAvoid": [
+        "Confusing confidence with praise. Empty praise ('you're the best!') builds nothing; real skill and honest feedback do.",
+        "Protecting them from every failure. Confidence grows from recovering, not from never falling.",
+        "Showing your own anxiety at games: pacing, sighing, shouting instructions. They read you first and the game second.",
+        "Talking about your child's confidence in front of them ('she's just not confident'). Labels stick.",
+        "Jumping the difficulty too fast after one good day. Add one small challenge at a time."
+      ],
+      "ifStruggling": [
+        "Go back to the easiest version of a skill and bank ten straight successes before moving on.",
+        "Shrink the audience: practice alone with you before practicing with siblings or friends watching.",
+        "Use the reset routine for everything, including homework or a board game, until it is a habit.",
+        "Ask the coach to give one specific compliment at the next practice. A coach's word sometimes carries weight a parent's cannot."
+      ],
+      "makeItFun": [
+        "Expert Hour: your child is the coach for 15 minutes and you are the clumsy player. They correct you with the cues they have learned.",
+        "Confidence Cards: write three strengths on an index card they keep in their bat bag and read before games.",
+        "Streak Tracker: a chart on the fridge for 'reset routine done after a miss.' Ten stickers earns their pick of dinner."
+      ],
+      "equipment": [
+        "none"
+      ],
+      "relatedLessonIds": [
+        "mnt-01",
+        "mnt-05",
+        "mnt-03",
+        "fld-20",
+        "mnt-06"
+      ],
+      "tags": [
+        "how to build confidence in my child",
+        "baseball confidence",
+        "my kid gets down on himself",
+        "nervous before games",
+        "pre game routine for kids",
+        "next pitch mentality",
+        "self talk for young athletes",
+        "my daughter lacks confidence",
+        "timid baseball player",
+        "help my kid believe in himself"
+      ]
+    },
+    {
+      "id": "pg-12",
+      "title": "How to Recognize Fatigue",
+      "summary": "The behavior changes that mean a young arm or a young mind is tired, when to stop the session, and when to involve a doctor.",
+      "category": "throwing",
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "pathwayStep": null,
+      "durationMin": 5,
+      "video": {
+        "status": "placeholder",
+        "note": "Side-by-side clips of the same child's throws at the start and end of a session, showing the shorter arm swing, lower elbow, and rubbing of the arm that signal it is time to stop."
+      },
+      "intro": [
+        "Children almost never say 'I'm tired' during baseball. They show it instead: the throws get short, the jokes get loud, the arm gets rubbed. Learning to read those signs is one of the most protective things a parent can do.",
+        "This guide is about noticing and stopping. It is not medical advice. Tiredness that goes away with rest is normal; pain that does not is a reason to call your child's doctor."
+      ],
+      "whatToDo": [
+        "Before the session, set a soft limit: how many throws or swings, and how long. Write it down. Tired children do not notice they are tired, so you have to.",
+        "Watch the throws. When throws that were reaching your chest start landing short, in the dirt, or sailing high, the arm is tired. That is the end of throwing for today, not a cue to 'focus.'",
+        "Watch the body: rubbing or shaking the arm, shaking out the hand, slower walking between reps, or a changed motion like a dropping elbow or a shorter arm swing.",
+        "Watch the mind: attention drifts, silliness spikes, instructions need repeating, or your child gets quiet or snappy. Mood changes are often the first sign.",
+        "When you see two of these signs, stop. Say 'arm's tired, we're done with throws' in a neutral voice, and switch to something that does not use the arm, like baserunning, or just end.",
+        "Rest means rest: no throwing the next day if the arm was heavy today, even if they feel fine. Think about the team schedule too; a game yesterday plus practice today means very little throwing at home.",
+        "Ask directly and listen: 'Does anything hurt, or is it just tired?' Tired is normal and goes away with rest. Pain, pain that comes back, swelling, or pain that changes how they move means stop throwing and see a doctor.",
+        "If your child pitches, know the league's pitch count limits and required rest days and follow them at home too. Check your league's current Little League rulebook for the numbers for their age."
+      ],
+      "whatToSay": [
+        "Arm's tired. Good work. We're done with throws.",
+        "Does anything hurt, or is it just tired?",
+        "Rest is part of getting better.",
+        "Last five, then we switch.",
+        "Stopping now means more baseball tomorrow."
+      ],
+      "whatToWatchFor": [
+        "Throws getting shorter or wilder after they had been accurate.",
+        "Rubbing, shaking, or holding the throwing arm, elbow, or shoulder.",
+        "Attention drifting, horseplay increasing, or instructions needing to be repeated.",
+        "Changes in mood: unusual quiet, tears over small things, or irritability.",
+        "The goal sign: your child says 'my arm is tired' on their own and expects you to be glad they said it."
+      ],
+      "whatToAvoid": [
+        "Saying 'push through it' or 'ten more.' Fatigue is when injuries happen, and ten tired throws teach bad mechanics anyway.",
+        "'Throw as many as you can' challenges, or counting throws as the goal. Count quality, not volume.",
+        "Shrugging off a sore arm because 'everyone's arm is sore.' Soreness that lingers past a day or two, or pain during throws, is a reason to stop and see a doctor, not a badge.",
+        "Adding home throwing on top of a game day or a pitching day. Home practice should take the team schedule into account.",
+        "Diagnosing it yourself from the internet. You do not need to know what it is. Your job is to stop, rest, and call the doctor if it persists."
+      ],
+      "ifStruggling": [
+        "Make a throw-count rule the child owns: they count out loud to the limit, and the limit ends the throws, not you. It removes the argument.",
+        "Shift the session mix: more rolled grounders and baserunning, fewer throws.",
+        "Use a 'tired check' at the halfway mark: thumbs up, sideways, or down. Down means done, no questions asked.",
+        "If they hide tiredness to keep playing, make rest days fun, like a baseball movie night, so stopping is not a punishment."
+      ],
+      "makeItFun": [
+        "Fuel Gauge: draw a car's fuel gauge on paper. Before and after practice they mark where their 'arm tank' is. A fun way to build body awareness.",
+        "Rest Day Coach: on rest days they coach you through the throwing motion with no ball and grade you harshly.",
+        "Twenty Perfect: the throwing part of practice ends after 20 throws no matter what, so the game is making all 20 count."
+      ],
+      "equipment": [
+        "none"
+      ],
+      "relatedLessonIds": [
+        "thr-13",
+        "thr-11",
+        "thr-10",
+        "mnt-05"
+      ],
+      "tags": [
+        "how to recognize fatigue",
+        "signs my kid's arm is tired",
+        "sore arm little league",
+        "how many throws is too many",
+        "my son says his arm hurts",
+        "pitch count rest days",
+        "arm care for kids",
+        "when to stop practice",
+        "tired kid at practice",
+        "preventing overuse"
+      ]
+    },
+    {
+      "id": "pg-13",
+      "title": "How to Make Practice Fun",
+      "summary": "Turn every drill into a game with a score, let your child choose, play along, and stop on a high note: how to make a kid run outside for practice instead of hiding from it.",
+      "category": "general",
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10"
+      ],
+      "pathwayStep": 10,
+      "durationMin": 15,
+      "video": {
+        "status": "placeholder",
+        "note": "The same ten rolled ground balls shown twice: once as a drill with a quiet child, once as the Goalie game with two shoes, a scoreboard, and a child laughing and diving."
+      },
+      "intro": [
+        "Children do not practice baseball. They play games that happen to be baseball practice. The reps are identical; the difference is a score, a silly name, and a parent who is playing too.",
+        "If your child resists practice, it is almost never about baseball. It is about the practice feeling like a chore. Change the feeling and the chore disappears."
+      ],
+      "whatToDo": [
+        "Turn every drill into a game with a score. Ten rolled grounders becomes 'Goalie.' Twenty throws becomes 'Knock the Cans.' Same reps, completely different feel.",
+        "Let your child choose. Offer two options ('grounders or fly balls?') and let them pick the order. Choice is the cheapest fun there is.",
+        "Play too. Take your turn in every game, miss sometimes, and let them coach you. Kids love beating a parent.",
+        "Keep it moving. No lines, no lectures, no waiting. If you talk for more than 20 seconds, you have lost a six-year-old.",
+        "Use silly names: 'alligator hands,' 'sky fingers,' 'pizza bases.' Names kids laugh at are names they remember.",
+        "End early and end high. Stop the game right after a success, while they are begging for one more. Tomorrow they will run outside.",
+        "Add a little competition against themselves only: 'Yesterday you caught 6 in a row. Think you can get 7?' Never against a sibling's score.",
+        "Change the scenery sometimes: the park, a school field, a friend's yard. The same drills feel new in a new place."
+      ],
+      "whatToSay": [
+        "You pick: grounders or fly balls?",
+        "Beat the record?",
+        "My turn. Coach me.",
+        "One more and we stop on a high note.",
+        "Alligator hands! Sky fingers!"
+      ],
+      "whatToWatchFor": [
+        "They ask to practice, or run to get the glove when you say the name of a game.",
+        "They invent their own rules and games. That is ownership, and it means they will keep playing without you.",
+        "They laugh during practice. Skill learning happens faster in a kid who is enjoying it.",
+        "They stay with a hard skill longer because it is wrapped in a game."
+      ],
+      "whatToAvoid": [
+        "Making fun a reward for drills ('do your 20 throws and then we can play'). Make the drill the game.",
+        "Overpraising to manufacture fun. Kids can tell the difference between a fun game and a parent cheering too loudly at a boring one.",
+        "Turning competition into pressure: scoreboards against siblings, prizes for winning, or sulking when they beat you.",
+        "Lecturing during games. If you need to teach something, do it in the skill block, not in the middle of 'Goalie.'",
+        "Letting the session drag until someone is cranky. The last five minutes color the memory of the whole hour."
+      ],
+      "ifStruggling": [
+        "Drop baseball words completely for a session: play catch with a football or a frisbee, or play tag around the bases.",
+        "Shorten everything: 10 minutes, one game, done.",
+        "Invite a friend. Two kids and one parent can turn any drill into a team game.",
+        "Ask them what would make it fun, and actually do it, even if the answer is 'you have to wear the helmet.'"
+      ],
+      "makeItFun": [
+        "Baseball Olympics: five events (longest throw, most catches in a row, fastest lap, farthest tee hit, most grounders in a minute). Make paper medals.",
+        "The Commentator: one of you narrates the other like a TV announcer. 'Here's the pitch... and a BEAUTIFUL scoop by the shortstop!'",
+        "Crazy Catch: each catch must be done a different way: one hand, after a spin, sitting down, with a hat. Softest ball you own."
+      ],
+      "equipment": [
+        "tennis_ball",
+        "glove"
+      ],
+      "relatedLessonIds": [
+        "mnt-06",
+        "mnt-04",
+        "fld-03",
+        "thr-08",
+        "run-10"
+      ],
+      "tags": [
+        "how to make practice fun",
+        "my kid hates practice",
+        "fun baseball drills for kids",
+        "baseball games for 6 year olds",
+        "my son is bored at practice",
+        "make baseball fun",
+        "backyard baseball games",
+        "tee ball games",
+        "fun drills for 8 year olds",
+        "kid doesn't want to practice"
+      ]
+    },
+    {
+      "id": "pg-14",
+      "title": "How to Teach Baseball Rules",
+      "summary": "Teach rules in the order your child meets them, with coasters on the kitchen table and one rule per TV inning, and look things up together when you are not sure.",
+      "category": "baseball_iq",
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "pathwayStep": 9,
+      "durationMin": 10,
+      "video": {
+        "status": "placeholder",
+        "note": "A parent and child at a kitchen table using coasters as bases and salt and pepper shakers as runner and fielder to act out a force play, then a tag play."
+      },
+      "intro": [
+        "You do not need to know all the rules to teach your child the rules. You need to know the handful they will actually meet this season, and you need to be comfortable saying 'let's look it up.'",
+        "Rules stick when a child meets them in a real moment, with their hands or their eyes. A rulebook read aloud on the couch does not stick. Coasters on the kitchen table do."
+      ],
+      "whatToDo": [
+        "Teach rules in the order your child meets them, not in rulebook order. For a five-year-old: run the right direction, touch every base, stop when the coach says. For an eight-year-old: force plays and tag plays, fair and foul. For a ten-year-old: tagging up, the infield fly rule, and your division's rules on leading off and stealing.",
+        "Use the kitchen table. Four coasters are bases, a salt shaker is the runner, a pepper shaker is the fielder. Move the pieces and ask 'where does the runner have to go now?' Kids learn rules with their hands.",
+        "Watch one inning of a game together, on TV or at the park, and pause to name one rule each time it happens: 'See, that was a force out. He only had to touch the base because the runner had to run.'",
+        "Teach force versus tag in one sentence: 'If the runner has to run because someone is behind them, the fielder just touches the base. If the runner does not have to run, the fielder has to tag the runner with the ball.' Then test it with the coasters.",
+        "Teach fair and foul with chalk. Draw the two foul lines out from home plate. A ball that stops between the lines, or passes first or third base between the lines, is fair. A ball that stops outside the lines before reaching the base is foul. Roll balls and let them call it.",
+        "Teach counts: three strikes is an out, four balls is a walk to first base. A foul ball counts as a strike, except it cannot be the third strike (with a few exceptions, like bunting, that you can look up later).",
+        "Say 'let's check the rulebook' and actually do it when you are not sure. Rules differ by division and change from year to year. Your league's current Little League rulebook is the answer that counts, not GamePlanIQ and not the parent in the next lawn chair.",
+        "Use GamePlanIQ's Baseball IQ quizzes as a two-minute bedtime game. One question a night adds up to a season of rules."
+      ],
+      "whatToSay": [
+        "Where does the runner have to go now?",
+        "Force or tag?",
+        "Fair or foul? You're the umpire.",
+        "Three strikes, you're out. Four balls, take your base.",
+        "I'm not sure. Let's check the rulebook.",
+        "What did the umpire just signal?"
+      ],
+      "whatToWatchFor": [
+        "They call plays before the announcer or the umpire does: 'That's a force at second!'",
+        "They start explaining rules to a younger sibling or to you, correctly.",
+        "On the field, they run or stay correctly on fly balls and ground balls without a coach shouting.",
+        "They ask good 'what if' questions: 'What if the ball hits the base?' That is deep learning."
+      ],
+      "whatToAvoid": [
+        "Teaching all the rules at once from a rulebook. It is a long book written for umpires. Teach each rule when it happens.",
+        "Stating rules as universal when they vary. Leading off, stealing, dropped third strikes, run rules, and bat rules differ by division and by year.",
+        "Arguing calls with umpires in front of your child, or 'correcting' the umpire from the bleachers. You are teaching sportsmanship whether you mean to or not.",
+        "Quizzing them when they are tired or right after a game. Make rules a calm, curious activity, not a test.",
+        "Pretending to know. 'Let's look it up' models exactly what you want them to do."
+      ],
+      "ifStruggling": [
+        "Pick one rule for the whole month and notice it everywhere: 'force out' spotting on TV, at the park, in a video game.",
+        "Act it out with bodies, not pieces: they are the runner, you are the fielder with a ball, in the hallway with pillows as bases.",
+        "Use GamePlanIQ's Baseball IQ diagrams and tap-the-field questions; some kids need the picture.",
+        "Let them be the umpire during backyard games and make the call, with you playing dumb so they have to explain."
+      ],
+      "makeItFun": [
+        "Living-Room Umpire: you narrate a play ('ground ball to the shortstop, runner on first...') and they make the call with a loud umpire signal.",
+        "Fair or Foul Roll: chalk lines on the driveway, roll ten tennis balls, they call each one; disputed calls go to 'video review' on your phone.",
+        "Rule of the Week Wall: one index card per week with a rule in their handwriting and a drawing. By season's end, a rulebook they made."
+      ],
+      "equipment": [
+        "none"
+      ],
+      "relatedLessonIds": [
+        "run-07",
+        "run-03",
+        "run-08",
+        "mnt-02"
+      ],
+      "tags": [
+        "how to teach baseball rules",
+        "baseball rules for kids",
+        "explain baseball to a child",
+        "force out vs tag",
+        "fair or foul",
+        "how many strikes",
+        "what is a walk",
+        "baseball rules for parents",
+        "little league rules explained",
+        "tagging up explained"
+      ]
+    },
+    {
+      "id": "pg-15",
+      "title": "How to Avoid Overwhelming Children With Instructions",
+      "summary": "One cue per session, three words or fewer, show instead of tell, and wait three reps: how to coach your own child without drowning them in words.",
+      "category": "general",
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "pathwayStep": 11,
+      "durationMin": 5,
+      "video": {
+        "status": "placeholder",
+        "note": "Two takes of the same rolled-grounder drill: a parent giving three corrections per rep and a child freezing up, then the same parent saying only 'glove down' once and waiting."
+      },
+      "intro": [
+        "The most common mistake loving parents make is talking too much. 'Elbow up, step straight, watch the ball, follow through!' A child's brain can hold one new idea at a time, and it is still learning what 'elbow' means.",
+        "Less talking does not mean less coaching. One clear cue, repeated calmly across a whole session, teaches more than twenty corrections."
+      ],
+      "whatToDo": [
+        "One cue per session. Decide it before you walk outside and write it on your hand if you have to: 'glove down' or 'step to me.' Everything else gets ignored today.",
+        "Say it in three words or fewer. 'Fingers down.' 'Point, step, throw.' 'Nose to ball.' Long sentences get lost between your mouth and their hands.",
+        "Show, don't explain. Do the movement yourself slowly, or gently move their hands and feet into place. A picture takes one second; a paragraph takes thirty.",
+        "Wait three reps before saying anything. Let them feel the mistake and self-correct. Many kids fix it alone by rep two.",
+        "Ask instead of tell: 'What did your glove do that time?' A child who notices their own mistake learns ten times faster than one who is told.",
+        "Pair every correction with what went right: 'Your feet were perfect. Now get the glove down too.' One plus, one fix.",
+        "End the session with one sentence about one thing: 'Today you got your glove down. That's the whole lesson.'"
+      ],
+      "whatToSay": [
+        "Today is just 'glove down.'",
+        "Try it again. I'm watching.",
+        "What did your feet do that time?",
+        "Feet were perfect. Now the glove.",
+        "Show me, don't tell me."
+      ],
+      "whatToWatchFor": [
+        "They say the cue to themselves before the rep: 'fingers down.' Self-coaching is the goal.",
+        "They fix a mistake without you saying anything between reps.",
+        "They look at the ball or the target, not at your face, waiting for a verdict.",
+        "They stay relaxed: shoulders down, breathing easy, talking and smiling between reps."
+      ],
+      "whatToAvoid": [
+        "Three corrections at once ('elbow up, step straight, follow through!'). The brain does one new thing at a time.",
+        "Talking between every rep. Constant feedback feels like constant criticism, even when it is friendly.",
+        "Using words they do not know. 'Load,' 'separation,' and 'extension' are coach words. Say 'wind up small,' 'stretch like a rubber band,' 'reach out.'",
+        "Correcting from far away by shouting. Walk over, get down on their level, say it quietly, step back.",
+        "Changing the cue mid-session because the first one 'isn't working.' Give it the whole session, then reconsider."
+      ],
+      "ifStruggling": [
+        "Go silent for a whole session: just play catch and count. Many kids improve the moment the words stop.",
+        "Replace words with a visual target: a shoe to step toward, a towel to put the glove on, tape on the bat for the hands.",
+        "Let them pick the cue: 'What's one thing you want to work on today?' They often pick exactly what you would have.",
+        "Record a 10-second video and watch it together. Let them spot the fix; say nothing until they do."
+      ],
+      "makeItFun": [
+        "The Silent Coach: you can only coach with hand signals for 5 minutes, and they have to guess the cue.",
+        "Cue Password: today's cue is a password; every time they say it before a rep, they get a point. Ten points wins.",
+        "Coach Swap: they give you one cue only, and you have to obey it exactly, even while doing everything else wrong on purpose."
+      ],
+      "equipment": [
+        "none"
+      ],
+      "relatedLessonIds": [
+        "hit-02",
+        "thr-02",
+        "fld-01",
+        "mnt-01"
+      ],
+      "tags": [
+        "how to avoid overwhelming children with instructions",
+        "too many instructions",
+        "one cue at a time",
+        "how to coach my own kid",
+        "my kid shuts down when I correct him",
+        "coaching cues for kids",
+        "how to give feedback to a child athlete",
+        "my daughter gets frustrated when I help",
+        "parent coaching tips",
+        "simple baseball cues"
+      ]
+    },
+    {
+      "id": "pg-16",
+      "title": "Baseball From Scratch: What the Game Is and How It Works",
+      "summary": "The field, the two teams, innings, outs, strikes, balls, and how a run is scored, explained from zero for a parent who has never watched a game.",
+      "category": "baseball_iq",
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "pathwayStep": 1,
+      "durationMin": 15,
+      "video": {
+        "status": "placeholder",
+        "note": "An animated overhead view of a diamond that labels home plate, the bases, the mound, the infield, the outfield, and the foul lines, then plays one half-inning with a running count of outs."
+      },
+      "intro": [
+        "If you have never played baseball, you are in the right place. This guide explains the game from zero, in plain words, so you can follow along at your child's games and help at home. You do not need to memorize everything; you need the big picture, and the rest fills in one game at a time.",
+        "The big picture: two teams take turns. One team bats and tries to score runs by hitting the ball and running around four bases. The other team is in the field and tries to get three batters or runners 'out.' After three outs, the teams switch places. The team with more runs at the end wins.",
+        "The field is shaped like a diamond with a base at each corner. Home plate is where the batter stands. From there the bases go counterclockwise: first base to the batter's right, second base straight ahead, third base to the left, and back to home. The pitcher stands on a small hill (the mound) in the middle and throws the ball toward home plate. The dirt area around the bases is the infield; the grass beyond it is the outfield. Two white lines, the foul lines, run from home plate past first and third base; a ball hit outside them is foul and does not count as a hit."
+      ],
+      "whatToDo": [
+        "Learn the two teams. The batting team is 'on offense'; one player at a time comes to home plate to hit. The fielding team is 'on defense' with nine players (fewer in some young divisions): a pitcher, a catcher crouched behind home plate, four infielders near the bases, and three outfielders in the grass.",
+        "Learn innings. An inning is one turn at bat for each team. The visiting team bats in the 'top' of the inning and the home team in the 'bottom.' Little League games are usually six innings, but some divisions play fewer or use a time limit. Check your league's current Little League rulebook for your division.",
+        "Learn outs. The defense needs three outs to end the other team's turn. The common ways to get one: the batter gets three strikes (a strikeout); a hit ball is caught before it touches the ground (a fly out); a fielder holding the ball touches the base before a runner who had to run gets there (a force out); a fielder tags a runner with the ball while the runner is off a base (a tag out).",
+        "Learn strikes and balls. Every pitch the batter does not hit is called a strike or a ball by the umpire. A strike is a pitch in the 'strike zone' (the space over home plate roughly between the batter's knees and chest), or any pitch the batter swings at and misses, or a foul ball when the batter has fewer than two strikes. A ball is a pitch outside the zone that the batter does not swing at. Three strikes is an out. Four balls is a 'walk': the batter goes to first base for free.",
+        "Learn scoring. A batter who hits the ball into fair territory runs to first base and may keep going if the ball is far away. A runner scores one run by touching all four bases in order and getting back to home plate safely. A home run is a ball hit over the outfield fence; the batter and every runner on base all score.",
+        "Learn the people. The umpire behind the catcher calls balls, strikes, and outs at home plate; there may be a second umpire in the field. Coaches stand in boxes near first and third base to tell runners when to run and stop. The dugout is the bench area where each team sits.",
+        "Watch one inning on TV or at a local field with your child and name three things together: 'That was a strike.' 'Three outs, they switch.' 'He ran through first base.' Do not try to catch everything. Three things per inning is the perfect pace.",
+        "Come back to this page after the first game and read it again. Most of it will suddenly make sense."
+      ],
+      "whatToSay": [
+        "Which team is batting right now?",
+        "How many outs are there?",
+        "Was that a ball or a strike?",
+        "Where does the runner go next?",
+        "Three outs. Everybody switches."
+      ],
+      "whatToWatchFor": [
+        "You can look at the scoreboard and tell your child the inning, the outs, and the count (balls and strikes) without help.",
+        "Your child points out outs and runs before you do.",
+        "You know where your child's position is on the field and where the ball should go when it comes to them.",
+        "The game at the park feels slower and clearer than it did last week."
+      ],
+      "whatToAvoid": [
+        "Trying to learn every rule before the first game. Nobody does. The basics above cover most of what you will see.",
+        "Pretending you know what happened on a confusing play. Say 'I'm not sure, let's ask the coach after the game.' Your child will learn to ask good questions too.",
+        "Treating this page, or any website, as the rulebook. Divisions differ on stealing, leading off, pitch counts, and more. Your league's current Little League rulebook is the authority.",
+        "Letting the vocabulary intimidate you. Every term here has a plain-words entry in the GamePlanIQ Glossary. Look it up and move on."
+      ],
+      "ifStruggling": [
+        "Watch one half-inning, three outs only, and talk about just two things: who is batting, and how many outs there are.",
+        "Draw the diamond on paper with your child: a square turned on its corner, home at the bottom, first base to the right. Label it together and keep it in the car.",
+        "Play tabletop baseball with coins on the drawn diamond: flip a coin for hit or out, and move the runner coin around the bases.",
+        "Read the Glossary entries for inning, out, strike, ball, and run, then watch another inning."
+      ],
+      "makeItFun": [
+        "Scoreboard Detective: at a game, each inning your child reads the scoreboard out loud: inning, outs, score. A right answer earns a sunflower seed.",
+        "Call the Play: you and your child take turns being the announcer for one batter each. Silly voices encouraged.",
+        "Diamond Walk: at an empty field, walk the bases together while your child teaches you their names, then race the last stretch home."
+      ],
+      "equipment": [
+        "none"
+      ],
+      "relatedLessonIds": [
+        "run-10",
+        "run-07",
+        "run-01",
+        "mnt-02",
+        "fld-01"
+      ],
+      "tags": [
+        "how does baseball work",
+        "baseball explained for parents",
+        "I don't know anything about baseball",
+        "baseball basics",
+        "what is an inning",
+        "what is an out",
+        "how do you score in baseball",
+        "baseball rules for beginners",
+        "what is a strike",
+        "new to baseball"
+      ]
+    },
+    {
+      "id": "pg-17",
+      "title": "Equipment Basics: What You Need and What You Don't",
+      "summary": "A glove that closes, a helmet, a cup where required, and maybe cleats. How to check a bat's length and weight, what the bat stamp means, and what not to buy.",
+      "category": "general",
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "pathwayStep": 2,
+      "durationMin": 10,
+      "video": {
+        "status": "placeholder",
+        "note": "A parent in a sporting goods aisle checking that a glove closes in a child's hand, standing a bat beside the child to see the knob at the hip, doing the arm-out length check, and reading the stamp on the barrel."
+      },
+      "intro": [
+        "The sporting goods aisle is designed to make you feel like your child needs 400 dollars of gear. They do not. The real starter kit is a glove that fits, a helmet, a water bottle, and, where your league requires it, an athletic cup.",
+        "Bats are where parents overspend most. A light bat your child can swing fast beats an expensive bat they cannot. Many teams share bats, so you may not need one at all the first season.",
+        "One warning before you buy a bat: leagues have bat standards, and they change. Most youth divisions require a bat with the USA Baseball stamp, while some older divisions allow other stamps or wood. Read your league's current rulebook or ask the coach first."
+      ],
+      "whatToDo": [
+        "Get a glove that fits the hand, not one to grow into. A glove that is too big will not close, and a child who cannot close the glove cannot catch. Most 4- to 8-year-olds need a small youth glove, roughly 9 to 10.5 inches measured from the heel to the fingertip; 9- to 12-year-olds usually use 10.5 to 11.5 inches. In the store, have them squeeze it shut with one hand.",
+        "Break the glove in by playing catch with it, by working the pocket with your hands while watching TV, and by keeping a ball in it with a band around it overnight. Skip the oven, the microwave, and the hot car; heat ruins leather.",
+        "Get a batting helmet with ear flaps on both sides. Teams usually have shared helmets, but your own fits better. Make sure it carries the safety certification label your league requires. A helmet goes on for every swing, including backyard soft toss.",
+        "Ask the league about the athletic cup rule. Catchers are typically required to wear one, and many leagues require or strongly recommend one for all boys. It is inexpensive and much easier to get used to early.",
+        "Treat cleats as optional at the youngest ages; running shoes are fine for tee ball and often for coach pitch. When you do buy cleats, buy rubber (molded) ones. Metal cleats are not allowed in younger divisions; check your league's current Little League rulebook before buying anything metal.",
+        "Check a bat's length two ways. First, stand the bat on its end next to your child: the knob (the round end of the handle) should come up to about the hip. Second, have them hold the knob at the center of their chest with the bat pointing straight out along their arm to the side; the end of the bat should reach about to their fingertips. Longer than that is too long.",
+        "Check a bat's weight: your child should be able to hold it straight out to the side, one hand on the handle, for about ten seconds without the end dropping. If they cannot, it is too heavy, whatever the label says.",
+        "Before buying any bat, check for the stamp your league requires (look on the barrel for the USA Baseball mark or whatever your division specifies). Bat standards have changed over the years and differ by division, so confirm with your league's current rulebook or the coach before you spend a dollar."
+      ],
+      "whatToSay": [
+        "Squeeze the glove shut. Can you close it?",
+        "Helmet on before you pick up the bat.",
+        "Hold the bat out to the side and count to ten.",
+        "Gear check: glove, helmet, water bottle.",
+        "Bat down, never thrown."
+      ],
+      "whatToWatchFor": [
+        "Your child can close the glove fully with one hand, and catches more balls after a week of breaking it in.",
+        "The helmet sits level on the head and does not wobble when they shake their head 'no.'",
+        "The bat stays level in the ten-second hold test, and their swing looks quick rather than labored.",
+        "They pack their own bag before practice without reminders."
+      ],
+      "whatToAvoid": [
+        "Buying an expensive bat for a young child. A 300-dollar bat does not help a seven-year-old; a light, league-legal bat for a fraction of that does. Try a teammate's bat first.",
+        "Buying a big glove 'to grow into.' An unclosable glove is the most common equipment mistake, and it makes a child look like they cannot catch.",
+        "Skipping the helmet for 'just a few tosses.' Any time a ball is moving toward a child holding a bat, the helmet is on.",
+        "Trusting the box over the rulebook. A bat labeled 'youth' may not be legal in your division. Check the stamp and your league's current rulebook.",
+        "Buying everything at once. Glove, helmet, and a water bottle are the real starter kit. Add a bat and cleats once you know they are staying with it."
+      ],
+      "ifStruggling": [
+        "If a glove will not close, borrow a smaller one from the league's loaner bin or a teammate for a few weeks while you break yours in.",
+        "If the bat is too heavy, choke up: slide the hands an inch or two up from the knob. It shortens and lightens the bat instantly.",
+        "If money is tight, ask the league about equipment exchanges and loaners; most leagues have a bin and nobody will blink.",
+        "If your child resists the cup or helmet, make it the rule at home first: wear it for every backyard session, no exceptions, until it feels normal."
+      ],
+      "makeItFun": [
+        "Glove Hospital: your child 'operates' on the new glove each night: pound the pocket with a fist 20 times, put a ball in, wrap it. Count the days until the glove is 'healed' and closes easily.",
+        "The Bat Test Show: line up any bats you can borrow and let your child run the hip test and the ten-second hold on each one, announcing results like a judge.",
+        "Gear Relay: scatter the gear around the yard; they collect and put on glove, helmet, and cleats as fast as possible while you time it."
+      ],
+      "equipment": [
+        "glove",
+        "bat",
+        "helmet"
+      ],
+      "relatedLessonIds": [
+        "hit-01",
+        "thr-09",
+        "fld-04",
+        "hit-13"
+      ],
+      "tags": [
+        "what equipment do I need",
+        "baseball equipment for beginners",
+        "what size glove for a 6 year old",
+        "what size bat for a 7 year old",
+        "how to measure a bat",
+        "USA baseball bat stamp",
+        "do I need cleats for tee ball",
+        "batting helmet for kids",
+        "how to break in a glove",
+        "little league equipment list"
+      ]
+    },
+    {
+      "id": "pg-18",
+      "title": "Helping a Child Who Is Afraid of the Ball",
+      "summary": "A sock ball, then a tennis ball, then a soft baseball: a slow, shame-free progression, with where you stand and what you say, for a child who flinches.",
+      "category": "fielding",
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10"
+      ],
+      "pathwayStep": null,
+      "durationMin": 10,
+      "video": {
+        "status": "placeholder",
+        "note": "A parent kneeling 6 feet from a child, tossing a rolled-up sock ball underhand with the words 'here it comes,' then the same toss weeks later with a tennis ball and no flinch."
+      },
+      "intro": [
+        "Being afraid of the ball is not a character flaw. It is a sensible reaction to a hard object flying at your face, and nearly every child feels it at some point. Some got hit once; some just imagined it. Either way, the fix is the same.",
+        "The fix is a slow ladder of balls that cannot hurt, a parent who stays close and low, and language that never once makes the child feel small for being scared. Weeks on the bottom rung are fine. There is no schedule."
+      ],
+      "whatToDo": [
+        "Start with a rolled-up sock ball or a soft foam ball. It cannot hurt, and your child knows it cannot hurt. Say so: 'This one can't hurt. Let's just catch.' Stay here as long as it takes, even weeks.",
+        "Stand close, 6 to 8 feet, and kneel so you are at their eye level. A kneeling parent is less scary than a standing one, and a short, low toss is easier to track.",
+        "Toss underhand, slow, with a little arc, aimed at the glove and never at the face. Say 'here it comes' before every toss so nothing is a surprise.",
+        "Move to a tennis ball only when they catch the sock ball without flinching, blinking, or turning away. Then repeat the same close, slow tosses with the tennis ball.",
+        "Move to a soft training baseball (a 'safety ball' with a soft core) when the tennis ball is easy. A hard baseball comes last, and only when they ask for it.",
+        "Teach the protective skill: glove up in front of the face with fingers pointing up, bare hand behind the glove. Show them that the glove is a shield that is always between them and the ball.",
+        "Let them control the pace: 'Say go when you're ready.' A child who controls when the ball comes is a child who can relax.",
+        "Keep every session short and end on a catch. Five good minutes is a win."
+      ],
+      "whatToSay": [
+        "This one can't hurt. Let's just catch.",
+        "Here it comes.",
+        "Say go when you're ready.",
+        "Glove up, like a shield.",
+        "Eyes open. Watch it in.",
+        "You caught it! Same again."
+      ],
+      "whatToWatchFor": [
+        "The flinch gets smaller: first no head turn, then no blink, then eyes tracking the ball the whole way.",
+        "They ask for the next ball type ('can we try the tennis ball?'). Their request, not yours.",
+        "They step toward a ball instead of backing away from it.",
+        "They stop talking about getting hurt and start talking about catching.",
+        "They ask for fly balls, the scariest kind."
+      ],
+      "whatToAvoid": [
+        "Shaming or teasing, even gently: 'Don't be a baby,' 'it's just a ball,' 'your sister isn't scared.' Fear is a feeling, not a choice, and shame makes it stick.",
+        "Jumping to a hard baseball to 'get them used to it.' One bad hit sets you back months. Climb the ladder of soft balls.",
+        "Throwing harder or from farther away to 'show them it's fine.' Close, low, and slow until the flinch is gone.",
+        "Hitting balls with a bat to a fearful child, ever. Hit balls are unpredictable. Toss by hand.",
+        "Making fear the topic. Do not announce 'we're working on your fear.' Just play catch with a sock ball because it is fun."
+      ],
+      "ifStruggling": [
+        "Catch with a balloon or a beach ball for a session. Big, slow, and silly breaks the tension.",
+        "Have them catch the sock ball with two bare hands and no glove; the glove can feel like a clumsy barrier at first.",
+        "Roll the ball instead of tossing it for a while. Ground balls are less scary than anything in the air.",
+        "If the fear is tied to a specific moment, like getting hit at practice, talk about it once, say it was normal to be scared, and then go back to the sock ball."
+      ],
+      "makeItFun": [
+        "Sock Ball Snowball Fight: throw sock balls at each other in the living room. Nothing hurts, everyone laughs, and tracking a ball coming toward you becomes a game.",
+        "Catch Tower: each clean catch adds a block or a cup to a tower. Knock it down with the sock ball at the end.",
+        "Color Call: put dot stickers on the tennis ball; they call out the color as they catch it. Eyes stay open without anyone saying so."
+      ],
+      "equipment": [
+        "soft_ball",
+        "tennis_ball",
+        "glove"
+      ],
+      "relatedLessonIds": [
+        "fld-20",
+        "fld-19",
+        "fld-10",
+        "hit-10",
+        "mnt-01"
+      ],
+      "tags": [
+        "my son is afraid of the baseball",
+        "my daughter is scared of the ball",
+        "afraid of the ball",
+        "kid flinches when catching",
+        "scared of fly balls",
+        "how to help a child not be afraid of the ball",
+        "sock ball catch",
+        "soft baseball for beginners",
+        "fear of getting hit by the ball",
+        "turns head away from ball"
+      ]
+    },
+    {
+      "id": "pg-19",
+      "title": "What to Say on the Car Ride Home",
+      "summary": "Lead with 'I love watching you play,' ask one question, and leave the coaching for another day: how to make the ride home the safest part of game day.",
+      "category": "mental",
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "pathwayStep": null,
+      "durationMin": 5,
+      "video": {
+        "status": "placeholder",
+        "note": "Interior of a car after a loss: the parent says 'I love watching you play,' asks what the most fun part was, and the child, after a quiet minute, starts talking about a teammate's catch."
+      },
+      "intro": [
+        "When coaches and researchers ask athletes about their worst memories in youth sports, one answer comes up again and again: the car ride home. Not the strikeout. The ride afterward, when a well-meaning parent reviewed it.",
+        "The ride home is where your child learns whether your love changes with the score. Six words and one question are enough to get it right."
+      ],
+      "whatToDo": [
+        "Lead with 'I love watching you play.' Say it first, before anything about the game, after wins and after losses. Those six words are the whole foundation.",
+        "Ask one question, and make it about them, not the result: 'What was the most fun part?' Then listen to the whole answer without adding anything.",
+        "Let them lead. If they want to talk baseball, talk baseball. If they want to talk about the snack, talk about the snack. Silence is fine too.",
+        "Separate the result from the person. 'Tough loss' is a fact. 'You guys played badly' is a verdict. Stick to facts and feelings: 'That was a close one. How are you feeling?'",
+        "Save coaching for later, if ever. If they ask 'what did I do wrong?' say 'Want to work on it tomorrow in the yard?' The car is for being a parent, not a coach.",
+        "Model sportsmanship in your comments: praise an opponent's good play, say something kind about the umpire's hard job, thank the coach by name.",
+        "Have a post-game ritual that is the same after a win or a loss: the same snack, the same song, the same question. Your child learns that your love does not change with the score."
+      ],
+      "whatToSay": [
+        "I love watching you play.",
+        "What was the most fun part?",
+        "That was a close one. How are you feeling?",
+        "Want to work on it tomorrow, or just relax?",
+        "The other team's shortstop made a great play, huh?",
+        "Snack stop?"
+      ],
+      "whatToWatchFor": [
+        "They start the conversation about the game themselves, which means they expect it to be safe.",
+        "They mention a mistake without spiraling: 'I missed that grounder. Oh well.'",
+        "They talk about teammates and fun moments more than about the score.",
+        "They are relaxed and chatty, not quiet and tense, when they get in the car."
+      ],
+      "whatToAvoid": [
+        "Opening with the mistake: 'What happened on that pop-up?' That question will be remembered for years.",
+        "Criticizing the coach, the umpire, or teammates in front of your child. It teaches blame, and it gets repeated in the dugout.",
+        "Reviewing the game play by play. They lived it. They do not need the replay.",
+        "Comparing: 'Did you see how hard the other kids were trying?'",
+        "Making the car ride the only time you talk about sports. If every ride is a debrief, they will dread the car."
+      ],
+      "ifStruggling": [
+        "If every ride turns into tears or silence, say nothing about the game for a full month. Just the six words and the snack.",
+        "Write the six words on a sticky note on the dashboard where you can see it and they cannot.",
+        "Let them put on headphones. Space is a gift after a hard game.",
+        "If you are too upset about the game yourself, say 'I'm going to be quiet for a bit,' and be quiet. Take care of your own feelings before you talk."
+      ],
+      "makeItFun": [
+        "High-Low-Funny: everyone in the car shares a high, a low, and a funny thing from the day, parent included. The game becomes one of many things that happened today.",
+        "Snack Stop Vote: after every game, win or lose, the player picks the snack stop. No performance required.",
+        "DJ Rights: the player controls the music on the way home. Same rule after a win and after a loss."
+      ],
+      "equipment": [
+        "none"
+      ],
+      "relatedLessonIds": [
+        "mnt-06",
+        "mnt-03",
+        "mnt-02",
+        "mnt-01"
+      ],
+      "tags": [
+        "what to say on the car ride home",
+        "car ride home after a game",
+        "I love watching you play",
+        "what to say after my kid loses",
+        "kid cries after baseball game",
+        "how to talk to my child after a bad game",
+        "sports parent tips",
+        "post game talk",
+        "don't coach in the car",
+        "my son is upset after the game"
+      ]
+    },
+    {
+      "id": "pg-20",
+      "title": "What to Expect at Each Age and Division",
+      "summary": "What tee ball, coach pitch, Minors, Majors, and the Intermediate and Junior divisions typically look like, and why your own league's pages are the final word.",
+      "category": "general",
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "pathwayStep": null,
+      "durationMin": 10,
+      "video": {
+        "status": "placeholder",
+        "note": "Short clips from each division in order, tee ball through Juniors, with on-screen labels for typical ages, field size, who pitches, and the parent's role in each."
+      },
+      "intro": [
+        "Every league names and structures its divisions a little differently. One league's 'Minors' is another league's 'AA,' and age cutoffs shift from year to year. This guide describes what each level typically looks like so nothing surprises you, but your league's registration pages and its current Little League rulebook are the authority.",
+        "The pattern across all of them is the same: the field gets bigger, the pitching gets faster, and more of the real rules switch on. Each jump feels rough for the first two weeks. That is normal."
+      ],
+      "whatToDo": [
+        "Find your league's own division page first and read it with your child. Ages, names, field sizes, and local rules are all there, and they beat anything written here.",
+        "Tee ball (typically ages 4 to 6, sometimes 7): the ball sits on a tee and every child bats each inning. Outs may be counted loosely or not at all, scores are often not kept, and games are short, usually an hour or less. The point is fun, basic throwing and catching, and learning which way to run. Expect dandelion picking in the outfield.",
+        "Coach pitch or machine pitch (typically ages 6 to 8): a coach or a pitching machine delivers slow, steady pitches so kids learn to hit a moving ball. Outs count, innings are real, and fielders start learning where to throw. Whether scores are kept depends on the league. GamePlanIQ's lesson on moving from tee ball to coach pitch is built for this jump.",
+        "Minors with kid pitchers (typically ages 8 to 11, sometimes split into levels): children pitch for the first time, so expect lots of walks, long innings, and big swings of emotion. Pitch count limits and rest days begin to matter here. Stealing and other baserunning rules vary widely by league at this level, so ask.",
+        "Majors (typically ages 10 to 12): the classic Little League you see on TV, usually with 60-foot base paths and the pitcher 46 feet from home plate. Full rules apply, players are often drafted onto teams, and the season may lead to All-Star selection. Runners typically may not leave the base until the pitch reaches the batter; check the rulebook for the exact wording.",
+        "Intermediate and Junior divisions (typically ages 11 to 14): the field grows (Intermediate often uses a 50-foot pitching distance and 70-foot bases; Juniors a full-size 60-foot and 90-foot field), and the game adds leading off, pickoffs, and more. The jump in field size is big; throws that used to be easy are suddenly long.",
+        "Expect your own role to change: in tee ball you may be on the field helping; by Majors you are in the bleachers. Ask the coach at the first meeting what parents do in this division.",
+        "Give any new division three weeks before worrying. Bigger field, faster pitches, new rules: the first two weeks are rough for everyone."
+      ],
+      "whatToSay": [
+        "This year the field is bigger. Everyone's throws will be short for a while.",
+        "Coach pitch means the ball moves now. Watching it is the whole job.",
+        "Kids are pitching this year, so there will be lots of walks. That's normal.",
+        "What's one new rule you learned this season?",
+        "Let's look at the league's page together and see what your division does."
+      ],
+      "whatToWatchFor": [
+        "Your child can tell you the big change in their division this year ('I have to wait for the pitch before I run').",
+        "By midseason, the new field size or pitch speed stops being the topic of every car ride.",
+        "If they pitch, they know the pitch count and rest rules apply to them, and they tell you when they pitched.",
+        "You know which rules in your division differ from TV baseball (leading off, stealing, dropped third strikes) because you looked them up."
+      ],
+      "whatToAvoid": [
+        "Assuming your league's divisions match what a friend in another town described, or what this page describes. Names, ages, and rules vary; the league's pages win.",
+        "Pushing a child 'up' a division early for prestige. Playing with and against bigger, faster kids can shake confidence. Ask the coach for an honest read.",
+        "Expecting tee ball to look like baseball. If every child runs to the ball at once, the league is doing it right.",
+        "Counting walks and errors in Minors as 'bad baseball.' That is what learning to pitch and field looks like, every year, in every league.",
+        "Treating All-Stars as the point of the season. It is a small group for a few weeks; the season is the point."
+      ],
+      "ifStruggling": [
+        "If your child is overwhelmed by a new division, ask the coach whether a different team or level is possible; many leagues allow a change early in the season.",
+        "Focus home practice on the one thing that changed: hitting a moving ball for new coach-pitch players, longer throws for a bigger field, watching the pitch for new leading-off rules.",
+        "Read the division's own rules page with your child; knowing the rules removes a lot of the fear.",
+        "Give it three weeks before making any decision about moving divisions."
+      ],
+      "makeItFun": [
+        "Division Passport: a notebook page per division with the field size, the new rules, and one photo. Stamp it at the end of each season.",
+        "Field Walk: at the start of a new division, walk the new base distance together and count the steps. Then race it.",
+        "Rule Hunt: find three rules in the league's current rulebook that are different from last year's division and read them aloud like breaking news."
+      ],
+      "equipment": [
+        "none"
+      ],
+      "relatedLessonIds": [
+        "hit-20",
+        "run-05",
+        "thr-13",
+        "fld-20",
+        "pos-07"
+      ],
+      "tags": [
+        "what to expect at each age and division",
+        "what is tee ball",
+        "what is coach pitch",
+        "difference between minors and majors",
+        "little league divisions explained",
+        "what age is machine pitch",
+        "intermediate 50/70",
+        "juniors division",
+        "which division should my child play",
+        "little league age chart"
+      ]
+    }
+  ]
+}

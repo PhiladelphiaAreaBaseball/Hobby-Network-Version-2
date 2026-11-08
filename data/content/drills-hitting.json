@@ -1,0 +1,1376 @@
+{
+  "$schema": "drill",
+  "items": [
+    {
+      "id": "drill-hit-01",
+      "name": "Knocking-Knuckle Line-Up",
+      "category": "hitting",
+      "skillFocus": [
+        "grip"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "bat"
+      ],
+      "equipmentFreeVariant": "Use a broom handle, a cardboard tube, or a rolled magazine. Any stick about an inch thick shows the knuckle line just as well.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 8,
+      "participantsMin": 1,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 4,
+      "phase": "warmup",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Each player has a bat lying on the ground in front of them, with at least eight feet between players. No swinging happens in this drill, so it works in a garage or a gym hallway.",
+      "instructions": [
+        "On 'pick it up', each player bends down and picks up the bat with both hands, bottom hand nearest the knob.",
+        "Players lift the bat to shoulder height and look down the handle. The knocking knuckles of both hands should make a rough line, and the hands should touch.",
+        "The coach or parent walks behind the line and checks each grip. Fix one hand at a time by rotating it gently.",
+        "Players squeeze the bat as hard as they can for two seconds, then relax to a soft three-out-of-ten grip.",
+        "On 'set it down', players place the bat gently on the ground. Repeat five times, trying to get the grip right on the first try each time."
+      ],
+      "reps": "5 pick-ups with a grip check, then 5 more trying to need no correction",
+      "cues": [
+        "Knob hand first",
+        "Knuckles in a line",
+        "Soft hands"
+      ],
+      "parentTip": "Stand behind your child and look only at the knuckles. If you can see a gap between the hands or the top-hand knuckles pointing a different way than the bottom hand's, that is the only fix for today.",
+      "safety": [
+        "No swings during this drill. Bats come up to shoulder height and go back down to the ground.",
+        "Keep eight feet between players and have everyone face the same direction."
+      ],
+      "funVariation": "Grip Race: on 'go', players pick up the bat and freeze with the grip showing. The first correct grip earns a point. Play to five, and anyone who corrects their own grip before the check gets a bonus point.",
+      "lessonId": "hit-01"
+    },
+    {
+      "id": "drill-hit-02",
+      "name": "Jump and Stick",
+      "category": "hitting",
+      "skillFocus": [
+        "stance",
+        "balance"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "This drill already needs nothing. Draw footprints with chalk or lay two pieces of tape where the feet should land so the child has a target.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 8,
+      "participantsMin": 1,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 4,
+      "phase": "warmup",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Players spread out with eight feet between them, each next to a plate marker such as a paper plate or a chalk square. No bats are needed, so the whole team can do it at once.",
+      "instructions": [
+        "Players stand sideways to an imaginary pitcher with the front shoulder pointing at the pitcher and both feet next to the plate.",
+        "On 'jump', everyone hops straight up a few inches. On 'stick', everyone lands softly with bent knees and freezes.",
+        "Check the landing: feet a little wider than the shoulders, toes pointing at the plate, knees over the shoelaces, weight on the balls of the feet.",
+        "Players bring their hands up to the back shoulder as if holding a bat and turn the head so both eyes look at the pitcher.",
+        "Hold for a count of three, then relax. Repeat eight times, trying to land in the same spot every time."
+      ],
+      "reps": "8 jump-and-sticks with a 3-second hold on each",
+      "cues": [
+        "Jump and stick",
+        "Toes to the plate",
+        "Sit on the stool"
+      ],
+      "parentTip": "The landing is almost always a perfect stance width. If the knees are straight after landing, press down gently on both shoulders until they bend, and say 'that is the spot'.",
+      "safety": [
+        "Do this on grass, a mat, or a dry floor, never on a wet or slick surface.",
+        "If bats are added later, players move to the twelve-foot spacing of a swinging drill."
+      ],
+      "funVariation": "Statue Garden: after the stick, the coach walks through the group trying to find a statue that wobbles. Anyone who holds perfectly still until tagged on the shoulder becomes a judge for the next round.",
+      "lessonId": "hit-02"
+    },
+    {
+      "id": "drill-hit-03",
+      "name": "Statue Finish Swings",
+      "category": "hitting",
+      "skillFocus": [
+        "balance",
+        "swing_path"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "bat"
+      ],
+      "equipmentFreeVariant": "Swing with clasped hands or a rolled towel. The freeze test works exactly the same with no bat.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 12,
+      "participantsMin": 1,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Each hitter stands in a cleared circle twelve feet across with a plate marker, all facing the same direction. In a garage, cars are out and the ceiling and walls are at least twelve feet from the bat at full extension.",
+      "instructions": [
+        "Hitters take the stance with sixty percent of the weight on the back foot.",
+        "On 'swing', each hitter takes a shadow swing at about seventy percent effort and freezes at the finish.",
+        "Hold the finish for a slow count of three: back heel up, back toe down, front leg firm, belt buckle to the pitcher, head over the middle.",
+        "The coach or parent walks behind the line and gently taps each hitter's front shoulder. A balanced statue does not move.",
+        "Reset and repeat. Any hitter who wobbles slows the next swing down until the freeze holds."
+      ],
+      "reps": "3 sets of 5 swings with a 3-second freeze, 30 seconds of rest between sets",
+      "cues": [
+        "Freeze for three",
+        "Nose over the belt buckle",
+        "Seventy percent"
+      ],
+      "parentTip": "Watch the head against a fixed spot in the background. If it moves more than a few inches toward the pitcher, the swing is pulling the body off balance; ask for a slower swing rather than more effort.",
+      "safety": [
+        "Only hitters stand inside the twelve-foot circles. Parents and coaches check from behind, never from the side or front.",
+        "Use grass or dry pavement so the frozen finish does not become a slip."
+      ],
+      "funVariation": "Museum Tour: hitters freeze and the coach pretends to be a visitor describing each statue. Any statue that laughs or wobbles before the tour moves on loses a point, and the stillest statue chooses the next cue.",
+      "lessonId": "hit-03"
+    },
+    {
+      "id": "drill-hit-04",
+      "name": "Load and Hold",
+      "category": "hitting",
+      "skillFocus": [
+        "load",
+        "balance"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "bat"
+      ],
+      "equipmentFreeVariant": "Hold a rolled towel or a short stick in the batting grip, or clasp the hands. The load is a body move and needs no bat.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 8,
+      "participantsMin": 1,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Players stand in a line eight feet apart, all facing the same way, in the batting stance. There is no swing in this drill, only the load and a pause, so it works in a garage or small room with bats held at shoulder height.",
+      "instructions": [
+        "On 'load', each hitter moves the hands back toward the catcher the width of a fist, settles the weight into the inside of the back thigh, and turns the front knee slightly inward.",
+        "Hold the loaded position for two seconds. The front heel may lift, but the front foot stays on the ground and the barrel stays between straight up and forty-five degrees.",
+        "The coach checks from behind: hands back a fist-width, front knee turned in, barrel not wrapped toward the pitcher, head still.",
+        "On 'relax', hitters return to the stance. Repeat six times.",
+        "Add a rhythm: the coach slowly raises an arm like a pitcher, and hitters start the load as the arm rises and finish loaded when it reaches the top."
+      ],
+      "reps": "3 sets of 6 loads with a 2-second hold, then 6 loads timed to a mimed pitching arm",
+      "cues": [
+        "Fist-width back",
+        "Pinch the knees",
+        "Barrel up, not wrapped"
+      ],
+      "parentTip": "Look at the barrel from behind. If you can see it pointing at the pitcher, the hands have wrapped too far; the load should be small enough that the barrel still points up.",
+      "safety": [
+        "This is a no-swing drill. Make it clear before starting that bats stay at shoulder height.",
+        "Keep eight feet between hitters so the bat head cannot reach a neighbor."
+      ],
+      "funVariation": "Red Light, Green Light Load: the coach calls 'load' and 'relax' at random speeds. Anyone who swings, steps, or wraps the barrel sits out one round. The last hitter standing picks the warm-up song or the next drill.",
+      "lessonId": "hit-04"
+    },
+    {
+      "id": "drill-hit-05",
+      "name": "Towel Stride Drill",
+      "category": "hitting",
+      "skillFocus": [
+        "load",
+        "stance"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "This drill is designed around a rolled bath towel from the house. With no towel, clasp the hands together and do the same stride with the hands staying back.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 8,
+      "participantsMin": 1,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Each hitter rolls a bath towel into a tight tube and holds it in the batting grip. A chalk line or tape strip runs from the front toe toward the imaginary pitcher. Eight feet between hitters is enough because a towel cannot hurt anyone.",
+      "instructions": [
+        "Take the stance and load with the towel held at the back shoulder.",
+        "Stride two to six inches straight along the line, landing softly on the inside of the front foot with the toes still facing the plate. The towel stays back.",
+        "Freeze at landing for two seconds. Check: weight mostly back, front shoulder closed, towel still at the back shoulder.",
+        "Finish with a slow swing of the towel so it snaps out toward the imaginary ball, then hold a balanced finish.",
+        "Repeat six times focusing on the line, six times focusing on the towel staying back, six times focusing on the soft landing."
+      ],
+      "reps": "3 sets of 6 strides, each set with one checkpoint",
+      "cues": [
+        "Short and soft",
+        "Hands stay home",
+        "Land on the line"
+      ],
+      "parentTip": "Hold the far end of the towel lightly from behind while your child strides. They should feel a gentle tug as the foot lands, which means the hands stayed back while the foot went forward.",
+      "safety": [
+        "Use chalk or flat tape for the line, never a rope or stick that could be tripped over.",
+        "If real bats replace towels, move to twelve-foot spacing and outdoor or garage space with clearance."
+      ],
+      "funVariation": "Line Landing Contest: each hitter gets ten strides with eyes closed. One point for each landing on the line, and the winner gets to lead the next drill's count.",
+      "lessonId": "hit-05"
+    },
+    {
+      "id": "drill-hit-06",
+      "name": "Clasped-Hands Path Drill",
+      "category": "hitting",
+      "skillFocus": [
+        "swing_path"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "This drill needs nothing at all. Clasp the two hands into one fist and swing them as if they were the bat handle.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 8,
+      "participantsMin": 1,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 4,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Hitters spread out eight feet apart facing the same direction with a plate marker. The parent or coach stands behind the line where the hand path is easy to see.",
+      "instructions": [
+        "Take the stance with the hands clasped together at the back shoulder, as if holding a bat with no bat.",
+        "Load a fist-width back, then swing the clasped hands slowly toward an imaginary ball out in front of the front hip, leading with the pinky side of the bottom hand.",
+        "Feel the back elbow slide down to the back hip first, with the hands passing about a fist-width from the ribs.",
+        "Stop the hands at the contact point with the arms nearly extended, then finish high and hold for two seconds.",
+        "Repeat at half speed, then at three-quarter speed, keeping the hands tight to the body the whole way."
+      ],
+      "reps": "8 slow swings, 8 at half speed, 8 at three-quarter speed",
+      "cues": [
+        "Knob to the ball",
+        "Back elbow to the hip",
+        "Hands tight"
+      ],
+      "parentTip": "Watch the first six inches of the swing from behind. The hands should move toward the pitcher's side of the plate and stay near the body; if they fly out to the side first, the real bat will cast the same way.",
+      "safety": [
+        "No bats are used, so this drill is safe anywhere with eight feet of room.",
+        "Keep hitters from bumping into each other by having everyone face the same direction."
+      ],
+      "funVariation": "Lawnmower Start: hitters pretend to pull a lawnmower cord toward their belly with the clasped hands before every swing, making the engine noise. The silliest noise with the tightest hands wins the round.",
+      "lessonId": "hit-06"
+    },
+    {
+      "id": "drill-hit-07",
+      "name": "Bat-Behind-the-Back Hip Turns",
+      "category": "hitting",
+      "skillFocus": [
+        "swing_path",
+        "balance"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "bat"
+      ],
+      "equipmentFreeVariant": "Hold a broom handle or a towel across the lower back, or just put the hands on the hips, and do the same turn with the back-foot pivot.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 8,
+      "participantsMin": 1,
+      "participantsMax": 8,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Each hitter holds a bat horizontally across the lower back, hooked in the crooks of both elbows, and stands in the batting stance with eight feet to the next hitter. The bat never swings, so this works indoors.",
+      "instructions": [
+        "Take the stance and stride, keeping the bat across the back.",
+        "On 'turn', rotate the hips toward the pitcher, lifting the back heel and pivoting on the ball of the back foot until the bat ends point at the pitcher.",
+        "Keep the head still over the middle of the body while the hips turn underneath it. Hold for two seconds.",
+        "Check the belt buckle faces the pitcher and the back knee points at the front knee, then reset.",
+        "After eight turns, take the bat out, hold it normally, and take four slow swings feeling the hips start the swing before the hands."
+      ],
+      "reps": "2 rounds of 8 hip turns followed by 4 slow swings",
+      "cues": [
+        "Squish the bug",
+        "Belt buckle to the pitcher",
+        "Head stays home"
+      ],
+      "parentTip": "Watch the back heel. If it stays flat on the ground during the turn, the hips are not really rotating; a heel that lifts and turns out means the lower half is doing the work.",
+      "safety": [
+        "The bat ends swing around the body during the turn, so keep eight feet between hitters.",
+        "When the bat comes out for real swings, move to twelve-foot spacing and a cleared outdoor or garage space."
+      ],
+      "funVariation": "Helicopter: hitters turn their hips so the bat behind the back spins like helicopter blades while the head stays frozen. The coach tries to catch any head that turns with the blades.",
+      "lessonId": "hit-07"
+    },
+    {
+      "id": "drill-hit-08",
+      "name": "Net-Distance Swings",
+      "category": "hitting",
+      "skillFocus": [
+        "swing_path",
+        "bat_control"
+      ],
+      "ageGroups": [
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "bat",
+        "net"
+      ],
+      "equipmentFreeVariant": "Hang a blanket or bedsheet from a fence or clothesline as the net, and clasp the hands if there is no bat, leading with the pinky side of the bottom hand past the blanket.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 12,
+      "participantsMin": 1,
+      "participantsMax": 4,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 6,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "none",
+      "setup": "Set a plate marker so its pitcher-side edge is one bat length plus a fist from a soft net or hanging blanket. The hitter needs twelve feet of clearance in every other direction, and the parent stands behind the hitter, never beside the net.",
+      "instructions": [
+        "Take the stance and load with no ball. Swing at half speed, leading with the knob and keeping the hands a fist-width from the body.",
+        "Listen and watch: if the bat brushes the net, the hands cast out; if the bat clears it, the hands stayed inside.",
+        "Repeat at half speed until the bat clears the net five swings in a row.",
+        "Move to seventy percent speed for eight swings, freezing each finish to check the net is still.",
+        "Finish with four full-speed swings. Any touch of the net means the next set drops back to half speed."
+      ],
+      "reps": "8 half-speed swings, 8 at seventy percent, 4 full speed",
+      "cues": [
+        "Hands inside",
+        "Clear the net",
+        "Elbow in the slot"
+      ],
+      "parentTip": "Listen as much as you watch. The sound of the bat brushing the net tells you the hands cast even when you could not see it; silence for five swings in a row means the feel is there.",
+      "safety": [
+        "Use a soft net, blanket, or sheet, never a chain-link fence, wall, or wooden fence that could bounce the bat back.",
+        "The parent stays behind the hitter; nobody stands between the hitter and the net or beside it.",
+        "Warm up with ten easy shadow swings before starting, since the swing stays close to the body."
+      ],
+      "funVariation": "Silent Swings: the hitter earns a point for every swing with no sound from the net and loses two for any touch. Play to ten and let the hitter pick the first tee location of the next drill.",
+      "lessonId": "hit-08"
+    },
+    {
+      "id": "drill-hit-09",
+      "name": "Three-Balls-in-a-Row Extension Tee",
+      "category": "hitting",
+      "skillFocus": [
+        "contact",
+        "swing_path"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "bat",
+        "tee",
+        "soft_ball",
+        "net",
+        "helmet"
+      ],
+      "equipmentFreeVariant": "Take shadow swings and freeze at the power V with the arms extended and the bat pointing at the pitcher, then at a high finish. A rolled towel snapping out straight shows extension too.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 15,
+      "participantsMin": 1,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "none",
+      "setup": "Tee at belt height with the ball even with the front foot, fifteen feet from an anchored net, in a bat zone cleared twelve feet around. Place a second ball on the ground six inches in front of the tee toward the net as a reminder to swing through. Waiting hitters stand behind the hitter.",
+      "instructions": [
+        "Take three shadow swings stopping at the power V: both arms nearly straight, bat pointing at the net, top palm facing up.",
+        "Hit six balls off the tee, trying to swing far enough to have hit the second ball on the ground too, and freeze a high finish for three seconds.",
+        "Rest while the balls are collected with the bat on the ground, then hit six more with the parent calling 'reach' right at contact.",
+        "Hit a final six with no cues. The hitter says 'good' or 'short' after each swing based on their own finish.",
+        "Finish with three bottom-hand-only shadow swings, letting the arm extend fully."
+      ],
+      "reps": "3 sets of 6 tee swings with a 3-second finish, 1 minute of rest between sets",
+      "cues": [
+        "Hit three balls in a row",
+        "Power V",
+        "Finish high"
+      ],
+      "parentTip": "Crouch behind and to the side so your eyes are at the ball's height. A split second after contact you should see both arms straight and the bat out beyond the front foot before it wraps around.",
+      "safety": [
+        "Only the hitter stands inside the bat zone; the high finish carries the bat all the way around the body.",
+        "Hit only into an anchored net or open space with nobody within sixty feet in front, with soft or safety balls near houses and cars.",
+        "Wear a batting helmet for every tee swing."
+      ],
+      "funVariation": "Net Target Points: tape a paper plate to the center of the net. Three points for hitting the plate, one for the net, zero for a swing that stops short with a low finish. Play to fifteen.",
+      "lessonId": "hit-09"
+    },
+    {
+      "id": "drill-hit-10",
+      "name": "Call the Color",
+      "category": "hitting",
+      "skillFocus": [
+        "contact",
+        "fun"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "soft_ball"
+      ],
+      "equipmentFreeVariant": "Use rolled-up socks of different colors, or draw numbers on a tennis ball or crumpled paper balls with a marker.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 10,
+      "participantsMin": 2,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "warmup",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Mark three or four soft balls with big colored dots or numbers. The tosser kneels ten feet from the child with the balls in a bucket. No bat is used in this drill, so it is safe indoors and in small yards.",
+      "instructions": [
+        "Roll the first ball along the ground toward the child's feet. The child shouts the color or number as early as possible, then picks it up.",
+        "After five rolls, switch to gentle underhand tosses at chest height. The child calls the color and catches the ball or traps it against the chest.",
+        "Hold the ball still for two seconds before each toss so the child sees it leave the hand.",
+        "Ask the child to call the color before the ball is halfway. Praise every correct early call even if the catch is dropped.",
+        "The child hands or rolls the ball back rather than throwing it, so the game stays about the eyes."
+      ],
+      "reps": "5 rolled balls, then 10 soft tosses, repeated once if the child is still having fun",
+      "cues": [
+        "Call the color",
+        "Eyes on the ball",
+        "Both eyes"
+      ],
+      "parentTip": "A correct color called early means your child was tracking the ball out of your hand. A guess, or a call made after the catch, means the eyes picked the ball up late; slow the toss down and shorten the distance to six feet.",
+      "safety": [
+        "Soft or safety balls only, underhand, and no bat anywhere nearby during this game.",
+        "Keep the child's back to any walls or furniture so a dropped ball does not roll into something sharp."
+      ],
+      "funVariation": "Color Catch Challenge: the child gets a point for every correct color and a bonus point for calling it before the ball peaks. Reach ten points and the child gets to toss to the parent for a round.",
+      "lessonId": "hit-10"
+    },
+    {
+      "id": "drill-hit-11",
+      "name": "Three-Spot Contact Point Tee",
+      "category": "hitting",
+      "skillFocus": [
+        "contact",
+        "bat_control"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "bat",
+        "tee",
+        "soft_ball",
+        "net",
+        "helmet"
+      ],
+      "equipmentFreeVariant": "Chalk the three contact spots and take shadow swings, stopping the bat at each spot with the arms nearly straight to feel out front, even, and deep.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 15,
+      "participantsMin": 1,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "none",
+      "setup": "Chalk three contact points on the ground: a foot in front of the front foot on the inside edge, even with the front instep over the middle, and halfway back toward the middle of the plate on the outside edge. Tee at belt height, net fifteen feet away, bat zone cleared twelve feet around, helmet on.",
+      "instructions": [
+        "Set the tee on the middle spot. Take three shadow swings stopping at the ball with the arms nearly straight.",
+        "Hit six balls from the middle spot into the center of the net, freezing the finish with the belt buckle toward the net.",
+        "Move the tee to the inside spot and hit six balls to the pull side of the net.",
+        "Move the tee to the outside spot and hit six balls to the opposite-field side, letting the arms extend toward that side.",
+        "For the last set, move the tee to a random spot after each swing. The hitter says the location out loud before swinging and the parent calls where the ball went."
+      ],
+      "reps": "4 sets of 6 tee swings, one per spot plus a mixed set",
+      "cues": [
+        "Inside out front",
+        "Middle at the foot",
+        "Outside deep"
+      ],
+      "parentTip": "Watch the arms at contact. Almost straight is right; bent to ninety degrees means the ball was too deep, and locked out with the barrel already turned means too far out front. Where the ball goes in the net tells you the same thing.",
+      "safety": [
+        "Move the tee only after the hitter sets the bat on the ground and steps back out of the bat zone.",
+        "Outside-spot balls go to the opposite field, so the net must be wide or the field clear in that direction for sixty feet.",
+        "Batting helmet on for every tee swing."
+      ],
+      "funVariation": "Zone Bingo: tape three paper plates on the net for pull side, middle, and opposite field. The hitter must hit all three plates from the matching tee spots to call bingo, then tries to do it in fewer swings next round.",
+      "lessonId": "hit-11"
+    },
+    {
+      "id": "drill-hit-12",
+      "name": "Yes-Yes-Go Rhythm Toss",
+      "category": "hitting",
+      "skillFocus": [
+        "timing",
+        "load"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "bat",
+        "soft_ball",
+        "helmet",
+        "l_screen"
+      ],
+      "equipmentFreeVariant": "The parent stands forty feet away and mimes a slow pitching motion with no ball while the child shadow swings on 'yes, yes, go'. A rolled sock ball tossed over a couch with a towel for a bat works for light indoor rhythm work.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 40,
+      "participantsMin": 2,
+      "participantsMax": 8,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 10,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "light",
+      "setup": "Field or large yard with at least forty feet clear in front of the hitter. L-screen fifteen to twenty feet from the plate with the tosser and a bucket of soft balls behind it. Helmet on the hitter; waiting players stand behind the hitter and gently toss stray balls back to the bucket.",
+      "instructions": [
+        "With no ball, the tosser mimes a big underhand toss motion. The hitter loads on the first 'yes' as the arm goes back, lands the stride on the second 'yes' as the hand would release, and shadow swings on 'go'. Do eight.",
+        "Toss eight balls at an easy, repeatable speed, saying the rhythm out loud. The hitter swings only at strikes.",
+        "Toss eight more with no words; the hitter says the rhythm silently and swings on good tosses or holds on bad ones.",
+        "Mix in two or three slower tosses without warning. The hitter must land the stride and wait with the hands back.",
+        "Finish with eight tosses at normal speed, with the hitter reporting 'early', 'late', or 'on time' after each."
+      ],
+      "reps": "4 sets of 8 tosses with a minute of rest to collect balls",
+      "cues": [
+        "Yes, yes, go",
+        "Load when the arm starts",
+        "Early and wait"
+      ],
+      "parentTip": "Watch the stride foot land. It should touch down as the ball leaves your hand; landing when the ball is halfway means the whole swing will be late, so cue the load earlier rather than a faster swing.",
+      "safety": [
+        "The tosser is behind an L-screen, or uses very soft sponge balls from fifteen feet or more if no screen is available. Hard baseballs are never tossed from the open.",
+        "The hitter wears a batting helmet, and all waiting players stay behind the hitter, never beside the plate or near the screen.",
+        "Tossers stop after about thirty tosses to rest their own arm."
+      ],
+      "funVariation": "Fool the Hitter: the tosser earns a point for every slow toss that makes the hitter lunge, and the hitter earns a point for every slow toss they wait on and hit. First to five wins, and the hitter gets to be the tosser next.",
+      "lessonId": "hit-12"
+    },
+    {
+      "id": "drill-hit-13",
+      "name": "First Tee Hits",
+      "category": "hitting",
+      "skillFocus": [
+        "contact",
+        "stance"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "tee",
+        "bat",
+        "soft_ball",
+        "helmet"
+      ],
+      "equipmentFreeVariant": "Stack upside-down buckets or use a traffic cone to belt height and set a tennis ball or rolled sock ball on top. A plastic bat or broom handle works for first swings.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 40,
+      "participantsMin": 2,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Open grass with at least forty feet clear in front of the hitter and twelve feet all around. Plate down first, then tee set so the ball is at the hitter's belt in the bent-knee stance and even with the front foot. Soft balls in a bucket behind the hitter. At a team station, one tee per hitter spaced fifteen feet apart, all facing the same way.",
+      "instructions": [
+        "The hitter lays the bat across the plate with the barrel touching the ball, stands where the knob meets the toes, and steps back one shoe length. Mark the back foot spot with chalk.",
+        "Helmet on. Everyone else moves behind the hitter.",
+        "Hit five soft balls, saying 'bat down' and setting the bat on the ground before anyone resets the ball.",
+        "Collect the balls together, check the tee height again, and hit five more.",
+        "Finish with a third set of five and pick out the best hit of the day."
+      ],
+      "reps": "3 sets of 5 tee swings with a 'bat down' reset after each ball",
+      "cues": [
+        "Ball at the belt",
+        "Bat down before reset",
+        "Look at the top of the ball"
+      ],
+      "parentTip": "Stand behind and to the side and check only two things: is the ball at the belt, and is it even with the front foot? If both are right, let the swings happen without more coaching and celebrate any contact.",
+      "safety": [
+        "Soft or safety balls only for young children, a batting helmet on the hitter, and nobody within sixty feet in front.",
+        "The bat goes on the ground before anyone walks toward the tee to reset the ball.",
+        "Check the tee base is flat and stable so it does not tip into the hitter's feet."
+      ],
+      "funVariation": "Home Run Derby Lite: set cones at twenty, thirty, and forty feet. One point for reaching the first cone, two for the second, three for the third. Every hitter gets ten swings and keeps their own score.",
+      "lessonId": "hit-13"
+    },
+    {
+      "id": "drill-hit-14",
+      "name": "Inside-Middle-Outside Tee Into the Net",
+      "category": "hitting",
+      "skillFocus": [
+        "contact",
+        "swing_path",
+        "bat_control"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "bat",
+        "tee",
+        "soft_ball",
+        "net",
+        "helmet"
+      ],
+      "equipmentFreeVariant": "Chalk the three locations and take shadow swings to each, stopping the bat at the ball spot to feel the barrel aimed at the pull side, the middle, or the opposite field.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 15,
+      "participantsMin": 1,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 10,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "none",
+      "setup": "Wide anchored net fifteen feet in front of the plate, bat zone cleared twelve feet around, helmet on. Chalk three tee spots: inside and a foot in front of the front foot, middle even with the front instep, outside on the far edge and back toward the middle of the plate. In a garage, cars are out and the ceiling clears a full swing.",
+      "instructions": [
+        "Tee on the middle spot at belt height. Hit six balls up the middle into the center of the net, freezing the finish.",
+        "Move the tee to the inside spot. Hit six balls to the pull side of the net with the hips turning all the way to the pitcher.",
+        "Move the tee to the outside spot. Hit six balls to the opposite-field side, letting the ball travel and the barrel reach across.",
+        "Mixed set: move the tee to a random spot after every swing. The hitter names the location before swinging.",
+        "Count how many balls went to the matching side of the net in the mixed set."
+      ],
+      "reps": "4 sets of 6 tee swings, one per location plus a mixed set",
+      "cues": [
+        "Inside, pull it",
+        "Outside, other way",
+        "Same swing, different spot"
+      ],
+      "parentTip": "Call out where the ball went after each swing, pull side, middle, or other way, so your child connects the tee location to the result. If more than two in a set go the wrong way, move the tee an inch or two and say nothing about the swing.",
+      "safety": [
+        "Move the tee only after the hitter puts the bat on the ground and steps back.",
+        "At team stations, tees are at least fifteen feet apart with all hitters facing the same direction into the same net line.",
+        "Batting helmet on for every tee swing, soft or safety balls near houses and cars."
+      ],
+      "funVariation": "Around the World: the hitter must hit the pull side, the middle, and the opposite field in order, one ball each. Miss the target and start over. Fewest total swings to go around the world wins.",
+      "lessonId": "hit-14"
+    },
+    {
+      "id": "drill-hit-15",
+      "name": "Side Soft Toss Into the Net",
+      "category": "hitting",
+      "skillFocus": [
+        "contact",
+        "timing"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "bat",
+        "soft_ball",
+        "net",
+        "helmet"
+      ],
+      "equipmentFreeVariant": "Hang a blanket on a clothesline as the net and toss rolled sock balls from the side. A plastic bat or broom handle works for the hitter.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 20,
+      "participantsMin": 2,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "none",
+      "setup": "Anchored net fifteen feet in front of the plate, twenty feet of clear space around the hitter, helmet on. The tosser kneels on the open side, the side the hitter's chest faces, ten to twelve feet away and a step or two ahead of the plate toward the pitcher, with a bucket of soft balls. Waiting players stand behind the hitter.",
+      "instructions": [
+        "Toss three balls with no swing. The hitter tracks each one into the zone, lets it drop, and says 'yes' when it reaches the contact point.",
+        "Toss eight balls underhand with a small arc so each drops to belt height even with the front foot. The hitter loads as the hand drops, strides as the ball leaves, and drives it into the net.",
+        "Freeze the finish after each swing. The tosser counts 'one, two' before every flip so the rhythm never changes.",
+        "Rest and collect balls together, then toss a second set of eight, calling out where each ball hit the net.",
+        "Finish with three tee balls so the last swing is on a still ball."
+      ],
+      "reps": "3 tracking tosses, then 2 sets of 8 soft tosses with a minute of rest between",
+      "cues": [
+        "Watch it out of the hand",
+        "Let it come to you",
+        "Same swing as the tee"
+      ],
+      "parentTip": "Kneel so you are looking at your child's front shoulder, not their back, and toss slow with a little arc. If your child pops balls up, toss three with no swing and have them watch the ball into the zone before hitting again.",
+      "safety": [
+        "The tosser is on the open side, ahead of the plate, never directly in front of the hitter and never behind the plate, so the hit ball goes straight ahead into the net away from the tosser.",
+        "Batting helmet on the hitter, soft or safety balls near houses and driveways, and everyone waiting behind the hitter.",
+        "Not for garages or small rooms, because the tosser shares the space with a swinging bat and flying balls."
+      ],
+      "funVariation": "Color Call Soft Toss: use balls with colored dots and have the hitter call the color before swinging. A correct color plus a hard hit into the net is two points; play to ten.",
+      "lessonId": "hit-15"
+    },
+    {
+      "id": "drill-hit-16",
+      "name": "One-Hand Tee Swings",
+      "category": "hitting",
+      "skillFocus": [
+        "bat_control",
+        "swing_path"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "bat",
+        "tee",
+        "soft_ball",
+        "net",
+        "helmet"
+      ],
+      "equipmentFreeVariant": "One-hand shadow swings with a short stick or a rolled towel, stopping at the contact spot to check the knob lead on bottom-hand swings and the palm-up position on top-hand swings.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 15,
+      "participantsMin": 1,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "none",
+      "setup": "Tee at belt height even with the front foot, fifteen feet from a net, bat zone cleared twelve feet around, helmet on. The hitter chokes up to the middle of the handle or uses a short training bat.",
+      "instructions": [
+        "Five bottom-hand-only shadow swings at half speed, knob leading, elbow finishing bent near the belly. Then hit five tee balls with the bottom hand only, free hand on the chest.",
+        "Five top-hand-only shadow swings, driving the elbow to the hip and the palm to the ball, palm up at contact. Then hit five tee balls with the top hand only.",
+        "Put both hands on, still choked up, and hit five tee balls feeling both jobs at once. Freeze each finish.",
+        "Rest a minute and collect balls with the bat on the ground.",
+        "Repeat the sequence once more and finish with five full-grip swings."
+      ],
+      "reps": "2 rounds of 5 bottom-hand, 5 top-hand, and 5 two-hand tee swings, then 5 full-grip swings",
+      "cues": [
+        "Knob leads",
+        "Palm up",
+        "Choke up"
+      ],
+      "parentTip": "On bottom-hand swings watch the knob move toward the ball first; on top-hand swings watch the palm at contact, which should face the sky. If the ball only travels ten feet into the net, the drill is still working.",
+      "safety": [
+        "One-hand swings are easier to lose, so the bat zone stays clear and the parent stays behind and to the side.",
+        "Stop at fifteen one-hand swings per hand per session to protect young wrists and forearms, and skip the drill if the hitter reports soreness.",
+        "Batting helmet on, soft or safety balls, anchored net or open space with nobody in front."
+      ],
+      "funVariation": "Hand Battle: the hitter hits five balls with each hand and the parent scores each line drive into the net. Whichever hand wins gets a silly nickname for the day, and the hitter tries to make the other hand catch up next session.",
+      "lessonId": "hit-16"
+    },
+    {
+      "id": "drill-hit-17",
+      "name": "Catch It on the Bat",
+      "category": "hitting",
+      "skillFocus": [
+        "bat_control"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "bat",
+        "soft_ball",
+        "helmet"
+      ],
+      "equipmentFreeVariant": "A broom handle or short stick and a rolled sock ball tossed underhand from six feet. The pivot, pinch grip, and give at contact are all the same.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 12,
+      "participantsMin": 2,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 6,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "light",
+      "setup": "Plate marker with twelve feet clear around the hitter, helmet on. The tosser kneels eight to ten feet away, off to the side or behind an L-screen, with a bucket of sponge or tennis balls. A glove or cone fifteen feet up each imaginary baseline marks the targets. Indoors, sponge balls only and nothing breakable in front.",
+      "instructions": [
+        "With no ball, pivot into bunting position ten times: turn on the balls of both feet so the chest faces the pitcher, knees bent, bat out front at the top of the zone with the barrel a little higher than the knob.",
+        "Slide the hands ten times: top hand up behind the barrel, pinching with the thumb and bent index finger, no fingers in front. Bottom hand stays at the knob.",
+        "The tosser flips eight balls underhand at chest height. The hitter catches each on the bat with a small give and lets it drop.",
+        "Eight more tosses at mixed heights. The hitter bends the knees for low balls and lets high ones go.",
+        "Eight tosses angling the bat toward the third-base target, then eight toward the first-base target."
+      ],
+      "reps": "10 pivots, 10 hand slides, then 4 sets of 8 tosses",
+      "cues": [
+        "Pinch behind the barrel",
+        "Catch it with the bat",
+        "Bend the knees, not the bat"
+      ],
+      "parentTip": "Check the top hand before every set: thumb on top, index finger folded behind the bat, no fingers showing in front of the barrel. That is a finger safety check, so it is the one thing never to let slide.",
+      "safety": [
+        "No fingers in front of the bat. The parent checks the pinch grip before each set.",
+        "Tossers kneel off to the side or behind a screen with soft or tennis balls; hard baseballs are tossed for bunting only by a coach behind an L-screen.",
+        "Batting helmet on the hitter, and anyone waiting stands behind the hitter."
+      ],
+      "funVariation": "Bunt Golf: the parent places a glove as the hole. The hitter has three bunts to get a ball to stop within a bat length of the glove. Move the hole each round and keep a golf score.",
+      "lessonId": "hit-17"
+    },
+    {
+      "id": "drill-hit-18",
+      "name": "Two-Strike Battle",
+      "category": "hitting",
+      "skillFocus": [
+        "situational_hitting",
+        "contact"
+      ],
+      "ageGroups": [
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "bat",
+        "soft_ball",
+        "helmet",
+        "l_screen"
+      ],
+      "equipmentFreeVariant": "Shadow the two-strike setup: from a normal stance, choke up, widen, move closer, and take a short swing at a called location. Repeat until the change takes under three seconds.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 60,
+      "participantsMin": 2,
+      "participantsMax": 8,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 12,
+      "phase": "game",
+      "intensity": "medium",
+      "throwingLoad": "light",
+      "setup": "Field or large park with sixty feet clear in front of the hitter. L-screen at eighteen to twenty-five feet with the tosser and a bucket behind it. Helmet on the hitter; waiting players stand behind the hitter and gently toss stray balls back toward the bucket. A cone in the opposite-field gap marks the bonus target.",
+      "instructions": [
+        "The tosser announces 'one and two'. The hitter chokes up an inch, widens the stance two or three inches, moves an inch closer to the plate, and takes two short shadow swings.",
+        "The tosser throws six pitches as one at-bat, mixing corners, a pitch just off the plate, and a slower one, calling close pitches strikes like an umpire.",
+        "Score out loud: a foul ball, a ball in play, or a take on a clear ball is a win; a swing and miss or a take on a strike is a loss.",
+        "Collect balls together and talk about the toughest pitch and where the hitter was looking.",
+        "Run three more six-pitch at-bats, then alternate one normal-count at-bat with one two-strike at-bat so the switch becomes automatic."
+      ],
+      "reps": "4 to 5 simulated six-pitch two-strike at-bats with a minute between",
+      "cues": [
+        "Choke up, widen out",
+        "Middle-away",
+        "Foul it off"
+      ],
+      "parentTip": "Watch the setup changes happen before you throw, then count outcomes instead of hits. A hitter who fouls off three tough pitches and puts the fourth in play has won the at-bat even if it is an out.",
+      "safety": [
+        "The tosser is behind an L-screen; without one, only tennis or sponge balls from twenty feet or more.",
+        "Batting helmet on the hitter, all other players behind the hitter and away from the screen.",
+        "Sixty feet of clear space in front, since two-strike swings still produce line drives."
+      ],
+      "funVariation": "Pitcher vs. Hitter: the tosser scores a point for a strikeout, the hitter scores two for a ball in play to the middle or opposite field and three for hitting toward the bonus cone. Swap roles with a teammate after each at-bat at a team station.",
+      "lessonId": "hit-18"
+    },
+    {
+      "id": "drill-hit-19",
+      "name": "Move the Runner",
+      "category": "hitting",
+      "skillFocus": [
+        "situational_hitting",
+        "baseball_iq"
+      ],
+      "ageGroups": [
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "bat",
+        "soft_ball",
+        "helmet",
+        "l_screen",
+        "cones"
+      ],
+      "equipmentFreeVariant": "Draw a diamond in chalk, call a situation, have the player point to where the ball should go, and take shadow swings with the contact point adjusted to send it there.",
+      "locations": [
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 90,
+      "participantsMin": 2,
+      "participantsMax": 10,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 12,
+      "phase": "game",
+      "intensity": "medium",
+      "throwingLoad": "light",
+      "setup": "Full infield or a park with ninety feet clear to the right side. L-screen at twenty to twenty-five feet with the tosser and a bucket behind it. Two cones mark the right-side zone between first and second base. Helmet on the hitter; waiting players stand behind the hitter or on the outfield grass beyond the cones with gloves, tossing balls gently back to the bucket.",
+      "instructions": [
+        "The tosser calls 'runner on second, nobody out'. The hitter says the job: ground ball to the right side. Six pitches, taking inside pitches and driving outside ones into the cone zone.",
+        "Call 'runner on third, one out, infield back'. The job is a ground ball up the middle or a fly ball to the outfield. Six pitches.",
+        "Call 'runner on first, nobody out'. The job is a ground ball to the right side that stays out of the double play. Six pitches.",
+        "Add two strikes to the last situation so the hitter combines the two-strike approach with the productive-out goal. Six pitches.",
+        "Final six pitches: the hitter calls the situation and the job alone. Count productive results for the whole session."
+      ],
+      "reps": "5 situations of 6 pitches each with a minute between to collect balls",
+      "cues": [
+        "Know the job before you step in",
+        "Right side moves the runner",
+        "Top half, on the ground"
+      ],
+      "parentTip": "Ask what the job is before every set and watch which pitches your child swings at. Taking an inside pitch with a runner on second and nobody out is a good decision even though it looks passive.",
+      "safety": [
+        "All tossing to hitters this age is from behind an L-screen, with soft baseballs or tennis balls unless a hard ball is needed on a field.",
+        "Players acting as fielders on the right side wear gloves and stay on the outfield grass beyond the cones.",
+        "Batting helmet on the hitter and ninety feet of clear space to the right side."
+      ],
+      "funVariation": "Run Scored: start with an imaginary runner on second and nobody out. Each productive result moves the runner one base and each unproductive one adds an out. Score the runner before three outs to win the inning.",
+      "lessonId": "hit-19"
+    },
+    {
+      "id": "drill-hit-20",
+      "name": "Three-Pitch Mini Game",
+      "category": "hitting",
+      "skillFocus": [
+        "timing",
+        "contact",
+        "fun"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "bat",
+        "soft_ball",
+        "helmet"
+      ],
+      "equipmentFreeVariant": "Pitch a rolled sock ball or crumpled paper ball underhand from ten feet while the child swings a plastic bat or broom handle, and run to a chalk base after contact.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 40,
+      "participantsMin": 2,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 12,
+      "phase": "game",
+      "intensity": "medium",
+      "throwingLoad": "light",
+      "setup": "Field or large yard with forty feet clear in front of the hitter and a first base marker. The adult pitches overhand, slow and easy, from about twenty feet behind an L-screen, or with sponge or safety balls if no screen is available. Helmet on the hitter; everyone else is behind the hitter or spread out as fielders beyond forty feet, tossing balls gently back to the bucket.",
+      "instructions": [
+        "Warm up the swing with three tee balls or three side soft tosses.",
+        "The pitcher holds the ball up high, says 'ready', waits for the hitter's eyes, and throws a slow overhand pitch aimed at the belly.",
+        "Each hitter gets three good pitches per turn. The hitter swings only at pitches coming to the belly and lets the others go without a count against them.",
+        "On any contact, including a foul tip, the hitter runs through first base while the fielders return the ball to the bucket. Then the next hitter steps in.",
+        "Keep a team contact total out loud. Every hitter gets at least three turns."
+      ],
+      "reps": "3 or more turns of 3 good pitches per hitter",
+      "cues": [
+        "Watch my hand",
+        "Start when the arm goes up",
+        "Belly ball, swing"
+      ],
+      "parentTip": "Throw slow and accurate rather than fast; aim for the belly every pitch and never throw until your child is looking at your hand. Count contact, not hits, and say the total out loud so progress is heard.",
+      "safety": [
+        "Soft or safety balls only for children ages seven and eight; hard baseballs are not pitched to them in practice.",
+        "Batting helmet on the hitter, and the pitcher behind an L-screen or using sponge balls from twenty feet.",
+        "Fielders stay beyond forty feet and waiting hitters stand behind the hitter, never along the baseline."
+      ],
+      "funVariation": "Beat the Coach: the team scores a point for every ball put in play and the coach scores a point for every three-pitch turn with no contact. If the team wins, the coach does ten jumping jacks.",
+      "lessonId": "hit-20"
+    },
+    {
+      "id": "drill-hit-21",
+      "name": "Shadow Swing Warm-Up Ladder",
+      "category": "hitting",
+      "skillFocus": [
+        "warmup",
+        "swing_path",
+        "balance"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "bat"
+      ],
+      "equipmentFreeVariant": "Use a rolled towel or clasped hands for the whole ladder. The towel version is safe in a small room.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 12,
+      "participantsMin": 1,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "warmup",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Hitters spread out in cleared twelve-foot circles, all facing the same direction, each with a plate marker. No balls are used. In a garage, cars are out and the ceiling clears the bat at full extension.",
+      "instructions": [
+        "Rung one: five slow-motion swings with a two-second freeze at the finish, checking the back heel is up and the head is over the middle.",
+        "Rung two: five half-speed swings leading with the knob and keeping the hands close to the body.",
+        "Rung three: five three-quarter-speed swings with a load, a short stride, and a frozen finish.",
+        "Rung four: five full-speed swings at a called location, inside, middle, or outside, with the finish still held for a count of one.",
+        "Any hitter who wobbles drops back one rung for the next set."
+      ],
+      "reps": "4 rungs of 5 swings, building from slow motion to full speed",
+      "cues": [
+        "Slow to fast",
+        "Freeze every finish",
+        "Knob to the ball"
+      ],
+      "parentTip": "This is the best way to open any hitting session. Watch the first rung closely, because the slow swings show the swing path and balance more clearly than any full-speed swing will.",
+      "safety": [
+        "Full swings happen on rungs three and four, so every hitter has a twelve-foot clear circle and the coach stays behind the line.",
+        "Hitters swing on the coach's count so nobody steps toward a neighbor mid-swing."
+      ],
+      "funVariation": "Mirror Match: hitters pair up and stand twenty feet apart facing the same way. One leads a swing at any rung and the other must copy it exactly, including the freeze. Switch leaders after five swings.",
+      "lessonId": "hit-06"
+    },
+    {
+      "id": "drill-hit-22",
+      "name": "Underhand Front Toss Behind the Screen",
+      "category": "hitting",
+      "skillFocus": [
+        "timing",
+        "contact"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "bat",
+        "soft_ball",
+        "helmet",
+        "l_screen"
+      ],
+      "equipmentFreeVariant": "A parent mimes the toss motion from fifteen feet with no ball and the hitter shadow swings on rhythm, or tosses a rolled sock ball from behind a piece of patio furniture while the child swings a towel.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 40,
+      "participantsMin": 2,
+      "participantsMax": 8,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 10,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "light",
+      "setup": "Forty feet of clear space in front of the hitter on a field or large yard. L-screen fifteen to twenty feet from the plate with the tosser kneeling fully behind the netting and tossing underhand through the cut-out. Bucket of soft balls behind the screen, helmet on the hitter, waiting players behind the hitter tossing stray balls gently back.",
+      "instructions": [
+        "Toss four balls with no swing. The hitter tracks each from the hand to the plate and calls 'yes' for a strike or 'no' for a ball.",
+        "Toss eight balls at a steady underhand rhythm. The hitter loads as the hand drops, strides as the ball leaves, and drives strikes back up the middle toward the screen.",
+        "Freeze the finish on every swing and take any toss outside the zone.",
+        "Collect balls together, then toss eight more to a called location: inside, middle, or outside, so the hitter adjusts the contact point.",
+        "Final eight: the tosser mixes locations and speeds without warning, and the hitter reports 'early', 'late', or 'on time' after each swing."
+      ],
+      "reps": "4 tracking tosses, then 3 sets of 8 tosses with a minute between",
+      "cues": [
+        "Watch it out of the hand",
+        "Load when the arm starts",
+        "Up the middle"
+      ],
+      "parentTip": "Kneel so your head and body are completely behind the screen, show the ball high before every toss, and keep your rhythm identical. If the hitter is late on three in a row, slow your toss down rather than asking for a faster swing.",
+      "safety": [
+        "The tosser must be fully behind an L-screen; balls come straight back at front-toss distance. Without a screen, use only sponge balls from fifteen feet or more.",
+        "Batting helmet on the hitter, everyone else behind the hitter, and forty feet of clear space with nothing breakable in front.",
+        "Tossers rest after thirty tosses to protect their own arm."
+      ],
+      "funVariation": "Screen Shot: a hard line drive into the screen netting scores two points, any other ball in play scores one, and a swing at a ball outside the zone loses one. Play to ten with teammates rotating in after each at-bat.",
+      "lessonId": "hit-15"
+    }
+  ]
+}

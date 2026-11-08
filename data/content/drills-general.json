@@ -1,0 +1,772 @@
+{
+  "$schema": "drill",
+  "items": [
+    {
+      "id": "drill-gen-01",
+      "name": "High Knees and Butt Kicks Line",
+      "category": "baserunning",
+      "skillFocus": [
+        "warmup"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "Already equipment-free. In a small room, do every movement in place for 20 seconds instead of over a distance.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 20,
+      "participantsMin": 1,
+      "participantsMax": 20,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 4,
+      "phase": "warmup",
+      "intensity": "medium",
+      "throwingLoad": "none",
+      "setup": "Mark a start line and a line 20 yards away (or 20 feet for a small space). Players line up shoulder to shoulder with an arm's length between them.",
+      "instructions": [
+        "Easy jog down and back once to get warm.",
+        "High knees down: drive each knee up to hip height with quick, light feet and pumping arms. Walk back.",
+        "Butt kicks down: heels flick up toward the backside with the knees pointing at the ground. Walk back.",
+        "Side shuffle down facing one way and back facing the other, staying low with feet never crossing.",
+        "Finish with one run at three-quarter speed, tall posture, eyes up.",
+        "In a small space, do each movement in place for 20 seconds with a 10-second rest."
+      ],
+      "reps": "1 round of each movement over 20 yards, down and back",
+      "cues": [
+        "Quick, light feet",
+        "Pump the arms",
+        "Stay tall"
+      ],
+      "parentTip": "Do it with your child. Laughing through high knees together is the point; form matters less than getting warm and having fun before the real work.",
+      "safety": [
+        "Start with the easy jog; never sprint cold.",
+        "Check the lane for toys, holes, or wet spots before the first run."
+      ],
+      "funVariation": "Animal Line: call an animal for each trip, such as 'giraffe' for tall high knees, 'kangaroo' for two-foot hops, or 'crab' for side shuffles, and let the kids invent the next one.",
+      "lessonId": null
+    },
+    {
+      "id": "drill-gen-02",
+      "name": "Arm Circles: Small to Big",
+      "category": "throwing",
+      "skillFocus": [
+        "warmup"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "Already equipment-free; works anywhere there is room to hold the arms out to the sides.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 6,
+      "participantsMin": 1,
+      "participantsMax": 20,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 3,
+      "phase": "warmup",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Players stand in a circle or a line with enough room to stretch both arms straight out to the sides without touching anyone.",
+      "instructions": [
+        "Arms straight out to the sides: 10 tiny circles forward, then 10 medium, then 10 big slow circles that brush the ears.",
+        "Repeat backward: 10 tiny, 10 medium, 10 big.",
+        "Arm swings: swing both arms forward and back like a giant walking, then cross them in front of the chest and open wide, 10 each.",
+        "Shoulder shrugs: lift both shoulders to the ears and let them drop, 5 times.",
+        "Trunk twists with hands on hips, 10 each way, feet planted.",
+        "Finish with 5 slow shadow throws with no ball, thumb down and up to the L, finishing at the opposite hip."
+      ],
+      "reps": "About 60 circles total plus swings, shrugs, and twists",
+      "cues": [
+        "Small to big",
+        "Smooth and slow",
+        "Brush your ears"
+      ],
+      "parentTip": "Big circles should be slow. Fast, flailing circles do not warm the shoulder; slow full ones do. Count out loud together so the pace stays easy.",
+      "safety": [
+        "Keep an arm's length from the next player so swinging arms do not collide.",
+        "Stop any movement that pinches in the shoulder and move on to the next one."
+      ],
+      "funVariation": "Helicopter Takeoff: the group starts with tiny circles and whispers, growing the circles and the noise until the coach calls 'takeoff' and everyone jumps once, then starts over backward.",
+      "lessonId": null
+    },
+    {
+      "id": "drill-gen-03",
+      "name": "Walking Lunges With a Twist",
+      "category": "baserunning",
+      "skillFocus": [
+        "warmup"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "Already equipment-free. In a small room, do stationary lunges in place, alternating legs, with the same twist.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 15,
+      "participantsMin": 1,
+      "participantsMax": 20,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 4,
+      "phase": "warmup",
+      "intensity": "medium",
+      "throwingLoad": "none",
+      "setup": "A line 10 to 15 yards long on grass or any flat surface. Players stand at the start line an arm's length apart.",
+      "instructions": [
+        "Step forward into a lunge: front knee over the ankle, back knee hovering an inch or two above the ground, chest tall.",
+        "At the bottom, reach both arms out and twist the upper body slowly toward the front leg, then back to center.",
+        "Push off the front foot and step into the next lunge with the other leg. Walk the whole line this way.",
+        "Walk back easily and repeat once, this time twisting toward the opposite side of the front leg to feel the difference.",
+        "Add a knee hug between lunges for a second trip: stand, pull one knee to the chest for two seconds, then lunge.",
+        "Keep the pace slow; this is a stretch and a balance drill, not a race."
+      ],
+      "reps": "2 trips of 10 to 12 lunges each",
+      "cues": [
+        "Knee over ankle",
+        "Chest tall",
+        "Slow twist"
+      ],
+      "parentTip": "Watch the front knee: it should point straight ahead, not cave inward. If balance is wobbly, shorten the step; a shorter lunge done well beats a long one done badly.",
+      "safety": [
+        "Flat surface free of holes and loose balls.",
+        "Back knee hovers; nobody bangs a knee on concrete."
+      ],
+      "funVariation": "Follow the Leader: the leader adds one silly element to each lunge, such as a clap at the bottom or a superhero pose on the twist, and the line copies it.",
+      "lessonId": null
+    },
+    {
+      "id": "drill-gen-04",
+      "name": "Skips and Shuffles",
+      "category": "baserunning",
+      "skillFocus": [
+        "warmup"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "Already equipment-free. In a small space, skip in place and shuffle two steps each way.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 20,
+      "participantsMin": 1,
+      "participantsMax": 20,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 4,
+      "phase": "warmup",
+      "intensity": "medium",
+      "throwingLoad": "none",
+      "setup": "Two lines 20 yards apart (20 feet in a small space). Players spread out along the start line.",
+      "instructions": [
+        "Regular skips down the line with big arm swings, walk back.",
+        "Power skips: drive the knee up and reach for the sky with the opposite arm, trying to get height, not distance. Walk back.",
+        "Side shuffles down facing one way and back facing the other, low and quick, feet never crossing.",
+        "Backpedal down with short quick steps and the chest over the toes, then turn and jog back.",
+        "Carioca (grapevine) for ages 9 and up: cross one foot in front, then behind, moving sideways with the hips turning. Walk back.",
+        "Finish with two runs at three-quarter speed, tall and relaxed."
+      ],
+      "reps": "1 trip of each movement down and back",
+      "cues": [
+        "Big arms",
+        "Low and quick",
+        "Feet never cross on the shuffle"
+      ],
+      "parentTip": "Skipping looks silly to some older kids. Do it with them; a parent skipping badly makes it safe for everyone to try.",
+      "safety": [
+        "Backpedal only on a surface checked for holes and loose balls, with a spotter calling 'stop' at the line.",
+        "Start easy and build; the first trip is never a sprint."
+      ],
+      "funVariation": "Coach Says: the coach calls the next movement mid-trip ('shuffle!', 'skip!', 'backpedal!') and players switch instantly. Anyone who switches on a call that did not start with 'coach says' does a silly victory dance.",
+      "lessonId": null
+    },
+    {
+      "id": "drill-gen-05",
+      "name": "Shoulder and Wrist Wake-Up",
+      "category": "throwing",
+      "skillFocus": [
+        "warmup"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "Already equipment-free; a wall is handy for the wall slides but not required.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 6,
+      "participantsMin": 1,
+      "participantsMax": 20,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 4,
+      "phase": "warmup",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Players stand an arm's length apart. This drill comes after the body is already warm from jogging or skipping and before the first throw.",
+      "instructions": [
+        "Wrist flicks: arms out in front, flick the wrists up and down 15 times, then make 10 wrist circles each way.",
+        "Elbow bends: arms out to the sides at shoulder height, bend at the elbows so the hands touch the shoulders and straighten, 10 times.",
+        "Shoulder blade squeezes: arms out to the sides, pull the shoulder blades together like pinching a pencil between them, hold two seconds, release, 10 times.",
+        "Goalposts: make an L with both arms (elbows at shoulder height, hands up), then rotate the hands forward and down to point at the ground and back up, slowly, 10 times.",
+        "Trunk twists with arms crossed on the chest, 10 each way.",
+        "Finish with 5 slow shadow throws, thumb down, up to the L, through to the opposite hip, then the first real throws start from one knee at short distance."
+      ],
+      "reps": "1 round of each movement, about 4 minutes",
+      "cues": [
+        "Pinch the pencil",
+        "Goalposts up",
+        "Slow and smooth"
+      ],
+      "parentTip": "This is the part of the warm-up most kids skip. Watch the goalposts: the elbows should stay at shoulder height while the hands rotate, which is the same L the throw needs.",
+      "safety": [
+        "All movements are slow and in a comfortable range; stop anything that pinches.",
+        "This replaces nothing; the one-knee easy throws still come before any hard throwing."
+      ],
+      "funVariation": "Robot Warm-Up: players do every movement like a robot with sound effects, and the coach 'oils' any joint that is moving too fast by tapping a shoulder to slow it down.",
+      "lessonId": null
+    },
+    {
+      "id": "drill-gen-06",
+      "name": "Easy Jog and Walk It Out",
+      "category": "baserunning",
+      "skillFocus": [
+        "cooldown"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "Already equipment-free. In a small room, march in place for one minute, then walk slow laps around the room.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 20,
+      "participantsMin": 1,
+      "participantsMax": 20,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 4,
+      "phase": "cooldown",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Any open loop: around the bases, around the yard, or around the room. Everyone moves in the same direction with space between players.",
+      "instructions": [
+        "Jog very slowly for one to two minutes, slow enough to talk in full sentences the whole time.",
+        "Drop to a walk for one minute, swinging the arms loosely and shaking out the hands.",
+        "While walking, take five big slow breaths in through the nose and out through the mouth.",
+        "Finish walking to the spot where the stretch or the talk will happen.",
+        "On a team, jog the bases in order as a group at talking pace, then walk the last base path."
+      ],
+      "reps": "1 to 2 minutes jogging, 1 to 2 minutes walking",
+      "cues": [
+        "Talking pace",
+        "Shake it out",
+        "Big slow breaths"
+      ],
+      "parentTip": "If your child can not talk while jogging, the jog is too fast. The cool-down is where the body slows down, so slower is better than faster.",
+      "safety": [
+        "Keep the pace slow enough to talk; this is not conditioning.",
+        "Make sure players have water available at the end."
+      ],
+      "funVariation": "Story Jog: the group tells one story one sentence per person while jogging. The story must end exactly when the jog does.",
+      "lessonId": null
+    },
+    {
+      "id": "drill-gen-07",
+      "name": "Light Stretch Circle",
+      "category": "throwing",
+      "skillFocus": [
+        "cooldown"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "Already equipment-free; works on grass, a mat, or a carpet.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 6,
+      "participantsMin": 1,
+      "participantsMax": 20,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "cooldown",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Players stand or sit in a circle after the easy jog with an arm's length between them. A coach or parent leads and counts; everyone holds each stretch gently with no bouncing.",
+      "instructions": [
+        "Arm across the chest: hold the throwing arm across the body with the other hand for 15 to 20 seconds, then switch arms.",
+        "Overhead reach: reach both arms up and lean gently to one side for 15 seconds, then the other.",
+        "Quad stretch: standing on one foot (hold a partner's shoulder), pull the other heel toward the backside for 15 seconds, then switch.",
+        "Hamstring: sit with one leg out and reach toward the toes with a flat back for 15 seconds, then switch.",
+        "Calf: hands on a partner's shoulders or a wall, one leg back with the heel down for 15 seconds, then switch.",
+        "Finish with three slow breaths and a gentle shake-out of the arms and legs."
+      ],
+      "reps": "Each stretch held 15 to 20 seconds per side, 1 round",
+      "cues": [
+        "Gentle, no bouncing",
+        "Breathe",
+        "Stop if it pinches"
+      ],
+      "parentTip": "Stretches should feel like a gentle pull, never pain. Count out loud so your child relaxes into the hold instead of rushing.",
+      "safety": [
+        "No bouncing and no pushing into pain; a stretch that pinches is released right away.",
+        "This is general cool-down movement, not treatment for an injury; any pain that lasts is a conversation with a doctor."
+      ],
+      "funVariation": "Stretch Leader: a different player leads each stretch and picks the count-down word, counting 'baseball, baseball, baseball...' or the team name instead of numbers.",
+      "lessonId": null
+    },
+    {
+      "id": "drill-gen-08",
+      "name": "Best Thing You Did Today",
+      "category": "mental",
+      "skillFocus": [
+        "cooldown"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "Already equipment-free; it is a conversation.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 6,
+      "participantsMin": 2,
+      "participantsMax": 20,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 3,
+      "phase": "cooldown",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Players sit or take a knee in a circle, or a parent and child sit together on the grass, after the stretch. Gear is already put away so nobody is fidgeting with a glove.",
+      "instructions": [
+        "The adult asks one question: 'What is the best thing you did today?' Every player answers in one sentence, including the adult.",
+        "Answers must be about effort or something learned, not only results: 'I kept my elbow up' counts as much as 'I hit the target.'",
+        "The adult reflects one thing they noticed about each player that the player did not mention, in one sentence each.",
+        "Everyone names one thing to try next time, in a few words.",
+        "Close the same way every time with a team word, a high five, or a handshake so the ending feels like an ending."
+      ],
+      "reps": "1 round, every player speaks once",
+      "cues": [
+        "One sentence",
+        "Effort counts",
+        "Same ending every time"
+      ],
+      "parentTip": "Answer honestly yourself, including something you got wrong, like 'I threw a couple over your head.' Kids talk openly when adults do.",
+      "safety": [
+        "Keep the circle positive; mistakes are discussed as things to try next time, never as blame.",
+        "Hydrate during the talk on hot days."
+      ],
+      "funVariation": "Secret Shout-Out: each player names the best thing a teammate did instead of their own, and the teammate has to guess who said it.",
+      "lessonId": null
+    },
+    {
+      "id": "drill-gen-09",
+      "name": "Freeze Tag: Ready Position",
+      "category": "fielding",
+      "skillFocus": [
+        "fun"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "Already equipment-free. Indoors or in a small space, play at walking speed with a smaller boundary.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 20,
+      "participantsMin": 2,
+      "participantsMax": 20,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 6,
+      "phase": "game",
+      "intensity": "high",
+      "throwingLoad": "none",
+      "setup": "Mark a boundary with cones, jackets, or chalk about 30 by 30 feet for a team, smaller at home. One player (or the parent) is the tagger.",
+      "instructions": [
+        "Review the ready position: feet wider than the shoulders, knees bent, hands out in front, eyes up.",
+        "On 'go,' the tagger chases. Anyone tagged freezes in a perfect ready position and holds it.",
+        "A frozen player is unfrozen when a free teammate crawls under their arms, or at home when the child gives the parent a high five in ready position.",
+        "The adult checks frozen players and says 'fix your knees' or 'hands out' before they can be freed.",
+        "Switch taggers every minute. Play for about six minutes.",
+        "Indoors or in a tight space, everyone moves at a fast walk with no running."
+      ],
+      "reps": "4 to 6 rounds of about one minute each",
+      "cues": [
+        "Freeze in ready",
+        "Knees bent, hands out",
+        "Eyes up"
+      ],
+      "parentTip": "The teaching happens at the freeze. Take two seconds to look at each frozen ready position and fix one thing with a word; the game does the rest.",
+      "safety": [
+        "Set a clear boundary and keep the surface free of balls, bats, and gloves.",
+        "Walking speed only indoors or in a small space.",
+        "Tags are two-finger touches on the shoulder or back, never pushes."
+      ],
+      "funVariation": "Coach Pitch Freeze: the tagger yells 'ball!' before tagging and the whole group must drop into ready position for two seconds; anyone standing up straight becomes a tagger too.",
+      "lessonId": null
+    },
+    {
+      "id": "drill-gen-10",
+      "name": "Sock-Ball Catch Streak",
+      "category": "throwing",
+      "skillFocus": [
+        "fun"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "soft_ball"
+      ],
+      "equipmentFreeVariant": "Roll two socks into a ball. That is the whole drill, and it is safe in any room.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 10,
+      "participantsMin": 2,
+      "participantsMax": 20,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "game",
+      "intensity": "low",
+      "throwingLoad": "light",
+      "setup": "Partners stand 10 to 15 feet apart with a soft ball or sock ball. On a team, make a circle of six to ten players with one or two balls.",
+      "instructions": [
+        "Partners toss the ball back and forth with two-hand catches, counting every clean catch out loud.",
+        "A drop or a throw the partner cannot reach resets the count to zero.",
+        "Every ten catches in a row, both partners take one step back.",
+        "Circle version: the ball goes to anyone, and the whole group counts; add a second ball when the group reaches twenty.",
+        "Play for five minutes and record the best streak for next time."
+      ],
+      "reps": "5 minutes, best streak recorded",
+      "cues": [
+        "Two hands",
+        "Throw to be caught",
+        "Count out loud"
+      ],
+      "parentTip": "Throw so your child can catch, not so they have to work. The streak teaches soft hands and catchable throws because a wild throw costs everyone the count.",
+      "safety": [
+        "Soft or sock ball only, so this is safe indoors and for the youngest players.",
+        "Keep tosses easy; this is a game, not throwing practice, and it counts as light throwing for the day."
+      ],
+      "funVariation": "Trick Catch Round: after a streak of ten, each catch must be made a new way: one hand, under a leg, behind the back, or with eyes closed on the parent's soft underhand toss from four feet.",
+      "lessonId": null
+    },
+    {
+      "id": "drill-gen-11",
+      "name": "Shadow-Swing Simon Says",
+      "category": "hitting",
+      "skillFocus": [
+        "fun"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "Already equipment-free; no bats are used, only empty-hand shadow swings.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 10,
+      "participantsMin": 2,
+      "participantsMax": 20,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "game",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Players spread out two arm-lengths apart facing the leader. No bats; every swing is a shadow swing with empty hands held together like a grip.",
+      "instructions": [
+        "The leader calls baseball shapes with 'Simon says': 'Simon says show me your stance,' 'Simon says load,' 'Simon says swing and freeze your finish,' 'Simon says ready position,' 'Simon says throwing L.'",
+        "Players do the shape only when the call starts with 'Simon says.' A call without it is a trap.",
+        "Anyone caught moving on a trap does three perfect shadow swings and rejoins the game; nobody sits out for long.",
+        "The leader checks one thing each round, such as the head staying still on the swing or knees bent in the stance.",
+        "Switch leaders every minute so players practice naming the positions.",
+        "Finish with everyone doing five slow, perfect shadow swings together."
+      ],
+      "reps": "4 to 5 rounds of about one minute each",
+      "cues": [
+        "Freeze the finish",
+        "Head still",
+        "Only on Simon says"
+      ],
+      "parentTip": "Use the game to see which positions your child knows by name. If 'load' gets a blank look, show it once and keep playing; the game is a review, not a lecture.",
+      "safety": [
+        "No bats or objects in hands; shadow swings only.",
+        "Two arm-lengths between players so swinging arms do not connect."
+      ],
+      "funVariation": "Speed Simon: calls come faster and faster each round, and the last two players standing become the leaders for the next game.",
+      "lessonId": null
+    },
+    {
+      "id": "drill-gen-12",
+      "name": "Red Light, Green Light to First",
+      "category": "baserunning",
+      "skillFocus": [
+        "fun"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "Already equipment-free; a chalk line, a jacket, or a crack in the driveway is the finish line.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 20,
+      "participantsMin": 2,
+      "participantsMax": 20,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "game",
+      "intensity": "medium",
+      "throwingLoad": "none",
+      "setup": "A start line and a finish line ('first base') 40 to 60 feet apart, 20 feet in a small space. The caller stands past the finish line with their back to the players.",
+      "instructions": [
+        "On 'green light,' players run toward first base with good running form: arms pumping, eyes up.",
+        "On 'red light,' the caller turns around and every player must freeze in a balanced athletic position. Anyone still moving goes back to the start line.",
+        "'Yellow light' means jog in place with high knees until the next call.",
+        "First player to cross the finish line becomes the next caller.",
+        "Indoors or in a small space, 'green light' means fast walking only."
+      ],
+      "reps": "4 to 5 rounds of about one minute each",
+      "cues": [
+        "Pump the arms",
+        "Freeze balanced",
+        "Eyes up"
+      ],
+      "parentTip": "Turn around quickly sometimes and slowly other times. The freeze teaches balance and stopping under control, which is exactly what a runner needs when the coach yells 'stop.'",
+      "safety": [
+        "Clear lane with no balls or gloves on the ground.",
+        "Fast walking only indoors or in a tight space.",
+        "Players spread out across the start line so nobody collides on the freeze."
+      ],
+      "funVariation": "Coach Calls: replace the colors with base coach signals. Windmill arms means run, both hands up means freeze, hands to the ground means squat into ready position.",
+      "lessonId": null
+    }
+  ]
+}

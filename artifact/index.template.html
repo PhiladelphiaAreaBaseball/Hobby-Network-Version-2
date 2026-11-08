@@ -1,0 +1,25 @@
+<title>GamePlanIQ</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+/*__CSS__*/
+</style>
+<div id="root">
+  <div class="boot" role="status" aria-live="polite">
+    <div class="boot-mark" aria-hidden="true"><svg viewBox="0 0 48 48" width="48" height="48"><path d="M8 6h32v22L24 44 8 28z" fill="var(--primary)"/><path d="M14 12h20v14L24 36l-10-10z" fill="var(--bg)"/></svg></div>
+    <div class="boot-title">GamePlan<span style="color:var(--primary)">IQ</span></div>
+    <div class="boot-sub" id="boot-sub">Loading your league…</div>
+  </div>
+</div>
+<script>
+  window.__BUILD_ID__ = "__BUILD_ID__";
+  window.__bootError = function (what) {
+    var el = document.getElementById("boot-sub");
+    if (el) el.textContent = "Could not load " + what + ". Check your connection and reload the page.";
+  };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.production.min.js" crossorigin="anonymous" onerror="window.__bootError('the application framework')"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous" onerror="window.__bootError('the application framework')"></script>
+<script src="app.js" onerror="window.__bootError('the application')"></script>

@@ -1,0 +1,717 @@
+{
+  "$schema": "resource",
+  "items": [
+    {
+      "id": "res-01",
+      "title": "How Little League Rules Are Organized",
+      "category": "rules",
+      "audience": [
+        "parent",
+        "coach",
+        "player",
+        "umpire"
+      ],
+      "summary": "The Little League rulebook is split into playing rules, regulations, and tournament rules, and each division has its own version. Here is how to find your way around it.",
+      "body": [
+        "Little League publishes an official rulebook every year for each of its baseball divisions. Inside, the content is split into a few big parts. The playing rules describe what happens on the field: how a batter is called out, what a balk is, how a run scores. The regulations describe how a league is run: who is eligible to play, how teams are formed, and the pitching rules, including pitch counts and rest days. Tournament rules cover the postseason, which can differ from the regular season.",
+        "Each division of play, from Tee Ball through Little League Majors, Intermediate, Junior, and Senior, has rules written for that age and field size. A rule that is true in one division, such as whether runners may lead off or how far the bases are apart, may not be true in the next. When someone says 'that is the rule', the first question is always 'for which division?'",
+        "Rules are numbered. A reference such as Rule 7.08 or Regulation VI points to a specific section, and umpires, coaches, and league officials use these numbers so everyone is looking at the same text. Learning to read a rule number is a useful skill for any parent who wants to understand a call without arguing about it.",
+        "The rulebook also contains definitions. Words like 'force play', 'infield fly', and 'interference' have exact meanings that are narrower than everyday speech. Many disagreements at the field come from using these words loosely. When in doubt, look up the definition before the rule.",
+        "GamePlanIQ explains rules in plain language to help families learn the game, but it is not the rulebook. Your league follows the current official Little League rulebook for your division plus any local rules the league has adopted. When this content and the rulebook disagree, the rulebook wins."
+      ],
+      "checklist": [
+        "Find out which division your child plays in this season.",
+        "Ask your league where it keeps the current rulebook and local rules.",
+        "Learn the three big sections: playing rules, regulations, and tournament rules.",
+        "Look up a definition before you look up a rule.",
+        "Treat GamePlanIQ explanations as a study guide, never as the final word."
+      ],
+      "officialLinks": [
+        {
+          "label": "Little League Official Site",
+          "url": "https://www.littleleague.org"
+        },
+        {
+          "label": "Little League Playing Rules",
+          "url": "https://www.littleleague.org/playing-rules/"
+        }
+      ],
+      "disclaimer": "This summary is not the official rulebook. Rules vary by division and change from year to year; always check your league's current Little League rulebook."
+    },
+    {
+      "id": "res-02",
+      "title": "Where to Find the Current Rulebook and Why the Year Matters",
+      "category": "rules",
+      "audience": [
+        "parent",
+        "coach",
+        "umpire",
+        "admin"
+      ],
+      "summary": "Little League rules change every year. Learn where the current rulebook lives and why an old copy can lead you astray.",
+      "body": [
+        "The Little League rulebook is updated annually. Pitch-count limits, bat standards, equipment requirements, and specific playing rules have all changed in recent years, sometimes in ways that affect everyday games. A rulebook from two or three seasons ago may describe a rule that no longer exists or miss one that now applies to your child.",
+        "The official source is Little League International, which publishes the rulebooks and posts rule information and updates on its website. Many leagues buy printed rulebooks for every manager and keep a copy in the equipment shed or press box. Little League also publishes a digital rulebook app that it updates for the current season. Your league's board can tell you which format it uses for official reference.",
+        "Local leagues often publish a short list of rule changes at the start of each season. Ask for it at the preseason coaches' meeting, and read it even if you coached last year. A change you missed can cost a team an out or, with pitching rules, cause a protest.",
+        "When you have a question about a specific play, bring the rulebook, not your memory. Find the division, find the rule number, and read the text out loud with the other person. Most disagreements end there.",
+        "GamePlanIQ links only to official Little League resources and never claims to be the rulebook. If anything you read here seems to conflict with the current rulebook for your division, the rulebook is correct and we would like to hear about it so the explanation can be fixed."
+      ],
+      "checklist": [
+        "Confirm the season year on any rulebook before you rely on it.",
+        "Ask your league how it accesses the current rulebook: printed copy, digital app, or both.",
+        "Read your league's start-of-season list of rule changes.",
+        "Keep the division rulebook in your coaching bag for games."
+      ],
+      "officialLinks": [
+        {
+          "label": "Little League Playing Rules",
+          "url": "https://www.littleleague.org/playing-rules/"
+        },
+        {
+          "label": "Little League Official Site",
+          "url": "https://www.littleleague.org"
+        }
+      ],
+      "disclaimer": "This article is a guide to finding the rulebook, not a substitute for it. Always use your league's current Little League rulebook for your division."
+    },
+    {
+      "id": "res-03",
+      "title": "Local Ground Rules: How Your League Adds to the Rulebook",
+      "category": "rules",
+      "audience": [
+        "parent",
+        "coach",
+        "umpire",
+        "admin"
+      ],
+      "summary": "Every field is different, and every league makes some choices the rulebook leaves open. Learn what local ground rules are and where to find yours.",
+      "body": [
+        "The Little League rulebook sets the rules of the game, but it also gives local leagues room to decide certain things. A ground rule is a rule specific to a field or a league that fills in those gaps. A fence with a gap, a tree branch hanging over foul territory, or a gravel area beyond the dugout all need a ground rule so everyone knows what happens when a ball gets there.",
+        "Beyond field quirks, leagues make choices on things the rulebook allows them to set locally, which may include time limits, run limits per inning in younger divisions, continuous batting orders, and playing-time policies. These choices are written down in the league's local rules or bylaws, approved by the league board, and in some cases must stay within what Little League permits for that division.",
+        "Ground rules are usually reviewed before each game at the plate meeting, when the umpire and both managers meet at home plate. The home team's manager explains the field's ground rules, the umpire confirms them, and both teams play by them that day. Players and parents who know the ground rules spend less time confused and more time watching baseball.",
+        "If you think a local rule conflicts with the Little League rulebook, raise it with the league board, not with an umpire during a game. Boards review local rules each year, and a parent who reads carefully and asks politely is doing the league a favor.",
+        "GamePlanIQ can display a league's local rules when the league administrator enters them, but the league's official written local rules and the current Little League rulebook are the authorities. Ask your board where the official copy is kept."
+      ],
+      "checklist": [
+        "Ask your league for its written local rules and bylaws.",
+        "Learn the ground rules of your home field before the first game.",
+        "Listen to the plate meeting if you are a manager; ask about anything unclear.",
+        "Raise concerns about a local rule with the board, not an umpire mid-game."
+      ],
+      "officialLinks": [
+        {
+          "label": "Little League Official Site",
+          "url": "https://www.littleleague.org"
+        }
+      ],
+      "disclaimer": "Local rules differ from league to league and must fit within the current Little League rulebook. This article describes common practice, not your league's specific rules."
+    },
+    {
+      "id": "res-04",
+      "title": "Your First Season: What Parents Can Expect",
+      "category": "parent_guides",
+      "audience": [
+        "parent"
+      ],
+      "summary": "New to Little League? Here is what a typical season looks like, from registration and evaluations to practices, games, and the end-of-season handshake.",
+      "body": [
+        "A Little League season starts long before the first game. Registration usually opens in the winter, and your league will ask for proof of age and residency or school attendance, because Little League places players by where they live or go to school. Then come evaluations, sometimes called tryouts, in divisions old enough to need them. Evaluations are not about cutting players; they help the league form balanced teams.",
+        "Once teams are set, the manager, the head coach in Little League terms, will contact you with a practice schedule. Early-season practices focus on catching, throwing, and the basics. Expect one to three practices a week before games begin and fewer once games start. Most games last between an hour and a half and two hours depending on the division.",
+        "Your jobs as a parent are simple: get your child there on time with their equipment and a water bottle, cheer positively, and let the coaches coach. Many leagues ask each family to volunteer in some way, such as working the snack bar, keeping score, or helping prepare the field. Ask the manager how you can help.",
+        "Not every child will play every position, and playing time can vary by division. Little League has minimum participation rules, and leagues may add their own policies, so if you have a question about playing time, ask the manager calmly and privately after a practice, not during or right after a game.",
+        "The season ends with a final game, often a league celebration, and in some divisions an all-star selection. Whatever your child's team's record, the true measure of a first season is simple: did your child learn, make friends, and want to come back next year?"
+      ],
+      "checklist": [
+        "Complete registration early and gather proof-of-age and residency documents.",
+        "Put the practice and game schedule on the family calendar.",
+        "Pack a bag your child can carry: glove, water bottle, hat, cleats, and any required protective gear.",
+        "Ask the manager how your family can volunteer.",
+        "Save questions about playing time for a private conversation on a practice day."
+      ],
+      "officialLinks": [
+        {
+          "label": "Little League Official Site",
+          "url": "https://www.littleleague.org"
+        }
+      ],
+      "disclaimer": "League procedures, divisions, and participation rules vary; check with your local league and its current Little League rulebook."
+    },
+    {
+      "id": "res-05",
+      "title": "Supporting From the Stands Without Coaching",
+      "category": "parent_guides",
+      "audience": [
+        "parent"
+      ],
+      "summary": "What to say, what not to say, and how to be the parent every coach and child hopes to see in the bleachers.",
+      "body": [
+        "Children can hear their parents from the field, and they are listening even when they pretend not to be. Instructions shouted from the stands compete with the coach's instructions and leave a child trying to please two adults at once. The most helpful voice from the bleachers is encouraging, short, and about effort: 'nice hustle', 'good eye', 'way to be ready'.",
+        "Avoid coaching mechanics from the stands. 'Elbow up', 'keep your eye on the ball', and 'swing' are well meant, but they ask a child to think about their body in the middle of a play. Save skill talk for home practice, where you can work on it together using the lessons on GamePlanIQ.",
+        "The umpire is not your opponent. Umpires in youth baseball are often teenagers or volunteers, and a parent who yells at them teaches every child within earshot that adults may be disrespected when they make a mistake. If you believe a rule was misapplied, your manager can ask the umpire about it; that is the only channel.",
+        "After the game, let your child lead the conversation. A quiet car ride is fine. When you do talk, lead with what you enjoyed watching and with questions about effort and fun rather than a review of mistakes. Children who feel safe after a bad game keep playing; children who feel judged often quit.",
+        "If something bothers you about how the team is run, give it a day, then contact the manager privately. Coaches are volunteers who are giving up evenings and weekends, and a respectful conversation almost always works better than a complaint made in the heat of the moment."
+      ],
+      "checklist": [
+        "Cheer effort by name: hustle, readiness, and good decisions.",
+        "Leave mechanical instruction to the coaches during games.",
+        "Never address the umpire from the stands.",
+        "Wait a day before raising a concern with the manager, and do it privately.",
+        "Make the car ride home about enjoyment, not corrections."
+      ],
+      "officialLinks": [],
+      "disclaimer": "Umpire and conduct procedures vary by league. Check your league's code of conduct and its current Little League rulebook."
+    },
+    {
+      "id": "res-06",
+      "title": "First-Practice Checklist for Volunteer Coaches",
+      "category": "coach_guides",
+      "audience": [
+        "coach"
+      ],
+      "summary": "Everything a first-time volunteer coach should bring, check, and do before and during the first practice of the season.",
+      "body": [
+        "The first practice sets the tone for the season, and the best first practices are organized, safe, and fun. Before you arrive, confirm with the league that your volunteer application and background screening are complete, that you have the roster with emergency contacts, and that the field is reserved for your team. Bring a printed plan; one of the coaching plans on GamePlanIQ can be your starting point.",
+        "Arrive early and walk the field. Look for holes, glass, sprinkler heads, loose bases, and gaps in fences. Know where the nearest first aid kit is, where the shade is, and how you would call for help. Keep the league's medical release forms or emergency contact list with you at every practice, because an injury can happen on day one.",
+        "Start the practice by learning names and telling players and parents what to expect: how long practices run, what equipment players need, and the one rule that matters most, that nobody swings a bat unless a coach says it is safe. Then move into a dynamic warm-up and a gentle throwing progression before any drill with a ball.",
+        "Keep groups small and lines short. A practice where twelve children wait in one line to field one ground ball teaches boredom. Stations with three or four players each, run by assistant coaches or parent helpers, keep everyone moving. End with a fun game and a brief, positive huddle so players leave wanting to come back.",
+        "After practice, spend two minutes with parents: confirm the schedule, ask for volunteers to help at stations, and share how they can practice at home. A team parent who handles communication is worth recruiting on day one."
+      ],
+      "checklist": [
+        "Confirm your volunteer screening is complete with the league before working with players.",
+        "Bring the roster, emergency contacts, medical release forms, and a first aid kit location.",
+        "Walk the field for hazards before players arrive.",
+        "Print a practice plan with stations and short lines.",
+        "State the bat-safety rule to players and parents on day one.",
+        "Recruit a team parent and station helpers before you leave."
+      ],
+      "officialLinks": [
+        {
+          "label": "Little League Official Site",
+          "url": "https://www.littleleague.org"
+        }
+      ],
+      "disclaimer": "Follow your league's safety plan and volunteer requirements. This checklist is general guidance and does not replace league policy or medical advice."
+    },
+    {
+      "id": "res-07",
+      "title": "How to Run Practice Stations",
+      "category": "coach_guides",
+      "audience": [
+        "coach",
+        "volunteer"
+      ],
+      "summary": "Stations turn one coach and a crowd of players into several small groups that all get repetitions. Here is how to set them up and keep them moving.",
+      "body": [
+        "A station is a small activity area with one skill, one adult, and three to five players. Instead of the whole team watching one player field a ground ball, four stations let sixteen players get reps at the same time. Stations are the single biggest upgrade most volunteer coaches can make to their practices.",
+        "Plan stations that need little explanation and little equipment: a tee station, a soft-toss station into a net, a ground-ball station with rolled balls, and a baserunning or agility station are a common set. Give each station a name and a card with the setup, three steps, and two cues, so a parent helper can run it without baseball knowledge. GamePlanIQ drills are written to be used exactly this way.",
+        "Rotate on a timer, not on a feeling. Eight to ten minutes per station works for most ages, shorter for the youngest players. Blow a whistle or shout a word, have players jog to the next station, and start immediately. A coach who roams between stations can fix problems while the helpers keep the reps going.",
+        "Mind the throwing load across stations. If three of four stations involve throwing, arms get tired and form breaks down. Mix throwing stations with hitting, fielding without a throw, and running so each player's total throws stay reasonable.",
+        "Safety comes from spacing and direction. Put all hitting stations facing the same way, with nets or fences as backstops, and keep ground-ball and throwing stations well clear of any swinging bat. Walk the layout before players arrive and imagine where a ball goes if a player misses."
+      ],
+      "checklist": [
+        "Plan four stations with one skill each and a one-page card for the helper.",
+        "Recruit one adult per station; parents can run rolled-ball and tee stations with no experience.",
+        "Set a timer for eight to ten minutes and rotate on the signal.",
+        "Balance throwing stations with non-throwing stations.",
+        "Lay out hitting stations facing the same direction with backstops."
+      ],
+      "officialLinks": [],
+      "disclaimer": null
+    },
+    {
+      "id": "res-08",
+      "title": "How to Talk to Parents: The Preseason Meeting and Beyond",
+      "category": "coach_guides",
+      "audience": [
+        "coach"
+      ],
+      "summary": "A short preseason meeting and a few communication habits prevent most of the conflicts volunteer coaches face.",
+      "body": [
+        "Most problems between coaches and parents come from surprise. A parent who knows how you decide positions, how you handle playing time, and how you want to be contacted rarely becomes a problem. Hold a preseason parent meeting, in person or online, before the first game, and cover those topics directly.",
+        "Explain the rules that shape your decisions. Little League has minimum participation rules, and your league may have local policies on playing time, position rotation, and pitching. Tell parents you follow them, and point them to the league's documents. Explain how pitch counts and rest days work in general terms and that your pitching decisions are driven by those rules, not favoritism.",
+        "Set a communication channel and a response window. A team app, an email list, or a group text that you check once a day keeps everyone informed. Ask parents to raise concerns privately, never at the field during or right after a game, and promise that you will listen. Then keep that promise.",
+        "Share how parents can help at home. Point them to GamePlanIQ lessons and parent guides so they can practice the skills you are teaching without undoing them. Parents who have a job to do at home feel part of the team and coach less from the stands.",
+        "When a hard conversation comes, listen first, repeat what you heard, and explain your reasoning calmly. If a conversation becomes hostile, end it politely and involve the league's player agent or a board member. You are a volunteer, and the league has people whose job is to help."
+      ],
+      "checklist": [
+        "Hold a preseason parent meeting before the first game.",
+        "Explain positions, playing time, and pitching decisions and the rules behind them.",
+        "Pick one communication channel and a daily check time.",
+        "Ask for concerns in private, on a non-game day.",
+        "Point parents to home-practice resources so they have a role.",
+        "Know which board member to call when a conversation goes badly."
+      ],
+      "officialLinks": [
+        {
+          "label": "Little League Official Site",
+          "url": "https://www.littleleague.org"
+        }
+      ],
+      "disclaimer": "Participation and pitching rules vary by division and are set by the current Little League rulebook and your league's local rules. This article is general guidance."
+    },
+    {
+      "id": "res-09",
+      "title": "Baseball Words Every New Family Should Know",
+      "category": "terminology",
+      "audience": [
+        "parent",
+        "player"
+      ],
+      "summary": "A plain-language tour of the words you will hear at the field, from 'on deck' to 'cutoff man', so the game makes sense from the first practice.",
+      "body": [
+        "Baseball has its own language, and much of it is never explained because everyone assumes you already know it. Start with the basics of an at-bat. A strike is a pitch the batter swings at and misses, hits foul with fewer than two strikes, or lets pass through the strike zone. A ball is a pitch outside the zone that the batter does not swing at. Four balls is a walk, and three strikes is a strikeout. A foul ball is a batted ball that lands outside the lines, and it counts as a strike unless the batter already has two.",
+        "Around the dugout, 'on deck' means you are the next hitter and 'in the hole' means you hit after that. The batting order is the fixed list of who hits in what order. 'Blue' is a friendly name for the umpire. A fungo is a long, light bat coaches use to hit practice balls, so if a coach says 'I'll fungo some ground balls' it just means practice.",
+        "On defense, a force play happens when a runner must run to the next base because the batter became a runner, and a fielder with the ball can touch the base for the out instead of tagging the runner. A tag play requires touching the runner with the ball or the glove holding the ball. The cutoff man is the infielder who stands between an outfielder and a base to catch a long throw, and a relay is when that player makes a second throw toward a base. A double play is two outs on one batted ball.",
+        "Pitching has its own words. A pitch count is the number of pitches a pitcher has thrown in a game, which Little League limits by age. Rest days are the days a pitcher must wait before pitching again, set by how many pitches they threw. A changeup is a slower pitch thrown with the same arm motion as a fastball. A bullpen is the warm-up area for pitchers, or a practice pitching session.",
+        "Baserunning words come up constantly. To tag up means to stay on the base until a fly ball is caught, then run. A lead is when a runner steps off the base before the pitch, which is allowed only in some divisions. To slide is to drop and glide into a base feet first. Running through first means not stopping at the base because a batter-runner is allowed to pass first base without being tagged out, as long as they turn the right way and do not try for second.",
+        "GamePlanIQ includes a full glossary with examples. A parent who learns twenty of these words in the first month can follow every conversation at the fence."
+      ],
+      "checklist": [
+        "Learn the at-bat words first: ball, strike, walk, strikeout, foul.",
+        "Learn the dugout words: on deck, in the hole, batting order.",
+        "Learn force play versus tag play; it explains most close calls.",
+        "Ask your child to teach you one new word after each practice."
+      ],
+      "officialLinks": [
+        {
+          "label": "Little League Playing Rules",
+          "url": "https://www.littleleague.org/playing-rules/"
+        }
+      ],
+      "disclaimer": "These are plain-language explanations, not official definitions. The current Little League rulebook for your division contains the exact definitions and rules."
+    },
+    {
+      "id": "res-10",
+      "title": "Helmets, Bats, and Equipment Checks",
+      "category": "player_safety",
+      "audience": [
+        "parent",
+        "coach",
+        "admin"
+      ],
+      "summary": "What to check on helmets and bats, why bat standards matter, and how to make equipment inspection a routine part of every practice and game.",
+      "body": [
+        "Equipment protects players only when it fits, is in good condition, and meets the standards your league requires. Batting helmets must be worn by every batter, on-deck hitter where on-deck is allowed, base runner, and player coach in the coaching boxes. A helmet should sit level, cover the ears and the back of the head, and not wobble when the player shakes their head. Cracked shells, missing padding, or a helmet that has taken a hard hit should be removed from use.",
+        "Bats are regulated. Little League requires bats in its baseball divisions to meet specific standards, and in recent years the USA Baseball bat standard, marked with a USABat stamp, has applied to most divisions. The exact requirements, including allowed barrel sizes and any exceptions for older divisions, are set out in the current rulebook and on the Little League and USA Baseball websites. An illegal bat can cost a team an out and may be unsafe for the pitcher.",
+        "Check bats for dents, cracks, rattles, and loose or torn grips. A grip that spins or a knob that is loose is a bat that can fly out of a child's hands. Store bats in the rack or against the fence in the dugout, never on the ground where a player can trip or step on one.",
+        "Catchers' gear is required for anyone catching, including during warm-ups and practice. Check that the helmet and mask fit snugly, the throat guard is attached, the chest protector covers the chest and belly, and the shin guards cover the knee and shin. Male catchers must wear a protective cup, and leagues often require cups for other positions as well. The current rulebook lists the required gear for each division.",
+        "Make inspection a habit. A coach or team parent can check every helmet and bat in two minutes before each practice and game. GamePlanIQ includes an equipment checklist you can use, but the standards themselves come from Little League and the bat certification bodies, and they change. Verify before you buy."
+      ],
+      "checklist": [
+        "Check every helmet for fit, cracks, and missing padding before each use.",
+        "Confirm each bat carries the certification stamp your division requires this season.",
+        "Inspect grips, knobs, and barrels for damage and remove damaged bats.",
+        "Confirm full catcher's gear, including the throat guard, before any player catches.",
+        "Store bats in the rack, never on the dugout floor.",
+        "Verify current equipment rules in the rulebook before buying new gear."
+      ],
+      "officialLinks": [
+        {
+          "label": "USA Baseball Bat Information",
+          "url": "https://www.usabaseball.com/bats"
+        },
+        {
+          "label": "Little League Official Site",
+          "url": "https://www.littleleague.org"
+        }
+      ],
+      "disclaimer": "Equipment requirements are set by the current Little League rulebook for your division and by bat certification standards, which change over time. This article is general guidance, not a rule reference or a safety certification."
+    },
+    {
+      "id": "res-11",
+      "title": "Field Inspection and Lightning Policy Awareness",
+      "category": "player_safety",
+      "audience": [
+        "coach",
+        "admin",
+        "volunteer",
+        "umpire"
+      ],
+      "summary": "A safe field is checked before every use, and every adult at the field should know what the league does when lightning or severe weather appears.",
+      "body": [
+        "Field hazards are easy to miss and easy to fix. Before every practice and game, an adult should walk the infield and outfield looking for holes, exposed sprinkler heads, rocks, glass, loose or broken bases, and standing water. Check that the pitcher's mound and batter's boxes are level enough to play on, that fences have no sharp edges or gaps at ground level, and that the dugouts are clear of trip hazards.",
+        "Little League requires each local league to have a safety plan, and most leagues ask managers to complete a brief field inspection as part of it. If you find a hazard you cannot fix, report it to the league's safety officer, the board member responsible for safety, and move the activity away from it. A practice can shift to a different part of the field in a minute; an injury cannot be undone.",
+        "Lightning is the weather risk every baseball adult must respect. Most leagues follow a policy along the lines of clearing the field when thunder is heard or lightning is seen and waiting a set period, commonly thirty minutes, after the last thunder before returning. Some leagues use lightning detection apps or facility alarms. Learn your league's exact policy, know who makes the call during a game, which is usually the umpire or the league's designated official, and know where players and families should shelter.",
+        "Dugouts and metal bleachers are not shelter. Enclosed buildings or hard-topped vehicles are. Make sure families know this before the season so nobody hesitates when the call comes. Players should leave bats and metal equipment behind when moving to shelter.",
+        "GamePlanIQ can store your league's weather policy for quick reference once an administrator enters it, but the league's written safety plan and the person designated to make weather decisions are the authority on game day."
+      ],
+      "checklist": [
+        "Walk the entire field before each use and look for holes, debris, and damaged bases.",
+        "Report hazards you cannot fix to the league safety officer right away.",
+        "Know your league's lightning policy and who makes the call.",
+        "Identify safe shelter locations and tell families before the season.",
+        "Clear the field at the first thunder or lightning and wait the full required time."
+      ],
+      "officialLinks": [
+        {
+          "label": "Little League Official Site",
+          "url": "https://www.littleleague.org"
+        }
+      ],
+      "disclaimer": "Follow your league's written safety plan and weather policy and the instructions of designated officials. This article is general awareness, not a safety plan or emergency procedure."
+    },
+    {
+      "id": "res-12",
+      "title": "Concussions: Recognize and Remove",
+      "category": "concussion",
+      "audience": [
+        "parent",
+        "coach",
+        "umpire",
+        "volunteer"
+      ],
+      "summary": "Adults at the field do not diagnose concussions. They recognize possible signs, remove the player from play, and follow the league's and state's return-to-play requirements.",
+      "body": [
+        "A concussion is a brain injury caused by a bump, blow, or jolt to the head or body. In baseball it can happen from a pitched or batted ball, a collision between players, a fall, or a bat. Concussions are not always obvious, a player does not have to be knocked out, and signs can appear right away or hours later. The job of a coach, parent, or umpire is not to decide whether a player has a concussion. The job is to recognize that one is possible and get the player out of play.",
+        "Signs an adult may observe include a player who appears dazed or confused, moves clumsily, answers questions slowly, cannot recall the play or the score, loses consciousness even briefly, or shows changes in mood or behavior. Symptoms a player may report include headache or pressure in the head, nausea, dizziness or balance problems, blurry vision, sensitivity to light or noise, feeling foggy, or just not feeling right. Any one of these after a hit is reason to act.",
+        "The approach used by the CDC HEADS UP program and most youth sports organizations is simple: when in doubt, sit them out. Remove the player from practice or the game immediately, do not leave them alone, and inform the parent or guardian. Do not let the player return the same day, even if they say they feel fine. If a player loses consciousness, has a seizure, repeated vomiting, worsening headache, or increasing confusion, call emergency services at once.",
+        "Returning to play is a medical decision, not a coaching one. Many states have laws requiring written clearance from a licensed health care provider before a young athlete returns after a suspected concussion, and Little League requires leagues to follow applicable state concussion laws and recommends concussion awareness training for volunteers. Your league's safety plan should describe its exact procedure. Follow it every time, for every player, regardless of the score or the schedule.",
+        "Prevention is partly about habits. Helmets must fit and be worn whenever required, players should be taught to call for fly balls and to avoid collisions, and catchers must wear full gear. Share the CDC HEADS UP materials with your coaches and families so everyone at the field knows the signs. GamePlanIQ provides this awareness information only; it does not evaluate injuries or clear players to play."
+      ],
+      "checklist": [
+        "Learn the observable signs and reported symptoms of a possible concussion.",
+        "Remove any player with a suspected concussion from play immediately. When in doubt, sit them out.",
+        "Notify the parent or guardian and do not allow same-day return.",
+        "Call emergency services for loss of consciousness, seizure, repeated vomiting, or worsening symptoms.",
+        "Follow your league's safety plan and your state's return-to-play law, including any required written clearance.",
+        "Complete the concussion awareness training your league requires or recommends."
+      ],
+      "officialLinks": [
+        {
+          "label": "CDC HEADS UP",
+          "url": "https://www.cdc.gov/heads-up/index.html"
+        },
+        {
+          "label": "Little League Official Site",
+          "url": "https://www.littleleague.org"
+        }
+      ],
+      "disclaimer": "This article is general awareness information and is not medical advice. It does not diagnose any condition. Follow your league's safety plan and your state's concussion law, and consult a licensed health care provider for evaluation and return-to-play decisions."
+    },
+    {
+      "id": "res-13",
+      "title": "Protecting Young Arms: Throwing Safety Basics",
+      "category": "throwing_safety",
+      "audience": [
+        "parent",
+        "coach",
+        "player"
+      ],
+      "summary": "Young arms are still growing. Warm up properly, build throwing gradually, count pitches, and treat pain as a stop sign.",
+      "body": [
+        "Throwing a baseball is a skill that puts stress on the shoulder and elbow, and children's bones and joints are still developing. The good news is that most throwing-safety guidance from youth baseball organizations is simple and within a parent's or coach's control: warm up before throwing, build distance and effort gradually, limit the total amount of hard throwing, rest between heavy days, and never throw through pain.",
+        "Every throwing session starts with a warm-up. Jog, do arm circles and dynamic stretches, then play catch starting close and easy and backing up as the arm loosens. GamePlanIQ's throwing lessons include a warm-up routine written for this purpose. Cold arms throwing hard is one of the most common and most avoidable mistakes at youth practices.",
+        "Volume matters as much as any single throw. A player who pitches in a game, then plays catcher, then throws at a Sunday practice, then pitches for a travel team on Monday is adding up throws that no single coach sees. Little League's pitch-count rules and rest days exist for exactly this reason, and parents are the only people who see the whole week. Keep a simple log of pitching days, and tell every coach your child plays for about the others.",
+        "Coaches and youth baseball organizations also commonly recommend that young pitchers focus on the fastball and changeup, learn proper mechanics before adding velocity, avoid pitching year round, and take a few months off from overhead throwing each year to play other sports or rest. These are widely shared coaching recommendations, not medical rules, and your child's health care provider is the right person to ask about your child specifically.",
+        "Pain is a stop sign, not a hurdle. A player who says the arm hurts stops throwing right away and tells a coach and parent. Soreness that is still present the next day means no throwing until an adult has been told. Teach players that reporting pain is what smart players do and will never get them in trouble. GamePlanIQ's drills cap throwing reps and flag throwing load so sessions stay reasonable, but adults at the field make the final call."
+      ],
+      "checklist": [
+        "Warm up before every throwing session: jog, arm circles, then easy catch from close to far.",
+        "Build distance and effort gradually; never start a session throwing hard.",
+        "Track every pitching day across all teams and tell each coach about the others.",
+        "Follow the league's pitch-count and rest-day rules without exception.",
+        "Stop at any arm pain and tell an adult; no throwing the next day if soreness lingers.",
+        "Plan a break from overhead throwing each year, as many coaching organizations recommend."
+      ],
+      "officialLinks": [
+        {
+          "label": "Little League Official Site",
+          "url": "https://www.littleleague.org"
+        },
+        {
+          "label": "Little League Playing Rules",
+          "url": "https://www.littleleague.org/playing-rules/"
+        }
+      ],
+      "disclaimer": "This article shares general coaching guidance and is not medical advice. It does not diagnose or treat any injury. Consult a licensed health care provider about any pain or injury, and follow your league's current Little League pitching rules."
+    },
+    {
+      "id": "res-14",
+      "title": "Why Pitch Counts Exist",
+      "category": "pitch_count",
+      "audience": [
+        "parent",
+        "coach",
+        "player",
+        "umpire"
+      ],
+      "summary": "Little League limits how many pitches a young player can throw in a day and requires rest days afterward. Here is the reasoning and how the rules work in general terms.",
+      "body": [
+        "Little League introduced pitch-count limits across its baseball divisions in the mid-2000s, replacing the older innings-pitched limits. The change recognized that an inning can be ten pitches or forty, and that what matters for a growing arm is the number of pitches thrown. Since then, pitch counts have become standard across youth baseball, and Little League's regulations set the numbers for each age.",
+        "The rules work in two parts. The first is a daily maximum: a pitcher of a given age may throw up to a set number of pitches in a day, with a provision that lets a pitcher finish the current batter if the limit is reached mid-at-bat. The second is a rest requirement: depending on how many pitches were thrown, the pitcher must have a certain number of calendar days of rest before pitching again. More pitches means more rest days. The exact thresholds are in the current rulebook and change from time to time.",
+        "Pitch counts are recorded by an official scorekeeper or pitch-count recorder, and both teams typically confirm counts during and after the game. Managers are responsible for knowing their pitchers' eligibility before the game starts. Violating a pitch-count or rest rule can result in a forfeit or a protest, which is why leagues take recording seriously.",
+        "The rules also connect to other positions. In Little League, a player who has caught a certain number of innings in a day may not pitch that day, and a pitcher who throws past a certain number of pitches may not move to catcher for the rest of the day. These rules exist because catching involves many throws too. Coaches planning a lineup need to think about both roles together.",
+        "GamePlanIQ's pitch-count tracker uses the pitch-count and rest table your league administrator has configured, which should mirror the current Little League regulation for your division, and it displays eligibility based on that table. The official current Little League regulation is always authoritative. If the tracker and the rulebook ever disagree, follow the rulebook and tell your league administrator so the configuration can be corrected."
+      ],
+      "checklist": [
+        "Learn the daily maximum and rest-day thresholds for your child's age from the current rulebook.",
+        "Know who records pitch counts at your games and how counts are confirmed.",
+        "Remember that catching innings and pitching interact under the rules.",
+        "Check pitcher eligibility before every game, not during it.",
+        "Treat the official Little League regulation as the final word over any app or summary."
+      ],
+      "officialLinks": [
+        {
+          "label": "Little League Playing Rules",
+          "url": "https://www.littleleague.org/playing-rules/"
+        },
+        {
+          "label": "Little League Official Site",
+          "url": "https://www.littleleague.org"
+        }
+      ],
+      "disclaimer": "This article explains pitch-count rules in general terms and is not the official rulebook. Exact limits and rest requirements are set by the current Little League regulations for your division and may change; always check the current rulebook."
+    },
+    {
+      "id": "res-15",
+      "title": "How the GamePlanIQ Pitch-Count Tracker Works",
+      "category": "pitch_count",
+      "audience": [
+        "coach",
+        "admin",
+        "parent"
+      ],
+      "summary": "The tracker records pitches and shows rest-day eligibility using the table your league has configured. Learn what it does, what it does not do, and who is responsible for what.",
+      "body": [
+        "The GamePlanIQ pitch-count tracker is a record-keeping tool. A coach or scorekeeper enters the pitches thrown by each pitcher during a game, and the tracker totals them, compares them against the pitch-count and rest table configured by your league administrator, and shows when each pitcher is next eligible to pitch. It also flags when a pitcher has thrown enough that the rules may prevent them from catching that day, based on the configured table.",
+        "The table is configured by the league, not by GamePlanIQ. Your league administrator enters the daily maximums, rest-day thresholds, and catcher-pitcher provisions for each division from the current Little League rulebook, and should review them before every season because the numbers can change. The tracker is only as accurate as that configuration.",
+        "Rest days in Little League are counted in calendar days, so a pitcher who throws above a threshold on Monday and needs a set number of days of rest becomes eligible after those full calendar days have passed. The tracker does this arithmetic for you, but managers remain responsible for confirming eligibility, and the official game record kept by the scorekeeper is the document of record if there is ever a question or protest.",
+        "The tracker does not know about pitches thrown for other teams or organizations unless someone enters them. Many players also play travel ball, school ball, or in other leagues. Little League's rules address pitching across leagues in specific ways set out in the rulebook, and the practical point is the same: parents must tell coaches about outside pitching, and coaches should log it where their league allows.",
+        "The official current Little League regulation is authoritative. GamePlanIQ provides a convenience view of your league's configured rules and never overrides the rulebook, the scorekeeper's record, or an umpire's or league official's decision. If you see a discrepancy, follow the rulebook and notify your league administrator immediately."
+      ],
+      "checklist": [
+        "League administrators: configure the pitch-count table from the current rulebook before each season and review it after any rule update.",
+        "Coaches: enter pitches during the game and confirm totals with the official scorekeeper after it.",
+        "Coaches: check each pitcher's eligibility in the tracker and in the official record before announcing a starting pitcher.",
+        "Parents: report pitching for other teams so it can be considered.",
+        "Everyone: when the tracker and the rulebook disagree, follow the rulebook and report the difference."
+      ],
+      "officialLinks": [
+        {
+          "label": "Little League Playing Rules",
+          "url": "https://www.littleleague.org/playing-rules/"
+        }
+      ],
+      "disclaimer": "The GamePlanIQ tracker is a record-keeping aid using your league's configured table. It is not the official rulebook or the official game record. The current Little League regulations and your league's official records are authoritative."
+    },
+    {
+      "id": "res-16",
+      "title": "Codes of Conduct for Players, Parents, and Coaches",
+      "category": "sportsmanship",
+      "audience": [
+        "player",
+        "parent",
+        "coach",
+        "admin"
+      ],
+      "summary": "Most leagues ask every player, parent, and coach to agree to a code of conduct. Here is what those codes usually cover and why they matter.",
+      "body": [
+        "A code of conduct is a written agreement about how people will behave at the field. Little League encourages local leagues to adopt codes for players, parents, and volunteers, and many leagues require a signature at registration. The purpose is not to catch people doing wrong; it is to agree ahead of time on what a good day at the ballpark looks like so nobody has to argue about it in the moment.",
+        "Player codes usually cover respecting teammates, opponents, coaches, and umpires; playing by the rules; accepting calls without arguing; no taunting or negative chatter; keeping equipment safe; and showing up on time and ready. Many leagues also ask players to recite the Little League Pledge before games, which centers on fair play and doing your best whether you win or lose.",
+        "Parent codes typically ask parents to cheer positively for all players, leave coaching to the coaches, never address umpires, keep disagreements away from the field and away from children, support the league's safety rules, and model the behavior they want from their child. Some leagues add a rule about the car ride home or about social media. The common thread is that children copy the adults they watch.",
+        "Coach codes cover placing player safety and development above winning, following the rulebook and league policies including pitch counts and participation rules, treating umpires with respect, communicating calmly with parents, and never using language or discipline that demeans a child. Coaches set the tone for the whole team, and a team's behavior almost always mirrors its manager's.",
+        "Leagues enforce codes through their boards, often with a warning first and then suspensions for repeated or serious violations. Umpires can remove players, coaches, or spectators from a game for unsporting behavior under the playing rules. Knowing the code in advance is the easiest way to never find out how enforcement works. Ask your league for its current code and read it with your child."
+      ],
+      "checklist": [
+        "Read your league's codes of conduct for players, parents, and coaches.",
+        "Talk through the player code with your child before the season.",
+        "Agree as a family on how you will treat umpires and opposing teams.",
+        "Coaches: review the coach code with your assistants and team parents.",
+        "Know how your league handles violations and who to contact."
+      ],
+      "officialLinks": [
+        {
+          "label": "Little League Official Site",
+          "url": "https://www.littleleague.org"
+        }
+      ],
+      "disclaimer": "Codes of conduct are set by your local league and may differ from the general descriptions here. Rules about removal from games are in the current Little League rulebook."
+    },
+    {
+      "id": "res-17",
+      "title": "Game-Day Eating: General Fundamentals",
+      "category": "nutrition",
+      "audience": [
+        "parent",
+        "player"
+      ],
+      "summary": "Simple, general habits for feeding a young ballplayer around practices and games, with no diets, no supplements, and no prescriptions.",
+      "body": [
+        "Young athletes do not need special diets to play Little League. They need regular, balanced meals, enough to drink, and nothing new or unusual on game day. The general guidance that public health and sports organizations share for children applies on the field as well as off it: a mix of fruits, vegetables, whole grains, protein foods, and dairy or alternatives, eaten at regular times.",
+        "Timing is mostly about comfort. A familiar meal a couple of hours before a game usually sits better than a large meal right before the first pitch, and a small snack such as fruit, crackers, or a sandwich an hour before can help if the game is far from a mealtime. Children who feel sick or sluggish during games often simply ate too much too late or skipped eating entirely.",
+        "After a game or practice, a normal meal or snack within the next hour or two is plenty for a child. Specialized recovery products, protein powders, and energy drinks are not necessary for youth baseball, and energy drinks in particular are widely discouraged for children by health organizations. Water is the drink for the field.",
+        "Game days should not be the day to try new foods, new drinks, or a new routine. Test snacks on practice days and keep what works. Many teams have a snack rotation; team parents can keep it simple, be mindful of food allergies on the roster, and ask families about allergies before the season starts.",
+        "Every child is different, and some have allergies, medical conditions, or dietary needs that require specific guidance. GamePlanIQ does not give nutrition prescriptions. For questions about your child's individual needs, talk with your pediatrician or a registered dietitian."
+      ],
+      "checklist": [
+        "Keep regular, balanced meals on game days; no special diets required.",
+        "Eat a familiar meal a couple of hours before and a light snack if needed.",
+        "Skip energy drinks and supplements; water is the field drink.",
+        "Test new snacks at practice, never at games.",
+        "Team parents: ask about allergies before planning snacks.",
+        "Ask a pediatrician or registered dietitian about individual needs."
+      ],
+      "officialLinks": [],
+      "disclaimer": "This article offers general information only and is not nutrition or medical advice. It does not prescribe any diet, food, or supplement. Consult your pediatrician or a registered dietitian about your child's individual needs."
+    },
+    {
+      "id": "res-18",
+      "title": "Hydration Basics for Young Players",
+      "category": "hydration",
+      "audience": [
+        "parent",
+        "coach",
+        "player"
+      ],
+      "summary": "Children often do not notice thirst until they are already behind. Build drinking into the routine before, during, and after every practice and game.",
+      "body": [
+        "Children heat up faster than adults and may not recognize thirst until they are already low on fluids, so hydration in youth baseball has to be scheduled, not left to chance. The general approach shared by youth sports organizations is simple: drink before activity, drink at regular breaks during it, and drink again afterward. Water is the right choice for nearly every practice and game.",
+        "Every player should bring a labeled water bottle to every practice and game and keep it in the dugout or at their station. Coaches should build water breaks into practice plans at regular intervals, more often in hot weather, and should call them rather than waiting for players to ask. Between innings, remind players to drink, especially catchers, pitchers, and anyone who just ran the bases.",
+        "Signs that a child may need fluids and a rest include unusual tiredness, headache, dizziness, flushed skin, irritability, or stopping sweating in the heat. Any of these means the player comes out, sits in the shade, and drinks, and a parent is told. If a child seems confused, vomits, or does not improve quickly, seek medical help. These are signs for adults to act on, not to diagnose.",
+        "Sports drinks are generally not needed for typical youth practices and games of an hour or two, and energy drinks are not appropriate for children. Water and normal meals cover what most young players need. Families with questions about a specific child should ask their pediatrician.",
+        "GamePlanIQ's practice generator and coach plans include water breaks as a standard block. Treat them as part of the practice, not as time off from it."
+      ],
+      "checklist": [
+        "Every player brings a labeled water bottle to every practice and game.",
+        "Players drink before arriving and at every scheduled break.",
+        "Coaches call water breaks on a schedule, more often in heat.",
+        "Remind catchers and pitchers to drink every inning.",
+        "Any sign of excessive tiredness, dizziness, or headache means rest, shade, water, and a parent is told."
+      ],
+      "officialLinks": [],
+      "disclaimer": "This article is general information and not medical advice. It does not diagnose any condition. Follow your league's heat and hydration policy and consult a health care provider about your child's individual needs."
+    },
+    {
+      "id": "res-19",
+      "title": "Practicing and Playing in the Heat",
+      "category": "heat_safety",
+      "audience": [
+        "coach",
+        "parent",
+        "admin",
+        "umpire"
+      ],
+      "summary": "Hot days call for more water, more shade, lighter practices, and a clear plan. Know the general precautions and follow your league's heat policy.",
+      "body": [
+        "Heat is a real risk in youth baseball because games run for hours in the sun, catchers wear heavy gear, and children heat up faster than adults. Leagues in warm climates typically have a written heat policy that sets out when practices are shortened, moved, or canceled and what modifications are required on hot days. Learn your league's policy and the person who makes heat decisions before the first hot week of the season.",
+        "On hot days, general precautions used across youth sports include more frequent and longer water breaks, access to shade for players who are not on the field, lighter and shorter practices, and scheduling activity earlier in the morning or later in the evening when possible. Allow players to remove helmets and catchers to remove masks between innings or during breaks, and rotate catchers more often.",
+        "Give players a few days to adjust when the first hot weather arrives or after a vacation away from the heat. Early-season heat is more dangerous than mid-season heat because bodies have not adapted. Some leagues use temperature or heat-index thresholds to decide when to modify or cancel; follow whatever your league has adopted.",
+        "Watch players, not just the thermometer. A child who becomes unusually tired, confused, dizzy, nauseated, or stops sweating, or whose skin is hot and flushed, needs to stop at once, move to shade or air conditioning, cool down, and drink, and an adult should seek medical help if the child does not improve quickly or seems confused. A coach's job is to act fast on these signs, never to decide whether they are serious.",
+        "GamePlanIQ can display your league's heat policy when an administrator enters it and includes water breaks in every generated practice. The league's written policy and the designated official are the authority on any given day."
+      ],
+      "checklist": [
+        "Read your league's heat policy and know who makes heat decisions.",
+        "Schedule more frequent water breaks and provide shade on hot days.",
+        "Shorten or lighten practices and move them to cooler hours when possible.",
+        "Rotate catchers more often and allow masks and helmets off during breaks.",
+        "Ease players into the first hot days of the season.",
+        "Stop any player showing signs of heat trouble, cool them, give water, and seek help if they do not improve."
+      ],
+      "officialLinks": [
+        {
+          "label": "Little League Official Site",
+          "url": "https://www.littleleague.org"
+        }
+      ],
+      "disclaimer": "This article is general guidance and not medical advice. Follow your league's heat policy and safety plan and the decisions of designated officials, and seek medical help for any player who appears ill."
+    },
+    {
+      "id": "res-20",
+      "title": "Volunteer Background Checks: What Every League Must Know",
+      "category": "volunteers",
+      "audience": [
+        "admin",
+        "coach",
+        "volunteer",
+        "parent"
+      ],
+      "summary": "Little League requires local leagues to screen volunteers who have repetitive access to children. Learn what the requirement covers and how GamePlanIQ handles screening status.",
+      "body": [
+        "Little League requires every chartered local league to conduct background screening on managers, coaches, board members, and any other volunteers or hired workers who have repetitive access to, or contact with, players or teams. The specific requirements, including the type of check, the information sources that must be searched, and the forms volunteers complete, are set by Little League International and are updated periodically. Leagues must follow the current requirement each season, not the one they remember from a prior year.",
+        "The process typically begins with the Little League volunteer application, completed annually, and consent for the check. The league president or a designated board member runs the screening through the provider Little League specifies and reviews results. Individuals with certain convictions or who appear on a sex offender registry are not permitted to volunteer. Leagues must also complete screening before a volunteer begins working with children, not after the season has started.",
+        "Screening results are confidential. Only the league president and designated officials should see them, and leagues should follow Little League's guidance and applicable law on how results are stored and for how long. Parents can and should ask whether their child's coaches have been screened; they should not expect, and leagues should not share, the content of any report.",
+        "GamePlanIQ tracks screening status only. A league administrator can mark whether a volunteer's application and background check are complete for the current season and the date they were completed, so that only cleared volunteers are assigned to teams. GamePlanIQ never stores background check reports, results, or any of their contents, and it is not the screening provider.",
+        "Screening is a floor, not a ceiling. Little League also recommends broader child-protection practices, such as avoiding one-adult, one-child situations, keeping two screened adults at every practice, and having a clear reporting procedure. Check Little League's current child protection program for the requirements and recommendations that apply to your league this season."
+      ],
+      "checklist": [
+        "League officials: confirm this season's Little League screening requirements before volunteers begin.",
+        "Collect a volunteer application and consent from every manager, coach, board member, and regular volunteer annually.",
+        "Complete screening before any volunteer works with children.",
+        "Keep results confidential and follow Little League's storage guidance and applicable law.",
+        "Record only completion status and date in GamePlanIQ; never upload reports.",
+        "Adopt the broader child-protection practices Little League recommends."
+      ],
+      "officialLinks": [
+        {
+          "label": "Little League Official Site",
+          "url": "https://www.littleleague.org"
+        }
+      ],
+      "disclaimer": "Screening requirements are set by Little League International and may change; this article is a summary, not the requirement itself. Leagues must follow Little League's current volunteer screening and child protection requirements and applicable law. GamePlanIQ stores screening status only and never stores reports."
+    },
+    {
+      "id": "res-21",
+      "title": "Getting Started as a League Volunteer",
+      "category": "volunteers",
+      "audience": [
+        "volunteer",
+        "parent"
+      ],
+      "summary": "Little League runs on volunteers. Here are the common roles, what each involves, and how to get started even if you have never played baseball.",
+      "body": [
+        "Every Little League is run by volunteers, from the board president to the parent who rakes the infield. You do not need baseball experience for most roles, and the league needs more help than it usually asks for. Start by telling your child's manager or the league's volunteer coordinator that you are available and how much time you have.",
+        "Team-level roles include assistant coach, who helps run practice stations and the dugout during games; team parent, who manages communication, snacks, and schedules; and scorekeeper or pitch-count recorder, who keeps the official record of the game. Scorekeeping sounds intimidating but most leagues offer a short training, and it is one of the most valuable jobs at the field.",
+        "League-level roles include field maintenance, snack bar, equipment, umpiring, fundraising, and board positions such as safety officer, player agent, and treasurer. Umpiring in particular is always short of people; leagues train volunteer umpires and younger divisions are a good place to start. Each role has a season-long rhythm, so ask what the time commitment actually looks like.",
+        "Anyone who will have regular contact with players, including assistant coaches and team parents in the dugout, must complete the league's volunteer application and background screening before starting, as Little League requires. Plan for this early in the preseason so your paperwork is done before the first practice.",
+        "The best way to learn is to shadow someone for a game or a practice. Most experienced volunteers are glad to show a newcomer how things work, and GamePlanIQ's coach guides and practice plans are written so that a volunteer with no baseball background can run a station on day one."
+      ],
+      "checklist": [
+        "Tell your manager or volunteer coordinator you are available and how much time you have.",
+        "Pick a role that fits your schedule: team parent, scorekeeper, station helper, field crew, or umpire.",
+        "Complete the volunteer application and background screening before working with players.",
+        "Attend any training the league offers for your role.",
+        "Shadow an experienced volunteer for one game or practice."
+      ],
+      "officialLinks": [
+        {
+          "label": "Little League Official Site",
+          "url": "https://www.littleleague.org"
+        }
+      ],
+      "disclaimer": "Volunteer roles and requirements vary by league. All volunteers with regular contact with players must meet Little League's current screening requirements; check with your league."
+    },
+    {
+      "id": "res-22",
+      "title": "What a League Typically Publishes: Boundary Map, Bylaws, Safety Plan, and Financials",
+      "category": "league_documents",
+      "audience": [
+        "parent",
+        "admin",
+        "coach",
+        "volunteer"
+      ],
+      "summary": "A well-run league makes its key documents available to families. Here is what each one is, why it exists, and where you can usually find it.",
+      "body": [
+        "Little League is organized into chartered local leagues, each responsible for a defined area. That area is shown on the league's boundary map, which determines which league a child is eligible to play in based on where they live or attend school. Little League requires leagues to maintain their boundaries and verify player eligibility, so the boundary map is one of the first documents a new family should look at. Leagues usually post it on their website or provide it at registration.",
+        "The constitution and bylaws describe how the league is governed: how the board is elected, what officers exist, how meetings are run, and how local rules are adopted. Little League provides a model constitution that local leagues adapt. Reading the bylaws tells you how to raise a concern, how to run for the board, and how decisions are made. The local rules, covered in a separate GamePlanIQ article, are often published alongside them.",
+        "Every chartered league must have a safety plan. Little League's safety program, long known as ASAP, asks leagues to submit a plan covering items such as volunteer screening, first aid training, equipment and field inspection, emergency procedures, and concussion awareness. The league's safety officer maintains it. Parents can ask for it, and coaches should read the parts that apply to practices and games.",
+        "Leagues are nonprofit organizations and handle registration fees, fundraising, and sponsorships. Good practice, and in many places legal requirement, is to present financial reports to the membership, typically at an annual meeting, and to keep records available to members on request. Knowing how fees are spent builds trust and helps families decide how to support fundraising.",
+        "Other documents a league may publish include the season calendar, the code of conduct, the registration and age-verification requirements, and the schedule and location of board meetings, which are usually open to members. GamePlanIQ lets a league administrator post these documents in one place for families, but the league's board remains responsible for their content and accuracy, and Little League's current requirements govern what each document must contain."
+      ],
+      "checklist": [
+        "Check the boundary map to confirm your child's eligibility before registering.",
+        "Read the constitution and bylaws to learn how decisions are made and how to raise concerns.",
+        "Ask the safety officer for the safety plan, and coaches should read the practice and game sections.",
+        "Attend the annual meeting where financial reports are presented.",
+        "Find out when and where board meetings are held and whether members may attend."
+      ],
+      "officialLinks": [
+        {
+          "label": "Little League Official Site",
+          "url": "https://www.littleleague.org"
+        }
+      ],
+      "disclaimer": "Requirements for league documents are set by Little League International and applicable law and may change. This article describes common practice; check with your league's board for its official documents."
+    }
+  ]
+}

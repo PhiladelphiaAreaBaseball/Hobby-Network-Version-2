@@ -1,0 +1,2056 @@
+{
+  "$schema": "lesson",
+  "items": [
+    {
+      "id": "hit-01",
+      "title": "Holding the Bat: The Knocking-Knuckles Grip",
+      "category": "hitting",
+      "subcategory": "Grip",
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to pick up a bat and hold it with a relaxed knocking-knuckles grip, bottom hand on the knob end, without being reminded.",
+      "summary": "Where the hands go on the bat, how tight to squeeze, and how to check the grip in two seconds. The first skill every hitter learns.",
+      "video": {
+        "status": "placeholder",
+        "note": "Close-up of a six-year-old's hands picking up a bat off the grass, then a slow pan showing the knocking knuckles of both hands lined up along the bat, with the parent checking from behind."
+      },
+      "explanation": [
+        "A grip is simply how your hands hold the bat. The bottom hand is the hand nearest the knob, the little flared end of the bat. For a right-handed hitter the bottom hand is the left hand and the top hand is the right hand; for a left-handed hitter it is the other way around. If your child does not know which way to stand yet, let them pick up the bat and swing it a few times and use whichever side looks more comfortable.",
+        "Make a fist and look at the row of knuckles you would knock on a door with. Those are the knocking knuckles. When the bat is held correctly, the knocking knuckles of both hands line up roughly along the bat, so the top-hand knuckles sit between the bottom hand's knocking and big knuckles. The hands touch each other with no gap, and the bottom hand sits about one finger-width above the knob so the knob does not dig into the wrist.",
+        "The bat rests in the fingers, not deep in the palms. If you lay a bat across the pads where the fingers meet the hand and close the fingers around it, the grip is right. If the bat is jammed back into the fleshy part of the palm, the wrists lock and the bat cannot whip through. A good test is to have the child wiggle the bat head in small circles; a finger grip lets it move freely.",
+        "Grip pressure should be soft. On a scale from one to ten, where ten is squeezing a wet towel dry, the hands should be about a three or four until the swing starts. Tell young hitters to hold the bat like a baby bird or a tube of toothpaste with the cap off. The hands tighten on their own at contact, so there is no need to squeeze early.",
+        "Children ages four to eight should use a light bat they can hold straight out in front of them with one hand for five seconds without shaking. A bat that is too heavy forces a palm grip and a long, slow swing. If the only bat you have is heavy, slide both hands up the handle two or three inches, which is called choking up, and the bat will feel lighter."
+      ],
+      "parentInstructions": [
+        "Stand behind your child and slightly to the side, never in front. From behind you can see both hands and the knuckles without being anywhere near the bat.",
+        "Have your child set the bat on the ground, then bend down and pick it up with both hands. Most children naturally pick it up with the knuckles close to lined up. Praise that, then adjust one hand if needed.",
+        "Look at three things only: bottom hand near the knob, hands touching, knocking knuckles roughly in a line. Ignore everything else today.",
+        "Ask your child to squeeze the bat as hard as they can and then let go to a three out of ten. Doing this three times teaches what relaxed hands feel like.",
+        "Keep the whole session to five minutes for a four- to six-year-old. Check the grip, let them take a few slow practice swings in a clear space, and stop while they still want more.",
+        "Use one cue at a time. Say 'knuckles in a line' and nothing else until that is automatic, then move on to 'soft hands'.",
+        "Count your child's swings. After eight to ten swings, rest for a minute, shake out the hands, and check the grip again before the next set."
+      ],
+      "equipment": [
+        "bat"
+      ],
+      "equipmentFreeAlternative": "Use a broom handle, a short length of PVC pipe, or a rolled-up magazine taped tight. The knuckle line-up and finger grip can be learned on any stick about an inch thick.",
+      "steps": [
+        "Lay the bat on the ground in a clear area at least twelve feet from walls, cars, pets, and other people.",
+        "Have your child pick it up with both hands and lift it to shoulder height. Check that the bottom hand is nearest the knob.",
+        "Ask your child to make the hands touch, then look down the bat and see if the knocking knuckles of both hands make a rough line. Gently rotate the top hand if the knuckles point in different directions.",
+        "Check that the bat sits in the fingers by having your child wiggle the bat head in a small circle without moving the elbows.",
+        "Practice the squeeze-and-release three times: squeeze to ten, let go to three.",
+        "Have your child set the bat down and pick it up correctly five times in a row. Celebrate each correct grip.",
+        "Finish with five slow, easy practice swings while you watch only the hands from behind. Stop if the grip changes and reset it."
+      ],
+      "durationMin": 5,
+      "commonMistakes": [
+        {
+          "mistake": "Hands are crossed, with the top hand nearest the knob.",
+          "fix": "Have the child set the bat down and pick it up again, saying 'knob hand first' as the bottom hand touches the bat. Do not try to fix it mid-swing."
+        },
+        {
+          "mistake": "There is a gap between the two hands.",
+          "fix": "Slide the top hand down until the hands touch. A gap makes the bat wobble and lets the top hand take over the swing."
+        },
+        {
+          "mistake": "The bat is buried in the palms so the knuckles point in two different directions.",
+          "fix": "Open both hands, lay the handle across the base of the fingers, and close the fingers first, then the thumbs."
+        },
+        {
+          "mistake": "White knuckles from squeezing too hard.",
+          "fix": "Have the child shake out both hands, then re-grip at a three out of ten. Remind them the hands get tight on their own when the bat meets the ball."
+        }
+      ],
+      "cues": [
+        "Knuckles in a line",
+        "Knob hand first",
+        "Hold it like a baby bird",
+        "Hands touching",
+        "Bat in the fingers"
+      ],
+      "safety": [
+        "Mark a bat zone with cones, chalk, or a hose: a circle at least twelve feet across that only the hitter stands in. Everyone else, including the parent, stays outside and behind the hitter.",
+        "Never check a grip from in front of the child. Walk around behind, fix the hands, and step back out of the bat zone before any swing.",
+        "Teach children to set the bat down gently after swinging, never to throw or drop it.",
+        "Use a lightweight bat approved for your child's division. Check your league's current Little League rulebook for bat standards."
+      ],
+      "progression": {
+        "easier": "Skip the swings entirely. Practice only picking the bat up and showing the knuckles, then setting it back down, for ten repetitions.",
+        "harder": "Have the child close their eyes, pick up the bat, and grip it correctly by feel. Then take three slow swings and freeze so you can check the hands still look the same.",
+        "nextLessonId": "hit-02"
+      },
+      "tags": [
+        "grip",
+        "how to hold a bat",
+        "knocking knuckles",
+        "hands crossed on bat",
+        "bat too heavy",
+        "squeezing the bat",
+        "tee ball grip",
+        "first time hitting",
+        "choke up",
+        "which hand goes on top",
+        "right handed or left handed"
+      ],
+      "drillIds": [
+        "drill-hit-01",
+        "drill-hit-13"
+      ]
+    },
+    {
+      "id": "hit-02",
+      "title": "Athletic Stance and Base Width",
+      "category": "hitting",
+      "subcategory": "Stance",
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to step into the batter's box and set up in a balanced athletic stance with feet a little wider than the shoulders, knees bent, and weight on the balls of the feet.",
+      "summary": "How a hitter stands before the pitch: foot width, knee bend, where the weight sits, and where the bat waits. A good stance makes every other hitting skill easier.",
+      "video": {
+        "status": "placeholder",
+        "note": "A seven-year-old jumps straight up, lands softly in an athletic stance beside a home plate, and a graphic overlay shows the feet just outside the shoulders, bent knees, and the bat resting above the back shoulder."
+      },
+      "explanation": [
+        "The stance is how the hitter stands while waiting for the pitch. Think of how a child stands ready to catch a ball or play goalie: feet apart, knees bent, bottom down a little, ready to move in any direction. That same ready position is the batting stance, just turned sideways to the pitcher with a bat in the hands.",
+        "Stand sideways in the batter's box so the front shoulder points at the pitcher. The front foot is the one closest to the pitcher. Spread the feet so the insides of the feet are a little wider than the outsides of the shoulders. For most young children that is about one of their own foot-lengths wider on each side than standing normally. Point both toes at home plate, not at the pitcher.",
+        "Bend the knees until the kneecaps are roughly over the laces of the shoes, and let the hips sink an inch or two. Weight stays on the balls of the feet, the padded part just behind the toes, so the heels are light but still touching the ground. A hitter who is on the heels will rock back and fall away from the ball; a hitter who is on the toes will tip forward.",
+        "Hold the bat with the hands about even with the back shoulder, four to six inches away from the body, and the bat head angled up and back over the shoulder. The elbows hang down in a relaxed position; the back elbow does not need to be lifted high. The head turns so both eyes are looking at the pitcher, with the chin close to the front shoulder.",
+        "Where to stand in relation to home plate matters too. Have the child lay the bat down with the bat head on the far edge of the plate and stand where the knob touches the toes; that puts the plate within reach without crowding it. Put the front foot about even with the middle of the plate so the ball can be hit in front of the body."
+      ],
+      "parentInstructions": [
+        "Stand behind your child and off to the side the child faces, at least twelve feet back from the bat. Never stand in front where a bat or ball could reach you.",
+        "Look at the feet first. Are they wider than the shoulders? Are both toes pointing at the plate? Fix the feet before you look at anything else.",
+        "Next look at the knees. If the legs are straight like a soldier, say 'bend' and gently press down on the top of both shoulders until the knees give a little.",
+        "Ask your child to jump up and land. Where they land is almost always a perfect stance width. Use this trick any time the feet drift together.",
+        "Check that the bat is up and back over the shoulder, not resting on the shoulder like a lumberjack. A bat lying on the shoulder has a long way to travel.",
+        "Keep sessions to six or eight minutes for ages four to six. Set up the stance, take three swings, rest, and set up again. Setting up correctly is the skill; the swings are just the reward.",
+        "Praise the stance out loud each time it looks right so your child learns what 'good' means before any ball is involved."
+      ],
+      "equipment": [
+        "bat"
+      ],
+      "equipmentFreeAlternative": "Draw a home plate and two footprints with chalk on the driveway or use two pieces of tape on the floor. The child steps onto the footprints and takes the stance with hands clasped together as if holding a bat.",
+      "steps": [
+        "Mark a home plate with chalk, a paper plate, or a real plate, and clear a bat zone at least twelve feet in every direction.",
+        "Have your child stand sideways to an imaginary pitcher with the front shoulder pointing where the pitch would come from.",
+        "Say 'jump and stick'. The child jumps straight up and lands softly. Check the feet are a little wider than the shoulders and both toes face the plate.",
+        "Say 'bend'. The knees bend until the kneecaps are over the shoelaces and the weight moves onto the balls of the feet.",
+        "Have the child lift the bat so the hands are near the back shoulder and the bat head points up and back. Check the elbows are relaxed and hanging.",
+        "Ask the child to turn the head and look at the imaginary pitcher with both eyes. Hold the stance for a count of three.",
+        "Take one easy practice swing, step out, shake it off, and repeat the set-up from the start five more times.",
+        "Finish by having the child set up with eyes closed, then open them and check in a mirror or a photo you take from behind."
+      ],
+      "durationMin": 8,
+      "commonMistakes": [
+        {
+          "mistake": "Feet too close together, so the hitter tips over during the swing.",
+          "fix": "Use the jump-and-stick landing to find the width, then draw chalk marks or place tape where the feet landed so the child can step to the same spots every time."
+        },
+        {
+          "mistake": "Standing straight up with locked knees.",
+          "fix": "Have the child pretend to sit on a tall stool behind them. The hips sink an inch or two and the knees unlock. Check that the kneecaps are over the laces."
+        },
+        {
+          "mistake": "Front foot pointing toward the pitcher, which opens the hips early.",
+          "fix": "Turn the front toes to face the plate. Put a small cone or a glove just outside the front foot as a wall the toes must stay behind."
+        },
+        {
+          "mistake": "Bat resting on the shoulder or hands held down by the belt.",
+          "fix": "Lift the hands to shoulder height, about a hand-width off the body, with the bat head angled up and back. Say 'hands up, bat up' before each swing."
+        },
+        {
+          "mistake": "Standing so far from the plate that the bat cannot reach the far side.",
+          "fix": "Lay the bat across the plate with the bat head on the far edge; the toes go where the knob ends up. Re-measure every time until the spot is automatic."
+        }
+      ],
+      "cues": [
+        "Jump and stick",
+        "Toes to the plate",
+        "Sit on the stool",
+        "Hands up, bat up",
+        "Eyes to the pitcher"
+      ],
+      "safety": [
+        "Set a bat zone at least twelve feet across. The only person inside it is the hitter, and the adult coaches from behind and to the side.",
+        "Practice stance work on grass, a mat, or dry pavement, never on a wet or icy driveway where bent knees and bat swings can lead to a slip.",
+        "Keep siblings and pets well behind the hitter; a practice swing travels in a full circle around the body."
+      ],
+      "progression": {
+        "easier": "Practice the stance with no bat at all, hands clasped together, so the child can focus only on the feet and knees.",
+        "harder": "Have the child set up, then hold the stance while you gently push on the front shoulder and then the back shoulder. A balanced stance does not move.",
+        "nextLessonId": "hit-10"
+      },
+      "tags": [
+        "stance",
+        "batting stance",
+        "feet too close together",
+        "stands straight up",
+        "falls over when swinging",
+        "how far from the plate",
+        "where to stand in the batter's box",
+        "tee ball stance",
+        "knees bent",
+        "front foot open",
+        "balance"
+      ],
+      "drillIds": [
+        "drill-hit-02",
+        "drill-hit-13"
+      ]
+    },
+    {
+      "id": "hit-03",
+      "title": "Balance Point: Staying Centered Through the Swing",
+      "category": "hitting",
+      "subcategory": "Balance",
+      "ageGroups": [
+        "a7_8",
+        "a9_10"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to take a full swing and hold the finish position for three seconds without stepping, stumbling, or falling toward the plate.",
+      "summary": "A hitter who stays balanced hits the ball harder and more often. This lesson teaches where the weight should be before, during, and after the swing, and how to check it with a frozen finish.",
+      "video": {
+        "status": "placeholder",
+        "note": "Side-by-side slow motion of two nine-year-olds: one falls toward the plate after swinging, the other finishes with the head still over the belt buckle and holds the pose for three seconds while a line graphic shows the head barely moving."
+      },
+      "explanation": [
+        "Balance means the hitter's head and weight stay over the middle of the body for the whole swing. Picture a line drawn straight down from the nose to the ground. Before the swing that line lands between the feet. After the swing it should land in almost the same spot, with the head having moved only a few inches toward the pitcher. A swing that ends with the hitter stumbling has sent power into the ground instead of into the ball.",
+        "Weight starts spread over both feet, a little more on the back foot, around sixty percent back and forty percent front. During the swing the weight moves against a firm front leg and the back heel comes up so the back foot pivots on the toe. The hips turn, but the head stays nearly still. If you watch only the belt buckle, it should turn to face the pitcher while the head stays where it was.",
+        "The front leg is the brake. As the swing starts, the front knee straightens and the front foot presses into the ground so the body cannot keep sliding forward. The back knee drives toward the front knee. Finishing with the back toe touching the ground, the front leg firm, and the chest facing the pitcher is the balanced finish we are after.",
+        "The best check is the freeze. After every swing the hitter holds the finish for a slow count of three. If the hitter can hold it, the swing was balanced. If the hitter needs an extra step, wobbles, or tips toward the plate, something pulled the body off center, usually the head flying out or a swing that was too hard for the body to control.",
+        "Balance is also about swinging at a speed the body can handle. Most young hitters swing at one hundred percent effort and lose their footing. Ask for a swing at seventy percent, the speed where the freeze is easy, and build up from there. Hard contact comes from a balanced swing far more than from a maximum-effort one."
+      ],
+      "parentInstructions": [
+        "Stand behind your child and to the open side, twelve to fifteen feet away. You want to see the head and the feet, so kneel or crouch to get your eyes closer to your child's height.",
+        "Watch the head. Pick a spot on a fence or wall directly behind your child's head before the swing and notice how far the head moves from that spot. A few inches is fine; a foot is too far.",
+        "Watch the feet at the finish. The back heel should be up with the toe down and the front foot flat and quiet. A front foot that spins open or a back foot that drags forward means balance was lost.",
+        "Call out 'freeze' as the bat finishes and count out loud to three. Make a game of it. The child earns a point each time the freeze holds without a wobble.",
+        "Keep swings to sets of five with a thirty-second rest between sets so tired legs do not hide the real problem. Ten to fifteen total swings is plenty.",
+        "If the freeze keeps failing, ask for a slower swing rather than more effort. Say 'show me a seventy percent swing' and reward the balanced one, not the loud one."
+      ],
+      "equipment": [
+        "bat"
+      ],
+      "equipmentFreeAlternative": "Do the whole lesson as shadow swings with no bat, hands clasped, or with a short stick. The freeze test works exactly the same without equipment.",
+      "steps": [
+        "Clear a bat zone at least twelve feet in every direction and set up a home plate marker.",
+        "Have the child take the stance with sixty percent of the weight on the back foot. Ask them to lift the front heel slightly to feel the weight behind them, then set it down.",
+        "Take a slow-motion swing with no ball, finishing with the back heel up, back toe down, chest toward the pitcher, and head over the middle. Hold for three seconds.",
+        "Repeat the slow-motion swing five times. Only the speed changes; the finish position stays the same.",
+        "Take five swings at about seventy percent effort, freezing after each one. Count out loud.",
+        "Have the child hold the frozen finish while you gently tap their front shoulder. A balanced hitter does not move.",
+        "If a soft ball and tee are available, hit five balls off the tee with the same freeze after each swing, with everyone behind the hitter.",
+        "Finish with three swings where the child says 'freeze' themselves before you can."
+      ],
+      "durationMin": 10,
+      "commonMistakes": [
+        {
+          "mistake": "Falling toward the plate after the swing.",
+          "fix": "The head is going out ahead of the swing. Have the child finish with the chin close to the back shoulder and the eyes still on the spot where the ball was. Slow the swing until the freeze holds."
+        },
+        {
+          "mistake": "Spinning on the back foot so the whole body turns and the front foot comes off the ground.",
+          "fix": "Put a glove or soft cone just in front of the front foot as a wall it cannot pass. Ask for a firm front leg that pushes back against the swing."
+        },
+        {
+          "mistake": "Weight stuck on the back foot with the back heel still down at the finish.",
+          "fix": "Have the child squash an imaginary bug under the ball of the back foot so the heel lifts and the belt buckle turns to the pitcher."
+        },
+        {
+          "mistake": "Swinging as hard as possible every time and wobbling.",
+          "fix": "Count the balanced swings, not the hard ones, for a week. Build effort back up only when ten freezes in a row hold."
+        }
+      ],
+      "cues": [
+        "Nose over the belt buckle",
+        "Freeze for three",
+        "Firm front leg",
+        "Squish the bug",
+        "Seventy percent"
+      ],
+      "safety": [
+        "Only the hitter stands inside the bat zone. The parent stays behind and to the side, outside a twelve-foot circle.",
+        "Practice on grass or a flat, dry surface so the frozen finish does not become a slip. Wet decks and slick garage floors are not good spots for full swings.",
+        "If a tee and ball are added, the child wears a batting helmet and everyone else stands behind the tee, never beside or in front of it."
+      ],
+      "progression": {
+        "easier": "Practice only the finish. The child steps into the finish position without swinging, holds it for three seconds, and resets. Ten repetitions.",
+        "harder": "Take swings off a tee and hold the freeze while you roll a ball to the front foot; the hitter should be stable enough to let it bounce off the shoe without moving.",
+        "nextLessonId": "hit-06"
+      },
+      "tags": [
+        "balance",
+        "falls over when swinging",
+        "falls toward the plate",
+        "spins out",
+        "swings too hard",
+        "loses balance",
+        "head moves",
+        "weight shift",
+        "back foot",
+        "freeze finish",
+        "nose over toes"
+      ],
+      "drillIds": [
+        "drill-hit-03",
+        "drill-hit-21"
+      ]
+    },
+    {
+      "id": "hit-04",
+      "title": "The Small Load: Getting Ready to Swing",
+      "category": "hitting",
+      "subcategory": "Load",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to make a small, quiet load, shifting weight into the back hip and moving the hands back two to four inches, before every swing without wrapping the bat or lifting the front foot too early.",
+      "summary": "The load is the little backward move a hitter makes right before swinging forward. This lesson teaches a short, repeatable load that stores power without throwing off timing or balance.",
+      "video": {
+        "status": "placeholder",
+        "note": "An eleven-year-old shown from the open side in slow motion as the pitcher's arm goes back: the hands drift back about three inches, the front knee turns slightly inward, and the back hip loads, with freeze-frames marking each checkpoint."
+      },
+      "explanation": [
+        "Every athletic move starts with a small move in the opposite direction. A jumper dips before leaving the ground, and a thrower reaches back before coming forward. In hitting that backward move is called the load. It is how the hitter gathers weight and tension so the swing has something to push off from.",
+        "A good load is small. From the stance, the hands move back toward the catcher about two to four inches, roughly the width of the hitter's own fist, and stay at the height of the back shoulder. At the same time the weight settles into the inside of the back thigh and the back hip, so the back knee stays bent and points slightly toward the plate rather than bowing out. The front shoulder turns in just a touch, maybe two inches, so the chin brushes the front shoulder.",
+        "The front knee gives a clear checkpoint. During the load it turns gently inward toward the back knee, like the hitter is softly pinching a ball between the knees. The front heel can lift, but the front foot does not pick up and leave the ground. That inward knee turn is what coaches mean by coiling, and it keeps the hitter from drifting forward too soon.",
+        "The bat barely changes angle. If the bat head wraps around behind the head so the barrel points at the pitcher, the load has gone too far and the swing will be long. The barrel should stay pointed up and slightly back, somewhere between straight up and forty-five degrees. A mirror or a phone video from behind will show this instantly.",
+        "Timing the load matters as much as its size. In a game the load begins as the pitcher's arm starts up and finishes as the pitcher's arm reaches its highest point, so the hitter is loaded and still when the ball leaves the hand. For now, practice the load as a slow, deliberate move with a pause at the end so the body learns the position before adding speed."
+      ],
+      "parentInstructions": [
+        "Stand behind your child and off to the open side, at least twelve feet from the bat. If you have a phone, film from directly behind the back foot at hip height; that angle shows the hands and the knee at once.",
+        "Call 'load' and watch two things: did the hands move back a fist-width and stop, and did the front knee turn in a little? If both happened, say so.",
+        "Watch the front foot. It is allowed to lift at the heel but should not step. If the whole foot comes up during the load, the child is striding too early and will lose power.",
+        "Check the bat angle by looking at the barrel from behind. If you can see the barrel pointing at the pitcher, the hands have wrapped. Ask for 'barrel up'.",
+        "Do loads in sets of six with a pause at the end of each. After the set, let your child shake out the arms and legs for twenty seconds. Fifteen to twenty total loads and ten swings is a full session.",
+        "If swings are added, insist on the same small load first. A hitter who loads perfectly in slow motion and then rushes it during a real swing needs more slow repetitions, not more swings."
+      ],
+      "equipment": [
+        "bat"
+      ],
+      "equipmentFreeAlternative": "Hold a rolled-up towel or a short stick in the batting grip. The load is a body movement, so no bat or ball is needed to learn it.",
+      "steps": [
+        "Set up in the athletic stance in a clear bat zone with a plate marker and an imaginary pitcher about forty feet away.",
+        "On the word 'load', move the hands back toward the catcher the width of a fist and settle the weight into the back hip. Hold for two seconds.",
+        "Check the front knee: it should be turned slightly inward and the front heel light, but the foot still on the ground.",
+        "Relax back to the stance. Repeat the load six times, pausing at the top each time, with the parent checking hands, knee, and barrel angle.",
+        "Have the child load and then take a slow, half-speed swing, feeling the weight push off the back hip. Repeat five times.",
+        "Add a rhythm: the parent slowly raises an arm like a pitcher. The child starts the load as the arm lifts and finishes loaded when the arm is at the top.",
+        "Finish with five full-speed shadow swings, each starting from a loaded, paused position, freezing the finish for three seconds."
+      ],
+      "durationMin": 12,
+      "commonMistakes": [
+        {
+          "mistake": "The hands wrap behind the head and the barrel points at the pitcher.",
+          "fix": "Load against a wall. Have the child stand with the back about a foot from a wall and load; if the bat taps the wall the load is too long. Keep the barrel between straight up and forty-five degrees."
+        },
+        {
+          "mistake": "Weight falls to the outside of the back foot and the back knee bows out.",
+          "fix": "Place a glove on the ground just outside the back foot. The child loads into the inside of the back thigh so the knee stays over the foot and never leans out toward the glove."
+        },
+        {
+          "mistake": "The front foot picks up and steps during the load, so the hitter drifts forward too early.",
+          "fix": "Practice loads with the front foot flat and only the heel allowed to lift. Add the stride back in only after ten quiet loads in a row."
+        },
+        {
+          "mistake": "The head moves back with the hands so the eyes bounce.",
+          "fix": "Have the child fix the eyes on a spot where the pitcher's hand would be. The hands and hips move back, the head stays nearly still."
+        },
+        {
+          "mistake": "Loading too big and too late, so the body is still moving back when the ball arrives.",
+          "fix": "Shrink the hand move to one fist and start it earlier, as the pitcher's arm begins to rise. Small and early beats big and late."
+        }
+      ],
+      "cues": [
+        "Fist-width back",
+        "Pinch the knees",
+        "Sit into the back hip",
+        "Barrel up, not wrapped",
+        "Load early, swing on time"
+      ],
+      "safety": [
+        "A load leads into a full swing, so keep the twelve-foot bat zone clear and have the parent behind and to the side at all times.",
+        "Do slow loads first and build to full speed; a tired hitter rushing full-speed swings is the most likely to lose the bat.",
+        "Check the ground around the back foot for loose gravel or wet grass, since the load puts extra weight on that foot."
+      ],
+      "progression": {
+        "easier": "Remove the bat and do the load with hands clasped, focusing only on the back hip and front knee for ten repetitions.",
+        "harder": "Have a partner call 'load' at random moments while the hitter watches an imaginary pitcher, then immediately swing off a tee into a net, keeping the load the same size every time.",
+        "nextLessonId": "hit-05"
+      },
+      "tags": [
+        "load",
+        "getting ready to swing",
+        "wraps the bat",
+        "steps too early",
+        "no power",
+        "lunges at the ball",
+        "weight shift",
+        "coil",
+        "hands move back",
+        "timing",
+        "rushes the swing"
+      ],
+      "drillIds": [
+        "drill-hit-04",
+        "drill-hit-05"
+      ]
+    },
+    {
+      "id": "hit-05",
+      "title": "Stride and Separation",
+      "category": "hitting",
+      "subcategory": "Load",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to take a short, soft stride of two to six inches straight toward the pitcher while the hands stay back, landing on the inside of the front foot with the front shoulder still closed.",
+      "summary": "The stride is the small step toward the pitcher, and separation is keeping the hands back while that step happens. Together they create the stretch that makes a swing quick and strong.",
+      "video": {
+        "status": "placeholder",
+        "note": "Overhead and side views of a ten-year-old striding onto a chalk line while a rolled towel held between the hands stays back near the shoulder, with an overlay showing the growing distance between the front foot and the hands."
+      },
+      "explanation": [
+        "The stride is a short step with the front foot toward the pitcher. It is not a lunge and it is not a kick. For most Little League hitters it is somewhere between two and six inches, which is less than the length of the hitter's own shoe. The foot lands softly on the inside edge, the big-toe side, with the toes still pointing at the plate or only slightly open toward the pitcher. Landing with the toes turned toward the pitcher opens the hips too soon.",
+        "Separation is the stretch between the lower body and the hands. As the front foot moves forward, the hands stay back near the back shoulder or even drift back another inch. That means the front foot is going one way and the hands are staying put, so the distance between them grows. A hitter can feel this as a stretch across the front of the chest and the inside of the front thigh.",
+        "A simple picture helps: a rubber band. The stride stretches the band, and the swing is the band snapping. If the hands come forward with the stride, the band never stretches and the swing is all arms. If the hands stay back as the foot lands, the hips can fire first and pull the hands through, which is where bat speed comes from.",
+        "The stride should land before the swing starts. Picture the sequence as three separate beats: load, stride and land, then swing. When the front foot lands, the weight is still mostly back, about sixty percent on the back leg, the head is centered, and the front shoulder still points at the pitcher. Only after the foot is down does the back hip fire and the swing begin.",
+        "Direction is the last checkpoint. The stride goes straight at the pitcher, not toward the plate and not away from it. Stepping away from the plate, which coaches call stepping in the bucket, pulls the front shoulder open and makes outside pitches impossible to reach. A chalk line or a flat strip of tape on the ground from the front toe toward the pitcher gives the hitter a target to land on every time."
+      ],
+      "parentInstructions": [
+        "Stand behind your child and off to the open side, twelve to fifteen feet away, so you can see the front foot and the hands at the same moment.",
+        "Draw a chalk line or lay a strip of tape from your child's front toe straight toward the imaginary pitcher. Every stride should land on or beside that line, never off to the side away from the plate.",
+        "Watch the hands while the foot moves. If the hands drift forward with the step, say 'hands stay home'. The hands should not move toward the pitcher until the foot is flat on the ground.",
+        "Check the landing foot. The heel comes down softly and the toes still face the plate. If the toe points at the pitcher on landing, ask the child to land on the big-toe side of the foot.",
+        "Run sets of six strides with no swing, then six strides with a slow swing. Rest a minute between sets and stop after three or four sets.",
+        "Avoid coaching the whole move at once. Pick one checkpoint per set, such as the line, the hands, or the landing foot, and say nothing about the others."
+      ],
+      "equipment": [
+        "bat"
+      ],
+      "equipmentFreeAlternative": "Use a rolled bath towel held in the batting grip. The towel shows whether the hands stay back during the stride and can be swung safely indoors.",
+      "steps": [
+        "Mark home plate and draw a straight line from the front toe toward the pitcher. Clear a bat zone twelve feet around the hitter.",
+        "From the stance, load as taught in the small load lesson, with hands back a fist-width and weight in the back hip.",
+        "Lift the front foot an inch and stride forward two to six inches along the line, landing softly on the inside of the foot. The hands stay back. Freeze there for two seconds.",
+        "Check the frozen position: weight mostly back, front shoulder closed, hands near the back shoulder, toes facing the plate. Reset and repeat six times.",
+        "Now add a slow swing after the freeze. Land, pause, then swing at half speed and hold the finish. Repeat six times.",
+        "Shorten the pause so the sequence becomes load, land, swing with no stop, but still at an easy speed. Repeat six times.",
+        "If a tee, net, and soft balls are available, hit six balls with the same three-beat rhythm, with everyone behind the hitter.",
+        "Finish by having the child stride with eyes closed three times and open them to see whether the foot landed on the line."
+      ],
+      "durationMin": 12,
+      "commonMistakes": [
+        {
+          "mistake": "Stepping in the bucket, away from the plate.",
+          "fix": "Place a glove or soft cone where the foot keeps landing so the child must step along the chalk line instead. Have the child look at an outside pitch location while striding to remind them where the ball will be."
+        },
+        {
+          "mistake": "A long stride of a foot or more that drops the head and pulls the weight forward.",
+          "fix": "Put a strip of tape six inches in front of the toe as the farthest the foot may go. Count 'one' for the stride and 'two' for the swing to separate them."
+        },
+        {
+          "mistake": "Hands come forward with the stride, so there is no stretch.",
+          "fix": "Hold a towel between the hands and stride while you lightly hold the far end of the towel behind the hitter; the child should feel a gentle tug as the foot lands."
+        },
+        {
+          "mistake": "Landing on the heel with the toe open toward the pitcher.",
+          "fix": "Ask the child to land on the big-toe side of the shoe with the heel floating for a split second, then settle. Practice ten soft landings without a swing."
+        }
+      ],
+      "cues": [
+        "Short and soft",
+        "Hands stay home",
+        "Land on the line",
+        "Stretch the rubber band",
+        "Foot down, then go"
+      ],
+      "safety": [
+        "Striding with a bat is a full-swing drill. Keep the parent behind and to the side and the twelve-foot bat zone clear of siblings and pets.",
+        "Use chalk or flat tape for the line, never a rope, cord, or stick the hitter could trip over.",
+        "A batting helmet goes on as soon as a ball is added, even off a tee at a team station where several hitters are swinging."
+      ],
+      "progression": {
+        "easier": "Remove the stride entirely and practice a no-stride load with the front heel lifting and setting back down in the same spot while the hands stay back.",
+        "harder": "Have a partner toss a soft ball underhand from the side into a net. The hitter must land the stride before the toss arrives and still keep the hands back until the foot is down.",
+        "nextLessonId": "hit-07"
+      },
+      "tags": [
+        "stride",
+        "separation",
+        "steps in the bucket",
+        "steps out",
+        "lunges",
+        "long stride",
+        "hands drift forward",
+        "front foot",
+        "timing",
+        "load",
+        "bails out",
+        "stretch"
+      ],
+      "drillIds": [
+        "drill-hit-05",
+        "drill-hit-21"
+      ]
+    },
+    {
+      "id": "hit-06",
+      "title": "Swing Path: Short to the Ball",
+      "category": "hitting",
+      "subcategory": "Swing mechanics",
+      "ageGroups": [
+        "a7_8",
+        "a9_10"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to swing the knob of the bat toward the ball first so the barrel takes a short, direct path to contact instead of a long loop.",
+      "summary": "The swing path is the road the bat travels to the ball. A short, direct path gets the barrel there on time and hits more line drives than a big loop.",
+      "video": {
+        "status": "placeholder",
+        "note": "A nine-year-old swings in slow motion from the catcher's view with the bat path traced as a glowing line, comparing a long loop that drops the barrel below the ball with a short, direct path where the knob leads and the barrel arrives level through the hitting zone."
+      },
+      "explanation": [
+        "The swing path is the route the bat travels from the shoulder to the ball. There are two common paths. The long path drops the barrel down behind the back shoulder and swoops it around and up, like a big hook. The short path leads with the knob, the end of the handle, straight toward the ball while the barrel stays above the hands until the last moment, then whips through. The short path takes less time, which gives the hitter more time to see the pitch.",
+        "A useful way to feel the short path is to think about where the knob points. From the loaded position, the knob points down toward the ground behind the hitter. The first move of the swing drives the knob toward the pitcher's side of the plate, toward where the ball will be, while the hands stay close to the body. For a right-handed hitter, that means the hands pass about a fist-width from the ribs as they come forward.",
+        "The back elbow is the key joint. As the swing starts, the back elbow drops down and slides in toward the back hip, which pulls the knob forward. The hands follow the elbow. If the back elbow stays high and the hands reach out toward the pitcher early, the barrel flings away from the body and the path gets long.",
+        "The barrel should arrive at the ball on a slight upward path that matches the slight downward angle of the pitch, which means close to level through the hitting zone. Imagine a table at the height of the pitch; the bat slides along that table for the last foot before contact and the first foot after. A bat that chops down through the table or swoops up from under it has only an instant of contact time and will produce weak ground balls or pop-ups.",
+        "Young hitters do not need to think about all of this at once. The two cues that fix most swings are 'knob to the ball' and 'back elbow to the hip'. If the knob goes to the ball and the hands stay tight, the barrel path takes care of itself."
+      ],
+      "parentInstructions": [
+        "Stand directly behind your child, twelve to fifteen feet back, as if you were the catcher far behind the plate. From behind you can see whether the barrel drops below the hands or stays above them.",
+        "Watch the first six inches of the swing only. The knob should move toward the pitcher and the hands should stay close to the body, like the child is pulling a lawnmower cord toward their belly.",
+        "Look at the back elbow. It should tuck down toward the back hip as the swing starts, not fly up and away.",
+        "Ask for half-speed swings first. The path is impossible to see at full speed. Ten slow swings teach more than fifty fast ones.",
+        "Use the clasped-hands drill with no bat at the start of each session so your child can feel the path without the weight of the bat pulling the hands into a loop.",
+        "Give one cue at a time, either 'knob to the ball' or 'elbow to the hip', and praise every swing where the barrel stays above the hands early.",
+        "Rest after every eight swings. A tired hitter drops the barrel, and that is not a path problem to fix, it is a sign to stop for the day."
+      ],
+      "equipment": [
+        "bat"
+      ],
+      "equipmentFreeAlternative": "Clasp both hands together like one fist and swing them along the path, leading with the pinky side of the bottom hand toward the ball. This is a real drill that coaches use and needs no equipment at all.",
+      "steps": [
+        "Clear a twelve-foot bat zone. Begin with no bat: clasp the hands, take the stance, and load.",
+        "Swing the clasped hands slowly to an imaginary ball out in front of the front hip, feeling the back elbow slide to the back hip first. Repeat eight times.",
+        "Pick up the bat and hold the loaded position. Have the parent point to where the ball would be, about even with the front foot at belt height.",
+        "Move the knob toward that spot at half speed, stopping when the hands reach the front hip and the barrel is still behind the hands. Check the position, then finish the swing slowly. Repeat eight times.",
+        "Take eight half-speed swings without stopping, freezing only at the finish. The parent watches the first six inches.",
+        "If a tee, net, and soft balls are available, set the tee at belt height even with the front foot and hit eight balls with the same short path, everyone behind the hitter.",
+        "Finish with three full-speed shadow swings and a frozen finish on each."
+      ],
+      "durationMin": 12,
+      "commonMistakes": [
+        {
+          "mistake": "Dropping the barrel below the hands right away and swinging up at the ball, producing pop-ups.",
+          "fix": "Place a second, empty tee or a tall cone a foot behind the ball tee and two inches higher. A barrel that drops early clips the cone. Hit slowly until the cone is untouched for five swings."
+        },
+        {
+          "mistake": "Casting, where the hands fly out away from the body and the swing becomes a wide arc.",
+          "fix": "Stand the child a bat-length plus a fist from a soft net and take half swings. Hands that cast will touch the net. Keep the hands inside so the bat clears the net."
+        },
+        {
+          "mistake": "Chopping straight down at the ball like an axe, producing weak ground balls.",
+          "fix": "Raise the tee to chest height for ten swings so the child feels a level path through the ball, then return to belt height."
+        },
+        {
+          "mistake": "Back elbow stays high and the hands push forward instead of the knob leading.",
+          "fix": "Hold the child's back elbow lightly from behind and guide it to the back hip in slow motion three times, then let them repeat it alone."
+        }
+      ],
+      "cues": [
+        "Knob to the ball",
+        "Back elbow to the hip",
+        "Hands tight to the body",
+        "Barrel above the hands",
+        "Level through the zone"
+      ],
+      "safety": [
+        "The parent coaches from behind, never from in front or beside the hitter, since a short path drill involves full swings.",
+        "When using a net and tee, check that the net is at least fifteen feet from the hitter and that the barrel cannot reach walls, cars, or windows on the follow-through.",
+        "Use only soft or safety balls off the tee in driveways and garages, and wear a batting helmet whenever a ball is in play."
+      ],
+      "progression": {
+        "easier": "Do only the clasped-hands swing with no bat for the whole session. Add the bat another day.",
+        "harder": "Hit off the tee set at three heights, knee, belt, and chest, keeping the barrel above the hands early on all three. Add the empty-tee obstacle behind the ball.",
+        "nextLessonId": "hit-15"
+      },
+      "tags": [
+        "swing path",
+        "long swing",
+        "loops the bat",
+        "pops up",
+        "drops the barrel",
+        "casting",
+        "chops at the ball",
+        "swings and misses",
+        "weak ground balls",
+        "short swing",
+        "knob to the ball",
+        "uppercut"
+      ],
+      "drillIds": [
+        "drill-hit-06",
+        "drill-hit-21",
+        "drill-hit-14"
+      ]
+    },
+    {
+      "id": "hit-07",
+      "title": "Hip Rotation: Using the Lower Half",
+      "category": "hitting",
+      "subcategory": "Swing mechanics",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to start the swing by turning the hips and pivoting the back foot so the belt buckle faces the pitcher at contact while the hands follow the hips instead of leading them.",
+      "summary": "Power does not come from the arms. This lesson teaches a hitter to turn the hips first, pivot the back foot, and let the hands come along for the ride.",
+      "video": {
+        "status": "placeholder",
+        "note": "A twelve-year-old holding a bat across the lower back in the crooks of both elbows turns the hips to face the pitcher while the back heel lifts, then the same hitter swings off a tee with a slow-motion overlay showing the belt buckle turning before the hands move."
+      },
+      "explanation": [
+        "The lower half means everything from the belt down: hips, legs, and feet. The biggest, strongest muscles in a young body are there, so a swing that uses them will always be stronger than a swing that uses only the shoulders and arms. Hip rotation is the act of turning the hips toward the pitcher to start the swing.",
+        "Start from the landed stride position, with the front foot down and the hands still back. The first thing that moves is the back hip, which drives forward and around toward the pitcher. To let that happen, the back foot pivots on the ball of the foot so the heel lifts and turns out, the way you would squash a bug under your toe. The back knee turns in and points toward the front knee.",
+        "The front side is the post. The front leg firms up and the front hip stops turning, so the back hip has something to rotate against. By contact the belt buckle should face the pitcher squarely. If a parent stands far behind the pitcher's spot, they should be able to read the whole belt buckle at the moment the bat meets the ball.",
+        "The hands come last. Because the hands are connected to the shoulders, and the shoulders sit on top of the hips, turning the hips pulls the hands into the swing without the hitter having to throw them. Hitters who swing with their arms first leave the hips facing the plate and lose most of their power. A good checkpoint is that the hips start to open while the hands are still back near the shoulder.",
+        "Keep the head still through all of it. The hips turn underneath the head like a lazy Susan spinning under a bowl. If the head turns with the hips, the eyes leave the ball. A hitter who can rotate fully while the head stays over the middle of the body has learned to use the lower half."
+      ],
+      "parentInstructions": [
+        "Stand well behind your child and to the open side, twelve to fifteen feet back. For the belt-buckle check, you can also stand far out where the pitcher would be, at least forty feet away, only when the child is doing shadow swings with no ball.",
+        "During the bat-behind-the-back drill, watch the back heel. It should lift and turn out as the hips rotate. A heel stuck flat on the ground means the hips are not turning.",
+        "Watch the order of movement during slow swings. Hips first, then shoulders, then hands. If the hands move before the hips, say 'hips start it'.",
+        "Look at the belt buckle at the finish. It should face the pitcher. If it still faces the plate, the swing was all arms.",
+        "Do eight hip turns with the bat behind the back, then eight slow swings, then rest for a minute. Three rounds is plenty.",
+        "Say 'squish the bug' for the back foot and 'belt buckle to the pitcher' for the hips. Choose one for the session and stick with it.",
+        "Keep the head still as a separate check for another day. Trying to fix the hips and the head in the same session is too much."
+      ],
+      "equipment": [
+        "bat"
+      ],
+      "equipmentFreeAlternative": "Hold a broom handle, a towel, or just clasp the hands behind the lower back and practice the hip turn with the back foot pivot. The feeling is identical without a bat.",
+      "steps": [
+        "Clear a bat zone twelve feet around and set a plate marker. Begin with the bat held horizontally across the lower back, hooked in the crooks of both elbows.",
+        "Take the stance and stride. On 'turn', rotate the hips toward the pitcher, lifting the back heel and pivoting on the ball of the back foot until the bat across the back points at the pitcher. Hold for two seconds.",
+        "Repeat the hip turn eight times, checking the belt buckle faces the pitcher and the head stays centered.",
+        "Take the bat out and hold it normally. Do eight slow swings where the parent counts 'hips' on the first beat and 'hands' on the second.",
+        "Do eight half-speed swings with no counting, freezing at the finish with the back heel up and the belt buckle to the pitcher.",
+        "If a tee, net, and soft balls are available, hit eight balls focusing only on the hips starting the swing, everyone behind the hitter.",
+        "Finish with three full-speed shadow swings. Freeze and check the back foot and belt buckle each time."
+      ],
+      "durationMin": 12,
+      "commonMistakes": [
+        {
+          "mistake": "Swinging with the arms while the hips stay facing the plate.",
+          "fix": "Go back to the bat-behind-the-back turn for ten repetitions, then take swings at half speed where the hitter says 'hips' out loud as the swing starts."
+        },
+        {
+          "mistake": "Back foot stays flat and the heel never lifts.",
+          "fix": "Place a soft ball or a crumpled paper cup under the back heel in the stance so the hitter is already on the ball of the foot and can pivot freely."
+        },
+        {
+          "mistake": "Spinning so hard the front foot opens and the whole body turns past the pitcher.",
+          "fix": "Firm up the front leg and put a glove just outside the front foot as a wall. The front hip stops, the back hip turns to meet it."
+        },
+        {
+          "mistake": "The head turns with the hips so the eyes leave the contact point.",
+          "fix": "Have the child stare at a ball on a tee through the whole shadow swing, finishing with the eyes still on the ball and the chin near the back shoulder."
+        }
+      ],
+      "cues": [
+        "Hips start it",
+        "Squish the bug",
+        "Belt buckle to the pitcher",
+        "Firm front side",
+        "Head stays home"
+      ],
+      "safety": [
+        "The bat-behind-the-back drill swings the bat ends around the body, so hitters at a team station need at least eight feet between them.",
+        "Full swings follow this drill, so the parent stays behind and to the side and the twelve-foot bat zone stays clear.",
+        "Do the pivot on a surface with grip, such as grass or dry pavement; a back-foot pivot on wet or sandy ground can slip."
+      ],
+      "progression": {
+        "easier": "Do the hip turn with no bat and the hands on the hips so the child can feel the hips move with their own hands.",
+        "harder": "Hit off a tee with the back foot starting on its toe, heel already lifted, which forces the hips to carry the swing. Then try a slow side soft toss into the net with the same hips-first feel.",
+        "nextLessonId": "hit-09"
+      },
+      "tags": [
+        "hip rotation",
+        "no power",
+        "all arms",
+        "weak hits",
+        "back foot",
+        "squish the bug",
+        "belt buckle",
+        "lower half",
+        "spins out",
+        "pivot",
+        "uses arms only"
+      ],
+      "drillIds": [
+        "drill-hit-07",
+        "drill-hit-09"
+      ]
+    },
+    {
+      "id": "hit-08",
+      "title": "Hands Inside the Ball",
+      "category": "hitting",
+      "subcategory": "Swing mechanics",
+      "ageGroups": [
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to keep the hands between the body and the ball through the swing, so an inside pitch can be hit hard to the pull side without the barrel swinging out and around.",
+      "summary": "Keeping the hands inside the ball means the hands travel a tight path close to the body while the barrel stays behind them. It is how good hitters handle inside pitches and stay on outside ones.",
+      "video": {
+        "status": "placeholder",
+        "note": "A fourteen-year-old takes swings a bat-length from a hanging net, first casting the hands so the bat brushes the net, then keeping the hands inside so the bat clears it, followed by inside-tee swings with the hands traced as a tight line close to the body."
+      },
+      "explanation": [
+        "Picture a straight line from the pitcher to the catcher running through the middle of home plate. A pitch travels along a line like that. Hands inside the ball means that as the swing comes forward, the hands stay on the body side of the ball's path, between the hitter and the ball, while the barrel trails behind the hands. The barrel only passes the hands at the moment of contact.",
+        "The opposite is casting, where the hands move out away from the body at the start of the swing and the barrel swings around in a wide arc. A cast swing is slow because the barrel has farther to go, and it gets jammed on inside pitches because the barrel reaches the hitting zone too early and too far out. A hands-inside swing can let the ball travel deeper and still hit it on the barrel.",
+        "The move that keeps the hands inside is the same back elbow drop from the short swing path, but held longer. As the hips start the swing, the back elbow drops into the slot next to the back hip and the hands slide forward along the body, about a fist-width from the ribs. The knob leads toward the inside half of the ball. At contact on an inside pitch, the hands are well out in front of the body and the barrel is just getting to the ball, which is why the inside pitch gets pulled.",
+        "A hitter with the hands inside can hit every pitch location with the same hand path. On an inside pitch the barrel gets out front and pulls the ball. On an outside pitch the hands stay inside longer and the barrel meets the ball deeper, sending it the other way. The hands do the same thing both times; only the timing of when the barrel releases changes.",
+        "The net drill is the clearest test. Stand with the plate a bat-length plus a fist from a soft net or hanging blanket, so the net is where the pitcher's side of the plate would be. Swing. A cast swing hits the net on the way to the ball; a hands-inside swing clears it. This is a feel drill, not a power drill, so swings are at seventy percent until the net stays untouched."
+      ],
+      "parentInstructions": [
+        "Stand behind your child, twelve to fifteen feet back, where you can see the hands and the net at the same time. Never stand beside the net or in the gap between the hitter and the net.",
+        "In the net drill, listen as much as you watch. The sound of the bat brushing the net tells you the hands cast, even if you could not see it.",
+        "Watch the hands pass the ribs. They should travel about a fist-width from the body as the swing starts. Hands that drift out to a foot away are casting.",
+        "On inside-tee swings, look at where the ball goes. A hands-inside swing pulls the ball hard to the side the hitter faces away from; a cast swing produces weak hits toward the opposite side or off the handle.",
+        "Keep swings in sets of six with a minute of rest. The feel fades when the hitter tires, so twenty-four total swings is a good session.",
+        "If the bat touches the net three times in a row, drop to half speed and have the child do the clasped-hands version until the feel comes back."
+      ],
+      "equipment": [
+        "bat",
+        "net"
+      ],
+      "equipmentFreeAlternative": "Hang a blanket or a bedsheet from a clothesline or a fence and use it as the net. If there is no bat, clasp the hands and do the drill with the pinky side of the bottom hand leading past the blanket.",
+      "steps": [
+        "Set a home plate marker so its pitcher-side edge is one bat length plus a fist from a soft net or hanging blanket. Check that there is fifteen feet of clearance in every other direction.",
+        "Take the stance and load with no ball. Swing slowly at half speed, leading with the knob and keeping the hands a fist-width from the body. Notice whether the bat touches the net.",
+        "Repeat eight half-speed swings until the bat clears the net five times in a row.",
+        "Move to seventy percent speed for eight swings. Freeze each finish and check the net is still.",
+        "Set a tee so the ball is on the inside third of the plate, even with the front foot, belt high. Put the net fifteen feet in front as the hitting target.",
+        "Hit eight soft balls off the inside tee with the hands inside, aiming to pull the ball hard into the net. Everyone else stands behind the hitter.",
+        "Move the tee to the outside third, deeper in the zone near the middle of the plate, and hit eight balls the other way with the same hand path.",
+        "Finish with four swings back at the net-distance spot to confirm the feel held."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Casting the hands away from the body so the bat brushes the net.",
+          "fix": "Hold a batting glove or a folded towel under the back armpit during slow swings. If it falls before contact, the back elbow and hands flew out."
+        },
+        {
+          "mistake": "Rolling the top hand over before contact so the barrel swings around the ball.",
+          "fix": "Hit the inside tee with the palm of the top hand facing up at contact, like serving a tray. Hold the finish for two seconds to check the top palm."
+        },
+        {
+          "mistake": "Pulling the front shoulder out early to make room for the inside pitch.",
+          "fix": "Keep the front shoulder closed and let the back elbow drop into the slot instead. The room for the inside pitch comes from the elbow, not the shoulder."
+        },
+        {
+          "mistake": "Letting the inside pitch travel too deep and getting jammed on the handle.",
+          "fix": "Move the inside tee two inches farther in front of the front foot so the hitter learns that inside contact happens out front."
+        }
+      ],
+      "cues": [
+        "Hands inside",
+        "Elbow in the slot",
+        "Knob to the inside of the ball",
+        "Clear the net",
+        "Palm up at contact"
+      ],
+      "safety": [
+        "Use a soft net, blanket, or sheet for the net drill, never a chain-link fence, a wall, or a wooden fence that could send the bat bouncing back.",
+        "The parent stands behind the hitter, never between the hitter and the net or beside the net where a misjudged swing could reach.",
+        "A batting helmet is worn for all tee swings, and the fifteen-foot bat zone in front of the hitter stays empty.",
+        "Hands-inside swings put the bat close to the body, so make sure the hitter's elbows and wrists are warmed up with ten easy shadow swings first."
+      ],
+      "progression": {
+        "easier": "Do the net drill with clasped hands and no bat, then with a short training bat or a bat choked up to the middle of the handle.",
+        "harder": "Alternate inside and outside tee balls without telling the hitter which is next until they step in. The hands must take the same path either way.",
+        "nextLessonId": "hit-18"
+      },
+      "tags": [
+        "hands inside the ball",
+        "casting",
+        "gets jammed",
+        "inside pitch",
+        "long swing",
+        "rolls over",
+        "weak contact",
+        "pull side",
+        "late on fastballs",
+        "bat drag",
+        "swing path"
+      ],
+      "drillIds": [
+        "drill-hit-08",
+        "drill-hit-14"
+      ]
+    },
+    {
+      "id": "hit-09",
+      "title": "Finishing the Swing: Extension and Follow-Through",
+      "category": "hitting",
+      "subcategory": "Swing mechanics",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to extend both arms through the ball after contact and finish with the bat wrapped high around the back while staying balanced over the front leg.",
+      "summary": "What happens after the bat hits the ball still matters. A full extension and a high, relaxed finish mean the bat was accelerating through the ball instead of slowing down to meet it.",
+      "video": {
+        "status": "placeholder",
+        "note": "A ten-year-old hits off a tee into a net in slow motion, with freeze frames at contact, at full arm extension with the bat pointing at the pitcher, and at the high finish with the bat over the front shoulder and the back toe down."
+      },
+      "explanation": [
+        "Extension is what the arms do right after the bat meets the ball. Both arms straighten out toward the pitcher so the bat head keeps moving through the spot where the ball was, as if the hitter is trying to hit three balls in a row lined up toward the pitcher's mound. A hitter who stops the bat at contact has been slowing down before the ball arrived. A hitter who extends has been speeding up.",
+        "The checkpoint for extension is a position coaches call the power V. A moment after contact, both arms are nearly straight and form a V shape with the bat pointing out toward the pitcher or slightly to the pull side. The top hand palm faces the sky and the bottom hand palm faces the ground. From behind, a parent should see the bat head out beyond the front foot before it starts to come around.",
+        "The follow-through is where the bat ends up. After full extension the arms bend again and the bat wraps around the body, finishing high over the front shoulder or behind the neck. Some hitters let go with the top hand after the power V and finish with one hand; others keep both hands on the bat. Either is fine for a Little League hitter as long as the release happens after extension, not before.",
+        "Balance holds through the whole finish. The weight has moved onto a firm front leg, the back foot is up on its toe, the belt buckle faces the pitcher, and the head is still over the middle of the body looking at the contact point. The finish should be relaxed; a hitter who finishes with tight, jerky arms was muscling the bat instead of letting it swing.",
+        "A good follow-through cannot rescue a bad swing, but a bad follow-through almost always reveals one. Chopping down and stopping, pulling the bat across the body low, or finishing with the weight on the back foot are all signs that the earlier parts of the swing need work. That is why we check the finish on every swing in every drill."
+      ],
+      "parentInstructions": [
+        "Stand behind your child and to the open side, at least twelve feet back from the bat. Crouch so your eyes are at your child's shoulder height and watch the bat head after contact.",
+        "Look for the power V a split second after contact: both arms nearly straight, bat pointing toward the pitcher. If the elbows are still bent and the bat is already wrapping around the body, the swing stopped short.",
+        "Check the finish height. The bat should end up above the front shoulder or behind the neck, not down by the hip.",
+        "Ask your child to hold the finish for a count of three. Use that frozen moment to check the front leg is firm, the back heel is up, and the head has stayed over the middle.",
+        "Tee work for this lesson runs in sets of six swings with a minute of rest, three or four sets total. Pick up the balls yourself between sets so your child stays behind the tee.",
+        "Say 'hit three balls in a row' or 'throw the barrel at the pitcher'. Pick one cue and keep it for the whole session."
+      ],
+      "equipment": [
+        "bat",
+        "tee",
+        "soft_ball",
+        "net",
+        "helmet"
+      ],
+      "equipmentFreeAlternative": "Take shadow swings and freeze at the power V, then at the high finish. A rolled towel swung into an imaginary ball also shows extension because the towel snaps out straight when the arms extend.",
+      "steps": [
+        "Set the tee at belt height with the ball even with the front foot, fifteen feet from a net, in a bat zone cleared twelve feet around. The hitter wears a batting helmet and all other people wait behind the tee.",
+        "Take five shadow swings, stopping each one at the power V: arms extended, bat pointing at the pitcher, top palm up. Have the parent check each one.",
+        "Take five more shadow swings all the way to a high finish, holding for three seconds.",
+        "Hit six balls off the tee, trying to hit through three imaginary balls in a line toward the net. Freeze the finish after each.",
+        "Rest for a minute while the parent collects the balls. Talk about which swings felt like the bat was still speeding up at contact.",
+        "Hit six more balls, this time with the parent calling 'reach' right at contact to encourage extension.",
+        "Hit a final six with no cues at all. The child checks their own finish and says 'good' or 'short' after each swing.",
+        "Finish with three one-handed shadow swings with the bottom hand only, letting the arm extend fully to feel the reach."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Stopping the bat at the ball so the finish is low and short.",
+          "fix": "Place a second ball on the ground six inches in front of the tee toward the pitcher. The hitter tries to swing far enough to have hit that second ball too."
+        },
+        {
+          "mistake": "Letting go with the top hand before extension, so the bat flips around early.",
+          "fix": "Keep both hands on the bat for the whole follow-through for a week of tee work. Release can come back later once extension is automatic."
+        },
+        {
+          "mistake": "Finishing with the weight on the back foot and the chest leaning back.",
+          "fix": "Have the child finish with the chest over a firm front leg and the back toe barely touching. Freeze and check that the back heel is high."
+        },
+        {
+          "mistake": "Arms extend but the head pulls up and out to watch the ball fly.",
+          "fix": "Finish every swing with the eyes still on the tee for a full second before looking up. Count 'one' before the eyes move."
+        }
+      ],
+      "cues": [
+        "Hit three balls in a row",
+        "Reach for the pitcher",
+        "Power V",
+        "Finish high",
+        "Chest over the front leg"
+      ],
+      "safety": [
+        "Everyone other than the hitter stands behind the tee and outside the twelve-foot bat zone. The high finish swings the bat all the way around the body.",
+        "Hit only into a net or open space with nobody within sixty feet in the direction of the net. Check that the net is anchored and will not tip back toward the hitter.",
+        "Use soft or safety balls in driveways and garages, and a batting helmet for every tee swing."
+      ],
+      "progression": {
+        "easier": "Hit off the tee at half speed with the only goal of holding a three-second finish, ignoring where the ball goes.",
+        "harder": "Move to side soft toss into the net with the same power V checkpoint, or raise the tee to chest height so the extension must happen on a higher plane.",
+        "nextLessonId": "hit-11"
+      },
+      "tags": [
+        "follow through",
+        "extension",
+        "stops the swing",
+        "short finish",
+        "low finish",
+        "power V",
+        "weak contact",
+        "lets go of the bat",
+        "finish high",
+        "swing through the ball",
+        "no power"
+      ],
+      "drillIds": [
+        "drill-hit-09",
+        "drill-hit-03"
+      ]
+    },
+    {
+      "id": "hit-10",
+      "title": "Eyes on Contact: Tracking the Ball",
+      "category": "hitting",
+      "subcategory": "Contact",
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to keep both eyes on the ball from the tee or the tosser's hand all the way to the bat, and keep the head down at the contact spot after the swing.",
+      "summary": "Young hitters miss the ball because their eyes leave it. This lesson uses games with colored and numbered balls to teach children to watch the ball the whole way and keep the head still.",
+      "video": {
+        "status": "placeholder",
+        "note": "A five-year-old watches a soft ball with a colored dot roll off a parent's hand, shouts the color, and catches it, then hits a ball off a tee while the camera stays on the child's face to show the eyes staying down on the tee after contact."
+      },
+      "explanation": [
+        "Hitting starts with the eyes. If the eyes see the ball all the way to the bat, the hands have a good chance of getting the bat there. If the eyes jump away to look where the ball might go, the head moves, the shoulders follow, and the bat misses. The most common reason a young child swings and misses is that they looked up before the bat got to the ball.",
+        "Tracking means following the ball with both eyes, not just turning the head toward it. In the stance the head turns so both eyes face the pitcher or the tee. Most children naturally tuck one eye behind the nose; ask them to turn the chin a little more so both eyes can see. A quick test is to have the child cover one eye and then the other while looking at the ball; if either eye cannot see it, the head needs to turn more.",
+        "On a tee the ball is not moving, so the job is simpler: stare at a spot on the ball before the swing, keep staring at that spot through contact, and keep the eyes on the tee for a count of one after the ball is gone. We say 'see the ball hit the bat' even though it happens too fast to really see, because trying to see it keeps the head down and still.",
+        "When a ball is tossed or rolled, the eyes have to pick it up early, right out of the tosser's hand, and ride along with it. Games help. Balls with colored dots or big numbers written on them let the child prove they were watching by calling out what they saw. A child who calls the right color as the ball arrives was tracking; a child who guesses was not.",
+        "Four- to eight-year-olds learn this best in short, playful bursts. Five minutes of color-call games, a few tee swings with the head staying down, and lots of praise beat twenty minutes of corrections. One cue, 'eyes on the ball', is enough for the whole lesson."
+      ],
+      "parentInstructions": [
+        "For tee work stand behind your child and off to the side, about twelve feet away. Watch the face, not the ball. If the chin lifts before the bat reaches the ball, say 'eyes on the tee'.",
+        "For the color-call game, there is no bat involved, so you can kneel ten feet in front of your child and roll or toss a soft ball underhand. Use balls with colored dots or numbers written in marker.",
+        "Ask your child to shout the color or number the moment they see it. Praise a correct call even if the catch is dropped; the eyes are the skill today.",
+        "Check both eyes can see the ball. Have your child set up, then cover one eye with your hand from behind and ask if the ball is still visible, then switch eyes. Turn the chin until both work.",
+        "Keep the tee portion to ten swings total, in two sets of five, with a quick rest to collect balls. Stop while your child is still having fun.",
+        "Only one cue today: 'eyes on the ball'. Do not mention the grip, the stance, or the swing even if they look wrong."
+      ],
+      "equipment": [
+        "soft_ball",
+        "bat",
+        "tee",
+        "helmet"
+      ],
+      "equipmentFreeAlternative": "Use a rolled-up pair of socks or a tennis ball with numbers drawn on in marker for the color-call game. For the head-still part, the child points at an imaginary ball on a tee and swings with clasped hands, keeping the eyes on the spot.",
+      "steps": [
+        "Write big numbers or draw colored dots on three or four soft balls. Have your child stand ready with no bat.",
+        "Kneel ten feet away and roll a ball toward your child's feet. The child calls the number or color as early as possible, then picks up the ball.",
+        "Switch to gentle underhand tosses at chest height. The child calls the color, then catches or traps the ball against the chest. Do ten tosses.",
+        "Set up the tee at belt height with the ball even with the front foot. Helmet on, everyone else behind the hitter, bat zone cleared twelve feet around.",
+        "Have your child pick a dot or a letter on the ball and stare at it for a count of two before swinging.",
+        "Swing and keep the eyes on the tee until you say 'look'. Do five swings, collect the balls, and repeat for five more.",
+        "Finish with the color-call game again as a reward, this time with the child calling the color before the ball is halfway."
+      ],
+      "durationMin": 8,
+      "commonMistakes": [
+        {
+          "mistake": "Looking up to see where the ball went before the bat arrives.",
+          "fix": "Put a small sticker on the tee's rubber top. After each swing the child must tell you what color the sticker is before looking up."
+        },
+        {
+          "mistake": "Only one eye on the ball because the chin is tucked behind the front shoulder.",
+          "fix": "Turn the chin until it rests just over the front shoulder with both eyes facing the ball. Use the cover-one-eye test to confirm."
+        },
+        {
+          "mistake": "Head pulls off toward the pitcher side as the swing starts.",
+          "fix": "Have your child swing at half speed and finish with the chin on the back shoulder and the eyes still on the tee for a count of one."
+        },
+        {
+          "mistake": "Guessing the color instead of watching the ball during the toss game.",
+          "fix": "Slow the toss down, shorten the distance to six feet, and hold the ball still for two seconds before tossing so the child can see the color leave your hand."
+        }
+      ],
+      "cues": [
+        "Eyes on the ball",
+        "See it hit the bat",
+        "Call the color",
+        "Head stays down",
+        "Both eyes"
+      ],
+      "safety": [
+        "The color-call game uses soft or safety balls only and no bat, so it is safe indoors and in small yards.",
+        "During tee swings the parent and any siblings stand behind the hitter, outside a twelve-foot circle, and the hitter wears a batting helmet.",
+        "Hit tee balls into a net or open grass with nobody within sixty feet in front of the hitter.",
+        "Never toss a ball toward a child who is holding a bat in this lesson; the tossing games and the tee swings are kept completely separate."
+      ],
+      "progression": {
+        "easier": "Only roll balls on the ground for the color-call game and skip the tee swings until the child can call five colors in a row.",
+        "harder": "Move the color-call game to soft tosses from the side into a net with the child holding a bat and calling the color before swinging, as taught in the soft toss lesson.",
+        "nextLessonId": "hit-13"
+      },
+      "tags": [
+        "eyes on the ball",
+        "swings and misses",
+        "pulls head",
+        "looks away",
+        "misses the ball on the tee",
+        "tracking",
+        "afraid of the pitch",
+        "head down",
+        "watch the ball",
+        "tee ball",
+        "closes eyes"
+      ],
+      "drillIds": [
+        "drill-hit-10",
+        "drill-hit-13"
+      ]
+    },
+    {
+      "id": "hit-11",
+      "title": "Contact Point: Hitting the Ball Out Front",
+      "category": "hitting",
+      "subcategory": "Contact",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to meet the ball at the correct contact point for each pitch location, out in front of the front foot for inside pitches, even with the front foot for middle pitches, and deeper near the middle of the plate for outside pitches.",
+      "summary": "Where the bat meets the ball decides whether the hit is hard and fair. This lesson teaches the three contact points and how to feel them with a tee and a marker on the ground.",
+      "video": {
+        "status": "placeholder",
+        "note": "Overhead view of a home plate with three contact points marked by colored discs, and an eleven-year-old hitting a tee ball from each spot in slow motion while the ball flies to the matching part of the field."
+      },
+      "explanation": [
+        "The contact point is the exact spot where the bat meets the ball. Get it right and the barrel is square to the ball with the arms almost extended, which is where a hitter is strongest. Too far back and the hitter is jammed, with bent arms and the ball hitting the handle. Too far out front and the barrel has already passed the best spot, so the ball rolls weakly to the pull side.",
+        "The contact point moves depending on where the pitch is. Picture home plate split into three strips running from the pitcher to the catcher: inside, middle, and outside. For an inside pitch the ball must be hit well out in front, about a foot ahead of the front foot, so the barrel has time to get around. For a middle pitch the contact point is about even with the front foot's instep. For an outside pitch the ball is allowed to travel deeper, to a spot somewhere between the front foot and the middle of the plate, and it is hit to the opposite field.",
+        "Think of the three points as a diagonal line. Inside is out front and toward the pull side; middle is even with the front foot over the heart of the plate; outside is deeper and over the far edge of the plate. If a parent lays three paper plates or chalk marks on the ground at those spots, the hitter can see the diagonal and move the tee from spot to spot.",
+        "At the right contact point the arms are almost but not quite straight, the top hand palm faces up and the bottom hand palm faces down, the hips have turned so the belt buckle faces the pitcher on an inside pitch or faces the shortstop area on an outside pitch, and the head is down looking at the ball. The barrel is slightly above or level with the hands, never dropped far below them.",
+        "Contact point is one of the two reasons hitters foul balls off. If the ball keeps going foul to the pull side, the contact was too far out front. If it keeps going foul the other way or hits the handle, contact was too deep. Watching where the fouls go tells the hitter and the parent which way to move the contact point."
+      ],
+      "parentInstructions": [
+        "Stand behind your child and off to the open side, twelve to fifteen feet back from the tee. Crouch low; the contact point is easier to see with your eyes at the ball's height.",
+        "Before the first swing, mark three spots on the ground with chalk, paper plates, or flat discs: a foot in front of the front foot on the inside edge, even with the front instep over the middle, and halfway back to the middle of the plate on the outside edge.",
+        "Move the tee to one of the three spots for each set and tell your child which pitch it represents. Watch where the ball goes. Inside should go to the pull side, middle up the middle, outside to the opposite field.",
+        "Look at the arms at contact. Almost straight is right. Arms bent to ninety degrees means the ball was too deep, and fully locked with the barrel already turned means too far out front.",
+        "Run three sets of six swings, one set at each spot, with a minute of rest between sets while you collect the balls. Keep your child behind the tee while you do it.",
+        "If every ball goes to the same place no matter where the tee is, the contact point is not moving. Slow the swings down and have your child point the bat at the ball on the tee before each swing to notice where it is."
+      ],
+      "equipment": [
+        "bat",
+        "tee",
+        "soft_ball",
+        "net",
+        "helmet"
+      ],
+      "equipmentFreeAlternative": "Mark the three contact spots with chalk and take shadow swings, stopping the bat at each marked spot with the arms nearly straight to feel the difference between out front, even, and deep.",
+      "steps": [
+        "Set the plate marker and clear a twelve-foot bat zone with a net fifteen feet toward the pitcher. The hitter puts on a helmet and everyone else lines up behind the plate.",
+        "Mark the three contact points on the ground with chalk or discs: inside and out front, middle even with the front instep, outside and deeper.",
+        "Put the tee on the middle spot at belt height. Take three shadow swings stopping the bat at the ball with arms nearly straight to feel the spot.",
+        "Hit six balls from the middle spot into the center of the net. Freeze each finish and check the belt buckle faces the net.",
+        "Move the tee to the inside spot, a foot in front of the front foot. Hit six balls, pulling them to the pull-side part of the net.",
+        "Move the tee to the outside spot, deeper and on the far edge of the plate. Hit six balls to the opposite-field side of the net, letting the arms extend toward that side.",
+        "Mix the three spots in any order for a final six swings, with the child saying the location out loud before each swing.",
+        "Finish by pointing out where any foul-direction misses went and which way the contact point should move next time."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Hitting every pitch at the same spot, so outside pitches get pulled weakly and inside pitches jam the hitter.",
+          "fix": "Say the location out loud before every swing and move the tee a full foot between spots so the difference is obvious. Smaller moves come later."
+        },
+        {
+          "mistake": "Letting the outside pitch get too deep and fouling it off the other way or hitting the handle.",
+          "fix": "Move the outside tee two inches forward toward the pitcher until the ball flies into the net on the opposite side, then slowly bring it back."
+        },
+        {
+          "mistake": "Reaching out for the outside pitch with the arms while the hips stay back.",
+          "fix": "Have the child feel the hips turn toward the opposite field at contact so the body, not the arms alone, takes the barrel to the ball."
+        },
+        {
+          "mistake": "Hitting the tee stem instead of the ball when the tee is moved out front.",
+          "fix": "Raise the tee an inch, slow down, and have the child look at the top half of the ball. A barrel that drops under the ball clips the stem."
+        }
+      ],
+      "cues": [
+        "Inside out front",
+        "Middle at the foot",
+        "Outside deep",
+        "Arms almost straight",
+        "Let it travel"
+      ],
+      "safety": [
+        "Only the hitter stands inside the twelve-foot bat zone. The parent moves the tee between sets while the hitter rests the bat on the ground and stands back.",
+        "Hit only into a net or open space with nobody within sixty feet in front of the hitter, and use soft or safety balls near houses and cars.",
+        "Wear a batting helmet for every tee swing, including at team stations where several hitters are working side by side."
+      ],
+      "progression": {
+        "easier": "Work only the middle contact point for the whole session until six balls in a row go straight into the net.",
+        "harder": "Have a partner toss soft balls underhand from the side to the three locations in random order, and the hitter must adjust the contact point on the fly, as taught in the soft toss lesson.",
+        "nextLessonId": "hit-14"
+      },
+      "tags": [
+        "contact point",
+        "gets jammed",
+        "hits off the handle",
+        "fouls everything off",
+        "pulls everything",
+        "hitting the ball out front",
+        "opposite field",
+        "inside pitch",
+        "outside pitch",
+        "weak contact",
+        "where to hit the ball"
+      ],
+      "drillIds": [
+        "drill-hit-11",
+        "drill-hit-15"
+      ]
+    },
+    {
+      "id": "hit-12",
+      "title": "Timing Off a Pitcher: Starting on Time",
+      "category": "hitting",
+      "subcategory": "Timing",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to start the load as the pitcher's arm starts up, land the stride as the ball leaves the hand, and be on time for a medium-speed pitch without rushing or being late.",
+      "summary": "Good mechanics mean nothing if the swing starts at the wrong moment. This lesson gives hitters a simple rhythm to time their load and stride to the pitcher's motion.",
+      "video": {
+        "status": "placeholder",
+        "note": "Split screen of a coach throwing front toss from behind an L-screen and a twelve-year-old hitter, with a rhythm counter showing the hitter's load beginning as the arm goes back and the stride landing exactly as the ball is released."
+      },
+      "explanation": [
+        "Timing means starting the swing at the right moment so the barrel reaches the contact point at the same instant the ball does. A hitter with perfect mechanics who starts late will foul the ball off or miss. A hitter who starts too early will be out in front, off balance, and weak. Timing is a rhythm, and like any rhythm it can be practiced.",
+        "The hitter's clock is the pitcher. Every pitcher does the same thing before releasing the ball: the hands separate, the throwing arm swings down and back, then up, and the ball leaves the hand near the top. Hitters use that motion as a countdown. The rule for most Little League pitchers is: begin the load when the pitcher's arm starts to come up, and have the stride foot landing as the ball leaves the hand.",
+        "A rhythm of three words helps young hitters feel this. 'Yes' as the arm starts up and the hitter loads. 'Yes' as the ball leaves the hand and the stride foot lands. 'Go' or 'no' as the ball crosses the decision point, roughly halfway to the plate, when the hitter either swings or holds. Every pitch gets a 'yes, yes' no matter what, so the hitter is always ready; only the last word changes.",
+        "Being early is better than being late. A hitter who is loaded and landed with the hands back can wait for a slow pitch, because the hands have not moved yet. A hitter who is late has to rush everything, and rushing is where swings fall apart. If a pitcher is slow, the fix is to wait longer with the hands back after landing, not to start the load later.",
+        "Pitchers in games will have different speeds and different windups, so hitters should practice the rhythm against a variety of tossers. A parent throwing underhand front toss from behind a screen, a coach throwing overhand batting practice, and a pitching machine all need the same three-beat rhythm, just started at slightly different moments. Watching the pitcher's arm, not the pitcher's face or feet, keeps the clock accurate."
+      ],
+      "parentInstructions": [
+        "If you are the tosser, you must be protected. Throw underhand front toss from fifteen to twenty feet from behind an L-screen, a protective net with a cut-out that you throw through, or use very soft sponge balls if no screen is available. Never throw to a hitter from the open with real baseballs.",
+        "Make your toss motion big and repeatable: hold the ball up where the hitter can see it, swing your arm down and back, then release on the way up. The hitter needs a motion to time, so do not flip the ball quickly from your hip.",
+        "Say the rhythm out loud at first: 'yes' as your arm goes back, 'yes' as you release, and let your child say 'go' or 'no'. After a few rounds, stop saying it and see if the rhythm holds.",
+        "Watch the stride foot. It should land as the ball leaves your hand. Landing after the ball is halfway means the child is late; landing before your arm starts means too early.",
+        "Throw in sets of eight with a minute of rest. Twenty-four to thirty tosses is a full session, and your child should only swing at the good ones.",
+        "Mix in a few deliberately slow tosses. Praise your child for staying back and waiting with the hands rather than lunging. That is the whole lesson in one moment."
+      ],
+      "equipment": [
+        "bat",
+        "soft_ball",
+        "helmet",
+        "l_screen"
+      ],
+      "equipmentFreeAlternative": "The parent stands forty feet away and mimes a pitching motion with no ball while the child shadow swings on the rhythm. A rolled sock ball tossed from behind a couch or a piece of furniture works for very light indoor rhythm practice with a towel instead of a bat.",
+      "steps": [
+        "Set up on a field or a large yard with at least forty feet of open space in front of the hitter and nobody in it. Helmet on the hitter.",
+        "The tosser sets the L-screen fifteen to twenty feet from the plate and stands behind it with a bucket of soft balls. Any other players stand behind the hitter or well behind the screen.",
+        "Start with no ball. The tosser mimes the toss motion while the hitter loads on the first 'yes', strides on the second 'yes', and shadow swings on 'go'. Do eight.",
+        "Toss eight balls at an easy, consistent speed with the rhythm said out loud by the tosser. The hitter swings only at tosses in the strike zone.",
+        "Toss eight more with no words. The hitter says 'yes, yes, go' or 'yes, yes, no' silently and swings on the good ones.",
+        "Mix in two or three slower tosses without warning. The hitter must land the stride and wait with the hands back.",
+        "Finish with eight tosses at the normal speed and have the hitter report after each one whether they felt early, late, or on time."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Starting the load when the ball is already in the air, so everything is rushed.",
+          "fix": "Have the hitter say 'yes' out loud the moment the tosser's arm starts back, even before the ball is visible. If the word is late, the load is late."
+        },
+        {
+          "mistake": "Lunging forward at slow pitches instead of waiting with the hands back.",
+          "fix": "Throw three slow tosses in a row and have the hitter land the stride, then count 'one' before swinging. The hands stay back during the count."
+        },
+        {
+          "mistake": "Watching the ball only after it leaves the hand instead of watching the arm.",
+          "fix": "Have the hitter track the tosser's hand from the moment it holds the ball up and call out when the arm starts back. The eyes pick up the ball earlier that way."
+        },
+        {
+          "mistake": "Swinging at every toss, including balls out of the zone, because the body is already moving.",
+          "fix": "Make 'yes, yes, no' a success. Count held swings on bad tosses as points, so the hitter learns that being loaded and holding is normal."
+        }
+      ],
+      "cues": [
+        "Yes, yes, go",
+        "Load when the arm starts",
+        "Land when it leaves",
+        "Watch the hand",
+        "Early and wait"
+      ],
+      "safety": [
+        "Anyone throwing to a hitter must be behind an L-screen, or must be using soft sponge or safety balls at a distance of at least fifteen feet. Hard baseballs are never thrown to a hitter from the open at any age.",
+        "The hitter wears a batting helmet, and all waiting players stand behind the hitter and outside the bat zone, never beside the plate or near the screen.",
+        "Use a field or park with at least forty feet of clear space in front of the hitter and nothing breakable in the flight path.",
+        "Tossers throw underhand or easy overhand and stop after thirty tosses to rest their own arm."
+      ],
+      "progression": {
+        "easier": "Practice the rhythm against a mimed motion with no ball, then against balls rolled or tossed to a spot the hitter does not have to swing at, just land on time.",
+        "harder": "Have the tosser vary speed on every pitch without a pattern, or move to a pitching machine or live coach pitch where the hitter must find the rhythm of a new arm.",
+        "nextLessonId": "hit-16"
+      },
+      "tags": [
+        "timing",
+        "late on pitches",
+        "swings too early",
+        "always late",
+        "lunges",
+        "rushes",
+        "fouls everything off",
+        "yes yes go",
+        "when to start the swing",
+        "rhythm",
+        "front toss",
+        "coach pitch timing"
+      ],
+      "drillIds": [
+        "drill-hit-12",
+        "drill-hit-22"
+      ]
+    },
+    {
+      "id": "hit-13",
+      "title": "Tee Work Basics: Setting Up the Tee Correctly",
+      "category": "hitting",
+      "subcategory": "Tee drills",
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to help set the tee at belt height, stand the right distance from it with the ball even with the front foot, and hit a soft ball off the tee without hitting the tee itself.",
+      "summary": "A batting tee is the best teacher a young hitter has, but only if it is set up right. This lesson covers tee height, where the hitter stands, and the first hits.",
+      "video": {
+        "status": "placeholder",
+        "note": "A parent and a five-year-old set up a tee together on a driveway, adjusting the height to the child's belt, laying the bat across the plate to find the standing spot, and hitting three soft balls into a net while the parent stands behind and to the side."
+      },
+      "explanation": [
+        "A batting tee is a rubber stem on a base that holds the ball still at a height the hitter chooses. It is the safest and most useful hitting tool there is, because the ball does not move, so the child can think about one thing at a time. Tee ball games are played entirely off a tee, and older players keep using tees for their whole careers.",
+        "Set the height so the ball sits at the hitter's belt when they are in their bent-knee stance, not when standing straight up. If the child stands tall to be measured and then bends their knees to hit, the ball will suddenly be at chest height and the swing will chop down. Have the child take the stance first, then adjust the tee so the middle of the ball is level with the top of the pants.",
+        "Where the tee sits matters as much as how high it is. Put the plate down first, then place the tee so the ball is over the middle of the plate and even with the hitter's front foot. Many tees have a home plate built into the base; the ball should sit toward the front edge of that plate, not in the middle of it, because the plate on the base sits where real home plate would be and contact happens in front of it.",
+        "To find the standing spot, have the child lay the bat down with the fat end touching the ball and stand where the knob reaches their toes, then step back about one shoe length. From there the stance is the same as always: feet wider than the shoulders, knees bent, hands up and back. The child should be able to touch the ball with the bat head by extending the arms, and nothing more.",
+        "Hitting the tee instead of the ball is the most common frustration. It usually means the barrel dropped under the ball, the tee is too low, or the child is standing too close. Raising the tee half an inch, stepping back a few inches, and telling the child to look at the top half of the ball fixes almost all of it. Young children need to hear that hitting the tee is normal and that nobody is upset about it."
+      ],
+      "parentInstructions": [
+        "Set the tee up together. Let your child turn the adjustment and push the ball on. Children who help set up are more patient when they miss.",
+        "Once the tee is set, stand behind your child and to the side the child faces, about twelve feet away, and stay there. Never walk in front of the tee to fix the ball while the bat is in your child's hands.",
+        "To reset the ball, say 'bat down' first. Your child sets the bat on the ground and takes a step back before you walk to the tee.",
+        "Look at only two things: is the ball at the belt, and is the ball even with the front foot? If both are right, let the swings happen without more coaching.",
+        "Hit in sets of five. After five balls, say 'bat down', collect the balls together, give a high five, and go again. Three sets, fifteen swings, is a full session for a four- to six-year-old.",
+        "Use a soft or safety ball, never a hard baseball, for tee work with young children at home. The ball can come off the bat quickly even from a small hitter.",
+        "Celebrate contact of any kind. A ball that dribbles three feet counts as a hit today."
+      ],
+      "equipment": [
+        "tee",
+        "bat",
+        "soft_ball",
+        "helmet"
+      ],
+      "equipmentFreeAlternative": "Stack two or three upside-down buckets or a traffic cone to belt height and set a tennis ball or rolled sock ball on top. A plastic bat or a broom handle works for first swings with a sock ball.",
+      "steps": [
+        "Pick a flat spot with at least forty feet of open grass in front and twelve feet clear all around, or set a net fifteen feet in front on a driveway. Put the plate down first.",
+        "Have your child take the batting stance next to the plate. Adjust the tee so the middle of the ball is at the top of the pants.",
+        "Place the tee so the ball is over the middle of the plate and even with your child's front foot.",
+        "Have your child lay the bat down with the barrel touching the ball, stand where the knob meets the toes, and step back one shoe length. Mark the back foot spot with chalk.",
+        "Helmet on. Everyone else moves behind the hitter and outside the bat zone.",
+        "Hit five soft balls, saying 'bat down' before each reset. Collect the balls together.",
+        "Check the tee height again, since tees shift, and hit five more. Finish with a third set of five and a celebration of the best hit."
+      ],
+      "durationMin": 10,
+      "commonMistakes": [
+        {
+          "mistake": "Tee set too high because the child was measured standing straight up.",
+          "fix": "Measure only in the bent-knee stance. If the child keeps standing tall, hold a hand at belt height and set the ball level with your hand."
+        },
+        {
+          "mistake": "Ball placed over the middle of the plate behind the front foot, so the child hits it too deep and hits the tee.",
+          "fix": "Slide the whole tee forward until the ball is even with the front foot's instep, then re-mark the back foot spot."
+        },
+        {
+          "mistake": "Standing too close so the bat handle hits the ball.",
+          "fix": "Re-measure with the bat laid across the plate and step back one shoe length. Draw the foot spot in chalk so it stays."
+        },
+        {
+          "mistake": "Hitting the tee stem over and over and getting upset.",
+          "fix": "Raise the tee half an inch, have the child look at the top half of the ball, and say that everyone hits the tee sometimes. Take one slow swing that stops at the ball before the next real swing."
+        }
+      ],
+      "cues": [
+        "Ball at the belt",
+        "Ball by the front foot",
+        "Bat down before reset",
+        "Look at the top of the ball",
+        "Smooth and easy"
+      ],
+      "safety": [
+        "Only the hitter stands inside a twelve-foot bat zone. The parent coaches from behind and to the side and resets the ball only after the bat is on the ground.",
+        "Use soft or safety balls, a batting helmet, and a net or open space with nobody within sixty feet in front of the hitter.",
+        "Keep siblings, pets, and bystanders behind the hitter, and never let anyone fetch a ball in front while another child is holding a bat.",
+        "Check the tee base is flat and stable; a wobbly tee tips into the hitter's feet."
+      ],
+      "progression": {
+        "easier": "Use a bigger, lighter ball such as a soft playground ball or a foam ball on the tee so contact is almost guaranteed, and let the child hit without a helmet rule only if no other children are nearby and the ball is foam.",
+        "harder": "Move the tee to knee height and then chest height for a few swings each so the child learns to adjust, as taught in the next tee lesson.",
+        "nextLessonId": "hit-03"
+      },
+      "tags": [
+        "tee",
+        "batting tee",
+        "how to set up a tee",
+        "tee height",
+        "hits the tee",
+        "misses the ball on the tee",
+        "where to stand",
+        "tee ball",
+        "first time hitting",
+        "soft ball",
+        "backyard hitting"
+      ],
+      "drillIds": [
+        "drill-hit-13",
+        "drill-hit-01"
+      ]
+    },
+    {
+      "id": "hit-14",
+      "title": "Tee Work: Inside, Middle, and Outside Pitch Locations",
+      "category": "hitting",
+      "subcategory": "Tee drills",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to hit tee balls set on the inside, middle, and outside thirds of the plate to the matching part of the field, adjusting contact point and barrel direction without changing the swing.",
+      "summary": "Moving the tee around the plate turns one drill into a full hitting lesson. Hitters learn to pull the inside pitch, drive the middle pitch, and take the outside pitch the other way.",
+      "video": {
+        "status": "placeholder",
+        "note": "A ten-year-old hits three tee balls in a row from inside, middle, and outside locations into a wide net marked with left, center, and right zones, shown from behind the hitter so the viewer sees the ball fly to the matching zone each time."
+      },
+      "explanation": [
+        "Once a hitter can set up a tee and hit the ball off it, the tee becomes a tool for practicing every pitch a real pitcher will throw. Pitches come inside, down the middle, and outside, and each location has its own best place to hit the ball. The tee lets the hitter practice each one hundreds of times without needing a pitcher.",
+        "Divide the plate into three strips. The inside strip is the third closest to the hitter. For an inside pitch the tee moves toward the hitter and forward, so the ball sits about a foot in front of the front foot. The hitter pulls this pitch, meaning a right-handed hitter hits it toward left field and a left-handed hitter toward right field. The barrel has to get out in front to do that, so the hips turn fully and the belt buckle faces the pitcher.",
+        "For a pitch down the middle the tee sits over the middle of the plate with the ball even with the front foot's instep. The hitter drives this pitch back up the middle toward where the pitcher would be. For an outside pitch the tee moves to the far edge of the plate and back toward the catcher, so the ball sits between the front foot and the middle of the plate. The hitter lets this pitch travel and hits it to the opposite field, with the hips turning only part way and the barrel reaching out and across.",
+        "The swing itself does not change. The hands take the same path, the hips start the swing, and the head stays still. What changes is when the barrel is released and where contact happens. Hitters who try to make a different swing for each location get tangled up; hitters who keep one swing and move the contact point get hits everywhere.",
+        "A wide net or an open field lets the hitter see the results. If the inside tee ball flies to the opposite field, the barrel was late and the contact point was too deep. If the outside tee ball gets pulled, the hitter got out front too early. The ball's direction is the report card, and the fix is always to move the contact point, never to swing harder."
+      ],
+      "parentInstructions": [
+        "Stand behind your child and to the open side, twelve to fifteen feet back from the tee, where you can see both the tee location and where the ball goes.",
+        "Mark the three tee locations on the ground with chalk before starting so you can move the tee quickly between sets. Inside is toward your child and forward; outside is away and back.",
+        "Call out where the ball went after each swing: 'pull side', 'middle', or 'other way'. Your child learns to connect the location to the result without you explaining mechanics.",
+        "Watch the hips on the outside tee. They should turn only part way, toward the opposite field, not all the way to the pitcher. On the inside tee they should turn all the way.",
+        "Run three sets of six, one per location, then a fourth set of six where you move the tee to a random spot after each swing. Rest a minute between sets while you collect balls with the bat on the ground.",
+        "If more than two balls in a set go the wrong direction, move the tee an inch or two in the direction that helps and say nothing about the swing."
+      ],
+      "equipment": [
+        "bat",
+        "tee",
+        "soft_ball",
+        "net",
+        "helmet"
+      ],
+      "equipmentFreeAlternative": "Chalk the three locations and take shadow swings to each, stopping the bat at the ball spot to feel the barrel pointing toward the pull side, up the middle, or to the opposite field.",
+      "steps": [
+        "Set the plate, clear a twelve-foot bat zone, and place a wide net fifteen feet in front or use an open field. Helmet on the hitter; the rest of the group waits behind the plate marker.",
+        "Chalk three tee spots: inside and a foot in front of the front foot, middle even with the front instep, outside on the far edge and back toward the middle of the plate.",
+        "Set the tee on the middle spot at belt height. Hit six balls up the middle into the center of the net. Freeze and check the finish each time.",
+        "Move the tee to the inside spot. Hit six balls to the pull side of the net with the hips turning all the way to the pitcher.",
+        "Move the tee to the outside spot. Hit six balls to the opposite-field side of the net, letting the ball travel and the barrel reach across.",
+        "For the final set, move the tee to a random spot after each swing. The hitter says the location out loud before swinging and the parent calls where the ball went.",
+        "Finish with a quick count of how many balls went to the matching side of the net out of the last six."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Pulling the outside tee ball because the hitter gets out front too early.",
+          "fix": "Move the outside tee two inches farther back toward the catcher and say 'let it travel'. Have the hitter aim at the opposite-field corner of the net."
+        },
+        {
+          "mistake": "Hitting the inside tee ball weakly to the opposite field because the barrel is late.",
+          "fix": "Move the inside tee two inches farther forward and cue the hips to turn all the way so the belt buckle faces the pitcher at contact."
+        },
+        {
+          "mistake": "Changing the whole swing for each location, with a chopping swing inside and a reaching swing outside.",
+          "fix": "Go back to the middle tee for six swings to reset the one swing, then move to the other spots with the same rhythm and finish."
+        },
+        {
+          "mistake": "Leaning the upper body toward the outside tee instead of turning the hips toward the opposite field.",
+          "fix": "Have the child keep the head over the middle and feel the back hip push toward the far corner of the net. Place a glove outside the front foot to stop any drift."
+        },
+        {
+          "mistake": "Clipping the tee stem on the inside location.",
+          "fix": "Raise the inside tee half an inch, since contact out front is naturally a little higher, and have the child look at the inside top of the ball."
+        }
+      ],
+      "cues": [
+        "Inside, pull it",
+        "Middle, up the middle",
+        "Outside, other way",
+        "Let it travel",
+        "Same swing, different spot"
+      ],
+      "safety": [
+        "The parent moves the tee between sets only after the hitter has set the bat on the ground and stepped back out of the twelve-foot bat zone.",
+        "Use a wide, anchored net or an open field with nobody within sixty feet in any direction the ball could fly, since outside tee balls go to the opposite field.",
+        "A batting helmet is worn for all tee swings, and at team stations tees are spaced at least fifteen feet apart with all hitters facing the same direction."
+      ],
+      "progression": {
+        "easier": "Use only the middle and outside spots for a week before adding the inside spot, which needs the most hip turn.",
+        "harder": "Add the two-tee obstacle on the inside spot by placing an empty tee a foot behind the ball tee, or move to side soft toss to the three locations as the tosser calls them.",
+        "nextLessonId": "hit-12"
+      },
+      "tags": [
+        "tee drills",
+        "inside pitch",
+        "outside pitch",
+        "pulls everything",
+        "cannot hit the outside pitch",
+        "opposite field",
+        "pull side",
+        "tee locations",
+        "hitting to all fields",
+        "gets jammed",
+        "moving the tee",
+        "contact point"
+      ],
+      "drillIds": [
+        "drill-hit-14",
+        "drill-hit-11"
+      ]
+    },
+    {
+      "id": "hit-15",
+      "title": "Soft Toss and Front Toss Progression",
+      "category": "hitting",
+      "subcategory": "Contact",
+      "ageGroups": [
+        "a7_8",
+        "a9_10"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to hit soft tosses from the side into a net with a full, balanced swing, then progress to underhand front toss from behind a screen while keeping the same swing.",
+      "summary": "Soft toss adds a gently moving ball to the swing the hitter built on the tee. This lesson shows the safe tosser positions, the toss itself, and the steps from side toss to front toss.",
+      "video": {
+        "status": "placeholder",
+        "note": "A parent kneels on the open side of a nine-year-old and diagonally ahead of the plate, tossing soft balls underhand into a net while the child hits, then the camera shows the move to underhand front toss from behind an L-screen fifteen feet away."
+      },
+      "explanation": [
+        "Soft toss is when a tosser kneels off to the side of the hitter and flips a ball underhand into the hitting zone, and the hitter drives it into a net. The ball is moving slowly and arrives at a known spot, which makes it the perfect step between the tee and a real pitch. Front toss comes next: the tosser kneels directly in front of the hitter, protected by a screen, and tosses underhand from fifteen to twenty feet so the hitter sees the ball coming from the pitcher's direction.",
+        "The tosser's position for side toss is the key safety and quality point. The tosser kneels on the open side, the side the hitter's chest faces, about ten to twelve feet away and a step or two ahead of the plate toward the pitcher. From there the toss travels across the hitter's body into the contact zone in front of the front foot, and the ball is hit straight ahead into the net, away from the tosser. The tosser is never straight in front of the hitter and never behind the plate.",
+        "The toss itself is a soft underhand flip with a small arc, released from about knee height so the ball peaks around the hitter's chest and drops into the zone at belt height even with the front foot. A good toss is slow enough that the hitter can load, stride, and swing with rhythm. A rushed, flat toss turns the drill into a reaction test and ruins the swing. Tossers should show the ball, drop the hand, and flip in a steady count so the hitter can time it.",
+        "The hitter's job is the same swing as the tee: load as the tosser's hand drops, stride as the ball leaves the hand, and swing through the ball with a frozen finish. Because the ball now moves, the eyes have to pick it up out of the tosser's hand and follow it in, so the tracking lesson matters here. Hitters who look at the net or the tosser's face instead of the ball will swing under it.",
+        "Front toss changes only the direction the ball comes from. The tosser kneels behind an L-screen, a tall net with a cut-out on one side, fifteen to twenty feet in front of the plate and tosses underhand through the cut-out. Now the hitter sees the ball coming the way a pitch does and the contact points from the tee lessons apply directly. Hitters should master side toss, with eight out of ten hard hits into the net, before moving to front toss."
+      ],
+      "parentInstructions": [
+        "Set the net first, fifteen feet in front of the plate, and make sure it is anchored. Then kneel on the side your child's chest faces, ten to twelve feet away, a step or two ahead of the plate. You should be looking at your child's front shoulder, not their back.",
+        "Toss underhand with a small arc so the ball drops to belt height even with the front foot. Count 'one, two' in your head as you show the ball and flip it so your rhythm never changes.",
+        "Watch two things: did the eyes follow the ball into the bat, and did your child hold a balanced finish? Everything else can wait.",
+        "Toss in sets of eight with a minute of rest while you collect balls together. Twenty-four tosses is a full home session.",
+        "Move to front toss only when you have an L-screen or are using very soft sponge balls. From behind the screen, kneel so your head and body are fully behind the netting and toss underhand through the cut-out.",
+        "If swings get wild, go back to the tee for five balls, then return to soft toss. Jumping between the two keeps the swing honest.",
+        "Never let siblings or teammates stand near you as the tosser or in front of the hitter. Everyone waiting stands behind the hitter."
+      ],
+      "equipment": [
+        "bat",
+        "soft_ball",
+        "net",
+        "helmet"
+      ],
+      "equipmentFreeAlternative": "Hang a blanket or bedsheet on a clothesline as the net and toss rolled sock balls or crumpled paper balls from the side. The hitter can use a plastic bat or a broom handle; the rhythm and tracking are identical.",
+      "steps": [
+        "Set an anchored net fifteen feet in front of the plate with twenty feet of clear space around the hitter. Batting helmet on; waiting players line up behind the hitter, never near the tosser.",
+        "The tosser kneels on the open side, ten to twelve feet away and a step ahead of the plate, with a bucket of soft balls.",
+        "Toss three balls with no swing. The hitter tracks each one into the zone and lets it drop, saying 'yes' when it reaches the contact point.",
+        "Toss eight balls at a steady rhythm. The hitter loads as the hand drops, strides as the ball leaves, and drives it into the net with a frozen finish.",
+        "Rest, collect balls together, and toss a second set of eight, calling out where each ball hit the net.",
+        "If eight of ten in the last set were hit hard, set up the L-screen fifteen feet in front and toss four balls underhand through the cut-out for the hitter to track without swinging.",
+        "Toss eight front tosses for the hitter to drive back up the middle. Freeze the finish on each.",
+        "Finish with three tee balls to end on a still ball and a good swing."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Swinging under the ball and popping it up because the eyes are on the net instead of the ball.",
+          "fix": "Toss three balls with no swing and have the child watch each one into the zone and call 'yes'. Then toss for real and have them say the color of the ball at contact."
+        },
+        {
+          "mistake": "Rushing the swing because the toss is too fast or flat.",
+          "fix": "The tosser slows down, adds a little arc, and counts 'one, two' out loud so the hitter has a rhythm to follow."
+        },
+        {
+          "mistake": "Reaching across the body toward the tosser instead of waiting for the ball to arrive out front.",
+          "fix": "Move the tosser a step farther ahead of the plate so the toss arrives in front of the front foot, and remind the hitter to let the ball come to the zone."
+        },
+        {
+          "mistake": "Losing the tee swing and swinging with all arms once the ball moves.",
+          "fix": "Alternate three tee balls and three tosses for a full set so the body carries the hips-first swing from one to the other."
+        }
+      ],
+      "cues": [
+        "Watch it out of the hand",
+        "Let it come to you",
+        "Same swing as the tee",
+        "Drive it into the net",
+        "Freeze the finish"
+      ],
+      "safety": [
+        "The side tosser kneels on the open side, ten to twelve feet away and ahead of the plate, never directly in front of the hitter and never behind the plate. The hit ball goes straight ahead into the net, away from the tosser.",
+        "Front toss is done only from behind an L-screen, or with very soft sponge balls at fifteen feet or more if no screen is available. Hard baseballs are never front tossed without a screen.",
+        "The hitter wears a batting helmet, uses soft or safety balls near houses and driveways, and everyone waiting stands behind the hitter outside the twenty-foot zone.",
+        "Soft toss and front toss belong in yards, parks, and fields, not garages, because the tosser shares the space with a swinging bat and flying balls."
+      ],
+      "progression": {
+        "easier": "Toss larger, slower balls such as a soft playground ball or a foam ball from six feet, and let the child hit into open grass with nobody in front.",
+        "harder": "The tosser calls 'inside', 'middle', or 'outside' and tosses to that location so the hitter adjusts the contact point, or moves to overhand coach pitch as taught in the moving-ball lesson.",
+        "nextLessonId": "hit-20"
+      },
+      "tags": [
+        "soft toss",
+        "front toss",
+        "how to soft toss",
+        "where to stand for soft toss",
+        "pops up",
+        "swings and misses",
+        "moving ball",
+        "backyard hitting",
+        "net",
+        "L-screen",
+        "hitting progression",
+        "tee to pitch"
+      ],
+      "drillIds": [
+        "drill-hit-15",
+        "drill-hit-22"
+      ]
+    },
+    {
+      "id": "hit-16",
+      "title": "Bat Control: Top-Hand and Bottom-Hand Drills",
+      "category": "hitting",
+      "subcategory": "Bat control",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to hit tee balls with each hand alone on a choked-up bat, keeping the barrel on a short path, so that both hands do their separate jobs in the full swing.",
+      "summary": "Each hand has its own job in the swing. One-hand drills teach the bottom hand to pull the knob and the top hand to deliver the barrel, and they fix swings that are all top hand or all bottom hand.",
+      "video": {
+        "status": "placeholder",
+        "note": "An eleven-year-old choked halfway up the bat hits tee balls into a net with the bottom hand only, then the top hand only, with slow-motion overlays showing the knob leading on bottom-hand swings and the palm-up barrel delivery on top-hand swings."
+      },
+      "explanation": [
+        "Bat control is the ability to put the barrel exactly where the hitter wants it. The two hands have different jobs in doing that. The bottom hand, the one nearest the knob, pulls the knob toward the ball and steers the direction of the swing. The top hand delivers the barrel to the ball and keeps it from dropping or rolling over too early. When one hand takes over, the swing suffers in a predictable way.",
+        "A swing that is all top hand rolls over early. The top hand gets strong and turns the barrel so the wrists roll before contact, producing ground balls to the pull side and a barrel that sweeps around the ball. A swing that is all bottom hand pulls off and gets long. The barrel drags behind, the hitter is late, and the ball goes weakly the other way or is fouled off. One-hand drills isolate each job so the hitter can feel it.",
+        "Bottom-hand swings use a bat choked up to the middle of the handle or a lighter training bat. The hitter sets up normally, takes the top hand off and tucks it behind the back or on the chest, and swings with the bottom hand only from a tee set at belt height. The knob leads, the arm stays slightly bent until contact, and the barrel comes through on a short path with the elbow finishing near the belly. The swing is at about half speed; this is a feel drill.",
+        "Top-hand swings use the same choked-up bat with only the top hand on it. The hitter sets up with the bat at the back shoulder, the top-hand elbow down near the ribs, and swings by driving the elbow to the hip and then the palm toward the ball, palm facing up at contact. The barrel stays above the hand until the last moment. It is harder than it looks, so the tee may need to be raised an inch and the swing slowed down.",
+        "After each round of one-hand swings, the hitter puts both hands back on and takes normal swings, trying to feel both jobs happening at once: the bottom hand pulling the knob and the top hand delivering the barrel palm-up. Most hitters feel an immediate difference in how connected the swing is. Done once or twice a week, these drills keep the hands balanced for the whole season."
+      ],
+      "parentInstructions": [
+        "Stand behind your child and to the open side, twelve to fifteen feet from the tee. One-hand swings are slower and shorter, but the bat zone rule does not change.",
+        "Have your child choke up so the top of the grip is at least halfway up the handle. A full-length grip with one hand is too heavy and will teach a long, slow swing.",
+        "On bottom-hand swings, watch the knob. It should move toward the ball first, and the elbow should finish bent near the belly rather than flung out straight.",
+        "On top-hand swings, watch the palm at contact. It should face the sky. If it is already turned over toward the ground, the wrist rolled early.",
+        "Run sets of five with each hand, then five with both hands, and rest a minute. Three rounds is plenty; forearm fatigue sets in quickly on one-hand swings and the drill stops helping.",
+        "Tell your child in advance that one-hand swings feel weak and awkward at first. The ball only needs to travel ten feet into the net for the drill to work."
+      ],
+      "equipment": [
+        "bat",
+        "tee",
+        "soft_ball",
+        "net",
+        "helmet"
+      ],
+      "equipmentFreeAlternative": "Do one-hand shadow swings with a short stick or a rolled towel, stopping at the contact spot to check the knob lead on bottom-hand swings and the palm-up position on top-hand swings.",
+      "steps": [
+        "Set the tee at belt height even with the front foot, fifteen feet from a net, with a cleared twelve-foot bat zone. Helmet on, others behind.",
+        "Choke up to the middle of the handle. Take five bottom-hand-only shadow swings at half speed, knob leading, elbow finishing near the belly.",
+        "Hit five tee balls with the bottom hand only, aiming for a short path and a line drive into the net. The free hand rests on the chest.",
+        "Take five top-hand-only shadow swings, driving the elbow to the hip and the palm to the ball, palm up at contact.",
+        "Hit five tee balls with the top hand only. Raise the tee an inch if the barrel keeps dropping under the ball.",
+        "Put both hands on, still choked up, and hit five tee balls feeling both jobs at once. Freeze each finish.",
+        "Rest, collect balls together, and repeat the whole sequence twice more. Finish with five full-grip swings off the tee."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Using a full-length grip with one hand so the barrel drags and the swing gets long.",
+          "fix": "Choke up to the middle of the handle or switch to a shorter, lighter bat. The barrel should feel light enough to stop at the ball."
+        },
+        {
+          "mistake": "Top hand rolls over before contact, sending ground balls to the pull side.",
+          "fix": "Hit top-hand tee balls while holding the finish with the palm facing up for two seconds, then carry that feel into two-hand swings."
+        },
+        {
+          "mistake": "Bottom-hand swing becomes a long sweep with the arm locked straight.",
+          "fix": "Keep the bottom elbow bent until contact and finish with the elbow near the belly. Slow to half speed until the path shortens."
+        },
+        {
+          "mistake": "Swinging too hard with one hand and losing the bat.",
+          "fix": "Cut the effort in half; the ball only has to reach the net. Rest the forearm between sets and stop at fifteen one-hand swings per hand."
+        }
+      ],
+      "cues": [
+        "Knob leads",
+        "Palm up",
+        "Elbow to the hip",
+        "Choke up",
+        "Short and easy"
+      ],
+      "safety": [
+        "One-hand swings are easier to lose, so the bat zone stays cleared twelve feet around and the parent stays behind and to the side.",
+        "Stop one-hand work at fifteen swings per hand per session to protect young wrists and forearms, and skip the drill if the hitter reports soreness.",
+        "Wear a batting helmet, use soft or safety balls, and hit only into an anchored net or open space with nobody in front."
+      ],
+      "progression": {
+        "easier": "Do only shadow swings with each hand and no ball, then hit a bigger foam ball off the tee with each hand.",
+        "harder": "Have a partner side-toss soft balls into the net for one-hand swings, or alternate one bottom-hand, one top-hand, and one two-hand swing off tees set at three locations.",
+        "nextLessonId": "hit-17"
+      },
+      "tags": [
+        "bat control",
+        "one hand drills",
+        "top hand",
+        "bottom hand",
+        "rolls over",
+        "ground balls to the pull side",
+        "long swing",
+        "bat drag",
+        "choke up",
+        "hand strength",
+        "wrists roll"
+      ],
+      "drillIds": [
+        "drill-hit-16",
+        "drill-hit-06"
+      ]
+    },
+    {
+      "id": "hit-17",
+      "title": "Bunting Fundamentals",
+      "category": "hitting",
+      "subcategory": "Bat control",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to square around on time, hold the bat level at the top of the strike zone with the top hand pinching behind the barrel, and deaden a tossed ball down either baseline.",
+      "summary": "A bunt is a soft tap that rolls the ball a few feet into fair territory. This lesson covers the pivot, the bat position, the hand placement that keeps fingers safe, and where to aim.",
+      "video": {
+        "status": "placeholder",
+        "note": "A ten-year-old pivots into bunting position as a coach tosses from behind an L-screen, with a close-up of the top hand pinching the bat behind the barrel and the ball dying ten feet up the third-base line."
+      },
+      "explanation": [
+        "A bunt is a hit where the batter does not swing. Instead, the batter holds the bat still over the plate and lets the ball hit it, so the ball rolls slowly into fair territory. Teams bunt to move a runner to the next base, to surprise the defense when the infielders are playing deep, or to help a fast runner reach first base. Bunting looks easy but it is a skill with its own checkpoints.",
+        "The first move is to get into position early, as the pitcher starts the delivery. The simplest way is to pivot: keep the feet where they are and turn on the balls of both feet so the chest faces the pitcher, knees bent, bottom down a little. Some coaches teach squaring around by stepping the back foot up even with the front foot; either is fine as long as the batter stays in the batter's box and the feet are set before the ball is released. Check your league's current Little League rulebook for where the feet may be at contact.",
+        "The hands slide apart. The bottom hand stays near the knob. The top hand slides up to about the middle of the bat, just behind the start of the barrel, and pinches the bat between the thumb and the side of the bent index finger, so the fingers are folded behind the bat and never wrapped around the front where the ball could hit them. The bat is held out in front of the body with the arms relaxed and slightly bent, and the barrel is a little higher than the knob so the ball is pushed down toward the ground.",
+        "Hold the bat at the top of the strike zone, around the letters, and keep the eyes level with the bat. If the pitch is lower, bend the knees to bring the bat down with the body rather than dropping the bat head, which pops the ball up. If the pitch is above the bat, let it go; it is a ball. At contact, the hands give back an inch or two, like catching an egg, to deaden the ball so it does not roll to a fielder.",
+        "Direction comes from the bat angle, not the arms. To bunt toward third base, a right-handed batter pulls the knob back toward the body so the barrel points a little toward first; the ball comes off the bat toward third. To bunt toward first, the knob is pushed forward so the barrel angles toward third. Aim to have the ball die ten to fifteen feet up the line, between the pitcher and the baseman, where nobody can reach it quickly."
+      ],
+      "parentInstructions": [
+        "Stand behind your child and to the open side for the no-ball pivot work. When you toss, you toss underhand from eight to ten feet with a soft ball and from behind an L-screen or a kneeling position off to the side; bunted balls travel slowly, but a popped-up bunt or a missed bunt can still come straight back, so never stand in front with a hard ball.",
+        "Check the top hand every time. Look for the pinch: thumb on top, bent index finger behind the bat, no fingers showing in front of the barrel. This is the one thing you must not let slide, because it is a finger safety issue.",
+        "Watch the barrel height compared to the knob. The barrel should be a little higher. A barrel that drops below the hands pops the ball up.",
+        "Watch the knees on low tosses. Your child should bend the knees to lower the whole body, not reach down with the bat.",
+        "Toss in sets of eight with a minute of rest and vary the height. Twenty-four tosses is plenty for one session.",
+        "Use a soft or tennis ball at home. A bunt is a catch with the bat, so even a soft ball teaches the give at contact perfectly.",
+        "Celebrate bunts that stop within fifteen feet up either line, and pick a target with a glove or cone so your child has something to aim for."
+      ],
+      "equipment": [
+        "bat",
+        "soft_ball",
+        "helmet"
+      ],
+      "equipmentFreeAlternative": "Use a broom handle or a short stick and a rolled sock ball tossed underhand from six feet. The pivot, the pinch grip, and the give at contact can all be practiced indoors this way.",
+      "steps": [
+        "Clear twelve feet around the hitter and set a plate marker. Helmet on. Put a glove or cone fifteen feet up each imaginary baseline as targets.",
+        "With no ball, practice the pivot ten times: turn on the balls of both feet until the chest faces the pitcher, knees bent, bat out front at the top of the zone.",
+        "Practice the hand slide ten times: top hand slides up behind the barrel and pinches with the thumb and bent index finger, bottom hand stays at the knob. Parent checks for no fingers in front.",
+        "The tosser kneels eight to ten feet away, off to the side or behind a screen, and tosses eight soft balls underhand at chest height. The hitter catches each one on the bat with a small give and lets it drop.",
+        "Toss eight more, mixing heights. The hitter bends the knees for low tosses and lets high ones go.",
+        "Toss eight with the hitter angling the bat to send the ball toward the third-base target, then eight toward the first-base target.",
+        "Finish with a game: three bunts each direction, one point for each ball that stops inside fifteen feet of the plate near the target."
+      ],
+      "durationMin": 12,
+      "commonMistakes": [
+        {
+          "mistake": "Fingers wrapped around the front of the bat where the ball can hit them.",
+          "fix": "Stop and reset the pinch grip with the thumb on top and the index finger folded behind the bat. Practice ten hand slides with no ball before tossing again."
+        },
+        {
+          "mistake": "Dropping the barrel below the hands on low pitches and popping the ball up.",
+          "fix": "Have the child bend the knees to lower the body and keep the barrel above the knob. Toss five low balls in a row and only count the ones bunted downward."
+        },
+        {
+          "mistake": "Stabbing or pushing at the ball so it rolls hard to a fielder.",
+          "fix": "Say 'catch it with the bat' and have the hands give back an inch at contact. Toss a few balls the child catches on the bat and lets drop at their feet."
+        },
+        {
+          "mistake": "Squaring around late, after the ball is already on the way.",
+          "fix": "Have the tosser raise the ball slowly before each toss and require the pivot to be done by the time the ball is at its highest point."
+        },
+        {
+          "mistake": "Bunting at pitches above the bat and popping them up.",
+          "fix": "Set the bat at the top of the zone and make a rule: if the ball is above the bat, let it go. Praise every high toss the child takes."
+        }
+      ],
+      "cues": [
+        "Pinch behind the barrel",
+        "Barrel above the knob",
+        "Catch it with the bat",
+        "Bend the knees, not the bat",
+        "Angle the bat, not the arms"
+      ],
+      "safety": [
+        "The top hand pinches the bat behind the barrel with no fingers in front. The parent checks this before every set because a tossed ball can hit exposed fingers.",
+        "Tossers kneel off to the side or behind an L-screen, eight to ten feet away, and use soft or tennis balls at home. Hard baseballs are tossed for bunting only by a coach behind a screen.",
+        "The hitter wears a batting helmet for every toss, and anyone waiting stands behind the hitter.",
+        "Indoors or in a garage, bunting is done only with sponge or tennis balls, with the hitter at least twelve feet from walls and nothing breakable in front."
+      ],
+      "progression": {
+        "easier": "Practice the pivot and the pinch grip with no ball, then catch tossed sponge balls on the bat and let them drop with no direction target.",
+        "harder": "Move to overhand coach pitch or a pitching machine from behind a screen, bunting toward a called direction, and add a timed run to first base after the bunt.",
+        "nextLessonId": "hit-08"
+      },
+      "tags": [
+        "bunting",
+        "how to bunt",
+        "sacrifice bunt",
+        "bunt grip",
+        "fingers on the bat",
+        "pops up bunts",
+        "squaring around",
+        "pivot",
+        "bat control",
+        "moving the runner",
+        "small ball"
+      ],
+      "drillIds": [
+        "drill-hit-17"
+      ]
+    },
+    {
+      "id": "hit-18",
+      "title": "The Two-Strike Approach",
+      "category": "hitting",
+      "subcategory": "Situational hitting",
+      "ageGroups": [
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to change their approach with two strikes by choking up, widening the stance, shortening the swing, expanding the zone slightly, and putting any strike in play.",
+      "summary": "With two strikes the job changes from driving the ball to not striking out. This lesson gives hitters a concrete two-strike plan they can use in every at-bat.",
+      "video": {
+        "status": "placeholder",
+        "note": "A thirteen-year-old works a simulated 1-2 count against a coach throwing from behind an L-screen, choking up and widening the stance between pitches, fouling off a tough pitch, and then lining a single the other way."
+      },
+      "explanation": [
+        "A count is the number of balls and strikes on the batter, said balls first. At 0-2 or 1-2 or 2-2 or 3-2 the batter has two strikes, and one more strike ends the at-bat. A two-strike approach is a deliberate set of changes a hitter makes so that a borderline pitch gets fouled off or put in play instead of taken for strike three or missed. Good hitters at every level strike out less because they have a two-strike plan and use it every time.",
+        "The physical changes are small and specific. Choke up on the bat about an inch, which makes the bat quicker and easier to control. Widen the stance by two or three inches, which shortens the stride to almost nothing and keeps the head still. Move an inch or two closer to the plate so the outside corner is reachable, and bring the hands a little closer to the body so the swing is shorter. Each change by itself is tiny; together they trade a little power for a lot of contact.",
+        "The mental changes matter just as much. With fewer than two strikes a hitter looks for a pitch in a favorite spot and lets everything else go. With two strikes the zone expands slightly: anything close enough that the umpire might call a strike gets swung at. The goal shifts from hitting the ball hard to hitting the ball somewhere, ideally up the middle or to the opposite field. A hitter who tries to pull a two-strike pitch is usually fooled by anything off-speed.",
+        "A good two-strike thought is to think middle-away and let the ball travel. By looking for the ball over the outer half and waiting a split second longer, the hitter stays back on off-speed pitches and can still react inside with the shorter, quicker swing. Hitters should aim their two-strike swings at the second baseman or shortstop area, depending on which side they bat from, which keeps the barrel in the zone longer.",
+        "Fouling pitches off is a win with two strikes. A hitter who fouls off three tough pitches and then gets a mistake to hit has beaten the pitcher. Players ages eleven to sixteen should practice two-strike at-bats in front toss and batting practice with a real count, so that choking up and widening out feels normal in a game and not like giving up. Check your league's current Little League rulebook for any special rules about dropped third strikes and foul bunts with two strikes."
+      ],
+      "parentInstructions": [
+        "You are the tosser for this lesson, so you must throw from behind an L-screen from eighteen to twenty-five feet, underhand or easy overhand. With a hitter this age the ball comes off the bat hard enough to hurt, so no screen means tennis balls only.",
+        "Before each set, announce the count, such as 'one and two'. Watch your child make the physical changes before you throw: hands choked up, stance wider, closer to the plate.",
+        "Mix your tosses on purpose. Throw some on the outside corner, some a little off the plate, and a couple of slower ones. Call a pitch a strike if it is close, the way an umpire would.",
+        "Count outcomes instead of hits: a foul ball, a ball put in play, or a take on a clear ball are all wins. A swing and miss or a take on a strike is a loss. Keep the score out loud.",
+        "Work in sets of six pitches as separate two-strike at-bats, with a minute to collect balls between sets. Four sets is a full session.",
+        "Ask your child where they were looking on each pitch. 'Middle-away' is the answer you want to hear most often."
+      ],
+      "equipment": [
+        "bat",
+        "soft_ball",
+        "helmet",
+        "l_screen"
+      ],
+      "equipmentFreeAlternative": "Practice the two-strike setup as shadow work: from a normal stance, choke up, widen, move closer, and take a short swing on a called pitch location, repeating the change until it takes less than three seconds.",
+      "steps": [
+        "Set up on a field or large park with at least sixty feet of clear space in front of the hitter. L-screen at eighteen to twenty-five feet, helmet on the hitter, everyone else behind the hitter or well behind the screen.",
+        "Take five normal swings off tosses with a zero-strike approach, looking for a pitch in a favorite spot.",
+        "The tosser calls 'one and two'. The hitter chokes up an inch, widens the stance two or three inches, and moves an inch closer to the plate. Take five shadow swings to feel the shorter stroke.",
+        "The tosser throws six pitches as one simulated at-bat, mixing locations and speeds. The hitter fouls off or puts in play every strike and takes clear balls. Keep score out loud.",
+        "Collect balls together. Discuss the one pitch that gave the most trouble and where the hitter was looking.",
+        "Run three more six-pitch two-strike at-bats, aiming balls in play at the middle of the field or the opposite field.",
+        "Finish with a set where the hitter alternates: one at-bat with a normal approach and one with two strikes, so the switch between them becomes automatic."
+      ],
+      "durationMin": 20,
+      "commonMistakes": [
+        {
+          "mistake": "Taking a borderline pitch on the corner for strike three.",
+          "fix": "Make a rule for the session: with two strikes, anything within a ball's width of the plate gets a swing. Count fouls as wins so swinging at close pitches feels safe."
+        },
+        {
+          "mistake": "Swinging just as hard with two strikes and missing off-speed pitches.",
+          "fix": "Choke up and shorten the swing until the hitter can hit three slow tosses in a row to the opposite field, then mix speeds again."
+        },
+        {
+          "mistake": "Forgetting to change the setup because the count is not announced.",
+          "fix": "Have the hitter say the count out loud before every pitch and make the physical changes part of a quick routine: tap the plate, choke up, widen, look middle-away."
+        },
+        {
+          "mistake": "Trying to pull the ball with two strikes and rolling over to the pull side.",
+          "fix": "Put a target cone in the opposite-field gap and award two points for any ball hit toward it during two-strike at-bats."
+        }
+      ],
+      "cues": [
+        "Choke up, widen out",
+        "Middle-away",
+        "Let it travel",
+        "Foul it off",
+        "Put it in play"
+      ],
+      "safety": [
+        "Any adult or player tossing to hitters ages eleven to sixteen is behind an L-screen. Without a screen, only tennis balls or sponge balls are used at twenty feet or more.",
+        "The hitter wears a batting helmet, and all other players stand behind the hitter outside the bat zone, never beside the screen or in the field of play.",
+        "Use a field or park with sixty feet or more of clear space; two-strike swings still produce line drives."
+      ],
+      "progression": {
+        "easier": "Run two-strike at-bats off a tee or side soft toss with the hitter only practicing the setup changes and a short swing, no called balls and strikes.",
+        "harder": "Add a runner on base and a defensive situation, so the two-strike at-bat also has a productive-out goal, as taught in the next lesson.",
+        "nextLessonId": "hit-19"
+      },
+      "tags": [
+        "two strikes",
+        "strikes out a lot",
+        "strikeouts",
+        "two strike approach",
+        "choke up",
+        "takes called third strikes",
+        "chases pitches",
+        "foul off pitches",
+        "protect the plate",
+        "shorten the swing",
+        "count",
+        "situational hitting"
+      ],
+      "drillIds": [
+        "drill-hit-18",
+        "drill-hit-22"
+      ]
+    },
+    {
+      "id": "hit-19",
+      "title": "Hitting Behind the Runner and Productive Outs",
+      "category": "hitting",
+      "subcategory": "Situational hitting",
+      "ageGroups": [
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevel": "advanced",
+      "objective": "The player will be able to read the base-out situation before the at-bat and deliberately hit a ground ball or fly ball to the side of the field that advances the runner, even when it means making an out.",
+      "summary": "Sometimes the best at-bat is an out that moves a teammate ninety feet closer to scoring. This lesson teaches hitters to recognize those moments and to steer the ball to the right side on purpose.",
+      "video": {
+        "status": "placeholder",
+        "note": "A runner on second with nobody out as a fourteen-year-old right-handed hitter lets an outside pitch travel and grounds it to the second baseman, the runner moves to third, and a diagram overlay explains why the out was productive."
+      },
+      "explanation": [
+        "Baseball is a team game, and the hitter's job changes depending on where the runners are and how many outs there are. A productive out is an out that still helps the team, usually by moving a runner to the next base or scoring a runner from third. Hitting behind the runner means hitting the ball to the right side of the field, toward first and second base, when a runner is on second, so the runner can advance to third while the fielders are busy with the ball on the other side of the diamond.",
+        "The situations to recognize are simple to list. Runner on second with nobody out: a ground ball to the right side moves the runner to third, where a fly ball or another ground ball can score him. Runner on third with fewer than two outs and the infield playing back: a ground ball up the middle or a fly ball deep enough to the outfield scores the run. Runner on first with nobody out: a ground ball to the right side can move the runner to second and stay out of the double play. Before stepping in, the hitter checks the runners, the outs, and where the infielders are standing.",
+        "Steering the ball to the right side is a contact-point skill from the tee lessons. A right-handed hitter lets the ball travel deeper and hits it to the opposite field by looking for a pitch on the outer half, keeping the hands inside, and driving the barrel toward the second baseman. A left-handed hitter pulls the ball to the right side by getting the barrel out front on a pitch on the inner half. Either way, the hitter picks the pitch that is easiest to send that direction and takes pitches that are not, unless there are two strikes.",
+        "Hitting the ball on the ground is also a choice. To keep the ball down, the hitter aims for the top half of the ball, stays short to it, and thinks about hitting a hard ground ball through the spot where the second baseman started. A fly ball to the right side is also fine with a runner on third, because the runner can tag up and score, but a pop-up to the infield helps nobody. The best productive outs are hard ground balls and deep fly balls; the worst are weak pop-ups and strikeouts.",
+        "Older Little League players should talk about these situations in the dugout and practice them with a real count and a pretend runner. Coaches will sometimes give a sign for a specific job, such as a bunt or a hit-and-run; when no sign is given, the hitter uses this lesson to pick the right job on their own. Check your league's current Little League rulebook for rules about leading off and stealing in your division, because those rules change which productive outs are possible."
+      ],
+      "parentInstructions": [
+        "Throw from behind an L-screen at twenty to twenty-five feet, underhand or easy overhand, with soft baseballs or tennis balls. A hitter this age drives the ball hard enough that a screen is not optional.",
+        "Before each set, describe a situation out loud: 'runner on second, nobody out' or 'runner on third, one out, infield back'. Ask your child what the job is before you throw a pitch.",
+        "Set two cones on the field to mark the right side of the infield, between first and second base, and watch whether the ball goes between them. The result you want is a hard ground ball or deep fly ball to that side.",
+        "Notice which pitches your child swings at. Taking an inside pitch with a runner on second and nobody out is a good decision, even though it looks passive.",
+        "Run sets of six pitches as one situation, with a minute between sets to collect balls and talk about the choices. Four or five situations is a full session.",
+        "Ask your child to explain why the out mattered after each good productive out. If they can explain it, they will do it in a game without being told."
+      ],
+      "equipment": [
+        "bat",
+        "soft_ball",
+        "helmet",
+        "l_screen",
+        "cones"
+      ],
+      "equipmentFreeAlternative": "Talk through situations with a drawn diamond on paper or chalk, have the child point to where the ball should go, then take shadow swings aimed at that spot with the contact point adjusted to match.",
+      "steps": [
+        "Set up on a field with bases or cones marking the infield. L-screen at twenty to twenty-five feet, helmet on, everyone else behind the hitter or well behind the screen. Mark the right-side target zone with two cones.",
+        "The tosser announces 'runner on second, nobody out'. The hitter says the job out loud: ground ball to the right side.",
+        "Toss six pitches, mixing inside and outside. The hitter takes inside pitches and drives outside pitches to the right-side zone on the ground. Count how many land in the zone.",
+        "Change the situation to 'runner on third, one out, infield back'. The hitter's job is a ground ball up the middle or a fly ball to the outfield. Toss six pitches.",
+        "Change to 'runner on first, nobody out'. The hitter looks for a pitch to hit on the ground to the right side, staying out of the double play. Toss six pitches.",
+        "Add two strikes to the last situation so the hitter must combine the two-strike approach with the productive-out goal. Toss six pitches.",
+        "Finish by having the hitter call the situation and the job without help for a final six pitches, then review how many productive results came from the whole session."
+      ],
+      "durationMin": 20,
+      "commonMistakes": [
+        {
+          "mistake": "Trying to pull every pitch regardless of where the runner is.",
+          "fix": "Make the right-side zone the only place a ball counts for the whole session. Have the hitter say 'other way' before each pitch and look for the outside half."
+        },
+        {
+          "mistake": "Popping the ball up in the infield when trying to hit a fly ball to score the runner from third.",
+          "fix": "Aim for a line drive to the outfield rather than a fly ball; a hard line drive that carries is the deep fly ball you want. Think top half of the ball, not under it."
+        },
+        {
+          "mistake": "Swinging at an inside pitch with a runner on second and nobody out and grounding to the left side.",
+          "fix": "Practice taking three inside tosses in a row on purpose, then driving the fourth, outside toss to the right side. Taking the wrong pitch is part of the skill."
+        },
+        {
+          "mistake": "Not knowing the situation before stepping into the box.",
+          "fix": "Build a routine: before every at-bat, look at the bases, count the outs on the fingers, and say the job in one sentence."
+        }
+      ],
+      "cues": [
+        "Know the job before you step in",
+        "Right side moves the runner",
+        "Let it travel",
+        "Top half, on the ground",
+        "Take the wrong pitch"
+      ],
+      "safety": [
+        "All tossing to hitters ages eleven to sixteen is done from behind an L-screen, with soft baseballs or tennis balls when a hard ball is not needed.",
+        "This lesson belongs on a full field or a large park with ninety feet of clear space to the right side, since the goal is to hit the ball into the infield.",
+        "The hitter wears a batting helmet, waiting players stand behind the hitter, and any player acting as a pretend fielder on the right side wears a glove and stays on the outfield grass beyond the cones."
+      ],
+      "progression": {
+        "easier": "Work one situation only, runner on second and nobody out, off a tee set on the outside corner so the hitter can groove the opposite-field ground ball before adding a tosser.",
+        "harder": "Add live fielders and a baserunner to each situation, and let the coach give signs so the hitter must combine reading the situation with following a bunt or hit-and-run call.",
+        "nextLessonId": null
+      },
+      "tags": [
+        "situational hitting",
+        "productive out",
+        "hit behind the runner",
+        "move the runner",
+        "runner on second",
+        "runner on third",
+        "right side",
+        "opposite field",
+        "ground ball to the right side",
+        "team hitting",
+        "RBI",
+        "advancing runners"
+      ],
+      "drillIds": [
+        "drill-hit-19",
+        "drill-hit-18"
+      ]
+    },
+    {
+      "id": "hit-20",
+      "title": "From Tee Ball to Coach Pitch: Hitting a Moving Ball",
+      "category": "hitting",
+      "subcategory": "Timing",
+      "ageGroups": [
+        "a7_8"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to track a soft ball pitched overhand by a coach from about twenty feet, start the swing on time, and make contact on at least half of the strikes in a set of ten.",
+      "summary": "The jump from a still ball on a tee to a ball thrown by a coach is the biggest change a young hitter faces. This lesson breaks it into small steps so the swing stays the same while the ball starts to move.",
+      "video": {
+        "status": "placeholder",
+        "note": "A seven-year-old progresses through four clips in one session: tee hits, side soft toss, underhand front toss, and finally overhand coach pitch from twenty feet, with the swing staying the same and the camera highlighting the eyes tracking the ball."
+      },
+      "explanation": [
+        "In tee ball the ball sits still and the hitter can take all the time in the world. In coach pitch a grown-up throws the ball from about twenty feet away, and it arrives in less than a second. The swing does not need to change at all. What changes is that the hitter now has to see the ball coming, decide if it is a good one, and start the swing at the right moment. Those three things, seeing, deciding, and timing, are what this lesson practices.",
+        "Seeing comes first. The hitter watches the coach's throwing hand from the moment the coach lifts the ball. The eyes follow the ball out of the hand, through the air, and all the way to the bat. Children who look at the coach's face or at the field will miss, because the ball is small and fast and the eyes must be on it early. Playing the color-call game from the tracking lesson with the coach pitching, where the child calls the color of a dot on the ball, is a great way to check.",
+        "Deciding means swinging only at good pitches. A good pitch is one that would cross the plate between the hitter's knees and chest. Coach pitch leagues often allow a set number of pitches per batter, so hitters should not swing at balls over their head or in the dirt. A simple rule for seven- and eight-year-olds is: if the ball is coming to your belly, swing; if it is not, let it go and get ready for the next one. Check your league's current Little League rulebook for the pitch count per batter and whether a tee is used after a set number of misses.",
+        "Timing means starting the swing early enough. The load, the little move back from the earlier lessons, starts when the coach's arm goes up. The stride foot lands as the ball leaves the hand, and then the hitter swings. Young hitters who wait until the ball is close before moving will always be late, and late swings miss or foul the ball off. Starting early and being ready to swing is the whole secret.",
+        "The way to teach all of this is a ladder. Hit five balls off the tee to warm up the swing, then five side soft tosses so the ball moves a little. Hit five underhand front tosses from fifteen feet so the ball comes from the pitcher's direction, then ten overhand coach pitches from about twenty feet with a soft ball. Any time swings fall apart, step back one rung and climb again. Most children get there in a few weeks of short sessions with a lot of praise."
+      ],
+      "parentInstructions": [
+        "You will be the pitcher, so you need protection. Throw from behind an L-screen if you have one. If you do not, use only soft safety balls or sponge balls and throw from about twenty feet, which is also the typical coach-pitch distance; the ball can come back at you.",
+        "Throw overhand with an easy, slow, repeatable motion. Lift the ball high so your child can see it, then throw at a speed where the ball arcs gently to belt height. Accuracy matters far more than speed; aim for the belly every time.",
+        "Say 'ready' before each pitch and wait until your child is in the stance with eyes on your hand. Never throw to a child who is looking somewhere else.",
+        "Watch the eyes and the start of the load. If your child does not move until the ball is halfway, say 'start when my arm goes up' before the next pitch.",
+        "Throw in sets of ten pitches with a rest to collect balls together. Three sets of ten is the maximum for a seven-year-old, and finish early if focus fades.",
+        "Count contact, not hits. A foul tip counts as contact. Say the running total out loud so your child hears progress.",
+        "Keep everybody else behind the hitter. Siblings who want to help can stand behind you, well behind the screen, and hand you balls."
+      ],
+      "equipment": [
+        "bat",
+        "soft_ball",
+        "helmet",
+        "tee"
+      ],
+      "equipmentFreeAlternative": "Pitch a rolled sock ball or a crumpled paper ball underhand from ten feet in the yard while the child swings a plastic bat or a broom handle. The ball moves slowly enough to practice eyes, decision, and timing without any real equipment.",
+      "steps": [
+        "Set up on a field or large yard with forty feet of clear space in front of the hitter. The hitter wears a helmet and anyone watching stays behind the hitter and outside the bat zone. Set the L-screen or decide on sponge balls.",
+        "Hit five balls off the tee to warm up the swing, freezing the finish each time.",
+        "Move to side soft toss into open space or a net: five tosses from the open side, ten feet away and a step ahead of the plate.",
+        "Move to underhand front toss from fifteen feet, from behind the screen: five tosses, with the hitter loading as the hand drops.",
+        "Throw three overhand coach pitches with no swing allowed. The hitter tracks each ball to the plate and says 'yes' if it was a good pitch or 'no' if it was not.",
+        "Throw ten overhand coach pitches at an easy speed. The hitter swings only at pitches coming to the belly. Count contact out loud.",
+        "Rest, collect balls together, and throw a second set of ten. Finish with three tee balls so the last swing of the day is a good one."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Swinging late at every pitch because the load does not start until the ball is close.",
+          "fix": "Have the child say 'go' out loud when your arm goes up, and start the load on that word. Throw three pitches with no swing just to practice the early start."
+        },
+        {
+          "mistake": "Swinging at everything, including balls over the head and in the dirt.",
+          "fix": "Throw three obvious bad pitches on purpose and praise each one the child takes. Then mix good and bad pitches and keep score of good decisions."
+        },
+        {
+          "mistake": "Stepping away from the plate as the ball comes, often called stepping in the bucket or bailing out, because the moving ball is scary.",
+          "fix": "Go back to sponge balls and shorter distances for a week, and let the child stand behind a fence while you throw a few pitches so they can watch the ball without worrying about being hit."
+        },
+        {
+          "mistake": "Looking at the parent's face instead of the throwing hand.",
+          "fix": "Hold the ball up high before each pitch and ask the child to point at it with the bat before getting set. Use balls with colored dots and have them call the color at contact."
+        },
+        {
+          "mistake": "Losing the tee swing once the ball moves and swinging with all arms.",
+          "fix": "Step back down the ladder to the tee for three swings, then soft toss, then return to coach pitch. The swing should look the same at every rung."
+        }
+      ],
+      "cues": [
+        "Watch my hand",
+        "Start when the arm goes up",
+        "Belly ball, swing",
+        "Same swing as the tee",
+        "Contact counts"
+      ],
+      "safety": [
+        "Children ages seven and eight hit only soft or safety balls when a ball is pitched at home. Hard baseballs are not pitched to children this age in practice.",
+        "The hitter wears a batting helmet for every pitch and toss. All other children stand behind the hitter and outside the bat zone.",
+        "The adult pitching stands behind an L-screen, or uses sponge or safety balls from twenty feet if no screen is available, and never pitches to a child who is not looking.",
+        "Use a field, park, or large yard with at least forty feet of open space in front of the hitter and nothing breakable in the flight path."
+      ],
+      "progression": {
+        "easier": "Stay on the ladder rungs of tee and side soft toss for the whole session, or throw underhand coach pitch from fifteen feet before trying overhand.",
+        "harder": "Add a pitch count like a game, five or six pitches per at-bat, and have the child run to first base after a hit. Mix in slightly faster pitches once contact is steady.",
+        "nextLessonId": "hit-04"
+      },
+      "tags": [
+        "coach pitch",
+        "moving ball",
+        "tee ball to coach pitch",
+        "swings and misses",
+        "afraid of the pitch",
+        "steps out",
+        "bails out",
+        "late swing",
+        "scared of the ball",
+        "first year of coach pitch",
+        "pitched ball",
+        "timing"
+      ],
+      "drillIds": [
+        "drill-hit-20",
+        "drill-hit-15"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,999 @@
+{
+  "$schema": "lesson",
+  "items": [
+    {
+      "id": "run-01",
+      "title": "Running Through First Base",
+      "category": "baserunning",
+      "subcategory": "Running through first",
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to run from home plate to first base at full speed, touch the front edge of the base without slowing down, and turn right into foul territory after passing it.",
+      "summary": "First base is the only base you can run past. Learn to sprint through the bag, hit the front edge, and turn right so you are never thrown out because you slowed down.",
+      "video": {
+        "status": "placeholder",
+        "note": "A seven-year-old sprinting from home to first past a cone placed ten feet beyond the bag, touching the front edge of the base at full speed and turning right into foul territory, shown from the side and from behind home plate."
+      },
+      "explanation": [
+        "Here is a rule that surprises a lot of new players and parents: you are allowed to run past first base. On every other base you have to stop on the bag or you can be tagged out, but at first base you can run right through it, as long as you turn toward foul territory, the grass outside the first-base line, after you pass it. That means you never have to slow down to stop on the bag.",
+        "Most young runners get thrown out at first because they slow down in the last few steps to land on the base. The throw beats them by half a step. Instead, pretend the base is not the finish line. Run as if you are racing to a cone ten feet past the bag, and let the base be just a step along the way.",
+        "Touch the front edge of the base, the part closest to home plate, with whichever foot gets there. Do not stretch for it or hop onto the middle. Stepping on the front edge is the shortest path, and it keeps your body moving straight ahead instead of jumping up.",
+        "After you pass the bag, slow down over a few steps and turn to your right, into foul territory. Turning right tells the umpire you were not trying to run to second base. Peek over your right shoulder for an overthrown ball. If the ball got past the first baseman and your coach yells 'go,' you can head to second.",
+        "Some fields have a double first base: a white bag and an orange bag side by side. The orange one is for the runner and the white one is for the fielder. If your field has one, run through the orange base. Ask your coach or check your league's current rulebook about how the double base is used in your division."
+      ],
+      "parentInstructions": [
+        "Set up a start line and a 'first base' 40 to 50 feet apart in the yard or park; a jacket, a flat cushion, or a chalk square works. Put a cone, a shoe, or a water bottle about ten feet past the base. That cone is the real finish line.",
+        "Say 'run to the cone, not to the base' before every run. If your child slows down before the bag, move the cone farther out so the base feels like the middle of the race.",
+        "Stand past the cone and to the right of the line so your child runs through the base and naturally turns toward you. Have them look over their right shoulder at you after they pass.",
+        "Watch the feet. The front edge of the base should get stepped on, not jumped on. If your child is leaping to hit the middle of the base, say 'step on the front edge like it's a sidewalk crack.'",
+        "Keep it to six to eight full-speed runs with a walk back in between. Sprinting is tiring for little legs, and a tired runner practices slowing down.",
+        "Make the last two runs a race against you, with you starting two steps behind. Let the race be close and let them win most of them."
+      ],
+      "equipment": [
+        "bases"
+      ],
+      "equipmentFreeAlternative": "Use a chalk square, a folded jacket, or a flat cushion as first base and any object as the cone past it. Nothing else is needed.",
+      "steps": [
+        "Stand at home plate in a batting stance, pretend to swing, and drop the imaginary bat.",
+        "Sprint toward first base with your eyes on the cone ten feet past the bag, not on the bag.",
+        "Step on the front edge of the base with whichever foot gets there, without slowing down or jumping.",
+        "Keep running to the cone, then slow down over a few steps.",
+        "Turn to your right, into foul territory, and look over your right shoulder for the ball.",
+        "Walk back to home plate and repeat six to eight times.",
+        "On the last two runs, race a partner who starts two steps behind you."
+      ],
+      "durationMin": 10,
+      "commonMistakes": [
+        {
+          "mistake": "Slowing down in the last three steps to land on the base.",
+          "fix": "Put the cone ten feet past the bag and make the cone the finish line. Say 'through the bag.'"
+        },
+        {
+          "mistake": "Jumping onto the middle of the base.",
+          "fix": "Step on the front edge like a sidewalk crack. A jump is slower than a step."
+        },
+        {
+          "mistake": "Turning left toward second base after running through.",
+          "fix": "Stand to the right of the line past the cone so the child turns right toward you. Say 'turn right, look right.'"
+        },
+        {
+          "mistake": "Watching the ball while running instead of the base and the cone.",
+          "fix": "Eyes on the cone. The first base coach watches the ball for you."
+        }
+      ],
+      "cues": [
+        "Run to the cone, not the base",
+        "Through the bag",
+        "Front edge",
+        "Turn right, look right",
+        "Don't slow down"
+      ],
+      "safety": [
+        "Use a flat, soft marker for first base in the yard. Never use a hard object or a raised base on concrete, where a trip can cause a fall.",
+        "Make sure the lane past the base is clear for 20 feet so the runner can slow down safely.",
+        "Six to eight sprints with walking rest is enough for ages 4 to 8."
+      ],
+      "progression": {
+        "easier": "Shorten the distance to 30 feet and let the child run to the cone with no base at all, then add the base back as a step along the way.",
+        "harder": "Add a partner who tosses a ball toward 'first base' as the runner leaves home; the runner races the ball and peeks right for an overthrow after passing the bag.",
+        "nextLessonId": "run-10"
+      },
+      "tags": [
+        "run through first",
+        "slows down at first",
+        "first base",
+        "turn right",
+        "foul territory",
+        "front edge of the bag",
+        "thrown out at first",
+        "tee ball baserunning",
+        "orange base",
+        "ages 4-8"
+      ],
+      "drillIds": [
+        "drill-run-01"
+      ]
+    },
+    {
+      "id": "run-02",
+      "title": "Rounding First on a Hit",
+      "category": "baserunning",
+      "subcategory": "Rounding bases",
+      "ageGroups": [
+        "a7_8",
+        "a9_10"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to run a curved path from home that lets them touch the inside corner of first base at speed, take a hard turn toward second, and either keep going or stop and get back safely.",
+      "summary": "When the ball goes to the outfield, you do not run through first; you round it. Learn the banana-shaped path, the inside-corner touch, and the hard turn that lets you take second when the outfielder bobbles the ball.",
+      "video": {
+        "status": "placeholder",
+        "note": "Overhead view of a nine-year-old running a banana-shaped path from home, touching the inside corner of first base, taking a hard turn ten to fifteen feet toward second, then stopping and shuffling back when the outfielder comes up throwing."
+      },
+      "explanation": [
+        "If the ball is hit to the outfield, running straight through first base is wrong, because you would be heading toward the dugout when you should be heading toward second. Instead, you round first: run a curved path so that you touch the base already turned toward second. Coaches call the path a banana or a question mark.",
+        "Start down the line as if you are running through first. About a third of the way, drift a few steps to your right, into foul territory, then bend back toward the base. By the time you reach the bag, your body should be leaning left toward the infield and your path should point at second base. The curve looks like a banana from above.",
+        "Touch the inside corner of the base, the corner closest to the pitcher, and push off it toward second. Many coaches teach using the left foot, but do not take choppy little steps to make that happen. Whichever foot arrives, hit the inside corner and keep your speed.",
+        "After the bag, take a hard turn: ten to fifteen feet toward second with your eyes on the ball and ears on the first base coach. If the outfielder bobbles the ball or throws to the wrong base, go. If the ball comes in cleanly, stop, turn your chest toward the ball, and shuffle back to first without turning your back on the fielder.",
+        "The hard turn is what makes rounding worth it. A runner who stops on the bag can never take the extra base. A runner who rounds and stops fifteen feet out puts pressure on the defense every single time."
+      ],
+      "parentInstructions": [
+        "Set up home and first base 50 to 60 feet apart in a park or backyard, with a second base about 60 feet beyond first at a right angle, or just a cone in that direction. Place a cone in foul territory about 20 feet from home to show where the drift begins.",
+        "Walk the banana path with your child first, holding hands if they are young. Say 'out to the cone, bend back to the bag, lean to second.' Then jog it, then run it.",
+        "Stand near second base holding a ball. After your child touches first, either hold the ball still (meaning 'the fielder has it, stop') or drop it (meaning 'bobble, go!'). This makes the turn a decision instead of a habit.",
+        "Watch the base touch. The inside corner should get hit at speed. If your child slows to a shuffle to hit it with a particular foot, say 'any foot, inside corner, keep running.'",
+        "Watch the stop. When you hold the ball still, your child should stop 10 to 15 feet past first, face you, and shuffle back without turning their back. If they turn and jog back casually, remind them a thrown ball could be coming.",
+        "Six to eight full runs is plenty. Rounding first is a sprint followed by a sprint, so rest by walking back."
+      ],
+      "equipment": [
+        "bases",
+        "cones"
+      ],
+      "equipmentFreeAlternative": "Use chalk squares or jackets for bases and a shoe for the drift cone. A parent standing at 'second base' with any ball or even a hat can give the go-or-stop signal.",
+      "steps": [
+        "Place a cone in foul territory about 20 feet from home to mark where the drift begins. Walk the banana path once, then jog it once.",
+        "From a batting stance, swing and run toward first. At the cone, drift a few steps to your right.",
+        "Bend back toward the base so that you reach it leaning left, with your path pointing at second.",
+        "Touch the inside corner of the base with whichever foot arrives and push off toward second.",
+        "Take a hard turn 10 to 15 feet toward second, eyes on the partner at second base.",
+        "Partner drops the ball: sprint to second. Partner holds the ball still: stop, face the partner, and shuffle back to first.",
+        "Repeat six to eight times with a mix of go and stop signals.",
+        "Finish with two runs from home all the way to second, rounding first at full speed."
+      ],
+      "durationMin": 10,
+      "commonMistakes": [
+        {
+          "mistake": "Running straight down the line and making a sharp square turn at the bag.",
+          "fix": "Drift out at the cone. The curve has to start early or the turn at the bag is slow and wide."
+        },
+        {
+          "mistake": "Stutter-stepping to hit the base with a particular foot.",
+          "fix": "Any foot, inside corner, full speed. Fix the start of the path, not the foot."
+        },
+        {
+          "mistake": "Stopping on the bag instead of taking a hard turn.",
+          "fix": "Make the turn automatic: 10 to 15 feet every time, then decide. A runner on the bag can never take the extra base."
+        },
+        {
+          "mistake": "Turning your back on the ball while returning to first.",
+          "fix": "Stop, face the ball, shuffle back. Never jog back with your back to the fielder."
+        },
+        {
+          "mistake": "Drifting too far into foul territory and running extra distance.",
+          "fix": "The drift is a few steps, not a trip to the fence. Move the cone closer to the line."
+        }
+      ],
+      "cues": [
+        "Out to the cone, bend to the bag",
+        "Inside corner",
+        "Lean to second",
+        "Hard turn, then decide",
+        "Face the ball, shuffle back"
+      ],
+      "safety": [
+        "Use flat markers for bases in the yard so a runner leaning into the turn cannot roll an ankle on a raised edge.",
+        "Keep the turn area past first clear of other players for 20 feet.",
+        "Rest by walking back between runs; a tired runner cuts corners and trips."
+      ],
+      "progression": {
+        "easier": "Walk the banana path with the parent, then jog it with no signal at second. Add the go-or-stop signal once the path is right.",
+        "harder": "Replace the signal with a real throw: a partner in the outfield fields a rolled ball and throws to second while the runner reads whether to go or stop.",
+        "nextLessonId": "run-07"
+      },
+      "tags": [
+        "rounding first",
+        "banana turn",
+        "inside corner",
+        "hard turn",
+        "stops on the base",
+        "extra base",
+        "runs straight through on a hit",
+        "question mark path",
+        "coach pitch baserunning",
+        "ages 7-10"
+      ],
+      "drillIds": [
+        "drill-run-02"
+      ]
+    },
+    {
+      "id": "run-03",
+      "title": "Tagging Up on Fly Balls",
+      "category": "baserunning",
+      "subcategory": "Tagging up",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to recognize a catchable fly ball, return to the base, watch the ball into the fielder's glove, and leave the base at the moment of the catch to advance.",
+      "summary": "On a fly ball, a runner cannot just take off. Learn what tagging up means, when to do it, and how to time your break so you leave the base exactly when the ball is caught, never early.",
+      "video": {
+        "status": "placeholder",
+        "note": "A runner on third with one out watching a fly ball to center field, standing with the foot on the base and eyes on the outfielder, then sprinting home the instant the ball hits the glove, with a replay showing the foot leaving the base at the catch."
+      },
+      "explanation": [
+        "A fly ball is a ball hit in the air. If a fielder catches it before it touches the ground, the batter is out, and every runner must have touched their base after the catch before they can advance. Going back to the base and waiting for the catch is called tagging up. If you leave early, the defense can throw the ball to your base and the umpire can call you out.",
+        "So on any fly ball with fewer than two outs, your first move is back, not forward. Get to the base and put your foot on it. Then decide: if the ball is deep enough that you could reach the next base after the catch, you will tag and go. If it is shallow, you will tag and stay. With two outs, none of this applies; the batter is out and the inning is over, so just run on contact.",
+        "To tag up, stand on the base with your back foot on the edge closest to where you came from and your body already turned toward the next base, like a sprinter in the blocks. Watch the ball, not the fielder's feet. The instant the ball touches the glove, go. Not when the fielder starts to throw, not when the coach yells. When the ball touches the glove.",
+        "Runners on third tag on almost any fly ball to the outfield with fewer than two outs; a sacrifice fly, a fly ball deep enough to score the runner from third, is one of the most common ways to score in Little League. Runners on second tag on deep fly balls to right or center. Runners on first usually only tag on very deep flies, because the throw to second is short.",
+        "If you cannot decide whether the ball will be caught, there is a middle choice: go partway, about a third of the way to the next base, and watch. If it drops, run. If it is caught, hurry back. Your third base coach will help you decide, but you must watch the ball yourself."
+      ],
+      "parentInstructions": [
+        "Set up a base and a 'next base' about 60 feet apart; chalk or jackets are fine. Stand 30 to 40 feet away from the base as the outfielder with a tennis ball or soft ball.",
+        "Toss the ball high in the air to yourself. Your child, standing on the base, should turn toward the next base and watch the ball. When it hits your hands, they sprint.",
+        "Catch some and drop some on purpose. On a drop, your child should be running the moment they see it will not be caught. On a catch, they leave exactly at the catch.",
+        "Watch the foot. If it leaves the base before the ball touches your hands, say 'early, that's an out' and do it again. Kids learn timing fast when the early break is called every time.",
+        "Add the two-outs rule by calling the outs before each toss. On 'two outs,' the child should run immediately when you toss, without tagging.",
+        "Eight to ten reps is a good session. Mix catches, drops, and out counts so your child is thinking, not guessing."
+      ],
+      "equipment": [
+        "bases",
+        "tennis_ball"
+      ],
+      "equipmentFreeAlternative": "Use a rolled sock or any soft ball tossed into the air and a chalk square or jacket as the base. The runner reads the catch exactly the same way.",
+      "steps": [
+        "Stand on the base with your back foot on the edge and your body turned toward the next base, like a sprinter.",
+        "Partner, 30 to 40 feet away, calls the number of outs and tosses a ball high into the air.",
+        "With fewer than two outs, keep your foot on the base and watch the ball into the partner's hands.",
+        "The instant the ball touches the glove or hands, sprint to the next base.",
+        "If the partner drops the ball, sprint as soon as you see it will not be caught.",
+        "With two outs, sprint the moment the ball is tossed.",
+        "Repeat eight to ten times with a mix of catches, drops, and out counts.",
+        "Finish with three reps from 'third base' where you tag and score on a catch."
+      ],
+      "durationMin": 10,
+      "commonMistakes": [
+        {
+          "mistake": "Leaving the base before the catch.",
+          "fix": "Watch the ball touch the glove, then go. A partner calls 'early' every time the foot leaves first."
+        },
+        {
+          "mistake": "Waiting for the fielder to throw before leaving.",
+          "fix": "Go on the catch, not the throw. The throw is already too late."
+        },
+        {
+          "mistake": "Standing flat-footed on the base facing the fielder.",
+          "fix": "Sprinter position: back foot on the base, body turned toward the next base, weight forward."
+        },
+        {
+          "mistake": "Running on a fly ball with fewer than two outs and getting doubled off.",
+          "fix": "First move is back. Call the outs out loud before every pitch so the plan is set."
+        },
+        {
+          "mistake": "Watching the base coach instead of the ball.",
+          "fix": "Watch the ball; listen to the coach. Your eyes are closer to the play than the coach's voice."
+        }
+      ],
+      "cues": [
+        "Fly ball, go back",
+        "Foot on the bag, sprinter stance",
+        "Watch the ball into the glove",
+        "Go on the catch",
+        "Two outs, run on contact"
+      ],
+      "safety": [
+        "Use a tennis ball or soft ball for the toss so a missed catch cannot hurt the partner.",
+        "Keep the base path clear and use flat base markers so a sprinting runner cannot trip.",
+        "Eight to ten sprints with walking rest is a full session."
+      ],
+      "progression": {
+        "easier": "Partner tosses the ball only 10 feet high and calls 'catch' as it lands in the hands, so the runner hears and sees the moment together.",
+        "harder": "Add a second partner at the next base with a glove. The outfielder catches and throws; the runner tags and tries to beat the throw. Use a soft ball and no tags on the body.",
+        "nextLessonId": "run-06"
+      },
+      "tags": [
+        "tagging up",
+        "tag up",
+        "fly ball",
+        "sacrifice fly",
+        "leaves early",
+        "doubled off",
+        "runs on a fly ball",
+        "runner on third",
+        "timing the catch",
+        "ages 9-12"
+      ],
+      "drillIds": [
+        "drill-run-03"
+      ]
+    },
+    {
+      "id": "run-04",
+      "title": "Reading the Ball Off the Bat",
+      "category": "baserunning",
+      "subcategory": "Reading the ball",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to tell a ground ball, a line drive, and a fly ball apart in the first step after contact and respond with the right move: go, freeze, or halfway.",
+      "summary": "Great baserunners decide in the first step. Learn the three kinds of batted balls and the one-word reaction to each: ground ball go, line drive freeze, fly ball halfway or tag.",
+      "video": {
+        "status": "placeholder",
+        "note": "A runner on first taking a first step on contact, with freeze-frames of a ground ball, a line drive, and a fly ball off the bat and the correct reaction labeled on each: go, freeze, halfway."
+      },
+      "explanation": [
+        "A runner has about half a second after the bat hits the ball to make the right move. You cannot think your way through it; you have to recognize what kind of ball it is and react. There are three kinds of batted balls, and each one has a simple reaction.",
+        "A ground ball bounces on the infield dirt or grass. If you are forced to run, meaning there is a runner on every base behind you including the batter, you go immediately. The first step is toward the next base and you do not look back. If you are not forced, you still usually go on a ground ball hit behind you or to the right side, but we will cover those choices in a later lesson.",
+        "A line drive is hit hard and straight, not high. With fewer than two outs, a line drive is dangerous for a runner because an infielder can catch it and throw to your base before you get back. The reaction is freeze: stop your feet, watch for one beat, and go only if the ball gets past the infielders or hits the ground.",
+        "A fly ball goes high into the air. With fewer than two outs, you either tag up if it is deep (see the tagging-up lesson) or go halfway, about a third to half of the way to the next base, and watch. If it is caught, hurry back. If it drops, run. With two outs, there is no decision: run hard on anything hit, because a catch ends the inning anyway and a drop means you need to be moving.",
+        "Say the words as you practice until they are automatic: 'ground ball, go; line drive, freeze; fly ball, halfway.' Then add the out count before each rep, because two outs changes everything to 'go.'"
+      ],
+      "parentInstructions": [
+        "Set up first and second base about 60 feet apart with chalk or jackets. Your child stands on first in a ready stance. You stand near home plate, 40 to 50 feet away, with a tennis ball.",
+        "Call the number of outs, then throw the ball: a roller along the ground, a hard low throw past your child (the line drive), or a high toss (the fly ball). You are the batter.",
+        "Your child reacts and says the word out loud: 'go,' 'freeze,' or 'halfway.' Saying it helps them notice when they got it wrong.",
+        "Start slow so the child reads the ball correctly, then speed up. Mix the three types and the out counts so there is no pattern to memorize.",
+        "Watch the first step. On a ground ball it should be toward second instantly. On a line drive the feet should stop. On a fly ball the child should move partway and watch you.",
+        "Keep the session to 12 to 15 reps. This is a thinking drill; stop before the thinking gets sloppy."
+      ],
+      "equipment": [
+        "bases",
+        "tennis_ball"
+      ],
+      "equipmentFreeAlternative": "Use a rolled sock and chalk or jacket bases. A parent can also simply call 'ground ball,' 'line drive,' or 'fly ball' with no ball at all for the first few reps so the words and movements match.",
+      "steps": [
+        "Stand on first base in a ready stance: knees bent, weight on the balls of your feet, eyes on the 'batter.'",
+        "Partner calls the outs, then throws a ground ball, a line drive, or a fly ball.",
+        "Ground ball: sprint toward second on the first step and say 'go.'",
+        "Line drive: stop your feet, say 'freeze,' watch one beat, then go only if it gets through or hits the ground.",
+        "Fly ball: move a third of the way to second, say 'halfway,' and watch. Caught: hurry back. Dropped: sprint.",
+        "Two outs: sprint on any ball and say 'go.'",
+        "Repeat 12 to 15 times with a random mix of balls and out counts.",
+        "Finish with three reps where the partner stays silent about the outs and you must ask before the pitch."
+      ],
+      "durationMin": 10,
+      "commonMistakes": [
+        {
+          "mistake": "Running on a line drive and getting doubled off first.",
+          "fix": "Freeze on anything hit hard and straight. One beat, then decide."
+        },
+        {
+          "mistake": "Standing still on a ground ball when forced.",
+          "fix": "Ground ball go. If there is a runner on every base behind you, there is no choice."
+        },
+        {
+          "mistake": "Going all the way to the next base on a fly ball with fewer than two outs.",
+          "fix": "Halfway and watch. Far enough to score the next base if it drops, close enough to get back if it is caught."
+        },
+        {
+          "mistake": "Forgetting the out count.",
+          "fix": "Say the outs out loud before every pitch. Two outs means run on everything."
+        }
+      ],
+      "cues": [
+        "Ground ball, go",
+        "Line drive, freeze",
+        "Fly ball, halfway",
+        "Know the outs",
+        "First step tells the story"
+      ],
+      "safety": [
+        "Use a tennis ball or soft ball so a line drive thrown past the runner cannot cause injury if it is misjudged.",
+        "Keep the base path clear and the base markers flat.",
+        "This is a reaction drill, not a conditioning drill. Walk back between reps."
+      ],
+      "progression": {
+        "easier": "Partner calls the type of ball out loud as they throw it. The child only has to match the word to the movement.",
+        "harder": "A batter hits soft toss or tee balls with a safety ball while the runner reads real contact. Add a fielder who sometimes catches and sometimes drops the fly balls.",
+        "nextLessonId": "run-03"
+      },
+      "tags": [
+        "reading the ball",
+        "ground ball line drive fly ball",
+        "freeze on a line drive",
+        "halfway",
+        "doubled off",
+        "runs on everything",
+        "first step",
+        "runner on first",
+        "baserunning decisions",
+        "ages 9-12"
+      ],
+      "drillIds": [
+        "drill-run-04"
+      ]
+    },
+    {
+      "id": "run-05",
+      "title": "Leads and Secondary Leads (Where Your Division Allows Them)",
+      "category": "baserunning",
+      "subcategory": "League-specific baserunning rules",
+      "ageGroups": [
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to state whether their division allows leads, take a safe primary and secondary lead where leads are allowed, and time the first movement off the base to the pitch reaching the batter where they are not.",
+      "summary": "Leading off is not allowed everywhere. In many Little League divisions you must stay on the base until the pitch reaches the batter. Learn what your division allows, and how to take leads safely where you can.",
+      "video": {
+        "status": "placeholder",
+        "note": "Side-by-side clips: a Majors-division runner keeping a foot on the base until the pitch reaches the batter and then breaking toward second, and a Junior-division runner taking a three-shuffle primary lead, a two-shuffle secondary lead timed to the pitch, and diving back on a pickoff attempt."
+      },
+      "explanation": [
+        "A lead is when a runner steps off the base toward the next base before the pitch, to get a head start. Before you learn how to do it, you need to know whether you are allowed to. In many Little League divisions, including the Major Division and below, runners may not leave the base until the pitch reaches the batter. If you leave early, the umpire can send you back or call you out, depending on the situation and the rule. Leads are used only in divisions whose rules allow them, usually the Intermediate (50/70), Junior, and Senior divisions. Rules change, so check your league's current Little League rulebook and ask your coach what your division allows this season.",
+        "In a no-lead division, your head start comes from timing, not distance. Stand on the base in a ready stance with your left foot on the edge closest to the next base and your eyes on the pitcher. Watch the pitch travel. The moment it reaches the batter, push off the base with a quick first step and a couple of hard shuffles, then read the play: a passed ball or a ground ball means go, a line drive means freeze, a caught pitch means get back. Leaving one blink early is an out or a wasted at-bat, so practice the timing until it is honest.",
+        "In a division that allows leads, the primary lead is the distance you step off before the pitch. Start with two or three shuffle steps, never crossing your feet, with your knees bent and your weight balanced so you can go either way. Your coach will tell you how far is safe against each pitcher; a good test is that you can get back to the bag with one quick push and step. Watch the pitcher the whole time, not the catcher or the batter.",
+        "The secondary lead happens as the pitcher delivers. Take two more controlled shuffles toward the next base so that you land in a balanced, athletic position right as the pitch crosses the plate. From there you can break on a ball in the dirt or a hit, or hurry back if the catcher catches it cleanly and looks your way. The secondary lead is about rhythm: shuffle, shuffle, land, read.",
+        "Getting back matters as much as getting off. On a pickoff attempt, a throw to your base while you are leading, get back fast and low, returning to the corner of the base farthest from the fielder with your hand or foot. Younger divisions that allow leads often have limits on head-first dives, so ask your coach what is allowed and practice a quick step-back first. Leads are earned by being safe, not by being brave."
+      ],
+      "parentInstructions": [
+        "Before you practice anything, find out what your child's division allows this season. Ask the coach and look at the league's current Little League rulebook. Do not rely on what an older sibling or a travel team did.",
+        "For a no-lead division, stand 45 feet from the base as the pitcher and make slow, obvious throws to a target (a bucket or a partner) at the 'batter.' Your child's first movement off the base must happen as the ball reaches the target, not when your arm starts.",
+        "Call 'early' any time the foot leaves before the ball arrives. Make the standard strict; in a game, early is an out or a wasted play.",
+        "For a lead division, mark two or three shuffle steps from the base with chalk and have your child practice getting there and back with one push and step. Then add your slow pitching motion and the two-shuffle secondary.",
+        "Practice pickoffs with a soft ball at half speed: turn and toss toward the base so your child practices getting back low and fast, stepping back first before any dive.",
+        "Keep leads to 10 to 12 reps. The skill is timing and balance, and both get worse when tired."
+      ],
+      "equipment": [
+        "bases",
+        "soft_ball"
+      ],
+      "equipmentFreeAlternative": "Use chalk squares for bases and a rolled sock as the ball. A parent can pretend to pitch with no ball at all, calling 'now' when the imaginary pitch would reach the batter, so the runner practices the timing of the first step.",
+      "steps": [
+        "Confirm with a coach or the league's current rulebook whether your division allows leads. Write the answer at the top of your notes.",
+        "No-lead division: stand on the base with your left foot on the edge toward the next base, knees bent, eyes on the 'pitcher' 45 feet away.",
+        "No-lead division: as the pitch reaches the batter (the partner's target), push off with a hard first step and two shuffles, then read: go, freeze, or get back. Partner calls 'early' if your foot leaves first.",
+        "Lead division: take a primary lead of two or three shuffle steps, feet never crossing, weight balanced. Prove you can get back with one push and step.",
+        "Lead division: as the pitcher's motion begins, take two controlled shuffles (the secondary lead) and land balanced as the pitch crosses the plate.",
+        "Lead division: on a soft-ball pickoff toss, step back fast and low to the far corner of the base.",
+        "Repeat 10 to 12 reps, mixing pitches, pickoffs, and go-or-get-back calls.",
+        "End by stating your division's rule out loud one more time."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Leaving the base before the pitch reaches the batter in a no-lead division.",
+          "fix": "Watch the ball all the way to the batter. Partner calls 'early' every time until the timing is honest."
+        },
+        {
+          "mistake": "Crossing the feet while shuffling out on a lead.",
+          "fix": "Shuffle, never cross. Crossed feet cannot go back on a pickoff."
+        },
+        {
+          "mistake": "Taking a lead so big you cannot get back with one step.",
+          "fix": "Shorten it. A lead you cannot return from is a gift to the defense."
+        },
+        {
+          "mistake": "Watching the batter or the catcher instead of the pitcher.",
+          "fix": "Eyes on the pitcher until the ball leaves the hand, then find the ball."
+        },
+        {
+          "mistake": "Assuming the rule is the same as last season or another league.",
+          "fix": "Check your league's current Little League rulebook every season and ask the coach."
+        }
+      ],
+      "cues": [
+        "Know your division's rule",
+        "Pitch reaches the batter, then go",
+        "Shuffle, never cross",
+        "Land balanced as it crosses the plate",
+        "Back fast and low"
+      ],
+      "safety": [
+        "Practice pickoffs with a soft ball at half speed, and teach a quick step-back before any dive. Many divisions limit head-first slides; check the current rulebook.",
+        "Use flat base markers in the yard; runners pushing off and returning hard can turn an ankle on a raised edge.",
+        "Rules about leaving the base vary by division and by year. Confirm them with your league before teaching a lead to a child who plays in a division that does not allow it."
+      ],
+      "progression": {
+        "easier": "No-lead timing only, with the parent saying 'now' as the imaginary pitch reaches the batter. No pickoffs, no secondary lead.",
+        "harder": "Add a live catcher with a soft ball who sometimes throws behind the runner after the pitch, so the runner must land balanced on the secondary and read the catcher.",
+        "nextLessonId": "run-09"
+      },
+      "tags": [
+        "leads",
+        "leading off",
+        "secondary lead",
+        "can my kid lead off",
+        "little league lead rules",
+        "leaves early",
+        "pickoff",
+        "stealing",
+        "intermediate 50/70",
+        "juniors",
+        "majors rules",
+        "ages 11-16"
+      ],
+      "drillIds": [
+        "drill-run-05"
+      ]
+    },
+    {
+      "id": "run-06",
+      "title": "Sliding Fundamentals: The Bent-Leg Slide",
+      "category": "baserunning",
+      "subcategory": "Sliding fundamentals",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to perform a bent-leg (figure-four) slide on grass, starting two to three body lengths from the base, with hands up, chin tucked, and the extended leg reaching the base.",
+      "summary": "Sliding is how you reach a base without being tagged and without crashing into anyone. Learn the bent-leg slide step by step on soft grass or cardboard, with the hands up and the feet first.",
+      "video": {
+        "status": "placeholder",
+        "note": "A ten-year-old learning the bent-leg slide in stages on wet grass: sitting into the figure-four position from a standstill, then from a jog, then from a run into a loose base, with a side view freeze-frame showing hands up, chin tucked, and the lead heel reaching the bag."
+      },
+      "explanation": [
+        "Sliding has two purposes: it gets your foot to the base low and fast so a tag has to come down to reach you, and it lets you stop on the base without running past it or colliding with a fielder. Players who do not know how to slide either run into fielders or stay standing and get tagged out. Sliding is a skill, not a dive, and it is learned slowly on soft ground.",
+        "The first slide to learn is the bent-leg slide, sometimes called the figure-four because of the shape your legs make. As you run toward the base, pick a start point two to three body lengths away, about eight to twelve feet for a ten-year-old. Starting later than that means you slide into the base too fast and can jam your foot; starting earlier means you stop short.",
+        "At the start point, bend one leg and tuck it under the other so your bottom leg lies flat on the ground and your top leg extends toward the base with a slight bend in the knee and the toe up a little. Sit down onto the side of your bent leg and your lower back, not onto your tailbone. Your extended heel slides into the base. Keep your chin tucked toward your chest so your head does not snap back.",
+        "Hands up. Throw both hands up in the air as you sit down, or hold a batting glove or a handful of grass in each fist. Hands that reach for the ground get jammed fingers and scraped palms. Your arms also help you keep your balance so you slide straight.",
+        "Most leagues do not allow head-first slides for younger players when advancing to a base, and some require a runner to slide or avoid contact when a fielder has the ball at the base. Never slide head-first into home plate at young ages; the catcher is wearing gear and you are not. These rules vary by division and change over time, so check your league's current Little League rulebook and ask your coach. Also, do not slide into first base on a routine ground ball; running through is faster."
+      ],
+      "parentInstructions": [
+        "Pick the surface before anything else: soft, dry grass with no rocks or sprinkler heads, or a large flattened cardboard box laid on grass. Slightly damp grass slides easier. Never practice on dirt with a hard anchored base, on concrete, or in a garage.",
+        "Start with your child sitting on the ground. Show the figure-four shape: one leg bent and tucked, the other leg extended with the knee a little bent and the toe up. Have them lie back on the side of the bent leg with hands up and chin tucked. Hold the shape for a few seconds, three times.",
+        "Next, from a standstill, have them take two steps and sit into the slide shape onto the grass or cardboard. Then from a slow jog. Then from a run. Each stage should be comfortable before the next.",
+        "Mark the start point with a cone two to three body lengths from a loose, flat base marker like a folded towel. Say 'sit down at the cone' every time; kids tend to wait too long.",
+        "Watch three things: hands up, chin tucked, and sitting onto the side of the leg rather than the tailbone. If the hands drop, give them a batting glove or a ball of grass to hold.",
+        "Keep sessions to about eight slides. Long pants and, if you have them, sliding shorts protect the skin. If your child is scared, stay at the sit-down stage longer and make the base a pillow; fear fades when nothing hurts."
+      ],
+      "equipment": [
+        "bases"
+      ],
+      "equipmentFreeAlternative": "A flattened cardboard box on grass and a folded towel as the base are all you need. The figure-four shape can be learned sitting on a living room floor with no sliding at all.",
+      "steps": [
+        "Sit on the grass and make the figure-four: one leg bent and tucked under, the other leg extended with the knee slightly bent and the toe up. Lie back on the side of the bent leg, hands up, chin tucked. Hold three times.",
+        "Stand two steps from a folded towel (the base). Walk two steps and sit down into the figure-four so your extended heel reaches the towel.",
+        "Place a cone two to three body lengths from the towel. Jog to the cone and sit into the slide, hands up.",
+        "Run at about three-quarter speed to the cone and slide, letting your heel reach the towel and your momentum carry you.",
+        "Stand up by rolling onto the bent knee and pushing up with your hands, ready to run again.",
+        "Repeat for a total of about eight slides, resting between each.",
+        "Finish by saying out loud what your league allows: feet first on all bases, and ask the coach about the slide-or-avoid rule."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Starting the slide too late and jamming the foot into the base.",
+          "fix": "Sit down at the cone, two to three body lengths out. Move the cone farther from the base if the heel keeps arriving fast."
+        },
+        {
+          "mistake": "Hands reaching for the ground.",
+          "fix": "Hands up or hold a batting glove or a ball of grass in each fist."
+        },
+        {
+          "mistake": "Sitting straight down on the tailbone.",
+          "fix": "Lean onto the side of the bent leg and the lower back. Practice the shape sitting still first."
+        },
+        {
+          "mistake": "Extended leg locked straight with the toe pointed down, catching the cleat.",
+          "fix": "Slight bend in the knee, toe up, heel reaching for the bag."
+        },
+        {
+          "mistake": "Head-first dives, especially into home plate.",
+          "fix": "Feet first every time. Most divisions do not allow head-first slides when advancing; check the league's current rulebook."
+        }
+      ],
+      "cues": [
+        "Sit down at the cone",
+        "Figure four",
+        "Hands up",
+        "Chin tucked",
+        "Heel to the bag",
+        "Feet first, always"
+      ],
+      "safety": [
+        "Practice only on soft, dry or slightly damp grass or on flattened cardboard laid on grass, with a loose flat marker as the base. Never slide into a hard or anchored base on dirt, concrete, or in a garage.",
+        "Check the area for rocks, sticks, sprinkler heads, and holes before the first slide. Long pants or sliding shorts protect the skin.",
+        "Head-first slides are not allowed for younger players when advancing in most leagues, and never into home plate at these ages. Check your league's current Little League rulebook.",
+        "If a slide causes pain in the ankle, knee, or wrist, stop sliding for the day and tell a parent or coach; do not try to work through it."
+      ],
+      "progression": {
+        "easier": "Stay at the sit-and-hold stage and the two-step slide onto cardboard until the shape is automatic, with a pillow as the base.",
+        "harder": "Add a partner standing beside the base who holds a glove low (no ball) so the runner practices sliding to the side of the base away from the tag.",
+        "nextLessonId": "run-05"
+      },
+      "tags": [
+        "sliding",
+        "bent-leg slide",
+        "figure four",
+        "scared to slide",
+        "how to slide",
+        "head first slide rules",
+        "slide or avoid",
+        "cardboard slide",
+        "sliding practice at home",
+        "ages 9-12"
+      ],
+      "drillIds": [
+        "drill-run-06"
+      ]
+    },
+    {
+      "id": "run-07",
+      "title": "Force or Tag? Knowing When You Must Run",
+      "category": "baserunning",
+      "subcategory": "Situational decisions",
+      "ageGroups": [
+        "a7_8",
+        "a9_10"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to look at the runners on base before each pitch and say whether they are forced to run on a ground ball, and know that a fly ball caught in the air removes that force.",
+      "summary": "Sometimes you have to run and sometimes you get to choose. Learn the one question that tells you which: is there a runner on every base behind me?",
+      "video": {
+        "status": "placeholder",
+        "note": "An animated diamond showing runners added one at a time, with each runner lighting up as 'forced' or 'not forced,' followed by a live clip of a runner on first sprinting on a ground ball and a runner on second holding until the ball goes through."
+      },
+      "explanation": [
+        "Two runners cannot share a base. That simple rule creates the force play. When the batter hits the ball on the ground, the batter must run to first. If you are on first, you must leave to make room, so you are forced to run to second. If someone is also on second, they are forced to third, and so on. A force means the defense only has to touch the base before you get there to get you out; they do not have to touch you.",
+        "If there is an empty base behind you, you are not forced. A runner on second with first base empty does not have to run on a ground ball. To get you out, a fielder has to tag you, which means touching you with the ball or with the glove holding the ball. That is a tag play, and you get to choose whether to run.",
+        "So the question to ask before every pitch is: is there a runner on every base behind me, including the batter at home plate? If yes, you are forced on a ground ball and you run right away. If no, you can wait and watch. Say the answer in your head before the pitch so you are not figuring it out while the ball is rolling.",
+        "A fly ball changes the answer. If the ball is caught in the air, the batter is out and does not become a runner, so nobody is forced anymore. That is why you go back toward your base on a fly ball with fewer than two outs. And with two outs, the question does not matter: run hard on anything, because a third out ends the inning no matter how it happens.",
+        "Knowing force from tag also helps you understand what the defense is trying to do. With a runner forced, the fielders go for the base. Without a force, they have to chase you with a tag. Your coaches will help, but the fastest runners already know the answer before the pitch."
+      ],
+      "parentInstructions": [
+        "Set up a small diamond in the yard with chalk, jackets, or cushions: home, first, second, third, about 30 to 40 feet apart. You do not need real distances to teach this.",
+        "Use people or objects as runners. Put a shoe on first and ask: 'If the batter hits a ground ball, does the shoe have to run?' Then move the shoe to second with first empty and ask again. Then shoes on first and second. Let your child move the shoes and explain.",
+        "Turn it into a game: your child stands on a base, you call out where the other runners are ('runner on first and you,' or 'just you on second'), then you roll a ball. They run or stay and say 'forced' or 'not forced.'",
+        "Add fly balls by tossing the ball in the air instead of rolling it. Your child should take a step back toward the base and say 'no force, go back.'",
+        "Add two outs: say 'two outs' before some rolls and expect a sprint no matter what.",
+        "Ten to twelve reps is plenty. Praise the right word even when the feet are slow; the feet catch up once the thinking is right."
+      ],
+      "equipment": [
+        "bases"
+      ],
+      "equipmentFreeAlternative": "Chalk squares or jackets for bases, shoes as the other runners, and a rolled sock as the ball. Nothing else is needed, and the first half of the lesson can be done at the kitchen table with coins on a napkin diamond.",
+      "steps": [
+        "Lay out a small diamond with four markers 30 to 40 feet apart.",
+        "Partner places shoes on some bases as runners and you stand on another. Say out loud whether you are forced, using the question: 'Is there a runner on every base behind me, including the batter?'",
+        "Partner rolls a ground ball. Forced: sprint to the next base immediately. Not forced: hold at the base, watch the ball, and say 'not forced.'",
+        "Partner tosses a fly ball instead. Take a step back toward your base and say 'no force, go back.'",
+        "Partner calls 'two outs' before a roll. Sprint on anything.",
+        "Switch places so you set up the runners and your partner answers.",
+        "Repeat for ten to twelve reps with different runner setups."
+      ],
+      "durationMin": 10,
+      "commonMistakes": [
+        {
+          "mistake": "Running on a ground ball from second with first base empty and getting tagged out.",
+          "fix": "Ask the question first: 'Is anyone behind me?' Empty base behind you means you can wait."
+        },
+        {
+          "mistake": "Standing on first on a ground ball and getting forced out at second.",
+          "fix": "Runner on first is always forced on a ground ball. Say 'forced, go' before the pitch."
+        },
+        {
+          "mistake": "Running on a fly ball with fewer than two outs because 'I was forced.'",
+          "fix": "A catch erases the force. Fly ball means go back first."
+        },
+        {
+          "mistake": "Forgetting about the batter as a runner.",
+          "fix": "The batter always counts. 'Every base behind me, including the batter.'"
+        }
+      ],
+      "cues": [
+        "Anyone behind me?",
+        "Forced means go",
+        "No force means choose",
+        "Fly ball erases the force",
+        "Two outs, run on anything"
+      ],
+      "safety": [
+        "Use flat base markers on grass and a soft ball for the rolls and tosses.",
+        "Keep the small diamond clear of other children so runners deciding late do not collide.",
+        "This is a thinking drill; walk between reps and keep it under 15 minutes."
+      ],
+      "progression": {
+        "easier": "Do the whole lesson at a table with coins on a napkin diamond, moving the coins and saying 'forced' or 'not forced' before any running.",
+        "harder": "Add a fielder with a soft ball who either steps on the base (force) or tries to tag (no force) so the runner sees why the answer matters.",
+        "nextLessonId": "run-08"
+      },
+      "tags": [
+        "force play",
+        "tag play",
+        "forced to run",
+        "runs to the wrong base",
+        "when do I have to run",
+        "runner on first",
+        "runner on second",
+        "fly ball go back",
+        "baseball rules for kids",
+        "ages 7-10"
+      ],
+      "drillIds": [
+        "drill-run-07"
+      ]
+    },
+    {
+      "id": "run-08",
+      "title": "Listening to Your Base Coaches",
+      "category": "baserunning",
+      "subcategory": "Situational decisions",
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to find the first or third base coach at the right moment, read the common signals (go, stop, slide, run through, make a turn), and act on them without hesitating.",
+      "summary": "Your base coaches can see what you cannot. Learn when to look for them, what their arms and voices mean, and the one rule for when to trust your own eyes instead.",
+      "video": {
+        "status": "placeholder",
+        "note": "A third base coach windmilling a runner home, then holding up both hands to stop a runner, then pointing to the ground for a slide, with the runner's point of view shown so players see when the coach comes into sight."
+      },
+      "explanation": [
+        "There are two adults on the field whose only job is to help you run the bases: the first base coach, who stands in the box near first, and the third base coach, who stands near third. They can see the whole field while you are busy running. Using them is not cheating or weakness; it is how every level of baseball works.",
+        "The simplest rule is this: if the ball is in front of you where you can see it, you make the decision. If the ball is behind you, find the coach, because the coach is looking at what you cannot. When you hit a ball to right field and run toward second, the ball is behind you, so you look at the third base coach.",
+        "First base coach signals are mostly words because you are running straight at them. 'Run through!' means run through the bag like a ground ball to the infield. 'Make a turn!' means round the bag and look for the extra base. 'Get back!' means the fielder has the ball; stop and return. Listen as you run; do not turn your head to look at the first base coach.",
+        "Third base coach signals are mostly arms because you are far away and the crowd is loud. Both arms windmilling in a big circle means keep going. Both hands straight up means stop here. Both hands pointing or pushing toward the ground means slide. Pick up the third base coach as you round second, and keep your eyes on the coach, not on the ball, until you get the signal.",
+        "Trust the signal and go. The worst outcome is a runner who sees 'go' and slows down to look at the ball, or sees 'stop' and keeps going. Coaches are sometimes wrong, but a runner who commits to a signal is almost always better off than one who hesitates. If you ever get no signal, run to the base in front of you and stop."
+      ],
+      "parentInstructions": [
+        "Set up first, second, and third base in the yard or park 40 to 60 feet apart with chalk or jackets. Stand where the third base coach stands, a few steps toward the outfield from third base and off the base line.",
+        "Learn the three arm signals yourself: big windmill means go, both hands up means stop, hands pushed toward the ground means slide. Practice them in a mirror; they need to be big and clear.",
+        "Have your child run from first toward second as if a ball were hit to right field. As they approach second, give one signal. They should see you by the time they round second and act immediately.",
+        "Mix the signals so there is no pattern, and sometimes give the signal late to see if your child keeps their eyes on you. If they look at the imaginary ball instead, remind them: 'Ball behind you, find the coach.'",
+        "For the first base coach part, stand in the first base coach box and call 'run through' or 'make a turn' as your child comes down the line from home. They should react without turning their head to look at you.",
+        "Eight to ten runs is a good session. Rest by walking back; the thinking is the skill here, not the running."
+      ],
+      "equipment": [
+        "bases"
+      ],
+      "equipmentFreeAlternative": "Chalk, jackets, or shoes as bases and a parent giving the arm signals. No ball is needed for any part of this lesson.",
+      "steps": [
+        "Set up first, second, and third base 40 to 60 feet apart. Partner stands in the third base coach's spot.",
+        "Review the signals: windmill means go, hands up means stop, hands to the ground means slide. Practice each once standing still.",
+        "Start at first base. Partner says 'ball to right field, go!' and you run toward second with your eyes finding the partner as you round the bag.",
+        "React to the signal immediately: keep running to third, stop at second, or slide into third (on grass only, or just say 'slide' if the ground is not safe).",
+        "Repeat eight times with the signals mixed and sometimes given late.",
+        "Move to the first base coach part: start at home, partner stands in the first base box and calls 'run through' or 'make a turn' as you run. React without turning your head.",
+        "Finish by saying the rule out loud: 'Ball in front, I decide. Ball behind, find the coach.'"
+      ],
+      "durationMin": 10,
+      "commonMistakes": [
+        {
+          "mistake": "Watching the ball behind you instead of finding the coach.",
+          "fix": "Ball behind you means head up, find the coach as you round the bag. The coach is watching the ball for you."
+        },
+        {
+          "mistake": "Slowing down to look for a signal.",
+          "fix": "Pick up the coach early, while running hard. The signal should arrive while you are still at full speed."
+        },
+        {
+          "mistake": "Seeing 'stop' and taking two more steps.",
+          "fix": "Hands up means stop now. Practice stopping with a shuffle facing the field so you can get back."
+        },
+        {
+          "mistake": "Turning the head to look at the first base coach.",
+          "fix": "Listen to the first base coach; look at the third base coach."
+        }
+      ],
+      "cues": [
+        "Ball in front, I decide",
+        "Ball behind, find the coach",
+        "Windmill means go",
+        "Hands up means stop",
+        "Trust it and go"
+      ],
+      "safety": [
+        "Only practice the slide signal on soft grass with a flat marker; otherwise call 'slide' out loud instead of sliding.",
+        "Keep the base paths clear of other children and pets so a runner looking at the coach does not collide with anyone.",
+        "Walk back between runs; eight to ten full runs is plenty."
+      ],
+      "progression": {
+        "easier": "Walk the bases while the partner gives the signals, naming each one out loud before acting on it.",
+        "harder": "Add a second partner in the outfield with a soft ball who sometimes bobbles it; the coach's signals now depend on the real play and the runner must still watch the coach, not the ball.",
+        "nextLessonId": "run-04"
+      },
+      "tags": [
+        "base coach",
+        "third base coach signals",
+        "windmill",
+        "stop sign",
+        "doesn't listen to the coach",
+        "watches the ball instead of running",
+        "runs to the wrong base",
+        "run through or make a turn",
+        "baserunning communication",
+        "ages 7-12"
+      ],
+      "drillIds": [
+        "drill-run-08"
+      ]
+    },
+    {
+      "id": "run-09",
+      "title": "Runner on Second, Fewer Than Two Outs: Reading Ground Balls",
+      "category": "baserunning",
+      "subcategory": "Situational decisions",
+      "ageGroups": [
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevel": "advanced",
+      "objective": "The player will be able to decide, as a runner on second with fewer than two outs, whether to advance to third on a ground ball based on where it is hit, and explain the reasoning.",
+      "summary": "From second base you can see the whole infield, and you are not forced. Learn the rules of thumb for which ground balls let you take third and which ones should keep you at second.",
+      "video": {
+        "status": "placeholder",
+        "note": "A runner on second reacting to ground balls hit to different infielders, with an overhead diagram after each play showing why the runner went or held: ball to the right side go, ball to the left side wait, ball to the pitcher stay."
+      },
+      "explanation": [
+        "A runner on second with first base empty is not forced, so a ground ball gives you a choice. Third base is a big prize: from third you can score on a sacrifice fly, a passed ball, or a slow ground ball. But getting thrown out at third on a ground ball, especially for the first or second out, is one of the costliest mistakes in baseball. The decision depends on where the ball is hit.",
+        "Ground ball to the right side, to the second baseman or first baseman: go. Those fielders have their backs partly to you and a long throw to third. By the time they field it and turn, you should be nearly there. This is the easiest 'go' read in baseball.",
+        "Ground ball to the left side, to the shortstop or third baseman: wait. Those fielders are in front of you, facing you, and the ball is between you and third. If you go, they can simply look you back or throw to third for an easy out. Hold your ground, take a step or two back toward second, and go only after the ball gets through the infield or the fielder throws to first. Then you may have a chance to advance on the throw.",
+        "Ground ball back to the pitcher: stay. The pitcher is looking right at you and third is a short throw. A slow roller that the third baseman has to charge is the trickiest case: if the third baseman leaves the base to field it and nobody is covering third, an alert runner can go behind the play. That is an advanced read that your coach will help you with; the default is to wait.",
+        "Line drives with fewer than two outs: freeze, just as from any base. Fly balls: tag up if deep, halfway if not. And with two outs, none of this matters; run hard on contact every time. Before every pitch, say the plan to yourself: 'Right side go, left side wait, pitcher stay, two outs everything.'"
+      ],
+      "parentInstructions": [
+        "Set up second and third base about 60 feet apart with a 'home plate' area and cones or markers for where the infielders stand: pitcher, shortstop, third baseman on the left side, and second baseman, first baseman on the right side. Shoes or hats work as fielders.",
+        "Stand at home plate with a tennis ball. Call the outs, then roll the ball toward one of the fielder markers. Your child, on second, reads where it went and either goes to third, waits and then goes, or stays.",
+        "Have your child say the read out loud: 'right side, go,' 'left side, wait,' 'pitcher, stay.' Correct the words first, then the feet.",
+        "Mix in hard, low throws past the markers as line drives (freeze) and high tosses as fly balls (tag or halfway), so the runner sees the whole picture, not just ground balls.",
+        "Add 'two outs' calls where the right answer is always to run.",
+        "This is a thinking drill for older players; 12 to 15 reps with walking rest is enough. Celebrate the correct hold as much as the correct go; the hold is the harder discipline."
+      ],
+      "equipment": [
+        "bases",
+        "tennis_ball",
+        "cones"
+      ],
+      "equipmentFreeAlternative": "Chalk bases, shoes as fielders, and a rolled sock for the ball. The first half can be done on paper with a drawn diamond: parent draws an arrow where the ball goes and the player writes go, wait, or stay.",
+      "steps": [
+        "Set up second and third base 60 feet apart and place markers where the pitcher, shortstop, third baseman, second baseman, and first baseman stand.",
+        "Take a ready stance on second, eyes on the 'batter.' Partner calls the number of outs.",
+        "Partner rolls a ground ball toward a marker. Right side: sprint to third and say 'go.' Left side: step back, say 'wait,' and go only when the partner says 'through' or 'thrown to first.' Pitcher: stay and say 'stay.'",
+        "Partner throws a hard, low ball as a line drive: freeze. Partner tosses a high fly: tag or halfway and say which.",
+        "Partner calls 'two outs' before some rolls: sprint on anything.",
+        "Repeat 12 to 15 times with a random mix.",
+        "Finish by explaining one go and one wait decision to your partner in your own words."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Breaking for third on a ground ball to the shortstop and getting thrown out.",
+          "fix": "Left side, wait. The ball is between you and the base; go only after it gets through or is thrown to first."
+        },
+        {
+          "mistake": "Holding on a ground ball to the right side and wasting a free base.",
+          "fix": "Right side, go. The fielders have their backs to you and a long throw."
+        },
+        {
+          "mistake": "Breaking on a line drive.",
+          "fix": "Freeze on anything hit hard and straight with fewer than two outs."
+        },
+        {
+          "mistake": "Forgetting that two outs changes everything.",
+          "fix": "Call the outs before every pitch. Two outs means run on contact."
+        },
+        {
+          "mistake": "Leaving the base before the pitch reaches the batter in a no-lead division.",
+          "fix": "The read starts after the pitch reaches the batter. Check your division's rule and time your first step honestly."
+        }
+      ],
+      "cues": [
+        "Right side go",
+        "Left side wait",
+        "Pitcher stay",
+        "Line drive freeze",
+        "Two outs, everything"
+      ],
+      "safety": [
+        "Use a tennis ball or soft ball for every roll and toss. Fielder markers are shoes or cones, not people, when practicing at home.",
+        "Flat base markers on grass; runners stopping and starting hard can turn an ankle on a raised edge.",
+        "Walk between reps and keep the session to 15 minutes; a tired runner stops reading and starts guessing."
+      ],
+      "progression": {
+        "easier": "Ground balls only, no line drives or flies, with the partner calling 'right' or 'left' as the ball is rolled so the runner matches the word to the move.",
+        "harder": "Use live fielders with gloves and a soft ball. Fielders field and either throw to first or look the runner back, and the runner must read the real play, including the slow roller the third baseman charges.",
+        "nextLessonId": null
+      },
+      "tags": [
+        "runner on second",
+        "ground ball reads",
+        "take third",
+        "thrown out at third",
+        "right side go left side wait",
+        "advanced baserunning",
+        "situational baserunning",
+        "fewer than two outs",
+        "ages 11-16"
+      ],
+      "drillIds": [
+        "drill-run-09"
+      ]
+    },
+    {
+      "id": "run-10",
+      "title": "Running the Bases: Touch Every Base",
+      "category": "baserunning",
+      "subcategory": "Rounding bases",
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to run the bases in the correct order, touching each one with a foot, without passing a runner ahead of them.",
+      "summary": "First, second, third, home: always in that order, always with a foot on the bag. Learn where the bases are, why you must touch each one, and what to do if you miss one.",
+      "video": {
+        "status": "placeholder",
+        "note": "A tee ball player running all four bases in order with each base lighting up as the foot touches it, then a replay of a missed base and the runner turning around to go back and touch it."
+      },
+      "explanation": [
+        "The bases go in a circle, and you always run them the same way. From home plate you run to first base, which is on your right as you look at the field. Then second base, straight across from home. Then third base, on your left. Then back to home plate to score a run. Never run the other direction, and never skip a base.",
+        "Your foot has to touch each base. If you miss one, the other team can touch that base with the ball and you can be called out, even if you scored. So if you realize you missed a base, turn around, go back, and touch it before you keep going. Touching the base late is better than not touching it at all.",
+        "When you run the bases with a teammate ahead of you, you can never pass them. If you pass the runner in front of you, you are out automatically. If the runner ahead of you stops, you stop too, even if you want to keep going.",
+        "Stay on your base until the ball is hit. In tee ball and most young divisions, a runner cannot leave the base until the batter hits the ball, and in other divisions until the pitch reaches the batter. Your coach will tell you the rule for your division, and your parents can check the league's current rulebook.",
+        "Running the bases is also just fun. Big strides, pumping arms, head up so you can see the base and the coach. Celebrate every time you touch home."
+      ],
+      "parentInstructions": [
+        "Set up a mini diamond in the yard with four flat markers about 30 to 40 feet apart: home, first on the right, second straight ahead, third on the left. Chalk squares, jackets, or flat cushions all work.",
+        "Walk the bases with your child first, saying the name of each base as you both step on it. Then jog it. Then run it. Always counter-clockwise: first base is to the right.",
+        "Watch the feet. Every base gets a foot on it. If a foot misses, stop the run and say 'go back and touch it,' then let them continue. Practicing the go-back is as important as the touch.",
+        "Play with a second runner (you or a sibling) ahead of your child, and have the lead runner stop at a base. Your child must stop behind. Say 'never pass the runner in front of you.'",
+        "Keep runs to six to eight full trips around with walking breaks. Little legs tire fast, and tired runners cut corners and miss bases.",
+        "Make the last trip a 'home run' with a celebration at home plate. Fun is the point at this age."
+      ],
+      "equipment": [
+        "bases"
+      ],
+      "equipmentFreeAlternative": "Four chalk squares, jackets, or shoes laid out as a diamond. Nothing else is needed.",
+      "steps": [
+        "Stand at home plate and point to each base in order: first (to your right), second (straight ahead), third (to your left), home.",
+        "Walk the bases in order, stepping on each one and saying its name.",
+        "Jog the bases, touching each one with a foot.",
+        "Run the bases at full speed, touching each one. Partner watches the feet.",
+        "Partner calls 'missed it!' on one run even if you did not; turn around, go back, touch the base, and continue.",
+        "Partner runs ahead of you and stops at second. You must stop at first behind them.",
+        "Finish with a full-speed home run trip and a celebration at home plate."
+      ],
+      "durationMin": 10,
+      "commonMistakes": [
+        {
+          "mistake": "Running toward third base first.",
+          "fix": "First base is on your right. Point to it before every run and say 'first is right.'"
+        },
+        {
+          "mistake": "Running past a base without touching it.",
+          "fix": "Every base gets a foot. Practice the go-back-and-touch so a miss is never a panic."
+        },
+        {
+          "mistake": "Passing the runner ahead.",
+          "fix": "Eyes up. If the runner in front stops, you stop. Passing them is an automatic out."
+        },
+        {
+          "mistake": "Cutting across the infield from first to third.",
+          "fix": "Bases are a circle, not a shortcut. Walk the path again slowly with the parent."
+        }
+      ],
+      "cues": [
+        "First is right",
+        "Touch every base",
+        "Missed it? Go back",
+        "Never pass the runner ahead",
+        "Head up, big strides"
+      ],
+      "safety": [
+        "Use flat markers in the yard, never raised or hard objects that can trip a young runner.",
+        "Keep the inside of the mini diamond clear of toys, pets, and other children.",
+        "Six to eight trips with walking rest is plenty for ages 4 to 8."
+      ],
+      "progression": {
+        "easier": "Walk the bases holding the parent's hand, naming each base, and stop at every one for a high five.",
+        "harder": "Add a partner who rolls a ball to a 'fielder' spot after the runner leaves home; the runner must decide how many bases to run and stop on a base, not past it.",
+        "nextLessonId": "run-02"
+      },
+      "tags": [
+        "touch every base",
+        "base order",
+        "runs to the wrong base",
+        "runs to third first",
+        "missed a base",
+        "passing the runner",
+        "tee ball bases",
+        "how the bases work",
+        "first time baserunning",
+        "ages 4-8"
+      ],
+      "drillIds": [
+        "drill-run-10"
+      ]
+    }
+  ]
+}

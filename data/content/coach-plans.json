@@ -1,0 +1,2760 @@
+{
+  "$schema": "coach_plan",
+  "items": [
+    {
+      "id": "cp-01",
+      "title": "Tee Ball: The First Practice",
+      "ageGroups": [
+        "a4_6"
+      ],
+      "durationMin": 45,
+      "focus": [
+        "fun",
+        "ready_position",
+        "playing_catch",
+        "running_bases"
+      ],
+      "playersMin": 8,
+      "playersMax": 14,
+      "coachesMin": 3,
+      "equipment": [
+        "soft_ball",
+        "glove",
+        "tee",
+        "bat",
+        "helmet",
+        "cones",
+        "bases",
+        "bucket"
+      ],
+      "space": "half_field",
+      "objective": "Every child leaves knowing the coaches' names, where the bases are, how to get into a ready position, and that baseball is fun. Nobody stands in a line longer than it takes to say 'your turn'.",
+      "blocks": [
+        {
+          "title": "Name Circle and Freeze Tag",
+          "minutes": 6,
+          "type": "warmup",
+          "description": "Gather everyone in a circle on the outfield grass behind first base, coaches included. Go around once: each child says their name and does one jumping jack while everyone repeats the name back. Then play freeze tag inside the cone square; when the coach yells 'Freeze!', everyone stops in a ready position with knees bent and hands on knees like a frog about to jump.",
+          "setup": "Four cones in a 30-by-30-foot square on the grass. No balls or bats inside the square. Gloves stay in a pile by the fence until Station A.",
+          "groups": "Whole team together, with every parent helper inside the square playing too.",
+          "coachingPoints": [
+            "Learn and use every child's name in the first ten minutes; it is the fastest way to earn their attention.",
+            "Call 'Freeze!' five or six times so the ready position becomes a game instead of a lecture.",
+            "Keep every instruction to one sentence and show it with your body."
+          ]
+        },
+        {
+          "title": "Station A: Alligator Scoops",
+          "minutes": 8,
+          "type": "station",
+          "description": "A parent helper rolls a soft ball slowly to a child from about ten feet away. The child waits in the ready position, then scoops the ball with the glove flat on the grass and the bare hand coming down on top like an alligator chomping. The child runs the ball back to the helper's bucket and the next roll comes right away, so nobody waits.",
+          "setup": "Two cones ten feet apart for each pair, one helper with a bucket of six soft balls for every two children. Use grass, not dirt, for the first week so there are no bad hops.",
+          "groups": "Three groups of four. Within the group two children field while two run balls back to the bucket, switching every roll. All three stations rotate on the head coach's whistle every 8 minutes.",
+          "coachingPoints": [
+            "Say 'Alligator chomp!' as the ball arrives so both hands come together on it.",
+            "Roll slowly and straight at the glove; success comes first and challenge comes later.",
+            "Glove fingers point down to the grass for anything below the knees."
+          ]
+        },
+        {
+          "title": "Station B: Tee Swings",
+          "minutes": 8,
+          "type": "station",
+          "description": "One child at a time puts on a helmet, steps into the bat zone, and hits soft balls off the tee toward the outfield. The other three stand at the waiting cone, each holding a ball and practicing the knocking-knuckles grip on a spare bat handle laid on the ground, then sprint out to collect the hit balls when the helper calls 'Go!'. Each child takes three swings, sets the bat down inside the zone, and the next child comes in.",
+          "setup": "A tee on a throw-down home plate facing the outfield, with a half-circle of four cones ten feet behind and beside it marking the bat zone. One more cone twenty feet away marks the waiting spot. Four soft balls, two helmets, one bat for the hitter.",
+          "groups": "Three groups of four, 8 minutes per rotation. Each child gets two turns of three swings.",
+          "coachingPoints": [
+            "Nobody enters the bat zone until the hitter has laid the bat on the ground.",
+            "Point the front shoulder at the field, look at the ball on the tee, and swing level through it.",
+            "Praise contact loudly, even a dribbler; this station is about confidence."
+          ]
+        },
+        {
+          "title": "Station C: Base Race",
+          "minutes": 8,
+          "type": "station",
+          "description": "The helper walks the group around the bases once, touching each base and saying its name out loud together. Then children run the bases one at a time while the helper jogs alongside calling out the base names. The next runner leaves as soon as the one ahead touches first, so there is always someone moving. Finish with everyone running from third to home together.",
+          "setup": "Throw-down bases at your league's tee ball distance, with a bright cone sitting on each base so it cannot be missed. Place one extra cone fifteen feet past first base as the run-through finish line.",
+          "groups": "Three groups of four, 8 minutes per rotation; a new runner starts every time the runner ahead touches first.",
+          "coachingPoints": [
+            "Run through first base, not to it; the cone past the bag is the finish line.",
+            "Touch every base with either foot; stepping over the base is the most common mistake.",
+            "Turn left after first when running all the way around, and show it rather than explain it."
+          ]
+        },
+        {
+          "title": "Game: Everybody Scores",
+          "minutes": 10,
+          "type": "game",
+          "description": "Half the team spreads out on the infield grass in ready positions while the other half hits off the tee one at a time and runs all the way around the bases on every hit. The fielders chase the ball together and carry it to the bucket on the pitcher's mound; if the ball is in the bucket before the runner touches home, the fielders earn a point, and the runner scores no matter what. Switch sides after everyone has hit once.",
+          "setup": "Tee at home plate with the bat zone cones still in place, a bucket on the mound, soft balls only, helmets on all hitters and runners. Fielders start at least twenty feet from the tee.",
+          "groups": "Two teams of six or seven. One helper runs the bases beside each batter, one helper manages the bat zone, and the head coach cheers from the mound.",
+          "coachingPoints": [
+            "The bat goes on the ground before the hitter runs; a helper stands ready to collect it.",
+            "Every runner scores, so celebrate every run with the same enthusiasm.",
+            "Fielders carry the ball to the bucket together, which gets every child moving to the ball."
+          ]
+        },
+        {
+          "title": "Wrap-Up Circle",
+          "minutes": 5,
+          "type": "wrapup",
+          "description": "Back to the circle on the grass. Ask each child one thing they liked, then show the ready position one more time all together. Tell parents the home assignment and the time of the next practice, then finish with a team cheer, hands in the middle.",
+          "setup": "Same cone square as the warm-up. Children carry the equipment to the bucket before sitting down.",
+          "groups": "Whole team, with parents invited to stand behind the circle to hear the home assignment.",
+          "coachingPoints": [
+            "End on time; tired four-year-olds remember how practice ended.",
+            "Give parents one skill to practice at home, and only one."
+          ]
+        }
+      ],
+      "safety": [
+        "Soft or foam balls only; no hard baseballs at any station this week.",
+        "Helmets on every hitter and every runner, and one bat in use at a time inside a marked bat zone.",
+        "Walk the grass for holes, sprinkler heads, and glass before children arrive.",
+        "Water break built into every rotation; four-year-olds will not ask for one."
+      ],
+      "progressions": [
+        "Next week roll ground balls slightly faster and from fifteen feet instead of ten.",
+        "Add a second tee at the hitting station with a second helper so swings per child double.",
+        "In the game, ask fielders to throw the ball to the helper at the bucket instead of carrying it."
+      ],
+      "homeAssignmentLessonId": "run-10"
+    },
+    {
+      "id": "cp-02",
+      "title": "Tee Ball: Throwing and Catching Day",
+      "ageGroups": [
+        "a4_6"
+      ],
+      "durationMin": 45,
+      "focus": [
+        "throwing_grip",
+        "throwing_motion",
+        "playing_catch",
+        "glove_work"
+      ],
+      "playersMin": 8,
+      "playersMax": 14,
+      "coachesMin": 3,
+      "equipment": [
+        "soft_ball",
+        "glove",
+        "cones",
+        "bucket"
+      ],
+      "space": "half_field",
+      "objective": "Every child can point the glove at a target, step with the opposite foot, and throw a soft ball, and can catch a gentle underhand toss with two hands.",
+      "blocks": [
+        {
+          "title": "Animal Walks and Arm Circles",
+          "minutes": 5,
+          "type": "warmup",
+          "description": "Children bear-crawl, crab-walk, and frog-jump between two cone lines twenty feet apart while coaches call out the animals. Finish standing in a spread-out grid doing ten slow arm circles forward and ten backward, arms out like airplane wings, then a full-body wiggle shake.",
+          "setup": "Two lines of cones twenty feet apart on the grass. One cone per child on one line so everyone has a home spot.",
+          "groups": "Whole team at once, each child on their own cone; nobody waits for a turn.",
+          "coachingPoints": [
+            "Big, slow arm circles; speed is not the point.",
+            "Keep it silly and loud so shy children join in."
+          ]
+        },
+        {
+          "title": "Team Demo: Point, Step, Throw",
+          "minutes": 5,
+          "type": "team",
+          "description": "Everyone stands on their own cone facing the fence, each holding a soft ball. The coach shows the three parts: point the glove at the target, step toward it with the foot opposite the throwing hand, then throw. The team shadows each part on the coach's words, then on 'Throw!' everyone throws into the fence at once and jogs to collect their own ball.",
+          "setup": "Cone grid from the warm-up turned to face a fence or backstop fifteen feet away. One soft ball per child, gloves on.",
+          "groups": "Whole team spread on the grid, all throwing on the same command so nobody is behind anyone.",
+          "coachingPoints": [
+            "Say the words with them: 'Point. Step. Throw.'",
+            "Check the stepping foot; a right-handed thrower steps with the left foot.",
+            "Fingers on top of the ball, thumb underneath, not a palm ball."
+          ]
+        },
+        {
+          "title": "Station A: Knock Down the Cones",
+          "minutes": 8,
+          "type": "station",
+          "description": "Children throw soft balls at a row of cones set along the base of the fence from a throw-down 'step spot' about ten to twelve feet away. A helper hands out balls so the thrower never bends to a bucket, and the children run forward to reset the cones they knocked over before stepping back for the next throw. Every knockdown gets a cheer.",
+          "setup": "Six cones in a row against the fence, two step spots (throw-down bases or chalk squares) ten to twelve feet back, a bucket of ten soft balls, one helper.",
+          "groups": "Three groups of four, two children throwing at a time while two reset cones, switching every two throws. Rotate stations every 8 minutes on the whistle.",
+          "coachingPoints": [
+            "Step onto the step spot with the front foot every single throw.",
+            "Point the glove at the cone first, then throw.",
+            "Aim is the goal here, not how hard the ball goes."
+          ]
+        },
+        {
+          "title": "Station B: Two-Hand Catch",
+          "minutes": 8,
+          "type": "station",
+          "description": "Start without gloves: each child tosses a soft ball up a foot and catches it with two hands, thumbs together. Then a helper kneels six feet away and underhand-tosses to the chest, the child catches with thumbs together above the waist or pinkies together below, and rolls it back. Put gloves on for the last three minutes and repeat the same tosses.",
+          "setup": "Four cones in a row ten feet apart as catching spots, one helper with a bucket of soft balls kneeling in front, gloves set beside each cone.",
+          "groups": "Three groups of four, every child on a cone and catching on every round; the helper tosses down the line and back.",
+          "coachingPoints": [
+            "Watch the ball into your hands; the eyes catch it first.",
+            "Thumbs together up high, pinkies together down low.",
+            "Give the glove a target out front, elbow bent, not stiff."
+          ]
+        },
+        {
+          "title": "Station C: Roll, Scoop, Throw",
+          "minutes": 8,
+          "type": "station",
+          "description": "A helper rolls a soft ball to a child ten feet away. The child scoops with the alligator chomp, stands up, points the glove at the helper, steps, and throws back to the helper's glove. If the throw misses, the helper simply picks it up and rolls the next one so the pace never stops.",
+          "setup": "Two helpers if you have them, each with a bucket of six soft balls, facing two children each ten feet away with cones marking the spots. Grass only.",
+          "groups": "Three groups of four, two children per helper; every child fields and throws on every rep.",
+          "coachingPoints": [
+            "Alligator chomp, then stand tall, then point, step, throw.",
+            "Throw to the helper's glove, not just in the helper's direction.",
+            "Slow rolls that get fielded beat fast rolls that get past."
+          ]
+        },
+        {
+          "title": "Game: Clean Your Room",
+          "minutes": 8,
+          "type": "game",
+          "description": "Two teams stand on opposite sides of a cone line twenty feet apart, each with ten soft balls scattered on their side. On 'Go!' both teams throw the balls onto the other side for one minute using point, step, throw; underhand is fine for anyone who wants it. When the coach calls 'Stop!' everyone freezes and counts the balls on their side; fewer balls wins the round. Play three rounds with a water break between each.",
+          "setup": "A line of cones across the middle of the grass with a second line twenty feet away on each side as the back boundary. Twenty soft balls, ten per side. No gloves needed.",
+          "groups": "Two teams of six or seven, with a helper on each side keeping children behind their cone line.",
+          "coachingPoints": [
+            "Soft balls and one-minute rounds only, three rounds total; this is a throwing game, not a throwing marathon.",
+            "Point and step on every throw even in the excitement.",
+            "Nobody crosses the middle line; helpers guard it."
+          ]
+        },
+        {
+          "title": "Wrap-Up: Show Me Your Throw",
+          "minutes": 3,
+          "type": "wrapup",
+          "description": "Everyone back to their warm-up cone. On the coach's words, the whole team shadows one perfect point, step, throw with no ball, then takes a bow. Tell parents the home assignment is ten minutes of soft-ball catch from six feet.",
+          "setup": "Cone grid from the warm-up. Balls collected in the bucket by the children first.",
+          "groups": "Whole team on their cones, parents listening from the fence.",
+          "coachingPoints": [
+            "One sentence of praise per child by name if time allows.",
+            "Remind parents: short, soft, and fun at home, with the glove target out front."
+          ]
+        }
+      ],
+      "safety": [
+        "Soft or foam balls for every throw today; no hard baseballs for this age group.",
+        "Everyone throws in the same direction at every station, toward a fence or a helper, never toward another station.",
+        "Keep total throws modest: short distances, rest between rounds, and stop any child who says their arm hurts.",
+        "No gloves at the face-level catching stage; underhand tosses to the chest only."
+      ],
+      "progressions": [
+        "Move the cone targets to fifteen feet and add a bucket target worth two points.",
+        "Catching station: helper tosses from eight feet and adds a slow bounce catch.",
+        "Replace Clean Your Room with partner catch at eight feet for pairs who are ready."
+      ],
+      "homeAssignmentLessonId": "thr-02"
+    },
+    {
+      "id": "cp-03",
+      "title": "Tee Ball: Hitting Stations",
+      "ageGroups": [
+        "a4_6"
+      ],
+      "durationMin": 45,
+      "focus": [
+        "grip",
+        "stance",
+        "contact",
+        "fun"
+      ],
+      "playersMin": 8,
+      "playersMax": 14,
+      "coachesMin": 3,
+      "equipment": [
+        "soft_ball",
+        "tee",
+        "bat",
+        "helmet",
+        "cones",
+        "net",
+        "glove",
+        "bucket",
+        "bases"
+      ],
+      "space": "half_field",
+      "objective": "Every child can set up a stance in the cone boxes, hold the bat with knocking knuckles, and hit a soft ball off the tee while every other child is moving, not watching.",
+      "blocks": [
+        {
+          "title": "Stance Statues",
+          "minutes": 5,
+          "type": "warmup",
+          "description": "Children jog between two cone lines; when the coach yells 'Statue!' they freeze in a batting stance with no bat: feet wider than shoulders, knees bent, hands up by the back shoulder as if holding a bat. The coach walks through and gently adjusts feet and hands, then calls 'Go!' for the next jog. Repeat six to eight times with skips and side shuffles mixed in.",
+          "setup": "Two lines of cones twenty-five feet apart on the grass; no equipment out yet except the cones.",
+          "groups": "Whole team at once, spread along the cone line so everyone has space to freeze.",
+          "coachingPoints": [
+            "Nose over the toes, knees soft, eyes on the imaginary pitcher.",
+            "Hands up and back, not down by the belt.",
+            "Make the adjustments quick and kind; it is a game."
+          ]
+        },
+        {
+          "title": "Station A: Tee Into the Net",
+          "minutes": 9,
+          "type": "station",
+          "description": "One hitter at a time, helmet on, steps into the bat zone and hits five soft balls off the tee into the net from six feet away. The helper resets the ball and checks the knocking-knuckles grip before each swing. The other three children stand at the waiting cone and on each swing do a 'stance statue' with no bat, then rotate in after five swings so everyone hits twice.",
+          "setup": "Tee six feet in front of a hitting net or backstop, bat zone marked by a half-circle of cones ten feet around the tee, waiting cone twenty feet to the side and behind. Two helmets, one bat, bucket of soft balls.",
+          "groups": "Three groups of four, rotating every 9 minutes on the whistle; each child gets two turns of five swings.",
+          "coachingPoints": [
+            "Line up the middle knuckles of both hands on the handle; call them the knocking knuckles.",
+            "Set the tee at belly-button height and the ball even with the front hip.",
+            "Swing and set the bat down inside the zone before leaving it."
+          ]
+        },
+        {
+          "title": "Station B: Grip and Shadow Swings",
+          "minutes": 9,
+          "type": "station",
+          "description": "Each child stands in their own stance box made of two cones, ten feet from the next child, holding a foam bat or a pool noodle, or nothing at all. The helper calls 'Grip!' and checks the knocking knuckles, 'Stance!' and checks the feet, then 'Swing!' and everyone swings slowly at an imaginary ball on an imaginary tee. For the last three minutes each child tries to tap a soft ball balanced on a tall cone in front of their box.",
+          "setup": "Four stance boxes made of two cones each, ten feet apart in a row, all facing the same direction toward open grass. Foam bats or pool noodles only, one tall cone with a soft ball balanced on top in front of each box.",
+          "groups": "Three groups of four, each child in their own box the whole time; nobody waits.",
+          "coachingPoints": [
+            "Knocking knuckles lined up, then hands up by the back shoulder.",
+            "Slow swing, hold the finish, eyes stay on the cone.",
+            "All swings on the helper's word so nobody swings while a neighbor resets."
+          ]
+        },
+        {
+          "title": "Station C: Hit and Hustle",
+          "minutes": 9,
+          "type": "station",
+          "description": "A second tee sits on a throw-down home plate with a single base forty feet away. One child hits a soft ball off the tee, sets the bat down, and runs through the base past the finish cone while the other three, spread out on the grass in ready positions, chase the ball down and bring it to the helper's bucket. Everyone rotates one spot after each hit, so each child hits several times and fields several times.",
+          "setup": "Tee on a throw-down plate with a bat zone of cones, one base forty feet away with a finish cone fifteen feet beyond it, bucket of soft balls, two helmets, three fielding cones spread on the grass twenty-five feet from the tee.",
+          "groups": "Three groups of four: one hitter, three fielders, rotating after every hit.",
+          "coachingPoints": [
+            "Bat down inside the zone, then run hard through the base.",
+            "Fielders start on their cone in a ready position, not next to the hitter.",
+            "Run to the finish cone, not to the base."
+          ]
+        },
+        {
+          "title": "Game: Everybody Hits, Everybody Runs",
+          "minutes": 10,
+          "type": "game",
+          "description": "Half the team fields with gloves on the infield, half hits off the tee at home plate and runs the bases. Each hitter runs to first on the first hit, then on the next hitter's hit runs on to second, and so on until they score, exactly like a real game but with no outs. Fielders throw or carry the ball to the helper at the pitcher's mound to end the play. Switch sides after everyone has batted once.",
+          "setup": "Tee at home plate inside the bat zone cones, bases out with cones on top, a helper on the mound with a bucket, soft balls, helmets for every hitter and runner.",
+          "groups": "Two teams of six or seven, one helper coaching the bases, one running the bat zone, the head coach on the mound.",
+          "coachingPoints": [
+            "One hitter in the zone, next hitter waiting at the on-deck cone with no bat.",
+            "Runners go when the ball is hit, not before; base helper says 'Go!'.",
+            "Cheer the fielders for getting the ball to the mound quickly."
+          ]
+        },
+        {
+          "title": "Wrap-Up: Best Swing",
+          "minutes": 3,
+          "type": "wrapup",
+          "description": "Everyone back to the stance boxes with no bats. On the count of three, the whole team takes one slow perfect shadow swing and freezes on the finish while the coaches applaud. Tell parents the home assignment and collect equipment with the children carrying everything to the bucket.",
+          "setup": "Cone boxes from Station B. Bats and helmets already collected.",
+          "groups": "Whole team in the boxes, parents at the fence.",
+          "coachingPoints": [
+            "Name one specific thing each child did well today if time allows.",
+            "Remind parents: tee at belly-button height, soft balls, and five swings at a time at home."
+          ]
+        }
+      ],
+      "safety": [
+        "One real bat in use at a time, only inside a cone-marked bat zone, and only with a helmet on.",
+        "Foam bats or pool noodles at the shadow station, spaced ten feet apart and swinging on command.",
+        "Soft balls at every station and in the game; nothing hard is hit today.",
+        "The bat is laid down, never thrown; a helper stands at the zone to make sure."
+      ],
+      "progressions": [
+        "Move the tee ball to inside and outside positions for children who hit the middle one consistently.",
+        "Add gentle soft toss from the side for children who have made contact on every tee swing for two weeks.",
+        "In the game, let fielders try a throw to the helper at first base instead of bringing the ball to the mound."
+      ],
+      "homeAssignmentLessonId": "hit-13"
+    },
+    {
+      "id": "cp-04",
+      "title": "Coach Pitch: Fundamentals Circuit",
+      "ageGroups": [
+        "a7_8"
+      ],
+      "durationMin": 60,
+      "focus": [
+        "throwing_motion",
+        "ground_balls",
+        "fly_balls",
+        "contact"
+      ],
+      "playersMin": 9,
+      "playersMax": 14,
+      "coachesMin": 3,
+      "equipment": [
+        "soft_ball",
+        "ball",
+        "glove",
+        "bat",
+        "helmet",
+        "tee",
+        "net",
+        "cones",
+        "bases",
+        "bucket",
+        "l_screen"
+      ],
+      "space": "full_field",
+      "objective": "Players move through a complete circuit of throwing, hitting a moving ball, ground balls, and pop-ups, with one hitting station run under strict helmet and bat-zone rules.",
+      "blocks": [
+        {
+          "title": "Dynamic Warm-Up",
+          "minutes": 6,
+          "type": "warmup",
+          "description": "Players spread along the foul line and move to a cone line twenty yards away and back: jog, skips, high knees, butt kicks, side shuffles facing both ways, and a walking lunge. Finish with arm circles small to big in both directions and ten trunk twists.",
+          "setup": "Cones every ten feet along the left-field foul line and a matching line twenty yards into the outfield.",
+          "groups": "Whole team at once in one wave, a coach leading from the front and a helper at the back.",
+          "coachingPoints": [
+            "Everyone starts and finishes together; it is a team warm-up, not a race.",
+            "Arm circles are slow and controlled; the arm is not warmed up yet."
+          ]
+        },
+        {
+          "title": "Throwing Progression",
+          "minutes": 9,
+          "type": "warmup",
+          "description": "Partners face each other across the foul line and build the throw in four stages: wrist flips from fifteen feet with the elbow resting in the glove, one-knee throws from twenty feet focusing on the arm circle, standing point-step-throw from thirty feet, then forty feet with a glove target. Each stage lasts about two minutes, and every partner gives a chest-high glove target on every throw.",
+          "setup": "Partners in two lines facing each other, fifteen feet apart to start, moving back on the coach's call. Soft baseballs for anyone still nervous, regular balls for the rest. All throws travel the same direction across the line.",
+          "groups": "Pairs matched by comfort level, with an odd player paired with a helper. Coaches walk behind one line watching the stepping foot.",
+          "coachingPoints": [
+            "Point the glove, step with the opposite foot, and finish with the throwing hand near the opposite knee.",
+            "Elbow at shoulder height at the top of the arm circle.",
+            "Hit the glove; nobody tries to throw hard today."
+          ]
+        },
+        {
+          "title": "Station 1: Hitting Zone",
+          "minutes": 10,
+          "type": "station",
+          "description": "A coach front-tosses soft baseballs from behind an L-screen or a bucket twelve to fifteen feet in front of the hitter, who hits into the backstop or a net. The hitter takes six swings and rotates. One player waits at the on-deck cone twenty feet away doing slow dry swings, and the other two feed balls to the coach's bucket from behind the screen, so all four are busy.",
+          "setup": "Bat zone marked by cones in a fifteen-by-fifteen-foot square around home plate; only the hitter and the tossing coach are inside it. On-deck cone twenty feet up the first-base line, L-screen or bucket in front of the coach, two helmets, soft baseballs.",
+          "groups": "Three groups of four rotating every 10 minutes on the head coach's whistle. Inside the group, rotate after every six swings: hitter to feeder, feeder to on-deck, on-deck to hitter.",
+          "coachingPoints": [
+            "Helmets on both the hitter and the on-deck player before anyone picks up a bat.",
+            "Bat-zone rule: nobody crosses the cones while a hitter holds a bat, and the bat is set down inside the zone when the turn ends.",
+            "Watch the ball from the coach's hand all the way to the bat.",
+            "Short, level swing; if the ball goes up in the air a lot, the hands are dropping."
+          ]
+        },
+        {
+          "title": "Station 2: Ground Ball Triangle",
+          "minutes": 10,
+          "type": "station",
+          "description": "A helper rolls firm ground balls from twenty feet to a player set up in the fielding triangle: feet wider than the shoulders, glove out front on the ground, bare hand above it. The player fields, funnels the ball to the belly, steps, and throws to a second helper standing on a base cone twenty feet away. Two players field alternately while two back up the throws at the base and swap every four balls.",
+          "setup": "Two fielding spots marked with cones on the infield dirt or grass, a helper with a bucket of regular baseballs twenty feet in front, a base cone twenty feet to the side with a second helper receiving throws.",
+          "groups": "Three groups of four, 10 minutes per rotation; two fielders and two backups swapping every four ground balls.",
+          "coachingPoints": [
+            "Feet wide, glove out in front of the toes, so the player can see the ball into the glove.",
+            "Funnel the ball to the belly, then point, step, and throw.",
+            "Move the feet to get in front of the ball before it arrives."
+          ]
+        },
+        {
+          "title": "Station 3: Pop-Ups",
+          "minutes": 10,
+          "type": "station",
+          "description": "A helper tosses soft balls underhand fifteen to twenty feet into the air to players spread out in the outfield grass. The player moves the feet to get under the ball, calls 'Ball, ball, ball!' three times, and catches with two hands above the eyes, thumbs together. Two players catch alternately while two retrieve any drops and toss them back to the helper's bucket.",
+          "setup": "Four cones in a square twenty feet on a side in shallow outfield grass, one helper in the middle with a bucket of soft balls. Soft balls only until every player is catching confidently.",
+          "groups": "Three groups of four, 10 minutes per rotation, every player catching every other toss.",
+          "coachingPoints": [
+            "Call it three times, loud, before the ball comes down.",
+            "Get under the ball with the feet first; the glove goes up last.",
+            "Thumbs together above the eyes, and use two hands."
+          ]
+        },
+        {
+          "title": "Game: Hit and Run the Bases",
+          "minutes": 10,
+          "type": "game",
+          "description": "Half the team takes the field and half bats. The coach pitches from a short distance, each batter gets three pitches to put the ball in play or runs anyway on the third, and the defense tries to get the ball to first base. Offense scores a run for every batter who reaches first; defense earns a point for every clean field-and-throw to first, whether or not the runner is out. Switch sides after everyone bats once.",
+          "setup": "Full infield with bases, a coach pitching from about twenty feet with soft baseballs, helmets for all batters, bat zone cones still around home plate, a helper at first base.",
+          "groups": "Two teams of six or seven, a helper coaching first base and another managing the batting order and bat zone.",
+          "coachingPoints": [
+            "Reward the clean play, not just the out; the score is about execution.",
+            "Run through first base every time.",
+            "Fielders set up in the ready position before every pitch."
+          ]
+        },
+        {
+          "title": "Wrap-Up",
+          "minutes": 5,
+          "type": "wrapup",
+          "description": "Team takes a knee along the foul line. Ask three questions: what do we point at before we throw, what do we say three times under a pop-up, and where does the bat go when your turn is over. Announce the home assignment and finish with a cheer.",
+          "setup": "Foul line, equipment already collected into the buckets by the players.",
+          "groups": "Whole team, parents listening behind them.",
+          "coachingPoints": [
+            "Let players answer the questions, not coaches.",
+            "Hand out exactly one home assignment."
+          ]
+        }
+      ],
+      "safety": [
+        "Helmets on the hitter and the on-deck player at all times; one bat in the hitting zone at a time.",
+        "Bat-zone rule posted on a cone: nobody enters the cone square while a bat is being swung, and the bat is set down inside the zone before the hitter leaves.",
+        "Soft baseballs for all front toss and pop-ups; regular baseballs only on rolled ground balls and partner catch.",
+        "Throwing progression builds from short to long; stop any player who reports arm pain and tell a parent."
+      ],
+      "progressions": [
+        "Front toss from eighteen feet with a slightly firmer toss for hitters making consistent contact.",
+        "Ground balls thrown with a hop instead of rolled, and the throw goes to a player at first base instead of a helper.",
+        "Pop-ups tossed to the side so players practice moving right and left before catching."
+      ],
+      "homeAssignmentLessonId": "thr-03"
+    },
+    {
+      "id": "cp-05",
+      "title": "Coach Pitch: Ground Ball Day",
+      "ageGroups": [
+        "a7_8"
+      ],
+      "durationMin": 60,
+      "focus": [
+        "ready_position",
+        "ground_balls",
+        "glove_work",
+        "transfers"
+      ],
+      "playersMin": 9,
+      "playersMax": 14,
+      "coachesMin": 3,
+      "equipment": [
+        "soft_ball",
+        "ball",
+        "glove",
+        "bat",
+        "helmet",
+        "tee",
+        "net",
+        "cones",
+        "bases",
+        "bucket"
+      ],
+      "space": "full_field",
+      "objective": "Every player fields a rolled ground ball in the triangle, uses the correct glove angle for low and high balls, and makes a throw to first base, while one group at a time hits in a helmet-and-bat-zone station.",
+      "blocks": [
+        {
+          "title": "Ready Position Freeze",
+          "minutes": 5,
+          "type": "warmup",
+          "description": "Players jog, skip, and shuffle between two cone lines; on 'Ready!' everyone drops into a ready position: feet wider than shoulders, knees bent, hands out in front, weight on the balls of the feet. The coach walks the line tapping shoulders of players who are set correctly, and the next movement starts on 'Go!'.",
+          "setup": "Two lines of cones twenty-five feet apart on the outfield grass.",
+          "groups": "Whole team in one wave, spaced an arm's length apart.",
+          "coachingPoints": [
+            "Hands out front, not on the knees, for this age group.",
+            "Weight forward so a little hop happens naturally."
+          ]
+        },
+        {
+          "title": "Throwing Progression",
+          "minutes": 8,
+          "type": "warmup",
+          "description": "Partners across the foul line: wrist flips at fifteen feet, one-knee throws at twenty, standing throws at thirty, then forty feet with a glove target. Finish with ten quick-catch throws at twenty-five feet where the goal is to catch and release smoothly, which previews the transfer station.",
+          "setup": "Partners facing each other across the foul line, moving back on the coach's call, all throwing the same direction.",
+          "groups": "Pairs, odd player with a helper; coaches walk behind one line.",
+          "coachingPoints": [
+            "Step toward the partner's glove on every throw.",
+            "Quick catch means smooth, not rushed; the ball stays in the glove until the feet are set."
+          ]
+        },
+        {
+          "title": "Station 1: Rolled Ground Balls in the Triangle",
+          "minutes": 10,
+          "type": "station",
+          "description": "A helper rolls regular baseballs on the grass from twenty feet to a player set in the fielding triangle. The player fields with the glove on the ground out in front of the toes and the bare hand on top, funnels to the belly, and tosses underhand back to the helper. Two field alternately while two shag anything that gets by and refill the bucket, swapping every five balls.",
+          "setup": "Two fielding cones twenty feet in front of a helper with a bucket of twelve baseballs. Grass, with the dirt saved for next week.",
+          "groups": "Three groups of four, rotating every 10 minutes on the whistle; two fielders and two shaggers switching every five balls.",
+          "coachingPoints": [
+            "Glove on the ground before the ball gets there, not swiping at it.",
+            "Feet wider than shoulders, nose over the ball.",
+            "Funnel to the belly every time, even on an easy one."
+          ]
+        },
+        {
+          "title": "Station 2: Glove Angles, Fingers Down and Fingers Up",
+          "minutes": 10,
+          "type": "station",
+          "description": "A helper stands eight feet away and tosses soft balls underhand, alternating between knee-high and chest-high. Below the waist the player turns the glove fingers down; above the waist the glove turns fingers up. Players call out 'Down!' or 'Up!' before the catch. In the last three minutes the helper mixes in a short bounce so the player learns to stay low on a hopping ball.",
+          "setup": "Four cones in a row ten feet apart, players on the cones, a helper walking the line with a bucket of soft balls.",
+          "groups": "Three groups of four, every player on a cone and catching every round.",
+          "coachingPoints": [
+            "Fingers down below the belt, fingers up above it.",
+            "Two hands on every catch; the bare hand covers the ball.",
+            "Stay low on bounces; do not stand up to a low ball."
+          ]
+        },
+        {
+          "title": "Station 3: Hitting Zone",
+          "minutes": 10,
+          "type": "station",
+          "description": "Hitters alternate between the tee and gentle front toss from a coach behind a bucket twelve feet away, hitting soft baseballs into the net or backstop. Six swings each, then rotate. The on-deck player does dry swings at the on-deck cone twenty feet away; two feeders keep the coach's bucket full from behind the coach.",
+          "setup": "Cone square fifteen feet on a side around home plate marking the bat zone, tee and net inside, on-deck cone up the first-base line, two helmets, soft baseballs.",
+          "groups": "Three groups of four rotating every 10 minutes; inside the group rotate hitter, feeder, feeder, on-deck after every six swings.",
+          "coachingPoints": [
+            "Helmets on for the hitter and the on-deck player, and nobody else touches a bat.",
+            "Bat-zone rule: the cones are a wall while a bat is in a hitter's hands.",
+            "Hit the top half of the ball so it goes on the ground; today is ground ball day for the fielders too."
+          ]
+        },
+        {
+          "title": "Team: Field It, Throw It to First",
+          "minutes": 7,
+          "type": "team",
+          "description": "Players take infield positions with a helper at first base. The coach rolls or hits easy fungo ground balls to one position at a time, the fielder uses the triangle, funnels, steps, and throws to first. After each ball every player moves one position clockwise so everyone fields from several spots.",
+          "setup": "Infield with bases, coach at home plate with a bucket, a helper receiving at first base, two players at each infield position when numbers allow.",
+          "groups": "Whole team on the infield, rotating one position after each ball; outfielders rotate in at third base.",
+          "coachingPoints": [
+            "Everyone in the ready position before the coach touches the ball.",
+            "Throw to the helper's chest; a good throw matters more than a fast one.",
+            "Move your feet, then field; do not reach."
+          ]
+        },
+        {
+          "title": "Game: Beat the Record",
+          "minutes": 7,
+          "type": "game",
+          "description": "Same setup as the team segment. The coach rolls or hits ground balls one after another, and the team counts out loud every clean play: fielded cleanly and thrown so the first-base helper can catch it without leaving the base. A bobble or a bad throw does not reset the count; it just does not add to it. The team tries to beat its own record from the previous practice.",
+          "setup": "Infield positions, a helper at first, a bucket of twenty baseballs at home plate.",
+          "groups": "Whole team, rotating one position after every ball so every player gets several plays.",
+          "coachingPoints": [
+            "The team record belongs to everyone, so cheer every clean play by name.",
+            "Keep the pace quick; the next ball comes as soon as the fielder is reset.",
+            "Execution counts, not speed: a slow clean play scores, a rushed bad throw does not."
+          ]
+        },
+        {
+          "title": "Wrap-Up",
+          "minutes": 3,
+          "type": "wrapup",
+          "description": "Take a knee on the infield grass. Ask the team to show the fielding triangle with no ball and to call out 'Down!' and 'Up!' as the coach holds a glove low and high. Announce the record, the home assignment, and finish with a cheer.",
+          "setup": "Infield grass, balls collected by the players into the bucket.",
+          "groups": "Whole team, parents at the fence.",
+          "coachingPoints": [
+            "Write the clean-play record somewhere you will remember for next week.",
+            "One home assignment, and remind parents to roll on grass."
+          ]
+        }
+      ],
+      "safety": [
+        "Rolled ground balls on grass for Station 1; nothing is hit hard at a seven-year-old.",
+        "Helmets on the hitter and the on-deck player, one bat in the zone, and the bat set down inside the zone when a turn ends.",
+        "Soft balls at the glove-angle station and in the hitting zone.",
+        "Everyone throws toward first base in the team segment; no cross-field throws."
+      ],
+      "progressions": [
+        "Move Station 1 to the infield dirt and roll from thirty feet.",
+        "Add a backhand roll to the glove-angle station for players who are turning the glove correctly.",
+        "In Beat the Record, require the first-base helper to catch the throw with one foot on the base."
+      ],
+      "homeAssignmentLessonId": "fld-02"
+    },
+    {
+      "id": "cp-06",
+      "title": "Coach Pitch: Baserunning and Games",
+      "ageGroups": [
+        "a7_8"
+      ],
+      "durationMin": 60,
+      "focus": [
+        "running_bases",
+        "reading_ball",
+        "contact",
+        "fun"
+      ],
+      "playersMin": 9,
+      "playersMax": 14,
+      "coachesMin": 3,
+      "equipment": [
+        "soft_ball",
+        "ball",
+        "glove",
+        "bat",
+        "helmet",
+        "cones",
+        "bases",
+        "bucket",
+        "l_screen"
+      ],
+      "space": "full_field",
+      "objective": "Players run through first base, round first on a ball to the outfield, know when they are forced to run, and finish with a small-sided game that scores good decisions as highly as runs.",
+      "blocks": [
+        {
+          "title": "Run-Through Warm-Up",
+          "minutes": 7,
+          "type": "warmup",
+          "description": "Dynamic movements from the foul line to a cone line twenty yards out: jog, skips, high knees, side shuffles, arm circles. Then players line up two at a time at home plate and sprint through first base to a cone fifteen feet past the bag, slowing down only after the cone. A helper at first says 'Through!' as they pass.",
+          "setup": "Cones every ten feet along the foul line, a matching line twenty yards out, bases in place, a bright cone fifteen feet past first base in foul territory.",
+          "groups": "Whole team for the dynamic part, then pairs sprinting side by side on the coach's 'Go!' so the wait is never more than one pair.",
+          "coachingPoints": [
+            "Run through the base and past the cone; the cone is the finish line, not the bag.",
+            "Hit the front half of the base with either foot; no leaping at it.",
+            "Eyes up after the base; look for an overthrow, but that is a later lesson."
+          ]
+        },
+        {
+          "title": "Throwing Progression",
+          "minutes": 8,
+          "type": "warmup",
+          "description": "Partners across the foul line: wrist flips at fifteen feet, one-knee throws at twenty, standing point-step-throw at thirty, then forty feet to a glove target. Keep it to about two minutes per stage and remind everyone the arm is a tool for the whole season.",
+          "setup": "Partners in two facing lines, all throws traveling the same direction across the foul line, soft baseballs for nervous catchers.",
+          "groups": "Pairs matched by comfort, odd player with a helper, coaches walking behind one line.",
+          "coachingPoints": [
+            "Step toward the glove on every throw.",
+            "Catch with two hands and bring the ball to the chest before throwing back."
+          ]
+        },
+        {
+          "title": "Station 1: Hitting Zone, Hit and Go",
+          "minutes": 10,
+          "type": "station",
+          "description": "A coach front-tosses soft baseballs from behind an L-screen or bucket twelve to fifteen feet away. Each hitter takes five swings, and on the fifth swing sets the bat down inside the zone and sprints to a cone forty feet up the first-base line as if running out a hit. The on-deck player waits at the on-deck cone doing dry swings, and the other two feed balls from behind the screen.",
+          "setup": "Bat zone marked by a cone square around home plate, L-screen or bucket in front of the coach, on-deck cone twenty feet up the first-base line and a sprint cone forty feet out, two helmets, soft baseballs. Use a plate in foul territory if the infield is needed for Station 2.",
+          "groups": "Three groups of four rotating every 10 minutes on the whistle; inside the group rotate hitter, feeder, feeder, on-deck after each hitter's sprint.",
+          "coachingPoints": [
+            "Helmets on the hitter and the on-deck player; nobody else holds a bat.",
+            "Bat-zone rule: the cones are a wall while a bat is in anyone's hands, and the bat goes on the ground before the sprint.",
+            "Hit it, drop it, go: the habit of running on contact starts here."
+          ]
+        },
+        {
+          "title": "Station 2: The Banana Turn",
+          "minutes": 10,
+          "type": "station",
+          "description": "Players learn to round first on a ball hit to the outfield. A cone sits eight to ten feet outside the baseline about two-thirds of the way to first; the runner bends out around the cone, touches the inside corner of the base with either foot, and takes a few hard steps toward second before stopping. Two players run at a time on the helper's 'Hit!' while the other two wait at the on-deck cone, then swap.",
+          "setup": "Use a spare base in the outfield so the infield stays free: a throw-down home plate, a base sixty feet away, a banana cone eight to ten feet outside the straight path, and a stop cone fifteen feet past the base toward the imaginary second base.",
+          "groups": "Three groups of four, 10 minutes per rotation, two runners going at a time from side-by-side plates.",
+          "coachingPoints": [
+            "Bend out early, not at the last second; the path looks like a banana.",
+            "Touch the inside corner and lean toward second.",
+            "Look at where the ball is while rounding; the helper points to it."
+          ]
+        },
+        {
+          "title": "Station 3: Force or Tag?",
+          "minutes": 10,
+          "type": "station",
+          "description": "A helper acts as pitcher with a soft ball, with one runner on a throw-down first base, one fielder at second, one fielder at first, and one batter-runner at home with no bat. On 'Hit!' the helper rolls to a fielder; because the batter-runner is coming to first, the runner on first is forced and the fielder only has to touch second. Then the helper removes the batter-runner, rolls again, and the group has to notice the runner is not forced and must be tagged. Rotate every two plays.",
+          "setup": "Throw-down bases forty feet apart in the outfield grass forming home, first, and second; one helper with soft balls as the pitcher; a cone where the batter-runner starts.",
+          "groups": "Three groups of four, rotating roles every two plays: runner, batter-runner, fielder at first, fielder at second.",
+          "coachingPoints": [
+            "Ask before every roll: 'Is the runner forced?' and make the whole group answer.",
+            "A force play means touch the base; a tag play means touch the runner with the ball in the glove.",
+            "Tag softly with the back of the glove; nobody swipes at a face."
+          ]
+        },
+        {
+          "title": "Game: Hit and Run Scrimmage",
+          "minutes": 12,
+          "type": "game",
+          "description": "Half the team fields, half bats, coach pitching soft baseballs from a short distance with a maximum of three pitches per batter. Offense scores one run for every runner who scores and one bonus point for every good baserunning decision the base coach calls out: running through first, taking the banana turn on a ball to the outfield, or stopping when a line drive is caught. Defense scores a point for every clean field-and-throw to the correct base, out or not. Switch sides after everyone bats once.",
+          "setup": "Full infield with bases, coach pitching from about twenty feet, helmets on every batter and runner, bat-zone cones around home plate, helpers coaching first and third base.",
+          "groups": "Two teams of six or seven, with helpers as base coaches and the head coach pitching and keeping score out loud.",
+          "coachingPoints": [
+            "Announce every bonus point by name so good decisions get as much noise as runs.",
+            "Runners look at the base coach before every pitch; the coach uses a windmill for go and two hands up for stop.",
+            "Fielders in the ready position before every pitch, and the ball goes to the base the play is at."
+          ]
+        },
+        {
+          "title": "Wrap-Up",
+          "minutes": 3,
+          "type": "wrapup",
+          "description": "Take a knee on the infield grass. Ask the team two questions: when do we run through first base, and when does a fielder have to tag the runner. Announce the home assignment and finish with the team cheer.",
+          "setup": "Infield grass with equipment collected into the buckets by the players.",
+          "groups": "Whole team with parents at the fence.",
+          "coachingPoints": [
+            "Players answer, coaches confirm.",
+            "Tell parents the home assignment is a baserunning lesson that needs no equipment at all."
+          ]
+        }
+      ],
+      "safety": [
+        "Helmets on every batter, on-deck player, and runner; one bat in the hitting zone at a time, set down inside the zone before running.",
+        "Soft baseballs for all front toss and for the Force or Tag station.",
+        "Tags are made with the glove below the shoulders; no diving tags and no collisions, and runners slow down before an occupied base in practice.",
+        "Baserunning stations use spare bases in the outfield so no one runs through a live throwing lane."
+      ],
+      "progressions": [
+        "Add a base coach at Station 2 who decides whether the runner holds or keeps going to second.",
+        "In Force or Tag, add a second runner on second base so players sort out two forces at once.",
+        "Let a player pitch underhand from close range in the scrimmage once the group handles coach pitch well, if your division allows it."
+      ],
+      "homeAssignmentLessonId": "run-01"
+    },
+    {
+      "id": "cp-07",
+      "title": "Minors: Infield Fundamentals",
+      "ageGroups": [
+        "a9_10"
+      ],
+      "durationMin": 75,
+      "focus": [
+        "ready_position",
+        "ground_balls",
+        "footwork",
+        "transfers"
+      ],
+      "playersMin": 10,
+      "playersMax": 14,
+      "coachesMin": 2,
+      "equipment": [
+        "ball",
+        "tennis_ball",
+        "glove",
+        "bat",
+        "cones",
+        "bases",
+        "bucket",
+        "net"
+      ],
+      "space": "full_field",
+      "objective": "Every infielder fields a fungo ground ball in the triangle, handles a short hop and a backhand with the right glove angle, and uses right-left-throw footwork to make an accurate throw to first.",
+      "blocks": [
+        {
+          "title": "Dynamic Warm-Up",
+          "minutes": 7,
+          "type": "warmup",
+          "description": "From the foul line to a cone line twenty-five yards out and back: jog, high knees, butt kicks, carioca both directions, side shuffles in a ready position, and walking lunges with a trunk twist. Finish with arm circles small to large and ten slow trunk rotations.",
+          "setup": "Cones every ten feet along the left-field line and a matching line twenty-five yards into the outfield.",
+          "groups": "Whole team in one wave with a player captain leading from the front.",
+          "coachingPoints": [
+            "Side shuffles stay low, like fielding a ground ball on the move.",
+            "Nobody throws until the whole warm-up is done."
+          ]
+        },
+        {
+          "title": "Throwing Progression",
+          "minutes": 10,
+          "type": "warmup",
+          "description": "Partners build the throw in five stages of about two minutes each: wrist flips at fifteen feet, one-knee throws at twenty-five feet with a full arm circle, the rocker step at forty feet (step back with the throwing-side foot, then forward into the throw), regular throws at sixty feet, then back in to forty-five feet for quick-catch, which means catching and releasing in rhythm with the feet moving. Today ends at sixty feet; this is not long toss.",
+          "setup": "Partners facing across the foul line, moving back on the coach's call, all throws in the same direction. Regular baseballs.",
+          "groups": "Pairs by arm comfort, odd player with a coach, one coach walking behind each line watching the front shoulder and stepping foot.",
+          "coachingPoints": [
+            "Front shoulder points at the target before the arm goes.",
+            "Elbow at shoulder height at the top; finish with the throwing hand near the opposite knee.",
+            "Quick-catch is smooth, not hurried: catch, turn, step, throw in one rhythm."
+          ]
+        },
+        {
+          "title": "Station 1: Fungo Triangle and Funnel",
+          "minutes": 10,
+          "type": "station",
+          "description": "A coach hits easy fungo ground balls from forty to fifty feet to one fielder at a time on the infield dirt between second and third. The fielder sets up in the triangle, fields the ball out in front, funnels it to the belly, and throws to a player standing on the first-base bag. Two fielders alternate while one receives at first and one backs up the throw, swapping roles every five balls.",
+          "setup": "Coach with a fungo bat and a bucket of baseballs near the mound, two fielding cones on the dirt between second and third, a player receiving at first base, a backup player ten feet behind first in foul territory.",
+          "groups": "Three groups of four rotating every 10 minutes on the whistle: two fielders, one receiver, one backup, swapping every five ground balls.",
+          "coachingPoints": [
+            "Approach under control and get the feet set before the ball arrives.",
+            "Glove out in front where the eyes can see the ball into it; funnel to the belly.",
+            "Throw to the chest of the receiver; the receiver gives a two-hand target."
+          ]
+        },
+        {
+          "title": "Station 2: Short Hops and Backhand Intro",
+          "minutes": 10,
+          "type": "station",
+          "description": "Partners stand fifteen feet apart on the grass with tennis balls. One throws a firm one-hopper that bounces three or four feet in front of the fielder, who stays low and catches the short hop with the glove moving forward, not back. After three minutes the thrower aims to the fielder's throwing-arm side so the fielder turns the glove over for a backhand: glove-side foot forward, glove fingers pointing down, eyes on the ball into the glove. Switch roles every six balls.",
+          "setup": "Pairs of cones fifteen feet apart on grass, one tennis ball per pair, gloves on. Tennis balls keep bad hops painless while the glove angles are being learned.",
+          "groups": "Three groups of four, 10 minutes per rotation, working in pairs the whole time so everyone fields constantly.",
+          "coachingPoints": [
+            "Play the hop you want: go get the short hop instead of waiting for the in-between hop.",
+            "Backhand with the glove-side foot forward and fingers down; watch it in.",
+            "Stay low from start to finish; standing up is the most common mistake."
+          ]
+        },
+        {
+          "title": "Station 3: Right-Left-Throw to the Net",
+          "minutes": 10,
+          "type": "station",
+          "description": "A helper rolls a ground ball from twenty-five feet to a fielder who fields it, then says the footwork out loud: 'Right, left, throw' for a right-handed thrower (left, right, throw for a lefty), shuffling toward the target with each step and throwing into a net with a taped strike zone thirty-five feet away. Two fielders alternate while two collect balls from behind the net and refill the bucket.",
+          "setup": "A hitting net with a taped or chalked square about the size of a player's chest, thirty-five feet from a fielding cone, a helper with a bucket of baseballs twenty-five feet in front of the fielder.",
+          "groups": "Three groups of four, 10 minutes per rotation, two fielding alternately and two retrieving, swapping every five balls.",
+          "coachingPoints": [
+            "Say the footwork out loud until the feet do it without thinking.",
+            "The shuffle steps carry the fielder toward the target so the throw is shorter and straighter.",
+            "Hit the square, not the net; accuracy is the whole point of the footwork."
+          ]
+        },
+        {
+          "title": "Team: Infield at Positions",
+          "minutes": 13,
+          "type": "team",
+          "description": "Players take all infield positions, with extra players doubling up behind the regulars and outfielders rotating in. The coach hits fungo to one spot at a time and the fielder throws to first, but every other infielder has a job too: on a ball to the left side the second baseman covers second, on a ball to the right side the shortstop covers second, and the pitcher backs up or covers first on a ball to the first baseman. After each ball the coach asks one player where they went and why.",
+          "setup": "Full infield with bases, coach at home plate with a fungo bat and a bucket, a catcher in gear or a helper receiving return throws, extra players standing ten feet behind each position.",
+          "groups": "Whole team on the infield, the doubled-up players swapping in after every two ground balls.",
+          "coachingPoints": [
+            "Everybody moves on every ball; nobody watches.",
+            "Know who covers second before the ball is hit, and say it out loud.",
+            "Throws to first are chest-high; a good throw beats a hard one."
+          ]
+        },
+        {
+          "title": "Game: 21 Outs",
+          "minutes": 12,
+          "type": "game",
+          "description": "Same positions as the team segment. The coach hits ground balls in rapid order and the team counts out loud every clean play: fielded cleanly and thrown chest-high to first so the first baseman never leaves the bag. A bobble or a bad throw takes the count back two, but never below the last multiple of seven reached, so a hot streak is protected. The team wins when it reaches twenty-one clean plays, or sets a record to beat next week.",
+          "setup": "Full infield, coach with a fungo bat and a full bucket at home, a player at first base and a backup in foul territory behind first.",
+          "groups": "Whole team at positions, rotating one spot clockwise every three ground balls so everyone fields from several places.",
+          "coachingPoints": [
+            "Celebrate the seven, fourteen, and twenty-one marks loudly as a team.",
+            "A slow, clean play counts; a fast, wild one does not.",
+            "Keep the pace: the next ball is hit as soon as the fielder is set."
+          ]
+        },
+        {
+          "title": "Wrap-Up",
+          "minutes": 3,
+          "type": "wrapup",
+          "description": "Take a knee behind the mound. Ask the team to show the triangle and say the footwork out loud together. Announce the 21 Outs result, the home assignment, and finish with a cheer.",
+          "setup": "Infield grass, balls collected by the players.",
+          "groups": "Whole team, parents at the fence.",
+          "coachingPoints": [
+            "Name two players who did something well that nobody else noticed.",
+            "Remind players the home assignment can be done with a tennis ball against a wall."
+          ]
+        }
+      ],
+      "safety": [
+        "Fungo ground balls are hit at a pace the fielder can handle; fielders who are not confident get rolled balls from the coach first.",
+        "Tennis balls at the short-hop station until every player keeps the glove out front on bad hops.",
+        "All throws in a station go to a single target; receivers wear a glove and give a target, and nobody stands behind the receiver except in foul territory.",
+        "Throwing progression ends at sixty feet; players who pitched in the last game throw only the first three stages and tell the coach how the arm feels."
+      ],
+      "progressions": [
+        "Hit fungo from home plate at game distance once the triangle is automatic from forty feet.",
+        "Replace tennis balls with baseballs at the short-hop station for players who are consistently out front.",
+        "Add a runner with a helmet to 21 Outs so the throw has to beat someone."
+      ],
+      "homeAssignmentLessonId": "fld-05"
+    },
+    {
+      "id": "cp-08",
+      "title": "Minors: Hitting Stations",
+      "ageGroups": [
+        "a9_10"
+      ],
+      "durationMin": 75,
+      "focus": [
+        "stance",
+        "load",
+        "swing_path",
+        "contact"
+      ],
+      "playersMin": 10,
+      "playersMax": 14,
+      "coachesMin": 3,
+      "equipment": [
+        "ball",
+        "soft_ball",
+        "tennis_ball",
+        "glove",
+        "bat",
+        "helmet",
+        "tee",
+        "net",
+        "l_screen",
+        "cones",
+        "bases",
+        "bucket"
+      ],
+      "space": "full_field",
+      "objective": "Every hitter takes quality swings at three tee locations, against front toss, and in a bat-control drill, then applies them in coach-pitch batting practice with a live defense, all inside helmet and bat-zone rules.",
+      "blocks": [
+        {
+          "title": "Dynamic Warm-Up",
+          "minutes": 7,
+          "type": "warmup",
+          "description": "Foul line to a cone line twenty-five yards out and back: jog, skips, high knees, carioca, side shuffles, walking lunges with a trunk twist. Finish with arm circles and ten slow hip rotations each direction, since the hips do the work in a good swing.",
+          "setup": "Cones every ten feet along the foul line and a matching line twenty-five yards into the outfield.",
+          "groups": "Whole team in one wave, a player captain leading.",
+          "coachingPoints": [
+            "Hip rotations are slow and balanced on both feet.",
+            "Finish together before anyone picks up a ball."
+          ]
+        },
+        {
+          "title": "Throwing Progression",
+          "minutes": 10,
+          "type": "warmup",
+          "description": "Partners across the foul line: wrist flips at fifteen feet, one-knee throws at twenty-five, rocker-step throws at forty, regular throws at sixty, then quick-catch at forty-five. Two minutes per stage, glove targets every throw, and the coaches watch for the front shoulder pointing at the target.",
+          "setup": "Partners in two facing lines, all throws the same direction, regular baseballs.",
+          "groups": "Pairs by arm comfort, odd player with a coach.",
+          "coachingPoints": [
+            "Point the front shoulder, step, and finish across the body.",
+            "Nobody tries to throw hard; this is preparation, not a contest."
+          ]
+        },
+        {
+          "title": "Station 1: Tee Locations",
+          "minutes": 11,
+          "type": "station",
+          "description": "Three cones on the ground mark where the tee goes for an inside pitch (even with the front foot, closer to the plate), a middle pitch (off the front hip), and an outside pitch (deeper, toward the back foot, on the outer edge). The hitter takes four swings at each location into the net, with the helper moving the tee and calling the location. The on-deck player does slow shadow swings at the on-deck cone, and two players collect balls behind the net and reset the bucket.",
+          "setup": "Hitting net eight feet in front of a throw-down plate, tee, three location cones, a bat zone of cones around the plate, on-deck cone twenty feet away, two helmets, a bucket of baseballs.",
+          "groups": "Three groups of four rotating every 11 minutes on the whistle; inside the group, rotate after each hitter's twelve swings.",
+          "coachingPoints": [
+            "Inside pitch: hit it out front and pull it. Outside pitch: let it get deeper and hit it the other way.",
+            "Same stance and same load for every location; only the contact point changes.",
+            "Helmets on the hitter and the on-deck player, one bat in the zone, bat on the ground before leaving."
+          ]
+        },
+        {
+          "title": "Station 2: Front Toss Behind the L-Screen",
+          "minutes": 11,
+          "type": "station",
+          "description": "A coach kneels behind an L-screen fifteen feet in front of a plate set ten feet from the backstop and tosses firm underhand pitches that the hitter drives into the backstop. Eight swings per turn, with the first two taken at half speed to find the timing. The on-deck player shadows the load and stride at the on-deck cone, and two feeders keep the coach's bucket full from behind the screen.",
+          "setup": "Throw-down plate ten feet in front of the backstop, L-screen fifteen feet in front of the plate, bat zone cones, on-deck cone twenty feet away in foul territory, bucket of baseballs, two helmets.",
+          "groups": "Three groups of four, 11 minutes per rotation; rotate hitter, feeder, feeder, on-deck after every eight swings.",
+          "coachingPoints": [
+            "Small load: a slight shift of the weight back as the coach's arm goes back, so the swing starts on time.",
+            "Hands take a short path to the ball; the barrel stays above the hands until contact.",
+            "The coach stays behind the screen on every toss, no exceptions."
+          ]
+        },
+        {
+          "title": "Station 3: Bat Control, Top Hand and Bottom Hand",
+          "minutes": 11,
+          "type": "station",
+          "description": "At the outfield fence a helper kneels at a forty-five-degree angle in front of the hitter and soft-tosses tennis balls. The hitter chokes up to the middle of the bat and takes five swings with the top hand only, five with the bottom hand only, then five with both hands, hitting each ball into the fence. The other three players each stand in their own cone box fifteen feet apart doing the same one-hand shadow swings with no ball so the whole group is working.",
+          "setup": "A plate twelve feet from the outfield fence, a kneeling helper with a bucket of tennis balls forty-five degrees in front of the hitter on the open side, a bat zone of cones, three shadow-swing cone boxes fifteen feet apart and well outside the zone, two helmets.",
+          "groups": "Three groups of four, 11 minutes per rotation; one hitter at the fence while three shadow-swing, rotating after fifteen swings.",
+          "coachingPoints": [
+            "Top-hand swings: elbow stays close to the body, palm up at contact.",
+            "Bottom-hand swings: pull the knob to the ball, no casting out.",
+            "Shadow swingers hold the finish for two seconds, balanced."
+          ]
+        },
+        {
+          "title": "Team: Coach-Pitch Batting Practice With Defense",
+          "minutes": 15,
+          "type": "team",
+          "description": "The coach pitches overhand from behind an L-screen at a shortened distance while the rest of the team plays defense at real positions. Each hitter takes five swings and runs out the fifth, and the defense plays every ball live, including throwing to first. Two hitters wait in the on-deck area behind the backstop fence, and everyone rotates from the outfield to the infield to the on-deck area to the plate.",
+          "setup": "Full field with bases, L-screen in front of the mound, a full bucket for the coach, a catcher in gear or a helper behind the plate, helmets for hitters and on-deck players, bat zone cones.",
+          "groups": "Whole team: one hitter, two on deck behind the fence, everyone else on defense, rotating one spot after each hitter.",
+          "coachingPoints": [
+            "Same swing from the stations: small load, short path, finish balanced.",
+            "Defense plays every ball as if a runner were going, because one is on the fifth swing.",
+            "On-deck players stay behind the fence until the hitter has set the bat down."
+          ]
+        },
+        {
+          "title": "Game: Hard-Contact Points",
+          "minutes": 7,
+          "type": "game",
+          "description": "Two teams alternate hitters against the coach's front toss from the L-screen. A line drive scores three, a hard ground ball scores two, any other fair ball scores one, and a swing and miss scores nothing but gets another toss. The result on the field does not matter, only the quality of contact, and the defense calls out the points honestly. First team to twenty-five wins, or the higher total when time runs out.",
+          "setup": "Same field setup as the team segment, two team lists on a clipboard, one hitter at a time with helmets on the hitter and the next two.",
+          "groups": "Two teams of five to seven, alternating hitters, three swings each, while the non-hitting players field.",
+          "coachingPoints": [
+            "Hard contact is the only goal; a line drive caught at shortstop still scores three.",
+            "Keep the game moving: three tosses, next hitter.",
+            "Defense scores it honestly and loudly."
+          ]
+        },
+        {
+          "title": "Wrap-Up",
+          "minutes": 3,
+          "type": "wrapup",
+          "description": "Take a knee behind the mound. Ask hitters where the tee goes for an inside pitch and an outside pitch, and ask them to show the small load with no bat. Announce the home assignment and finish with a cheer.",
+          "setup": "Infield grass with equipment collected into buckets.",
+          "groups": "Whole team with parents at the fence.",
+          "coachingPoints": [
+            "Players describe the three tee locations in their own words.",
+            "Remind parents the home assignment needs only a tee and a net or fence."
+          ]
+        }
+      ],
+      "safety": [
+        "Helmets on every hitter and on-deck player; one bat per bat zone, set down inside the zone when the turn ends.",
+        "The coach tosses only from behind an L-screen in both front-toss blocks; tennis balls for the soft-toss station with the helper kneeling at forty-five degrees, never in front.",
+        "On-deck players stand behind a fence or at a cone at least twenty feet from any hitter.",
+        "Shadow-swing boxes are fifteen feet apart and swings happen on the helper's command."
+      ],
+      "progressions": [
+        "Add a fourth tee location, high and low, so hitters adjust bat path as well as contact point.",
+        "Front toss with mixed speeds so hitters have to hold the load a little longer.",
+        "Batting practice with a player pitching within a strict counted number of pitches, once you have checked the league's pitch-count rules."
+      ],
+      "homeAssignmentLessonId": "hit-14"
+    },
+    {
+      "id": "cp-09",
+      "title": "Minors: Outfield and Cutoffs",
+      "ageGroups": [
+        "a9_10"
+      ],
+      "durationMin": 75,
+      "focus": [
+        "fly_balls",
+        "outfield",
+        "communication",
+        "accuracy"
+      ],
+      "playersMin": 10,
+      "playersMax": 14,
+      "coachesMin": 2,
+      "equipment": [
+        "ball",
+        "tennis_ball",
+        "glove",
+        "bat",
+        "helmet",
+        "cones",
+        "bases",
+        "bucket"
+      ],
+      "space": "full_field",
+      "objective": "Every player drop-steps to a fly ball, fields an outfield ground ball two ways, and throws to a cutoff man who is lined up and loud, then the whole team runs a cutoff and relay play from start to finish.",
+      "blocks": [
+        {
+          "title": "Dynamic Warm-Up With Drop Steps",
+          "minutes": 7,
+          "type": "warmup",
+          "description": "Standard dynamic movements from the foul line to a cone line twenty-five yards out and back, then footwork: players face the coach in a spread grid and on 'Left!' or 'Right!' drop-step that way (open the hip and step back with that foot) and sprint three steps, then jog back. Finish with arm circles and arm swings across the body.",
+          "setup": "Cones every ten feet along the foul line, a matching line twenty-five yards out, and a grid of one cone per player in the outfield facing the coach.",
+          "groups": "Whole team in one wave, then everyone on their own cone for the drop-step calls.",
+          "coachingPoints": [
+            "Drop step with the foot on the side the ball is going, then turn and run.",
+            "Eyes stay on the coach's hand, like watching the ball off the bat."
+          ]
+        },
+        {
+          "title": "Throwing Progression With the Crow Hop",
+          "minutes": 10,
+          "type": "warmup",
+          "description": "Partners across the foul line: wrist flips at fifteen feet, one-knee throws at twenty-five, standing throws at forty-five, then crow-hop throws at seventy feet. The crow hop is a hop onto the throwing-side foot, a step with the glove-side foot toward the target, and a throw with the whole body behind it. Finish at fifty feet with easy throws to bring the arm back down.",
+          "setup": "Partners facing across the foul line, moving back on the coach's call, all throws in the same direction, regular baseballs.",
+          "groups": "Pairs by arm comfort, odd player with a coach walking the line.",
+          "coachingPoints": [
+            "The crow hop gains ground toward the target; it is not a jump straight up.",
+            "Throw through the partner's chest, long and low, not high and rainbow-shaped.",
+            "Seventy feet is the longest throw today; nobody shows off."
+          ]
+        },
+        {
+          "title": "Station 1: Drop Step and Fly Balls",
+          "minutes": 10,
+          "type": "station",
+          "description": "A helper stands fifteen feet in front of a fielder, points left or right, and throws a fly ball over that shoulder so the fielder has to drop-step, turn, run, and catch with two hands above the eyes. Start with thrown fly balls at half effort; move to fungo only if every player is catching cleanly. Two fielders alternate while two return balls to the bucket, switching every four balls.",
+          "setup": "Two fielding cones in the outfield grass thirty feet apart, a helper with a bucket of regular baseballs fifteen feet in front of them, open grass behind.",
+          "groups": "Three groups of four rotating every 10 minutes on the whistle: two fielders alternating, two retrieving, swapping every four fly balls.",
+          "coachingPoints": [
+            "Drop step first, then run; do not backpedal.",
+            "Catch above the eyes with two hands, the glove-side foot slightly forward, ready to throw.",
+            "Call it: 'Ball, ball, ball!' even with nobody near you, so the habit forms."
+          ]
+        },
+        {
+          "title": "Station 2: Outfield Ground Balls",
+          "minutes": 10,
+          "type": "station",
+          "description": "A helper rolls or throws ground balls from forty feet to an outfielder who fields two ways. The safe way, with nobody on base: get in front, drop the throwing-side knee to the grass to block the ball, and come up throwing. The do-or-die way, when a run is on the line: field the ball on the glove-side foot while moving forward and crow hop into the throw. Throws go to a player standing on a cone sixty feet away acting as the cutoff man.",
+          "setup": "Fielding cone in the outfield, a helper with a bucket forty feet in front, a cutoff cone sixty feet toward the infield with a player on it, a backup player behind the cutoff.",
+          "groups": "Three groups of four, 10 minutes per rotation: fielder, cutoff, backup, retriever, rotating every three ground balls.",
+          "coachingPoints": [
+            "Say which way you are fielding before the ball comes: 'Block!' or 'Do or die!'",
+            "Throw to the cutoff man's glove side, chest high, so the cutoff can turn and throw.",
+            "The cutoff man gives a big two-hand target and yells the outfielder's name."
+          ]
+        },
+        {
+          "title": "Station 3: Cutoff Position and Relay Footwork",
+          "minutes": 10,
+          "type": "station",
+          "description": "Three players stand in a line sixty feet apart in the outfield with a fourth as the retriever. The end player throws to the middle player, who is the relay: hands up over the head, calling 'Hit me!', catching on the glove side, turning toward the glove side, and throwing to the third player in one motion. The ball goes down the line and back, then players rotate so everyone takes the middle spot.",
+          "setup": "Three cones in a straight line sixty feet apart along the outfield, one baseball per line, a bucket for extras.",
+          "groups": "Three groups of four, 10 minutes per rotation, rotating positions in the line every six throws.",
+          "coachingPoints": [
+            "Hands up and loud: the thrower needs to see and hear the relay man.",
+            "Catch on the glove side and turn that way; turning the wrong way wastes a full second.",
+            "Short, firm, accurate throws beat long heroic ones."
+          ]
+        },
+        {
+          "title": "Team: Cutoffs and Relays Walkthrough",
+          "minutes": 15,
+          "type": "team",
+          "description": "Full defense takes the field and the coach walks through three plays, first with no ball, then with a fungo, then with a runner in a helmet. Play one: single to right field with a runner on second, where the first baseman lines up between the right fielder and home as the cutoff man and the catcher yells 'Cut!' or 'Let it go!'. Play two: single to left with a runner on second, where the third baseman is the cutoff man. Play three: ball in the left-center gap with a runner on first, where the shortstop runs out as the relay man, the second baseman covers second base, and everyone else backs up a base.",
+          "setup": "Full field with bases, coach with a fungo bat and bucket at home, a catcher in gear, one or two runners in helmets, cones placed where each cutoff man should stand for the first run-through.",
+          "groups": "Nine on defense with extras as runners and backups, rotating after each play so every player is a cutoff or relay man at least once.",
+          "coachingPoints": [
+            "Line up: the cutoff man stands on a straight line between the outfielder and the base the throw is going to.",
+            "The catcher runs the play with his voice; the cutoff man listens, not looks.",
+            "Every player not in the play backs up a base; nobody stands and watches."
+          ]
+        },
+        {
+          "title": "Game: Relay Race",
+          "minutes": 10,
+          "type": "game",
+          "description": "Two teams form relay lines of four players sixty feet apart from the outfield fence to the infield. On 'Go!' the ball travels down each line and back. Points are for execution, not speed: two points for every throw caught by the relay man without moving his feet more than one step, one point if he had to move, zero for a drop or a throw over his head. First team to fifteen points wins; the team that finishes first gets nothing extra.",
+          "setup": "Two parallel lines of four cones each, sixty feet apart, starting at the outfield fence; one ball per team, a coach watching each line to award points.",
+          "groups": "Two teams of five to seven, with extras rotating in after each trip down and back.",
+          "coachingPoints": [
+            "Accuracy wins this game, so take the extra half second to set the feet.",
+            "Relay men keep their hands up and their voices loud all game.",
+            "Call the points out loud so players see that execution is what gets rewarded."
+          ]
+        },
+        {
+          "title": "Wrap-Up",
+          "minutes": 3,
+          "type": "wrapup",
+          "description": "Take a knee in shallow center field. Ask who the cutoff man is on a single to right with a runner on second and who runs out for the relay on a ball in the gap. Announce the home assignment and finish with the team cheer.",
+          "setup": "Outfield grass, equipment collected into buckets by the players.",
+          "groups": "Whole team with parents at the fence.",
+          "coachingPoints": [
+            "Players answer, coaches confirm.",
+            "Tell parents the home assignment includes a relay game they can play in the yard."
+          ]
+        }
+      ],
+      "safety": [
+        "Fly balls are thrown, not hit, until every player in the group is catching with two hands above the eyes.",
+        "Longest throw of the day is seventy feet in the progression; players who pitched recently stop at forty-five and tell a coach how the arm feels.",
+        "Relay lines are spaced so no throw crosses another line, and retrievers stay out of the throwing lanes.",
+        "Runners wear helmets in the walkthrough, and fielders never tag a runner at full speed in practice."
+      ],
+      "progressions": [
+        "Fungo fly balls at Station 1 with the fielder starting from a real outfield position.",
+        "Add a second runner to the walkthrough so the catcher has to decide which base to send the throw to.",
+        "Relay Race with five players per line and a throw to a catcher at home plate to finish."
+      ],
+      "homeAssignmentLessonId": "fld-18"
+    },
+    {
+      "id": "cp-10",
+      "title": "Minors: Situational Defense",
+      "ageGroups": [
+        "a9_10"
+      ],
+      "durationMin": 75,
+      "focus": [
+        "baseball_iq",
+        "infield",
+        "communication",
+        "teamwork"
+      ],
+      "playersMin": 10,
+      "playersMax": 14,
+      "coachesMin": 2,
+      "equipment": [
+        "ball",
+        "soft_ball",
+        "glove",
+        "bat",
+        "helmet",
+        "catcher_gear",
+        "cones",
+        "bases",
+        "bucket"
+      ],
+      "space": "full_field",
+      "objective": "Every player knows where to go on a force play at second, who covers each base and who backs up on common plays, and how the pitcher and catcher handle plays at home and first, then proves it in a game that scores decisions, not outs.",
+      "blocks": [
+        {
+          "title": "Dynamic Warm-Up",
+          "minutes": 7,
+          "type": "warmup",
+          "description": "Foul line to a cone line twenty-five yards out and back: jog, high knees, butt kicks, carioca, side shuffles low in a ready position, walking lunges. Finish with arm circles and trunk twists, then a quick 'point to your position' game where the coach calls a position number and everyone points to it.",
+          "setup": "Cones every ten feet along the foul line and a matching line twenty-five yards out.",
+          "groups": "Whole team in one wave with a player captain leading.",
+          "coachingPoints": [
+            "Position numbers: pitcher one, catcher two, first base three, second base four, third base five, shortstop six, left seven, center eight, right nine.",
+            "Everyone finishes together before any ball comes out."
+          ]
+        },
+        {
+          "title": "Throwing Progression Around the Bases",
+          "minutes": 10,
+          "type": "warmup",
+          "description": "Partners across the foul line: wrist flips at fifteen feet, one-knee throws at twenty-five, rocker-step throws at forty, regular throws at sixty feet. Finish with three minutes of base-to-base throws: four players stand on the bases and throw home to first to second to third to home, with the next four waiting at cones and swapping in every trip around.",
+          "setup": "Partners facing across the foul line for the first four stages, then bases with a player on each and waiting cones in foul territory.",
+          "groups": "Pairs for the progression, then groups of four on the bases, swapping every full trip around the diamond.",
+          "coachingPoints": [
+            "Catch with two hands, turn toward the glove side, step, throw.",
+            "Chest-high throws: the receiver should never leave the base."
+          ]
+        },
+        {
+          "title": "Station 1: Force Play at Second",
+          "minutes": 10,
+          "type": "station",
+          "description": "A helper rolls ground balls from forty feet to a shortstop or a second baseman, who fields and feeds the player covering second with a firm underhand toss from close range or a short overhand throw from farther out. The player covering catches, touches the base with one foot, and finishes with a step toward first, without throwing. Players rotate among fielder, covering player, and the two retrievers, switching every three balls.",
+          "setup": "Second base with a fielding cone on each side (shortstop side and second-base side), a helper with a bucket forty feet in front near the mound, two retriever cones on the outfield grass.",
+          "groups": "Three groups of four rotating every 10 minutes on the whistle, roles changing every three ground balls.",
+          "coachingPoints": [
+            "Show the ball before the underhand feed; no wrist flips, firm and chest high.",
+            "The covering player gets to the base early and gives a target with both hands.",
+            "Touch the base, then clear it: step toward first so a runner cannot collide with you."
+          ]
+        },
+        {
+          "title": "Station 2: Covering Bases and Backing Up",
+          "minutes": 10,
+          "type": "station",
+          "description": "On the first-base half of the infield, four players take pitcher, first base, second base, and right field, and the helper calls a play before rolling a slow ground ball: wide to the first baseman, so the pitcher runs to cover first; a single to right field, so the second baseman covers second and the pitcher backs up the throw; a throw to first from the left side, so the right fielder backs up first base. Walk it first, then jog it, then run it, rotating positions every three plays.",
+          "setup": "First base, second base, and the mound, with cones marking where the pitcher should run to cover first and where the right fielder should stand to back up; a helper with a bucket at home plate.",
+          "groups": "Three groups of four, 10 minutes per rotation, rotating positions every three plays so every player covers and backs up.",
+          "coachingPoints": [
+            "The pitcher breaks toward first on every ball hit to the right side, every time.",
+            "Backing up means standing thirty feet behind the base in line with the throw, not next to the base.",
+            "Say your job out loud as the ball is rolled: 'Covering!' or 'Backing up!'"
+          ]
+        },
+        {
+          "title": "Station 3: Pitcher and Catcher Plays at Home and First",
+          "minutes": 10,
+          "type": "station",
+          "description": "A catcher in full gear sets up behind the plate with a pitcher on the mound, a first baseman, and a batter-runner with a helmet and no bat. The helper rolls a slow dribbler in front of the plate: the catcher yells 'One!', the pitcher or catcher fields it and throws to first. Then the helper tosses a soft ball off the backstop as a passed ball: the catcher goes to get it while the pitcher sprints in to cover home and gives a low target. Rotate roles every two plays, with every player trying the catcher's job in gear.",
+          "setup": "Home plate, the mound, first base, a catcher in full gear, soft balls for the passed-ball toss, baseballs for the dribblers, a helper beside the plate.",
+          "groups": "Three groups of four, 10 minutes per rotation: catcher, pitcher, first baseman, batter-runner, rotating every two plays.",
+          "coachingPoints": [
+            "The catcher calls the play because he sees the whole field.",
+            "On a passed ball the pitcher covers home immediately, straddling the plate on the inside edge, not standing on it.",
+            "Fielder with the ball takes a breath, sets the feet, and throws chest high."
+          ]
+        },
+        {
+          "title": "Team: Situations",
+          "minutes": 15,
+          "type": "team",
+          "description": "Full defense on the field with two or three runners in helmets. Before every fungo the coach announces the situation out loud, for example 'Runner on first, one out,' and the whole defense repeats it. The coach hits the ball, the defense makes the play, and the coach freezes everyone immediately after to ask one player where they went and why. Runners run at half speed and peel off before any tag.",
+          "setup": "Full field with bases, coach with a fungo bat and a bucket at home, catcher in gear, extra players as runners with helmets waiting at a cone near the dugout.",
+          "groups": "Nine on defense, two or three runners, rotating after every three plays so everyone plays several positions and runs once.",
+          "coachingPoints": [
+            "Repeat the situation out loud before every pitch; it is the habit that wins games.",
+            "Where does the ball go, who covers, who backs up: three jobs on every play.",
+            "The freeze-and-ask takes ten seconds; do not let it turn into a speech."
+          ]
+        },
+        {
+          "title": "Game: Defense vs. Offense",
+          "minutes": 10,
+          "type": "game",
+          "description": "Same field and same runners, but now points are scored when the coach calls the situation and hits the ball. Defense earns two points for throwing to the correct base and one more for completing the play cleanly; offense earns two points for every runner who makes the correct decision, going or holding, whether or not they are safe. Nobody earns points for being fast or for an out that came from a wrong decision. First side to fifteen, then switch.",
+          "setup": "Full field, coach at home with fungo and bucket, catcher in gear, runners in helmets, a helper keeping score on a clipboard and announcing it.",
+          "groups": "Half the team on defense, half as runners with a batter-runner each play, switching sides at fifteen points or after five minutes.",
+          "coachingPoints": [
+            "Announce why each point was earned so the thinking is public.",
+            "A right decision with a bad throw still earns two; a wrong decision with a great throw earns zero.",
+            "Runners run under control and avoid every tag in practice."
+          ]
+        },
+        {
+          "title": "Wrap-Up",
+          "minutes": 3,
+          "type": "wrapup",
+          "description": "Take a knee behind the mound. Quiz three situations: ball to the first baseman, who covers first; passed ball, who covers home; single to right, who covers second. Announce the home assignment and the team cheer.",
+          "setup": "Infield grass with equipment collected by the players.",
+          "groups": "Whole team with parents at the fence.",
+          "coachingPoints": [
+            "Players answer, coaches confirm and praise.",
+            "Remind parents the home assignment is a reading lesson they can do together on the couch."
+          ]
+        }
+      ],
+      "safety": [
+        "Catchers wear full gear at Station 3 and in all team segments; a batter-runner never carries a bat.",
+        "Runners wear helmets, run at half speed in the team segment, and peel off before tags; fielders tag the air beside the runner in practice.",
+        "Soft balls for the passed-ball toss off the backstop.",
+        "Throwing progression ends at sixty feet, and players who pitched in the last game skip the base-to-base throws."
+      ],
+      "progressions": [
+        "Add a runner on second to the force-play station so the shortstop has to check the lead runner before feeding.",
+        "Run the covering and backing-up station on the third-base side with left field backing up third.",
+        "In Situations, let a player call the situation out loud instead of the coach."
+      ],
+      "homeAssignmentLessonId": "fld-15"
+    },
+    {
+      "id": "cp-11",
+      "title": "Majors: Pre-Season Evaluation Practice",
+      "ageGroups": [
+        "a11_12"
+      ],
+      "durationMin": 90,
+      "focus": [
+        "throwing_motion",
+        "ground_balls",
+        "fly_balls",
+        "contact",
+        "running_bases"
+      ],
+      "playersMin": 10,
+      "playersMax": 14,
+      "coachesMin": 3,
+      "equipment": [
+        "ball",
+        "glove",
+        "bat",
+        "helmet",
+        "tee",
+        "net",
+        "l_screen",
+        "cones",
+        "bases",
+        "bucket",
+        "catcher_gear"
+      ],
+      "space": "full_field",
+      "objective": "Coaches see every player throw, field, hit, and run in game-like reps and record private notes to plan positions and the season's teaching, while players experience a practice that feels like a normal, encouraging day of baseball rather than a tryout.",
+      "blocks": [
+        {
+          "title": "Dynamic Warm-Up",
+          "minutes": 8,
+          "type": "warmup",
+          "description": "Foul line to a cone line thirty yards out and back: jog, skips, high knees, butt kicks, carioca both ways, side shuffles, walking lunges with a twist, and two build-up sprints at seventy percent. Finish with arm circles, arm swings across the body, and trunk rotations. A coach explains that today is about seeing everyone's baseball so the season's practices can be planned, and that effort is what gets noticed.",
+          "setup": "Cones every ten feet along the foul line and a matching line thirty yards into the outfield; clipboards for the coaches with one line per player.",
+          "groups": "Whole team in one wave, led by a coach.",
+          "coachingPoints": [
+            "Set the tone: this is a practice, not a ranking.",
+            "Build-up sprints are the first look at running form; do not comment on speed."
+          ]
+        },
+        {
+          "title": "Throwing Progression With Observation",
+          "minutes": 12,
+          "type": "warmup",
+          "description": "Partners across the foul line: wrist flips at fifteen feet, one-knee throws at twenty-five, rocker-step throws at forty, regular throws at sixty, then ninety feet for three minutes, then back to sixty for quick-catch. Coaches walk behind the lines and privately note arm action, accuracy, and footwork for each player, saying nothing about it out loud except a correction or a compliment to the individual.",
+          "setup": "Partners in two facing lines across the foul line, moving back on the coach's call, regular baseballs, one coach behind each line with a clipboard.",
+          "groups": "Pairs matched by arm comfort, odd player with a coach.",
+          "coachingPoints": [
+            "Look for the front shoulder pointing at the target and the elbow at shoulder height.",
+            "Note who needs the throwing-faults lesson, quietly; it becomes their home assignment.",
+            "Ninety feet is the longest throw today, and anyone who pitched this week stops at sixty."
+          ]
+        },
+        {
+          "title": "Station 1: Infield Evaluation",
+          "minutes": 12,
+          "type": "station",
+          "description": "Each player fields six fungo ground balls from the shortstop area and throws to a player at first base: three straight at them, two to the backhand side, and one slow roller they have to charge. The coach notes footwork, hands, and throw accuracy. The other three players rotate as the first baseman, the backup behind first, and the retriever, so everyone fields their six and receives throws.",
+          "setup": "Coach with a fungo bat and bucket at home plate, fielding cone at shortstop, player at first base, backup cone in foul territory behind first.",
+          "groups": "Three groups of four rotating every 12 minutes on the whistle; inside the group rotate after each player's six ground balls.",
+          "coachingPoints": [
+            "Feet set, glove out front, funnel, right-left-throw: coach says the same cues to every player.",
+            "Slow roller: charge under control, field off the glove-side foot, throw on the run.",
+            "Praise the clean play out loud; keep the notes private."
+          ]
+        },
+        {
+          "title": "Station 2: Outfield Evaluation",
+          "minutes": 12,
+          "type": "station",
+          "description": "Each player takes four fly balls, two over each shoulder so the drop step shows, and two ground balls with a throw to a cutoff player on a cone at the edge of the infield. Fly balls are thrown by the helper first and hit with a fungo only for players who are clearly comfortable. The coach notes first-step direction, route, and whether the throw reaches the cutoff man chest-high.",
+          "setup": "Helper with a bucket in shallow center field, fielding cone in medium center, cutoff cone at the infield edge with a player on it, backup player behind the cutoff.",
+          "groups": "Three groups of four, 12 minutes per rotation: fielder, cutoff, backup, retriever, rotating after each player's six balls.",
+          "coachingPoints": [
+            "Drop step, run, catch above the eyes with two hands.",
+            "Ground balls: block with the knee when there is time, do-or-die when the helper yells 'Runner!'",
+            "Hit the cutoff man; distance is not the goal."
+          ]
+        },
+        {
+          "title": "Station 3: Hitting Evaluation",
+          "minutes": 12,
+          "type": "station",
+          "description": "Each hitter takes five swings off the tee into the net, then eight swings of front toss from a coach behind an L-screen into the backstop. The coach notes stance, load, bat path, and contact quality, not distance. The on-deck player shadows at the on-deck cone, and two feeders work behind the screen, so all four are busy.",
+          "setup": "Tee and net beside the backstop, a plate ten feet in front of the backstop with an L-screen fifteen feet out, bat zone cones, on-deck cone twenty feet away, two helmets, bucket of baseballs.",
+          "groups": "Three groups of four, 12 minutes per rotation; rotate hitter, feeder, feeder, on-deck after each hitter's thirteen swings.",
+          "coachingPoints": [
+            "Helmets on the hitter and the on-deck player, one bat in the zone, bat set down before leaving it.",
+            "Watch for a balanced finish; a hitter who falls over is swinging too hard for today.",
+            "Say one encouraging, specific thing to every hitter."
+          ]
+        },
+        {
+          "title": "Team: Baserunning Form and Times",
+          "minutes": 12,
+          "type": "team",
+          "description": "Players run home to first through the bag in pairs, then home to second with a banana turn, while a coach quietly records times on the clipboard. Times are never announced and players are never compared out loud; the coach talks only about form, like running through the bag and bending early into the turn. Each player runs twice to first and once to second with walking recovery between.",
+          "setup": "Bases in place, a cone fifteen feet past first base, a banana cone outside the baseline, a coach with a stopwatch and clipboard at first base and another at second.",
+          "groups": "Whole team in pairs starting on the coach's 'Go!', the next pair starting as soon as the previous pair clears first.",
+          "coachingPoints": [
+            "Run through first, bend early for second, and touch the inside corner of the bag.",
+            "Times stay on the clipboard; form is the only public feedback.",
+            "Walk back; the recovery is part of the plan."
+          ]
+        },
+        {
+          "title": "Game: Controlled Scrimmage",
+          "minutes": 17,
+          "type": "game",
+          "description": "A coach pitches from behind an L-screen so no player's arm carries a pitching workload at the first practice. Each half inning starts with a situation the coach announces, such as a runner on first with one out, and the hitter gets a maximum of four pitches. Coaches watch for game awareness: knowing the outs, covering and backing up, and base running decisions. Play as many half innings as time allows, rotating positions every inning.",
+          "setup": "Full field, L-screen in front of the mound, catcher in full gear, helmets on all hitters and runners, a full bucket for the coach, a helper keeping the rotation list.",
+          "groups": "Two teams of five to seven, rotating positions each half inning so coaches see players at several spots.",
+          "coachingPoints": [
+            "Announce the situation and ask the defense to repeat it before the pitch.",
+            "Note who knows where to go, not who is biggest or fastest.",
+            "Every player gets infield and outfield time today."
+          ]
+        },
+        {
+          "title": "Wrap-Up",
+          "minutes": 5,
+          "type": "wrapup",
+          "description": "Take a knee behind the mound. Thank the team for the effort, tell them every player will have a defined role and that positions will rotate early in the season, and ask what one thing each player wants to get better at. Announce the home assignment and the team cheer. Coaches compare notes privately afterward.",
+          "setup": "Infield grass with equipment collected by the players.",
+          "groups": "Whole team with parents at the fence.",
+          "coachingPoints": [
+            "No rankings, no position announcements, no comparisons.",
+            "Use each player's stated goal in a later practice so they know you listened."
+          ]
+        }
+      ],
+      "safety": [
+        "No player pitches at the evaluation practice; the coach pitches from behind an L-screen, and pitching evaluations happen later on a counted plan.",
+        "Helmets on every hitter, on-deck player, and runner; one bat per bat zone, set down inside the zone when a turn ends.",
+        "Longest throw is ninety feet; anyone who pitched in a game this week stops at sixty and the coach notes it.",
+        "Base-running times are recorded privately and never read aloud; evaluation never becomes public comparison."
+      ],
+      "progressions": [
+        "Second evaluation practice two weeks later with player-pitched innings on a counted plan that follows the league's pitch-count and rest table.",
+        "Add a catcher-specific station for the two or three players who want to try the position.",
+        "Use the notes to build each player's first home assignment from the lesson that fits them best."
+      ],
+      "homeAssignmentLessonId": "thr-15"
+    },
+    {
+      "id": "cp-12",
+      "title": "Majors: Double Plays and Infield Communication",
+      "ageGroups": [
+        "a11_12"
+      ],
+      "durationMin": 90,
+      "focus": [
+        "footwork",
+        "transfers",
+        "infield",
+        "communication"
+      ],
+      "playersMin": 10,
+      "playersMax": 14,
+      "coachesMin": 2,
+      "equipment": [
+        "ball",
+        "glove",
+        "bat",
+        "helmet",
+        "cones",
+        "bases",
+        "bucket",
+        "catcher_gear"
+      ],
+      "space": "full_field",
+      "objective": "Infielders feed the double play firmly and accurately, pivot at second base with safe footwork, and talk before every pitch, and the whole team turns clean double plays against fungo with no runners before adding them.",
+      "blocks": [
+        {
+          "title": "Dynamic Warm-Up",
+          "minutes": 8,
+          "type": "warmup",
+          "description": "Foul line to a cone line thirty yards out and back: jog, skips, high knees, carioca, side shuffles in a low ready position, walking lunges, two build-up sprints. Finish with arm circles and quick-feet drills: players chop their feet in place and on 'Right!' or 'Left!' shuffle two steps that way and set.",
+          "setup": "Cones every ten feet along the foul line and a matching line thirty yards into the outfield.",
+          "groups": "Whole team in one wave led by a player captain.",
+          "coachingPoints": [
+            "Shuffles stay low with the glove hand out front.",
+            "Quick feet, quiet feet: no stomping, just rhythm."
+          ]
+        },
+        {
+          "title": "Throwing Progression to Quick-Catch",
+          "minutes": 12,
+          "type": "warmup",
+          "description": "Partners across the foul line: wrist flips at fifteen feet, one-knee throws at twenty-five, rocker-step throws at forty, regular throws at sixty, then ninety feet for two minutes, then back to forty feet for quick-catch. Quick-catch today has a goal: catch with two hands, transfer the ball to the throwing hand as the feet move, and release in rhythm, exactly what a double-play pivot asks for.",
+          "setup": "Partners facing across the foul line, moving back on the coach's call, regular baseballs.",
+          "groups": "Pairs matched by arm comfort, odd player with a coach.",
+          "coachingPoints": [
+            "Transfer happens in front of the chest while the feet are already moving.",
+            "Smooth is fast; rushing causes drops.",
+            "Ninety feet is the longest throw today."
+          ]
+        },
+        {
+          "title": "Station 1: Feeds",
+          "minutes": 12,
+          "type": "station",
+          "description": "A helper rolls ground balls from forty feet to a shortstop or a second baseman within fifteen feet of the base. The fielder fields, pulls the glove away to show the ball, and feeds the player at the bag with a firm underhand toss, chest-high, following the toss with a step. From farther away the feed becomes a short overhand throw from the ear with no wind-up. Rotate feeder, receiver, and two retrievers every four balls.",
+          "setup": "Second base with a fielding cone fifteen feet to each side, a helper with a bucket near the mound, two retriever cones on the outfield grass.",
+          "groups": "Three groups of four rotating every 12 minutes on the whistle; inside the group, roles change every four feeds.",
+          "coachingPoints": [
+            "Show the ball, then feed; the receiver must see it leave the hand.",
+            "Firm and chest-high: a soft lob is the slowest play in baseball.",
+            "Follow the feed with the feet so the body stays balanced."
+          ]
+        },
+        {
+          "title": "Station 2: Pivots at Second Base",
+          "minutes": 12,
+          "type": "station",
+          "description": "A helper feeds from the shortstop side and from the second-base side while one player at the bag learns one simple pivot for each. From the shortstop side as the second baseman: straddle the bag, catch, drag the right foot across the base, step toward first, and throw. From the second-base side as the shortstop: catch while coming across the bag, touch it with the right foot, and throw in the same motion. The throw goes to a player on the first-base bag, with a backup behind.",
+          "setup": "Second base, first base with a receiver and a backup cone in foul territory behind it, a helper with a bucket on the infield grass feeding from both sides.",
+          "groups": "Three groups of four, 12 minutes per rotation: pivot player, first baseman, backup, retriever, rotating every five pivots.",
+          "coachingPoints": [
+            "Get to the bag early and wait for the feed; the ball is faster than the feet.",
+            "Pick one footwork and repeat it; the assistant coach teaches the same one.",
+            "Clear the bag after the throw so a runner cannot hit you."
+          ]
+        },
+        {
+          "title": "Station 3: First Base Footwork and the 3-6-3",
+          "minutes": 12,
+          "type": "station",
+          "description": "The first baseman finds the bag with the back heel, sets up with the glove-side foot ready to stretch, and receives throws from a helper on the infield grass, stretching only after seeing where the throw is going. Then the 3-6-3: the helper rolls a ground ball to the first baseman, who fields it and throws to the shortstop covering second, and the shortstop throws back to a second player covering first. Rotate every four plays.",
+          "setup": "First base, second base with a cone where the shortstop covers, a helper with a bucket near the mound, a second player covering first for the return throw.",
+          "groups": "Three groups of four, 12 minutes per rotation: first baseman, shortstop at second, player covering first on the return, retriever.",
+          "coachingPoints": [
+            "Find the bag with the heel, then look for the ball.",
+            "On the 3-6-3 the throw to second is to the inside of the bag, away from the runner's path.",
+            "Keep throws short and firm; this station is about footwork, not arm strength."
+          ]
+        },
+        {
+          "title": "Team: Full Double-Play Rotation",
+          "minutes": 20,
+          "type": "team",
+          "description": "Full infield with a catcher in gear and outfielders backing up bases. Before every fungo the whole infield says the play out loud: 'Two!' when there is a runner on first and fewer than two outs, or 'One!' when there is not. The coach hits to each infielder and the team turns the double play with no runner for the first ten minutes. Add a runner in a helmet from home to first only once feeds and pivots are consistently clean, and never a runner sliding into second this week.",
+          "setup": "Full field with bases, coach at home with a fungo bat and bucket, catcher in gear, outfielders at their positions, a runner cone near the dugout with helmets.",
+          "groups": "Nine on defense with extras rotating in at every infield spot after three plays; outfielders rotate into the infield during the second ten minutes.",
+          "coachingPoints": [
+            "Say the play before the pitch; the loudest infield is usually the best one.",
+            "Feed, pivot, throw: three clean parts beat one fast one.",
+            "Outfielders back up second and first on every play."
+          ]
+        },
+        {
+          "title": "Game: Turn Two Challenge",
+          "minutes": 10,
+          "type": "game",
+          "description": "With the same defense, the coach hits ground balls one after another and the team counts clean turns out loud. A clean turn is a clean field, a chest-high feed, a pivot with the base touched, and an on-target throw to first, regardless of how fast it happened. A bad throw or a missed base does not count and does not subtract. The team tries to reach ten clean turns in ten minutes or beat its own record.",
+          "setup": "Full infield, coach with a fungo bat and a full bucket at home, catcher in gear, a helper counting out loud.",
+          "groups": "Whole team at positions, rotating infielders every two plays so every player is part of several turns.",
+          "coachingPoints": [
+            "Execution is the only thing counted; the stopwatch stays in the bag.",
+            "Everyone says 'Two!' before each ball.",
+            "Celebrate each clean turn by naming all three players involved."
+          ]
+        },
+        {
+          "title": "Wrap-Up",
+          "minutes": 4,
+          "type": "wrapup",
+          "description": "Take a knee behind the mound. Ask what the infield says before the pitch with a runner on first and fewer than two outs, and ask one player to describe the feed in their own words. Announce the home assignment and the team cheer.",
+          "setup": "Infield grass with equipment collected by the players.",
+          "groups": "Whole team with parents at the fence.",
+          "coachingPoints": [
+            "Players answer; coaches confirm.",
+            "Remind players the home assignment can be done with a wall and a tennis ball for the transfer."
+          ]
+        }
+      ],
+      "safety": [
+        "No live runner slides into second base this week; pivots are learned with no runner, then with a runner going only from home to first.",
+        "Runners wear helmets and fielders clear the bag after every pivot.",
+        "Longest throw is ninety feet in the progression; feeds and station throws are short and firm, not maximum effort.",
+        "Check your league's current rulebook for its sliding rules and interference rules before adding runners at second in a later week."
+      ],
+      "progressions": [
+        "Add a runner from first to second who runs to the outside of the bag and does not slide, so pivots happen with someone coming.",
+        "Introduce the 5-4-3 double play from third base and the 1-6-3 from the pitcher.",
+        "Turn Two Challenge with a stopwatch only after every player's footwork is clean for two weeks."
+      ],
+      "homeAssignmentLessonId": "fld-16"
+    },
+    {
+      "id": "cp-13",
+      "title": "Majors: Bunt Defense and Baserunning",
+      "ageGroups": [
+        "a11_12"
+      ],
+      "durationMin": 90,
+      "focus": [
+        "bat_control",
+        "infield",
+        "running_bases",
+        "baseball_iq"
+      ],
+      "playersMin": 10,
+      "playersMax": 14,
+      "coachesMin": 3,
+      "equipment": [
+        "ball",
+        "soft_ball",
+        "glove",
+        "bat",
+        "helmet",
+        "cones",
+        "bases",
+        "bucket",
+        "l_screen",
+        "catcher_gear"
+      ],
+      "space": "full_field",
+      "objective": "Every player can lay down a sacrifice bunt, every infielder knows their job on a bunt with runners on, and runners round bases and slide safely, all brought together in a bunt-and-run game.",
+      "blocks": [
+        {
+          "title": "Dynamic Warm-Up With Running Form",
+          "minutes": 8,
+          "type": "warmup",
+          "description": "Foul line to a cone line thirty yards out and back: jog, skips, high knees, butt kicks, carioca, side shuffles, walking lunges with a twist. Finish with two build-up sprints from home through first base past a cone fifteen feet beyond the bag, running in pairs, then arm circles and arm swings.",
+          "setup": "Cones every ten feet along the foul line and a line thirty yards out; bases in place with a run-through cone past first.",
+          "groups": "Whole team in one wave, then pairs for the sprints.",
+          "coachingPoints": [
+            "Run through first, not to it.",
+            "Build-up sprints are about form; nobody races."
+          ]
+        },
+        {
+          "title": "Throwing Progression",
+          "minutes": 10,
+          "type": "warmup",
+          "description": "Partners across the foul line: wrist flips at fifteen feet, one-knee throws at twenty-five, rocker-step throws at forty, regular throws at sixty, then ninety feet for two minutes, then quick-catch at forty-five. Today's quick-catch adds a charge: the receiver takes two steps forward as the ball arrives, like fielding a bunt and throwing on the move.",
+          "setup": "Partners facing across the foul line, moving back on the coach's call, regular baseballs.",
+          "groups": "Pairs matched by arm comfort, odd player with a coach.",
+          "coachingPoints": [
+            "Front shoulder at the target, elbow up, finish across the body.",
+            "On the charging quick-catch, the throw comes from the ear with a short arm action."
+          ]
+        },
+        {
+          "title": "Station 1: Bunting",
+          "minutes": 12,
+          "type": "station",
+          "description": "A coach front-tosses soft baseballs from behind an L-screen twenty feet away. The hitter squares around as the coach's arm comes forward, bat at the top of the strike zone, top hand pinching the bat behind the barrel with the fingers safely behind it, and catches the ball with the bat so it rolls toward one of two cones placed ten feet down the first-base and third-base lines. Six bunts per turn, then rotate. The on-deck player shadows the bunt stance at the on-deck cone and two feeders work behind the screen.",
+          "setup": "Plate in foul territory or at home, L-screen twenty feet in front, two target cones down each line, bat zone cones, on-deck cone twenty feet away, two helmets, soft baseballs.",
+          "groups": "Three groups of four rotating every 12 minutes on the whistle; inside the group rotate hitter, feeder, feeder, on-deck after each six bunts.",
+          "coachingPoints": [
+            "Bat at the top of the zone and angled up; anything above the bat is a ball, so let it go.",
+            "Catch the ball with the bat; do not push at it.",
+            "Fingers behind the barrel, never wrapped around it, and helmets on for the hitter and on-deck player."
+          ]
+        },
+        {
+          "title": "Station 2: Bunt Defense Footwork",
+          "minutes": 12,
+          "type": "station",
+          "description": "On the infield with no runners, four players take pitcher, catcher in gear, first base, and third base while the helper rolls bunts from home plate. On every roll the catcher yells the base, 'One!' for first, as the fielder charges, fields the ball with the glove and bare hand together, and throws to the base the catcher called while the helper plays first baseman if needed. Rotate positions every three bunts so everyone fields a bunt and everyone makes the call.",
+          "setup": "Home plate, the mound, first and third bases, a helper with a bucket of baseballs rolling from the plate, catcher's gear.",
+          "groups": "Three groups of four, 12 minutes per rotation: pitcher, catcher, first baseman, third baseman, rotating every three plays.",
+          "coachingPoints": [
+            "The catcher calls the base because he sees everything; the fielder listens.",
+            "Field the ball with two hands and set the feet toward the target before throwing.",
+            "Pitcher and third baseman charge; the first baseman charges only if the pitcher cannot get there and otherwise covers first."
+          ]
+        },
+        {
+          "title": "Station 3: Baserunning, Rounding and Sliding",
+          "minutes": 12,
+          "type": "station",
+          "description": "In the outfield grass, a throw-down home plate and first base with a banana cone outside the baseline for rounding practice, two runners at a time. Then sliding: players remove nothing but run in cleats on grass to a towel base and practice the bent-leg slide, one leg tucked under in a figure four, sitting down on the back pocket, hands up. Start with slides from a jog and stay with grass only. Check your league's current rulebook for its sliding rules, including head-first rules, before teaching anything beyond the feet-first slide.",
+          "setup": "Throw-down plate and base sixty feet apart in the outfield grass, a banana cone, a stop cone, and a towel laid flat forty feet from a start cone for sliding, on grass checked for sprinkler heads and holes.",
+          "groups": "Three groups of four, 12 minutes per rotation; two runners rounding at a time for six minutes, then sliding one at a time from a jog.",
+          "coachingPoints": [
+            "Bend out early for the banana turn and touch the inside corner.",
+            "Slide early, sit down on the back pocket, hands up so they do not catch the ground.",
+            "Nobody slides into a real base today, and nobody slides head first."
+          ]
+        },
+        {
+          "title": "Team: Full Bunt Defense With Runners",
+          "minutes": 18,
+          "type": "team",
+          "description": "Full defense with a catcher in gear and runners in helmets. Play one: runner on first, bunt rolled by the coach; the pitcher and third baseman charge, the second baseman covers first, the shortstop covers second, the catcher calls the base, and the play goes to first unless the ball is fielded quickly enough to get the lead runner. Play two: runners on first and second; the third baseman holds near the bag and the pitcher takes the bunt toward third, with the shortstop covering third if the third baseman charges. Walk each play with no ball, then with a rolled ball, then with runners running under control.",
+          "setup": "Full field with bases, coach at home rolling or softly bunting from a bucket, catcher in gear, runners with helmets waiting at a cone by the dugout.",
+          "groups": "Nine on defense, two or three runners, rotating after every three plays so every player takes an infield spot and runs once.",
+          "coachingPoints": [
+            "Say the play before the pitch: 'Runner on first, bunt play, go to one!'",
+            "Catcher calls the base; everyone else does their job silently and fast.",
+            "Runners never slide in this segment; they run through or peel off."
+          ]
+        },
+        {
+          "title": "Game: Bunt-and-Run",
+          "minutes": 14,
+          "type": "game",
+          "description": "Two teams: the offense starts every inning with a runner on first and must bunt on the first strike; the coach front-tosses from the L-screen. Offense earns two points for a bunt that advances the runner and one point for a good read by the runner, going on a ball on the ground and holding on a popped-up bunt. Defense earns two points for throwing to the correct base and one for completing the play cleanly. Three outs or four batters ends the half inning, then switch.",
+          "setup": "Full field, L-screen in front of the mound with a coach and soft baseballs, catcher in gear, helmets on all hitters and runners, a helper keeping score aloud.",
+          "groups": "Two teams of five to seven switching after each half inning.",
+          "coachingPoints": [
+            "Points are for decisions and execution; a safe runner after a wrong call earns the defense nothing and the offense only its read point.",
+            "Runners read the bunt: ground ball go, pop-up freeze.",
+            "The catcher still calls every base out loud."
+          ]
+        },
+        {
+          "title": "Wrap-Up",
+          "minutes": 4,
+          "type": "wrapup",
+          "description": "Take a knee behind the mound. Ask who covers first on a bunt with a runner on first, who calls the base, and where the bat sits in the zone for a bunt. Announce the home assignment and the team cheer.",
+          "setup": "Infield grass with equipment collected by the players.",
+          "groups": "Whole team with parents at the fence.",
+          "coachingPoints": [
+            "Players answer; coaches confirm.",
+            "Remind players the bunting home assignment uses a sock ball or a tennis ball and a wall."
+          ]
+        }
+      ],
+      "safety": [
+        "Bunting uses soft baseballs from behind an L-screen with the top-hand fingers behind the barrel; helmets on the hitter and on-deck player, one bat per zone.",
+        "Sliding is taught on grass into a towel from a jog, feet first only; no slides into a real base, and no head-first slides until you have checked your league's current rulebook and taught the technique separately.",
+        "Runners in helmets run under control in the team segment and never collide with a fielder at a base.",
+        "Catcher in full gear for every segment with a bunt or a play at the plate."
+      ],
+      "progressions": [
+        "Bunt for a base hit: drag bunts toward third for right-handers and push bunts past the pitcher, if your lineup can already sacrifice reliably.",
+        "Add the first-and-third bunt defense with the catcher deciding whether to go for the lead runner.",
+        "Sliding into a loose base on grass from a run, once the bent-leg slide looks safe from a jog for two weeks."
+      ],
+      "homeAssignmentLessonId": "hit-17"
+    },
+    {
+      "id": "cp-14",
+      "title": "Majors: Pitcher and Catcher Development",
+      "ageGroups": [
+        "a11_12"
+      ],
+      "durationMin": 90,
+      "focus": [
+        "throwing_motion",
+        "balance",
+        "arm_care",
+        "glove_work"
+      ],
+      "playersMin": 10,
+      "playersMax": 14,
+      "coachesMin": 3,
+      "equipment": [
+        "ball",
+        "soft_ball",
+        "glove",
+        "catcher_gear",
+        "cones",
+        "bases",
+        "bucket",
+        "net",
+        "helmet",
+        "bat"
+      ],
+      "space": "full_field",
+      "objective": "Pitchers build a balanced, repeatable delivery and catchers learn to receive and block, every pitch is counted on a card, and the whole team learns pitcher fielding plays, with the coach setting each pitcher's workload before practice from the league's configured pitch-count and rest table.",
+      "blocks": [
+        {
+          "title": "Dynamic Warm-Up and Workload Check",
+          "minutes": 8,
+          "type": "warmup",
+          "description": "Foul line to a cone line thirty yards out and back: jog, skips, high knees, carioca, side shuffles, walking lunges, two build-up sprints, then arm circles small to large, arm swings across the body, and trunk rotations. While players warm up, the head coach confirms the plan written before practice: which pitchers are eligible to throw today based on the pitches they threw in recent games and the league's rest table, how many pitches each will throw, and who will catch.",
+          "setup": "Cones every ten feet along the foul line and a line thirty yards out; the coach's pitch log and a blank count card for each pitcher throwing today on a clipboard.",
+          "groups": "Whole team in one wave led by a player captain while the head coach reviews the clipboard with the parent helper who will keep counts.",
+          "coachingPoints": [
+            "Decide workloads before practice, not on the mound; the league's configured pitch-count and rest table is the authority, and the current rulebook is where you confirm it.",
+            "Ask every pitcher how the arm feels today; a player who reports soreness does not pitch and the parent is told.",
+            "Pitchers who pitched recently can still do dry delivery work with no ball."
+          ]
+        },
+        {
+          "title": "Throwing Progression With the Towel Drill",
+          "minutes": 12,
+          "type": "warmup",
+          "description": "Everyone does the standard progression: wrist flips at fifteen feet, one-knee throws at twenty-five, rocker-step throws at forty, regular throws at sixty, then back to forty-five for easy throws. Pitchers who are scheduled to throw today finish with the towel drill: holding a small towel instead of a ball, they go through the full delivery and snap the towel at a coach's glove held out in front where the release point should be. Pitchers on a rest day do only the towel drill.",
+          "setup": "Partners across the foul line, regular baseballs, a small hand towel for each pitcher, a coach kneeling with a glove out front for the towel drill.",
+          "groups": "Pairs for the progression, then pitchers with the pitching coach for the towel drill while everyone else does quick-catch.",
+          "coachingPoints": [
+            "Full arm circle, elbow at shoulder height, finish over the front leg.",
+            "The towel drill teaches the release point out front with zero stress on the arm.",
+            "Sixty feet is the longest throw today for everyone."
+          ]
+        },
+        {
+          "title": "Station 1: Pitcher Delivery Work",
+          "minutes": 15,
+          "type": "station",
+          "description": "Every group visits this station because most eleven- and twelve-year-olds will pitch at some point. Players learn the delivery in parts on flat ground: the balance point with the front knee lifted and held for two seconds, the hand break with thumbs down, the stride straight at the target with the front shoulder closed, and a finish over the bent front leg. Scheduled pitchers throw a set number of flat-ground pitches from forty feet to a partner, every one counted on their card by the helper; everyone else repeats the parts dry and throws nothing from this station.",
+          "setup": "Flat grass with a throw-down plate and a line to a target plate forty feet away, two cones marking the stride line, a parent helper with the count cards and a pencil.",
+          "groups": "Three groups of four rotating every 15 minutes on the whistle; inside the group, scheduled pitchers throw their counted flat-ground pitches while the others do dry work beside them.",
+          "coachingPoints": [
+            "Balance point: tall, still, and quiet for two seconds before anything moves toward home.",
+            "Stride foot lands on the line toward the target; the front shoulder stays closed until the foot lands.",
+            "Every pitch thrown here is written down, including the easy ones; the card is the truth."
+          ]
+        },
+        {
+          "title": "Station 2: Catcher Receiving and Blocking",
+          "minutes": 15,
+          "type": "station",
+          "description": "One player at a time wears the full gear and gets in the catcher's stance, first the relaxed primary stance with nobody on base, then the ready secondary stance with the backside up. A helper tosses soft balls from fifteen feet: receive with the glove relaxed and the thumb under, catching the ball and holding it still for a count. Then blocking: the helper tosses soft balls into the dirt in front of the catcher, who drops to both knees, tucks the chin, rounds the shoulders, and keeps the ball in front. Every player tries both in gear so the team finds its catchers.",
+          "setup": "A throw-down plate on the dirt in front of the backstop, full catcher's gear in one or two sizes, a helper with a bucket of soft balls fifteen feet in front, a cone where the waiting players stand off to the side.",
+          "groups": "Three groups of four, 15 minutes per rotation, each player getting three to four minutes in the gear while the others practice the stance and the blocking motion without gear from the side.",
+          "coachingPoints": [
+            "Relaxed glove, thumb under, catch it and hold it still.",
+            "Block with the body, not the glove: knees down, chin tucked, glove fills the hole between the knees.",
+            "Soft balls only for blocking until the technique is automatic."
+          ]
+        },
+        {
+          "title": "Station 3: Pitcher Fielding Practice",
+          "minutes": 15,
+          "type": "station",
+          "description": "On the first-base side of the infield, one player pitches a dry delivery from the mound, a helper rolls a ground ball to the first baseman, and the pitcher breaks toward first, runs a path toward the inside of the baseline, takes a flip from the first baseman, and touches the inside of the bag. Next: a comebacker rolled to the pitcher, who fields, checks an imaginary runner, and throws to first. Last: a soft ball tossed off the backstop as a passed ball, so the pitcher sprints to cover home while the catcher retrieves. Rotate every two plays.",
+          "setup": "The mound, first base, home plate, a helper with baseballs and soft balls near the plate, a cone marking the pitcher's path to first, catcher's gear for whoever covers the passed-ball play.",
+          "groups": "Three groups of four, 15 minutes per rotation: pitcher, first baseman, catcher, retriever, rotating every two plays.",
+          "coachingPoints": [
+            "The pitcher breaks to first on every ball hit to the right side, before knowing if he is needed.",
+            "Run to the inside of the bag and touch it with the right foot, then turn in toward the infield.",
+            "On a passed ball the pitcher covers home with a low target and gives the catcher a clear throwing lane."
+          ]
+        },
+        {
+          "title": "Team: Counted Bullpen",
+          "minutes": 15,
+          "type": "team",
+          "description": "Two or three scheduled pitchers throw a short bullpen to catchers in full gear while the parent helper holds the count card and calls the count out loud every five pitches. The number each pitcher throws was set before practice from the league's configured pitch-count and rest table and the pitches they threw in recent games; the bullpen stops at that number even if the last pitch was a bad one. Everyone else runs pitcher fielding practice and baserunning on the other side of the field with a coach.",
+          "setup": "Bullpen mound or a flat-ground plate at pitching distance for your division, catcher in full gear, a parent helper with the count card, a net behind the catcher if there is no backstop; the rest of the team on the far half of the field.",
+          "groups": "Pitchers and catchers with the pitching coach and the helper; everyone else with the second coach doing covering-first and baserunning work.",
+          "coachingPoints": [
+            "Count every pitch, including warm-up pitches, and stop at the number on the card.",
+            "Catcher gives a target every pitch and holds the glove still after the catch.",
+            "A pitcher who looks tired or whose mechanics are falling apart is done, even if pitches remain on the card."
+          ]
+        },
+        {
+          "title": "Game: Target Game and Block Party",
+          "minutes": 7,
+          "type": "game",
+          "description": "Pitchers who still have pitches left on their card throw to a catcher's target: two points if the glove does not move, one point for any strike, zero for a ball, with a strict maximum that ends the game when the card is full. At the same time, catchers in gear play Block Party: the helper tosses eight soft balls into the dirt and the catcher earns a point for every ball kept within arm's reach. Pitchers with no pitches left play Block Party too.",
+          "setup": "Pitching plate and catcher in gear with the count card for the target game; a second gear set and soft balls at a throw-down plate for Block Party, well apart from the bullpen lane.",
+          "groups": "Scheduled pitchers alternate at the target game; everyone else rotates through Block Party in gear.",
+          "coachingPoints": [
+            "The card ends the game, not the score.",
+            "Catchers call out the count with the helper so everyone hears it.",
+            "Blocks are scored on keeping the ball in front, not on how it looks."
+          ]
+        },
+        {
+          "title": "Wrap-Up and Pitching Log",
+          "minutes": 3,
+          "type": "wrapup",
+          "description": "Take a knee behind the mound. The helper reads each pitcher's total from the card and the coach writes it in the team's pitching log along with the date, so the next eligible day can be found from the league's rest table before the next game. Remind every player to tell a coach or parent about any arm soreness instead of playing through it. Announce the home assignment and the team cheer.",
+          "setup": "Infield grass, the pitching log and today's count cards on the clipboard.",
+          "groups": "Whole team with parents at the fence so they hear the counts.",
+          "coachingPoints": [
+            "Write the totals today; a count remembered tomorrow is a guess.",
+            "The arm-care home assignment is for every player, not only the pitchers."
+          ]
+        }
+      ],
+      "safety": [
+        "Count every pitch a player throws, in practice and in games, on a card and in the team pitching log, and follow the league's configured pitch-count and rest table for how many a player may throw and how many days of rest follow; never treat a number you remember as the rule.",
+        "Many Little League divisions limit whether a player who has pitched above a certain workload may catch on the same day, and whether a player who has caught a certain number of innings may pitch; the thresholds live in your league's current rulebook and configured table, not in this plan, so check them before every game and practice that involves both roles.",
+        "A player who reports arm pain or soreness stops throwing immediately and the parent is informed; coaches do not diagnose, they rest the player and refer to the family.",
+        "Catchers wear full gear for every receiving and blocking rep, soft balls are used for blocking, and no player stands behind a hitter or in a throwing lane.",
+        "Always check the current Little League rulebook and your league's local rules, because pitch-count and rest requirements change and vary by division and year."
+      ],
+      "progressions": [
+        "Add the stretch position for pitchers once the full windup is balanced and repeatable.",
+        "Catchers practice throwing footwork to second from the secondary stance with no runner, keeping throw counts modest.",
+        "Bullpens with the catcher calling locations, still on the counted plan and still stopping at the card."
+      ],
+      "homeAssignmentLessonId": "thr-13"
+    },
+    {
+      "id": "cp-15",
+      "title": "Majors: Live Scrimmage With Situations",
+      "ageGroups": [
+        "a11_12"
+      ],
+      "durationMin": 90,
+      "focus": [
+        "baseball_iq",
+        "situational_hitting",
+        "running_bases",
+        "communication"
+      ],
+      "playersMin": 10,
+      "playersMax": 14,
+      "coachesMin": 3,
+      "equipment": [
+        "ball",
+        "glove",
+        "bat",
+        "helmet",
+        "catcher_gear",
+        "l_screen",
+        "cones",
+        "bases",
+        "bucket"
+      ],
+      "space": "full_field",
+      "objective": "Players make game decisions under real conditions, with the situation announced before every pitch and points awarded for correct choices by hitters, runners, and fielders rather than for hits and outs.",
+      "blocks": [
+        {
+          "title": "Dynamic Warm-Up",
+          "minutes": 8,
+          "type": "warmup",
+          "description": "Foul line to a cone line thirty yards out and back: jog, skips, high knees, butt kicks, carioca, side shuffles, walking lunges with a twist, two build-up sprints. Finish with arm circles, arm swings, and trunk rotations while the coach announces the two teams and the first situation of the day.",
+          "setup": "Cones every ten feet along the foul line and a line thirty yards out; team lists and a situation list on the coach's clipboard.",
+          "groups": "Whole team in one wave led by a player captain.",
+          "coachingPoints": [
+            "Today's theme: know the situation before every pitch.",
+            "Finish together before any ball comes out."
+          ]
+        },
+        {
+          "title": "Throwing Progression",
+          "minutes": 10,
+          "type": "warmup",
+          "description": "Partners across the foul line: wrist flips at fifteen feet, one-knee throws at twenty-five, rocker-step throws at forty, regular throws at sixty, then ninety feet for two minutes and quick-catch at forty-five. Any pitcher scheduled to throw in the scrimmage finishes with the pitching coach and a counted warm-up that is written on the card.",
+          "setup": "Partners facing across the foul line, moving back on the coach's call, regular baseballs, a count card for any scheduled pitcher.",
+          "groups": "Pairs matched by arm comfort, odd player with a coach.",
+          "coachingPoints": [
+            "Front shoulder at the target, elbow up, finish across the body.",
+            "Pitchers' warm-up pitches count; the helper writes them down."
+          ]
+        },
+        {
+          "title": "Team: Situation Walk-Through",
+          "minutes": 12,
+          "type": "team",
+          "description": "Defense takes the field with no ball. The coach calls a situation and a batted ball, for example 'Runner on second, one out, ground ball to short,' and every player points to where they go and says their job out loud, including backups. Repeat six to eight situations, then run three of them with a fungo and runners in helmets at half speed. Fix the thinking here so the scrimmage can flow.",
+          "setup": "Full field with bases, coach at home with a fungo bat and bucket, catcher in gear, runners in helmets at a cone by the dugout.",
+          "groups": "Nine on defense, the rest as runners, switching halfway so both teams walk through on defense.",
+          "coachingPoints": [
+            "Everyone has a job on every ball, even if it is backing up a base.",
+            "Say it out loud; a quiet defense is a confused defense.",
+            "Runners rehearse the reads too: line drive freeze, ground ball go when forced."
+          ]
+        },
+        {
+          "title": "Scrimmage Block 1: Runners On",
+          "minutes": 20,
+          "type": "team",
+          "description": "Each half inning starts with runners placed and the count at one ball and one strike to keep the pace up: a runner on first with no outs, then a runner on second with one out, then runners on first and third with one out. The coach pitches from behind an L-screen unless a scheduled pitcher is on a counted plan. Before every pitch the catcher announces the situation and the defense repeats it. Three outs or five batters ends the half inning.",
+          "setup": "Full field, L-screen in front of the mound, catcher in gear, helmets on all hitters and runners, a helper tracking outs and the pitch count card if a player pitches.",
+          "groups": "Two teams of five to seven switching after each half inning, with positions rotating each inning.",
+          "coachingPoints": [
+            "Catcher calls the situation, defense repeats it, then the pitch.",
+            "Runners find the base coach before every pitch.",
+            "Coaches freeze the play only when a decision was wrong; let good plays flow."
+          ]
+        },
+        {
+          "title": "Scrimmage Block 2: Two Strikes, Bunts, and Tags",
+          "minutes": 20,
+          "type": "team",
+          "description": "Every at-bat starts with two strikes so hitters practice the two-strike approach: choke up a little, widen the base, shorten the swing, and put the ball in play. Every third hitter must bunt with a runner on first, and the coach adds a fungo fly ball with a runner on third at least twice per half inning so tag-ups get practiced. The coach pitches from the L-screen; any player pitching stays on the counted plan.",
+          "setup": "Same as Block 1 with a fungo bat beside the coach for the tag-up fly balls.",
+          "groups": "Two teams switching after each half inning, positions rotating.",
+          "coachingPoints": [
+            "Two strikes: see it deep, short swing, ball in play; a foul ball is a win.",
+            "Runner on third: tag up on any fly ball with fewer than two outs and listen to the third-base coach.",
+            "Bunt defense says its play out loud before the pitch."
+          ]
+        },
+        {
+          "title": "Game: Situation Scoreboard",
+          "minutes": 15,
+          "type": "game",
+          "description": "The final innings are scored by decisions. Offense: two points for a correct baserunning read, one for a two-strike ball in play, two for a bunt that advances the runner. Defense: two for throwing to the correct base, one for a completed play, one for every backup who was in position. Hits, outs, and runs score nothing, a helper keeps the scoreboard out loud, and the losing team puts away the equipment.",
+          "setup": "Same field, a helper with a clipboard announcing points after every play.",
+          "groups": "Two teams switching after each half inning until time runs out.",
+          "coachingPoints": [
+            "Announce every point and why, so the whole team learns from every play.",
+            "A runner thrown out on a correct, aggressive read still earns the points.",
+            "Backups earn points; the quiet jobs matter."
+          ]
+        },
+        {
+          "title": "Wrap-Up",
+          "minutes": 5,
+          "type": "wrapup",
+          "description": "Take a knee behind the mound. Ask each team to name the best decision the other team made today. Record any pitcher's total in the pitching log. Announce the home assignment and the team cheer.",
+          "setup": "Infield grass with equipment collected by the players, the pitching log on the clipboard.",
+          "groups": "Whole team with parents at the fence.",
+          "coachingPoints": [
+            "Praising the other team's decision is sportsmanship in action.",
+            "Write pitch totals before anyone leaves."
+          ]
+        }
+      ],
+      "safety": [
+        "The coach pitches from behind an L-screen by default; a player pitches only on a counted plan that follows the league's configured pitch-count and rest table, with every pitch written down.",
+        "Helmets on every hitter, on-deck player, and runner; catcher in full gear; one bat in the hitting zone at a time.",
+        "Runners avoid collisions and follow your league's current sliding rules; check the rulebook for head-first and must-slide rules before the scrimmage.",
+        "Longest throw in the progression is ninety feet, and players who pitched in a game this week stop at sixty."
+      ],
+      "progressions": [
+        "Start innings with the game score and inning announced so decisions depend on the score as well as the outs.",
+        "Let players call the situation and the defensive alignment without the coach.",
+        "Run one full scrimmage game with umpires from the older division to practice talking respectfully with umpires."
+      ],
+      "homeAssignmentLessonId": "run-04"
+    },
+    {
+      "id": "cp-16",
+      "title": "Rainy Day: Indoor Gym Practice",
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "durationMin": 60,
+      "focus": [
+        "accuracy",
+        "ground_balls",
+        "bat_control",
+        "footwork"
+      ],
+      "playersMin": 8,
+      "playersMax": 14,
+      "coachesMin": 2,
+      "equipment": [
+        "tennis_ball",
+        "soft_ball",
+        "glove",
+        "bat",
+        "helmet",
+        "tee",
+        "net",
+        "cones",
+        "bases"
+      ],
+      "space": "indoor",
+      "objective": "Turn a rained-out practice into a real one inside a gym: tennis balls and safety balls only, tee work into a net with no live hitting of hard balls, bases taped on the floor, and every player moving the whole hour.",
+      "blocks": [
+        {
+          "title": "Gym Dynamic Warm-Up",
+          "minutes": 7,
+          "type": "warmup",
+          "description": "Players spread along one baseline of the basketball court and move to the far baseline and back in waves: jog, skips, high knees, butt kicks, side shuffles facing both ways, carioca, walking lunges. On the whistle during any movement, everyone freezes in a ready position. Finish with arm circles and arm swings across the body.",
+          "setup": "The length of the court with no equipment on the floor. Before players arrive, a coach walks the floor for wet spots and wipes them, and checks that nothing is stored along the walls where players will throw.",
+          "groups": "Whole team in one wave, sneakers only, a player captain leading from the front.",
+          "coachingPoints": [
+            "Indoor floors are slick; nobody sprints full speed today.",
+            "Ready position freeze on the whistle keeps the drill sharp and reviews the basics."
+          ]
+        },
+        {
+          "title": "Wall Throwing Progression",
+          "minutes": 10,
+          "type": "warmup",
+          "description": "Each player stands at their own cone fifteen feet from the gym wall facing a taped X at chest height and throws a tennis ball at it: wrist flips, then one-knee throws, then standing point-step-throw, catching the rebound each time. After six minutes players pair up along the length of the gym for partner catch with tennis balls at thirty to forty feet, all pairs throwing parallel to the side walls.",
+          "setup": "A taped X on the wall every eight feet with a cone fifteen feet out from each; one tennis ball per player; later, pairs lined up down the length of the gym with throws parallel to the walls and never across another pair.",
+          "groups": "Every player on their own cone for the wall phase; pairs by arm comfort for partner catch, odd player with a coach.",
+          "coachingPoints": [
+            "Hit the X: accuracy is the only goal at fifteen feet.",
+            "Point the glove, step, throw, and catch the rebound with two hands.",
+            "Forty feet is the longest throw indoors."
+          ]
+        },
+        {
+          "title": "Station 1: Wall Short Hops",
+          "minutes": 9,
+          "type": "station",
+          "description": "Players throw a tennis ball firmly into the wall from twelve feet so it bounces once on the floor and comes back as a short hop, then field it in the triangle: feet wide, glove out front, bare hand on top. They count clean fields out loud and try to get ten in a row. The second half of the station turns the glove over for backhands by throwing to the wall at a slight angle so the ball comes back to the throwing-arm side.",
+          "setup": "Taped lines twelve feet from the wall with a cone every eight feet, one tennis ball per player, a bucket of spares.",
+          "groups": "Three groups of four to five rotating every 9 minutes on the whistle; every player at their own cone fielding constantly.",
+          "coachingPoints": [
+            "Go get the short hop with the glove moving forward, not back.",
+            "Stay low the whole time; the wall never gets tired.",
+            "Backhand with the glove-side foot forward and fingers down."
+          ]
+        },
+        {
+          "title": "Station 2: Tee Into the Net",
+          "minutes": 9,
+          "type": "station",
+          "description": "One hitter at a time, helmet on, hits safety balls off a tee into a hitting net set against the wall, six swings per turn working inside, middle, and outside tee locations. A painter's-tape square around the tee marks the bat zone and only the hitter is inside it. The other players stand in their own taped boxes fifteen feet away doing shadow swings with no bat, holding a balanced finish for two seconds.",
+          "setup": "A hitting net with its back to the wall, a tee on a throw-down plate six feet in front of it, a tape square ten feet around the tee, three or four taped shadow boxes fifteen feet away on the far side, two helmets, a bucket of safety balls.",
+          "groups": "Three groups of four to five, 9 minutes per rotation; rotate after every six swings so each player hits twice.",
+          "coachingPoints": [
+            "Safety balls only, and only into the net; nothing hard gets hit indoors.",
+            "Bat-zone rule: the tape is a wall while a bat is in the hitter's hands, and the bat goes on the floor before leaving the zone.",
+            "Shadow swingers work on balance, not power."
+          ]
+        },
+        {
+          "title": "Station 3: Taped-Base Running Footwork",
+          "minutes": 9,
+          "type": "station",
+          "description": "A small diamond of taped bases forty feet apart in half the gym, with a taped finish line fifteen feet past first base. Players run home to first through the finish line at three-quarter speed, then work the banana turn around a cone to first and on toward second, then jog a full lap touching every base. Two runners go at a time, starting on the helper's 'Go!', and nobody slides on the floor.",
+          "setup": "Four bases taped on the floor forty feet apart, a taped finish line past first, a cone eight feet outside the baseline for the banana turn, a helper at first base.",
+          "groups": "Three groups of four to five, 9 minutes per rotation, two runners at a time with the next pair ready on the plate.",
+          "coachingPoints": [
+            "Through the base to the finish line, not to the base.",
+            "Bend early for the turn and touch the inside corner.",
+            "Three-quarter speed indoors; sliding is for the grass."
+          ]
+        },
+        {
+          "title": "Game: Around the Horn and Hot Box",
+          "minutes": 12,
+          "type": "game",
+          "description": "First six minutes: two teams each stand on a taped diamond and throw a tennis ball around the horn, home to first to second to third and back, earning two points for every catch made without moving the feet and one for a catch with a step; first to twenty wins. Last six minutes: Hot Box, where a runner is caught between two taped bases forty feet apart and two fielders with a tennis ball try to tag the runner with the glove while the runner tries to reach a base; swap runner after each play so everyone runs.",
+          "setup": "Two taped diamonds forty feet on a side or the one diamond plus a second set of taped bases, tennis balls, gloves, two coaches awarding points out loud.",
+          "groups": "Two teams of four to seven; in Hot Box, groups of four or five with a new runner every play.",
+          "coachingPoints": [
+            "Execution scores, not speed: a clean catch beats a fast throw.",
+            "Hot Box tags are soft, with the glove below the shoulders; runners stop before any collision.",
+            "Keep throws short and parallel to the walls."
+          ]
+        },
+        {
+          "title": "Wrap-Up",
+          "minutes": 4,
+          "type": "wrapup",
+          "description": "Everyone sits on the center circle. Ask players what the glove does on a short hop and where the tee sits for an outside pitch. Players peel up the tape and collect tennis balls before the home assignment and the team cheer.",
+          "setup": "Center court with all equipment collected.",
+          "groups": "Whole team with parents in the bleachers.",
+          "coachingPoints": [
+            "Leave the gym cleaner than you found it; the custodian decides whether you come back.",
+            "The home assignment tonight is a wall and a tennis ball, which every player just practiced."
+          ]
+        }
+      ],
+      "safety": [
+        "Tennis balls and safety balls only; no hard baseballs come out of the bag indoors.",
+        "No live hitting of hard balls and no front toss indoors; hitting is tee work with safety balls into a net, with a helmet, inside a taped bat zone.",
+        "All throws travel parallel to the walls toward a wall or a partner, never across the gym toward another station.",
+        "Bases are taped flat on the floor, no sliding, and running is at three-quarter speed; check the floor for wet spots before and during practice."
+      ],
+      "progressions": [
+        "Add a second taped X at knee height so wall throws practice a low target.",
+        "Short-hop station with a partner throwing instead of the wall, so hops are less predictable.",
+        "Around the horn with a transfer requirement: catch, show the ball, then throw."
+      ],
+      "homeAssignmentLessonId": "thr-08"
+    },
+    {
+      "id": "cp-17",
+      "title": "One Coach, Twelve Players",
+      "ageGroups": [
+        "a7_8",
+        "a9_10"
+      ],
+      "durationMin": 60,
+      "focus": [
+        "playing_catch",
+        "ground_balls",
+        "contact",
+        "teamwork"
+      ],
+      "playersMin": 8,
+      "playersMax": 12,
+      "coachesMin": 1,
+      "equipment": [
+        "ball",
+        "soft_ball",
+        "glove",
+        "bat",
+        "helmet",
+        "tee",
+        "net",
+        "cones",
+        "bucket",
+        "bases"
+      ],
+      "space": "half_field",
+      "objective": "One adult keeps twelve players busy, safe, and learning for a full hour using the buddy system, two stations that run themselves from laminated cards, and one hitting station the coach never leaves.",
+      "blocks": [
+        {
+          "title": "Buddy Warm-Up Led by Captains",
+          "minutes": 6,
+          "type": "warmup",
+          "description": "Players pair up with their buddy for the day as they arrive; buddies stay together all practice. Two captains, rotating every week so everyone gets a turn, lead the dynamic warm-up from a laminated card: jog, skips, high knees, side shuffles, lunges, arm circles. The coach stands where every player is visible and places the station cones while the captains lead.",
+          "setup": "A laminated warm-up card with eight movements in large print, cones every ten feet along the foul line and a line twenty yards out, all station equipment in three buckets ready to carry.",
+          "groups": "Six pairs in one wave behind the two captains.",
+          "coachingPoints": [
+            "Buddies check each other: if your buddy skips a movement, you both do it again.",
+            "The coach never turns his back on the group while setting up."
+          ]
+        },
+        {
+          "title": "Throwing Progression in Pairs",
+          "minutes": 9,
+          "type": "warmup",
+          "description": "Buddies throw across the foul line: wrist flips at fifteen feet, one-knee throws at twenty, standing throws at thirty, then forty feet with a glove target. The buddy watching the throw says one word of feedback after each throw, 'Step!' if the partner did not step toward the target or 'Good!' if they did, while the coach walks behind one line.",
+          "setup": "Six pairs in two facing lines across the foul line, all throws in the same direction, soft baseballs for any nervous catcher.",
+          "groups": "Pairs matched by arm comfort; with an odd number the coach becomes a partner.",
+          "coachingPoints": [
+            "One-word feedback only, so buddies coach each other without arguing.",
+            "Step toward the glove on every throw."
+          ]
+        },
+        {
+          "title": "Station A, Coach-Run: Tee and Front Toss Into the Net",
+          "minutes": 10,
+          "type": "station",
+          "description": "The coach runs this station and does not leave it. One hitter in a helmet inside the bat zone takes five tee swings and five gentle front tosses from the coach kneeling behind a bucket twelve feet away, all into the net. The on-deck buddy does shadow swings at the on-deck cone, and the other pair collects balls behind the net and reloads the bucket. The station sits at the point of a triangle so the coach can see Stations B and C over the hitter's shoulder.",
+          "setup": "Hitting net against the backstop, tee, a bat zone of cones fifteen feet around the plate, on-deck cone twenty feet away, bucket of soft baseballs, two helmets. Stations B and C are placed within sixty feet, in the coach's line of sight.",
+          "groups": "Three groups of four, two buddy pairs each, rotating all three stations every 10 minutes on the coach's phone timer and whistle.",
+          "coachingPoints": [
+            "Helmets on the hitter and on-deck player, one bat in the zone, bat on the ground before leaving.",
+            "Watch the ball to the bat; the coach says 'Eyes!' before every toss.",
+            "Glance at the other two stations between every hitter."
+          ]
+        },
+        {
+          "title": "Station B, Self-Run: Buddy Ground Balls",
+          "minutes": 10,
+          "type": "station",
+          "description": "Buddies stand at two cones twenty feet apart. One rolls ten ground balls, the other fields in the triangle and tosses back, then they swap. A laminated card at the station shows three pictures: feet wide, glove out front, bare hand on top, with the words 'Count your clean fields.' Each pair tries to beat its own count on the second round, and the two pairs at the station report their counts to each other at the whistle.",
+          "setup": "Two pairs of cones twenty feet apart on the grass, a bucket of six baseballs per pair, soft baseballs for seven-year-olds, a laminated card on a cone.",
+          "groups": "Two buddy pairs per rotation, every player either rolling or fielding at all times.",
+          "coachingPoints": [
+            "Roll slowly and straight at the glove so the buddy succeeds.",
+            "Glove out front where the eyes can see the ball into it.",
+            "Count out loud; the count keeps buddies honest and busy."
+          ]
+        },
+        {
+          "title": "Station C, Self-Run: Bucket Target Throws",
+          "minutes": 10,
+          "type": "station",
+          "description": "A bucket lies on its side thirty feet from a throw-down base, with a cone standing on each side as smaller targets. Buddies take turns throwing five balls each from the base: three points for a ball into the bucket, one point for knocking over a cone, and the buddy retrieves and keeps score on the card's tally box. The card reminds them: point, step, throw.",
+          "setup": "Two bucket targets thirty feet from two throw-down bases, aimed at a fence so misses stop, a cone on each side of each bucket, five baseballs per pair, a laminated card with a tally box and a dry-erase marker.",
+          "groups": "Two buddy pairs per rotation, one throwing and one retrieving in each pair, swapping every five throws.",
+          "coachingPoints": [
+            "Point the glove at the bucket, step, throw; accuracy wins, not power.",
+            "Wait until your buddy is back beside you before the next throw.",
+            "Throw toward the fence only."
+          ]
+        },
+        {
+          "title": "Game: Tee Scrimmage, Three Outs and Switch",
+          "minutes": 12,
+          "type": "game",
+          "description": "Six players take the field and six bat off the tee at home plate, with the coach standing beside the plate running the tee, the bat zone, and the outs. Batters run the bases live and the defense plays every ball, throwing to the base of the play. Two batting-team buddies serve as base coaches at first and third with the two signals, windmill for go and hands up for stop. Three outs or six batters, then switch sides.",
+          "setup": "Full infield with bases, tee on home plate inside the bat zone cones, helmets for every batter and runner, soft baseballs, a bucket beside the coach.",
+          "groups": "Two teams of six, buddies on the same team, switching after three outs or six batters.",
+          "coachingPoints": [
+            "The coach stays at home plate where every player and every throw is visible.",
+            "Runners look at their buddy base coach before every pitch.",
+            "Defense calls the base out loud before the ball is hit."
+          ]
+        },
+        {
+          "title": "Wrap-Up",
+          "minutes": 3,
+          "type": "wrapup",
+          "description": "Buddies sit together on the infield grass and tell each other one thing their buddy did well. Announce next week's captains and the home assignment, then the team cheer. Players carry every bucket and card to the coach's car.",
+          "setup": "Infield grass with equipment stacked by the players.",
+          "groups": "Whole team in buddy pairs, parents at the fence.",
+          "coachingPoints": [
+            "Buddy praise builds the team faster than coach praise.",
+            "Name next week's captains so they arrive ready to lead."
+          ]
+        }
+      ],
+      "safety": [
+        "The coach never leaves the hitting station while a bat is in use; the self-run stations are placed within sixty feet and in direct line of sight.",
+        "Helmets on every hitter and on-deck player, one bat in the zone, bat on the ground before leaving the zone, and no bats at the self-run stations.",
+        "Self-run stations roll ground balls and throw at targets backed by a fence, so all throws travel away from the other stations.",
+        "Soft baseballs for seven- and eight-year-olds and for any player new to catching; the coach checks the buddy pairings so no player is paired with someone far stronger."
+      ],
+      "progressions": [
+        "Station B becomes one-hop throws instead of rolls once every pair fields rolled balls cleanly.",
+        "Station C moves the bucket to forty feet and adds a one-knee round for accuracy.",
+        "A parent volunteer runs the tee scrimmage bases so the coach can hit fungo instead of using the tee."
+      ],
+      "homeAssignmentLessonId": "fld-08"
+    },
+    {
+      "id": "cp-18",
+      "title": "Small-Space Practice on a Shared Field",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "durationMin": 60,
+      "focus": [
+        "ground_balls",
+        "transfers",
+        "accuracy",
+        "bat_control"
+      ],
+      "playersMin": 8,
+      "playersMax": 14,
+      "coachesMin": 2,
+      "equipment": [
+        "ball",
+        "soft_ball",
+        "tennis_ball",
+        "glove",
+        "bat",
+        "helmet",
+        "tee",
+        "net",
+        "cones",
+        "bucket"
+      ],
+      "space": "small",
+      "objective": "Run a full-value practice on half an infield or a strip of foul territory shared with another team, with every throw traveling in one safe direction, no live hitting into shared space, and compact stations that keep everyone moving.",
+      "blocks": [
+        {
+          "title": "Compact Dynamic Warm-Up",
+          "minutes": 6,
+          "type": "warmup",
+          "description": "Inside a thirty-by-thirty-foot cone square in your corner of the field, players do movements in place and in short laps around the square: jog laps, skips, high knees, side shuffles along each side, walking lunges across the middle, arm circles and arm swings standing on the corners. Before starting, the coach agrees with the other team's coach on which direction each team will throw.",
+          "setup": "Four cones in a thirty-foot square in the space you have been given, with the open side of the square facing the fence you will throw toward.",
+          "groups": "Whole team inside the square, a player captain leading.",
+          "coachingPoints": [
+            "Agree on throwing lanes with the other coach before any ball comes out.",
+            "Short laps keep everyone moving without leaving your space."
+          ]
+        },
+        {
+          "title": "Throwing Progression Along the Line",
+          "minutes": 9,
+          "type": "warmup",
+          "description": "Pairs line up along the foul line with partners facing each other across it, so every throw travels parallel to the line and toward your own fence, away from the shared team. Wrist flips at fifteen feet, one-knee throws at twenty-five, rocker-step throws at forty, regular throws at sixty, then back to forty-five for quick-catch. Sixty feet is the limit because space is tight.",
+          "setup": "Pairs along the foul line in two facing lines, moving back only along the line, regular baseballs, a coach at each end watching for anyone drifting into the other team's area.",
+          "groups": "Pairs matched by arm comfort, odd player with a coach.",
+          "coachingPoints": [
+            "Every throw goes the same direction; if a ball gets away, call 'Ball!' loudly before chasing it.",
+            "Front shoulder at the target, step, finish across the body."
+          ]
+        },
+        {
+          "title": "Station 1: Short-Hop Triangle",
+          "minutes": 9,
+          "type": "station",
+          "description": "Three players form a triangle fifteen feet on a side with one tennis ball and throw firm one-hoppers to each other, fielding every short hop in the triangle and throwing to the next player. After four minutes the throws go to the glove side and backhand side on purpose so players practice glove angles. A fourth player rotates in every ten fields.",
+          "setup": "Triangles of three cones fifteen feet apart on grass or dirt in your corner, one tennis ball per triangle, a bucket of spares.",
+          "groups": "Three groups of four rotating every 9 minutes on the whistle; three in the triangle and one rotating in every ten fields.",
+          "coachingPoints": [
+            "Stay low from start to finish and play the short hop out front.",
+            "Firm throws, not hard ones; this is footwork and glove work.",
+            "Keep the triangle tight so no throw leaves your space."
+          ]
+        },
+        {
+          "title": "Station 2: Tee Into the Net",
+          "minutes": 9,
+          "type": "station",
+          "description": "A hitting net sits with its back to your fence and a tee six feet in front of it. One hitter in a helmet inside the bat zone hits six balls into the net working inside, middle, and outside tee locations, then rotates. The on-deck player shadows at the on-deck cone, and two players reset the tee and collect balls. No front toss today; in shared space, nothing gets hit into the open.",
+          "setup": "Net against the fence, tee on a throw-down plate, a bat zone of cones twelve feet around the tee, on-deck cone twenty feet away toward your own space, two helmets, a bucket of baseballs or soft baseballs.",
+          "groups": "Three groups of four, 9 minutes per rotation; rotate after each hitter's six swings.",
+          "coachingPoints": [
+            "Helmets on the hitter and on-deck player, one bat in the zone, bat on the ground before leaving.",
+            "Inside pitch out front, outside pitch deeper, same swing.",
+            "Hit the net every time; a ball over the net is a ball into someone else's practice."
+          ]
+        },
+        {
+          "title": "Station 3: Quick-Hands Transfers",
+          "minutes": 9,
+          "type": "station",
+          "description": "Partners stand twenty feet apart with a tennis ball and play quick-catch: catch with two hands, transfer the ball to the throwing hand in front of the chest while the feet shuffle toward the target, and release in rhythm. Count consecutive catches as a pair, then add a wrinkle: the receiver has to turn to the glove side before throwing, like a relay man. Pairs try to beat their own record.",
+          "setup": "Pairs of cones twenty feet apart, parallel to the foul line so throws travel toward your fence, one tennis ball per pair.",
+          "groups": "Three groups of four, 9 minutes per rotation, in pairs the whole time.",
+          "coachingPoints": [
+            "Smooth is fast; a dropped transfer costs more than a slow one.",
+            "Feet move first, hands follow.",
+            "Turn to the glove side, always."
+          ]
+        },
+        {
+          "title": "Team: Four-Corner Throwing",
+          "minutes": 10,
+          "type": "team",
+          "description": "Four cones form a square as large as your space allows, sixty feet on a side if possible, with two or three players at each corner. The ball goes around the square with each receiver catching, turning to the glove side, and throwing to the next corner, then jogging to the back of that corner. After four minutes reverse direction, and for the last three minutes add a second ball so players have to communicate.",
+          "setup": "Four cones in the largest square that fits your space, two or three players per corner, two baseballs.",
+          "groups": "Whole team spread over the four corners, moving to the next corner after each throw.",
+          "coachingPoints": [
+            "Call the name of the player you are throwing to.",
+            "Catch, turn glove side, step, throw: four parts in one rhythm.",
+            "With two balls, the loudest corner is the safest corner."
+          ]
+        },
+        {
+          "title": "Game: Around the Square Under Control",
+          "minutes": 5,
+          "type": "game",
+          "description": "Same four corners. The team counts clean catches out loud for ninety seconds, where clean means caught without the receiver leaving the cone, and a drop or a chase does not count. Rest, then try to beat the count. Two rounds, team record written down for the next tight-space practice.",
+          "setup": "Same four corners, one baseball, a coach with a watch counting aloud.",
+          "groups": "Whole team at the corners.",
+          "coachingPoints": [
+            "Execution is the score; a slow, accurate throw counts and a fast, wild one does not.",
+            "Breathe between rounds; it is a long day for arms."
+          ]
+        },
+        {
+          "title": "Wrap-Up",
+          "minutes": 3,
+          "type": "wrapup",
+          "description": "Take a knee in your square. Ask which way the relay man turns and where the tee sits for an inside pitch. Thank the other team's coach out loud so players see it, announce the home assignment, and finish with the team cheer.",
+          "setup": "Cone square with equipment collected by the players.",
+          "groups": "Whole team, parents at the fence.",
+          "coachingPoints": [
+            "Model courtesy to the team sharing your field.",
+            "Remind players the home assignment needs a wall and a tennis ball."
+          ]
+        }
+      ],
+      "safety": [
+        "Agree on throwing directions with the other team before practice; every throw today travels toward your own fence and never across shared space.",
+        "No front toss or live hitting in shared space; hitting is tee work into a net backed by a fence, with a helmet, inside a cone bat zone.",
+        "Tennis balls at the short-hop and transfer stations; throwing distances capped at sixty feet.",
+        "Anyone chasing a loose ball calls 'Ball!' first and walks, never runs, into the other team's area."
+      ],
+      "progressions": [
+        "Short-hop triangle with baseballs once every player keeps the glove out front on bad hops.",
+        "Four-corner throwing with a required transfer and a tag of the cone, like a force play.",
+        "Add a fourth station of dry baserunning footwork along the foul line if you have the room."
+      ],
+      "homeAssignmentLessonId": "fld-14"
+    },
+    {
+      "id": "cp-19",
+      "title": "Pre-Game Warm-Up Routine",
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "durationMin": 30,
+      "focus": [
+        "warmup",
+        "playing_catch",
+        "ground_balls",
+        "fly_balls",
+        "teamwork"
+      ],
+      "playersMin": 9,
+      "playersMax": 14,
+      "coachesMin": 2,
+      "equipment": [
+        "ball",
+        "glove",
+        "bat",
+        "helmet",
+        "catcher_gear",
+        "cones",
+        "bucket"
+      ],
+      "space": "half_field",
+      "objective": "Players arrive at first pitch warm, loose, and focused through the same thirty-minute routine every game: a dynamic warm-up, a throwing progression, quick ground balls and fly balls, and a short team talk, usually in foul territory because the infield belongs to the home team or the grounds crew.",
+      "blocks": [
+        {
+          "title": "Dynamic Warm-Up",
+          "minutes": 6,
+          "type": "warmup",
+          "description": "In foul territory, players move from the foul line to a cone twenty yards out and back: jog, skips, high knees, butt kicks, side shuffles, carioca, walking lunges, and two build-up runs at three-quarter speed. Finish with arm circles small to large, arm swings across the body, and trunk rotations. A player captain leads so the coaches can check in with the umpires and the other team.",
+          "setup": "Cones every ten feet along the foul line in your dugout's foul territory and a cone twenty yards out; cleats on, no gloves yet.",
+          "groups": "Whole team in one wave behind the captain.",
+          "coachingPoints": [
+            "Same order every game so players can run it without being told.",
+            "Build-up runs are controlled; nobody pulls anything before the game starts."
+          ]
+        },
+        {
+          "title": "Throwing Progression",
+          "minutes": 8,
+          "type": "warmup",
+          "description": "Partners along the foul line, throwing parallel to it: wrist flips at fifteen feet, one-knee throws at twenty-five, rocker-step throws at forty, regular throws at sixty, then out to game distance for the position, with outfielders crow-hopping at ninety feet or so and infielders staying at sixty to seventy, and finish with quick-catch at forty-five. The starting pitcher and catcher leave after the sixty-foot stage to warm up in the bullpen with a coach who writes down every warm-up pitch.",
+          "setup": "Pairs along the foul line in two facing lines, moving back along the line, regular baseballs, the bullpen with a coach, a catcher in gear, and the pitch count card.",
+          "groups": "Pairs matched by position: outfielders together, infielders together, the battery with the pitching coach.",
+          "coachingPoints": [
+            "Game throws only after the whole progression; nobody skips to long throws.",
+            "Bullpen warm-up pitches are written down; check your league's current rulebook for what counts toward the game pitch limit.",
+            "Finish with quick-catch so hands are ready, not just arms."
+          ]
+        },
+        {
+          "title": "Quick Ground Balls",
+          "minutes": 6,
+          "type": "team",
+          "description": "If the infield is available, infielders take their positions and a coach hits three fungo ground balls to each, with throws to first and the first baseman throwing to the catcher. If the infield is not available, the same happens in foul territory with a coach rolling or hitting short ground balls to infielders spread along the line and a player receiving on a throw-down base. Outfielders take ground balls from a helper in the outfield grass and throw to a cutoff cone.",
+          "setup": "Fungo bat and bucket for the coach, a throw-down base and a cutoff cone if working in foul territory, catcher in gear if the infield is in use.",
+          "groups": "Infielders with the head coach, outfielders with the assistant, the battery still in the bullpen.",
+          "coachingPoints": [
+            "Three clean reps each, not thirty; this is a warm-up, not a lesson.",
+            "Chest-high throws to first; good habits start before the first pitch."
+          ]
+        },
+        {
+          "title": "Quick Fly Balls",
+          "minutes": 5,
+          "type": "team",
+          "description": "Outfielders take two fly balls each from the assistant coach, one over each shoulder, with a crow-hop throw to a cutoff player at the edge of the grass. Infielders take two pop-ups each from the head coach, calling the ball three times, while the catcher, if finished in the bullpen, takes two pop-ups in gear. Everything is thrown rather than hit if space is shared or tight.",
+          "setup": "Assistant coach with a bucket in the outfield, head coach with a bucket in foul territory, cutoff cone at the infield edge.",
+          "groups": "Outfielders with the assistant, infielders with the head coach.",
+          "coachingPoints": [
+            "Call it three times, catch it above the eyes with two hands.",
+            "Hit the cutoff man; nobody shows off an arm before the game."
+          ]
+        },
+        {
+          "title": "Team Talk",
+          "minutes": 5,
+          "type": "wrapup",
+          "description": "Team gathers in front of the dugout, gloves off, helmets for the first three hitters within reach. The coach reads the lineup and positions, names one defensive focus for the day, such as hitting the cutoff man, and gives the sportsmanship reminder: respect the umpire's calls, cheer teammates, and shake hands at the end whatever the score. The captains lead the cheer and the team takes the field together.",
+          "setup": "In front of the dugout, lineup card ready, the pitch count card handed to the person who will keep the count during the game.",
+          "groups": "Whole team, coaches in the middle.",
+          "coachingPoints": [
+            "One focus, not five; players remember one.",
+            "The sportsmanship reminder happens every game, win or lose, so it becomes who the team is.",
+            "Make sure the pitch counter and the lineup card are in the right hands before the first pitch."
+          ]
+        }
+      ],
+      "safety": [
+        "The routine runs in foul territory unless the umpire or the other coach confirms the infield is yours; throws travel parallel to the foul line, away from spectators and the other team.",
+        "Starting pitcher's bullpen pitches are counted and written down; the game pitch count and rest rules come from your league's configured pitch-count and rest table and the current rulebook.",
+        "Catchers wear full gear for every bullpen and every pop-up; helmets on the first hitters before the team takes the field.",
+        "Fly balls are thrown, not hit, whenever space is shared or players are still warming up."
+      ],
+      "progressions": [
+        "Let the captains run the whole routine while the coaches handle lineup cards and umpire meetings.",
+        "Add a two-minute situation quiz to the team talk: 'Runner on first, one out, ground ball to short, where does it go?'",
+        "Build an on-deck routine for hitters that matches the mental preparation lesson."
+      ],
+      "homeAssignmentLessonId": "thr-11"
+    },
+    {
+      "id": "cp-20",
+      "title": "Intermediate and Juniors: Leads, Steals, and Pickoffs",
+      "ageGroups": [
+        "a13_16"
+      ],
+      "durationMin": 90,
+      "focus": [
+        "running_bases",
+        "reading_ball",
+        "footwork",
+        "baseball_iq"
+      ],
+      "playersMin": 10,
+      "playersMax": 14,
+      "coachesMin": 2,
+      "equipment": [
+        "ball",
+        "glove",
+        "helmet",
+        "catcher_gear",
+        "cones",
+        "bases",
+        "bucket"
+      ],
+      "space": "full_field",
+      "objective": "Runners take safe primary and secondary leads, read the pitcher's first move, and get back on pickoffs; pitchers learn simple, legal pickoff footwork on a counted plan; catchers and middle infielders defend the steal. This plan applies only in divisions whose rules allow runners to lead off before the pitch; check your league's current Little League rulebook before using it.",
+      "blocks": [
+        {
+          "title": "Dynamic Warm-Up With Lead-Off Shuffles",
+          "minutes": 8,
+          "type": "warmup",
+          "description": "Foul line to a cone line thirty yards out and back: jog, skips, high knees, butt kicks, carioca, side shuffles, walking lunges, two build-up sprints. Then lead-off footwork on the grass: everyone faces the coach in a spread grid, shuffles two steps right on 'Lead!', shuffles two more on 'Secondary!', and on 'Back!' crosses over and sprints two steps left, or on 'Go!' crosses over and sprints two steps right. Finish with arm circles and arm swings.",
+          "setup": "Cones every ten feet along the foul line and a line thirty yards out, then a grid of one cone per player in the outfield facing the coach.",
+          "groups": "Whole team in one wave, then everyone on their own cone for the shuffle calls.",
+          "coachingPoints": [
+            "Shuffle steps stay low with the weight balanced so either direction is possible.",
+            "The crossover step is the first step both back to the base and toward the next one."
+          ]
+        },
+        {
+          "title": "Throwing Progression and Dry Pickoff Footwork",
+          "minutes": 12,
+          "type": "warmup",
+          "description": "Partners across the foul line: wrist flips at fifteen feet, one-knee throws at twenty-five, rocker-step throws at forty, regular throws at sixty, then one hundred feet for three minutes, then quick-catch at forty-five. Pitchers scheduled to work today finish with dry footwork with the pitching coach, no ball: from the stretch, the step-off, the jump turn to first for right-handers, and the step toward first for left-handers, five repetitions each.",
+          "setup": "Partners facing across the foul line, regular baseballs; a throw-down rubber on flat ground with a cone where first base would be for the dry footwork.",
+          "groups": "Pairs matched by arm comfort, then scheduled pitchers with the pitching coach while everyone else does quick-catch.",
+          "coachingPoints": [
+            "One hundred feet is the longest throw today.",
+            "Dry footwork first; the arm has not earned pickoff throws yet.",
+            "Stepping off the rubber before throwing to a base is the simplest legal move and the one to learn first."
+          ]
+        },
+        {
+          "title": "Team: Rules Check and Lead-Off Basics",
+          "minutes": 12,
+          "type": "team",
+          "description": "Everyone gathers at first base. The coach explains that in this division runners may lead off before the pitch, that in many younger divisions runners must stay on the base until the pitch reaches the batter, and that the exact rules, including balk rules, come from the league's current rulebook, which the coach has read this week. Then the basics: a primary lead is a few shuffle steps the runner can get back from in one crossover step and a dive, starting conservative; a secondary lead is two more shuffles as the pitch is delivered; on any pickoff the first move is the crossover step back to the bag. Players walk it, then jog it, with a coach on the mound in the stretch.",
+          "setup": "Full infield with bases, a coach on the mound holding a ball in the stretch, a cone marking a conservative primary lead and a second cone marking the secondary lead.",
+          "groups": "Whole team taking turns at first base in groups of three, with everyone else watching from foul territory for this one segment only.",
+          "coachingPoints": [
+            "Start with a lead you can get back from easily; distance grows with confidence over weeks, not minutes.",
+            "Eyes on the pitcher, not on the base; the base does not move.",
+            "The dive back to first happens only after it has been taught on grass and only where your league permits head-first returns; until then, get back standing."
+          ]
+        },
+        {
+          "title": "Station 1: Leads and Jumps",
+          "minutes": 12,
+          "type": "station",
+          "description": "A coach or an older player stands on a throw-down rubber in the outfield grass in the stretch position with a ball, and runners take turns at a throw-down first base forty feet away. Against a right-handed pitcher the runner goes when the front heel lifts toward home and gets back when the back foot steps off the rubber or the shoulder turns toward first; against a left-hander the runner waits longer and reads the back knee and the step. Each runner takes six reads, mixing pitches and pickoff fakes with no throw. Four players rotate as runner, fake pitcher, and two observers who call out 'Go!' or 'Back!' as the move happens.",
+          "setup": "Throw-down rubber and first base forty feet apart in the outfield grass, a second base cone sixty feet away for the runner to break toward, one ball for the fake pitcher.",
+          "groups": "Three groups of four rotating every 12 minutes on the whistle; roles change after every six reads.",
+          "coachingPoints": [
+            "Read the heel and the shoulder, not the hands.",
+            "A good jump beats a big lead every time.",
+            "Observers call it out loud so the reading becomes a shared language."
+          ]
+        },
+        {
+          "title": "Station 2: Pitcher Pickoff Footwork",
+          "minutes": 12,
+          "type": "station",
+          "description": "Pitchers work from a throw-down rubber on flat ground with a player at a base forty feet away. Right-handers learn the step-off and throw, then the jump turn to first; left-handers learn to lift the knee and step directly toward first before throwing; everyone learns the inside move to second, a slow turn toward second during the leg lift. Each pitcher throws no more than eight pickoff throws at this station, with the rest done dry, because pickoffs are throws and the arm is counting them.",
+          "setup": "Two throw-down rubbers on flat grass each with a base forty feet away and a receiver with a glove, a cone marking second base for the inside move, the pitching coach with a count card.",
+          "groups": "Three groups of four, 12 minutes per rotation: two pitchers working, two receivers, swapping halfway. Non-pitchers learn the footwork dry and act as receivers.",
+          "coachingPoints": [
+            "Step off the rubber first when in doubt; it is the simplest legal move in every rulebook.",
+            "Pickoff throws go to the inside of the base at knee height so the tag is quick.",
+            "Eight throws maximum per pitcher, written down; check your league's balk rules for your division before using any move in a game."
+          ]
+        },
+        {
+          "title": "Station 3: Steal Defense",
+          "minutes": 12,
+          "type": "station",
+          "description": "A catcher in full gear sets up in the secondary stance with a coach lobbing pitches from twenty feet; on 'Runner!' the catcher receives, transfers with the ball in front of the chest, steps toward second with the throwing-side foot replacing the glove-side foot, and throws to the shortstop or second baseman straddling the bag. The fielder catches, drops the glove to the front of the base, and lets an imaginary runner slide into it. Runners at this station jog toward second and peel off without sliding. Catchers throw no more than ten times each.",
+          "setup": "Home plate and second base with a coach lobbing from twenty feet in front of the plate, catcher's gear, two middle infielders alternating at the bag, a runner's cone near first.",
+          "groups": "Three groups of four, 12 minutes per rotation: catcher, two middle infielders, runner, rotating every five throws.",
+          "coachingPoints": [
+            "Transfer in front of the chest; the feet make the throw quick, not the arm.",
+            "Fielder straddles the bag, catches, and drops the glove to the front edge; the runner slides into the tag.",
+            "Ten throws per catcher, counted; quality beats quantity."
+          ]
+        },
+        {
+          "title": "Game: The Steal Game",
+          "minutes": 17,
+          "type": "game",
+          "description": "Runners at first against a full battery and middle infield. A coach on the mound pitches from the stretch at a shortened distance with a real leg lift so runners get live reads, or a scheduled pitcher throws counted pitches. Runners earn two points for a good jump on the heel lift and one for getting back standing on a pickoff; the catcher earns two for a throw on the bag side at knee height, the fielder one for the correct tag position, and the pitcher one for a legal pickoff that holds the runner close. Safe or out does not decide points, and everyone runs and everyone fields.",
+          "setup": "Full infield with bases, catcher in full gear, coach or counted pitcher on the mound, helmets on all runners, a helper keeping score aloud and counting every throw by the catcher and pitcher.",
+          "groups": "Two teams switching after every five runners, positions rotating within the defense.",
+          "coachingPoints": [
+            "Announce every point and why: the jump, the throw, the tag.",
+            "Runners slide feet first with hands up or peel off; no head-first slides into second today.",
+            "Catcher and pitcher throw counts are written down; the card ends their part of the game."
+          ]
+        },
+        {
+          "title": "Wrap-Up",
+          "minutes": 5,
+          "type": "wrapup",
+          "description": "Take a knee behind the mound. Ask what the runner reads on a right-hander and what the simplest legal pickoff is. Repeat that leads and steals apply only where the division's rules allow them and that the current rulebook decides. Record pitcher and catcher throw totals, announce the home assignment, and finish with the team cheer.",
+          "setup": "Infield grass with equipment collected by the players, the count cards on the clipboard.",
+          "groups": "Whole team with parents at the fence.",
+          "coachingPoints": [
+            "Players answer; coaches confirm.",
+            "Write the throw totals before anyone leaves."
+          ]
+        }
+      ],
+      "safety": [
+        "Leads, steals, and pickoffs are practiced only for divisions whose rules allow runners to lead off before the pitch; check your league's current Little League rulebook and local rules before running this plan.",
+        "Pickoff throws and steal throws are throws: pitchers are capped at eight pickoff throws at the station, catchers at ten steal throws, everything is written on the count card, and any scheduled pitcher follows the league's configured pitch-count and rest table.",
+        "Runners wear helmets, slide feet first with hands up or peel off, and never slide head first into second; dives back to first are taught separately on grass and only where the league permits them.",
+        "Tags are made with the glove at the front of the base; fielders never block the base with a leg or body."
+      ],
+      "progressions": [
+        "Add the delayed steal and the first-and-third situation once primary leads are safe and consistent.",
+        "Left-handed pitchers work their move to first with a live runner reading the knee.",
+        "Catchers throw to third on a steal attempt with the third baseman learning the tag."
+      ],
+      "homeAssignmentLessonId": "run-05"
+    }
+  ]
+}
