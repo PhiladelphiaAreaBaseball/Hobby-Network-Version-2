@@ -4,6 +4,9 @@ import { readFileSync } from "node:fs";
 import { ratePlayers, rankPool, snakeOrder, onTheClock, availablePool, teamStrengths, balanceWarnings, autoPick } from "../../dist/test/engines/draft.mjs";
 import { recommendLessons, ratingsFromNotes, cardSummary, cardDeltas, REPORT_SKILLS } from "../../dist/test/engines/reportCard.mjs";
 import { gradeQuiz, personStatus, expiryFor } from "../../dist/test/engines/certification.mjs";
+import { parseCsv, mapRows, detectColumns, normalizeDate } from "../../dist/test/engines/importer.mjs";
+import { rolloverPreview, nextSeasonFor } from "../../dist/test/engines/season.mjs";
+import { standings } from "../../dist/test/engines/standings.mjs";
 import { autoRotation, lineupWarnings, advanceOut, addRun, scoreTotals, playingTime, fairnessNotes, DEFAULT_PLAY_RULES, BENCH, POSITIONS } from "../../dist/test/engines/gameDay.mjs";
 const load = (f) => JSON.parse(readFileSync(`data/content/${f}`, "utf8")).items;
 const lessons = ["lessons-hitting.json", "lessons-fielding.json", "lessons-throwing.json", "lessons-baserunning.json", "lessons-positions-mental.json"].flatMap(load);
@@ -85,4 +88,27 @@ test("certification: quizzes grade against the pass mark; status honours role au
   for (const m of cert.items) assert.ok(m.quiz.length >= 3 && m.sections.length >= 3, m.id);
   assert.ok(demo.certifications.length > 30); const mark = demo.users.find((u) => u.firstName === "Mark" && u.lastName === "Galasso"); const markSt = personStatus(cert.items, demo.certifications, mark.id, "head_coach", today); assert.equal(markSt.requiredDone, 4); assert.ok(!markSt.complete);
   const teamPlan = demo.practicePlans.find((p) => p.id === "plan_team_demo1"); assert.equal(teamPlan.blocks.reduce((a, b) => a + b.minutes, 0), teamPlan.totalMinutes);
+});
+
+test("importer: parses quoted CSV, detects column aliases, normalises dates and flags problems", () => {
+  const rows = parseCsv('Player First,Player Last,DOB,Parent Email,"Parent Name",Division\r\n"Jordan","O\'Neil, Jr.",4/12/2017,sam@example.com,"Sam O\'Neil",Minor\nAlex,Rivera,2019-02-03,,,Coach pitch\nBad,Row,not a date,nope,,\n');
+  assert.equal(rows.length, 4); assert.equal(rows[1][1], "O\'Neil, Jr.");
+  const cols = detectColumns(rows[0]); assert.equal(cols.first, 0); assert.equal(cols.birthDate, 2); assert.equal(cols.guardianEmail, 3); assert.equal(cols.guardianFirst, 4); assert.equal(cols.division, 5);
+  assert.equal(normalizeDate("4/12/2017"), "2017-04-12"); assert.equal(normalizeDate("2019-2-3"), "2019-02-03"); assert.equal(normalizeDate("12/01/09"), "2009-12-01"); assert.equal(normalizeDate("yesterday"), null);
+  const divs = demo.divisions.filter((d) => d.leagueId === "lg_riverside"); const elig = demo.leagues[0].settings.eligibility;
+  const { records } = mapRows(rows, divs, elig, { players: [], emails: new Set(["sam@example.com"]) });
+  assert.equal(records.length, 3); assert.equal(records[0].first, "Jordan"); assert.equal(records[0].guardianFirst, "Sam"); assert.equal(records[0].guardianLast, "O\'Neil"); assert.equal(records[0].divisionId, "div_mn"); assert.ok(records[0].warnings.some((w) => w.includes("already has an account"))); assert.deepEqual(records[0].problems, []);
+  assert.equal(records[1].divisionId, "div_rk"); assert.ok(records[1].warnings.some((w) => w.startsWith("No guardian email")));
+  assert.ok(records[2].problems.some((p) => p.includes("not understood"))); assert.ok(records[2].problems.some((p) => p.includes("not valid")));
+  const dup = mapRows([rows[0], rows[1], rows[1]], divs, elig, { players: [{ firstName: "Jordan", lastName: "O\'Neil, Jr.", birthDate: "2017-04-12" }], emails: new Set() }); assert.ok(dup.records[1].problems.includes("Duplicate of an earlier row.")); assert.ok(dup.records[0].warnings.some((w) => w.startsWith("Already in the league")));
+  const single = mapRows([["Name", "Birthday", "Parent"], ["Casey Lee Park", "2016-06-06", "Robin Park"]], divs, elig, { players: [], emails: new Set() }); assert.equal(single.records[0].first, "Casey Lee"); assert.equal(single.records[0].last, "Park"); assert.equal(single.records[0].guardianFirst, "Robin");
+});
+test("season: rollover preview counts draft placements, carry-overs and age changes; standings honour the season", () => {
+  const riverside = demo.leagues[0]; const from = demo.seasons.find((s) => s.id === "sea_fall"); const to = demo.seasons.find((s) => s.id === "sea_next"); const scope = (arr) => arr.filter((x) => x.leagueId === "lg_riverside");
+  const pv = rolloverPreview({ from, to, teams: scope(demo.teams), divisions: scope(demo.divisions), players: scope(demo.players), registrations: scope(demo.registrations), drafts: [{ ...demo.drafts[0], status: "complete" }], eligibility: riverside.settings.eligibility });
+  assert.equal(pv.teams, 20); assert.equal(pv.draftsToApply.length, 1); assert.equal(pv.placedByDraft, demo.drafts[0].picks.length + Object.values(demo.drafts[0].protectedPlayerIds).flat().length); assert.ok(pv.leaveTeam > 0); assert.ok(pv.keepTeam + pv.leaveTeam + pv.placedByDraft >= scope(demo.players).filter((p) => p.teamId).length - pv.placedByDraft);
+  const live = rolloverPreview({ from, to, teams: [], divisions: [], players: [], registrations: [], drafts: [demo.drafts[0]], eligibility: riverside.settings.eligibility }); assert.ok(live.warnings.some((w) => w.includes("still live"))); assert.equal(live.draftsToApply.length, 0);
+  assert.equal(nextSeasonFor(demo.seasons.filter((s) => s.leagueId === "lg_riverside"), from).id, "sea_next");
+  const teams = [{ id: "a", divisionId: "d" }, { id: "b", divisionId: "d" }]; const evs = [{ id: "1", seasonId: "s1", type: "game", status: "completed", homeTeamId: "a", awayTeamId: "b", result: { homeScore: 5, awayScore: 3 }, teamIds: ["a", "b"] }, { id: "2", seasonId: "s2", type: "game", status: "completed", homeTeamId: "b", awayTeamId: "a", result: { homeScore: 9, awayScore: 0 }, teamIds: ["a", "b"] }];
+  assert.equal(standings(teams, evs, "d", "s1")[0].teamId, "a"); assert.equal(standings(teams, evs, "d", "s2")[0].teamId, "b"); assert.equal(standings(teams, evs, "d")[0].wins, 1);
 });

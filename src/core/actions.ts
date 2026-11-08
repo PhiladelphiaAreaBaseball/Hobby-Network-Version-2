@@ -8,6 +8,8 @@ import { evaluateChallenges } from "../engines/achievements";
 import { onTheClock, availablePool, autoPick, ratePlayers } from "../engines/draft";
 import { emptySheet, scoreTotals } from "../engines/gameDay";
 import { gradeQuiz, expiryFor } from "../engines/certification";
+import { leagueAge as calcLeagueAge } from "../engines/eligibility";
+import type { ImportRecord } from "../engines/importer";
 import type * as T from "./types";
 import type { Permission } from "./types";
 import { newId, nowIso, todayIso } from "./util";
@@ -205,7 +207,7 @@ export const actions = {
     if (sh.assignedUserIds.includes(uid)) { await put(t.leagueId, "shifts", { ...sh, assignedUserIds: sh.assignedUserIds.filter((x) => x !== uid) }); return; }
     if (sh.assignedUserIds.length >= sh.slots) throw new Error("This shift is full.");
     await put(t.leagueId, "shifts", { ...sh, assignedUserIds: [...sh.assignedUserIds, uid] });
-    if (sh.teamId) { const ev = sh.eventId ? t.eventById.get(sh.eventId) : undefined; await actions.notify(uid, `You're signed up: ${sh.title}`, `${t.teamName(sh.teamId)} · ${sh.start.slice(0, 10)} at ${sh.start.slice(11, 16)}${ev?.fieldId ? ` · ${t.fieldById.get(ev.fieldId)?.name ?? ""}` : ""}. A reminder arrives the day before.`, "volunteer", `team-${sh.teamId}`); }
+    if (sh.teamId) { const ev = sh.eventId ? t.eventById.get(sh.eventId) : undefined; const keeper = sh.kind === "scorekeeper" || sh.kind === "pitch_count"; await actions.notify(uid, `You're signed up: ${sh.title}`, `${t.teamName(sh.teamId)} · ${sh.start.slice(0, 10)} at ${sh.start.slice(11, 16)}${ev?.fieldId ? ` · ${t.fieldById.get(ev.fieldId)?.name ?? ""}` : ""}. ${keeper ? "Open the game day page to keep the book; the coach shows you once." : "A reminder arrives the day before."}`, "volunteer", keeper && sh.eventId ? `gameday-${sh.eventId}` : `team-${sh.teamId}`); }
   },
   /* ---------------- Team sign-ups (snack, scorekeeper, dugout parent, field prep) ---------------- */
   async saveTeamShift(input: { id?: string; teamId: string; eventId?: string; kind: T.VolunteerShift["kind"]; title: string; slots: number; note?: string; start?: string; end?: string }) {
@@ -303,10 +305,10 @@ export const actions = {
   async deleteDraft(draftId: string) { const c = ctx(); const t = tenant(c.leagueId); const d = t.drafts.find((x) => x.id === draftId); if (!d) return; requirePerm("league.tryouts", { divisionId: d.divisionId }); if (d.status === "complete" && d.rostersApplied) throw new PermissionError("Rosters were applied from this draft; it is kept for the record."); await remove(t.leagueId, "drafts", draftId); await audit(t.leagueId, "draft.delete", "draft", draftId); },
   /* ---------------- Report cards ---------------- */
   async saveReportCard(input: { id?: string; teamId: string; playerId: string; period: "mid" | "end"; ratings: Record<string, T.SkillRating>; strengths: string; focus: string; focusSkillId: string | null; recommendedLessonIds: string[]; coachNote: string; publish: boolean }) {
-    const c = requirePerm("team.notes", { teamId: input.teamId }); const t = tenant(c.leagueId); const p = t.playerById.get(input.playerId); if (!p || p.teamId !== input.teamId) throw new PermissionError("That player is not on this team.");
+    const c = ctx(); const t = tenant(c.leagueId); const headCoach = can(c.memberships, "team.notes", { leagueId: t.leagueId, teamId: input.teamId }); if (!headCoach) { if (!can(c.memberships, "team.assign", { leagueId: t.leagueId, teamId: input.teamId })) throw new PermissionError("Only this team's coaches can write report cards."); if (input.publish) throw new PermissionError("Assistant coaches can save drafts; the head coach publishes."); } const p = t.playerById.get(input.playerId); if (!p || p.teamId !== input.teamId) throw new PermissionError("That player is not on this team.");
     const ex = input.id ? t.reportCards.find((x) => x.id === input.id) : t.reportCards.find((x) => x.teamId === input.teamId && x.playerId === input.playerId && x.period === input.period && x.seasonId === (t.activeSeason?.id ?? ""));
     const publishedNow = input.publish && ex?.status !== "published";
-    const doc: T.ReportCard = { id: ex?.id ?? newId("rc"), leagueId: t.leagueId, teamId: input.teamId, playerId: input.playerId, seasonId: ex?.seasonId ?? t.activeSeason?.id ?? "", coachUserId: c.userId, period: input.period, ratings: input.ratings, strengths: input.strengths.trim(), focus: input.focus.trim(), focusSkillId: input.focusSkillId, recommendedLessonIds: input.recommendedLessonIds.slice(0, 4), coachNote: input.coachNote.trim(), status: input.publish ? "published" : "draft", createdAt: ex?.createdAt ?? nowIso(), updatedAt: nowIso(), publishedAt: input.publish ? ex?.publishedAt ?? nowIso() : undefined, parentAcknowledgedAt: ex?.parentAcknowledgedAt };
+    const doc: T.ReportCard = { id: ex?.id ?? newId("rc"), leagueId: t.leagueId, teamId: input.teamId, playerId: input.playerId, seasonId: ex?.seasonId ?? t.activeSeason?.id ?? "", coachUserId: headCoach ? c.userId : ex?.coachUserId ?? (t.teamById.get(input.teamId)?.headCoachUserId ?? c.userId), period: input.period, ratings: input.ratings, strengths: input.strengths.trim(), focus: input.focus.trim(), focusSkillId: input.focusSkillId, recommendedLessonIds: input.recommendedLessonIds.slice(0, 4), coachNote: input.coachNote.trim(), status: input.publish ? "published" : "draft", createdAt: ex?.createdAt ?? nowIso(), updatedAt: nowIso(), publishedAt: input.publish ? ex?.publishedAt ?? nowIso() : undefined, parentAcknowledgedAt: ex?.parentAcknowledgedAt };
     await put(t.leagueId, "reportCards", doc); await audit(t.leagueId, publishedNow ? "report_card.publish" : "report_card.save", "player", p.id, `${doc.period} ${doc.status}`);
     if (publishedNow) for (const g of p.guardianUserIds) await actions.notify(g, `${p.firstName}'s ${doc.period === "mid" ? "mid-season" : "end-of-season"} report card`, `${t.userName(c.userId)} shared a progress report with ${doc.recommendedLessonIds.length} suggested Academy ${doc.recommendedLessonIds.length === 1 ? "lesson" : "lessons"}.`, "report", `report-${doc.id}`);
     return doc;
@@ -355,6 +357,44 @@ export const actions = {
     return result;
   },
   async resetCertification(userId: string, moduleId: string) { const c = requirePerm("league.volunteers"); const t = tenant(c.leagueId); for (const x of t.certifications.filter((r) => r.userId === userId && r.moduleId === moduleId)) await remove(t.leagueId, "certifications", x.id); await audit(t.leagueId, "certification.reset", "user", userId, moduleId); },
+  /* ---------------- Season rollover and imports ---------------- */
+  async rolloverSeason(fromSeasonId: string, toSeasonId: string) {
+    const c = requirePerm("league.settings"); const t = tenant(c.leagueId); const from = t.seasons.find((s) => s.id === fromSeasonId); const to = t.seasons.find((s) => s.id === toSeasonId); if (!from || !to || from.id === to.id) throw new Error("Choose two different seasons");
+    if (t.drafts.some((d) => d.seasonId === to.id && d.status === "live")) throw new PermissionError("Finalize the live draft before rolling over.");
+    const ACTIVE = new Set(["submitted", "pending_documents", "approved", "assigned", "waitlisted"]); const regs = t.registrations.filter((r) => r.seasonId === to.id && ACTIVE.has(r.status)); const regByPlayer = new Map(regs.map((r) => [r.playerId, r]));
+    const placement = new Map<string, string>(); const drafts = t.drafts.filter((d) => d.seasonId === to.id && d.status === "complete" && !d.rostersApplied);
+    for (const d of drafts) { for (const [tid, pids] of Object.entries(d.protectedPlayerIds)) for (const pid of pids) placement.set(pid, tid); for (const p of d.picks) placement.set(p.playerId, p.teamId); }
+    let moved = 0, cleared = 0, aged = 0;
+    for (const p of t.players) {
+      const age = calcLeagueAge(p.birthDate, t.league.settings.eligibility); const ageGroup: T.AgeGroupId = age <= 6 ? "a4_6" : age <= 8 ? "a7_8" : age <= 10 ? "a9_10" : age <= 12 ? "a11_12" : "a13_16"; const reg = regByPlayer.get(p.id); const teamId = placement.get(p.id) ?? (reg ? p.teamId : undefined); const divisionId = teamId ? t.teamById.get(teamId)?.divisionId ?? reg?.divisionId ?? p.divisionId : reg?.divisionId ?? undefined;
+      const next: T.Player = { ...p, leagueAge: age, ageGroup, teamId, divisionId }; if (age !== p.leagueAge) aged++; if (placement.has(p.id) && p.teamId !== teamId) moved++; if (p.teamId && !teamId) cleared++;
+      if (JSON.stringify(next) !== JSON.stringify(p)) await put(t.leagueId, "players", next);
+      if (reg && teamId && reg.status !== "assigned" && reg.status !== "waitlisted") await put(t.leagueId, "registrations", { ...reg, status: "assigned", updatedAt: nowIso() });
+    }
+    for (const d of drafts) await put(t.leagueId, "drafts", { ...d, rostersApplied: true, updatedAt: nowIso() });
+    for (const div of t.divisions) if (div.seasonId !== to.id) await put(t.leagueId, "divisions", { ...div, seasonId: to.id });
+    for (const team of t.teams) if (team.seasonId !== to.id) await put(t.leagueId, "teams", { ...team, seasonId: to.id, record: undefined });
+    await put(t.leagueId, "seasons", { ...from, status: "complete" }); await put(t.leagueId, "seasons", { ...to, status: "active" });
+    await audit(t.leagueId, "season.rollover", "season", to.id, `${from.name} → ${to.name}: ${moved} placed by draft, ${cleared} off rosters, ${aged} ages updated`);
+    await actions.postAnnouncement({ title: `${to.name} is here`, body: `${from.name} is in the books. Rosters, standings and schedules now show ${to.name}. Check My Teams for your team and coach.`, audience: { scope: "league" }, kind: "news", pinned: true }).catch(() => undefined);
+    return { moved, cleared, aged, teams: t.teams.length };
+  },
+  async importPlayers(records: ImportRecord[], opts: { seasonId: string | null }) {
+    const c = requirePerm("league.registrations"); const t = tenant(c.leagueId); const emailIndex = new Map(t.users.map((u) => [u.email.toLowerCase(), u])); let players = 0, guardians = 0, registrations = 0, skipped = 0; const season = opts.seasonId ? t.seasons.find((s) => s.id === opts.seasonId) : undefined;
+    for (const r of records) {
+      if (r.problems.length || !r.birthDate) { skipped++; continue; }
+      if (t.players.some((p) => p.firstName.toLowerCase() === r.first.toLowerCase() && p.lastName.toLowerCase() === r.last.toLowerCase() && p.birthDate === r.birthDate)) { skipped++; continue; }
+      let guardian = r.guardianEmail ? emailIndex.get(r.guardianEmail) : undefined;
+      if (!guardian) { guardian = { id: newId("u"), firstName: r.guardianFirst || `${r.last} family`, lastName: r.guardianLast || r.last, email: r.guardianEmail || `${r.first}.${r.last}.${newId("x").slice(-4)}@pending.invalid`.toLowerCase(), phone: r.guardianPhone || undefined, createdAt: nowIso(), notificationPrefs: { email: !!r.guardianEmail, sms: false, push: true, digest: "immediate", categories: { schedule: true, messages: true, assignments: true, registration: true, volunteer: true, fundraising: false } } } as T.User; await put(t.leagueId, "users", guardian); emailIndex.set(guardian.email.toLowerCase(), guardian); guardians++; }
+      if (!t.memberships.some((m) => m.userId === guardian!.id && m.leagueId === t.leagueId && m.role === "guardian") ) await put(t.leagueId, "memberships", { id: newId("mem"), userId: guardian.id, leagueId: t.leagueId, role: "guardian" } as T.Membership);
+      const age = r.leagueAge ?? calcLeagueAge(r.birthDate, t.league.settings.eligibility); const ageGroup: T.AgeGroupId = age <= 6 ? "a4_6" : age <= 8 ? "a7_8" : age <= 10 ? "a9_10" : age <= 12 ? "a11_12" : "a13_16";
+      const p: T.Player = { id: newId("p"), leagueId: t.leagueId, firstName: r.first, lastName: r.last, displayName: r.first, birthDate: r.birthDate, leagueAge: age, divisionId: r.divisionId ?? undefined, jerseyNumber: r.jersey ?? undefined, positions: [], bats: r.bats, throws: r.throws, guardianUserIds: [guardian.id], ageGroup, weeklyPracticeGoal: 2, goals: [], createdAt: nowIso(), consents: { academyParticipation: true, achievementsSharing: "private", photoConsent: false, videoReview: false, coachFeedbackVisible: true, updatedAt: nowIso(), byUserId: c.userId } };
+      await put(t.leagueId, "players", p); players++;
+      if (season && r.divisionId) { const div = t.divisionById.get(r.divisionId)!; await put(t.leagueId, "registrations", { id: newId("reg"), leagueId: t.leagueId, seasonId: season.id, playerId: p.id, guardianUserId: guardian.id, divisionId: div.id, status: "approved", fee: div.fee, discounts: [], amountPaid: 0, balance: div.fee, paymentStatus: "unpaid", documents: [], waivers: t.league.settings.eligibility.requiredWaivers.map((w) => ({ id: w })), verification: { residency: "verified", notes: "Imported from prior records; verified in a previous season." }, submittedAt: nowIso(), updatedAt: nowIso() } as T.Registration); registrations++; }
+    }
+    await audit(t.leagueId, "players.import", "league", t.leagueId, `${players} players, ${guardians} guardians, ${registrations} registrations, ${skipped} skipped`);
+    return { players, guardians, registrations, skipped };
+  },
   /* ---------------- Platform ---------------- */
   async savePlan(plan: T.SubscriptionPlan) { requirePerm("platform.manage"); await put(null, "plans", plan); await audit(null, "platform.plan", "plan", plan.id); },
   async updateLeagueSubscription(leagueId: string, sub: T.League["subscription"]) { requirePerm("platform.manage"); const s = store.get(); const l = selectTenant(s, leagueId)?.league; if (!l) return; await put(null, "leagues", { ...l, subscription: sub }); await audit(null, "platform.subscription", "league", leagueId, sub.status); },

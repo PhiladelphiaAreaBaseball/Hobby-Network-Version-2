@@ -27,6 +27,8 @@ npm run e2e           # Playwright smoke across roles + calculator checks
 - **Game day** (`#gameday-<eventId>`): lineup card, scorebook with pitch counts, finalize → result + standings + pitching appearances. Linked from the event page, team page, Coaches' HQ and the coach strip on Home. Engines: `src/engines/gameDay.ts`, `draft.ts`, `reportCard.ts`.
 - **Run practice** (`#run-<planId>`, no app shell): any saved plan runs as a full-screen timer; "Run this practice" on the planner saves the plan first. Demo team plan `plan_team_demo1` (Comets).
 - **Coach certification** (`#coaches-certification`, modules at `#cert-<moduleId>`): content in `data/content/certification.json` (six modules, quizzes, pass mark 80). Records in the `certifications` collection; admin view is the Coach certification tab in Volunteers. Demo: Mark Galasso is missing the heat/lightning module.
+- **Season rollover**: Seasons & settings → Seasons → "Roll over to the next season" (preview, acknowledgement, then `actions.rolloverSeason`). Standings pass `t.activeSeason?.id` so old seasons stop counting.
+- **CSV import**: Players & guardians → Import CSV (`src/engines/importer.ts`, `actions.importPlayers`). Template in `IMPORT_TEMPLATE`.
 - **Team game-day duties**: team page → Sign-ups tab (families claim snacks, scorekeeper, pitch counter, dugout parent); coaches manage from team tools → Game-day duties. Stored as `VolunteerShift` with `teamId`/`eventId`; league volunteer pages exclude them.
 - Drill video library: `data/content/drill-videos.json` holds one oEmbed-verified YouTube video per drill (target 50). Edit per drill in Administration → Academy content → Videos. Research part files, if any remain, are merged with `npm run merge-videos`.
 
