@@ -7,6 +7,8 @@ import { gradeQuiz, personStatus, expiryFor } from "../../dist/test/engines/cert
 import { parseCsv, mapRows, detectColumns, normalizeDate } from "../../dist/test/engines/importer.mjs";
 import { rolloverPreview, nextSeasonFor } from "../../dist/test/engines/season.mjs";
 import { standings } from "../../dist/test/engines/standings.mjs";
+import { deliverAtFor, wantsCategory, resolveLink, dedupeKey, familiesOfTeams, NOTIFY_RULES } from "../../dist/test/engines/notify.mjs";
+import { familyCalendar, buildIcsItems } from "../../dist/test/engines/familyCalendar.mjs";
 import { autoRotation, lineupWarnings, advanceOut, addRun, scoreTotals, playingTime, fairnessNotes, DEFAULT_PLAY_RULES, BENCH, POSITIONS } from "../../dist/test/engines/gameDay.mjs";
 const load = (f) => JSON.parse(readFileSync(`data/content/${f}`, "utf8")).items;
 const lessons = ["lessons-hitting.json", "lessons-fielding.json", "lessons-throwing.json", "lessons-baserunning.json", "lessons-positions-mental.json"].flatMap(load);
@@ -111,4 +113,22 @@ test("season: rollover preview counts draft placements, carry-overs and age chan
   assert.equal(nextSeasonFor(demo.seasons.filter((s) => s.leagueId === "lg_riverside"), from).id, "sea_next");
   const teams = [{ id: "a", divisionId: "d" }, { id: "b", divisionId: "d" }]; const evs = [{ id: "1", seasonId: "s1", type: "game", status: "completed", homeTeamId: "a", awayTeamId: "b", result: { homeScore: 5, awayScore: 3 }, teamIds: ["a", "b"] }, { id: "2", seasonId: "s2", type: "game", status: "completed", homeTeamId: "b", awayTeamId: "a", result: { homeScore: 9, awayScore: 0 }, teamIds: ["a", "b"] }];
   assert.equal(standings(teams, evs, "d", "s1")[0].teamId, "a"); assert.equal(standings(teams, evs, "d", "s2")[0].teamId, "b"); assert.equal(standings(teams, evs, "d")[0].wins, 1);
+});
+
+test("notification rules: quiet hours defer non-urgent kinds, preferences are honoured, links resolve to routes", () => {
+  const comms = { allowCoachToParentDM: true, quietHoursStart: "21:00", quietHoursEnd: "07:00" };
+  assert.equal(deliverAtFor("2026-05-01T22:15:00", comms, "message"), "2026-05-02T07:00:00", "late evening waits for morning"); assert.equal(deliverAtFor("2026-05-02T03:00:00", comms, "assignment"), "2026-05-02T07:00:00"); assert.equal(deliverAtFor("2026-05-01T12:00:00", comms, "message"), null); assert.equal(deliverAtFor("2026-05-01T22:15:00", comms, "schedule"), null, "rainouts are urgent");
+  assert.equal(wantsCategory({ email: true, sms: false, push: true, digest: "immediate", categories: { messages: false } }, "message"), false); assert.equal(wantsCategory({ email: true, sms: false, push: true, digest: "immediate", categories: { schedule: false } }, "schedule"), true, "urgent kinds ignore the switch"); assert.equal(wantsCategory(undefined, "report"), true);
+  assert.deepEqual(resolveLink("gameday-ev0302"), { name: "gameday", id: "ev0302", raw: "gameday-ev0302" }); assert.equal(resolveLink("coaches-team-t09").name, "coaches-team"); assert.equal(resolveLink("coaches-team-t09").id, "t09"); assert.equal(resolveLink(undefined).name, "home"); assert.equal(resolveLink("report-rc_p0097_mid").id, "rc_p0097_mid");
+  assert.equal(dedupeKey("u1", "schedule", "event-e1"), "u1|schedule|event-e1"); assert.ok(NOTIFY_RULES.length >= 10);
+  const fam = familiesOfTeams(["t09"], demo.players, demo.teams); const comets = demo.teams.find((t) => t.id === "t09"); assert.ok(fam.includes(comets.headCoachUserId)); assert.ok(fam.includes(demo.players.find((p) => p.firstName === "Jack" && p.lastName === "Hill").guardianUserIds[0]));
+});
+test("family calendar: one feed with games, duties, deadlines and alarms; ICS is well formed", () => {
+  const tyler = demo.users.find((u) => u.firstName === "Tyler" && u.lastName === "Hill"); const kids = demo.players.filter((p) => p.guardianUserIds.includes(tyler.id)); const today = demo.seasons[0].startDate;
+  const items = familyCalendar({ userId: tyler.id, children: kids, teams: demo.teams, coachTeamIds: [], events: demo.events, shifts: demo.shifts, assignments: demo.assignments, seasons: demo.seasons, tryouts: demo.tryouts, certifications: demo.certifications, eventTitle: (e) => `${e.awayTeamId} at ${e.homeTeamId}`, fieldName: (id) => id ?? "", teamName: (id) => id ?? "", isEvaluator: false, moduleTitle: (id) => id, fromDate: today });
+  assert.ok(items.filter((i) => i.category === "game").length >= 10, "family games"); assert.ok(items.some((i) => i.category === "practice")); assert.ok(items.some((i) => i.category === "deadline" && i.allDay), "registration deadline is an all-day item");
+  for (const i of items) if (i.category === "game") assert.ok(i.summary.startsWith("Game: ") && i.alarmMinutes === 120);
+  const noAlarms = familyCalendar({ userId: tyler.id, children: kids, teams: demo.teams, coachTeamIds: [], events: demo.events, shifts: demo.shifts, assignments: demo.assignments, seasons: demo.seasons, tryouts: demo.tryouts, certifications: demo.certifications, eventTitle: () => "x", fieldName: () => "", teamName: () => "", isEvaluator: false, moduleTitle: (id) => id, fromDate: today }, { games: true, practices: false, duties: false, homePractice: false, deadlines: false, alarms: false }); assert.ok(noAlarms.every((i) => i.category === "game" || i.category === "event") && noAlarms.every((i) => !i.alarmMinutes));
+  const ics = buildIcsItems(items.slice(0, 3), "Test"); assert.ok(ics.startsWith("BEGIN:VCALENDAR")); assert.ok(ics.includes("BEGIN:VALARM")); assert.ok(ics.includes("TRIGGER:-PT2H")); assert.equal((ics.match(/BEGIN:VEVENT/g) || []).length, 3); assert.ok(ics.endsWith("END:VCALENDAR"));
+  const allDay = buildIcsItems([{ uid: "d", start: "2027-01-05", allDay: true, summary: "Deadline, with comma", category: "deadline", alarmMinutes: 1440 }], "T"); assert.ok(allDay.includes("DTSTART;VALUE=DATE:20270105")); assert.ok(allDay.includes("DTEND;VALUE=DATE:20270106")); assert.ok(allDay.includes("SUMMARY:Deadline\\, with comma")); assert.ok(allDay.includes("TRIGGER:-PT24H"));
 });

@@ -28,6 +28,7 @@ import { ReportCardPage } from "../features/reports/ReportCardPages";
 import { GameDayPage } from "../features/gameday/GameDayPage";
 import { RunPracticePage } from "../features/practice/RunPracticePage";
 import { CertificationPage, CertModulePage } from "../features/coaches/CertificationPages";
+import { NotificationsPage } from "../features/account/NotificationsPage";
 export function routeView(r: Route): { frame: "app" | "public" | "none"; element: ReactNode } {
   switch (r.name) {
     case "marketing": return { frame: "public", element: <MarketingPage /> };
@@ -67,6 +68,7 @@ export function routeView(r: Route): { frame: "app" | "public" | "none"; element
     case "resource": return { frame: "app", element: <ResourcePage id={r.id!} /> };
     case "glossary": return { frame: "app", element: <GlossaryPage /> };
     case "account": return { frame: "app", element: <AccountPage section={r.id} /> };
+    case "notifications": return { frame: "app", element: <NotificationsPage /> };
     case "privacy": return { frame: "app", element: <PrivacyPage /> };
     case "register": return { frame: "app", element: <RegisterPage /> };
     case "registration": return { frame: "app", element: <RegistrationStatusPage id={r.id!} /> };

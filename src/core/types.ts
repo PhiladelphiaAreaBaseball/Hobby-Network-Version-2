@@ -129,7 +129,7 @@ export interface Fundraiser { id: ID; leagueId: ID; title: string; kind: "event"
 export interface Announcement { id: ID; leagueId: ID; title: string; body: string; audience: { scope: "league" | "division" | "team"; id?: ID }; authorUserId: ID; publishedAt: ISODateTime; pinned: boolean; kind: "news" | "alert" | "rainout" | "registration" | "schedule" | "volunteer" | "fundraising"; }
 export interface MessageThread { id: ID; leagueId: ID; kind: "team" | "direct" | "division" | "league"; title: string; participantUserIds: ID[]; teamId?: ID; divisionId?: ID; messages: Message[]; updatedAt: ISODateTime; readBy: Record<ID, ISODateTime>; }
 export interface Message { id: ID; authorUserId: ID; body: string; sentAt: ISODateTime; attachmentAssetIds?: string[]; }
-export interface Notification { id: ID; leagueId: ID; userId: ID; title: string; body: string; kind: string; createdAt: ISODateTime; read: boolean; link?: string; }
+export interface Notification { id: ID; leagueId: ID; userId: ID; title: string; body: string; kind: string; createdAt: ISODateTime; read: boolean; link?: string; deliverAt?: ISODateTime | null; category?: string; dedupeKey?: string; }
 
 /* ---------- Education & development ---------- */
 export interface Lesson {

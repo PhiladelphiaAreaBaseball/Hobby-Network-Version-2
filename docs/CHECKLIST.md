@@ -34,7 +34,9 @@ gap · **Integration** = architecture in place, needs an external service or cre
 | Rainout tool, field status, notifications | Done | Never automatic from weather; weather feed is an integration |
 | Personal family calendar, ICS export | Done | Live subscription URL needs hosting |
 | Messaging (team, direct, division, league), guardian visibility, player restrictions | Done | DM can be disabled per league; players cannot send |
-| Email / SMS / push delivery | Integration | In-app notifications with preferences; providers not connected |
+| Notification center and rules engine | Done | `#notifications` page with unread filter, topic chips, day grouping, deep links resolved through the router; every notification passes a rules catalog (audience, topic switch, urgent kinds bypass quiet hours, ten-minute dedupe); quiet-hours messages carry `deliverAt` for email and push; rules table and manual duty/renewal reminders in Communications; announcements notify their audience |
+| Family calendar (.ics) | Done | One feed per family: games, practices, claimed duties, home practice due dates, registration deadlines, tryouts and certification renewals, each with a reminder alarm; options per category; single-event "Add to my calendar" on every event page |
+| Email / SMS / push delivery | Integration | In-app notifications with preferences and `deliverAt`; providers not connected |
 
 ## Academy and development
 | Area | Status | Notes |
@@ -77,14 +79,14 @@ gap · **Integration** = architecture in place, needs an external service or cre
 | Platform super admin (leagues, subscriptions, plans, usage, support, health) | Done | |
 
 ## Testing (this build)
-- Unit: 25 tests pass (`npm test`): calculator formulas and default example, clamping, scenario codes, PDF writer, RBAC scoping, router,
+- Unit: 27 tests pass (`npm test`): calculator formulas and default example, clamping, scenario codes, PDF writer, RBAC scoping, router,
   scheduling conflicts, eligibility, pitch counts, search relevance, practice generator safety, team planner timing, standings, ICS, demo data integrity,
-  draft ratings/snake order/balance warnings, report card recommendations, lineup auto-rotation and play-rule warnings, scorebook state, demo tryout/draft/report-card consistency, certification grading and status, CSV importer parsing and validation, rollover preview and season-scoped standings.
+  draft ratings/snake order/balance warnings, report card recommendations, lineup auto-rotation and play-rule warnings, scorebook state, demo tryout/draft/report-card consistency, certification grading and status, CSV importer parsing and validation, rollover preview and season-scoped standings, notification rules (quiet hours, preferences, link resolution) and the family calendar feed.
 - Browser (`npm run e2e`): 134 routes across 10 personas render with no console errors or dead ends; tenant isolation; board-member denial (including tryouts);
   parent workflows (complete lesson, generate and log practice, answer an IQ question, register a child, send a message, search);
   coach workflows (assign home practice, attendance, pitch count rest calculation, tryout scoring, publish a report card, lineup card, scorebook through
   a finalized game, certification quiz to a certificate, run-mode timer to completion, planner); commissioner draft pick; admin workflows (field status, announcement, approve registration, create event, CMS change visible
-  on the public site, tryout rankings, certification readiness tab, CSV import with preview, play-rules editor, rollover preview); parent team-duty sign-up and report-card acknowledgement; phone-width overflow checks on 22 pages; dark theme render;
+  on the public site, tryout rankings, certification readiness tab, CSV import with preview, play-rules editor, rollover preview); parent team-duty sign-up, report-card acknowledgement, notification center (open and mark all read), family calendar export and single-event calendar file; phone-width overflow checks on 22 pages; dark theme render;
   calculator interactions including PDF bytes and saved scenario.
 
 ## Known limitations
