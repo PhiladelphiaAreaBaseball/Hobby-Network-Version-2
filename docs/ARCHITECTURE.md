@@ -25,7 +25,7 @@ src/engines/                   pure logic: practice generator, coach planner, sc
                                achievements, search, standings, ICS, turf calculator, PDF writer, draft board (ratings, snake order,
                                balance warnings), report cards (lesson recommendations), game day (lineup rules, scorebook, playing time),
                                certification (quiz grading, per-role status and renewals), importer (CSV parsing and validation), season (rollover preview),
-                               notify (audience, preferences, quiet hours, link resolution), familyCalendar (one .ics feed with alarms)
+                               notify (audience, preferences, quiet hours, link resolution), familyCalendar (one .ics feed with alarms), digest (daily/weekly summary), allstars (eligibility, ranked tally, ballot rules)
 src/components/                design system (ui.tsx), icons, Diamond (SVG field), Calendar, Brand
 src/features/                  one folder per product area (home, academy, parents, practice, iq, coaches, league, admin, tryouts, reports, gameday, …)
 data/content/                  educational library (validated by scripts/validate-content.mjs)

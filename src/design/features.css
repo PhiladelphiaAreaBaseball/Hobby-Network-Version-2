@@ -127,3 +127,7 @@ input[type="range"].slider:focus-visible { outline: none; } input[type="range"].
 .notif-row.unread .list-item-title { font-weight: 700; } .notif-row.unread { background: var(--primary-soft) !important; }
 .notif-icon { width: 36px; height: 36px; border-radius: 10px; display: grid; place-items: center; background: var(--surface-2); color: var(--fg-muted); flex-shrink: 0; }
 .notif-icon.schedule { background: var(--clay-soft); color: var(--clay); } .notif-icon.messages { background: var(--sky-soft); color: var(--sky); } .notif-icon.assignments, .notif-icon.development { background: var(--grass-soft); color: var(--grass); } .notif-icon.volunteer, .notif-icon.safety { background: var(--gold-soft); color: var(--gold); } .notif-icon.tryouts { background: var(--primary-soft); color: var(--primary-soft-fg); }
+
+/* ---- Digest ---- */
+.digest-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--fg-faint); flex-shrink: 0; margin-top: .35rem; } .digest-dot.urgent { background: var(--stitch); } .digest-dot.action { background: var(--gold); } .digest-dot.info { background: var(--sky); }
+.digest-line { align-items: flex-start; }

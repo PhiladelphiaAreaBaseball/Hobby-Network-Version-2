@@ -12,6 +12,7 @@ import { MyDutiesCard } from "../teams/TeamSignups";
 import { ReportCardSummary } from "../reports/ReportCardPages";
 import { nextGameFor } from "../gameday/GameDayPage";
 import { CertificationStrip } from "../coaches/CertificationPages";
+import { DigestCard } from "./DigestCard";
 export function HomePage() {
   const ss = useSession(); const t = ss.tenant; if (!t) return null;
   if (ss.isStaff && !ss.isGuardian && !ss.isCoach) return <AdminDashboard />;
@@ -41,6 +42,7 @@ function FamilyHome() {
     {ss.isCoach && <CoachStrip />}
     <div className="two-col">
       <div className="col gap-4">
+        <DigestCard />
         {child && <Card title={`Practice with ${child.displayName} in the next minute`} action={<Badge tone="grass">{AGE_LABEL[child.ageGroup]}</Badge>}>
           <div className="col gap-3">
             {assignments.length > 0 ? <div className="notice notice-info"><I.coach size={18} /><div className="grow"><strong>From {t.userName(assignments[0].assignedByUserId)}:</strong> {t.lessonById.get(assignments[0].lessonId)?.title}. {assignments[0].note}<div className="mt-2 flex gap-2 wrap"><Button variant="primary" size="sm" icon={<I.play size={14} />} onClick={() => navigate("lesson", assignments[0].lessonId)}>Start the lesson</Button><Button size="sm" onClick={() => navigate("practice", `lesson-${assignments[0].lessonId}`)}>10-minute practice</Button></div></div></div> : <p className="muted small">No coach assignments waiting. Pick a quick practice or a suggested lesson.</p>}

@@ -203,6 +203,11 @@ export interface Evaluation { id: ID; leagueId: ID; tryoutId: ID; playerId: ID; 
 export interface DraftPick { round: number; pick: number; overall: number; teamId: ID; playerId: ID; byUserId: ID; at: ISODateTime; auto?: boolean; }
 export interface Draft { id: ID; leagueId: ID; seasonId: ID; divisionId: ID; tryoutId?: ID; title: string; status: "setup" | "live" | "complete"; teamOrder: ID[]; rounds: number; picks: DraftPick[]; protectedPlayerIds: Record<ID, ID[]>; rostersApplied?: boolean; startedAt?: ISODateTime; completedAt?: ISODateTime; createdByUserId: ID; updatedAt: ISODateTime; }
 
+/* ---------- All-Stars ---------- */
+export interface AllStarPool { id: ID; leagueId: ID; seasonId: ID; divisionId: ID; title: string; ageMin: number; ageMax: number; rosterSize: number; maxNominationsPerTeam: number; maxOwnPlayersOnBallot: number | null; minGames: number; status: "nominating" | "voting" | "selected"; nominationsClose: ISODate; votingClose?: ISODate; selectedPlayerIds: ID[]; alternatePlayerIds: ID[]; managerUserId?: ID; notes?: string; createdByUserId: ID; updatedAt: ISODateTime; selectedAt?: ISODateTime; }
+export interface AllStarNomination { id: ID; leagueId: ID; poolId: ID; playerId: ID; teamId: ID; nominatedByUserId: ID; note: string; createdAt: ISODateTime; }
+export interface AllStarVote { id: ID; leagueId: ID; poolId: ID; voterUserId: ID; teamId: ID; playerIds: ID[]; updatedAt: ISODateTime; }
+
 /* ---------- Report cards ---------- */
 export type SkillRating = 1 | 2 | 3; // 1 not yet · 2 developing · 3 consistent
 export interface ReportCard { id: ID; leagueId: ID; teamId: ID; playerId: ID; seasonId: ID; coachUserId: ID; period: "mid" | "end"; ratings: Record<string, SkillRating>; strengths: string; focus: string; focusSkillId: string | null; recommendedLessonIds: ID[]; coachNote: string; status: "draft" | "published"; createdAt: ISODateTime; updatedAt: ISODateTime; publishedAt?: ISODateTime; parentAcknowledgedAt?: ISODateTime; }
@@ -231,6 +236,6 @@ export interface DemoBundle {
   leagues: League[]; users: User[]; memberships: Membership[]; seasons: Season[]; divisions: Division[]; teams: Team[]; players: Player[]; registrations: Registration[]; payments: Payment[]; expenses: Expense[];
   fields: Field[]; events: ScheduleEvent[]; attendance: Attendance[]; pitching: PitchingAppearance[]; volunteers: Volunteer[]; shifts: VolunteerShift[]; sponsors: Sponsor[]; fundraisers: Fundraiser[]; announcements: Announcement[]; threads: MessageThread[];
   completions: LessonCompletion[]; assignments: Assignment[]; iqProgress: IQProgress[]; awards: AchievementAward[]; enrollments: CurriculumEnrollment[]; notes: PlayerNote[]; practicePlans: PracticePlan[]; videos: VideoSubmission[]; plans: SubscriptionPlan[]; siteContent: SiteContent[]; personas: Persona[];
-  tryouts?: Tryout[]; evaluations?: Evaluation[]; drafts?: Draft[]; reportCards?: ReportCard[]; gameSheets?: GameSheet[]; certifications?: Certification[];
+  tryouts?: Tryout[]; evaluations?: Evaluation[]; drafts?: Draft[]; reportCards?: ReportCard[]; gameSheets?: GameSheet[]; certifications?: Certification[]; allStarPools?: AllStarPool[]; allStarNominations?: AllStarNomination[]; allStarVotes?: AllStarVote[];
 }
 export interface Persona { id: ID; userId: ID; leagueId: ID | null; label: string; role: Role; description: string; playerId?: ID; teamId?: ID; }
