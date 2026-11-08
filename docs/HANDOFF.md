@@ -6,7 +6,7 @@
   Supporting files to publish with `root: "dist"`: `app.js`, `assets/gameplaniq-logo.png`, every file in `data/content/`, and `data/demo/demo.json`.
   Capabilities already declared and carried forward: `db`, `user`, `sample`, `assets`, `downloads`.
 - **Repository branches:** `claude/gameplaniq-restore-source-ceah9g` (current session) and `claude/little-league-platform-hkhs8v` point at the same restored tree. Pushing is blocked (403 from both `git push` and the GitHub app API) until the Claude GitHub App is installed for `PhiladelphiaAreaBaseball/Hobby-Network-Version-2` or GitHub is reconnected from claude.ai settings.
-- **Source snapshot inside the artifact:** asset `0e8b890c0eb0987522b65080df24e293` (`gameplaniq-src-ffeb88f.tar.gz.b64.txt`) is a base64 git archive of commit `ffeb88f` (run mode and coach certification). Older snapshots: `68b479f81639291736dbd6f555ba7ee9` (commit `f61bbe1`), `4120a9218e4441eb8a9f9d57ac612f07` (commit `01f9ed6`). Restore with `base64 -d > src.tar.gz && tar -xzf src.tar.gz`, then `npm install`. Refresh after major changes while GitHub remains unreachable; the newest asset named `gameplaniq-src-<commit>` is always the latest.
+- **Source snapshot inside the artifact:** asset `ca93130d219b2680246105d8342a6006` (`gameplaniq-src-a14f253.tar.gz.b64.txt`) is a base64 git archive of commit `a14f253` (rollover, CSV import, loose ends). Older snapshots: `0e8b890c0eb0987522b65080df24e293` (`ffeb88f`), `68b479f81639291736dbd6f555ba7ee9` (`f61bbe1`), `4120a9218e4441eb8a9f9d57ac612f07` (`01f9ed6`). Restore with `base64 -d > src.tar.gz && tar -xzf src.tar.gz`, then `npm install`. The newest asset named `gameplaniq-src-<commit>` is always the latest.
 
 ## Rebuild and verify
 ```
