@@ -257,3 +257,19 @@ test("demo role holders are named for their role", () => {
   for (const p of demo.personas) { const u = demo.users.find((x) => x.id === p.userId); if (p.role === "player") { assert.equal(demo.players.find((x) => x.id === p.playerId).firstName, "Player"); continue; } assert.equal(`${u.firstName} ${u.lastName}`.trim(), p.label, p.id); }
   const raw = JSON.stringify(demo); for (const old of ["Tyler Hill", "Mark Galasso", "Kenny Koplove", "Steve Koplove", "Coach Galasso", "Harbor Point"]) assert.ok(!raw.includes(old), `no leftover ${old}`);
 });
+
+// ---- head coach game plan
+import { PLAN_COLUMNS, emptyRows, planIssues, playerLines, planToLineup, copyRow } from "../../dist/test/engines/gamePlan.mjs";
+test("game plan grid matches the coach's sheet and flags conflicts, rest and the catcher-pitcher rule", () => {
+  assert.deepEqual(PLAN_COLUMNS.map((c) => c.label), ["3B", "SS", "2B", "1B", "LF", "CF", "RF", "C", "Pitcher", "Relief", "Roster", "Roster"]); assert.equal(emptyRows().length, 6);
+  const roster = Array.from({ length: 12 }, (_, i) => ({ id: `k${i}`, displayName: `Kid ${i}` })); const keys = PLAN_COLUMNS.map((c) => c.key);
+  const full = (shift) => Object.fromEntries(keys.map((k, i) => [k, roster[(i + shift) % 12].id]));
+  let rows = Array.from({ length: 6 }, (_, i) => full(i)); assert.equal(planIssues(rows, roster, { minFieldInnings: 2 }).filter((x) => x.level !== "info").length, 0, "a clean rotation has no issues");
+  rows = rows.map((r, i) => (i === 1 ? { ...r, LF: r.SS } : r)); const dup = planIssues(rows, roster, undefined).filter((x) => x.level === "error"); assert.equal(dup.length, 1); assert.equal(dup[0].inning, 2); assert.match(dup[0].text, /SS and LF/);
+  assert.ok(planIssues(rows, roster, undefined).some((x) => x.level === "info" && /Inning 2: not placed/.test(x.text)), "the player bumped out of inning 2 is reported as not placed");
+  const rest = planIssues(Array.from({ length: 6 }, (_, i) => full(i)), roster, undefined, (pid) => ({ ok: pid !== "k8", note: "is on required rest" })); assert.ok(rest.some((x) => /Kid 8 is planned to pitch but is on required rest/.test(x.text)));
+  const cp = Array.from({ length: 6 }, () => ({ ...emptyRows(1)[0], C: "k1" })); cp[5] = { ...cp[5], C: "k2", P: "k1" }; assert.ok(planIssues(cp, roster, undefined).some((x) => /catches 5 innings and also pitches/.test(x.text)));
+  const lines = playerLines(Array.from({ length: 6 }, (_, i) => full(i)), roster); assert.equal(lines.reduce((a, l) => a + l.field, 0), 54, "nine in the field each inning"); assert.equal(lines.reduce((a, l) => a + l.off, 0), 18, "relief and two roster spots each inning");
+  const lu = planToLineup({ innings: Array.from({ length: 6 }, (_, i) => full(i)) }, roster); assert.equal(lu.positions.k0[0], "3B"); assert.equal(lu.positions.k9[0], "Bench", "relief counts as off the field on the lineup card"); assert.equal(lu.positions.k8[0], "P"); assert.equal(lu.absent.length, 0);
+  assert.deepEqual(copyRow([{ a: "1" }, { a: "2" }], 0, 1), [{ a: "1" }, { a: "1" }]);
+});

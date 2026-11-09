@@ -115,6 +115,7 @@ gap · **Integration** = architecture in place, needs an external service or cre
 | Drill diagrammer | Done | Place players, coaches, cones, balls, equipment; throw/run/move arrows; drag to move; shown on lessons and in the practice runner; three platform diagrams shipped |
 | Team formation (non-draft) | Done | Siblings, buddy and coach requests, coach's children; snake deal by size then strength; advisory warnings; manual swaps; Place writes rosters and tells families |
 | Player history | Done | Seasons, positions from lineups, attendance, tryouts, report cards, badges, pitch counts, evaluations on the player page |
+| Head coach game plans | Done | Private 6-inning grid (3B SS 2B 1B LF CF RF C Pitcher Relief Roster Roster); duplicate, rest, catcher-pitcher and minimum-innings checks; share read-only with chosen people; send to the lineup card; dugout PDF |
 | Native-style delivery | Planned | Manifest, service worker, push: documented in DEPLOYMENT.md; not possible inside the artifact |
 
 ## Demo readiness

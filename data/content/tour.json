@@ -351,6 +351,20 @@
           "target": "button:Game day"
         },
         {
+          "id": "co-gameplan",
+          "title": "Private game plan",
+          "route": "gameplan-gp_comets_next",
+          "explain": [
+            "Before game day the head coach plans every inning on the same sheet coaches use on paper: 3B, SS, 2B, 1B, LF, CF, RF, C, Pitcher, Relief and two Roster spots.",
+            "It is private: nobody else, including the league, sees it unless the head coach shares it, and shared copies are read-only. It flags a kid placed twice, a pitcher still on rest, the catcher-then-pitcher rule and the league's minimum innings, then sends the plan to the game-day lineup card or prints a dugout card."
+          ],
+          "try": [
+            "Change a player in any inning and watch the checks update.",
+            "Tap Share to see who it could go to."
+          ],
+          "target": "css:.gp-grid"
+        },
+        {
           "id": "co-planner",
           "title": "Practice planner",
           "route": "coaches-planner",

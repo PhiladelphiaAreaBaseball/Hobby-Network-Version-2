@@ -192,3 +192,14 @@ input[type="range"].slider:focus-visible { outline: none; } input[type="range"].
 .diagram-canvas { border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; background: var(--grass-soft); cursor: crosshair; }
 .diagram-wrap svg { border-radius: var(--radius); }
 @media (max-width: 760px) { .diagram-editor { grid-template-columns: minmax(0, 1fr); } .bracket-round { min-width: 200px; flex-basis: 200px; } }
+/* ---------- Game plan grid ---------- */
+.gp-legend { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; margin-bottom: .6rem; }
+.gp-wrap { margin-bottom: .6rem; }
+.gp-grid { min-width: 980px; }
+.gp-grid th, .gp-grid td { padding: .3rem .25rem; text-align: center; vertical-align: middle; }
+.gp-grid th { font-family: var(--font-display); font-size: .78rem; letter-spacing: .03em; }
+.gp-grid .gp-inning { width: 48px; }
+.gp-grid .gp-off { background: var(--surface-2); }
+.gp-grid td.gp-bad { background: var(--stitch-soft); box-shadow: inset 0 0 0 2px var(--stitch); }
+.gp-cell { width: 100%; min-width: 74px; font: inherit; font-size: .8rem; padding: .3rem .2rem; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--fg); }
+.gp-name { font-size: .82rem; font-weight: 600; }

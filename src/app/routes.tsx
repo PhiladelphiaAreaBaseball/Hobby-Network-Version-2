@@ -36,6 +36,7 @@ import { SurveyPage } from "../features/admin/AdminSurveys";
 import { SeasonArchivePage } from "../features/admin/AdminSeasonClose";
 import { ShareViewPage } from "../features/league/ShareView";
 import { FormPage } from "../features/admin/AdminForms";
+import { GamePlanPage } from "../features/coaches/GamePlanPages";
 import { TournamentPage } from "../features/admin/AdminTournaments";
 export function routeView(r: Route): { frame: "app" | "public" | "none"; element: ReactNode } {
   switch (r.name) {
@@ -46,6 +47,7 @@ export function routeView(r: Route): { frame: "app" | "public" | "none"; element
     case "demo": return r.id === "guide" ? { frame: "app", element: <DemoGuidePage /> } : r.id === "president" || r.id === "coach" ? { frame: "none", element: <DemoEntry persona={r.id === "president" ? "persona_admin" : "persona_coach"} /> } : { frame: "none", element: <DemoEntry /> };
     case "recap": return { frame: "app", element: <RecapPage id={r.id!} /> };
     case "form": return { frame: "app", element: <FormPage id={r.id!} /> };
+    case "gameplan": return { frame: "app", element: <GamePlanPage id={r.id!} /> };
     case "tournament": return { frame: "app", element: <TournamentPage id={r.id!} /> };
     case "survey": return { frame: "app", element: <SurveyPage id={r.id!} /> };
     case "season": return { frame: "app", element: <SeasonArchivePage id={r.id!} /> };

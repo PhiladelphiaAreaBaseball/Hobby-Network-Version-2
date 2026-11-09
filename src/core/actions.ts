@@ -15,6 +15,7 @@ import { generate as generateTournament, applyResult as applyTournamentResult } 
 import { formTeams, type FormationInput } from "../engines/formation";
 import { validateAnswers, isOpenNow } from "../engines/forms";
 import { buildInstallments, planBalance, overdueInstallments, dueSoon } from "../engines/paymentPlans";
+import { PLAN_COLUMNS, emptyRows, planToLineup } from "../engines/gamePlan";
 import type { ImportRecord } from "../engines/importer";
 import type * as T from "./types";
 import type { Permission } from "./types";
@@ -30,7 +31,7 @@ function ctx() {
 }
 function tenant(leagueId: string | null): Tenant { const s = store.get(); if (!leagueId) throw new PermissionError("Choose a league first."); const t = selectTenant(s, leagueId); if (!t) throw new Error("League not found"); return t; }
 function requirePerm(perm: Permission, scope: Scope = {}) { const c = ctx(); const sc = { leagueId: c.leagueId ?? undefined, ...scope }; if (!can(c.memberships, perm, sc)) throw new PermissionError("You do not have permission to do that."); return c; }
-const SEED_KEY: Partial<Record<CollectionName, keyof T.DemoBundle>> = { leagues: "leagues", users: "users", memberships: "memberships", seasons: "seasons", divisions: "divisions", teams: "teams", players: "players", registrations: "registrations", payments: "payments", expenses: "expenses", fields: "fields", events: "events", attendance: "attendance", pitching: "pitching", volunteers: "volunteers", shifts: "shifts", sponsors: "sponsors", fundraisers: "fundraisers", announcements: "announcements", threads: "threads", completions: "completions", assignments: "assignments", iqProgress: "iqProgress", awards: "awards", enrollments: "enrollments", notes: "notes", practicePlans: "practicePlans", videos: "videos", plans: "plans", siteContent: "siteContent", tryouts: "tryouts", evaluations: "evaluations", drafts: "drafts", reportCards: "reportCards", gameSheets: "gameSheets", certifications: "certifications", allStarPools: "allStarPools", allStarNominations: "allStarNominations", allStarVotes: "allStarVotes", carpools: "carpools", photos: "photos", incidents: "incidents", safetyPlans: "safetyPlans", kitChecks: "kitChecks", umpireProfiles: "umpireProfiles", closeouts: "closeouts", surveys: "surveys", surveyResponses: "surveyResponses", budgets: "budgets", contentVersions: "contentVersions", forms: "forms", formResponses: "formResponses", paymentPlans: "paymentPlans", tournaments: "tournaments", teamCurricula: "teamCurricula", drillDiagrams: "drillDiagrams" };
+const SEED_KEY: Partial<Record<CollectionName, keyof T.DemoBundle>> = { leagues: "leagues", users: "users", memberships: "memberships", seasons: "seasons", divisions: "divisions", teams: "teams", players: "players", registrations: "registrations", payments: "payments", expenses: "expenses", fields: "fields", events: "events", attendance: "attendance", pitching: "pitching", volunteers: "volunteers", shifts: "shifts", sponsors: "sponsors", fundraisers: "fundraisers", announcements: "announcements", threads: "threads", completions: "completions", assignments: "assignments", iqProgress: "iqProgress", awards: "awards", enrollments: "enrollments", notes: "notes", practicePlans: "practicePlans", videos: "videos", plans: "plans", siteContent: "siteContent", tryouts: "tryouts", evaluations: "evaluations", drafts: "drafts", reportCards: "reportCards", gameSheets: "gameSheets", certifications: "certifications", allStarPools: "allStarPools", allStarNominations: "allStarNominations", allStarVotes: "allStarVotes", carpools: "carpools", photos: "photos", incidents: "incidents", safetyPlans: "safetyPlans", kitChecks: "kitChecks", umpireProfiles: "umpireProfiles", closeouts: "closeouts", surveys: "surveys", surveyResponses: "surveyResponses", budgets: "budgets", contentVersions: "contentVersions", forms: "forms", formResponses: "formResponses", paymentPlans: "paymentPlans", tournaments: "tournaments", teamCurricula: "teamCurricula", drillDiagrams: "drillDiagrams", gamePlans: "gamePlans" };
 function isSeeded(col: CollectionName, id: string) { const d = store.get().demo; const k = SEED_KEY[col]; if (!d || !k) return false; return (d[k] as any[]).some((x) => x.id === id); }
 async function put<X extends { id: string }>(leagueId: string | null, col: CollectionName, doc: X): Promise<X> { await persistence().put(leagueId, col, doc.id, doc); return doc; }
 async function remove(leagueId: string | null, col: CollectionName, id: string) { await persistence().remove(leagueId, col, id, isSeeded(col, id)); }
@@ -50,11 +51,21 @@ function requirePlayerAccess(t: Tenant, playerId: string, c = ctx()) {
 
 export interface ProvisionInput { league: { name: string; shortName: string; city: string; state: string; slug: string; planId: string; colors: { primary: string; secondary: string; accent: string }; contactEmail: string }; president: { firstName: string; lastName: string; email: string }; season: { name: string; startDate: string; endDate: string; registrationOpens: string; registrationCloses: string }; divisions: { name: string; shortName: string; ageGroup: T.AgeGroupId; minLeagueAge: number; maxLeagueAge: number; fee: number; capacity: number; mode: "tee" | "coach" | "machine" | "player"; innings: number; teams: string[] }[]; fields: { name: string; address: string; type: T.Field["type"]; lights: boolean }[]; }
 
+/** People a head coach may share a game plan with: the team's other coaches, the team's families, and league staff. */
+export function gamePlanShareTargets(t: Tenant, teamId: string): { userId: string; group: "Coaches" | "League staff" | "Team families"; label: string }[] {
+  const team = t.teamById.get(teamId); if (!team) return []; const out: { userId: string; group: "Coaches" | "League staff" | "Team families"; label: string }[] = []; const seen = new Set<string>(); const add = (userId: string | undefined, group: "Coaches" | "League staff" | "Team families", label: string) => { if (!userId || seen.has(userId) || userId === team.headCoachUserId) return; seen.add(userId); out.push({ userId, group, label }); };
+  for (const u of team.assistantCoachUserIds) add(u, "Coaches", `${t.userName(u)} · assistant coach`);
+  for (const m of t.memberships.filter((x) => x.leagueId === t.leagueId && (x.role === "league_admin" || x.role === "board_member" || (x.role === "division_commissioner" && (x.divisionIds ?? []).includes(team.divisionId))))) add(m.userId, "League staff", `${t.userName(m.userId)}${m.title ? ` · ${m.title}` : ""}`);
+  for (const p of t.players.filter((x) => x.teamId === teamId)) for (const g of p.guardianUserIds) add(g, "Team families", `${t.userName(g)} · ${p.displayName}'s family`);
+  return out;
+}
 /** Everyone a form is addressed to, by league membership role. */
 function formAudience(t: Tenant, f: T.LeagueForm): string[] {
   const ms = t.memberships.filter((m) => m.leagueId === t.leagueId); const roles = f.audience === "guardian" ? ["guardian"] : f.audience === "coach" ? ["head_coach", "assistant_coach"] : f.audience === "volunteer" ? ["volunteer", "umpire", "head_coach", "assistant_coach"] : f.audience === "staff" ? ["league_admin", "board_member", "division_commissioner", "head_coach"] : null;
   return [...new Set(ms.filter((m) => m.role !== "player" && (!roles || roles.includes(m.role))).map((m) => m.userId))];
 }
+/** Only a head coach of the team writes game plans; league staff do not get access by rank. */
+function isHeadCoach(c: ReturnType<typeof ctx>, leagueId: string, teamId: string) { return c.memberships.some((m) => m.leagueId === leagueId && m.role === "head_coach" && (m.teamIds ?? []).includes(teamId)); }
 export const actions = {
   /* ---------------- Academy & family ---------------- */
   async completeLesson(playerId: string, lessonId: string, source: T.LessonCompletion["source"] = "self") {
@@ -573,6 +584,32 @@ export const actions = {
     const next = applyTournamentResult({ ...tr, status: tr.status === "setup" ? "live" : tr.status }, matchId, homeScore, awayScore); await put(t.leagueId, "tournaments", { ...next, updatedAt: nowIso() }); await audit(t.leagueId, "tournament.result", "tournament", tournamentId, `${matchId} ${awayScore}-${homeScore}`);
     if (next.status === "complete" && next.championTeamId && tr.status !== "complete") await actions.notifyTeams(next.teamIds, `${next.name}: ${t.teamName(next.championTeamId)} are champions`, `${t.teamName(next.runnerUpTeamId)} finished second. Congratulations to every team.`, `tournament-${next.id}`, "schedule");
     return next;
+  },
+
+  /* ---------- Head coach game plans: private to the head coach unless shared ---------- */
+  async createGamePlan(teamId: string, input: { eventId?: string; title: string }) {
+    const c = ctx(); const t = tenant(c.leagueId); if (!isHeadCoach(c, t.leagueId, teamId)) throw new PermissionError("Only the team's head coach can make a game plan.");
+    const ev = input.eventId ? t.eventById.get(input.eventId) : undefined; if (input.eventId && (!ev || !ev.teamIds.includes(teamId))) throw new Error("That game is not on this team's schedule.");
+    const doc: T.GamePlan = { id: newId("gp"), leagueId: t.leagueId, teamId, eventId: input.eventId, title: input.title.trim() || "Game plan", innings: emptyRows(), ownerUserId: c.userId, sharedWithUserIds: [], createdAt: nowIso(), updatedAt: nowIso() };
+    await put(t.leagueId, "gamePlans", doc); return doc;
+  },
+  async saveGamePlan(id: string, patch: { title?: string; innings?: Record<string, string>[]; notes?: string; eventId?: string | null }) {
+    const c = ctx(); const t = tenant(c.leagueId); const gp = t.gamePlans.find((g) => g.id === id); if (!gp) throw new Error("Game plan not found"); if (gp.ownerUserId !== c.userId || !isHeadCoach(c, t.leagueId, gp.teamId)) throw new PermissionError("Only the head coach who made this plan can change it.");
+    const roster = new Set(t.players.filter((p) => p.teamId === gp.teamId).map((p) => p.id)); const keys = PLAN_COLUMNS.map((k) => k.key);
+    const innings = patch.innings ? patch.innings.map((row) => Object.fromEntries(keys.map((k) => [k, row[k] && roster.has(row[k]) ? row[k] : ""]))) : gp.innings;
+    const doc: T.GamePlan = { ...gp, title: patch.title?.trim() || gp.title, innings, notes: patch.notes ?? gp.notes, eventId: patch.eventId === null ? undefined : patch.eventId ?? gp.eventId, updatedAt: nowIso() }; await put(t.leagueId, "gamePlans", doc); return doc;
+  },
+  async shareGamePlan(id: string, userIds: string[]) {
+    const c = ctx(); const t = tenant(c.leagueId); const gp = t.gamePlans.find((g) => g.id === id); if (!gp) throw new Error("Game plan not found"); if (gp.ownerUserId !== c.userId) throw new PermissionError("Only the head coach who made this plan can share it.");
+    const allowed = new Set(gamePlanShareTargets(t, gp.teamId).map((x) => x.userId)); const next = [...new Set(userIds)].filter((u) => allowed.has(u) && u !== c.userId); const added = next.filter((u) => !gp.sharedWithUserIds.includes(u));
+    await put(t.leagueId, "gamePlans", { ...gp, sharedWithUserIds: next, updatedAt: nowIso() }); await audit(t.leagueId, "gameplan.share", "team", gp.teamId, `${next.length} people`);
+    for (const u of added) await actions.notify(u, `${t.userName(c.userId)} shared a game plan`, `${gp.title} · ${t.teamName(gp.teamId)}. Read-only; only the head coach can change it.`, "message", `gameplan-${gp.id}`); return next;
+  },
+  async deleteGamePlan(id: string) { const c = ctx(); const t = tenant(c.leagueId); const gp = t.gamePlans.find((g) => g.id === id); if (!gp) return; if (gp.ownerUserId !== c.userId) throw new PermissionError("Only the head coach who made this plan can delete it."); await remove(t.leagueId, "gamePlans", id); },
+  /** Sends the plan to the game-day lineup card for its game (positions per inning; off the field becomes bench). */
+  async applyGamePlanToLineup(id: string) {
+    const c = ctx(); const t = tenant(c.leagueId); const gp = t.gamePlans.find((g) => g.id === id); if (!gp) throw new Error("Game plan not found"); if (gp.ownerUserId !== c.userId) throw new PermissionError("Only the head coach who made this plan can use it on game day."); if (!gp.eventId) throw new Error("Link the plan to a game first.");
+    const roster = t.players.filter((p) => p.teamId === gp.teamId); const existing = t.gameSheets.find((g) => g.eventId === gp.eventId)?.lineups[gp.teamId]; await actions.saveLineup(gp.eventId, gp.teamId, planToLineup(gp, roster, existing)); return gp.eventId;
   },
   /* ---------- Curriculum assignment ---------- */
   async assignTeamCurriculum(teamId: string, curriculumId: string | null, startDate: string) {

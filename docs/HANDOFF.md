@@ -32,6 +32,12 @@ Little League has chosen PlayMetrics (Stack Sports) for Central Registration fro
 - Player history: engine `src/engines/playerHistory.ts`; `PlayerHistoryCard` on the player page.
 - Native-style delivery is a deployment plan in `docs/DEPLOYMENT.md`, not a demo feature.
 
+## Head coach game plans
+
+- Private inning-by-inning plan on the coach's paper layout: 3B, SS, 2B, 1B, LF, CF, RF, C, Pitcher, Relief, Roster, Roster for innings 1 to 6. Engine `src/engines/gamePlan.ts` (checks, per-player innings, conversion to the lineup card); page `#gameplan-<id>` and the Game plans tab in Team tools (`src/features/coaches/GamePlanPages.tsx`); home card for plans shared with you.
+- Privacy: only a head coach of the team creates or edits (`isHeadCoach` in `actions.ts`); the read model in `select.ts` returns a plan only to its owner and the people it was shared with, so league staff do not see it by rank. Sharing is read-only and limited to the team's coaches, league staff and the team's families (`gamePlanShareTargets`). In a server deployment the same rule belongs in the API query.
+- Use on game day writes the plan into the lineup card (Relief and Roster become bench); Dugout card downloads a PDF.
+
 ## Running a demo
 - Open `#demo-guide` (Presenter guide in the rail, or from the welcome page) for the 20-minute script; every step has a Go button.
 - Reset demo data from the persona switcher or the guide before presenting. Shared-database resets need the artifact owner.
@@ -52,11 +58,11 @@ npm run e2e           # Playwright smoke across roles + calculator checks
 - League: **DVYAA** (internal id `lg_riverside` kept for saved-data compatibility) with divisions T-ball, Coach pitch, Minor, Major. It is the only league in the demo; isolation is shown by onboarding a new league, which starts empty.
 - Personas are named for their role: Parent, Player, Head Coach, Assistant Coach, League President, Treasurer, Minor Commissioner, Umpire, Volunteer, Platform Admin. League officers carry their titles too (Safety Officer, Information Officer, Player Agent, other commissioners, Umpire 2 to 6). The renaming runs last in `scripts/seed-demo.mjs` so earlier seed steps keep their lookups. "Go into demo mode" starts the guided tour as the Parent.
 - Field Improvement Fund Calculator under Administration (and admin dashboard / Finance).
-- **Tryouts & draft** under Administration (`#admin-tryouts`): tryout scoring board (`#tryout-<id>`, open to assigned evaluators), live snake draft board (`#draft-<id>`, coaches pick on the clock). Demo: Minor tryout complete + draft live; Major tryout upcoming with Mark Galasso as an evaluator.
+- **Tryouts & draft** under Administration (`#admin-tryouts`): tryout scoring board (`#tryout-<id>`, open to assigned evaluators), live snake draft board (`#draft-<id>`, coaches pick on the clock). Demo: Minor tryout complete + draft live; Major tryout upcoming with the Head Coach as an evaluator.
 - **Report cards**: Coaches' HQ → team tools → Report cards tab; families open `#report-<id>` from the player dashboard, team page or home. The Player has a published mid-season card.
 - **Game day** (`#gameday-<eventId>`): lineup card, scorebook with pitch counts, finalize → result + standings + pitching appearances. Linked from the event page, team page, Coaches' HQ and the coach strip on Home. Engines: `src/engines/gameDay.ts`, `draft.ts`, `reportCard.ts`.
 - **Run practice** (`#run-<planId>`, no app shell): any saved plan runs as a full-screen timer; "Run this practice" on the planner saves the plan first. Demo team plan `plan_team_demo1` (Comets).
-- **Coach certification** (`#coaches-certification`, modules at `#cert-<moduleId>`): content in `data/content/certification.json` (six modules, quizzes, pass mark 80). Records in the `certifications` collection; admin view is the Coach certification tab in Volunteers. Demo: Mark Galasso is missing the heat/lightning module.
+- **Coach certification** (`#coaches-certification`, modules at `#cert-<moduleId>`): content in `data/content/certification.json` (six modules, quizzes, pass mark 80). Records in the `certifications` collection; admin view is the Coach certification tab in Volunteers. Demo: the Head Coach is missing the heat/lightning module.
 - **Digest**: `src/engines/digest.ts` + `DigestCard` on Home and the notification center; text export via the shared ExportModal.
 - **All-Stars**: Administration → Tryouts, draft & All-Stars → All-Stars tab; pool page `#allstars-<poolId>`. Engine `src/engines/allstars.ts`. Demo: 11-12 pool in voting (4 of 6 ballots), 9-10 pool taking nominations (Comets have none yet so Mark can nominate).
 - **Notifications**: `actions.notify` is the single entry point and applies `src/engines/notify.ts` rules (preferences, quiet hours → `deliverAt`, dedupe). The center is `#notifications`; links are plain route tokens resolved with `parseRoute`. Communications has the rules table and manual reminder buttons (duties today/tomorrow, certification renewals); a scheduler would call `sendDutyReminders` and `sendCertificationReminders` daily in a hosted deployment.

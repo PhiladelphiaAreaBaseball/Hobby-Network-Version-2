@@ -15,6 +15,7 @@ import { CertificationStrip } from "../coaches/CertificationPages";
 import { DigestCard } from "./DigestCard";
 import { OpenSurveysCard } from "../admin/AdminSurveys";
 import { OpenFormsCard } from "../admin/AdminForms";
+import { SharedGamePlansCard } from "../coaches/GamePlanPages";
 export function HomePage() {
   const ss = useSession(); const t = ss.tenant; if (!t) return null;
   if (ss.isStaff && !ss.isGuardian && !ss.isCoach) return <AdminDashboard />;
@@ -58,6 +59,7 @@ function FamilyHome() {
         {child && <ReportCardSummary player={child} />}
         <OpenSurveysCard />
         <OpenFormsCard />
+        <SharedGamePlansCard />
         <MyDutiesCard />
         {ss.isCoach && <CertificationStrip />}
         {ss.children.map((c) => c.teamId && t.teamById.get(c.teamId)).filter(Boolean).map((team: any) => <Card key={team.id} onClick={() => navigate("team", team.id)}><div className="flex items-center gap-3"><TeamMark src={team.logoAssetId ? `/_blob/${team.logoAssetId}` : undefined} name={team.name} color={team.color} abbr={team.abbreviation} /><div className="grow col" style={{ minWidth: 0 }}><strong>{team.name}</strong><span className="small muted">{t.divisionById.get(team.divisionId)?.name} · Coach {t.userName(team.headCoachUserId)}</span></div><I.chevronRight className="faint" /></div></Card>)}

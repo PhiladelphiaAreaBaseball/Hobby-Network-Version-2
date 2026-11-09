@@ -152,10 +152,12 @@
           "route": "coaches-team-t09",
           "minutes": 2,
           "say": [
+            "Before game day the head coach plans every inning on a private sheet (3B through Roster). Only he sees it unless he shares it; Use on game day sends it to the lineup card.",
             "The lineup card checks the league's minimum-play rule, bench innings and pitcher rest before first pitch.",
             "The scorebook is one thumb: run, out, pitch count. Final updates standings and rest days in one tap."
           ],
           "click": [
+            "Team tools, Game plans tab, open the plan, Use on game day",
             "Game day button",
             "Auto-rotate the rest",
             "Scorebook tab, add a run and an out"
