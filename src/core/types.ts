@@ -104,6 +104,7 @@ export interface Registration {
   status: "draft" | "submitted" | "waitlisted" | "pending_documents" | "approved" | "assigned" | "withdrawn" | "refunded";
   fee: number; discounts: { label: string; amount: number }[]; amountPaid: number; balance: number;
   paymentStatus: "unpaid" | "partial" | "paid" | "plan" | "assistance_requested" | "assistance_granted" | "refunded";
+  requests?: { buddyName?: string; coachName?: string; note?: string };
   documents: { type: string; status: "missing" | "uploaded" | "verified" | "rejected"; assetId?: string; note?: string }[];
   waivers: { id: string; acceptedAt?: ISODateTime }[];
   verification: { residency: "pending" | "verified" | "school" | "waiver" | "rejected"; notes?: string };
@@ -143,8 +144,14 @@ export interface Lesson {
 export interface Drill {
   id: ID; name: string; category: Category; skillFocus: string[]; ageGroups: AgeGroupId[]; skillLevels: SkillLevel[]; equipmentRequired: Equipment[]; equipmentFreeVariant: string | null;
   locations: Location[]; minSpaceFt: number; participantsMin: number; participantsMax: number; contexts: ("home" | "team")[]; durationMin: number; phase: DrillPhase; intensity: "low" | "medium" | "high";
-  throwingLoad: ThrowingLoad; setup: string; instructions: string[]; reps: string; cues: string[]; parentTip: string; safety: string[]; funVariation: string; lessonId: string | null; video?: DrillVideo;
+  throwingLoad: ThrowingLoad; setup: string; instructions: string[]; reps: string; cues: string[]; parentTip: string; safety: string[]; funVariation: string; lessonId: string | null; video?: DrillVideo; diagram?: DrillDiagram;
 }
+/* ---------- Drill diagrams ---------- */
+export type DiagramItemKind = "player" | "coach" | "cone" | "ball" | "bucket" | "tee" | "net" | "glove";
+export interface DiagramItem { id: ID; kind: DiagramItemKind; x: number; y: number; label?: string; }
+export interface DiagramArrow { id: ID; from: { x: number; y: number }; to: { x: number; y: number }; kind: "throw" | "run" | "move"; }
+export interface DrillDiagram { items: DiagramItem[]; arrows: DiagramArrow[]; note?: string; }
+export interface DrillDiagramDoc { id: ID; leagueId?: ID; drillId: ID; diagram: DrillDiagram; updatedByUserId: ID; updatedAt: ISODateTime; }
 export interface ParentGuide {
   id: ID; title: string; summary: string; category: Category | "general"; ageGroups: AgeGroupId[]; pathwayStep: number | null; durationMin: number; video: VideoRef; intro: string[];
   whatToDo: string[]; whatToSay: string[]; whatToWatchFor: string[]; whatToAvoid: string[]; ifStruggling: string[]; makeItFun: string[]; equipment: Equipment[]; relatedLessonIds: string[]; tags: string[];
@@ -233,6 +240,25 @@ export interface SeasonCloseout { id: ID; leagueId: ID; seasonId: ID; tasks: Rec
 export interface SurveyQuestion { id: ID; type: "rating" | "choice" | "text"; text: string; options?: string[]; }
 export interface Survey { id: ID; leagueId: ID; seasonId: ID; templateId: string | null; title: string; audience: "guardian" | "coach" | "all"; questions: SurveyQuestion[]; status: "draft" | "open" | "closed"; opensAt: ISODate; closesAt: ISODate; createdByUserId: ID; createdAt: ISODateTime; }
 export interface SurveyResponse { id: ID; leagueId: ID; surveyId: ID; userId: ID; divisionId?: ID; answers: Record<string, number | string>; submittedAt: ISODateTime; }
+/* ---------- Forms (evaluations, medical, volunteer applications, feedback) ---------- */
+export type FormFieldType = "text" | "long_text" | "number" | "rating" | "choice" | "multi" | "yes_no" | "date" | "signature";
+export type FormPurpose = "evaluation" | "medical" | "volunteer" | "feedback" | "other";
+export type FormAudience = "guardian" | "coach" | "volunteer" | "staff" | "all";
+export interface FormField { id: ID; type: FormFieldType; label: string; required?: boolean; options?: string[]; hint?: string; }
+export interface FormTemplate { id: ID; title: string; purpose: FormPurpose; audience: FormAudience; perPlayer: boolean; description: string; fields: FormField[]; }
+export interface LeagueForm { id: ID; leagueId: ID; seasonId: ID; templateId: string | null; title: string; purpose: FormPurpose; audience: FormAudience; perPlayer: boolean; description: string; fields: FormField[]; status: "draft" | "open" | "closed"; opensAt: ISODate; closesAt: ISODate; createdByUserId: ID; createdAt: ISODateTime; }
+export type FormAnswer = string | number | boolean | string[];
+export interface FormResponse { id: ID; leagueId: ID; formId: ID; userId: ID; playerId?: ID; teamId?: ID; answers: Record<string, FormAnswer>; submittedAt: ISODateTime; reviewedByUserId?: ID; reviewedAt?: ISODateTime; reviewNote?: string; }
+/* ---------- Payment plans ---------- */
+export interface Installment { id: ID; dueDate: ISODate; amount: number; paidAt?: ISODateTime; paymentId?: ID; }
+export interface PaymentPlan { id: ID; leagueId: ID; registrationId: ID; userId: ID; total: number; installments: Installment[]; status: "active" | "complete" | "cancelled"; createdAt: ISODateTime; createdByUserId: ID; lastReminderAt?: ISODateTime; }
+/* ---------- Tournaments ---------- */
+export type TournamentFormat = "round_robin" | "single_elim" | "double_elim" | "pools_bracket";
+export interface TournamentPool { id: ID; name: string; teamIds: ID[]; }
+export interface TournamentMatch { id: ID; stage: "pool" | "winners" | "losers" | "final"; round: number; slot: number; poolId?: ID; homeTeamId: ID | null; awayTeamId: ID | null; homeFrom?: { matchId: ID; take: "winner" | "loser" } | { seed: number } | { poolId: ID; place: number }; awayFrom?: { matchId: ID; take: "winner" | "loser" } | { seed: number } | { poolId: ID; place: number }; eventId?: ID; homeScore?: number; awayScore?: number; winnerTeamId?: ID; loserTeamId?: ID; bye?: boolean; }
+export interface Tournament { id: ID; leagueId: ID; seasonId: ID; divisionId: ID; name: string; format: TournamentFormat; teamIds: ID[]; seeds: ID[]; pools: TournamentPool[]; matches: TournamentMatch[]; status: "setup" | "live" | "complete"; championTeamId?: ID; runnerUpTeamId?: ID; startDate: ISODate; fieldId?: ID; createdByUserId: ID; createdAt: ISODateTime; updatedAt: ISODateTime; }
+/* ---------- Curriculum assignment ---------- */
+export interface TeamCurriculum { id: ID; leagueId: ID; teamId: ID; seasonId: ID; curriculumId: ID; startDate: ISODate; assignedByUserId: ID; createdAt: ISODateTime; }
 /* ---------- Budget ---------- */
 export interface Budget { id: ID; leagueId: ID; seasonId: ID; lines: { id: ID; kind: "revenue" | "expense"; category: string; planned: number }[]; updatedAt: ISODateTime; }
 /* ---------- Content versions ---------- */
@@ -259,13 +285,13 @@ export interface SiteContent {
 export interface ContentBundle {
   lessons: Lesson[]; drills: Drill[]; parentGuides: ParentGuide[]; coachPlans: CoachPlan[]; iqLessons: IQLesson[]; iqQuestions: IQQuestion[];
   curricula: Curriculum[]; challenges: Challenge[]; badges: Badge[]; resources: Resource[]; glossary: GlossaryTerm[]; drillVideos: DrillVideo[];
-  certModules: CertModule[]; certPassingPct: number; demoGuide: DemoGuide | null; tour: TourContent | null; safety: SafetyContent; seasonClose: SeasonCloseContent; surveyTemplates: SurveyTemplate[];
+  certModules: CertModule[]; certPassingPct: number; demoGuide: DemoGuide | null; tour: TourContent | null; formTemplates: FormTemplate[]; safety: SafetyContent; seasonClose: SeasonCloseContent; surveyTemplates: SurveyTemplate[];
   manifest: { ageGroups: { id: AgeGroupId; label: string; min: number; max: number }[] };
 }
 export interface DemoBundle {
   leagues: League[]; users: User[]; memberships: Membership[]; seasons: Season[]; divisions: Division[]; teams: Team[]; players: Player[]; registrations: Registration[]; payments: Payment[]; expenses: Expense[];
   fields: Field[]; events: ScheduleEvent[]; attendance: Attendance[]; pitching: PitchingAppearance[]; volunteers: Volunteer[]; shifts: VolunteerShift[]; sponsors: Sponsor[]; fundraisers: Fundraiser[]; announcements: Announcement[]; threads: MessageThread[];
   completions: LessonCompletion[]; assignments: Assignment[]; iqProgress: IQProgress[]; awards: AchievementAward[]; enrollments: CurriculumEnrollment[]; notes: PlayerNote[]; practicePlans: PracticePlan[]; videos: VideoSubmission[]; plans: SubscriptionPlan[]; siteContent: SiteContent[]; personas: Persona[];
-  tryouts?: Tryout[]; evaluations?: Evaluation[]; drafts?: Draft[]; reportCards?: ReportCard[]; gameSheets?: GameSheet[]; certifications?: Certification[]; allStarPools?: AllStarPool[]; allStarNominations?: AllStarNomination[]; allStarVotes?: AllStarVote[]; carpools?: Carpool[]; photos?: Photo[]; incidents?: Incident[]; safetyPlans?: SafetyPlan[]; kitChecks?: KitCheck[]; umpireProfiles?: UmpireProfile[]; closeouts?: SeasonCloseout[]; surveys?: Survey[]; surveyResponses?: SurveyResponse[]; budgets?: Budget[]; contentVersions?: ContentVersion[]; meta?: { seededOn?: string; shiftedTo?: string; shiftedDays?: number };
+  tryouts?: Tryout[]; evaluations?: Evaluation[]; drafts?: Draft[]; reportCards?: ReportCard[]; gameSheets?: GameSheet[]; certifications?: Certification[]; allStarPools?: AllStarPool[]; allStarNominations?: AllStarNomination[]; allStarVotes?: AllStarVote[]; carpools?: Carpool[]; photos?: Photo[]; incidents?: Incident[]; safetyPlans?: SafetyPlan[]; kitChecks?: KitCheck[]; umpireProfiles?: UmpireProfile[]; closeouts?: SeasonCloseout[]; surveys?: Survey[]; surveyResponses?: SurveyResponse[]; budgets?: Budget[]; contentVersions?: ContentVersion[]; forms?: LeagueForm[]; formResponses?: FormResponse[]; paymentPlans?: PaymentPlan[]; tournaments?: Tournament[]; teamCurricula?: TeamCurriculum[]; drillDiagrams?: DrillDiagramDoc[]; meta?: { seededOn?: string; shiftedTo?: string; shiftedDays?: number };
 }
 export interface Persona { id: ID; userId: ID; leagueId: ID | null; label: string; role: Role; description: string; playerId?: ID; teamId?: ID; }

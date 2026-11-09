@@ -59,7 +59,72 @@
         "Keep eight feet between players and have everyone face the same direction."
       ],
       "funVariation": "Grip Race: on 'go', players pick up the bat and freeze with the grip showing. The first correct grip earns a point. Play to five, and anyone who corrects their own grip before the check gets a bonus point.",
-      "lessonId": "hit-01"
+      "lessonId": "hit-01",
+      "diagram": {
+        "items": [
+          {
+            "id": "t1",
+            "kind": "tee",
+            "x": 200,
+            "y": 336
+          },
+          {
+            "id": "p1",
+            "kind": "player",
+            "x": 182,
+            "y": 350,
+            "label": "H"
+          },
+          {
+            "id": "n1",
+            "kind": "net",
+            "x": 200,
+            "y": 262
+          },
+          {
+            "id": "b1",
+            "kind": "bucket",
+            "x": 160,
+            "y": 360
+          },
+          {
+            "id": "c1",
+            "kind": "coach",
+            "x": 235,
+            "y": 355,
+            "label": "C"
+          },
+          {
+            "id": "p2",
+            "kind": "player",
+            "x": 300,
+            "y": 300,
+            "label": "W"
+          },
+          {
+            "id": "p3",
+            "kind": "player",
+            "x": 330,
+            "y": 320,
+            "label": "W"
+          }
+        ],
+        "arrows": [
+          {
+            "id": "a1",
+            "from": {
+              "x": 200,
+              "y": 330
+            },
+            "to": {
+              "x": 200,
+              "y": 276
+            },
+            "kind": "move"
+          }
+        ],
+        "note": "Tee in front of the plate, net at the mound; coach watches the stride from the side while two waiting hitters shadow-swing."
+      }
     },
     {
       "id": "drill-hit-02",

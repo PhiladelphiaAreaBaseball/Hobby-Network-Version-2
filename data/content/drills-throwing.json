@@ -58,7 +58,85 @@
         "Safety ball or soft training ball for ages 4 to 8."
       ],
       "funVariation": "Grip Race: the adult counts 'one, two, three' and the player tries to show a correct four-seam grip before the count ends. Make the count faster each round.",
-      "lessonId": "thr-01"
+      "lessonId": "thr-01",
+      "diagram": {
+        "items": [
+          {
+            "id": "p1",
+            "kind": "player",
+            "x": 120,
+            "y": 220,
+            "label": "A"
+          },
+          {
+            "id": "p2",
+            "kind": "player",
+            "x": 280,
+            "y": 220,
+            "label": "B"
+          },
+          {
+            "id": "p3",
+            "kind": "player",
+            "x": 120,
+            "y": 280,
+            "label": "A"
+          },
+          {
+            "id": "p4",
+            "kind": "player",
+            "x": 280,
+            "y": 280,
+            "label": "B"
+          },
+          {
+            "id": "k1",
+            "kind": "cone",
+            "x": 120,
+            "y": 250
+          },
+          {
+            "id": "k2",
+            "kind": "cone",
+            "x": 280,
+            "y": 250
+          },
+          {
+            "id": "c1",
+            "kind": "coach",
+            "x": 200,
+            "y": 330,
+            "label": "C"
+          }
+        ],
+        "arrows": [
+          {
+            "id": "a1",
+            "from": {
+              "x": 132,
+              "y": 220
+            },
+            "to": {
+              "x": 268,
+              "y": 220
+            },
+            "kind": "throw"
+          },
+          {
+            "id": "a2",
+            "from": {
+              "x": 268,
+              "y": 280
+            },
+            "to": {
+              "x": 132,
+              "y": 280
+            },
+            "kind": "throw"
+          }
+        ],
+        "note": "Partners in two lines, cones mark the distance; step back a cone every five good throws."
+      }
     },
     {
       "id": "drill-thr-02",

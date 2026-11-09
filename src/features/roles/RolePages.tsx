@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { PlayerHistoryCard } from "./PlayerHistoryCard";
 import { Badge, Button, Card, Empty, Field, Input, KV, Link, LinkButton, Modal, Notice, Page, PageHead, Progress, Ring, Section, Stat, StatusBadge, Textarea, AGE_LABEL } from "../../components/ui";
 import { I } from "../../components/icons";
 import { useSession, useContent, lessonProgress } from "../../core/hooks";
@@ -44,7 +45,8 @@ export function PlayerPage({ id }: { id: string }) {
       {(isGuardian || ss.isStaff || ss.coachTeams.some((x) => x.id === p.teamId) || (ss.isPlayer && p.consents.coachFeedbackVisible)) && <ReportCardSummary player={p} />}
       <Card title="Badges" action={<Link to="achievements">Gallery</Link>}><div className="flex gap-1 wrap">{awards.length === 0 ? <span className="small muted">Complete a lesson to earn the first badge.</span> : awards.map((a) => <Badge key={a.id} tone="gold">{content.badges.find((b) => b.id === a.badgeId)?.name ?? a.badgeId}</Badge>)}</div></Card>
       {canSeeFeedback && notes.length > 0 && <Card title="Coach feedback"><div className="list">{notes.filter((n) => !ss.isPlayer || p.consents.coachFeedbackVisible).slice(0, 3).map((n) => <div key={n.id} className="list-item small"><span className="grow">{n.body}<span className="xsmall faint"> · {t.userName(n.coachUserId)}, {fmtDate(n.createdAt)}</span></span></div>)}</div></Card>}
-    </div></div></Page>;
+    </div></div><PlayerHistoryCard playerId={p.id} />
+  </Page>;
 }
 export function EventPage({ id }: { id: string }) {
   const ss = useSession(); const t = ss.tenant!; const e = t.eventById.get(id); const [score, setScore] = useState({ home: "", away: "" }); if (!e) return <Page><PageHead title="Event not found" crumbs={[{ label: "Schedule", to: "schedule" }]} /></Page>;

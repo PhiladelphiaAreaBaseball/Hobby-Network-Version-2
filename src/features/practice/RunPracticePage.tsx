@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { DrillDiagramView } from "../../components/DiagramEditor";
 import { Badge, Button, Notice } from "../../components/ui";
 import { I } from "../../components/icons";
 import { useSession } from "../../core/hooks";
@@ -35,7 +36,7 @@ function Runner({ plan }: { plan: PracticePlan }) {
   const finish = async () => { setRunning(false); setDone(true); safeLocalRemove(KEY(plan.id)); if (!logged) { const ok = await run(() => actions.markPlanComplete(plan.id), plan.kind === "team" ? "Practice logged for the team." : "Practice logged."); if (ok !== undefined) setLogged(true); } };
   const exit = () => navigate("practice-plan", plan.id);
   const elapsedBefore = timed.slice(0, idx).reduce((a, b, k) => a + b.minutes + (extra[k] ?? 0), 0); const mm = String(Math.floor(left / 60)).padStart(2, "0"), sS = String(left % 60).padStart(2, "0");
-  const video = block?.drillId ? t.drills.find((d) => d.id === block.drillId)?.video : undefined; const lesson = block?.lessonId ? t.lessonById.get(block.lessonId) : undefined; const homeLesson = plan.blocks.find((b) => b.lessonId)?.lessonId;
+  const runDrill = block?.drillId ? t.drills.find((d) => d.id === block.drillId) : undefined; const video = runDrill?.video; const diagram = runDrill?.diagram; const lesson = block?.lessonId ? t.lessonById.get(block.lessonId) : undefined; const homeLesson = plan.blocks.find((b) => b.lessonId)?.lessonId;
   const phaseLabel: Record<string, string> = { warmup: "Warm-up", skill: "Skill", game: "Game", cooldown: "Cool-down", station: "Stations", team: "Team", wrapup: "Wrap-up" };
   if (done) return <div className="run"><header className="run-head"><span className="run-eyebrow">Practice complete</span><button className="btn btn-ghost btn-icon" style={{ color: "inherit" }} aria-label="Close" onClick={exit}><I.close /></button></header><div className="run-body"><div className="run-finish"><I.check size={48} /><h1>{plan.title}</h1><p>{plural(timed.length, "block")} · {total + extra.reduce((a, b) => a + b, 0)} minutes{plan.teamId ? ` · ${t.teamName(plan.teamId)}` : ""}</p>{plan.recap && <p className="run-recap">{plan.recap}</p>}<div className="run-actions">{homeLesson && plan.kind === "team" && ss.isCoach && <Button size="lg" variant="primary" icon={<I.parents size={18} />} onClick={() => setAssign(true)}>Assign home practice</Button>}<Button size="lg" variant="chrome" onClick={exit}>Back to the plan</Button><Button size="lg" variant="ghost" style={{ color: "inherit" }} onClick={() => navigate(plan.kind === "team" ? "coaches" : "practice")}>{plan.kind === "team" ? "Coaches' HQ" : "Practice generator"}</Button></div></div></div>{assign && homeLesson && <AssignModal lessonId={homeLesson} teamId={plan.teamId} onClose={() => setAssign(false)} />}</div>;
   if (!block) return <div className="run"><div className="run-body"><Notice kind="warn">This plan has no timed blocks.</Notice><Button onClick={exit}>Back</Button></div></div>;
@@ -51,7 +52,7 @@ function Runner({ plan }: { plan: PracticePlan }) {
         {block.setup && <div className="run-card"><span className="run-card-label">Setup</span><p>{block.setup}</p></div>}
         <div className="run-card"><span className="run-card-label">How it runs</span><ol>{block.instructions.map((s, i) => <li key={i}>{s}</li>)}</ol>{block.reps && <p className="run-reps"><strong>Reps:</strong> {block.reps}</p>}</div>
         {block.cues.length > 0 && <div className="run-card"><span className="run-card-label">Say this</span><div className="flex gap-2 wrap">{block.cues.map((c) => <span key={c} className="run-cue">{c}</span>)}</div></div>}
-        {video && <div className="run-card"><span className="run-card-label">Show them</span><YouTubeCard video={video} compact /></div>}
+        {diagram && <div className="run-card"><span className="run-card-label">Setup</span><DrillDiagramView diagram={diagram} size={260} /></div>}{video && <div className="run-card"><span className="run-card-label">Show them</span><YouTubeCard video={video} compact /></div>}
         {(block.safety?.length || block.parentTip) ? <div className="run-card warn"><span className="run-card-label">Watch for</span>{block.safety?.map((s, i) => <p key={i}>{s}</p>)}{block.parentTip && <p>{block.parentTip}</p>}</div> : null}
         {lesson && <div className="run-card"><span className="run-card-label">Lesson behind this block</span><button className="link-btn" style={{ color: "var(--sky)" }} onClick={() => navigate("lesson", lesson.id)}>{lesson.title}</button></div>}
       </div>

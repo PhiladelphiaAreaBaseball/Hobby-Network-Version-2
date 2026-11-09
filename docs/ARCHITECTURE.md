@@ -34,6 +34,10 @@ data/content/                  educational library (validated by scripts/validat
 data/demo/demo.json            DVYAA + Harbor Point fictional data (scripts/seed-demo.mjs)
 ```
 
+### Engines added in round five
+
+`tournament.ts` (bracket generation and result propagation), `formation.ts` (request-aware balanced team placement), `forms.ts` (validation and summaries), `paymentPlans.ts` (installments and overdue state), `curriculumCompliance.ts` (weeks covered from practice logs), `playerHistory.ts` (cross-season timeline). All pure; pages pass in tenant collections.
+
 ## Tenant isolation
 
 - Every tenant-owned record carries `leagueId`. `selectTenant()` builds the read model for exactly one league and pages only ever

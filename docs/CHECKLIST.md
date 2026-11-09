@@ -103,6 +103,20 @@ gap · **Integration** = architecture in place, needs an external service or cre
 | Board overview share link | Done | Read-only `#view-<slug>-<token>` page with standings, upcoming games, fields, sponsors and summary figures; no names; rotate or disable from Branding |
 | President and coach demo links | Done | `#demo-president`, `#demo-coach` |
 
+## PlayMetrics parity (round five)
+
+| Item | Status | Notes |
+| --- | --- | --- |
+| Central Registration import presets | Done | Sports Connect and PlayMetrics column presets, auto-detected from the header; positioning copy on marketing, import modal and tour |
+| Form builder | Done | Templates (evaluation, medical, volunteer application, coach feedback, field request); per-player or per-person; nine field types; open/close/remind; results aggregated for evaluation and feedback, reviewed one by one otherwise; home card; `#form-<id>` |
+| Payment plans | Done | Two to six monthly installments from the registration page or the office; overdue and due-soon reminders via rules engine; Finance tab; processing at deployment |
+| Tournaments | Done | Round robin, single and double elimination, pools then bracket; byes; schedule games; scorebook final advances the bracket; `#tournament-<id>` for families |
+| Curriculum assignment and follow-through | Done | Per team per season; weeks covered from completed practices and home assignments; coach card and board table |
+| Drill diagrammer | Done | Place players, coaches, cones, balls, equipment; throw/run/move arrows; drag to move; shown on lessons and in the practice runner; three platform diagrams shipped |
+| Team formation (non-draft) | Done | Siblings, buddy and coach requests, coach's children; snake deal by size then strength; advisory warnings; manual swaps; Place writes rosters and tells families |
+| Player history | Done | Seasons, positions from lineups, attendance, tryouts, report cards, badges, pitch counts, evaluations on the player page |
+| Native-style delivery | Planned | Manifest, service worker, push: documented in DEPLOYMENT.md; not possible inside the artifact |
+
 ## Demo readiness
 | Area | Status | Notes |
 |---|---|---|

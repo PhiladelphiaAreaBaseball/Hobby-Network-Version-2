@@ -165,3 +165,30 @@ input[type="range"].slider:focus-visible { outline: none; } input[type="range"].
 }
 @media (prefers-reduced-motion: reduce) { .tour-spot { animation: none; transition: none; } .tour-panel { animation: none; } }
 @media (min-width: 761px) { .tour-panel-left { right: auto; left: calc(var(--rail-w) + 16px); } }
+
+/* ---------- Forms ---------- */
+.form-field-row { display: grid; gap: .5rem; padding: .6rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+/* ---------- Tournament bracket ---------- */
+.bracket { display: flex; gap: 1rem; overflow-x: auto; padding-bottom: .5rem; align-items: flex-start; }
+.bracket-round { min-width: 230px; flex: 0 0 230px; display: grid; gap: .6rem; align-content: start; }
+.bracket-round-title { font-family: var(--font-display); font-weight: 700; font-size: .78rem; letter-spacing: .05em; text-transform: uppercase; color: var(--fg-muted); }
+.bracket-match { border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); overflow: hidden; }
+.bracket-match.bye { opacity: .6; }
+.bracket-team { display: flex; align-items: center; justify-content: space-between; gap: .5rem; padding: .45rem .6rem; font-size: .9rem; border-bottom: 1px solid var(--border); min-width: 0; }
+.bracket-team.win { background: var(--grass-soft); font-weight: 700; }
+.bracket-meta { display: flex; align-items: center; justify-content: space-between; gap: .4rem; padding: .35rem .6rem; font-size: .75rem; color: var(--fg-muted); flex-wrap: wrap; }
+/* ---------- Curriculum weeks ---------- */
+.week-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: .35rem; }
+.week-cell { border-radius: var(--radius); padding: .35rem .45rem; border: 1px solid var(--border); display: grid; gap: .1rem; min-width: 0; }
+.week-cell.covered { background: var(--grass-soft); border-color: var(--grass); } .week-cell.missed { background: var(--stitch-soft); } .week-cell.future { opacity: .7; } .week-cell.now { outline: 2px solid var(--primary); }
+.week-num { font-family: var(--font-display); font-weight: 700; font-size: .75rem; } .week-title { font-size: .68rem; color: var(--fg-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* ---------- Player history timeline ---------- */
+.timeline { display: grid; gap: .55rem; }
+.timeline-item { display: grid; grid-template-columns: 14px minmax(0, 1fr); gap: .6rem; align-items: start; }
+.timeline-dot { width: 10px; height: 10px; border-radius: 50%; margin-top: .45rem; background: var(--fg-muted); }
+.tl-season .timeline-dot { background: var(--primary); } .tl-game .timeline-dot { background: var(--grass); } .tl-report .timeline-dot { background: var(--gold); } .tl-badge .timeline-dot { background: var(--clay); } .tl-attendance .timeline-dot { background: var(--stitch); } .tl-pitching .timeline-dot { background: var(--sky); }
+/* ---------- Diagram editor ---------- */
+.diagram-editor { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 1rem; align-items: start; }
+.diagram-canvas { border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; background: var(--grass-soft); cursor: crosshair; }
+.diagram-wrap svg { border-radius: var(--radius); }
+@media (max-width: 760px) { .diagram-editor { grid-template-columns: minmax(0, 1fr); } .bracket-round { min-width: 200px; flex-basis: 200px; } }

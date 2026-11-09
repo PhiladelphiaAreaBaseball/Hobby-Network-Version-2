@@ -31,6 +31,25 @@ The code is organized so the move is mechanical:
 8. **Domains**: route `<slug>.<base-domain>` and custom domains to `#site-<slug>` rendering (`PublicSitePage`).
 9. **Calendar subscriptions**: serve `buildIcs()` output at `/api/leagues/:slug/calendar.ics?token=…` for live subscriptions.
 
+## Native-style delivery (installable app, push, offline schedule)
+
+The artifact build cannot register a service worker or a web-app manifest, so these are deployment tasks for Option B, not
+something to fake in the demo:
+
+1. **Web app manifest** at `/manifest.webmanifest` (name GamePlanIQ, league colors from `League.colors`, the logo asset as
+   icons at 192 and 512 px, `display: standalone`, `start_url: /#home`). Families add the app to their home screen from Safari
+   or Chrome; no app store listing is needed for a league.
+2. **Service worker** that precaches the shell (`index.html`, `app.js`, content JSON) and caches the tenant's `events`,
+   `teams`, `players` and `notifications` reads with a stale-while-revalidate policy, so the schedule, duties and carpools open at a
+   field with no signal. Writes (score, attendance, sign-ups) queue in IndexedDB and replay when the connection returns; the
+   actions layer is already idempotent by document id, so replays are safe.
+3. **Push notifications** through Web Push (VAPID keys in the environment). The notification rules engine already decides
+   audience, category and quiet hours; the push adapter sends the same `Notification` document the in-app center stores,
+   honouring `deliverAt`. Email and SMS adapters sit beside it (see the communications settings).
+4. **Offline-first scorebook**: the game-day sheet is small; keep it in IndexedDB keyed by event and sync on `finalizeGame`.
+
+Until deployment, the demo is a web page: the family calendar feed (`.ics`) is the way reminders reach phones today.
+
 ## Operational checklist before real families use it
 
 - Legal and security review for COPPA, state privacy law and Little League safeguarding requirements.

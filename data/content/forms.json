@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "templates": [
+    { "id": "form-coach-eval", "title": "Mid-season player evaluation", "purpose": "evaluation", "audience": "coach", "perPlayer": true, "description": "A coach fills this in once per player on the roster. It feeds the player's history and the league's team-formation notes for next season. Never shown to other families.",
+      "fields": [
+        { "id": "effort", "type": "rating", "label": "Effort and attitude at practice", "required": true },
+        { "id": "contact", "type": "rating", "label": "Makes contact at the plate" },
+        { "id": "glove", "type": "rating", "label": "Fields routine ground balls and fly balls" },
+        { "id": "arm", "type": "rating", "label": "Throws accurately for the age" },
+        { "id": "positions", "type": "multi", "label": "Positions tried this season", "options": ["P", "C", "1B", "2B", "SS", "3B", "LF", "CF", "RF"] },
+        { "id": "ready_up", "type": "yes_no", "label": "Ready to move up a division next season?" },
+        { "id": "notes", "type": "long_text", "label": "One sentence for next year's coach", "hint": "What helps this player most." }
+      ] },
+    { "id": "form-medical", "title": "Medical information and emergency contacts", "purpose": "medical", "audience": "guardian", "perPlayer": true, "description": "Required once per player each season. Seen only by the player's coaches, the safety officer and the league president.",
+      "fields": [
+        { "id": "allergies", "type": "long_text", "label": "Allergies (food, insect stings, medication)", "required": true, "hint": "Write 'none' if none." },
+        { "id": "conditions", "type": "long_text", "label": "Medical conditions the coach should know about (asthma, diabetes, seizures, heart)", "required": true },
+        { "id": "inhaler", "type": "yes_no", "label": "Carries an inhaler or EpiPen to games and practices?" },
+        { "id": "physician", "type": "text", "label": "Physician name and phone" },
+        { "id": "emergency1", "type": "text", "label": "Emergency contact 1 (name, relationship, phone)", "required": true },
+        { "id": "emergency2", "type": "text", "label": "Emergency contact 2 (name, relationship, phone)" },
+        { "id": "insurance", "type": "text", "label": "Insurance carrier and policy number" },
+        { "id": "treat", "type": "signature", "label": "I authorize emergency treatment if I cannot be reached", "required": true }
+      ] },
+    { "id": "form-volunteer-app", "title": "Volunteer application", "purpose": "volunteer", "audience": "all", "perPlayer": false, "description": "Everyone who helps on or near the field completes this once a year. The league runs the background check from these answers.",
+      "fields": [
+        { "id": "roles", "type": "multi", "label": "I can help as", "options": ["Head coach", "Assistant coach", "Team parent", "Scorekeeper", "Umpire", "Field crew", "Concessions", "Board member"], "required": true },
+        { "id": "experience", "type": "long_text", "label": "Baseball or coaching experience", "hint": "None is a fine answer; we train." },
+        { "id": "availability", "type": "multi", "label": "Usually available", "options": ["Weekday evenings", "Saturday morning", "Saturday afternoon", "Sunday"] },
+        { "id": "previous_league", "type": "text", "label": "Previous league volunteered with, if any" },
+        { "id": "cert", "type": "yes_no", "label": "I agree to complete the league's coach certification modules before the first practice", "required": true },
+        { "id": "truth", "type": "signature", "label": "The information above is complete and true, and I consent to a background check", "required": true }
+      ] },
+    { "id": "form-coach-feedback", "title": "Feedback for your child's coach", "purpose": "feedback", "audience": "guardian", "perPlayer": true, "description": "Read by the league president and the division commissioner only. The coach sees totals and anonymous text at the end of the season.",
+      "fields": [
+        { "id": "communication", "type": "rating", "label": "Communicates practice and game details clearly", "required": true },
+        { "id": "positive", "type": "rating", "label": "Keeps practices positive and age-appropriate", "required": true },
+        { "id": "playing_time", "type": "rating", "label": "Shares playing time and positions fairly" },
+        { "id": "safety", "type": "rating", "label": "Takes safety seriously (water, weather, pitch counts)" },
+        { "id": "best", "type": "long_text", "label": "What the coach does well" },
+        { "id": "improve", "type": "long_text", "label": "One thing that would help" }
+      ] },
+    { "id": "form-field-request", "title": "Field or equipment request", "purpose": "other", "audience": "staff", "perPlayer": false, "description": "Coaches and board members ask for field time, repairs or equipment. The facilities lead reviews and marks each one handled.",
+      "fields": [
+        { "id": "kind", "type": "choice", "label": "Request", "options": ["Extra practice slot", "Field repair", "Equipment", "Other"], "required": true },
+        { "id": "when", "type": "date", "label": "Needed by" },
+        { "id": "detail", "type": "long_text", "label": "Details", "required": true }
+      ] }
+  ]
+}

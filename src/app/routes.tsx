@@ -35,6 +35,8 @@ import { RecapPage } from "../features/reports/RecapPage";
 import { SurveyPage } from "../features/admin/AdminSurveys";
 import { SeasonArchivePage } from "../features/admin/AdminSeasonClose";
 import { ShareViewPage } from "../features/league/ShareView";
+import { FormPage } from "../features/admin/AdminForms";
+import { TournamentPage } from "../features/admin/AdminTournaments";
 export function routeView(r: Route): { frame: "app" | "public" | "none"; element: ReactNode } {
   switch (r.name) {
     case "marketing": return { frame: "public", element: <MarketingPage /> };
@@ -43,6 +45,8 @@ export function routeView(r: Route): { frame: "app" | "public" | "none"; element
     case "site": return { frame: "public", element: <PublicSitePage slug={r.id ?? "dvyaa"} /> };
     case "demo": return r.id === "guide" ? { frame: "app", element: <DemoGuidePage /> } : r.id === "president" || r.id === "coach" ? { frame: "none", element: <DemoEntry persona={r.id === "president" ? "persona_admin" : "persona_coach"} /> } : { frame: "none", element: <DemoEntry /> };
     case "recap": return { frame: "app", element: <RecapPage id={r.id!} /> };
+    case "form": return { frame: "app", element: <FormPage id={r.id!} /> };
+    case "tournament": return { frame: "app", element: <TournamentPage id={r.id!} /> };
     case "survey": return { frame: "app", element: <SurveyPage id={r.id!} /> };
     case "season": return { frame: "app", element: <SeasonArchivePage id={r.id!} /> };
     case "view": return { frame: "public", element: <ShareViewPage token={r.id ?? ""} /> };

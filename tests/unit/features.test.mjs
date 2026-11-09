@@ -186,3 +186,68 @@ test("guided tour stops resolve to real routes, personas and demo records", () =
   const sectionIds = tour.sections.map((s) => s.id); assert.equal(new Set(sectionIds).size, sectionIds.length);
   assert.ok(tour.sections.some((s) => s.persona === "persona_parent") && tour.sections.some((s) => s.persona === "persona_coach") && tour.sections.some((s) => s.persona === "persona_admin") && tour.sections.some((s) => s.persona === "persona_player") && tour.sections.some((s) => s.persona === "persona_platform"), "families, players, coaches, office and platform all covered");
 });
+
+// ---- tournaments
+import { generate, applyResult, seedOrder, playable, poolStandings, roundRobinTable } from "../../dist/test/engines/tournament.mjs";
+test("round robin: every pair plays once, odd counts get byes", () => {
+  const { matches } = generate("round_robin", ["a", "b", "c", "d", "e"]); assert.equal(matches.length, 10);
+  const pairs = new Set(matches.map((m) => [m.homeTeamId, m.awayTeamId].sort().join("-"))); assert.equal(pairs.size, 10);
+  const t = { id: "t", format: "round_robin", teamIds: ["a", "b", "c", "d", "e"], pools: [], matches, status: "live" }; let x = t; for (const m of matches) x = applyResult(x, m.id, m.homeTeamId === "a" ? 5 : 1, m.awayTeamId === "a" ? 5 : 2); assert.equal(x.status, "complete"); assert.equal(x.championTeamId, "a"); assert.equal(roundRobinTable(x)[0].w, 4);
+});
+test("single elimination seeds 1 v 8 and resolves byes for six teams", () => {
+  assert.deepEqual(seedOrder(8), [1, 8, 4, 5, 2, 7, 3, 6]);
+  const seeds = ["s1", "s2", "s3", "s4", "s5", "s6"]; const { matches } = generate("single_elim", seeds); const r1 = matches.filter((m) => m.round === 1); assert.equal(r1.length, 4); assert.equal(r1.filter((m) => m.bye).length, 2);
+  const semis = matches.filter((m) => m.round === 2); assert.ok(semis.some((m) => m.homeTeamId === "s1" || m.awayTeamId === "s1"), "seed 1 is already in the semifinal after its bye");
+  let t = { id: "t", format: "single_elim", teamIds: seeds, seeds, pools: [], matches, status: "live" }; const ready = playable(t); assert.equal(ready.length, 2);
+  for (const m of ready) t = applyResult(t, m.id, 3, 1); const semi = playable(t); assert.equal(semi.length, 2); for (const m of semi) t = applyResult(t, m.id, 1, 2); const fin = playable(t); assert.equal(fin.length, 1); t = applyResult(t, fin[0].id, 4, 2); assert.equal(t.status, "complete"); assert.ok(t.championTeamId && t.runnerUpTeamId && t.championTeamId !== t.runnerUpTeamId);
+});
+test("double elimination: a team that loses once is still alive, twice is out", () => {
+  const seeds = ["a", "b", "c", "d"]; let t = { id: "t", format: "double_elim", teamIds: seeds, seeds, pools: [], matches: generate("double_elim", seeds).matches, status: "live" };
+  const w1 = t.matches.filter((m) => m.stage === "winners" && m.round === 1); assert.equal(w1.length, 2); for (const m of w1) t = applyResult(t, m.id, 2, 0); // a and c win (home)
+  const l1 = t.matches.find((m) => m.stage === "losers" && m.round === 1); assert.ok(l1.homeTeamId && l1.awayTeamId, "both first-round losers meet in the losers bracket"); assert.deepEqual([l1.homeTeamId, l1.awayTeamId].sort(), ["c", "d"]);
+  t = applyResult(t, l1.id, 1, 0); const wf = t.matches.find((m) => m.stage === "winners" && m.round === 2); t = applyResult(t, wf.id, 3, 2); const l2 = t.matches.find((m) => m.stage === "losers" && m.round === 2); assert.ok(l2.homeTeamId && l2.awayTeamId, "winner-bracket loser drops into the losers bracket"); t = applyResult(t, l2.id, 0, 1); const fin = t.matches.find((m) => m.stage === "final"); assert.ok(fin.homeTeamId && fin.awayTeamId); t = applyResult(t, fin.id, 5, 4); assert.equal(t.status, "complete");
+});
+test("pools then bracket seeds the bracket from pool standings", () => {
+  const seeds = ["a", "b", "c", "d", "e", "f", "g", "h"]; let t = { id: "t", format: "pools_bracket", teamIds: seeds, seeds, status: "live", ...generate("pools_bracket", seeds, { poolCount: 2, advance: 2 }) }; assert.equal(t.pools.length, 2); assert.equal(t.pools[0].teamIds.length, 4);
+  const pool = t.matches.filter((m) => m.stage === "pool"); assert.equal(pool.length, 12); for (const m of pool) t = applyResult(t, m.id, m.homeTeamId < m.awayTeamId ? 4 : 1, m.homeTeamId < m.awayTeamId ? 1 : 4); // alphabetical order wins
+  const st = poolStandings(t, t.pools[0].id); assert.equal(st[0].w, 3); const semis = t.matches.filter((m) => m.stage !== "pool" && m.round === 1); assert.ok(semis.every((m) => m.homeTeamId && m.awayTeamId), "bracket filled from pool placings"); assert.ok(semis.some((m) => (m.homeTeamId === st[0].teamId && m.awayTeamId !== st[1].teamId) || (m.awayTeamId === st[0].teamId && m.homeTeamId !== st[1].teamId)), "pool winner does not meet its own runner-up");
+});
+// ---- team formation
+import { formTeams } from "../../dist/test/engines/formation.mjs";
+test("team formation keeps siblings and buddies together, honours coach requests, balances size", () => {
+  const mk = (id, last, g, extra = {}) => ({ id, firstName: id, lastName: last, displayName: id, guardianUserIds: [g], leagueAge: 8, ...extra });
+  const players = [mk("A", "Smith", "g1"), mk("B", "Smith", "g1"), mk("C", "Jones", "g2"), mk("D", "Lee", "g3"), mk("E", "Kim", "g4"), mk("F", "Diaz", "g5"), mk("G", "Wu", "g6"), mk("H", "Park", "g7"), mk("I", "Ortiz", "gcoach")];
+  const teams = [{ id: "t1", name: "Hawks", headCoachUserId: "gcoach" }, { id: "t2", name: "Bears", headCoachUserId: "u2" }, { id: "t3", name: "Foxes", headCoachUserId: "u3" }];
+  const ratings = new Map([["A", 5], ["B", 4.5], ["C", 4.8], ["D", 2], ["E", 2.2], ["F", 3], ["G", 3.1], ["H", 1.5], ["I", 3]]);
+  const registrations = [{ playerId: "C", requests: { buddyName: "D Lee" } }, { playerId: "E", requests: { coachName: "Pat Bear" } }, { playerId: "H", requests: { buddyName: "Nobody Here" } }];
+  const r = formTeams({ players, teams, ratings, registrations, coachNames: new Map([["t1", "Chris Ortiz"], ["t2", "Pat Bear"], ["t3", "Sam Fox"]]), coachKids: new Map([["t1", ["I"]]]) });
+  assert.equal(r.assignments.get("A"), r.assignments.get("B"), "siblings together"); assert.equal(r.assignments.get("C"), r.assignments.get("D"), "buddies together"); assert.equal(r.assignments.get("E"), "t2", "coach request honoured"); assert.equal(r.assignments.get("I"), "t1", "coach's child on the coach's team");
+  const sizes = r.teams.map((t) => t.size); assert.ok(Math.max(...sizes) - Math.min(...sizes) <= 1, `sizes even: ${sizes}`); assert.ok(r.unmet.some((u) => u.includes("Nobody Here")), "unmet buddy request reported"); assert.equal(r.assignments.size, 9);
+});
+// ---- forms
+import { validateAnswers, summarize, expectedCount } from "../../dist/test/engines/forms.mjs";
+test("forms validate required fields and summarize ratings, choices and yes/no", () => {
+  const form = { id: "f", fields: [{ id: "r", type: "rating", label: "Effort", required: true }, { id: "c", type: "choice", label: "Role", options: ["A", "B"] }, { id: "y", type: "yes_no", label: "Ready" }, { id: "s", type: "signature", label: "Sign", required: true }, { id: "m", type: "multi", label: "Days", options: ["Mon", "Tue"] }] };
+  assert.deepEqual(validateAnswers(form, {}).map((p) => p.fieldId), ["r", "s"]); assert.equal(validateAnswers(form, { r: 7, s: "Jo" }).length, 2, "rating out of range and one-word signature are rejected"); assert.equal(validateAnswers(form, { r: 4, s: "Jo Smith", c: "Z" }).length, 1, "choice must be an option"); assert.equal(validateAnswers(form, { r: 4, s: "Jo Smith", c: "A", y: true, m: ["Mon"] }).length, 0);
+  const rs = [{ formId: "f", answers: { r: 5, c: "A", y: true, m: ["Mon", "Tue"] } }, { formId: "f", answers: { r: 3, c: "A", y: false, m: ["Tue"] } }, { formId: "g", answers: { r: 1 } }]; const st = summarize(form, rs); assert.equal(st.responses, 2); assert.equal(st.byField[0].avg, 4); assert.deepEqual(st.byField[0].dist, [0, 0, 1, 0, 1]); assert.deepEqual(st.byField[1].counts, { A: 2 }); assert.equal(st.byField[2].yes, 1); assert.deepEqual(st.byField[4].counts, { Mon: 1, Tue: 2 });
+  assert.equal(expectedCount({ perPlayer: true, audience: "coach" }, { guardians: 10, coaches: 4, volunteers: 6, staff: 3, players: 50, rosteredPlayers: 40 }), 40); assert.equal(expectedCount({ perPlayer: false, audience: "guardian" }, { guardians: 10, coaches: 4, volunteers: 6, staff: 3, players: 50, rosteredPlayers: 40 }), 10);
+});
+// ---- payment plans
+import { buildInstallments, overdueInstallments, dueSoon, planBalance, planStatusLabel } from "../../dist/test/engines/paymentPlans.mjs";
+test("payment plans split cents onto the last installment and flag overdue", () => {
+  const inst = buildInstallments(100, 3, "2026-01-15"); assert.deepEqual(inst.map((i) => i.amount), [33.33, 33.33, 33.34]); assert.deepEqual(inst.map((i) => i.dueDate), ["2026-01-15", "2026-02-15", "2026-03-15"]);
+  const plan = { total: 100, status: "active", installments: [{ ...inst[0], paidAt: "2026-01-14T10:00:00" }, inst[1], inst[2]] }; assert.equal(planBalance(plan), 66.67); assert.equal(overdueInstallments(plan, "2026-03-01").length, 1); assert.equal(dueSoon(plan, "2026-03-10").length, 1); assert.equal(planStatusLabel(plan, "2026-03-01").label, "1 overdue"); assert.equal(planStatusLabel(plan, "2026-02-01").label, "On schedule"); assert.equal(planStatusLabel({ ...plan, status: "complete" }, "2026-03-01").label, "Paid in full");
+});
+// ---- curriculum compliance
+import { compliance } from "../../dist/test/engines/curriculumCompliance.mjs";
+test("curriculum compliance counts a week when a completed team practice or home assignment teaches its lesson", () => {
+  const cur = { weeks: [{ week: 1, title: "W1", lessonIds: ["L1"] }, { week: 2, title: "W2", lessonIds: ["L2"] }, { week: 3, title: "W3", lessonIds: ["L3"] }] }; const tc = { teamId: "t1", startDate: "2026-03-02" };
+  const plans = [{ teamId: "t1", completedAt: "2026-03-04T18:00:00", blocks: [{ drillId: "D1" }] }, { teamId: "t1", completedAt: "2026-03-18T18:00:00", blocks: [{ lessonId: "L9" }] }]; const assignments = [{ teamId: "t1", assignedAt: "2026-03-10T09:00:00", lessonId: "L2" }]; const drills = [{ id: "D1", lessonId: "L1" }];
+  const s = compliance(tc, cur, plans, assignments, drills, "2026-03-20"); assert.equal(s.weeksElapsed, 3); assert.equal(s.weeksCovered, 2); assert.equal(s.currentWeek, 3); assert.equal(s.pct, 67); assert.ok(s.weeks[0].covered && s.weeks[1].covered && !s.weeks[2].covered);
+});
+// ---- import presets
+import { detectPreset, IMPORT_PRESETS } from "../../dist/test/engines/importer.mjs";
+test("import presets recognise Sports Connect and PlayMetrics style headers and map every column", () => {
+  for (const p of IMPORT_PRESETS.filter((x) => x.id !== "generic")) { const header = p.template.split("\n")[0].split(","); assert.equal(detectPreset(header).id, p.id, p.id); const cols = detectColumns(header); for (const f of ["first", "last", "birthDate", "guardianFirst", "guardianLast", "guardianEmail", "guardianPhone", "division"]) assert.ok(cols[f] !== undefined, `${p.id} maps ${f}`); }
+  assert.equal(detectPreset(["first", "last", "dob"]).id, "generic");
+});

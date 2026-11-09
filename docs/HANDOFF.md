@@ -18,6 +18,20 @@
 - Share link: Branding tab; demo token `board2026demo` → `#view-dvyaa-board2026demo`.
 - Content versions: Academy content → League changes (`contentVersions` collection).
 
+## PlayMetrics-parity batch (where they live)
+
+Little League has chosen PlayMetrics (Stack Sports) for Central Registration from the 2027 season (delayed at the time of writing; 2027 stays on Sports Connect). GamePlanIQ is positioned as the layer on top: register and pay there, import the roster here.
+
+- Import presets: `IMPORT_PRESETS`/`detectPreset` in `src/engines/importer.ts`; picker in the Import CSV modal (`AdminOps.tsx`). Column names follow each system's standard export; the alias table matches variants.
+- Forms: `data/content/forms.json` templates → `forms`/`formResponses` collections; engine `src/engines/forms.ts`; admin page `#admin-forms` (`AdminForms.tsx`: builder, results, review); respondent page `#form-<id>`; home card `OpenFormsCard`. Purposes decide who reads answers (actions `submitForm`, `reviewFormResponse`, `sendFormReminders`).
+- Payment plans: `paymentPlans` collection; engine `src/engines/paymentPlans.ts`; Finance → Payment plans tab and `PaymentPlanCard` on the registration page (`PaymentPlans.tsx`); actions `createPaymentPlan`, `payInstallment`, `cancelPaymentPlan`, `sendPaymentReminders` (notify kind `payment`).
+- Tournaments: `tournaments` collection; engine `src/engines/tournament.ts` (round robin, single/double elimination, pools then bracket, `applyResult` propagation); `#admin-tournaments` and `#tournament-<id>` (`AdminTournaments.tsx`); `scheduleTournamentGame` creates schedule events; `finalizeGame` advances a linked match.
+- Curriculum assignment: `teamCurricula` collection; engine `src/engines/curriculumCompliance.ts`; `CurriculumCard` on Team tools (roster tab) and `CurriculumComplianceTable` in Academy content → Curricula; action `assignTeamCurriculum`.
+- Drill diagrams: `DrillDiagram` on drills (content JSON `diagram` or `drillDiagrams` overlay merged in `select.ts`); editor and viewer in `src/components/DiagramEditor.tsx`; Academy content → Diagrams tab; shown on lesson drill cards and in the practice runner; action `saveDrillDiagram`.
+- Team formation: engine `src/engines/formation.ts`; `FormationModal` from Teams & rosters → Form teams; registration carries optional `requests` (buddy, coach) captured in the registration form; actions `formationInput`, `previewFormation`, `applyFormation`.
+- Player history: engine `src/engines/playerHistory.ts`; `PlayerHistoryCard` on the player page.
+- Native-style delivery is a deployment plan in `docs/DEPLOYMENT.md`, not a demo feature.
+
 ## Running a demo
 - Open `#demo-guide` (Presenter guide in the rail, or from the welcome page) for the 20-minute script; every step has a Go button.
 - Reset demo data from the persona switcher or the guide before presenting. Shared-database resets need the artifact owner.

@@ -61,7 +61,91 @@
         "Use a flat, dry surface; a wet garage floor or driveway is a slip hazard for a hopping child."
       ],
       "funVariation": "Make it an elimination game: anyone who wobbles during the freeze, or gets ready on a fake word, does three jumping jacks and rejoins. The last statue standing picks the next silly word.",
-      "lessonId": "fld-01"
+      "lessonId": "fld-01",
+      "diagram": {
+        "items": [
+          {
+            "id": "c1",
+            "kind": "coach",
+            "x": 200,
+            "y": 330,
+            "label": "C"
+          },
+          {
+            "id": "b1",
+            "kind": "bucket",
+            "x": 225,
+            "y": 330
+          },
+          {
+            "id": "p1",
+            "kind": "player",
+            "x": 150,
+            "y": 210,
+            "label": "1"
+          },
+          {
+            "id": "p2",
+            "kind": "player",
+            "x": 200,
+            "y": 200,
+            "label": "2"
+          },
+          {
+            "id": "p3",
+            "kind": "player",
+            "x": 250,
+            "y": 210,
+            "label": "3"
+          },
+          {
+            "id": "k1",
+            "kind": "cone",
+            "x": 130,
+            "y": 225
+          },
+          {
+            "id": "k2",
+            "kind": "cone",
+            "x": 270,
+            "y": 225
+          },
+          {
+            "id": "g1",
+            "kind": "glove",
+            "x": 300,
+            "y": 245,
+            "label": "target"
+          }
+        ],
+        "arrows": [
+          {
+            "id": "a1",
+            "from": {
+              "x": 200,
+              "y": 318
+            },
+            "to": {
+              "x": 200,
+              "y": 215
+            },
+            "kind": "move"
+          },
+          {
+            "id": "a2",
+            "from": {
+              "x": 212,
+              "y": 200
+            },
+            "to": {
+              "x": 288,
+              "y": 243
+            },
+            "kind": "throw"
+          }
+        ],
+        "note": "Coach rolls from home; fielder charges, fields with the triangle, throws to the target glove at first."
+      }
     },
     {
       "id": "drill-fld-02",
