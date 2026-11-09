@@ -5,7 +5,7 @@ export function newId(prefix: string): string {
 }
 export const nowIso = () => new Date().toISOString().slice(0, 19);
 export const todayIso = () => new Date().toISOString().slice(0, 10);
-export function initials(first: string, last?: string) { return `${(first || "?")[0] ?? ""}${(last || "")[0] ?? ""}`.toUpperCase(); }
+export function initials(first: string, last?: string) { const words = `${first || ""} ${last || ""}`.trim().split(/\s+/).filter((w) => /[A-Za-z0-9]/.test(w[0] ?? "")); return (words.length ? (words[0][0] + (words.length > 1 ? words[words.length - 1][0] : "")) : "?").toUpperCase(); }
 export function plural(n: number, one: string, many?: string) { return `${n} ${n === 1 ? one : (many ?? one + "s")}`; }
 export const money = (n: number) => (n < 0 ? "-" : "") + "$" + Math.abs(n).toLocaleString("en-US", { minimumFractionDigits: 0, maximumFractionDigits: 0 });
 export const money2 = (n: number) => (n < 0 ? "-" : "") + "$" + Math.abs(n).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });

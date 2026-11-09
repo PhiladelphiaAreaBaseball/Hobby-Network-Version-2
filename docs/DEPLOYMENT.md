@@ -57,4 +57,4 @@ Until deployment, the demo is a web page: the family calendar feed (`.ics`) is t
 - Volunteer background-check workflow connected to the league's authorized provider (status only is stored).
 - Data retention jobs: video expiry, account deletion requests, audit log retention.
 - Backups, monitoring, rate limits and an incident/abuse response contact per league.
-- Replace demo personas with real accounts and delete the DVYAA/Harbor Point demo tenants.
+- Replace demo personas with real accounts and delete the DVYAA demo tenant.

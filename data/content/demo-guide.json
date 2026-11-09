@@ -11,7 +11,7 @@
       "steps": [
         {
           "id": "home",
-          "title": "Tyler's home page",
+          "title": "The parent's home page",
           "route": "home",
           "minutes": 1,
           "say": [
@@ -25,11 +25,11 @@
         },
         {
           "id": "report",
-          "title": "Jack's report card",
+          "title": "The player's report card",
           "route": "report-rc_p0097_mid",
           "minutes": 1,
           "say": [
-            "Coach Galasso rated ten skills, celebrated three, picked one thing to work on, and the app chose the lessons that teach it for a nine-year-old.",
+            "The head coach rated ten skills, celebrated three, picked one thing to work on, and the app chose the lessons that teach it for a nine-year-old.",
             "Private to the family, the coach and the league. Never a ranking."
           ],
           "click": [
@@ -43,11 +43,11 @@
           "route": "form-form_medical",
           "minutes": 1,
           "say": [
-            "The medical form, consents and anything else the league needs are forms built from templates. Tyler fills them in once per child on his phone.",
+            "The medical form, consents and anything else the league needs are forms built from templates. The parent fills them in once per child on a phone.",
             "Only the coaches, the safety officer and the president can read medical answers."
           ],
           "click": [
-            "Pick Jack, answer the required questions, Submit"
+            "Pick the Player, answer the required questions, Submit"
           ]
         },
         {
@@ -104,7 +104,7 @@
           "route": "iq-quiz-mixed",
           "minutes": 1,
           "say": [
-            "Jack's own account: no messages, no leaderboards. Tap where the ball should go; some answers are acceptable, not just right or wrong.",
+            "The player's own account: no messages, no leaderboards. Tap where the ball should go; some answers are acceptable, not just right or wrong.",
             "Fifteen lessons and fifty questions, all written for kids."
           ],
           "click": [
@@ -126,7 +126,7 @@
           "route": "coaches",
           "minutes": 1,
           "say": [
-            "Mark is a parent with one season of experience. Everything he needs is on one page: practice planner, team tools, game day, certification, tryouts and All-Star ballots."
+            "The Head Coach is a parent with one season of experience. Everything he needs is on one page: practice planner, team tools, game day, certification, tryouts and All-Star ballots."
           ],
           "click": [
             "Look at the certification progress and the tryout card"
@@ -138,7 +138,7 @@
           "route": "coaches-team-t09",
           "minutes": 1,
           "say": [
-            "The Comets follow the league's 12-week program. Green weeks were actually run, judged from the practices Mark finished in the app.",
+            "The Comets follow the league's 12-week program. Green weeks were actually run, judged from the practices the head coach finished in the app.",
             "Mid-season he evaluates each player once; it feeds the player's history and next year's team formation."
           ],
           "click": [
@@ -213,7 +213,7 @@
           "route": "admin",
           "minutes": 1,
           "say": [
-            "Kenny sees the attention list first: documents to review, conflicts, a live draft, coaches not yet certified, fields needing a call."
+            "The League President sees the attention list first: documents to review, conflicts, a live draft, coaches not yet certified, fields needing a call."
           ],
           "click": [
             "Field status: set the Tee Ball Diamond to open"

@@ -75,7 +75,7 @@ test("demo data: tryout pool, live draft and published report cards are consiste
   for (const e of demo.evaluations) { assert.equal(e.tryoutId, tr.id); assert.ok(pool.has(e.playerId), "every evaluation is for a registered player"); assert.ok(tr.evaluatorUserIds.includes(e.evaluatorUserId)); for (const v of Object.values(e.scores)) assert.ok(v >= 1 && v <= 5); }
   const d = demo.drafts.find((x) => x.id === "drf_mn_next"); assert.equal(d.status, "live"); assert.ok(d.picks.length >= d.teamOrder.length); const picked = d.picks.map((p) => p.playerId); assert.equal(new Set(picked).size, picked.length, "no player drafted twice"); for (const p of picked) assert.ok(pool.has(p));
   const protectedIds = Object.values(d.protectedPlayerIds).flat(); for (const p of protectedIds) assert.ok(!picked.includes(p), "protected players are never drafted");
-  const jack = demo.players.find((p) => p.firstName === "Jack" && p.lastName === "Hill"); const rc = demo.reportCards.find((c) => c.playerId === jack.id); assert.equal(rc.status, "published"); assert.equal(rc.focusSkillId, "ground_balls"); assert.ok(rc.recommendedLessonIds.includes("fld-20"));
+  const jack = demo.players.find((p) => p.firstName === "Player"); const rc = demo.reportCards.find((c) => c.playerId === jack.id); assert.equal(rc.status, "published"); assert.equal(rc.focusSkillId, "ground_balls"); assert.ok(rc.recommendedLessonIds.includes("fld-20"));
   for (const c of demo.reportCards) { assert.equal(demo.players.find((p) => p.id === c.playerId).teamId, c.teamId); for (const lid of c.recommendedLessonIds) assert.ok(lessons.some((l) => l.id === lid), lid); }
   const teamShifts = demo.shifts.filter((s) => s.teamId); assert.ok(teamShifts.length >= 12); for (const s of teamShifts) { const ev = demo.events.find((e) => e.id === s.eventId); assert.ok(ev.teamIds.includes(s.teamId)); }
 });
@@ -91,7 +91,7 @@ test("certification: quizzes grade against the pass mark; status honours role au
   const vol = personStatus(cert.items, recs, "u", "volunteer", today); assert.ok(!vol.modules.some((m) => m.module.id === "cert-pitching-rules"), "volunteers are not asked for pitching rules"); assert.equal(vol.requiredTotal, 4);
   const other = personStatus(cert.items, recs, "someone-else", "head_coach", today); assert.equal(other.requiredDone, 0);
   for (const m of cert.items) assert.ok(m.quiz.length >= 3 && m.sections.length >= 3, m.id);
-  assert.ok(demo.certifications.length > 30); const mark = demo.users.find((u) => u.firstName === "Mark" && u.lastName === "Galasso"); const markSt = personStatus(cert.items, demo.certifications, mark.id, "head_coach", today); assert.equal(markSt.requiredDone, 4); assert.ok(!markSt.complete);
+  assert.ok(demo.certifications.length > 30); const mark = demo.users.find((u) => u.firstName === "Head Coach"); const markSt = personStatus(cert.items, demo.certifications, mark.id, "head_coach", today); assert.equal(markSt.requiredDone, 4); assert.ok(!markSt.complete);
   const teamPlan = demo.practicePlans.find((p) => p.id === "plan_team_demo1"); assert.equal(teamPlan.blocks.reduce((a, b) => a + b.minutes, 0), teamPlan.totalMinutes);
 });
 
@@ -124,10 +124,10 @@ test("notification rules: quiet hours defer non-urgent kinds, preferences are ho
   assert.equal(wantsCategory({ email: true, sms: false, push: true, digest: "immediate", categories: { messages: false } }, "message"), false); assert.equal(wantsCategory({ email: true, sms: false, push: true, digest: "immediate", categories: { schedule: false } }, "schedule"), true, "urgent kinds ignore the switch"); assert.equal(wantsCategory(undefined, "report"), true);
   assert.deepEqual(resolveLink("gameday-ev0302"), { name: "gameday", id: "ev0302", raw: "gameday-ev0302" }); assert.equal(resolveLink("coaches-team-t09").name, "coaches-team"); assert.equal(resolveLink("coaches-team-t09").id, "t09"); assert.equal(resolveLink(undefined).name, "home"); assert.equal(resolveLink("report-rc_p0097_mid").id, "rc_p0097_mid");
   assert.equal(dedupeKey("u1", "schedule", "event-e1"), "u1|schedule|event-e1"); assert.ok(NOTIFY_RULES.length >= 10);
-  const fam = familiesOfTeams(["t09"], demo.players, demo.teams); const comets = demo.teams.find((t) => t.id === "t09"); assert.ok(fam.includes(comets.headCoachUserId)); assert.ok(fam.includes(demo.players.find((p) => p.firstName === "Jack" && p.lastName === "Hill").guardianUserIds[0]));
+  const fam = familiesOfTeams(["t09"], demo.players, demo.teams); const comets = demo.teams.find((t) => t.id === "t09"); assert.ok(fam.includes(comets.headCoachUserId)); assert.ok(fam.includes(demo.players.find((p) => p.firstName === "Player").guardianUserIds[0]));
 });
 test("family calendar: one feed with games, duties, deadlines and alarms; ICS is well formed", () => {
-  const tyler = demo.users.find((u) => u.firstName === "Tyler" && u.lastName === "Hill"); const kids = demo.players.filter((p) => p.guardianUserIds.includes(tyler.id)); const today = demo.seasons[0].startDate;
+  const tyler = demo.users.find((u) => u.firstName === "Parent"); const kids = demo.players.filter((p) => p.guardianUserIds.includes(tyler.id)); const today = demo.seasons[0].startDate;
   const items = familyCalendar({ userId: tyler.id, children: kids, teams: demo.teams, coachTeamIds: [], events: demo.events, shifts: demo.shifts, assignments: demo.assignments, seasons: demo.seasons, tryouts: demo.tryouts, certifications: demo.certifications, eventTitle: (e) => `${e.awayTeamId} at ${e.homeTeamId}`, fieldName: (id) => id ?? "", teamName: (id) => id ?? "", isEvaluator: false, moduleTitle: (id) => id, fromDate: today });
   assert.ok(items.filter((i) => i.category === "game").length >= 10, "family games"); assert.ok(items.some((i) => i.category === "practice")); assert.ok(items.some((i) => i.category === "deadline" && i.allDay), "registration deadline is an all-day item");
   for (const i of items) if (i.category === "game") assert.ok(i.summary.startsWith("Game: ") && i.alarmMinutes === 120);
@@ -250,4 +250,10 @@ import { detectPreset, IMPORT_PRESETS } from "../../dist/test/engines/importer.m
 test("import presets recognise Sports Connect and PlayMetrics style headers and map every column", () => {
   for (const p of IMPORT_PRESETS.filter((x) => x.id !== "generic")) { const header = p.template.split("\n")[0].split(","); assert.equal(detectPreset(header).id, p.id, p.id); const cols = detectColumns(header); for (const f of ["first", "last", "birthDate", "guardianFirst", "guardianLast", "guardianEmail", "guardianPhone", "division"]) assert.ok(cols[f] !== undefined, `${p.id} maps ${f}`); }
   assert.equal(detectPreset(["first", "last", "dob"]).id, "generic");
+});
+
+test("demo role holders are named for their role", () => {
+  const names = demo.personas.map((p) => p.label); assert.deepEqual(names, ["Parent", "Player", "Head Coach", "Assistant Coach", "League President", "Treasurer", "Minor Commissioner", "Umpire", "Volunteer", "Platform Admin"]);
+  for (const p of demo.personas) { const u = demo.users.find((x) => x.id === p.userId); if (p.role === "player") { assert.equal(demo.players.find((x) => x.id === p.playerId).firstName, "Player"); continue; } assert.equal(`${u.firstName} ${u.lastName}`.trim(), p.label, p.id); }
+  const raw = JSON.stringify(demo); for (const old of ["Tyler Hill", "Mark Galasso", "Kenny Koplove", "Steve Koplove", "Coach Galasso", "Harbor Point"]) assert.ok(!raw.includes(old), `no leftover ${old}`);
 });

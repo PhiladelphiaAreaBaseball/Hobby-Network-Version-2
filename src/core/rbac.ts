@@ -40,3 +40,6 @@ export function can(memberships: Membership[], permission: Permission, scope: Sc
 export function hasRole(memberships: Membership[], role: Role, leagueId?: string) { return memberships.some((m) => m.role === role && (!leagueId || m.leagueId === leagueId)); }
 export function isAdminish(memberships: Membership[], leagueId: string) { return can(memberships, "league.manage", { leagueId }) || can(memberships, "division.manage", { leagueId }) || hasRole(memberships, "board_member", leagueId); }
 export function coachTeamIds(memberships: Membership[], leagueId: string) { return memberships.filter((m) => m.leagueId === leagueId && (m.role === "head_coach" || m.role === "assistant_coach")).flatMap((m) => m.teamIds ?? []); }
+
+/** The role line shown under a person's name, or `fallback` when the name already is the role (demo personas are named for their role). */
+export function roleLine(name: string, role: Role, fallback = ""): string { const r = ROLE_LABELS[role] ?? ""; const short = r.split(" / ")[0]; const n = name.trim().toLowerCase(); return n && (n === short.toLowerCase() || n === r.toLowerCase()) ? fallback : r; }

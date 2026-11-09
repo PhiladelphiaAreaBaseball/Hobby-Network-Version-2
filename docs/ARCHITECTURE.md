@@ -31,7 +31,7 @@ src/components/                design system (ui.tsx), icons, Diamond (SVG field
 src/features/                  one folder per product area (home, academy, parents, practice, iq, coaches, league, admin, tryouts, reports, gameday, …);
                                admin/ now also holds safety, umpires, season close-out, surveys and the budget tab
 data/content/                  educational library (validated by scripts/validate-content.mjs)
-data/demo/demo.json            DVYAA + Harbor Point fictional data (scripts/seed-demo.mjs)
+data/demo/demo.json            DVYAA fictional data, one league (scripts/seed-demo.mjs)
 ```
 
 ### Engines added in round five
@@ -43,10 +43,10 @@ data/demo/demo.json            DVYAA + Harbor Point fictional data (scripts/seed
 - Every tenant-owned record carries `leagueId`. `selectTenant()` builds the read model for exactly one league and pages only ever
   receive that object. Users are platform-wide; memberships bind a user to roles inside a league.
 - Mutable documents are stored at `t/<leagueId>/<collection>/<id>` in the artifact database; platform documents at
-  `platform/<collection>/<id>`. Switching leagues (platform admin, or the Harbor Point president persona) restarts the tenant subscription.
+  `platform/<collection>/<id>`. Switching leagues (the platform admin opening an onboarded league) restarts the tenant subscription.
 - `can(memberships, permission, { leagueId, teamId, divisionId })` scopes coaches to their teams and commissioners to their divisions.
   Guardians act only on their own children (`requirePlayerAccess`).
-- Tests: `tests/unit/engines.test.mjs` (RBAC and demo-data integrity), `tests/unit/features.test.mjs` (draft, report cards, game day) and `tests/e2e/smoke.mjs` (Harbor Point sees no DVYAA data).
+- Tests: `tests/unit/engines.test.mjs` (RBAC and demo-data integrity), `tests/unit/features.test.mjs` (draft, report cards, game day) and `tests/e2e/smoke.mjs` (a newly onboarded league sees no DVYAA data).
 - New permissions: `league.tryouts` (commissioners for their divisions, league admins), `tryout.evaluate` (coaches, commissioners; an evaluator must also be assigned to the tryout), `team.gameday` (coaches of that team; scorekeepers assigned to a game's duty and umpires on the game may also keep score).
 - Tryout pools and draft pools are derived from registrations for the season and division, never stored, so late registrations appear automatically. Finalizing a draft records picks and only moves players onto rosters when the commissioner chooses to.
 

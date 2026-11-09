@@ -18,7 +18,7 @@ Two problems, one product:
 ```
 npm install
 npm run validate   # content files
-npm run seed       # fictional demo data (DVYAA + Harbor Point)
+npm run seed       # fictional demo data (one league, DVYAA)
 npm run build      # dist/
 npm test           # unit tests
 npm run e2e        # Playwright: every route per role, workflows, tenant isolation, mobile
@@ -27,19 +27,21 @@ npm run serve      # local preview on http://localhost:4173/
 
 ## Demo access
 
-Open the artifact and click **Go into demo mode** (you become Tyler Hill, a parent) or pick any role on the sign-in screen. The `#demo` link does the same from anywhere. Every person is fictional:
+Open the artifact and click **Go into demo mode** for the guided tour, or pick any role on the sign-in screen. The `#demo` link starts the tour from anywhere. The demo holds one league, DVYAA, and every person you can sign in as is named for their role:
 
-| Persona | Role | What to try |
+| Persona | What they are | What to try |
 |---|---|---|
-| Tyler Hill | Parent of Jack (9) and Owen (6) | Home → "Build a 10-minute practice", Parent Academy pathway, mark a lesson done, register Owen for spring |
-| Jack Hill | Player (guardian-managed) | Player dashboard, Baseball IQ quiz, badges |
-| Mark Galasso | Head coach, Minor Comets | Coaches' HQ → planner, assign home practice, pitch counts, video review |
-| Kenny Koplove | League president | Administration dashboard, registrations, scheduling, fields, website CMS, Field Improvement Fund Calculator |
-| Steve Koplove | Board member (treasurer) | Finance and sponsors only; scheduling is denied |
-| Luis Ortega | Minor commissioner | Division-scoped teams and schedule |
-| Tom Garrity / Nate Okafor | Umpire / volunteer | Assignments, shifts |
-| Alex Chen | Platform super administrator | Leagues, plans, platform content, health |
-| Sam Delgado | President of Harbor Point LL | Proves tenant isolation: a second league with its own data |
+| Parent | Parent of a 9-year-old (Minor Comets) and a 6-year-old (T-ball Otters) | Home, report card, team duties, carpools, forms, register the T-ball Player for spring |
+| Player | The 9-year-old, guardian-managed account | Player dashboard, Baseball IQ quiz, badges |
+| Head Coach | Head coach, Minor Comets | Coaches' HQ, game plans, practice planner, game day, evaluations |
+| Assistant Coach | Assistant coach, Minor Comets | Team tools, shared game plans |
+| League President | Runs the league | Administration: registrations, scheduling, tournaments, forms, finance, website |
+| Treasurer | Board member | Finance and sponsors only; scheduling is denied |
+| Minor Commissioner | Division commissioner | Division-scoped teams, tryouts and schedule |
+| Umpire / Volunteer | Umpire, concessions volunteer | Assignments, availability, pay, shifts |
+| Platform Admin | GamePlanIQ operator | Onboard a league (a new league starts empty and never sees DVYAA data), plans, platform content |
+
+League officers are also named for their titles (Safety Officer, Information Officer, Player Agent, the other division commissioners, Umpire 2 to 6). Other families, children and coaches keep fictional names so rosters stay readable.
 
 ## Documentation
 

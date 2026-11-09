@@ -20,7 +20,7 @@
           "title": "A parent's home page",
           "route": "home",
           "explain": [
-            "You are signed in as Tyler Hill, a parent of two players who never played baseball himself.",
+            "You are signed in as the Parent: a mom or dad of two players who never played baseball.",
             "Home shows only what matters today: field status, the next game or practice, anything the coach asked the family to do, and a report card waiting to be read.",
             "The digest at the top says the same thing the daily email would say, so a family that never opens an app still knows what is happening."
           ],
@@ -112,7 +112,7 @@
           "title": "A player's report card",
           "route": "report-rc_p0097_mid",
           "explain": [
-            "Coach Galasso rated ten skills, celebrated three strengths and picked one thing to work on for Jack, age nine.",
+            "The head coach rated ten skills, celebrated three strengths and picked one thing to work on for the Player, age nine.",
             "The app chose the lessons that teach that one thing, written for his age.",
             "Report cards are private to the family, the coach and the league office. They are never a ranking and never shared between families."
           ],
@@ -205,7 +205,7 @@
             "Medical answers are seen only by the child's coaches, the safety officer and the president."
           ],
           "try": [
-            "Pick Jack, answer the required questions, and tap Submit."
+            "Pick the Player, answer the required questions, and tap Submit."
           ],
           "target": "button:Submit"
         },
@@ -214,7 +214,7 @@
           "title": "A player's whole history",
           "route": "player-p0097",
           "explain": [
-            "One timeline for Jack across seasons: teams, positions played from the lineup cards, attendance, tryout scores, report cards, badges, pitch counts and coach evaluations.",
+            "One timeline for the Player across seasons: teams, positions played from the lineup cards, attendance, tryout scores, report cards, badges, pitch counts and coach evaluations.",
             "This follows the player from T-ball to Majors so next year's coach starts with the full picture."
           ],
           "try": [
@@ -248,7 +248,7 @@
           "title": "A player's own account",
           "route": "home",
           "explain": [
-            "You are now in Jack Hill's player account. Jack is nine, so the account is managed by his dad: the name at the top right stays Tyler's, the role changes to Player, and every screen is Jack's.",
+            "You are now in the Player's own account. He is nine, so the account is managed by his parent: the name at the top right stays Parent, the role changes to Player, and every screen is his.",
             "There are no messages, no leaderboards and no comparison to teammates. He sees his next game, his coach's home practice, his badges and a quick Baseball IQ question."
           ],
           "try": [
@@ -291,7 +291,7 @@
           "title": "Coaches' Headquarters",
           "route": "coaches",
           "explain": [
-            "You are Mark Galasso, a parent with one season of coaching behind him.",
+            "You are the Head Coach of the Minor Comets: a volunteer parent with one season of coaching behind him.",
             "One page holds his teams, practice planner, game day, certification progress, tryout scoring and All-Star ballots."
           ],
           "try": [
@@ -316,7 +316,7 @@
           "title": "Season curriculum",
           "route": "coaches-team-t09",
           "explain": [
-            "Mark assigned the league's intermediate program to the Comets. The card shows this week's focus and lessons, and colours every week by whether it was actually run.",
+            "The head coach assigned the league's intermediate program to the Comets. The card shows this week's focus and lessons, and colours every week by whether it was actually run.",
             "A week counts when a completed practice or a home assignment that week teaches one of its lessons. The board sees the same thing for every team, to know where to offer help."
           ],
           "try": [
@@ -329,7 +329,7 @@
           "title": "Player evaluations",
           "route": "form-form_eval_mid",
           "explain": [
-            "A coach evaluation form, one per rostered player, built by the league office. Mark has done six of his twelve Comets.",
+            "A coach evaluation form, one per rostered player, built by the league office. The head coach has done six of his twelve Comets.",
             "Answers feed each player's history and next season's team formation. Families never see other players' evaluations."
           ],
           "try": [
@@ -432,7 +432,7 @@
           "title": "The dashboard",
           "route": "admin",
           "explain": [
-            "You are Kenny Koplove, league president.",
+            "You are the League President.",
             "The attention list comes first: documents to review, schedule conflicts, a live draft, coaches not yet certified, fields needing a call."
           ],
           "try": [
