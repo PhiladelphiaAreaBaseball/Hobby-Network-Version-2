@@ -42,7 +42,7 @@ export function Tour() {
       <div className="tour-foot">
         <Button size="sm" variant="ghost" icon={<I.chevronLeft size={14} />} disabled={first} onClick={tourBack}>Back</Button>
         <Button size="sm" variant="primary" onClick={tourNext}>{last ? "Finish" : "Next"}<I.chevronRight size={14} /></Button>
-        <Button size="sm" onClick={tourSkipSection}>{lastInSection && !last ? "Next section" : last ? "Finish" : "Skip this section"}</Button>
+        {!last && <Button size="sm" onClick={tourSkipSection}>{lastInSection ? "Next section" : "Skip this section"}</Button>}
         <Button size="sm" variant="ghost" onClick={() => tourHide(true)}>Hide</Button>
       </div>
     </aside>

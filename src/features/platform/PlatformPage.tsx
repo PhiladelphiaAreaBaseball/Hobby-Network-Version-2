@@ -12,9 +12,9 @@ import type { League, SubscriptionPlan } from "../../core/types";
 import { OnboardingWizard } from "./OnboardingWizard";
 export function PlatformPage({ section }: { section?: string }) {
   const ss = useSession(); const s = useAppStore(); const content = useContent(); const [tab, setTab] = useState<"overview" | "leagues" | "plans" | "health" | "support">("overview"); const [editPlan, setEditPlan] = useState<SubscriptionPlan | null>(null); const [newLeague, setNewLeague] = useState(false); const [sub, setSub] = useState<League | null>(null);
-  if (!ss.isPlatform) return <Page><PageHead title="Platform administration" /><Notice kind="warn">Only platform super administrators can open this area.</Notice></Page>;
   const leagues = allPlatformLeagues(s); const plans = (s.demo?.plans ?? []).map((p) => ({ ...p, ...((s.platformOverlays.plans ?? {})[p.id] ?? {}) })) as SubscriptionPlan[];
   const tenants = useMemo(() => leagues.map((l) => ({ league: l, t: selectTenant(s, l.id)! })), [leagues, s]);
+  if (!ss.isPlatform) return <Page><PageHead title="Platform administration" /><Notice kind="warn">Only platform super administrators can open this area.</Notice></Page>;
   const mrr = leagues.filter((l) => l.subscription.status === "active").reduce((a, l) => a + (plans.find((p) => p.id === l.subscription.planId)?.monthlyPrice ?? 0), 0);
   const totals = tenants.reduce((a, x) => ({ players: a.players + x.t.players.length, teams: a.teams + x.t.teams.length, completions: a.completions + x.t.completions.length, iq: a.iq + x.t.iqProgress.reduce((b, p) => b + Object.keys(p.answers).length, 0), practices: a.practices + x.t.practicePlans.filter((p) => p.completedAt).length, videos: a.videos + x.t.videos.filter((v) => v.status !== "deleted").length }), { players: 0, teams: 0, completions: 0, iq: 0, practices: 0, videos: 0 });
   const support = tenants.flatMap((x) => x.t.notifications.filter((n) => n.kind === "safety" || n.kind === "privacy").map((n) => ({ ...n, league: x.league.name })));

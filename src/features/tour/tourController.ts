@@ -3,7 +3,7 @@
    and points at the thing to try. State is kept in the store and mirrored to localStorage so a reload resumes. */
 import { store, type TourState } from "../../core/store";
 import { navigate, parseRoute } from "../../core/router";
-import { signInPersona } from "../../app/shell/AppShell";
+import { signInPersona, enterDemoMode } from "../../app/shell/AppShell";
 import { safeLocalGet, safeLocalRemove, safeLocalSet } from "../../core/util";
 import type { TourContent, TourSection, TourStep } from "../../core/types";
 
@@ -31,7 +31,7 @@ function goTo(sectionIdx: number, stepIdx: number) {
   const state: TourState = { section: sectionIdx, step: Math.min(stepIdx, section.steps.length - 1), hidden: false, done: false }; setState(state); const stop = currentStop(state, content); if (stop) open(stop);
 }
 function finish() { const st = store.get().ui.tour; setState({ section: st?.section ?? 0, step: st?.step ?? 0, hidden: false, done: true }); }
-export function startTour(sectionIdx = 0) { goTo(sectionIdx, 0); store.toast("Guided tour started. Use Next, Back and Skip this section at the bottom of the screen.", "info"); }
+export function startTour(sectionIdx = 0) { if (!tourContent()) { enterDemoMode(); return; } goTo(sectionIdx, 0); store.toast("Guided tour started. Use Next, Back and Skip this section at the bottom of the screen.", "info"); }
 export function stopTour() { setState(null); }
 export function tourNext() {
   const content = tourContent(); const st = store.get().ui.tour; if (!content || !st) return;
@@ -52,9 +52,9 @@ export function resumeSavedTour() {
 }
 /** Resolves a stop's `target` spec to a visible element on the page. Specs: `button:Label`, `tab:Label`, `nav:Label`, `css:selector`. */
 export function findTourTarget(spec: string): HTMLElement | null {
-  const i = spec.indexOf(":"); const kind = i < 0 ? "button" : spec.slice(0, i); const label = (i < 0 ? spec : spec.slice(i + 1)).trim().toLowerCase();
+  const i = spec.indexOf(":"); const kind = i < 0 ? "button" : spec.slice(0, i); const raw = (i < 0 ? spec : spec.slice(i + 1)).trim(); const label = raw.toLowerCase();
   const outside = (el: Element) => !el.closest(".tour-panel, .tour-spot, .toasts");
-  if (kind === "css") { const el = document.querySelector<HTMLElement>(label); return el && outside(el) ? el : null; }
+  if (kind === "css") { const el = document.querySelector<HTMLElement>(raw); return el && outside(el) ? el : null; }
   const sel = kind === "tab" ? "[role=tab]" : kind === "nav" ? ".nav-item" : "button, a, [role=button]";
   const norm = (el: Element) => (el.textContent ?? "").replace(/\s+/g, " ").trim().toLowerCase();
   const els = [...document.querySelectorAll<HTMLElement>(sel)].filter((el) => outside(el) && el.offsetParent !== null && !el.closest(".rail"));

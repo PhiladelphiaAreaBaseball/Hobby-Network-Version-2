@@ -162,7 +162,6 @@ input[type="range"].slider:focus-visible { outline: none; } input[type="range"].
 @media (max-width: 760px) {
   .tour-panel { left: 0; right: 0; width: auto; bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom, 0px)); border-radius: var(--radius-lg) var(--radius-lg) 0 0; max-height: 52vh; }
   .tour-pill { bottom: calc(var(--tabbar-h) + 12px + env(safe-area-inset-bottom, 0px)); }
-  .tour-active .tabbar { z-index: 86; }
 }
 @media (prefers-reduced-motion: reduce) { .tour-spot { animation: none; transition: none; } .tour-panel { animation: none; } }
 @media (min-width: 761px) { .tour-panel-left { right: auto; left: calc(var(--rail-w) + 16px); } }
