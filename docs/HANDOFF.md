@@ -38,6 +38,10 @@ Little League has chosen PlayMetrics (Stack Sports) for Central Registration fro
 - Privacy: only a head coach of the team creates or edits (`isHeadCoach` in `actions.ts`); the read model in `select.ts` returns a plan only to its owner and the people it was shared with, so league staff do not see it by rank. Sharing is read-only and limited to the team's coaches, league staff and the team's families (`gamePlanShareTargets`). In a server deployment the same rule belongs in the API query.
 - Use on game day writes the plan into the lineup card (Relief and Roster become bench); Dugout card downloads a PDF.
 
+## Feature guide handout
+
+`docs/GamePlanIQ-Feature-Guide.pdf` lists every feature by section (what it does, why it helps) to hand out with the demo. Rebuild with `python3 scripts/build-feature-guide.py docs/GamePlanIQ-Feature-Guide.pdf dist/assets/gameplaniq-logo.png` after adding features.
+
 ## Running a demo
 - Open `#demo-guide` (Presenter guide in the rail, or from the welcome page) for the 20-minute script; every step has a Go button.
 - Reset demo data from the persona switcher or the guide before presenting. Shared-database resets need the artifact owner.
