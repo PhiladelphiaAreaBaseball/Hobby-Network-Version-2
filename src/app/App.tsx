@@ -8,7 +8,7 @@ export function App() {
   if (!s.booted) return <div className="boot" role="status"><div className="boot-title">GamePlan<span style={{ color: "var(--primary)" }}>IQ</span></div><div className="boot-sub">Loading your league…</div></div>;
   if (s.bootError) return <div className="boot"><div className="boot-title">GamePlan<span style={{ color: "var(--primary)" }}>IQ</span></div><div className="boot-sub">{s.bootError}</div></div>;
   const view = routeView(s.route);
-  if (view.frame === "public" || s.route.name === "demo") return <>{view.element}</>;
+  if (view.frame === "public" || (s.route.name === "demo" && s.route.id !== "guide")) return <>{view.element}</>;
   if (!s.session) return <WelcomePage />;
   if (view.frame === "none") return <>{view.element}</>;
   return <AppShell>{view.element ?? <Page><Notice kind="warn">Page not found.</Notice></Page>}</AppShell>;

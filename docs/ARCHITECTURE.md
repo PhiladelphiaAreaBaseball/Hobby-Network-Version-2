@@ -20,7 +20,8 @@ using the artifact runtime's `db`, `user`, `sample`, `assets` and `downloads` ca
 artifact/index.template.html   page shell (title, inline CSS, React UMD scripts, app.js)
 src/main.tsx                   boot: load content + demo JSON, init capabilities, restore session, start persistence
 src/app/                       App, routes (hash router), shell (rail, topbar, tab bar, persona switcher)
-src/core/                      types (domain model), rbac, auth, store, persistence adapters, select (tenant read model), actions
+src/core/                      types (domain model), rbac, auth, store, persistence adapters, select (tenant read model), actions,
+                               demoShift (rolls seeded dates forward to today)
 src/engines/                   pure logic: practice generator, coach planner, scheduling conflicts, eligibility, pitch counts,
                                achievements, search, standings, ICS, turf calculator, PDF writer, draft board (ratings, snake order,
                                balance warnings), report cards (lesson recommendations), game day (lineup rules, scorebook, playing time),

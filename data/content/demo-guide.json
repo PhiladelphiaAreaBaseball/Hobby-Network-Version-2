@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "title": "Twenty minutes with GamePlanIQ",
+  "intro": "A board meeting demo in five acts: a parent, a player, a coach, the league office and the platform. Each step switches to the right person and opens the right screen. Say what is in bold; click what is listed.",
+  "acts": [
+    {
+      "id": "family", "title": "Act 1 · A parent who never played", "persona": "persona_parent", "minutes": 5,
+      "steps": [
+        { "id": "home", "title": "Tyler's home page", "route": "home", "minutes": 1, "say": ["Every parent lands on what matters today: field status, the next game, a coach's assignment and a report card waiting.", "The digest at the top is the same thing a daily email would say."], "click": ["Switch Today to Week", "Open the report card card"] },
+        { "id": "report", "title": "Jack's report card", "route": "report-rc_p0097_mid", "minutes": 1, "say": ["Coach Galasso rated ten skills, celebrated three, picked one thing to work on, and the app chose the lessons that teach it for a nine-year-old.", "Private to the family, the coach and the league. Never a ranking."], "click": ["Mark as read", "Open the first lesson"] },
+        { "id": "lesson", "title": "A lesson for a scared kid", "route": "lesson-fld-20", "minutes": 1, "say": ["Written for the parent who never played: what to do, what to say, what to avoid, a verified drill video, and a ten-minute practice.", "Mark done feeds the player's progress and badges."], "click": ["Scroll to the parent instructions", "Build a 10-minute practice"] },
+        { "id": "signups", "title": "Game-day duties on the team page", "route": "team-t09", "minutes": 1, "say": ["Snacks, scorekeeper, dugout parent, per game. Parents claim with one tap; the coach can nudge the whole team."], "click": ["Sign-ups tab", "I'll do it on the open snack slot"] },
+        { "id": "calendar", "title": "One calendar for the family", "route": "schedule", "minutes": 1, "say": ["Games, practices, duties, due dates and deadlines in one file with phone reminders. This is how the league reaches a family that never opens an app."], "click": ["Family calendar", "Download"] }
+      ]
+    },
+    {
+      "id": "player", "title": "Act 2 · The player", "persona": "persona_player", "minutes": 2,
+      "steps": [
+        { "id": "iq", "title": "Baseball IQ on the diamond", "route": "iq-quiz-mixed", "minutes": 2, "say": ["Jack's own account: no messages, no leaderboards. Tap where the ball should go; some answers are acceptable, not just right or wrong.", "Fifteen lessons and fifty questions, all written for kids."], "click": ["Answer two questions", "See the explanation"] }
+      ]
+    },
+    {
+      "id": "coach", "title": "Act 3 · The volunteer coach", "persona": "persona_coach", "minutes": 6,
+      "steps": [
+        { "id": "hq", "title": "Coaches' Headquarters", "route": "coaches", "minutes": 1, "say": ["Mark is a parent with one season of experience. Everything he needs is on one page: practice planner, team tools, game day, certification, tryouts and All-Star ballots."], "click": ["Look at the certification progress and the tryout card"] },
+        { "id": "gameday", "title": "Game day: lineup and scorebook", "route": "coaches-team-t09", "minutes": 2, "say": ["The lineup card checks the league's minimum-play rule, bench innings and pitcher rest before first pitch.", "The scorebook is one thumb: run, out, pitch count. Final updates standings and rest days in one tap."], "click": ["Game day button", "Auto-rotate the rest", "Scorebook tab, add a run and an out"] },
+        { "id": "run", "title": "Run a practice from a phone", "route": "practice-plan-plan_team_demo1", "minutes": 1, "say": ["A generated plan becomes a full-screen timer with cues and the drill video one tap away. Finish logs it and sends the home assignment."], "click": ["Run practice", "Start, then Next block"] },
+        { "id": "tryout", "title": "Tryout scoring board", "route": "tryout-try_mj_next", "minutes": 1, "say": ["Six stations, one to five, on any phone. Scores from every evaluator roll into the draft board the commissioner runs."], "click": ["Score a player: Save and next", "Rankings"] },
+        { "id": "cert", "title": "Coach certification", "route": "coaches-certification", "minutes": 1, "say": ["Six safety and conduct modules with a check at the end. The league sees who is ready to be around players; nobody chases paper."], "click": ["Open the heat and lightning module"] }
+      ]
+    },
+    {
+      "id": "office", "title": "Act 4 · The league office", "persona": "persona_admin", "minutes": 6,
+      "steps": [
+        { "id": "dashboard", "title": "What needs a decision today", "route": "admin", "minutes": 1, "say": ["Kenny sees the attention list first: documents to review, conflicts, a live draft, coaches not yet certified, fields needing a call."], "click": ["Field status: set the Tee Ball Diamond to open"] },
+        { "id": "schedule", "title": "Scheduling with conflict detection", "route": "admin-schedule", "minutes": 1, "say": ["Drag a game to another day. Field, team, shared-coach and umpire conflicts are flagged; a rainout closes a field and tells every family in one step."], "click": ["Rainout tool, then cancel"] },
+        { "id": "draft", "title": "Draft board and All-Stars", "route": "admin-tryouts", "minutes": 1, "say": ["Tryout scores become a snake draft with balance warnings that advise, never block. All-Star nominations, ballots and the tally live here; only selected families are told."], "click": ["Open the Minor draft board", "Pick best available"] },
+        { "id": "import", "title": "Bringing a league over", "route": "admin-players", "minutes": 1, "say": ["Paste last season's spreadsheet. Every row is checked and previewed before anything is written."], "click": ["Import CSV, use the example row"] },
+        { "id": "comms", "title": "Communications and notification rules", "route": "admin-communications", "minutes": 1, "say": ["One announcement reaches the right audience. Every notification follows published rules: topic switches, quiet hours, no duplicates."], "click": ["Scroll to Notification rules"] },
+        { "id": "website", "title": "Public website without code", "route": "admin-website", "minutes": 1, "say": ["Change the headline, publish, and open the public site. No rosters or player names are ever public."], "click": ["Edit the headline", "Publish changes", "View public site"] }
+      ]
+    },
+    {
+      "id": "platform", "title": "Act 5 · Your league, in fifteen minutes", "persona": "persona_platform", "minutes": 2,
+      "steps": [
+        { "id": "onboard", "title": "Onboard a league", "route": "platform", "minutes": 2, "say": ["Name, colors, season, divisions, teams and fields. The wizard ends on a working league office ready for the CSV import you just saw."], "click": ["Onboard a league", "Walk the steps, then Create league"] }
+      ]
+    }
+  ],
+  "closing": ["Everything you saw runs on one shared database with role-based permissions enforced on every action, not just hidden in menus.", "Payments, email and SMS connect at deployment; the in-app record and the family calendar work today."]
+}

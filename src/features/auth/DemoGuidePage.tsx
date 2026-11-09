@@ -1,0 +1,36 @@
+import { useState } from "react";
+import { Badge, Button, Card, Modal, Notice, Page, PageHead, Progress, Stat } from "../../components/ui";
+import { I } from "../../components/icons";
+import { useAppStore } from "../../core/store";
+import { useContent } from "../../core/hooks";
+import { navigate, parseRoute } from "../../core/router";
+import { actions, run } from "../../core/actions";
+import { signInPersona } from "../../app/shell/AppShell";
+import { ROLE_LABELS } from "../../core/rbac";
+import { ExportModal } from "../practice/PracticePages";
+import { safeLocalGet, safeLocalSet, safeLocalRemove } from "../../core/util";
+import { fmtDate } from "../../core/dates";
+
+const DONE_KEY = "gameplaniq:v1:demoGuideDone";
+export function DemoGuidePage() {
+  const s = useAppStore(); const content = useContent(); const guide = content.demoGuide; const personas = s.demo?.personas ?? []; const [done, setDone] = useState<Set<string>>(() => { try { return new Set(JSON.parse(safeLocalGet(DONE_KEY) ?? "[]")); } catch { return new Set(); } }); const [exportOpen, setExportOpen] = useState(false); const [reset, setReset] = useState(false);
+  if (!guide) return <Page><PageHead title="Presenter guide" /><Notice kind="warn">The demo guide content is not loaded.</Notice></Page>;
+  const steps = guide.acts.flatMap((a) => a.steps.map((st) => ({ ...st, act: a }))); const total = steps.reduce((a, st) => a + st.minutes, 0);
+  const go = (persona: string, route: string, stepId: string) => { const n = new Set(done); n.add(stepId); setDone(n); safeLocalSet(DONE_KEY, JSON.stringify([...n])); if (s.session?.personaId !== persona) signInPersona(persona); const r = parseRoute("#" + route); setTimeout(() => navigate(r.name, r.id), 30); };
+  const meta = (s.demo as any)?.meta as { seededOn?: string; shiftedDays?: number; shiftedTo?: string } | undefined;
+  const text = [`# ${guide.title}`, "", guide.intro, "", ...guide.acts.flatMap((a) => [`## ${a.title} (${a.minutes} min) — sign in as ${personas.find((p) => p.id === a.persona)?.label ?? a.persona}`, ...a.steps.flatMap((st) => [`### ${st.title} · #${st.route} · ${st.minutes} min`, ...st.say.map((x) => `Say: ${x}`), ...st.click.map((x) => `Click: ${x}`), ""])]), "## Close", ...guide.closing.map((c) => `- ${c}`)].join("\n");
+  return <Page><PageHead eyebrow="Presenter guide" title={guide.title} lede={guide.intro} actions={<><Button icon={<I.copy size={16} />} onClick={() => setExportOpen(true)}>Copy the script</Button><Button variant="danger" icon={<I.refresh size={16} />} onClick={() => setReset(true)}>Reset demo data</Button></>} />
+    <div className="stats"><Stat label="Running time" value={`${total} min`} hint={`${steps.length} steps in ${guide.acts.length} acts`} /><Stat label="Progress" value={<span className="flex items-center gap-2"><span style={{ width: 90 }}><Progress value={done.size} max={steps.length} tone="grass" label="Steps visited" /></span>{done.size}/{steps.length}</span>} hint={done.size ? <button className="link-btn xsmall" onClick={() => { setDone(new Set()); safeLocalRemove(DONE_KEY); }}>clear</button> : "tap Go on any step"} /><Stat label="Demo dates" value={<span style={{ fontSize: "1.05rem" }}>{meta?.shiftedDays ? `shifted +${meta.shiftedDays} days` : "as seeded"}</span>} hint={meta?.seededOn ? `seeded ${fmtDate(meta.seededOn)}, so today always has games` : ""} /><Stat label="Data store" value={<span style={{ fontSize: "1.05rem" }}>{s.persistence.mode === "artifact-db" ? "Shared" : "This browser"}</span>} hint={s.persistence.mode === "artifact-db" ? "reset returns the shared demo to the seed" : "reset clears this browser only"} /></div>
+    <Notice kind="info"><strong>Before you present:</strong> reset the demo data, open the Family act on a phone-sized window if you can, and keep this page in a second tab. Every Go button signs in as the right person and opens the screen.</Notice>
+    {guide.acts.map((a) => { const p = personas.find((x) => x.id === a.persona); const u = p ? s.demo!.users.find((x) => x.id === p.userId) : undefined; return <Card key={a.id} title={<span className="flex items-center gap-2 wrap">{a.title}<Badge>{a.minutes} min</Badge></span>} action={<span className="small muted">{u ? `${u.firstName} ${u.lastName} · ${ROLE_LABELS[p!.role].split(" / ")[0]}` : a.persona}</span>}>
+      <div className="col gap-3">{a.steps.map((st, i) => <div key={st.id} className={`guide-step ${done.has(st.id) ? "done" : ""}`}><div className="guide-num">{done.has(st.id) ? <I.check size={16} /> : i + 1}</div><div className="col gap-2 grow" style={{ minWidth: 0 }}><div className="flex items-center gap-2 wrap"><strong>{st.title}</strong><span className="xsmall muted">#{st.route} · {st.minutes} min</span></div><div className="guide-cols"><div><span className="guide-label">Say</span><ul className="small col gap-1" style={{ paddingLeft: "1.1rem" }}>{st.say.map((x, k) => <li key={k}>{x}</li>)}</ul></div><div><span className="guide-label">Click</span><ul className="small col gap-1" style={{ paddingLeft: "1.1rem" }}>{st.click.map((x, k) => <li key={k}>{x}</li>)}</ul></div></div></div><div><Button size="sm" variant={done.has(st.id) ? "default" : "primary"} icon={<I.play size={14} />} onClick={() => go(a.persona, st.route, st.id)}>Go</Button></div></div>)}</div></Card>; })}
+    <Card title="Close"><ul className="col gap-1" style={{ paddingLeft: "1.1rem" }}>{guide.closing.map((c, i) => <li key={i}>{c}</li>)}</ul></Card>
+    {exportOpen && <ExportModal text={text} onClose={() => setExportOpen(false)} />}
+    {reset && <ResetDemoModal onClose={() => setReset(false)} />}
+  </Page>;
+}
+export function ResetDemoModal({ onClose }: { onClose: () => void }) {
+  const s = useAppStore(); const [busy, setBusy] = useState(false); const shared = s.persistence.mode === "artifact-db"; const canShared = !shared || !!s.viewer?.isOwner || !!s.viewer?.canEdit;
+  return <Modal title="Reset demo data" onClose={onClose} footer={<><Button onClick={onClose}>Cancel</Button><Button variant="danger" disabled={busy || !canShared} onClick={async () => { setBusy(true); const r = await run(() => actions.resetDemoData()); setBusy(false); if (r !== undefined) { onClose(); setTimeout(() => location.reload(), 400); } }}>{busy ? "Resetting…" : "Reset and reload"}</Button></>}>
+    <div className="col gap-3"><p className="small">{shared ? "This removes every change saved to the shared demo database for the current league and the platform (scores, nominations, report cards, imported players, announcements) and returns to the seeded data. Everyone with the link sees the reset." : "This clears the demo changes saved in this browser and returns to the seeded data. Other browsers are not affected."}</p>{shared && !canShared && <Notice kind="warn">Only the artifact owner or an editor can reset the shared database. Your own browser-local changes are not affected by this option.</Notice>}<Notice kind="info">Content (lessons, drills, guides) is never touched. Seeded demo data cannot be lost; it is rebuilt from the files on every load.</Notice></div></Modal>;
+}

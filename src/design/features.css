@@ -131,3 +131,8 @@ input[type="range"].slider:focus-visible { outline: none; } input[type="range"].
 /* ---- Digest ---- */
 .digest-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--fg-faint); flex-shrink: 0; margin-top: .35rem; } .digest-dot.urgent { background: var(--stitch); } .digest-dot.action { background: var(--gold); } .digest-dot.info { background: var(--sky); }
 .digest-line { align-items: flex-start; }
+
+/* ---- Presenter guide ---- */
+.guide-step { display: grid; grid-template-columns: 32px minmax(0, 1fr) auto; gap: .8rem; align-items: start; padding: .75rem 0; border-top: 1px solid var(--border); } .guide-step:first-child { border-top: 0; }
+.guide-num { width: 30px; height: 30px; border-radius: 50%; background: var(--surface-3); display: grid; place-items: center; font-family: var(--font-display); font-weight: 700; } .guide-step.done .guide-num { background: var(--grass); color: #fff; }
+.guide-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .75rem; } .guide-label { font-family: var(--font-display); text-transform: uppercase; letter-spacing: .08em; font-size: .7rem; font-weight: 600; color: var(--fg-muted); display: block; margin-bottom: .2rem; }

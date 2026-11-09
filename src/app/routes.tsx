@@ -30,13 +30,14 @@ import { RunPracticePage } from "../features/practice/RunPracticePage";
 import { CertificationPage, CertModulePage } from "../features/coaches/CertificationPages";
 import { NotificationsPage } from "../features/account/NotificationsPage";
 import { AllStarPage } from "../features/tryouts/AllStarPages";
+import { DemoGuidePage } from "../features/auth/DemoGuidePage";
 export function routeView(r: Route): { frame: "app" | "public" | "none"; element: ReactNode } {
   switch (r.name) {
     case "marketing": return { frame: "public", element: <MarketingPage /> };
     case "pricing": return { frame: "public", element: <PricingPage /> };
     case "directory": return { frame: "public", element: <DirectoryPage /> };
     case "site": return { frame: "public", element: <PublicSitePage slug={r.id ?? "dvyaa"} /> };
-    case "demo": return { frame: "none", element: <DemoEntry /> };
+    case "demo": return r.id === "guide" ? { frame: "app", element: <DemoGuidePage /> } : { frame: "none", element: <DemoEntry /> };
     case "home": return { frame: "app", element: <HomePage /> };
     case "league": return { frame: "app", element: <MyLeaguePage section={r.id} /> };
     case "teams": return { frame: "app", element: <TeamsPage /> };

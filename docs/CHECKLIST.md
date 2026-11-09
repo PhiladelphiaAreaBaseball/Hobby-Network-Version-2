@@ -80,14 +80,22 @@ gap · **Integration** = architecture in place, needs an external service or cre
 | Reports and exports | Done | |
 | Platform super admin (leagues, subscriptions, plans, usage, support, health) | Done | |
 
+## Demo readiness
+| Area | Status | Notes |
+|---|---|---|
+| Demo dates stay fresh | Done | Seed records `meta.seededOn`; on load every date moves forward by the days since seeding (birth dates and the age determination date never move) so today always has games, duties and live deadlines; `localStorage gameplaniq:v1:freezeDates=1` disables it |
+| Demo reset | Done | Persona switcher and presenter guide: clears every saved change for the current league and the platform (artifact owner or editor for the shared database; anyone for browser-local data) and reloads |
+| Presenter guide | Done | `#demo-guide`: five acts, 20 minutes, one Go button per step that switches persona and opens the screen; say/click notes; progress; copyable script; content in `data/content/demo-guide.json` |
+| League onboarding wizard | Done | Platform → Onboard a league: league and president, season, divisions from templates, teams, fields, review; creates league, president account, season, divisions, teams, fields, starter website and welcome announcement, then opens the new league's administration; platform operators can open any league from the Leagues tab |
+
 ## Testing (this build)
-- Unit: 29 tests pass (`npm test`): calculator formulas and default example, clamping, scenario codes, PDF writer, RBAC scoping, router,
+- Unit: 30 tests pass (`npm test`): calculator formulas and default example, clamping, scenario codes, PDF writer, RBAC scoping, router,
   scheduling conflicts, eligibility, pitch counts, search relevance, practice generator safety, team planner timing, standings, ICS, demo data integrity,
-  draft ratings/snake order/balance warnings, report card recommendations, lineup auto-rotation and play-rule warnings, scorebook state, demo tryout/draft/report-card consistency, certification grading and status, CSV importer parsing and validation, rollover preview and season-scoped standings, notification rules (quiet hours, preferences, link resolution) and the family calendar feed, digest composition, All-Star eligibility, tally and ballot rules.
+  draft ratings/snake order/balance warnings, report card recommendations, lineup auto-rotation and play-rule warnings, scorebook state, demo tryout/draft/report-card consistency, certification grading and status, CSV importer parsing and validation, rollover preview and season-scoped standings, notification rules (quiet hours, preferences, link resolution) and the family calendar feed, digest composition, All-Star eligibility, tally and ballot rules, demo date shifting.
 - Browser (`npm run e2e`): 134 routes across 10 personas render with no console errors or dead ends; tenant isolation; board-member denial (including tryouts);
   parent workflows (complete lesson, generate and log practice, answer an IQ question, register a child, send a message, search);
   coach workflows (assign home practice, attendance, pitch count rest calculation, tryout scoring, publish a report card, lineup card, scorebook through
-  a finalized game, certification quiz to a certificate, run-mode timer to completion, planner); commissioner draft pick; coach All-Star nomination and digest card; commissioner All-Star tally and finalize; admin workflows (field status, announcement, approve registration, create event, CMS change visible
+  a finalized game, certification quiz to a certificate, run-mode timer to completion, planner); commissioner draft pick; coach All-Star nomination and digest card; commissioner All-Star tally and finalize; platform onboarding wizard through to the new league's pages and public site; presenter guide Go and demo reset; admin workflows (field status, announcement, approve registration, create event, CMS change visible
   on the public site, tryout rankings, certification readiness tab, CSV import with preview, play-rules editor, rollover preview); parent team-duty sign-up, report-card acknowledgement, notification center (open and mark all read), family calendar export and single-event calendar file; phone-width overflow checks on 22 pages; dark theme render;
   calculator interactions including PDF bytes and saved scenario.
 

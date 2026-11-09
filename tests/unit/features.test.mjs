@@ -11,6 +11,7 @@ import { deliverAtFor, wantsCategory, resolveLink, dedupeKey, familiesOfTeams, N
 import { familyCalendar, buildIcsItems } from "../../dist/test/engines/familyCalendar.mjs";
 import { buildDigest, digestToText } from "../../dist/test/engines/digest.mjs";
 import { allStarEligibility, isEligible, tally, ballotProblems, suggestedSelection } from "../../dist/test/engines/allstars.mjs";
+import { shiftDateString, shiftDates, shiftDemo, daysBetween } from "../../dist/test/core/demoShift.mjs";
 import { autoRotation, lineupWarnings, advanceOut, addRun, scoreTotals, playingTime, fairnessNotes, DEFAULT_PLAY_RULES, BENCH, POSITIONS } from "../../dist/test/engines/gameDay.mjs";
 const load = (f) => JSON.parse(readFileSync(`data/content/${f}`, "utf8")).items;
 const lessons = ["lessons-hitting.json", "lessons-fielding.json", "lessons-throwing.json", "lessons-baserunning.json", "lessons-positions-mental.json"].flatMap(load);
@@ -155,4 +156,12 @@ test("all-stars: eligibility checks, ranked tally with tie-breaks, ballot rules 
   assert.deepEqual(ballotProblems(pool, ["a", "b"], new Set(["a", "b", "c"]), new Set(["a", "b"])), ["At most 1 of your own players may be on your ballot (you listed 2)."]); assert.ok(ballotProblems(pool, ["a", "a"], new Set(["a"]), new Set()).includes("A player appears twice.")); assert.ok(ballotProblems(pool, ["z"], new Set(["a"]), new Set()).some((p) => p.includes("not nominated"))); assert.deepEqual(ballotProblems(pool, ["a"], new Set(["a"]), new Set()), []);
   const sug = suggestedSelection(rows, 2, new Set(["a", "c", "d"])); assert.deepEqual(sug.selected, ["a", "c"]); assert.deepEqual(sug.alternates, ["d"]);
   const mj = demo.allStarPools.find((p) => p.id === "asp_mj_1112"); assert.equal(mj.status, "voting"); const mjRows = tally(mj, demo.allStarNominations, demo.allStarVotes); assert.ok(mjRows.length >= 18); assert.ok(mjRows[0].points > 0);
+});
+
+test("demo dates shift forward by whole days while birth dates and the determination date stay fixed", () => {
+  assert.equal(daysBetween("2026-11-08", "2026-11-20"), 12); assert.equal(shiftDateString("2026-11-08", 12), "2026-11-20"); assert.equal(shiftDateString("2026-11-28T17:30:00", 5), "2026-12-03T17:30:00"); assert.equal(shiftDateString("hello", 5), "hello"); assert.equal(shiftDateString("2026-11-08", 0), "2026-11-08");
+  const out = shiftDates({ start: "2026-11-08T10:00:00", birthDate: "2017-04-12", nested: [{ dueBy: "2026-12-01", ageDeterminationDate: "2026-08-31" }], n: 3, since: 2019 }, 10);
+  assert.equal(out.start, "2026-11-18T10:00:00"); assert.equal(out.birthDate, "2017-04-12"); assert.equal(out.nested[0].dueBy, "2026-12-11"); assert.equal(out.nested[0].ageDeterminationDate, "2026-08-31"); assert.equal(out.n, 3); assert.equal(out.since, 2019);
+  assert.ok(demo.meta?.seededOn, "seed records its date"); const shifted = shiftDemo(demo, shiftDateString(demo.meta.seededOn, 7)); assert.equal(shifted.shiftedDays, 7); const ev0 = demo.events[0]; const ev1 = shifted.demo.events[0]; assert.equal(ev1.start, shiftDateString(ev0.start, 7)); assert.equal(shifted.demo.players[0].birthDate, demo.players[0].birthDate); assert.equal(shifted.demo.leagues[0].settings.eligibility.ageDeterminationDate, demo.leagues[0].settings.eligibility.ageDeterminationDate); assert.equal(shifted.demo.meta.shiftedDays, 7);
+  const same = shiftDemo(demo, demo.meta.seededOn); assert.equal(same.shiftedDays, 0); assert.strictEqual(same.demo, demo, "no copy when nothing moves");
 });

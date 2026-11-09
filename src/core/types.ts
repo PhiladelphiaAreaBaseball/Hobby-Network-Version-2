@@ -173,6 +173,8 @@ export interface Resource { id: ID; title: string; category: string; audience: s
 export interface CertQuestion { id: ID; prompt: string; options: string[]; correct: number; explanation: string; }
 export interface CertModule { id: ID; title: string; summary: string; durationMin: number; required: boolean; renewMonths: number; audience: Role[]; sections: { heading: string; body: string[] }[]; keyPoints: string[]; resourceIds: ID[]; quiz: CertQuestion[]; }
 export interface Certification { id: ID; leagueId: ID; userId: ID; moduleId: ID; completedAt: ISODateTime; expiresAt: ISODate; score: number; passed: boolean; attempts: number; }
+export interface DemoGuideStep { id: ID; title: string; route: string; minutes: number; say: string[]; click: string[]; }
+export interface DemoGuide { title: string; intro: string; acts: { id: ID; title: string; persona: string; minutes: number; steps: DemoGuideStep[] }[]; closing: string[]; }
 export interface GlossaryTerm { id: ID; term: string; definition: string; example: string; relatedLessonIds: string[]; }
 
 /* ---------- Player development state (tenant-owned, mutable) ---------- */
@@ -229,13 +231,13 @@ export interface SiteContent {
 export interface ContentBundle {
   lessons: Lesson[]; drills: Drill[]; parentGuides: ParentGuide[]; coachPlans: CoachPlan[]; iqLessons: IQLesson[]; iqQuestions: IQQuestion[];
   curricula: Curriculum[]; challenges: Challenge[]; badges: Badge[]; resources: Resource[]; glossary: GlossaryTerm[]; drillVideos: DrillVideo[];
-  certModules: CertModule[]; certPassingPct: number;
+  certModules: CertModule[]; certPassingPct: number; demoGuide: DemoGuide | null;
   manifest: { ageGroups: { id: AgeGroupId; label: string; min: number; max: number }[] };
 }
 export interface DemoBundle {
   leagues: League[]; users: User[]; memberships: Membership[]; seasons: Season[]; divisions: Division[]; teams: Team[]; players: Player[]; registrations: Registration[]; payments: Payment[]; expenses: Expense[];
   fields: Field[]; events: ScheduleEvent[]; attendance: Attendance[]; pitching: PitchingAppearance[]; volunteers: Volunteer[]; shifts: VolunteerShift[]; sponsors: Sponsor[]; fundraisers: Fundraiser[]; announcements: Announcement[]; threads: MessageThread[];
   completions: LessonCompletion[]; assignments: Assignment[]; iqProgress: IQProgress[]; awards: AchievementAward[]; enrollments: CurriculumEnrollment[]; notes: PlayerNote[]; practicePlans: PracticePlan[]; videos: VideoSubmission[]; plans: SubscriptionPlan[]; siteContent: SiteContent[]; personas: Persona[];
-  tryouts?: Tryout[]; evaluations?: Evaluation[]; drafts?: Draft[]; reportCards?: ReportCard[]; gameSheets?: GameSheet[]; certifications?: Certification[]; allStarPools?: AllStarPool[]; allStarNominations?: AllStarNomination[]; allStarVotes?: AllStarVote[];
+  tryouts?: Tryout[]; evaluations?: Evaluation[]; drafts?: Draft[]; reportCards?: ReportCard[]; gameSheets?: GameSheet[]; certifications?: Certification[]; allStarPools?: AllStarPool[]; allStarNominations?: AllStarNomination[]; allStarVotes?: AllStarVote[]; meta?: { seededOn?: string; shiftedTo?: string; shiftedDays?: number };
 }
 export interface Persona { id: ID; userId: ID; leagueId: ID | null; label: string; role: Role; description: string; playerId?: ID; teamId?: ID; }

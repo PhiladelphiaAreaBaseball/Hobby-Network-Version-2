@@ -8,6 +8,12 @@
 - **Repository branches:** `claude/gameplaniq-restore-source-ceah9g` (current session) and `claude/little-league-platform-hkhs8v` point at the same tree and are pushed to GitHub. No pull request to `main` has been opened yet.
 - **Source snapshot inside the artifact:** asset `8fae46aa91cc16ddd60d5198d1f9360f` (`gameplaniq-src-latest.tar.gz.b64.txt`) is a base64 git archive of commit `48d1243` (digest and All-Stars). GitHub is the primary copy (branches `claude/gameplaniq-restore-source-ceah9g` and `claude/little-league-platform-hkhs8v`); snapshots are a backup. Older: `abedcec1840412e788b8a00d06cfe00f` (`c15c4a3`), `ca93130d219b2680246105d8342a6006` (`a14f253`), `0e8b890c0eb0987522b65080df24e293` (`ffeb88f`), `68b479f81639291736dbd6f555ba7ee9` (`f61bbe1`), `4120a9218e4441eb8a9f9d57ac612f07` (`01f9ed6`).
 
+## Running a demo
+- Open `#demo-guide` (Presenter guide in the rail, or from the welcome page) for the 20-minute script; every step has a Go button.
+- Reset demo data from the persona switcher or the guide before presenting. Shared-database resets need the artifact owner.
+- Dates: `npm run seed` stamps `meta.seededOn`; the app shifts all demo dates to today on load, so no re-seed is needed between demos. Set `localStorage gameplaniq:v1:freezeDates=1` to see the seed as generated.
+- New league: Platform (Alex Chen) → Onboard a league. The platform operator can then open any league from the Leagues tab.
+
 ## Rebuild and verify
 ```
 npm install
