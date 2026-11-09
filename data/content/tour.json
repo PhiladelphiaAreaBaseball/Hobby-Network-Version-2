@@ -597,6 +597,19 @@
           ]
         },
         {
+          "id": "off-fundraising",
+          "title": "Fundraising: every dollar accounted for",
+          "route": "admin-fundraising",
+          "explain": [
+            "Every dollar raised or spent is one ledger line: where it came from, which campaign and fund it belongs to, and whether the cash or check is in the bank. Campaign totals come from the ledger, never typed in.",
+            "The banner says when every dollar is accounted for, or names exactly what is open: here, last Saturday's raffle cash has not been deposited and one sponsor check is still promised."
+          ],
+          "try": [
+            "Tap Record a deposit, enter a deposit number, and watch the banner turn green."
+          ],
+          "target": "button:Record a deposit"
+        },
+        {
           "id": "off-website",
           "title": "The public website",
           "route": "admin-website",

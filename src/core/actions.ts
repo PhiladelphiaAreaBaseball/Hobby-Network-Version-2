@@ -16,6 +16,7 @@ import { formTeams, type FormationInput } from "../engines/formation";
 import { validateAnswers, isOpenNow } from "../engines/forms";
 import { buildInstallments, planBalance, overdueInstallments, dueSoon } from "../engines/paymentPlans";
 import { PLAN_COLUMNS, emptyRows, planToLineup } from "../engines/gamePlan";
+import { paymentKindFor } from "../engines/fundraising";
 import type { ImportRecord } from "../engines/importer";
 import type * as T from "./types";
 import type { Permission } from "./types";
@@ -31,7 +32,7 @@ function ctx() {
 }
 function tenant(leagueId: string | null): Tenant { const s = store.get(); if (!leagueId) throw new PermissionError("Choose a league first."); const t = selectTenant(s, leagueId); if (!t) throw new Error("League not found"); return t; }
 function requirePerm(perm: Permission, scope: Scope = {}) { const c = ctx(); const sc = { leagueId: c.leagueId ?? undefined, ...scope }; if (!can(c.memberships, perm, sc)) throw new PermissionError("You do not have permission to do that."); return c; }
-const SEED_KEY: Partial<Record<CollectionName, keyof T.DemoBundle>> = { leagues: "leagues", users: "users", memberships: "memberships", seasons: "seasons", divisions: "divisions", teams: "teams", players: "players", registrations: "registrations", payments: "payments", expenses: "expenses", fields: "fields", events: "events", attendance: "attendance", pitching: "pitching", volunteers: "volunteers", shifts: "shifts", sponsors: "sponsors", fundraisers: "fundraisers", announcements: "announcements", threads: "threads", completions: "completions", assignments: "assignments", iqProgress: "iqProgress", awards: "awards", enrollments: "enrollments", notes: "notes", practicePlans: "practicePlans", videos: "videos", plans: "plans", siteContent: "siteContent", tryouts: "tryouts", evaluations: "evaluations", drafts: "drafts", reportCards: "reportCards", gameSheets: "gameSheets", certifications: "certifications", allStarPools: "allStarPools", allStarNominations: "allStarNominations", allStarVotes: "allStarVotes", carpools: "carpools", photos: "photos", incidents: "incidents", safetyPlans: "safetyPlans", kitChecks: "kitChecks", umpireProfiles: "umpireProfiles", closeouts: "closeouts", surveys: "surveys", surveyResponses: "surveyResponses", budgets: "budgets", contentVersions: "contentVersions", forms: "forms", formResponses: "formResponses", paymentPlans: "paymentPlans", tournaments: "tournaments", teamCurricula: "teamCurricula", drillDiagrams: "drillDiagrams", gamePlans: "gamePlans" };
+const SEED_KEY: Partial<Record<CollectionName, keyof T.DemoBundle>> = { leagues: "leagues", users: "users", memberships: "memberships", seasons: "seasons", divisions: "divisions", teams: "teams", players: "players", registrations: "registrations", payments: "payments", expenses: "expenses", fields: "fields", events: "events", attendance: "attendance", pitching: "pitching", volunteers: "volunteers", shifts: "shifts", sponsors: "sponsors", fundraisers: "fundraisers", announcements: "announcements", threads: "threads", completions: "completions", assignments: "assignments", iqProgress: "iqProgress", awards: "awards", enrollments: "enrollments", notes: "notes", practicePlans: "practicePlans", videos: "videos", plans: "plans", siteContent: "siteContent", tryouts: "tryouts", evaluations: "evaluations", drafts: "drafts", reportCards: "reportCards", gameSheets: "gameSheets", certifications: "certifications", allStarPools: "allStarPools", allStarNominations: "allStarNominations", allStarVotes: "allStarVotes", carpools: "carpools", photos: "photos", incidents: "incidents", safetyPlans: "safetyPlans", kitChecks: "kitChecks", umpireProfiles: "umpireProfiles", closeouts: "closeouts", surveys: "surveys", surveyResponses: "surveyResponses", budgets: "budgets", contentVersions: "contentVersions", forms: "forms", formResponses: "formResponses", paymentPlans: "paymentPlans", tournaments: "tournaments", teamCurricula: "teamCurricula", drillDiagrams: "drillDiagrams", gamePlans: "gamePlans", fundEntries: "fundEntries" };
 function isSeeded(col: CollectionName, id: string) { const d = store.get().demo; const k = SEED_KEY[col]; if (!d || !k) return false; return (d[k] as any[]).some((x) => x.id === id); }
 async function put<X extends { id: string }>(leagueId: string | null, col: CollectionName, doc: X): Promise<X> { await persistence().put(leagueId, col, doc.id, doc); return doc; }
 async function remove(leagueId: string | null, col: CollectionName, id: string) { await persistence().remove(leagueId, col, id, isSeeded(col, id)); }
@@ -64,6 +65,8 @@ function formAudience(t: Tenant, f: T.LeagueForm): string[] {
   const ms = t.memberships.filter((m) => m.leagueId === t.leagueId); const roles = f.audience === "guardian" ? ["guardian"] : f.audience === "coach" ? ["head_coach", "assistant_coach"] : f.audience === "volunteer" ? ["volunteer", "umpire", "head_coach", "assistant_coach"] : f.audience === "staff" ? ["league_admin", "board_member", "division_commissioner", "head_coach"] : null;
   return [...new Set(ms.filter((m) => m.role !== "player" && (!roles || roles.includes(m.role))).map((m) => m.userId))];
 }
+/** Treasurer, president or sponsorship chair: anyone who handles league money or sponsors. */
+function requireFundraising() { const c = ctx(); const sc = { leagueId: c.leagueId ?? undefined }; if (!can(c.memberships, "league.finance", sc) && !can(c.memberships, "league.sponsors", sc)) throw new PermissionError("Only the treasurer, the president or the sponsorship chair can record fundraising money."); return c; }
 /** Only a head coach of the team writes game plans; league staff do not get access by rank. */
 function isHeadCoach(c: ReturnType<typeof ctx>, leagueId: string, teamId: string) { return c.memberships.some((m) => m.leagueId === leagueId && m.role === "head_coach" && (m.teamIds ?? []).includes(teamId)); }
 export const actions = {
@@ -586,6 +589,34 @@ export const actions = {
     return next;
   },
 
+
+  /* ---------- Fundraising ledger: every dollar in or out is one entry, linked to the Finance record it created ---------- */
+  async recordFundEntry(input: { direction: "in" | "out"; amount: number; date: string; source: T.FundEntry["source"]; fund: string; party: string; description: string; method: T.FundEntry["method"]; pledged?: boolean; fundraiserId?: string; sponsorId?: string; reference?: string; expenseCategory?: string; existingPaymentId?: string }) {
+    const c = requireFundraising(); const t = tenant(c.leagueId); const amount = Math.round(Number(input.amount) * 100) / 100; if (!(amount > 0)) throw new Error("Enter an amount greater than zero."); if (!input.fund.trim()) throw new Error("Choose the fund this money belongs to."); if (!input.party.trim()) throw new Error(input.direction === "in" ? "Who gave or paid this?" : "Who was paid?");
+    const id = newId("fund"); let paymentId: string | undefined; let expenseId: string | undefined; const status: T.FundEntry["status"] = input.direction === "out" ? "paid" : input.pledged ? "pledged" : "received";
+    if (input.direction === "in" && status === "received") { if (input.existingPaymentId) { const p = t.payments.find((x) => x.id === input.existingPaymentId); if (!p) throw new Error("That Finance payment was not found."); if (t.fundEntries.some((e) => e.paymentId === p.id && !e.voided)) throw new Error("That payment is already in the ledger."); paymentId = p.id; } else { const pay: T.Payment = { id: newId("pay"), leagueId: t.leagueId, userId: c.userId, amount, kind: paymentKindFor(input.source), method: input.method === "online" ? "card" : input.method, status: "succeeded", createdAt: `${input.date}T12:00:00`, note: `${input.party} · ${input.description}` }; await put(t.leagueId, "payments", pay); paymentId = pay.id; } }
+    if (input.direction === "out") { const exp: T.Expense = { id: newId("exp"), leagueId: t.leagueId, category: input.expenseCategory || "Fundraising costs", amount, vendor: input.party, date: input.date, note: `${input.description} · paid from ${input.fund}` }; await put(t.leagueId, "expenses", exp); expenseId = exp.id; }
+    const doc: T.FundEntry = { id, leagueId: t.leagueId, seasonId: t.activeSeason?.id ?? "", date: input.date, direction: input.direction, amount, source: input.direction === "out" ? "expense" : input.source, fund: input.fund.trim(), fundraiserId: input.fundraiserId || undefined, sponsorId: input.sponsorId || undefined, party: input.party.trim(), description: input.description.trim(), method: input.method, status, depositRef: input.direction === "in" && status === "received" && (input.method === "card" || input.method === "online") ? "Card processor" : undefined, depositedAt: input.direction === "in" && status === "received" && (input.method === "card" || input.method === "online") ? input.date : undefined, paymentId, expenseId, reference: input.reference, recordedByUserId: c.userId, recordedAt: nowIso() };
+    await put(t.leagueId, "fundEntries", doc); await audit(t.leagueId, `fund.${input.direction}`, "fund", id, `${amount} · ${doc.fund} · ${doc.party}`); return doc;
+  },
+  async receivePledge(entryId: string, method: T.FundEntry["method"], date: string) {
+    const c = requireFundraising(); const t = tenant(c.leagueId); const e = t.fundEntries.find((x) => x.id === entryId); if (!e || e.status !== "pledged" || e.voided) throw new Error("That pledge is not open.");
+    const pay: T.Payment = { id: newId("pay"), leagueId: t.leagueId, userId: c.userId, amount: e.amount, kind: paymentKindFor(e.source), method: method === "online" ? "card" : method, status: "succeeded", createdAt: `${date}T12:00:00`, note: `${e.party} · ${e.description}` }; await put(t.leagueId, "payments", pay);
+    const online = method === "card" || method === "online"; await put(t.leagueId, "fundEntries", { ...e, status: "received", method, date, paymentId: pay.id, depositRef: online ? "Card processor" : undefined, depositedAt: online ? date : undefined }); await audit(t.leagueId, "fund.pledge.received", "fund", e.id, String(e.amount)); return true;
+  },
+  /** Marks cash and check collections as deposited under one bank deposit reference. */
+  async recordDeposit(entryIds: string[], ref: string, date: string) {
+    const c = requireFundraising(); const t = tenant(c.leagueId); if (!ref.trim()) throw new Error("Enter the deposit slip or bank reference."); let n = 0; let total = 0;
+    for (const id of entryIds) { const e = t.fundEntries.find((x) => x.id === id); if (!e || e.voided || e.direction !== "in" || e.status !== "received" || e.depositRef) continue; await put(t.leagueId, "fundEntries", { ...e, depositRef: ref.trim(), depositedAt: date }); n++; total += e.amount; }
+    await audit(t.leagueId, "fund.deposit", "fund", ref.trim(), `${n} items · ${Math.round(total * 100) / 100}`); return { n, total: Math.round(total * 100) / 100 };
+  },
+  /** Entries are never deleted: a void keeps the line, the reason and who voided it, and removes the Finance record it created. */
+  async voidFundEntry(entryId: string, reason: string) {
+    const c = requireFundraising(); const t = tenant(c.leagueId); const e = t.fundEntries.find((x) => x.id === entryId); if (!e || e.voided) return; if (!reason.trim()) throw new Error("Say why this entry is being voided.");
+    if (e.paymentId && !t.fundEntries.some((x) => x.id !== e.id && x.paymentId === e.paymentId)) { const p = t.payments.find((x) => x.id === e.paymentId); if (p) await put(t.leagueId, "payments", { ...p, status: "refunded", note: `${p.note ?? ""} · voided in fundraising ledger: ${reason.trim()}` }); }
+    if (e.expenseId) await remove(t.leagueId, "expenses", e.expenseId);
+    await put(t.leagueId, "fundEntries", { ...e, voided: true, voidReason: reason.trim(), voidedByUserId: c.userId }); await audit(t.leagueId, "fund.void", "fund", e.id, reason.trim()); return true;
+  },
   /* ---------- Head coach game plans: private to the head coach unless shared ---------- */
   async createGamePlan(teamId: string, input: { eventId?: string; title: string }) {
     const c = ctx(); const t = tenant(c.leagueId); if (!isHeadCoach(c, t.leagueId, teamId)) throw new PermissionError("Only the team's head coach can make a game plan.");
@@ -605,7 +636,7 @@ export const actions = {
     await put(t.leagueId, "gamePlans", { ...gp, sharedWithUserIds: next, updatedAt: nowIso() }); await audit(t.leagueId, "gameplan.share", "team", gp.teamId, `${next.length} people`);
     for (const u of added) await actions.notify(u, `${t.userName(c.userId)} shared a game plan`, `${gp.title} · ${t.teamName(gp.teamId)}. Read-only; only the head coach can change it.`, "message", `gameplan-${gp.id}`); return next;
   },
-  async deleteGamePlan(id: string) { const c = ctx(); const t = tenant(c.leagueId); const gp = t.gamePlans.find((g) => g.id === id); if (!gp) return; if (gp.ownerUserId !== c.userId) throw new PermissionError("Only the head coach who made this plan can delete it."); await remove(t.leagueId, "gamePlans", id); },
+  async deleteGamePlan(id: string) { const c = ctx(); const t = tenant(c.leagueId); const gp = t.gamePlans.find((g) => g.id === id); if (!gp) return; if (gp.ownerUserId !== c.userId) throw new PermissionError("Only the head coach who made this plan can delete it."); await remove(t.leagueId, "gamePlans", id); return true; },
   /** Sends the plan to the game-day lineup card for its game (positions per inning; off the field becomes bench). */
   async applyGamePlanToLineup(id: string) {
     const c = ctx(); const t = tenant(c.leagueId); const gp = t.gamePlans.find((g) => g.id === id); if (!gp) throw new Error("Game plan not found"); if (gp.ownerUserId !== c.userId) throw new PermissionError("Only the head coach who made this plan can use it on game day."); if (!gp.eventId) throw new Error("Link the plan to a game first.");

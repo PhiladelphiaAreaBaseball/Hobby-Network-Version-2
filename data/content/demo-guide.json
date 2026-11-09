@@ -275,15 +275,16 @@
         },
         {
           "id": "money",
-          "title": "Payment plans",
-          "route": "admin-finance",
+          "title": "Payment plans and fundraising",
+          "route": "admin-fundraising",
           "minutes": 1,
           "say": [
-            "Families split fees into monthly installments. The treasurer sees what is overdue and sends reminders through the same notification rules as everything else; nobody chases families by text."
+            "Fundraising has its own ledger: every dollar in or out, by campaign and fund, and whether it is in the bank. The banner names anything open, like raffle cash not yet deposited.",
+            "Families split fees into monthly installments; the treasurer sees what is overdue on the Finance page and sends reminders in one click."
           ],
           "click": [
-            "Payment plans tab",
-            "Send due and overdue reminders"
+            "Record a deposit for the raffle cash; the banner turns green",
+            "Finance, Payment plans tab"
           ]
         },
         {

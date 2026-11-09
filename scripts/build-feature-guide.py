@@ -120,7 +120,8 @@ story += section("League office", "For the president, board, commissioners and o
  ("Money", [
   ("Finances", "Revenue, expenses, refunds, financial assistance and budget versus actual by category.", "The treasurer reports to the board in minutes."),
   ("Payment plans", "See every installment plan and what is overdue; send reminders in one click.", "Fees get collected without awkward chasing."),
-  ("Sponsors and fundraising", "Sponsors, levels, logos and what was promised; fundraiser tracking.", "Sponsors get what they paid for and renew."),
+  ("Fundraising ledger", "Every dollar in or out is one line: campaign, fund, cash or check, and its bank deposit. Totals come from the ledger. A banner confirms every dollar is accounted for, or names what is open.", "Volunteers handle cash with a clear trail; the board can prove where every dollar went."),
+  ("Sponsors", "Sponsors, levels, logos and what was promised; commitments checked against money received.", "Sponsors get what they paid for and renew."),
   ("Field improvement calculator", "Board-ready estimates for turf and field projects, with a printable summary.", "Big decisions start from real numbers."),
  ]),
  ("Communication, content and records", [
@@ -142,18 +143,19 @@ story += section("Platform", "For whoever hosts GamePlanIQ for one or many leagu
   ("Plans and health", "Subscriptions, platform-wide content and system status.", "One operator can support many leagues."),
  ])])
 
-story += [Paragraph("Privacy by design", h1), Spacer(1, 2)]
+privacy = [Paragraph("Privacy by design", h1), Spacer(1, 2)]
 for b in ["Permissions are enforced on every action, not just hidden in menus.",
           "No player names or rosters on public pages. Photo and video use follow each family's consent.",
           "Report cards, medical answers, evaluations and coaches' game plans stay with the people who need them.",
           "At deployment: card payments, email and text messages, and an installable phone app connect. In the demo, the in-app record and the family calendar already work."]:
-    story.append(Paragraph(b, bullet, bulletText="•"))
+    privacy.append(Paragraph(b, bullet, bulletText="•"))
+story.append(KeepTogether(privacy))
 
 def footer(c, d):
     c.saveState(); c.setFont("Helvetica", 7.5); c.setFillColor(MUTED)
     c.drawString(0.6 * inch, 0.45 * inch, "GamePlanIQ feature guide · demo data is fictional")
     c.drawRightString(letter[0] - 0.6 * inch, 0.45 * inch, f"Page {d.page}"); c.restoreState()
 
-doc = SimpleDocTemplate(OUT, pagesize=letter, leftMargin=0.6 * inch, rightMargin=0.6 * inch, topMargin=0.55 * inch, bottomMargin=0.7 * inch, title="GamePlanIQ feature guide", author="GamePlanIQ", subject="Features by section: what they do and why they help")
+doc = SimpleDocTemplate(OUT, pagesize=letter, leftMargin=0.6 * inch, rightMargin=0.6 * inch, topMargin=0.5 * inch, bottomMargin=0.6 * inch, title="GamePlanIQ feature guide", author="GamePlanIQ", subject="Features by section: what they do and why they help")
 doc.build(story, onFirstPage=footer, onLaterPages=footer)
 print("wrote", OUT)

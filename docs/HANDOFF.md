@@ -32,6 +32,14 @@ Little League has chosen PlayMetrics (Stack Sports) for Central Registration fro
 - Player history: engine `src/engines/playerHistory.ts`; `PlayerHistoryCard` on the player page.
 - Native-style delivery is a deployment plan in `docs/DEPLOYMENT.md`, not a demo feature.
 
+## Fundraising ledger (every dollar accounted for)
+
+- Sidebar: Administration → Fundraising (`#admin-fundraising`, `src/features/admin/AdminFundraising.tsx`); the Sponsors page (renamed from "Sponsors & fundraising") shows a summary card from the same ledger.
+- Data: `fundEntries` collection, one entry per movement of money (in or out, source, fund, campaign, sponsor, method, pledged/received/paid, deposit reference). Engine `src/engines/fundraising.ts` derives every total; `Fundraiser.raised` is no longer typed by anyone (the seed sets it from the ledger).
+- Recording money in creates the Finance payment; money out creates the Finance expense; voiding never deletes the line and reverses the linked Finance record. Reconciliation checks: received = deposited + not yet deposited; in − out = balance; funds add up to the balance; ledger equals Finance (and lists any sponsorship, donation or fundraiser payment recorded in Finance without a ledger line, with Add to ledger).
+- Who: treasurer, president or sponsorship chair record (`league.finance` or `league.sponsors`); board members with finance view read; others are denied.
+- Demo: $30,317 raised across four campaigns; the latest Saturday raffle cash ($385) is waiting for deposit and one sponsor pledge ($350) is outstanding, so the banner shows what to close.
+
 ## Head coach game plans
 
 - Private inning-by-inning plan on the coach's paper layout: 3B, SS, 2B, 1B, LF, CF, RF, C, Pitcher, Relief, Roster, Roster for innings 1 to 6. Engine `src/engines/gamePlan.ts` (checks, per-player innings, conversion to the lineup card); page `#gameplan-<id>` and the Game plans tab in Team tools (`src/features/coaches/GamePlanPages.tsx`); home card for plans shared with you.

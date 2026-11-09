@@ -273,3 +273,25 @@ test("game plan grid matches the coach's sheet and flags conflicts, rest and the
   const lu = planToLineup({ innings: Array.from({ length: 6 }, (_, i) => full(i)) }, roster); assert.equal(lu.positions.k0[0], "3B"); assert.equal(lu.positions.k9[0], "Bench", "relief counts as off the field on the lineup card"); assert.equal(lu.positions.k8[0], "P"); assert.equal(lu.absent.length, 0);
   assert.deepEqual(copyRow([{ a: "1" }, { a: "2" }], 0, 1), [{ a: "1" }, { a: "1" }]);
 });
+
+// ---- fundraising ledger: every dollar accounted for
+import { summarize as fundSummary, withRunningBalance } from "../../dist/test/engines/fundraising.mjs";
+test("fundraising ledger closes the books and names what is open", () => {
+  const e = (o) => ({ leagueId: "l", seasonId: "s", recordedByUserId: "u", recordedAt: "2026-01-01T00:00:00", fund: "General operating", party: "x", description: "", source: "donation", method: "check", status: "received", direction: "in", ...o });
+  const entries = [e({ id: "a", date: "2026-01-02", amount: 500, depositRef: "D1", paymentId: "p1", fundraiserId: "f1" }), e({ id: "b", date: "2026-01-03", amount: 200, method: "cash", paymentId: "p2", fundraiserId: "f1" }), e({ id: "c", date: "2026-01-04", amount: 100, direction: "out", status: "paid", source: "expense", expenseId: "x1", fundraiserId: "f1" }), e({ id: "d", date: "2026-01-05", amount: 300, status: "pledged", sponsorId: "s1", source: "sponsorship" }), e({ id: "v", date: "2026-01-06", amount: 999, voided: true, voidReason: "duplicate", paymentId: "p3" })];
+  const payments = [{ id: "p1", kind: "donation", status: "succeeded", amount: 500 }, { id: "p2", kind: "fundraiser", status: "succeeded", amount: 200 }, { id: "p3", kind: "donation", status: "refunded", amount: 999 }];
+  const expenses = [{ id: "x1", amount: 100 }]; const fundraisers = [{ id: "f1", title: "Breakfast", goal: 1000, status: "active" }]; const sponsors = [{ id: "s1", name: "Shop", tier: "bronze", amount: 300, status: "active" }];
+  let s = fundSummary(entries, fundraisers, sponsors, payments, expenses);
+  assert.equal(s.received, 700); assert.equal(s.spent, 100); assert.equal(s.balance, 600); assert.equal(s.pledged, 300); assert.equal(s.undeposited, 200); assert.equal(s.deposited, 500);
+  assert.equal(s.campaigns[0].gross, 700); assert.equal(s.campaigns[0].net, 600); assert.equal(s.sponsors[0].outstanding, 300); assert.equal(s.funds.find((f) => f.fund === "General operating").balance, 600);
+  assert.equal(s.accounted, false); assert.deepEqual(s.checks.filter((c) => !c.ok).map((c) => c.id), ["deposits"], "only the undeposited cash is open; voided lines do not count");
+  s = fundSummary(entries.map((x) => (x.id === "b" ? { ...x, depositRef: "D2" } : x)), fundraisers, sponsors, payments, expenses); assert.equal(s.accounted, true, "depositing the cash closes the books");
+  s = fundSummary(entries.map((x) => (x.id === "b" ? { ...x, depositRef: "D2", fund: "" } : x)), fundraisers, sponsors, payments, expenses); assert.ok(s.checks.find((c) => c.id === "funds" && !c.ok), "money without a fund is flagged");
+  s = fundSummary(entries.map((x) => (x.id === "b" ? { ...x, depositRef: "D2" } : x)), fundraisers, sponsors, [...payments, { id: "p9", kind: "sponsorship", status: "succeeded", amount: 50 }], expenses); assert.equal(s.unlinkedPayments.length, 1); assert.ok(s.checks.find((c) => c.id === "finance" && !c.ok), "a Finance payment missing from the ledger is flagged");
+  const run = withRunningBalance(entries); assert.deepEqual(run.map((r) => r.balance), [500, 700, 600, 600, 600], "pledges and voids leave the running balance unchanged");
+});
+test("seeded fundraising ledger agrees with Finance to the dollar", () => {
+  const s = fundSummary(demo.fundEntries, demo.fundraisers, demo.sponsors, demo.payments, demo.expenses);
+  assert.equal(s.unlinkedPayments.length, 0); assert.ok(s.checks.find((c) => c.id === "finance").ok); assert.ok(s.checks.find((c) => c.id === "funds").ok); assert.equal(s.undeposited, 385, "the latest raffle cash is waiting for deposit"); assert.equal(s.pledged, 350);
+  for (const f of demo.fundraisers) assert.equal(f.raised, s.campaigns.find((c) => c.fundraiser.id === f.id).gross, `${f.title} raised mirrors the ledger`);
+});
