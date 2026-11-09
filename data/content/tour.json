@@ -95,6 +95,19 @@
           "target": "button:Family calendar"
         },
         {
+          "id": "fam-bracket",
+          "title": "The end-of-season tournament",
+          "route": "tournament-trn_mn",
+          "explain": [
+            "Families follow the bracket from the schedule page. Every game is on the team calendar, and when a coach taps Final in the scorebook the winner moves on by itself.",
+            "No one has to update a whiteboard at the snack stand."
+          ],
+          "try": [
+            "Find the Comets in the bracket and see who they play next."
+          ],
+          "target": "css:.bracket"
+        },
+        {
           "id": "fam-report",
           "title": "A player's report card",
           "route": "report-rc_p0097_mid",
@@ -215,7 +228,8 @@
           "route": "register",
           "explain": [
             "Registering a child takes five steps on a phone: child, division, forms, payment, review.",
-            "Eligibility and age are checked as you go, so the league office never has to send a form back."
+            "Eligibility and age are checked as you go, so the league office never has to send a form back. Families can pay in three monthly installments; the schedule and reminders are set up automatically.",
+            "Most Little Leagues register through Little League Central Registration; in that case this step happens there and the roster is imported."
           ],
           "try": [
             "Walk the first step or two. You can stop anywhere."
@@ -290,13 +304,25 @@
           "route": "coaches-team-t09",
           "explain": [
             "Roster with notes and skills, attendance, home practice assignments, report cards, lineups and game-day duties.",
-            "Assigning a home practice sends every family the same lesson and shows the coach who completed it.",
-            "The season curriculum card shows which program the team follows, the current week, and which weeks were actually run from completed practices and home assignments."
+            "Assigning a home practice sends every family the same lesson and shows the coach who completed it."
           ],
           "try": [
             "Open the Report cards tab to see the drafts in progress."
           ],
           "target": "tab:Report cards"
+        },
+        {
+          "id": "co-curriculum",
+          "title": "Season curriculum",
+          "route": "coaches-team-t09",
+          "explain": [
+            "Mark assigned the league's intermediate program to the Comets. The card shows this week's focus and lessons, and colours every week by whether it was actually run.",
+            "A week counts when a completed practice or a home assignment that week teaches one of its lessons. The board sees the same thing for every team, to know where to offer help."
+          ],
+          "try": [
+            "Hover a week to see which practice covered it."
+          ],
+          "target": "css:.week-grid"
         },
         {
           "id": "co-eval",
@@ -340,8 +366,8 @@
           "title": "Run a practice from a phone",
           "route": "practice-plan-plan_team_demo1",
           "explain": [
-            "A plan becomes a full-screen timer with coaching cues and the video one tap away. Attendance is taken on the same screen.",
-            "Finish logs the practice and sends the home assignment."
+            "A plan becomes a full-screen timer with coaching cues, the drill's setup diagram and the video one tap away. Attendance is taken on the same screen.",
+            "Finish logs the practice, counts it toward the season curriculum, and sends the home assignment."
           ],
           "try": [
             "Tap Run practice, then Start. Use the Back arrow in the tour when you are done."
