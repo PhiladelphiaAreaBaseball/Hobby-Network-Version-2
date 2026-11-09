@@ -1,0 +1,769 @@
+{
+  "version": 1,
+  "title": "Guided tour of GamePlanIQ",
+  "intro": "The tour walks through every part of the app, one screen at a time. Each stop explains what the screen is for and points at what to try. GamePlanIQ works on top of Little League Central Registration: register and pay there, import the roster here, run everything else in this app. Nothing you do during the tour can break anything; the demo can always be reset.",
+  "controls": [
+    "Next moves to the following screen. Back returns to the previous one.",
+    "Skip this section jumps straight to the next part of the app.",
+    "Hide tucks the guide away so you can explore freely; Resume tour brings it back where you left off.",
+    "The tour signs you in as the right person for each part. You will notice the name in the top right change."
+  ],
+  "sections": [
+    {
+      "id": "family",
+      "title": "Families",
+      "persona": "persona_parent",
+      "summary": "What a parent who never played baseball sees every day.",
+      "steps": [
+        {
+          "id": "fam-home",
+          "title": "A parent's home page",
+          "route": "home",
+          "explain": [
+            "You are signed in as Tyler Hill, a parent of two players who never played baseball himself.",
+            "Home shows only what matters today: field status, the next game or practice, anything the coach asked the family to do, and a report card waiting to be read.",
+            "The digest at the top says the same thing the daily email would say, so a family that never opens an app still knows what is happening."
+          ],
+          "try": [
+            "Switch the digest from Today to Week to see the next seven days."
+          ],
+          "target": "button:Week"
+        },
+        {
+          "id": "fam-team",
+          "title": "The team page",
+          "route": "team-t09",
+          "explain": [
+            "Every team has one page the whole team shares: roster, schedule, results, home practice, duties, carpools, photos and documents.",
+            "Only families on this team can see it. Phone numbers and addresses are never shown; messages go through the app."
+          ],
+          "try": [
+            "Look along the tabs. Each one is a stop on this tour."
+          ],
+          "target": "tab:Overview"
+        },
+        {
+          "id": "fam-signups",
+          "title": "Game-day duties",
+          "route": "team-t09",
+          "explain": [
+            "Snacks, scorekeeper, dugout parent and pitch counter are listed per game.",
+            "A parent claims a slot with one tap and gets a reminder the day before. The coach sees who is covered and can nudge the whole team at once."
+          ],
+          "try": [
+            "Open the Sign-ups tab, then tap I'll do it on an open slot."
+          ],
+          "target": "tab:Sign-ups"
+        },
+        {
+          "id": "fam-carpool",
+          "title": "Carpools",
+          "route": "team-t09",
+          "explain": [
+            "Any parent can offer seats to a game. Other parents add only their own child, and the driver is told who is riding.",
+            "This replaces the group text nobody can find on game morning."
+          ],
+          "try": [
+            "Open the Carpool tab and tap Offer a ride on any game."
+          ],
+          "target": "tab:Carpool"
+        },
+        {
+          "id": "fam-photos",
+          "title": "Team photos",
+          "route": "team-t09",
+          "explain": [
+            "Albums are visible to this team's families only.",
+            "A tagged player must have photo consent on file. If a family withdraws consent, their child's photos disappear from the album automatically."
+          ],
+          "try": [
+            "Open the Photos tab."
+          ],
+          "target": "tab:Photos"
+        },
+        {
+          "id": "fam-schedule",
+          "title": "Schedule and the family calendar",
+          "route": "schedule",
+          "explain": [
+            "Games, practices, duties, registration deadlines and league events for every child in the family, in one place.",
+            "Family calendar builds one file the phone's calendar app can subscribe to, with reminders already set."
+          ],
+          "try": [
+            "Tap Family calendar and look at what is included."
+          ],
+          "target": "button:Family calendar"
+        },
+        {
+          "id": "fam-bracket",
+          "title": "The end-of-season tournament",
+          "route": "tournament-trn_mn",
+          "explain": [
+            "Families follow the bracket from the schedule page. Every game is on the team calendar, and when a coach taps Final in the scorebook the winner moves on by itself.",
+            "No one has to update a whiteboard at the snack stand."
+          ],
+          "try": [
+            "Find the Comets in the bracket and see who they play next."
+          ],
+          "target": "css:.bracket"
+        },
+        {
+          "id": "fam-report",
+          "title": "A player's report card",
+          "route": "report-rc_p0097_mid",
+          "explain": [
+            "Coach Galasso rated ten skills, celebrated three strengths and picked one thing to work on for Jack, age nine.",
+            "The app chose the lessons that teach that one thing, written for his age.",
+            "Report cards are private to the family, the coach and the league office. They are never a ranking and never shared between families."
+          ],
+          "try": [
+            "Tap Mark as read so the coach knows the family saw it."
+          ],
+          "target": "button:Mark as read"
+        },
+        {
+          "id": "fam-lesson",
+          "title": "A lesson for a scared kid",
+          "route": "lesson-fld-20",
+          "explain": [
+            "Every lesson is written for the parent who never played: what to do, what to say, what to avoid, a verified drill video, and a ten-minute backyard practice.",
+            "Marking a lesson done feeds the player's progress and badges."
+          ],
+          "try": [
+            "Open the Parent coaching tab to see what to say and what to avoid.",
+            "Mark done at the bottom records the lesson for the player."
+          ],
+          "target": "button:Parent coaching"
+        },
+        {
+          "id": "fam-parents",
+          "title": "Parent Academy",
+          "route": "parents",
+          "explain": [
+            "Guides for the questions parents actually ask: what equipment to buy, how to handle a bad game, what the rules of the division are, how pitch counts work.",
+            "Content is organised by the child's age, so nothing here is over a family's head."
+          ],
+          "try": [
+            "Open any guide that catches your eye, then press Next."
+          ]
+        },
+        {
+          "id": "fam-practice",
+          "title": "Build a backyard practice",
+          "route": "practice",
+          "explain": [
+            "Pick a skill and the minutes available. The generator builds a warm-up, two or three drills and a fun challenge sized to the child's age.",
+            "The plan can be run from a phone with a timer, or printed."
+          ],
+          "try": [
+            "Tap Generate my practice."
+          ],
+          "target": "button:Generate my practice"
+        },
+        {
+          "id": "fam-messages",
+          "title": "Messages",
+          "route": "messages",
+          "explain": [
+            "Team threads and direct messages with the coach, with no phone numbers exchanged.",
+            "Player accounts cannot send messages at all; adults on a team can only reach that team's families."
+          ],
+          "try": [
+            "Open the team families thread."
+          ]
+        },
+        {
+          "id": "fam-notifications",
+          "title": "Notification Center",
+          "route": "notifications",
+          "explain": [
+            "Every notice the family received: game changes, duty reminders, report cards, carpool updates.",
+            "Each person chooses which topics they want and quiet hours. Urgent notices such as a rainout always get through."
+          ],
+          "try": [
+            "Tap a notification to jump to the thing it is about."
+          ]
+        },
+        {
+          "id": "fam-account",
+          "title": "Account and privacy",
+          "route": "account",
+          "explain": [
+            "Children, consents and contact preferences live here. Photo consent and video review consent can be changed at any time and take effect everywhere immediately.",
+            "Families can download everything the league holds about them."
+          ],
+          "try": [
+            "Look at the consent switches for each child."
+          ]
+        },
+        {
+          "id": "fam-forms",
+          "title": "Forms the league needs",
+          "route": "form-form_medical",
+          "explain": [
+            "Medical information, consents and anything else the league asks for are forms, built by the league office from templates. Parents fill them in once per child from a phone.",
+            "Medical answers are seen only by the child's coaches, the safety officer and the president."
+          ],
+          "try": [
+            "Pick Jack, answer the required questions, and tap Submit."
+          ],
+          "target": "button:Submit"
+        },
+        {
+          "id": "fam-history",
+          "title": "A player's whole history",
+          "route": "player-p0097",
+          "explain": [
+            "One timeline for Jack across seasons: teams, positions played from the lineup cards, attendance, tryout scores, report cards, badges, pitch counts and coach evaluations.",
+            "This follows the player from T-ball to Majors so next year's coach starts with the full picture."
+          ],
+          "try": [
+            "Scroll to History and filter by Report card or Game."
+          ],
+          "target": "css:.timeline"
+        },
+        {
+          "id": "fam-register",
+          "title": "Registration",
+          "route": "register",
+          "explain": [
+            "Registering a child takes five steps on a phone: child, division, forms, payment, review.",
+            "Eligibility and age are checked as you go, so the league office never has to send a form back. Families can pay in three monthly installments; the schedule and reminders are set up automatically.",
+            "Most Little Leagues register through Little League Central Registration; in that case this step happens there and the roster is imported."
+          ],
+          "try": [
+            "Walk the first step or two. You can stop anywhere."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "player",
+      "title": "Players",
+      "persona": "persona_player",
+      "summary": "What a nine-year-old sees on his own account.",
+      "steps": [
+        {
+          "id": "ply-home",
+          "title": "A player's own account",
+          "route": "home",
+          "explain": [
+            "You are now in Jack Hill's player account. Jack is nine, so the account is managed by his dad: the name at the top right stays Tyler's, the role changes to Player, and every screen is Jack's.",
+            "There are no messages, no leaderboards and no comparison to teammates. He sees his next game, his coach's home practice, his badges and a quick Baseball IQ question."
+          ],
+          "try": [
+            "Notice what is missing compared with his dad's home page."
+          ]
+        },
+        {
+          "id": "ply-iq",
+          "title": "Baseball IQ",
+          "route": "iq-quiz-mixed",
+          "explain": [
+            "Situational questions on a diamond: tap where the ball should go. Some answers are acceptable rather than right or wrong, and each one is explained in kid language.",
+            "Fifty questions and fifteen short lessons, all written for children."
+          ],
+          "try": [
+            "Answer two questions and read the explanation."
+          ]
+        },
+        {
+          "id": "ply-badges",
+          "title": "Challenges and badges",
+          "route": "achievements",
+          "explain": [
+            "Lessons done, practices completed and quizzes passed earn badges. Challenges are set by the league and are about effort, never about statistics."
+          ],
+          "try": [
+            "Open a badge to see how it was earned."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "title": "Coaches",
+      "persona": "persona_coach",
+      "summary": "Everything a volunteer coach needs, on one page and on a phone.",
+      "steps": [
+        {
+          "id": "co-hq",
+          "title": "Coaches' Headquarters",
+          "route": "coaches",
+          "explain": [
+            "You are Mark Galasso, a parent with one season of coaching behind him.",
+            "One page holds his teams, practice planner, game day, certification progress, tryout scoring and All-Star ballots."
+          ],
+          "try": [
+            "Look at the certification progress and the tryout card."
+          ]
+        },
+        {
+          "id": "co-team",
+          "title": "Team tools",
+          "route": "coaches-team-t09",
+          "explain": [
+            "Roster with notes and skills, attendance, home practice assignments, report cards, lineups and game-day duties.",
+            "Assigning a home practice sends every family the same lesson and shows the coach who completed it."
+          ],
+          "try": [
+            "Open the Report cards tab to see the drafts in progress."
+          ],
+          "target": "tab:Report cards"
+        },
+        {
+          "id": "co-curriculum",
+          "title": "Season curriculum",
+          "route": "coaches-team-t09",
+          "explain": [
+            "Mark assigned the league's intermediate program to the Comets. The card shows this week's focus and lessons, and colours every week by whether it was actually run.",
+            "A week counts when a completed practice or a home assignment that week teaches one of its lessons. The board sees the same thing for every team, to know where to offer help."
+          ],
+          "try": [
+            "Hover a week to see which practice covered it."
+          ],
+          "target": "css:.week-grid"
+        },
+        {
+          "id": "co-eval",
+          "title": "Player evaluations",
+          "route": "form-form_eval_mid",
+          "explain": [
+            "A coach evaluation form, one per rostered player, built by the league office. Mark has done six of his twelve Comets.",
+            "Answers feed each player's history and next season's team formation. Families never see other players' evaluations."
+          ],
+          "try": [
+            "Pick a player without a tick, rate effort, and tap Submit."
+          ],
+          "target": "button:Submit"
+        },
+        {
+          "id": "co-gameday",
+          "title": "Game day: the lineup card",
+          "route": "coaches-team-t09",
+          "explain": [
+            "The lineup card checks the league's minimum-play rule, bench innings and pitcher rest before first pitch.",
+            "Warnings advise; they never block the coach."
+          ],
+          "try": [
+            "Tap Game day, then Auto-rotate the rest."
+          ],
+          "target": "button:Game day"
+        },
+        {
+          "id": "co-planner",
+          "title": "Practice planner",
+          "route": "coaches-planner",
+          "explain": [
+            "Choose the focus and the time. The planner builds a practice from the drill library with stations, cues and the drill video for each block."
+          ],
+          "try": [
+            "Build a plan, then open it."
+          ]
+        },
+        {
+          "id": "co-run",
+          "title": "Run a practice from a phone",
+          "route": "practice-plan-plan_team_demo1",
+          "explain": [
+            "A plan becomes a full-screen timer with coaching cues, the drill's setup diagram and the video one tap away. Attendance is taken on the same screen.",
+            "Finish logs the practice, counts it toward the season curriculum, and sends the home assignment."
+          ],
+          "try": [
+            "Tap Run practice, then Start. Use the Back arrow in the tour when you are done."
+          ],
+          "target": "button:Run practice"
+        },
+        {
+          "id": "co-pitch",
+          "title": "Pitch counts and rest days",
+          "route": "coaches-pitching",
+          "explain": [
+            "Pitch counts from the scorebook become required rest days automatically, by age. A pitcher who is resting is flagged on the lineup card."
+          ],
+          "try": [
+            "Find a pitcher who is resting."
+          ]
+        },
+        {
+          "id": "co-tryout",
+          "title": "Tryout scoring",
+          "route": "tryout-try_mj_next",
+          "explain": [
+            "Six stations, scored one to five on any phone. Every evaluator's scores roll into the draft board the commissioner runs."
+          ],
+          "try": [
+            "Score a player with Save and next, then open Rankings."
+          ],
+          "target": "button:Save and next"
+        },
+        {
+          "id": "co-cert",
+          "title": "Coach certification",
+          "route": "coaches-certification",
+          "explain": [
+            "Six safety and conduct modules with a short check at the end of each. The league sees who is ready to be around players; nobody chases paper."
+          ],
+          "try": [
+            "Open the heat and lightning module."
+          ]
+        },
+        {
+          "id": "co-allstars",
+          "title": "All-Star ballots",
+          "route": "allstars-asp_mn_910",
+          "explain": [
+            "Coaches nominate and vote. The tally is private until the commissioner finalises it, and only selected families are told."
+          ],
+          "try": [
+            "Look at the nominees and the ballots received."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "office",
+      "title": "League office",
+      "persona": "persona_admin",
+      "summary": "What the president and board run the league with.",
+      "steps": [
+        {
+          "id": "off-dash",
+          "title": "The dashboard",
+          "route": "admin",
+          "explain": [
+            "You are Kenny Koplove, league president.",
+            "The attention list comes first: documents to review, schedule conflicts, a live draft, coaches not yet certified, fields needing a call."
+          ],
+          "try": [
+            "Scroll the attention list, then look at Field status."
+          ]
+        },
+        {
+          "id": "off-reg",
+          "title": "Registration",
+          "route": "admin-registrations",
+          "explain": [
+            "Every submitted registration with its documents, payment and eligibility check. Approve, waitlist or ask for a correction in one place."
+          ],
+          "try": [
+            "Open a submitted registration."
+          ]
+        },
+        {
+          "id": "off-teams",
+          "title": "Teams and rosters",
+          "route": "admin-teams",
+          "explain": [
+            "Teams by division with coaches, roster counts and logos. Moving a player between teams updates every family's schedule and calendar.",
+            "Divisions that do not draft use Form teams: siblings stay together, buddy and coach requests from registration are honoured, and groups are dealt out so size and strength stay even."
+          ],
+          "try": [
+            "Choose the Coach pitch division, then tap Form teams to preview balanced teams."
+          ],
+          "target": "css:.page select[aria-label=Division]"
+        },
+        {
+          "id": "off-players",
+          "title": "Players, guardians and CSV import",
+          "route": "admin-players",
+          "explain": [
+            "Every player and guardian account in the league.",
+            "Import CSV brings the roster over from Little League Central Registration: pick Sports Connect or PlayMetrics as the source, paste the export, and every row is checked and previewed before anything is written."
+          ],
+          "try": [
+            "Tap Import CSV, choose PlayMetrics as the source, and use the example row."
+          ],
+          "target": "button:Import CSV"
+        },
+        {
+          "id": "off-tryouts",
+          "title": "Tryouts, draft and All-Stars",
+          "route": "admin-tryouts",
+          "explain": [
+            "Tryout scores become a snake draft with balance warnings that advise, never block.",
+            "All-Star nominations, ballots and the tally live here too."
+          ],
+          "try": [
+            "Open the Drafts tab, open the Minor draft board, then tap Pick best available."
+          ],
+          "target": "tab:Drafts"
+        },
+        {
+          "id": "off-schedule",
+          "title": "Scheduling",
+          "route": "admin-schedule",
+          "explain": [
+            "Drag a game to another day. Field, team, shared-coach and umpire conflicts are flagged as you go.",
+            "The rainout tool closes a field, moves or cancels its games and tells every family in one step."
+          ],
+          "try": [
+            "Open the Rainout tool, then cancel."
+          ],
+          "target": "button:Rainout tool"
+        },
+        {
+          "id": "off-fields",
+          "title": "Fields and weather",
+          "route": "admin-fields",
+          "explain": [
+            "Field status is what every family sees on their home page. Changing it here changes it everywhere at once."
+          ],
+          "try": [
+            "Set a field to open or closed."
+          ]
+        },
+        {
+          "id": "off-volunteers",
+          "title": "Volunteers and certification",
+          "route": "admin-volunteers",
+          "explain": [
+            "Shifts, background checks and coach certification in one place, with reminders sent through the notification rules."
+          ],
+          "try": [
+            "Open the Coach certification tab."
+          ],
+          "target": "tab:Coach certification"
+        },
+        {
+          "id": "off-safety",
+          "title": "Safety",
+          "route": "admin-safety",
+          "explain": [
+            "Incident reports with safety-officer review, a safety plan builder with starter text for every required section, and first-aid kit checks per field."
+          ],
+          "try": [
+            "Open an incident or the safety plan."
+          ]
+        },
+        {
+          "id": "off-umpires",
+          "title": "Umpires",
+          "route": "admin-umpires",
+          "explain": [
+            "Assign umpires with availability, conflict and weekly-load hints. Pay rates per division, a pay tally and recorded payments."
+          ],
+          "try": [
+            "Assign an umpire to an unassigned game."
+          ]
+        },
+        {
+          "id": "off-finance",
+          "title": "Finances and budget",
+          "route": "admin-finance",
+          "explain": [
+            "Registration revenue, expenses, financial assistance and budget versus actual by category.",
+            "Payment plans split a balance into monthly installments; overdue and due-this-week reminders go out through the notification rules. Card processing connects at deployment."
+          ],
+          "try": [
+            "Open the Payment plans tab and record an installment."
+          ],
+          "target": "tab:Payment plans"
+        },
+        {
+          "id": "off-calc",
+          "title": "Field improvement calculator",
+          "route": "admin-calculator",
+          "explain": [
+            "A board-ready estimate for turf and field projects: cost ranges, maintenance savings and a printable summary."
+          ],
+          "try": [
+            "Change a field size and watch the totals."
+          ]
+        },
+        {
+          "id": "off-sponsors",
+          "title": "Sponsors and fundraising",
+          "route": "admin-sponsors",
+          "explain": [
+            "Sponsors with logos, levels and what they were promised. Sponsor logos appear on the public site and the team pages."
+          ],
+          "try": [
+            "Open a sponsor."
+          ]
+        },
+        {
+          "id": "off-website",
+          "title": "The public website",
+          "route": "admin-website",
+          "explain": [
+            "Change the headline, banner, documents and board page, then publish. No rosters or player names are ever public."
+          ],
+          "try": [
+            "Edit the headline, Publish changes, then View public site."
+          ],
+          "target": "button:Publish changes"
+        },
+        {
+          "id": "off-comms",
+          "title": "Communications and notification rules",
+          "route": "admin-communications",
+          "explain": [
+            "One announcement reaches the right audience.",
+            "Every notification follows published rules: who is told, which topic switch it honours, and whether it waits for morning."
+          ],
+          "try": [
+            "Scroll to Notification rules."
+          ]
+        },
+        {
+          "id": "off-content",
+          "title": "Academy content",
+          "route": "admin-content",
+          "explain": [
+            "Lessons, videos, Baseball IQ questions and curricula can be adjusted per league, with version history and revert to the platform original.",
+            "The Diagrams tab draws a drill: players, cones, equipment and throw or run arrows that appear on the lesson page and in the practice runner. The Curricula tab shows which teams follow their program week by week."
+          ],
+          "try": [
+            "Open the Diagrams tab and tap Draw diagram on any drill."
+          ],
+          "target": "tab:Diagrams"
+        },
+        {
+          "id": "off-members",
+          "title": "Staff and permissions",
+          "route": "admin-members",
+          "explain": [
+            "Board members, commissioners, coaches and officers with exactly the permissions their role carries. Every action in the app is checked against these, not just hidden in menus."
+          ],
+          "try": [
+            "Open a role to see its permissions."
+          ]
+        },
+        {
+          "id": "off-forms",
+          "title": "Forms and evaluations",
+          "route": "admin-forms",
+          "explain": [
+            "Build any form the league needs from a template or from scratch: coach evaluations per player, medical information, volunteer applications, coach feedback, field requests.",
+            "Each purpose decides who may read the answers. Reminders and completion counts are built in."
+          ],
+          "try": [
+            "Open Results on the mid-season evaluation."
+          ],
+          "target": "button:New form"
+        },
+        {
+          "id": "off-tournaments",
+          "title": "Tournaments",
+          "route": "admin-tournaments",
+          "explain": [
+            "End-of-season tournaments, All-Star brackets and jamborees: round robin, single or double elimination, or pools followed by a bracket.",
+            "Games go on the schedule like any other, and a final from the scorebook advances the bracket on its own."
+          ],
+          "try": [
+            "Open the Minor Championship bracket and score a ready game."
+          ],
+          "target": "button:Open bracket"
+        },
+        {
+          "id": "off-surveys",
+          "title": "Surveys",
+          "route": "admin-surveys",
+          "explain": [
+            "Season surveys from templates. Results are anonymous to the board, broken down by division and compared with last year."
+          ],
+          "try": [
+            "Open the results of the parent survey."
+          ]
+        },
+        {
+          "id": "off-reports",
+          "title": "Reports",
+          "route": "admin-reports",
+          "explain": [
+            "Numbers for the board meeting: rostered players, academy participation, home practices, volunteer coverage, registrations by division and the audit log, each exportable as CSV."
+          ],
+          "try": [
+            "Export any report."
+          ]
+        },
+        {
+          "id": "off-season",
+          "title": "Season close-out",
+          "route": "admin-season",
+          "explain": [
+            "A checklist for the end of the season: awards with an engraving export, uniform returns, equipment inventory, banquet, and the archive."
+          ],
+          "try": [
+            "Tick a task on the checklist."
+          ]
+        },
+        {
+          "id": "off-settings",
+          "title": "Seasons and settings",
+          "route": "admin-settings",
+          "explain": [
+            "Seasons, divisions and play rules, eligibility, pitch counts, registration, quiet hours and branding.",
+            "Roll over on the Seasons tab creates next season with divisions and fields carried forward. The Branding tab holds the read-only board overview link for sponsors and officials."
+          ],
+          "try": [
+            "Open the Divisions tab and look at the play rules for a division."
+          ],
+          "target": "tab:Divisions"
+        }
+      ]
+    },
+    {
+      "id": "platform",
+      "title": "Platform",
+      "persona": "persona_platform",
+      "summary": "How a new league is set up in fifteen minutes.",
+      "steps": [
+        {
+          "id": "plat-home",
+          "title": "Super administrator",
+          "route": "platform",
+          "explain": [
+            "You are now the platform administrator, who looks after every league on GamePlanIQ.",
+            "Leagues, subscriptions, platform content and system health across every tenant."
+          ],
+          "try": [
+            "Look at the league list."
+          ]
+        },
+        {
+          "id": "plat-onboard",
+          "title": "Onboard a league",
+          "route": "platform",
+          "explain": [
+            "Name, colours, season, divisions, teams and fields. The wizard ends on a working league office ready for the CSV import you saw earlier."
+          ],
+          "try": [
+            "Tap Onboard a league and walk the steps. Create league at the end makes a real demo league you can explore."
+          ],
+          "target": "button:Onboard a league"
+        }
+      ]
+    },
+    {
+      "id": "public",
+      "title": "Public website",
+      "persona": "persona_parent",
+      "summary": "What the town sees.",
+      "steps": [
+        {
+          "id": "pub-site",
+          "title": "The league's public website",
+          "route": "site-dvyaa",
+          "explain": [
+            "Built from the content the league office edits: schedule, fields, registration, documents, sponsors and board contacts.",
+            "No rosters, no player names, no photos without consent. Registration from here leads straight into the app."
+          ],
+          "try": [
+            "Scroll the page, then press Next to finish."
+          ]
+        }
+      ]
+    }
+  ],
+  "closing": {
+    "title": "That is the whole app",
+    "lines": [
+      "Everything you saw runs on one shared database with role-based permissions checked on every action.",
+      "Little League Central Registration stays the system of record for registration and fees; GamePlanIQ imports the roster and runs everything else.",
+      "Payments, email and text messages connect at deployment; the in-app record and the family calendar work today.",
+      "Restart the tour any time from the menu, or reset the demo data to start fresh."
+    ]
+  }
+}

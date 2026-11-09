@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "passingScorePct": 80,
+  "items": [
+    {
+      "id": "cert-abuse-awareness",
+      "title": "Child Abuse Awareness and Reporting",
+      "summary": "Why every adult who works with players is screened and trained, the two-adult rule, boundaries with players, and what to do the moment you suspect abuse.",
+      "durationMin": 12,
+      "required": true,
+      "renewMonths": 12,
+      "audience": ["head_coach", "assistant_coach", "volunteer", "umpire", "board_member", "division_commissioner", "league_admin"],
+      "sections": [
+        { "heading": "Why this training exists", "body": ["Little League requires every manager, coach, board member and any volunteer with repetitive access to players to complete a background check and child-protection training before the season. The check is run through the league's authorized screening provider; GamePlanIQ records only the status and expiry date.", "Training is not about suspicion of you. It is about making sure every adult in the program recognizes the same warning signs and follows the same rules, so a child who is being harmed anywhere in their life has adults around them who notice."] },
+        { "heading": "The two-adult rule and boundaries", "body": ["Never be alone with a player who is not your own child: in a car, a dugout, a restroom, a storage shed or online. If a situation requires a private conversation, keep it in view of another adult.", "Do not message players directly. Team communication goes to parents and guardians; in GamePlanIQ, players cannot send or receive private messages for this reason.", "Physical contact is limited to what instruction requires, in the open, with the player's agreement: adjusting a grip, a high five, a hand on the shoulder. Ask first. Stop if the player pulls away."] },
+        { "heading": "Recognizing warning signs", "body": ["Watch for changes rather than single moments: a player who becomes withdrawn, fearful of a particular adult, unusually aggressive, or who shows unexplained injuries or talks about secrets with an adult.", "Grooming by an adult looks like favoritism: special gifts, private time, communication outside the team, pushing against the league's boundary rules. Report boundary violations by any adult, including other coaches, to the league president or safety officer. You do not need proof; you need concern."] },
+        { "heading": "If a child discloses something to you", "body": ["Stay calm and listen. Do not interrogate, promise secrecy or confront the suspected person. Tell the child they did the right thing by telling you.", "Report the same day to the league's safety officer or president, and to the child-protection authority your state designates. In most states coaches are mandated or encouraged reporters, and the law protects reports made in good faith.", "Write down what was said, in the child's words, with the date and time. Keep it factual and private."] }
+      ],
+      "keyPoints": ["Background check and training before any contact with players; expiry is tracked in Volunteers.", "Two adults present, always. No private messages to players.", "Report concerns the day you have them. You need concern, not proof.", "Never promise a child secrecy."],
+      "resourceIds": ["res-20", "res-21", "res-16"],
+      "quiz": [
+        { "id": "q1", "prompt": "A player asks to ride home with you because their parent is running late. What do you do?", "options": ["Give the ride; the parent will be grateful.", "Wait with the player in view of other adults until a guardian arrives, and let another adult know.", "Send the player home with a teammate's family without telling anyone."], "correct": 1, "explanation": "Never be alone with a player who is not your child. Wait where others can see you and tell another adult or the parent." },
+        { "id": "q2", "prompt": "A player tells you quietly that an adult in their life is hurting them. Your first steps are to…", "options": ["Ask detailed questions so you have all the facts before reporting.", "Promise you will keep it between the two of you.", "Listen calmly, tell them they did the right thing, then report to the league safety officer and the appropriate authority the same day."], "correct": 2, "explanation": "Listen, reassure, report. Do not investigate and never promise secrecy." },
+        { "id": "q3", "prompt": "Which of these is a boundary violation to report?", "options": ["A coach high-fiving players after a win.", "A coach texting a 10-year-old player directly about practice.", "A coach adjusting a batting grip with the player's permission at practice."], "correct": 1, "explanation": "Direct private communication with a player is a boundary violation regardless of the content." },
+        { "id": "q4", "prompt": "Who needs a background check in a Little League program?", "options": ["Only managers.", "Every manager, coach, board member and volunteer with repetitive access to players.", "Only volunteers who travel with the team."], "correct": 1, "explanation": "Anyone with repetitive access to players must be screened before the season." }
+      ]
+    },
+    {
+      "id": "cert-concussion",
+      "title": "Concussion Recognition and Response",
+      "summary": "What a concussion is, the signs to watch for in young players, the remove-from-play rule, and how return to play works.",
+      "durationMin": 10,
+      "required": true,
+      "renewMonths": 12,
+      "audience": ["head_coach", "assistant_coach", "umpire", "volunteer", "board_member"],
+      "sections": [
+        { "heading": "What a concussion is", "body": ["A concussion is a brain injury caused by a bump, blow or jolt to the head or body that makes the brain move inside the skull. In baseball the common causes are a pitched or batted ball to the head, collisions between fielders, a collision at a base, and a fall onto the head.", "A player does not have to be knocked out to have a concussion. Most concussions happen without loss of consciousness, and helmets reduce but do not prevent them."] },
+        { "heading": "Signs you observe and symptoms the player reports", "body": ["Observed: appears dazed or stunned, confused about position or play, forgets an instruction, moves clumsily, answers slowly, shows mood or personality change, cannot recall events before or after the hit.", "Reported: headache or pressure, nausea, balance problems or dizziness, blurry or double vision, sensitivity to light or noise, feeling sluggish or foggy, concentration or memory problems, just not feeling right.", "Young players often under-report because they want to keep playing. Ask simple questions: What field are we on? Who did we play last week? Watch them for the rest of the day."] },
+        { "heading": "Remove from play, every time", "body": ["If you suspect a concussion, remove the player from the game or practice immediately and do not let them return that day, even if symptoms seem to fade. When in doubt, sit them out.", "Tell the parent or guardian what happened and what you saw, in writing in the app or by phone, and recommend evaluation by a health care provider experienced with concussion. Call emergency services for any loss of consciousness, worsening headache, repeated vomiting, seizure, slurred speech or increasing confusion.", "Record the incident with the league safety officer so the league's safety plan reporting is complete."] },
+        { "heading": "Return to play", "body": ["A player returns only with written clearance from a health care provider, following a gradual, step-by-step progression: light activity, sport-specific drills, non-contact practice, full practice, then games. Any return of symptoms means stepping back.", "Returning too soon risks a second injury while the brain is still healing, which can be far more serious. Parents, coaches and the league share the responsibility to be patient."] }
+      ],
+      "keyPoints": ["No loss of consciousness is needed for a concussion.", "Suspect it? Remove from play that day. No exceptions.", "Tell the guardian in writing; recommend a provider visit; log it with the safety officer.", "Return only with written clearance and a gradual progression."],
+      "resourceIds": ["res-12", "res-10"],
+      "quiz": [
+        { "id": "q1", "prompt": "A batter takes a pitch off the helmet, says he is fine, and wants to run the bases. He seems a little slow answering you. What do you do?", "options": ["Let him run; he says he is fine and the helmet took the hit.", "Remove him from play for the rest of the day, tell his guardian, and recommend a medical evaluation.", "Let him sit one inning and return if he still feels fine."], "correct": 1, "explanation": "Slow answers after a blow to the head are a concussion sign. Remove from play for the day and involve the guardian and a provider." },
+        { "id": "q2", "prompt": "Which statement is true?", "options": ["A player must lose consciousness to have a concussion.", "Most concussions happen without loss of consciousness.", "A helmet prevents concussions."], "correct": 1, "explanation": "Most concussions do not involve being knocked out, and helmets reduce but do not eliminate the risk." },
+        { "id": "q3", "prompt": "When can a player with a diagnosed concussion return to games?", "options": ["As soon as the headache is gone.", "After written clearance from a health care provider and a gradual, symptom-free progression.", "After sitting out one week."], "correct": 1, "explanation": "Written clearance plus a stepwise return is the standard; symptoms returning at any step means stepping back." },
+        { "id": "q4", "prompt": "Which symptom means you should call emergency services?", "options": ["Mild headache that is stable.", "Repeated vomiting, seizure, slurred speech or worsening confusion.", "Saying they feel 'a little foggy'."], "correct": 1, "explanation": "Worsening or severe signs are emergencies; the others still require removal from play and a provider visit." }
+      ]
+    },
+    {
+      "id": "cert-first-aid",
+      "title": "First Aid Kit and Emergency Action Plan",
+      "summary": "What belongs in the dugout kit, how to handle the common injuries you will actually see, and what the team does when someone is seriously hurt.",
+      "durationMin": 10,
+      "required": true,
+      "renewMonths": 24,
+      "audience": ["head_coach", "assistant_coach", "volunteer", "board_member"],
+      "sections": [
+        { "heading": "Before the first practice", "body": ["Know where the first aid kit is at every field and check it: gloves, instant cold packs, bandages and gauze, tape, antiseptic wipes, a splint or rolled magazine, an emergency contact list for your roster, and a charged phone.", "Pull up each player's emergency contact and medical notes in GamePlanIQ before the season and know who carries an inhaler or epinephrine auto-injector. The registration record holds what the family shared; ask parents directly about anything unclear.", "Know the field address and the nearest entrance for an ambulance. Say it out loud at your first practice so your assistant knows it too."] },
+        { "heading": "The injuries you will actually see", "body": ["Bumps and bruises from a ball: ice wrapped in cloth for 15 to 20 minutes, no ice directly on skin. Watch for swelling that grows or pain that prevents movement; that needs a provider.", "Scrapes and small cuts: gloves on, rinse with clean water, cover. Blood on a uniform means the player changes before returning.", "Sprains and finger jams: ice, rest, elevate. If the finger or joint looks deformed, do not pull on it; splint as it lies and go to care.", "Heat illness and asthma: covered in the heat module and the player's medical notes. Dehydration shows up as headache, cramps and fatigue before anyone feels thirsty."] },
+        { "heading": "Emergency action plan", "body": ["One adult stays with the injured player and keeps them still. One adult calls 911 and gives the field address and entrance. One adult meets the ambulance. One adult keeps the rest of the team together and calm. Assign these roles at your preseason parent meeting so nobody has to think during an emergency.", "Do not move a player with a suspected neck or back injury, or one who cannot move a limb. Keep them warm and talking until help arrives.", "Call the parent or guardian as soon as the player is being cared for. Afterwards, file an incident report with the safety officer the same day, and in the case of an injury that needs medical care, the league submits its insurance paperwork."] }
+      ],
+      "keyPoints": ["Check the kit and know the field address and ambulance entrance.", "Know your roster's medical notes and emergency contacts before the season.", "Ice through cloth, 15 to 20 minutes; never pull on a deformed joint.", "Four roles in an emergency: stay, call, meet, gather."],
+      "resourceIds": ["res-11", "res-18", "res-06"],
+      "quiz": [
+        { "id": "q1", "prompt": "A player jams a finger sliding and it looks crooked. You should…", "options": ["Pull it straight quickly before it swells.", "Ice it, keep it still as it lies, and get the player to medical care.", "Tape it to the next finger and keep playing."], "correct": 1, "explanation": "Never pull on a deformed joint. Splint as it lies and seek care." },
+        { "id": "q2", "prompt": "In an emergency the adult who calls 911 should…", "options": ["Give the field address and the entrance for the ambulance.", "Leave the field to find a parent first.", "Move the player to the parking lot to save time."], "correct": 0, "explanation": "The caller gives the address and entrance; another adult meets the ambulance; the player is not moved." },
+        { "id": "q3", "prompt": "How long should an ice pack stay on a bruise?", "options": ["Until the player stops complaining, directly on the skin.", "15 to 20 minutes, wrapped in cloth.", "Five seconds, then back in the game."], "correct": 1, "explanation": "Fifteen to twenty minutes through cloth protects the skin and reduces swelling." },
+        { "id": "q4", "prompt": "Where do you find a player's emergency contact and medical notes before the season?", "options": ["Ask the player during practice.", "In the player's registration record in GamePlanIQ, then confirm anything unclear with the parent.", "You do not need them unless something happens."], "correct": 1, "explanation": "The registration record holds what the family shared; review it before the first practice." }
+      ]
+    },
+    {
+      "id": "cert-pitching-rules",
+      "title": "Pitch Counts, Rest Days and Arm Care",
+      "summary": "How the league's pitch-count table works, what the catcher rule means in practice, and how to protect young arms in practice and games.",
+      "durationMin": 10,
+      "required": true,
+      "renewMonths": 12,
+      "audience": ["head_coach", "assistant_coach", "umpire", "division_commissioner"],
+      "sections": [
+        { "heading": "Why pitch counts exist", "body": ["Overuse, not a single bad pitch, is what injures young arms. Little League limits pitches per day by league age and requires calendar days of rest based on how many pitches were thrown. The exact numbers are set each year in the official regulations; your league enters them in Seasons & settings and GamePlanIQ applies them automatically.", "A pitcher may finish the batter when the limit is reached mid-at-bat; the next batter sees a new pitcher. Count every pitch from the first warm-up of the at-bat onward as the rules define it, not just strikes."] },
+        { "heading": "Rest days and the catcher rule", "body": ["Rest is counted in calendar days, not games. A pitcher who throws into the highest band needs the most rest; the Pitch counts page shows each player's next eligible date so you never have to calculate it under pressure.", "The catcher rule protects the same arm from two directions: a player who catches four or more innings may not pitch that day, and a pitcher who throws above the league's threshold may not move to catcher. Check the current rulebook for the exact numbers and record both positions on your lineup card so the scorebook can warn you."] },
+        { "heading": "Arm care in practice", "body": ["Warm up before throwing, every time: jog, arm circles, then a short-to-long catch progression. No cold long toss.", "Keep practice throwing volume reasonable. Pitchers do not throw bullpens the day before they pitch, and a player who complains of elbow or shoulder pain stops throwing that day, full stop. Pain in a growing arm is a signal, not toughness.", "Teach the four-seam grip and a repeatable delivery before anything else. Breaking pitches are discouraged for young players; fastball location and a change-up are enough to win at this level."] }
+      ],
+      "keyPoints": ["Daily maximum by league age; rest in calendar days by pitches thrown. The app computes both.", "Finish the batter at the limit, then change pitchers.", "Catcher rule: four innings caught means no pitching that day.", "Warm up every throw; pain stops throwing."],
+      "resourceIds": ["res-14", "res-15", "res-13"],
+      "quiz": [
+        { "id": "q1", "prompt": "Your pitcher hits the daily maximum with a 2-2 count. What happens?", "options": ["He must leave the mound immediately mid-at-bat.", "He may finish this batter, then a new pitcher comes in.", "He can finish the inning."], "correct": 1, "explanation": "The pitcher may finish the current batter; the next batter faces a new pitcher." },
+        { "id": "q2", "prompt": "Rest requirements are counted in…", "options": ["Games played by the team.", "Calendar days.", "Innings pitched."], "correct": 1, "explanation": "Rest is in calendar days based on the pitches thrown." },
+        { "id": "q3", "prompt": "A player catches five innings in the first game of a doubleheader. In the second game he…", "options": ["May pitch if rested.", "May not pitch that day.", "May pitch one inning."], "correct": 1, "explanation": "Catching four or more innings removes pitching eligibility for that day under the catcher rule." },
+        { "id": "q4", "prompt": "A 10-year-old says his elbow hurts during a throwing drill. You…", "options": ["Have him throw lighter to work through it.", "Stop his throwing for the day and tell his guardian.", "Move him to catcher."], "correct": 1, "explanation": "Pain in a growing arm stops throwing for the day. Tell the family." }
+      ]
+    },
+    {
+      "id": "cert-weather-heat",
+      "title": "Heat, Hydration, Lightning and Field Safety",
+      "summary": "How to run practice when it is hot, when to stop for lightning, what to inspect on the field, and how the league's field decisions reach families.",
+      "durationMin": 8,
+      "required": true,
+      "renewMonths": 24,
+      "audience": ["head_coach", "assistant_coach", "umpire", "volunteer", "board_member"],
+      "sections": [
+        { "heading": "Heat and hydration", "body": ["Children heat up faster than adults and do not feel thirst until they are already behind. Schedule water breaks every 15 to 20 minutes in warm weather, more often in extreme heat, and never make water a reward or its absence a punishment.", "Know the signs of heat illness: cramps, heavy sweating, headache, dizziness, nausea, flushed skin. Move the player to shade, loosen equipment, cool with water and give small sips. Confusion, fainting or hot dry skin is an emergency: call 911 and cool aggressively while you wait.", "Shorten and lighten practice on very hot days, hold catchers' gear sessions short, and tell parents the plan so players arrive hydrated."] },
+        { "heading": "Lightning", "body": ["If you hear thunder, lightning is close enough to strike. Clear the field and the dugouts and get everyone into vehicles or a substantial building. Dugouts, trees and metal fences are not shelter.", "Wait at least 30 minutes after the last thunder before returning. The umpire or the league's designated adult makes the call during games; at practice, you make it, and nobody will ever criticize you for stopping early."] },
+        { "heading": "Field inspection and field status", "body": ["Walk the field before every practice and game: holes, glass, sprinkler heads, loose bases, broken fence, standing water, unsecured equipment. Fix what you can and report the rest to the safety officer through the league.", "Field decisions on wet or unsafe fields come from the league, never from a forecast app. Check Field status in GamePlanIQ before leaving home and tell families to do the same; decisions are posted by the times in the league's rainout policy."] }
+      ],
+      "keyPoints": ["Water every 15 to 20 minutes in warm weather; confusion or fainting is a 911 call.", "Thunder means clear the field; wait 30 minutes after the last clap.", "Walk the field before every session and report hazards.", "Field decisions come from the league, and families check Field status."],
+      "resourceIds": ["res-19", "res-18", "res-11"],
+      "quiz": [
+        { "id": "q1", "prompt": "You hear distant thunder during practice but see no lightning. You…", "options": ["Keep practicing until you see lightning.", "Clear the field now and wait 30 minutes after the last thunder.", "Move everyone into the dugout."], "correct": 1, "explanation": "Thunder means lightning is within striking distance; dugouts are not shelter." },
+        { "id": "q2", "prompt": "A player on a hot day is confused and has stopped sweating. You…", "options": ["Give a sports drink and continue.", "Call 911 and cool the player aggressively in the shade while you wait.", "Send him to sit in a parked car."], "correct": 1, "explanation": "Confusion and hot, dry skin are signs of heat stroke, an emergency." },
+        { "id": "q3", "prompt": "How often should you plan water breaks in warm weather?", "options": ["Once at the end of practice.", "Every 15 to 20 minutes, more often in extreme heat.", "Only when a player asks."], "correct": 1, "explanation": "Children do not feel thirst in time; schedule the breaks." },
+        { "id": "q4", "prompt": "Who decides a field is closed after rain?", "options": ["The weather app.", "The league, posted in Field status by the times in the rainout policy.", "Whichever coach arrives first."], "correct": 1, "explanation": "Field decisions are a league decision, never automatic from a forecast." }
+      ]
+    },
+    {
+      "id": "cert-conduct-communication",
+      "title": "Code of Conduct and Communicating with Families",
+      "summary": "The behavior the league expects from adults, how to run a preseason parent meeting, and how to handle playing-time and umpire conversations without losing the room.",
+      "durationMin": 8,
+      "required": false,
+      "renewMonths": 24,
+      "audience": ["head_coach", "assistant_coach", "board_member", "division_commissioner"],
+      "sections": [
+        { "heading": "What the code asks of you", "body": ["Players, parents, coaches and umpires treat each other with respect. No arguing balls and strikes. No criticism of a child in front of others. One warning, then removal from the complex, applies to adults in the stands as much as to anyone in uniform.", "You set the temperature. If you are calm after an umpire's call, your dugout and your parents are calm. If you are not, you have given twelve children permission to blame someone else."] },
+        { "heading": "The preseason parent meeting", "body": ["Cover five things in fifteen minutes: your coaching philosophy (every kid plays, every kid learns), how communication works (team thread in GamePlanIQ, not texts during games), the minimum-play rule and how you will meet it, the volunteer duties you need filled, and how to raise a concern with you (the 24-hour rule: wait a day after a game before discussing playing time).", "Write it down and post it to the team page as a document so families who missed the meeting can read it."] },
+        { "heading": "Hard conversations", "body": ["Playing time: show the data. The lineup card and season playing-time table in GamePlanIQ make the conversation about facts and the league rule, not about feelings or favorites.", "A parent who yells at an umpire: handle it quietly, between innings, away from the players. Thank them for caring, remind them of the code, and if it continues involve the division commissioner. Never trade words across the fence.", "A struggling player: tell the family one specific thing the player is doing well and one specific thing to practice at home, and assign the lesson from the Academy so they have a plan. The report card tab exists for exactly this."] }
+      ],
+      "keyPoints": ["Respect for everyone, including umpires; one warning then removal.", "Fifteen-minute preseason meeting, posted to the team page.", "The 24-hour rule for playing-time conversations.", "Use the playing-time table and report cards to keep hard talks factual."],
+      "resourceIds": ["res-16", "res-08", "res-05"],
+      "quiz": [
+        { "id": "q1", "prompt": "A parent wants to discuss playing time right after a loss. The code suggests…", "options": ["Discussing it immediately so it does not fester.", "Asking them to wait 24 hours, then meeting with the playing-time data.", "Telling them playing time is not up for discussion."], "correct": 1, "explanation": "The 24-hour rule gives everyone time to cool off; the data keeps the conversation factual." },
+        { "id": "q2", "prompt": "Your assistant coach argues a called third strike with the umpire. You…", "options": ["Back him up; the call was bad.", "Stop it immediately and remind him the code applies to coaches first.", "Ignore it; it is between him and the umpire."], "correct": 1, "explanation": "Coaches model the behavior the code expects. No arguing balls and strikes." },
+        { "id": "q3", "prompt": "Which belongs in the preseason parent meeting?", "options": ["Your plan for meeting the minimum-play rule.", "Predictions about which players will make All-Stars.", "A ranking of the roster by talent."], "correct": 0, "explanation": "Explain how every player will play; never rank or compare children publicly." }
+      ]
+    }
+  ]
+}

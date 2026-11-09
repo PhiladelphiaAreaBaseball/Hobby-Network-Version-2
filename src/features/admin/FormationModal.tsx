@@ -1,0 +1,27 @@
+import { useMemo, useState } from "react";
+import { Badge, Button, Modal, Notice, Select, TeamMark } from "../../components/ui";
+import { useSession } from "../../core/hooks";
+import { actions, run } from "../../core/actions";
+import { plural } from "../../core/util";
+import type { FormationResult } from "../../engines/formation";
+
+/** Preview balanced teams for a non-draft division, swap by hand, then place everyone with one click. */
+export function FormationModal({ divisionId, onClose }: { divisionId: string; onClose: () => void }) {
+  const ss = useSession(); const t = ss.tenant!; const seasons = t.seasons.filter((s) => s.status !== "complete"); const [seasonId, setSeasonId] = useState(t.seasons.find((s) => s.status === "registration")?.id ?? t.activeSeason?.id ?? seasons[0]?.id ?? ""); const [nonce, setNonce] = useState(0); const [overrides, setOverrides] = useState<Map<string, string>>(new Map()); const [busy, setBusy] = useState(false);
+  const result: FormationResult | null = useMemo(() => { try { return actions.previewFormation(divisionId, seasonId); } catch { return null; } }, [divisionId, seasonId, nonce, t]);
+  const input = useMemo(() => actions.formationInput(divisionId, seasonId), [divisionId, seasonId, t]);
+  const assignments = useMemo(() => { const m = new Map(result?.assignments ?? []); for (const [k, v] of overrides) m.set(k, v); return m; }, [result, overrides]);
+  const teams = input.teams.map((tm) => { const ids = [...assignments.entries()].filter(([, tid]) => tid === tm.id).map(([pid]) => pid); const rs = ids.map((id) => input.ratings.get(id) ?? 3); return { team: tm, ids, strength: rs.length ? rs.reduce((a, b) => a + b, 0) / rs.length : 0 }; });
+  const groupOf = (pid: string) => result?.groups.find((g) => g.playerIds.includes(pid));
+  if (input.teams.length === 0) return <Modal title="Form teams" onClose={onClose} footer={<Button onClick={onClose}>Close</Button>}><Notice kind="warn">Create this division's teams for the season first, then come back to place players.</Notice></Modal>;
+  return <Modal title={`Form teams · ${t.divisionById.get(divisionId)?.name}`} onClose={onClose} large footer={<><Button onClick={onClose}>Cancel</Button><Button variant="ghost" onClick={() => { setOverrides(new Map()); setNonce(nonce + 1); }}>Reset</Button><Button variant="primary" disabled={busy || assignments.size === 0} onClick={async () => { setBusy(true); const n = await run(() => actions.applyFormation(divisionId, seasonId, assignments), "Players placed; families were told."); setBusy(false); if (n !== undefined) onClose(); }}>{busy ? "Placing…" : `Place ${plural(assignments.size, "player")}`}</Button></>}>
+    <div className="col gap-3">
+      <div className="flex items-center gap-3 wrap"><Select aria-label="Season" value={seasonId} onChange={(e) => { setSeasonId(e.target.value); setOverrides(new Map()); }}>{seasons.map((s) => <option key={s.id} value={s.id}>{s.name}</option>)}</Select><span className="small muted">{plural(input.players.length, "unplaced player")} · {input.ratings.size} with a tryout or evaluation rating · {plural(input.teams.length, "team")}</span></div>
+      {input.players.length === 0 && <Notice kind="info">Everyone approved for this division and season already has a team.</Notice>}
+      <Notice kind="info">{input.teams.some((tm) => tm.seasonId !== seasonId) ? "This season has no teams of its own yet, so the current teams and coaches are used; roll the season over to carry them forward. " : ""}Siblings stay together, a coach's child goes to the coach's team, buddy and coach requests from registration are honoured when the other side exists, then groups are dealt to the smallest and weakest team first. Change any player's team below before placing.</Notice>
+      {result && result.warnings.map((w, i) => <Notice key={i} kind="warn">{w}</Notice>)}
+      {result && result.unmet.length > 0 && <Notice kind="plain"><strong>Requests that could not be met:</strong><ul className="small" style={{ margin: ".3rem 0 0", paddingLeft: "1.1rem" }}>{result.unmet.map((u, i) => <li key={i}>{u}</li>)}</ul></Notice>}
+      <div className="cards-2">{teams.map(({ team, ids, strength }) => <div key={team.id} className="card card-pad col gap-2"><div className="flex items-center gap-2"><TeamMark name={team.name} color={team.color} abbr={team.abbreviation} size={26} /><strong>{team.name}</strong><span className="xsmall muted">{t.userName(team.headCoachUserId)}</span><span className="grow" /><Badge>{ids.length} players</Badge><Badge tone={strength >= 3.4 ? "grass" : strength <= 2.6 ? "gold" : undefined}>avg {strength.toFixed(2)}</Badge></div>
+        <div className="list">{ids.map((pid) => { const p = t.playerById.get(pid); const g = groupOf(pid); return <div key={pid} className="list-item"><span className="grow col" style={{ minWidth: 0 }}><span className="list-item-title">{p?.displayName ?? pid}<span className="xsmall muted"> · age {p?.leagueAge}{input.ratings.has(pid) ? ` · ${input.ratings.get(pid)!.toFixed(1)}` : ""}</span></span>{g && g.reasons.length > 0 && <span className="list-item-sub">{g.reasons[0]}</span>}</span><Select aria-label={`Team for ${p?.displayName}`} value={assignments.get(pid) ?? ""} onChange={(e) => { const m = new Map(overrides); m.set(pid, e.target.value); setOverrides(m); }} style={{ maxWidth: 140 }}>{input.teams.map((tm) => <option key={tm.id} value={tm.id}>{tm.name}</option>)}</Select></div>; })}</div></div>)}</div>
+    </div></Modal>;
+}

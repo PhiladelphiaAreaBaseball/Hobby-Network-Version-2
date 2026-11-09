@@ -1,0 +1,505 @@
+{
+ "$schema": "drill_video",
+ "items": [
+  {
+   "id": "drill-fld-01",
+   "drillId": "drill-fld-01",
+   "url": "https://www.youtube.com/watch?v=itDWbB4QpCM",
+   "videoId": "itDWbB4QpCM",
+   "title": "Infield ready position in youth baseball - LLWS 2015 Texas demonstrates.",
+   "channel": "MJH-Baseball",
+   "note": "Uses Little League World Series infielders to show the ready position (wide feet, knees bent, hands out front) that players hop into on the 'Pitcher's ready!' call in this freeze game.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-fld-02",
+   "drillId": "drill-fld-02",
+   "url": "https://www.youtube.com/watch?v=EGMSjpFMMkQ",
+   "videoId": "EGMSjpFMMkQ",
+   "title": "The Basics: Fielding A Ground Ball",
+   "channel": "Little League",
+   "note": "Little League demonstrates the wide-feet, bottom-down, glove-out fielding triangle and covering the ball with the bare hand on slow rollers, the same form Driveway Triangle Rolls repeats with a parent rolling a tennis ball.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-fld-03",
+   "drillId": "drill-fld-03",
+   "url": "https://www.youtube.com/watch?v=zc3icvcFjNM",
+   "videoId": "zc3icvcFjNM",
+   "title": "How To Teach Fielding In Tee Ball | Little League",
+   "channel": "Little League",
+   "note": "Same-skill substitute from Little League's Tee Ball curriculum: a coach rolls slow grounders to tee ballers who scoop with two open hands and bring the ball to the belly, the same movement as the sock-ball rolls.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-fld-04",
+   "drillId": "drill-fld-04",
+   "url": "https://www.youtube.com/watch?v=zEg7sH75G4Q",
+   "videoId": "zEg7sH75G4Q",
+   "title": "How To Teach Your Kid How to Catch a Baseball or Softball",
+   "channel": "Coach Dan Blewett",
+   "note": "Coach Dan Blewett gives parents simple cues for teaching young kids to catch, including turning the glove fingers up for balls above the waist and fingers down for balls below; same skill as the flip game, without the 'Up!/Down!' call-outs.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-fld-05",
+   "drillId": "drill-fld-05",
+   "url": "https://www.youtube.com/watch?v=hUilHUHMe3M",
+   "videoId": "hUilHUHMe3M",
+   "title": "Infield Throwing Drill Working on Footwork, Posture, and Arm Action",
+   "channel": "Antonelli Baseball",
+   "note": "Antonelli Baseball infield drill isolating the field-then-replace-the-feet footwork into the throw, matching the right-left-throw shadow pattern (same skill; the video uses live ground balls rather than a shoe marker).",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-fld-06",
+   "drillId": "drill-fld-06",
+   "url": "https://www.youtube.com/watch?v=QaXiNUOzJ2k",
+   "videoId": "QaXiNUOzJ2k",
+   "title": "BEST INFIELD DRILL: 3 Cone Drill",
+   "channel": "ZONEDSportsAcademy",
+   "note": "A cone drill that teaches infielders to get around the ground ball on a curved path so the body ends up behind it, the same rounding footwork this drill builds toward each cone.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-fld-07",
+   "drillId": "drill-fld-07",
+   "url": "https://www.youtube.com/watch?v=iQ7e96-iLzo",
+   "videoId": "iQ7e96-iLzo",
+   "title": "Ripken Baseball Fielding Tip - The Backhand",
+   "channel": "Ripken Baseball",
+   "note": "Ripken Baseball shows the crossover footwork and low, thumb-down glove with the pocket out in front on a backhand ground ball, which is the technique Backhand Rolls Across the Body drills with slow rolls to the throwing-hand side.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-fld-08",
+   "drillId": "drill-fld-08",
+   "url": "https://www.youtube.com/watch?v=tz7uDFIPYsI",
+   "videoId": "tz7uDFIPYsI",
+   "title": "Infield Drill To Work On Fielding The Ball Glove Side",
+   "channel": "MegRem Softball",
+   "note": "A fielding coach demonstrates shuffling to a glove-side ground ball, reaching with fingers down and planting the glove-side foot past the ball before throwing; softball demo but identical footwork to the forehand reach, plant, and throw.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-fld-09",
+   "drillId": "drill-fld-09",
+   "url": "https://www.youtube.com/watch?v=muTkKR4DjSQ",
+   "videoId": "muTkKR4DjSQ",
+   "title": "Find a Four-Seam Grip Every Time",
+   "channel": "American Baseball Coaches Association (ABCA)",
+   "note": "ABCA clip showing the glove-to-hand transfer and how to feel for a four-seam grip every time; the drill applies the same transfer with a sock ball at home.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-fld-10",
+   "drillId": "drill-fld-10",
+   "url": "https://www.youtube.com/watch?v=qpGXq9qIADI",
+   "videoId": "qpGXq9qIADI",
+   "title": "First Strike Baseball Quick Hands Infielders",
+   "channel": "Liam Shanahan",
+   "note": "Partner quick-hands drill where the infielder catches with two hands and transfers rapidly to the throwing hand before returning the ball, exactly the catch-and-transfer rhythm of this drill.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-fld-11",
+   "drillId": "drill-fld-11",
+   "url": "https://www.youtube.com/watch?v=AZtaGMpg2b4",
+   "videoId": "AZtaGMpg2b4",
+   "title": "3 Simple Infield Drills To Improve Your Footwork - Smooth Transition From Fielding To Throwing",
+   "channel": "Northern Baseball Training",
+   "note": "Demonstrates fielding the ball out front, funneling it to the body and moving the feet (right-left) into an accurate throw, which is the field-funnel-throw sequence of this drill.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-fld-12",
+   "drillId": "drill-fld-12",
+   "url": "https://www.youtube.com/watch?v=_QC-pBhoZWg",
+   "videoId": "_QC-pBhoZWg",
+   "title": "How to Teach Kids How to Catch Fly Balls",
+   "channel": "Coach Dan Blewett",
+   "note": "Coach Dan Blewett teaches parents how to toss easy, high pop-ups to a young player and catch with fingers up and two hands, matching the underhand Rainbow Toss Pop-Ups progression.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-gen-01",
+   "drillId": "drill-gen-01",
+   "url": "https://www.youtube.com/watch?v=VHu1HOadoFQ",
+   "videoId": "VHu1HOadoFQ",
+   "title": "Baseball Dynamic Warm Up",
+   "channel": "XIP Training Systems",
+   "note": "Team dynamic warm-up for baseball and softball players (noted as working well for younger age groups) that includes jogging, high knees and butt kicks in lines, the same routine as this drill.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-gen-03",
+   "drillId": "drill-gen-03",
+   "url": "https://www.youtube.com/watch?v=6Ehl1Pgy1tY",
+   "videoId": "6Ehl1Pgy1tY",
+   "title": "Dynamic Lunge with Twist Walking Forwards",
+   "channel": "Spire Injury Clinic",
+   "note": "Demonstration of the walking forward lunge with a trunk twist at the bottom of each step; general dynamic warm-up video (not baseball-specific) matching the exercise form in this drill.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-gen-05",
+   "drillId": "drill-gen-05",
+   "url": "https://www.youtube.com/watch?v=5GY4nLILbi4",
+   "videoId": "5GY4nLILbi4",
+   "title": "Baseball Arm Stretches and Throwing Warm Up",
+   "channel": "Ultimate Baseball Training",
+   "note": "A general arm-care warm-up (wrist, elbow and shoulder movements before the first throw) substituted for this specific wake-up sequence; it covers the same pre-throwing shoulder and wrist preparation.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-gen-07",
+   "drillId": "drill-gen-07",
+   "url": "https://www.youtube.com/watch?v=9DZ-5Mg4nrg",
+   "videoId": "9DZ-5Mg4nrg",
+   "title": "Cool Down Stretches For Kids",
+   "channel": "Physed Teach Fit",
+   "note": "Kid-led follow-along cool-down of gentle held stretches (arm across the chest, overhead reach, quad stretch and more) that a coach can mirror in the Light Stretch Circle; general kids' cool-down video, not baseball-specific.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-gen-09",
+   "drillId": "drill-gen-09",
+   "url": "https://www.youtube.com/watch?v=k7Sv9PM3gHc",
+   "videoId": "k7Sv9PM3gHc",
+   "title": "Factory 101: Infield Drill Series Part 1 - Ready Position",
+   "channel": "Baseball Factory",
+   "note": "General skill substitute (no freeze-tag video was verifiable): a Baseball Factory coach demonstrates the ready position (wide feet, bent knees, hands out, eyes up) that players must freeze into when tagged.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-gen-11",
+   "drillId": "drill-gen-11",
+   "url": "https://www.youtube.com/watch?v=bTvG-RzeDeE",
+   "videoId": "bTvG-RzeDeE",
+   "title": "Tee Ball Drills That Actually Work for Ages 5-7 (Coaches Use These)",
+   "channel": "Schupak Sports",
+   "note": "No baseball-specific Simon Says video could be verified; this substitute shows fun, listening-based tee ball practice games and stance/swing basics for ages 5-7 that the Shadow-Swing Simon Says game draws on.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-hit-01",
+   "drillId": "drill-hit-01",
+   "url": "https://www.youtube.com/watch?v=bwJX1r_fxpc",
+   "videoId": "bwJX1r_fxpc",
+   "title": "How to Hold a Baseball Bat - Box Grip vs Knocking Knuckles",
+   "channel": "YouGoProBaseball",
+   "note": "A former pro hitter shows how to line up the knocking knuckles and hold the bat in the fingers, which is exactly the grip check the coach walks the line to make in this drill.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-hit-03",
+   "drillId": "drill-hit-03",
+   "url": "https://www.youtube.com/watch?v=7o6GG3rFr88",
+   "videoId": "7o6GG3rFr88",
+   "title": "The Importance of Balance While Hitting a Baseball",
+   "channel": "DNA Sports",
+   "note": "Youth hitting lesson on staying balanced through the swing and holding the finish, which is the exact checkpoint the Statue Finish Swings drill freezes on (general balance/finish video rather than a named statue drill).",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-hit-05",
+   "drillId": "drill-hit-05",
+   "url": "https://www.youtube.com/watch?v=JV5AuQy8wt8",
+   "videoId": "JV5AuQy8wt8",
+   "title": "How to Keep Your Load with the Stride - Baseball Hitting Drills - DNA Sports: On The Field",
+   "channel": "DNA Sports",
+   "note": "General skill substitute (no towel-specific video was verifiable): a coach shows hitters how to stride while keeping the hands and weight loaded back, which is exactly what the towel-at-the-back-shoulder freeze checks.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-hit-07",
+   "drillId": "drill-hit-07",
+   "url": "https://www.youtube.com/watch?v=44Hb_siEE6I",
+   "videoId": "44Hb_siEE6I",
+   "title": "Bat Behind the Back Drill",
+   "channel": "Game Day USA Softball",
+   "note": "Coach demonstrates the bat-behind-the-back hip-turn drill (bat hooked in the elbows, hips rotate to the pitcher while the head stays still); filmed with softball players but the movement is identical for baseball hitters.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-hit-09",
+   "drillId": "drill-hit-09",
+   "url": "https://www.youtube.com/watch?v=2_DX0sP65VY",
+   "videoId": "2_DX0sP65VY",
+   "title": "Hitting -Extension Work Off Tee",
+   "channel": "YRA-Year Round Athlete",
+   "note": "Tee drill focused on extending the arms and driving through the ball after contact, the same extension and high-finish cue as the three-balls-in-a-row tee drill.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-hit-11",
+   "drillId": "drill-hit-11",
+   "url": "https://www.youtube.com/watch?v=UwrON2C8rT0",
+   "videoId": "UwrON2C8rT0",
+   "title": "Practicing Inside, Middle, Outside Pitches",
+   "channel": "SKLZ",
+   "note": "Shows how to move a batting tee to the inside, middle and outside contact points and hit each location to the matching part of the field, mirroring the three chalked spots in this drill.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-hit-13",
+   "drillId": "drill-hit-13",
+   "url": "https://www.youtube.com/watch?v=GY0WtQ151kU",
+   "videoId": "GY0WtQ151kU",
+   "title": "TEE BALL hitting fundamentals. A great tip to put young tee-ball players in a position to succeed!",
+   "channel": "Schupak Sports",
+   "note": "Tee ball coach shows how to set the tee and position a young hitter's feet relative to the ball before swinging, matching the plate-and-tee setup and bat-across-the-plate measuring step in First Tee Hits.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-hit-15",
+   "drillId": "drill-hit-15",
+   "url": "https://www.youtube.com/watch?v=rV3EQ5tHcNE",
+   "videoId": "rV3EQ5tHcNE",
+   "title": "How to Soft Toss | YOUTH BASEBALL AND SOFTBALL",
+   "channel": "Dominate The Diamond",
+   "note": "Shows a kneeling tosser flipping underhand soft toss from the open side while a youth hitter drives balls into a net, with tips on toss rhythm and location that match the drill setup.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-hit-17",
+   "drillId": "drill-hit-17",
+   "url": "https://www.youtube.com/watch?v=0Dc0kW6touQ",
+   "videoId": "0Dc0kW6touQ",
+   "title": "Little League Bunting:The Pivot Bunt & Square Bunt. A baseball skill young players should learn.",
+   "channel": "Schupak Sports",
+   "note": "Youth-coaching walkthrough of the pivot bunt stance and top-hand slide behind the barrel, the two setup steps of this drill; the catch-it-on-the-bat soft-hands progression is not shown and should be added by the parent.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-hit-19",
+   "drillId": "drill-hit-19",
+   "url": "https://www.youtube.com/watch?v=jzSdbv71uz0",
+   "videoId": "jzSdbv71uz0",
+   "title": "How Can Young Players Improve Their Situational Hitting?",
+   "channel": "Coach Dan Blewett",
+   "note": "Coach Dan Blewett explains how young hitters practice situational hitting (runner on second, runner on third, hitting to the right side), the same job-based approach the Move the Runner rounds use.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-mnt-01",
+   "drillId": "drill-mnt-01",
+   "url": "https://www.youtube.com/watch?v=5ryMJRkM5YA",
+   "videoId": "5ryMJRkM5YA",
+   "title": "How to Mentally Overcome Failure in Youth Baseball",
+   "channel": "Dominate The Diamond",
+   "note": "General youth mental-game video (substitute for the exact drill) on bouncing back after a mistake with a breath, a refocus and moving on to the next pitch, the mindset the five-second reset routine trains.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-mnt-04",
+   "drillId": "drill-mnt-04",
+   "url": "https://www.youtube.com/watch?v=qnlcO0W-MAU",
+   "videoId": "qnlcO0W-MAU",
+   "title": "Baseball Dugout Cheers for Little Leagues",
+   "channel": "Sid Murthy",
+   "note": "Compilation of Little League dugout cheers that use teammates' names; substituted team-culture video since no instructional video of the Dugout Cheer Captain game exists, but it gives the line examples of cheers to lead.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-pos-01",
+   "drillId": "drill-pos-01",
+   "url": "https://www.youtube.com/watch?v=g8P2p3Go0WI",
+   "videoId": "g8P2p3Go0WI",
+   "title": "First Basemen, Receiving a Throw at a Base - Force Play  ---Coaching Youth Baseball & Softball",
+   "channel": "Baseball Positive",
+   "note": "Youth coaching video on how a first baseman gets to the bag, finds it with the heel of the throwing-side foot, gives a target, and stretches only after the throw is in the air, the same footwork sequence as Heel to the Bag.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-pos-03",
+   "drillId": "drill-pos-03",
+   "url": "https://www.youtube.com/watch?v=5q3b9m2ERho",
+   "videoId": "5q3b9m2ERho",
+   "title": "Youth Practice Plan Series | Ready Position and Infield/Outfield Communication Drill",
+   "channel": "American Baseball Coaches Association (ABCA)",
+   "note": "ABCA youth practice segment on infield/outfield communication, substituted for the exact shortstop-captain drill; it teaches the same skill of infielders calling the play out loud before and during each rep.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-pos-05",
+   "drillId": "drill-pos-05",
+   "url": "https://www.youtube.com/watch?v=nIeRMuAK8Ok",
+   "videoId": "nIeRMuAK8Ok",
+   "title": "Training Tip: Drop Step",
+   "channel": "Ripken Baseball",
+   "note": "Ripken Baseball shows outfielders the drop step and turn to run to the landing spot on balls over the head instead of backpedaling, the over-the-head portion of Angles and Backups: Outfield Routes.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-pos-07",
+   "drillId": "drill-pos-07",
+   "url": "https://www.youtube.com/watch?v=zaIwgV3g1lk",
+   "videoId": "zaIwgV3g1lk",
+   "title": "The Balance Point Drill Every Pitcher Should Know",
+   "channel": "Figure It Out Baseball",
+   "note": "A pitching coach demonstrates lifting to the balance point, holding without wobbling, then striding straight to the target, which is the pause-and-throw pattern of Balance Point Pause Throws.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-run-01",
+   "drillId": "drill-run-01",
+   "url": "https://www.youtube.com/watch?v=b0xQ3p4L6sU",
+   "videoId": "b0xQ3p4L6sU",
+   "title": "Little League Tee Ball Baserunning Drill. Helping tee ball players to run through first base.",
+   "channel": "Schupak Sports",
+   "note": "Tee ball players swing, sprint through first base without slowing, and run on to a marker past the bag, which is exactly the Cone Past the Bag drill.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-run-02",
+   "drillId": "drill-run-02",
+   "url": "https://www.youtube.com/watch?v=CIX7OPlBuJo",
+   "videoId": "CIX7OPlBuJo",
+   "title": "Coaching Youth Baseball - Batter Base Running - Drill #8",
+   "channel": "Coaching Youth Baseball",
+   "note": "Youth baserunning drill showing how to run through first base and how to round first on the curved path toward second, touching the inside corner of the bag, which is the banana path practiced in this drill.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-run-03",
+   "drillId": "drill-run-03",
+   "url": "https://www.youtube.com/watch?v=mrcSQYQECH4",
+   "videoId": "mrcSQYQECH4",
+   "title": "Tag Up Drill",
+   "channel": "Legends Baseball Camps",
+   "note": "Youth camp tag-up drill teaching runners to stay on the base and leave when the fly ball touches the fielder's glove, the same read and timing as Tag-Up Toss.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-run-04",
+   "drillId": "drill-run-04",
+   "url": "https://www.youtube.com/watch?v=ijYmFiy5cII",
+   "videoId": "ijYmFiy5cII",
+   "title": "Warriors Baserunning Progression - Youth Baseball Instruction",
+   "channel": "Chicago Warriors",
+   "note": "General youth baserunning instruction (stance on the base, reading the ball off the bat and reacting) substituted for the exact go/freeze/halfway drill, which has no verified stand-alone video; it teaches the same read-and-react skill.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-run-05",
+   "drillId": "drill-run-05",
+   "url": "https://www.youtube.com/watch?v=lx_lh-2mL4Y",
+   "videoId": "lx_lh-2mL4Y",
+   "title": "Base Running - How to Take a Proper Secondary Lead Off from First Base - DNA Sports: On The Field",
+   "channel": "DNA Sports",
+   "note": "Demonstrates timing the runner's shuffles off the base to the pitch and reading the catcher to go or get back; same skill as Timed Release, though the video shows a lead-off secondary lead rather than the Little League no-lead rule where the foot stays on the bag until the pitch reaches the batter (substituted general skill video).",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-run-06",
+   "drillId": "drill-run-06",
+   "url": "https://www.youtube.com/watch?v=ZQ3XMiPoB3s",
+   "videoId": "ZQ3XMiPoB3s",
+   "title": "How to Teach Sliding in Baseball & Softball | 4 Step Progression",
+   "channel": "SLIDEMVP",
+   "note": "Teaches the figure-four slide through a sit-first progression that adds walking, then jogging into the slide with hands up; the same progression as the drill, though it does not use the cardboard surface.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-thr-01",
+   "drillId": "drill-thr-01",
+   "url": "https://www.youtube.com/watch?v=5ijZYXcgpu0",
+   "videoId": "5ijZYXcgpu0",
+   "title": "How to Grip a Baseball For Beginners",
+   "channel": "Coach Dan Blewett",
+   "note": "Coach Blewett shows beginners how to find the horseshoe seam, lay two fingers across it with the thumb underneath, and keep the ball off the palm, matching each step of the grip finder.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-thr-02",
+   "drillId": "drill-thr-02",
+   "url": "https://www.youtube.com/watch?v=-Smcm2tCgIc",
+   "videoId": "-Smcm2tCgIc",
+   "title": "How to Throw a Baseball, Step One (5 & 6 year olds)",
+   "channel": "Sports Lessons 4 Kids",
+   "note": "Step-by-step throwing lesson for 5- and 6-year-olds covering the sideways stance, pointing the glove at the target, stepping with the glove-side foot and finishing the throw, the same sequence as point-step-throw.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-thr-03",
+   "drillId": "drill-thr-03",
+   "url": "https://www.youtube.com/watch?v=yC0BV3510MU",
+   "videoId": "yC0BV3510MU",
+   "title": "Baseball Tutorial Little League: Indoor Throwing Drill \"Towel Drill\" By Indiana Andrew",
+   "channel": "Indiana Andrew's Baseball Tutorial",
+   "note": "Little League indoor towel drill showing the full throwing arm circle and snapping a towel at a partner's hand at the finish, matching the shadow circles and towel snaps progression.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-thr-04",
+   "drillId": "drill-thr-04",
+   "url": "https://www.youtube.com/watch?v=_hm-5RPm1qs",
+   "videoId": "_hm-5RPm1qs",
+   "title": "Tee-Ball \"One Knee Drill\": Break Down Throwing Mechanics & Help Your Players Succeed.",
+   "channel": "Schupak Sports",
+   "note": "A youth coach breaks down the one-knee throwing drill (front shoulder to target, ball out and up to the L, finish at the opposite hip) that this knee-to-knee partner drill is built on; sock balls are a soft-ball variation.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-thr-05",
+   "drillId": "drill-thr-05",
+   "url": "https://www.youtube.com/watch?v=-Smcm2tCgIc",
+   "videoId": "-Smcm2tCgIc",
+   "title": "How to Throw a Baseball, Step One (5 & 6 year olds)",
+   "channel": "Sports Lessons 4 Kids",
+   "note": "Beginner lesson for 5-6 year olds on standing sideways and stepping with the glove-side foot toward the target before throwing, the same first step the Footprint Step Drill marks with a paper plate on a chalk line.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-thr-06",
+   "drillId": "drill-thr-06",
+   "url": "https://www.youtube.com/watch?v=U9Bd-yOCRVk",
+   "videoId": "U9Bd-yOCRVk",
+   "title": "How to Crow Hop! ",
+   "channel": "Bobby Brown Baseball",
+   "note": "A youth coach breaks down the crow hop into field, hop onto the throwing-side foot while turning sideways, step, and throw, the same hop-step-throw sequence used in the Crow Hop Line.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-thr-07",
+   "drillId": "drill-thr-07",
+   "url": "https://www.youtube.com/watch?v=TgpJXlgIWrQ",
+   "videoId": "TgpJXlgIWrQ",
+   "title": "Coaching Youth Baseball - Infield Play (part 3 of 3)",
+   "channel": "National Alliance for Youth Sports (NAYS)",
+   "note": "NAYS youth-coaching segment with the shuffle-throw-follow infield drill: field out front, bring the ball to the chest, shuffle the feet toward the target and throw, matching the Quick Feet Box footwork.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-thr-08",
+   "drillId": "drill-thr-08",
+   "url": "https://www.youtube.com/watch?v=mmiqCI2a0bs",
+   "videoId": "mmiqCI2a0bs",
+   "title": "Youth Baseball: The One Wall Ball Drill Every Player Needs",
+   "channel": "Coach Beede",
+   "note": "Youth coach demonstrates the wall ball drill for throwing accuracy using a target on a wall, the same setup as the tennis-ball wall target from 10 feet.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-thr-09",
+   "drillId": "drill-thr-09",
+   "url": "https://www.youtube.com/watch?v=36C5VmBYIiU",
+   "videoId": "36C5VmBYIiU",
+   "title": "Bucket Drill",
+   "channel": "Coach DiLena Baseball",
+   "note": "An end-of-practice throwing accuracy game where youth players throw at a bucket for points, the same competitive bucket-target format as Bucket Bullseye.",
+   "verifiedAt": "2026-11-08"
+  },
+  {
+   "id": "drill-thr-10",
+   "drillId": "drill-thr-10",
+   "url": "https://www.youtube.com/watch?v=2mRuWPJS64E",
+   "videoId": "2mRuWPJS64E",
+   "title": "How to Teach Baseball Catching to 5-7 Year Olds",
+   "channel": "DNA Sports",
+   "note": "Shows how to teach 5-7 year olds the ready position, watching the ball into the glove, and catching with two hands (thumbs together up high, pinkies together down low), the receiving half of Catch Basics: Ready, Two Hands, Streak.",
+   "verifiedAt": "2026-11-08"
+  }
+ ]
+}

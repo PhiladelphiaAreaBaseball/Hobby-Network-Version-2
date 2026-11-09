@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "templates": [
+    { "id": "parent-season", "title": "End-of-season parent survey", "audience": "guardian", "questions": [
+      { "id": "overall", "type": "rating", "text": "Overall, how was your family's season?" },
+      { "id": "coach", "type": "rating", "text": "Your child's coach communicated clearly and treated players well." },
+      { "id": "playtime", "type": "rating", "text": "Playing time felt fair." },
+      { "id": "academy", "type": "rating", "text": "The Academy lessons and home practices were useful." },
+      { "id": "schedule", "type": "rating", "text": "Schedule changes and rainouts reached you in time." },
+      { "id": "volunteer", "type": "choice", "text": "Would you volunteer next season?", "options": ["Yes, coaching", "Yes, team duties", "Yes, league events", "Not next season"] },
+      { "id": "improve", "type": "text", "text": "One thing we should change next season." }
+    ] },
+    { "id": "coach-season", "title": "End-of-season coach survey", "audience": "coach", "questions": [
+      { "id": "support", "type": "rating", "text": "The league gave you what you needed to run practices and games." },
+      { "id": "fields", "type": "rating", "text": "Fields and equipment were ready when you arrived." },
+      { "id": "umpires", "type": "rating", "text": "Umpiring was consistent and professional." },
+      { "id": "tools", "type": "rating", "text": "GamePlanIQ's coaching tools saved you time." },
+      { "id": "return", "type": "choice", "text": "Will you coach again?", "options": ["Yes", "Yes, as an assistant", "Undecided", "No"] },
+      { "id": "improve", "type": "text", "text": "What should the league do differently for coaches?" }
+    ] },
+    { "id": "midseason-pulse", "title": "Mid-season pulse check", "audience": "all", "questions": [
+      { "id": "enjoy", "type": "rating", "text": "My child (or my team) is enjoying the season." },
+      { "id": "comms", "type": "rating", "text": "I know what is happening and when." },
+      { "id": "concern", "type": "text", "text": "Anything the board should hear now rather than in June?" }
+    ] }
+  ]
+}

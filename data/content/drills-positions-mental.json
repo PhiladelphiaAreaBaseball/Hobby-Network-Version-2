@@ -1,0 +1,862 @@
+{
+  "$schema": "drill",
+  "items": [
+    {
+      "id": "drill-pos-01",
+      "name": "Heel to the Bag: First Base Footwork",
+      "category": "positions",
+      "skillFocus": [
+        "footwork",
+        "glove_work",
+        "infield"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "glove",
+        "ball",
+        "bases"
+      ],
+      "equipmentFreeVariant": "Use a folded towel as the bag and have the partner point instead of throw. The player sprints to the towel, finds it with the heel while watching the partner, and stretches toward the direction pointed with an empty glove.",
+      "locations": [
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 60,
+      "participantsMin": 2,
+      "participantsMax": 8,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 10,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "light",
+      "setup": "Place a base, or towel, with a thrower 30 to 60 feet away holding a few balls. The first baseman starts three steps off the bag in the ready position. Use a soft ball for the short-hop round.",
+      "instructions": [
+        "On 'go', the player sprints to the bag, turns to face the thrower, and finds the inside edge of the bag with the heel of the throwing-side foot without looking down.",
+        "The player shows a chest-high target and freezes until the ball leaves the thrower's hand.",
+        "Round one: six straight throws. Stretch with the glove-side foot only after the ball is in the air.",
+        "Round two: six throws a step to either side. On wide throws the player comes off the bag, catches, and pretends to tag.",
+        "Round three: six short hops with a soft ball. Stay low, glove fingers down, play it like a ground ball.",
+        "Reset off the bag between every throw so the sprint and heel-find are repeated each time."
+      ],
+      "reps": "3 rounds of 6 throws (18 total): 6 straight, 6 wide to either side, 6 short hops with a soft ball. Rotate thrower every round.",
+      "cues": [
+        "Heel finds the bag",
+        "See it, then stretch",
+        "Ball first, bag second"
+      ],
+      "parentTip": "Watch the glove-side foot. If it moves before you release the ball, stop and say 'see it first'. Also check that the eyes never drop to find the bag.",
+      "safety": [
+        "Heel on the inside edge only, so the player's feet stay out of the base path.",
+        "Short hops use a soft or safety ball until the player handles them confidently.",
+        "Throwers stay under about 25 throws each and rotate every round."
+      ],
+      "funVariation": "Beat the Runner: a second player jogs from home toward first on each throw, and the first baseman earns a point for every clean catch with the heel still on the bag. First to ten points wins; runners peel off well before the bag.",
+      "lessonId": "pos-01"
+    },
+    {
+      "id": "drill-pos-02",
+      "name": "Feeds and Pivots Around the Bag",
+      "category": "positions",
+      "skillFocus": [
+        "transfers",
+        "footwork",
+        "infield"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "glove",
+        "ball",
+        "bases"
+      ],
+      "equipmentFreeVariant": "Use a towel for second base and a rolled-up sock ball. Practice the stiff-wrist push feed into a partner's hands at the towel and the left-foot touch, step, and shadow throw with no ball.",
+      "locations": [
+        "field"
+      ],
+      "minSpaceFt": 60,
+      "participantsMin": 3,
+      "participantsMax": 8,
+      "contexts": [
+        "team"
+      ],
+      "durationMin": 12,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "light",
+      "setup": "Bases at 60 feet or your division's distance. One player at second base position, one at shortstop position, one at first base, and a coach near the mound with a bucket of balls rolling ground balls by hand.",
+      "instructions": [
+        "Coach rolls a ball to the second baseman within 15 feet of the bag. The player fields, takes the ball out, shows it, and pushes an underhand feed chest high to the shortstop covering the bag.",
+        "Coach rolls a ball farther toward first. The second baseman fields, turns the hips, and makes a short overhand feed to the chest.",
+        "Switch: the coach rolls to the shortstop, who feeds the second baseman at the bag. The second baseman catches with two hands, touches the bag with the left foot, steps toward first with the right foot, and makes an easy throw to first.",
+        "On every third rep the coach calls 'late' and the pivot player must take the one sure out at the bag instead of throwing to first.",
+        "Rotate all players through feeder, pivot, and first base."
+      ],
+      "reps": "8 underhand feeds and 6 overhand feeds per feeder, then 8 pivots per pivot player. Cap throws to first at 15 per player at easy speed.",
+      "cues": [
+        "Push it, don't toss it",
+        "Show the ball",
+        "One sure out first"
+      ],
+      "parentTip": "A feed that floats means a bent wrist; ask for a stiff wrist and a step toward the partner. Praise the player who takes the one sure out on a 'late' call.",
+      "safety": [
+        "No runners during this drill until feeds and pivots are smooth; add a jogging runner only with a coach watching.",
+        "Throws to first stay at easy speed and under 15 per player.",
+        "Use a soft ball for the first week so a high feed does not hurt."
+      ],
+      "funVariation": "Turn Two Relay: two groups race to complete five clean feed-and-pivot combinations, with a coach judging that every feed was chest high. A floating feed restarts that group's count.",
+      "lessonId": "pos-02"
+    },
+    {
+      "id": "drill-pos-03",
+      "name": "Shortstop Captain: Outs and Coverage Calls",
+      "category": "positions",
+      "skillFocus": [
+        "communication",
+        "infield",
+        "baseball_iq"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "glove",
+        "ball",
+        "bases"
+      ],
+      "equipmentFreeVariant": "Chalk or towel bases in a yard. The adult calls situations and the player makes the outs call and sprints to the correct base with no ball at all; add a tennis ball for pop-up calls.",
+      "locations": [
+        "field"
+      ],
+      "minSpaceFt": 90,
+      "participantsMin": 4,
+      "participantsMax": 10,
+      "contexts": [
+        "team"
+      ],
+      "durationMin": 12,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "light",
+      "setup": "Full infield with players at third, shortstop, second, and first, plus a coach at home with a bucket. Outfielders can join for pop-up priority. The shortstop starts deep, behind the baseline.",
+      "instructions": [
+        "Before each rep the coach announces runners and outs. The shortstop repeats it loudly with fingers up and names the play, such as 'one out, force at second'. Nothing is rolled until the shortstop speaks.",
+        "Coach calls 'bunt', 'ball to the right side', or 'steal'. The shortstop sprints to the correct base, straddles the back of it, and shows a target.",
+        "Coach rolls ground balls to both sides. The shortstop fields out front, shuffles toward first, and makes an easy throw to first, or holds the ball on a 'no play' call.",
+        "Coach throws pop-ups between the shortstop and another fielder. Whoever has the easier catch calls 'ball' three times; the other says 'you' and backs up.",
+        "Rotate a new shortstop every eight reps so every infielder practices the calls."
+      ],
+      "reps": "12 situations per shortstop: 4 coverage sprints, 4 ground balls with a throw or hold, 4 pop-up calls. Throws stay under 20 per player at easy speed.",
+      "cues": [
+        "Outs up, say the play",
+        "Bunt means third",
+        "Ball, ball, ball"
+      ],
+      "parentTip": "Listen more than you watch. The drill is working when the shortstop's voice is the first thing you hear on every rep and the pop-up calls never overlap.",
+      "safety": [
+        "Teach the pop-up calling rule before the first pop-up; two players calling the same ball is how collisions happen.",
+        "Rolled or easy fungo ground balls only; long throws capped at 20 per player at easy speed.",
+        "Live steal coverage with runners is only run where the rulebook allows runners to leave early for that division."
+      ],
+      "funVariation": "Captain's Quiz: the coach describes a situation and every infielder points to the base they would cover. Players who point to the right base stay standing; the last player standing is the captain for the next round.",
+      "lessonId": "pos-03"
+    },
+    {
+      "id": "drill-pos-04",
+      "name": "Hot Corner Reactions and Slow Rollers",
+      "category": "positions",
+      "skillFocus": [
+        "ground_balls",
+        "footwork",
+        "infield"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "glove",
+        "soft_ball",
+        "bases"
+      ],
+      "equipmentFreeVariant": "Tennis ball tossed by a parent for reactions and rolled on a driveway for slow rollers, with a towel as the bag and a shadow throw instead of a real one.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 40,
+      "participantsMin": 2,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 10,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "light",
+      "setup": "A bag or towel for third base and a throwing partner or target 40 to 60 feet away toward first. The tosser stands 30 feet from the third baseman with soft or safety balls.",
+      "instructions": [
+        "Low ready position check: feet wide, glove out and open, weight forward. Hold for three seconds.",
+        "Reaction round: the tosser throws firm ground balls with a soft ball to the left, right, and straight on. The player knocks it down or fields it, picks it up, and makes an easy throw to the partner.",
+        "Slow-roller round: the tosser rolls the ball softly toward the player. Charge under control, field off the glove-side foot, take one step, and throw on the move at easy speed.",
+        "Bunt call round: a partner acts as catcher and calls 'one', 'three', or 'no play'. The third baseman shouts 'I got it', fields, and throws to the called base or holds the ball.",
+        "Tag round: a partner throws from 40 feet while another jogs toward the bag. Straddle, catch with two hands, sweep the tag down to the front of the bag."
+      ],
+      "reps": "8 reaction balls, 8 slow rollers, 4 bunt calls, 4 tags; two rounds with a rest between. Throws capped at 20 per player at easy speed.",
+      "cues": [
+        "Low and ready",
+        "Knock it down, then pick it up",
+        "Charge under control"
+      ],
+      "parentTip": "Watch the body: if your child turns away from a reaction ball, move back and slow down. On slow rollers, look for shorter steps near the ball instead of running past it.",
+      "safety": [
+        "Soft or safety balls for all reaction tosses, never from closer than 25 feet, never at the face.",
+        "Runners in the tag round jog and stop before the bag; no sliding into the fielder.",
+        "Stop when the ready position starts rising; that is fatigue."
+      ],
+      "funVariation": "Wall of Bricks: every reaction ball kept in front of the body is a brick in the wall. Build a ten-brick wall before the tosser gets three balls past you.",
+      "lessonId": "pos-04"
+    },
+    {
+      "id": "drill-pos-05",
+      "name": "Angles and Backups: Outfield Routes",
+      "category": "positions",
+      "skillFocus": [
+        "outfield",
+        "fly_balls",
+        "communication"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "glove",
+        "ball"
+      ],
+      "equipmentFreeVariant": "Tennis ball thrown by a parent in a park for angles, and chalk or towel bases for backup sprints. The angle routes and backup spots can be run with no ball at all by pointing and running.",
+      "locations": [
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 120,
+      "participantsMin": 3,
+      "participantsMax": 9,
+      "contexts": [
+        "team"
+      ],
+      "durationMin": 12,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "light",
+      "setup": "Outfielders in left, center, and right at normal depth. A coach at home with a bucket of balls and a cutoff partner on the infield grass. Bases or towels in place for backup sprints.",
+      "instructions": [
+        "Before each rep the coach calls outs and runners and each outfielder says where they will throw.",
+        "Angle balls: the coach throws or hits fly balls to each outfielder's side. Take an angle to the landing spot, catch with two hands moving toward the infield, and throw to the cutoff's chest at easy speed.",
+        "Over-the-head balls: drop step, turn, run, catch.",
+        "Ground balls: get in front and knee down with no runner called; field on the move and crow hop to the cutoff when the coach shouts 'runner'.",
+        "Backup sprints: the coach calls an infield play such as 'ground ball to short, throw to first'. All three outfielders sprint to their backup spot behind the correct base; the coach checks positions.",
+        "Rotate positions so each player learns left, center, and right backup jobs."
+      ],
+      "reps": "Per outfielder: 6 angle balls, 4 over-the-head balls, 6 ground balls, 8 backup sprints. Throws capped at 20 per player at easy speed.",
+      "cues": [
+        "Angle to the spot",
+        "Knee down, be a wall",
+        "Every play, every time"
+      ],
+      "parentTip": "Watch the first step. A turn and an angled route is right; a straight-line chase is wrong. On backups, check that the player ends up in line with the throw, 20 to 30 feet behind the base.",
+      "safety": [
+        "Only one outfielder per ball unless the drill is specifically about calling; keep wide spacing.",
+        "Tennis or soft balls for players still learning to track fly balls.",
+        "Walk the outfield for holes and wet spots before running angle routes."
+      ],
+      "funVariation": "Backup Bingo: the coach calls five infield plays in a row and the outfield earns a square for each play where all three players reach the right spot. Five squares in a row wins, and a missed spot erases a square.",
+      "lessonId": "pos-05"
+    },
+    {
+      "id": "drill-pos-06",
+      "name": "Gear On: Receive and Block",
+      "category": "positions",
+      "skillFocus": [
+        "glove_work",
+        "ready_position",
+        "confidence"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "catcher_gear",
+        "glove",
+        "soft_ball"
+      ],
+      "equipmentFreeVariant": "Without gear there are no thrown balls. Rehearse the stance and the knee-drop blocking shape on grass or a mat for five slow reps each: squat, drop both knees, round the shoulders, tuck the chin, hold for two seconds.",
+      "locations": [
+        "field"
+      ],
+      "minSpaceFt": 40,
+      "participantsMin": 2,
+      "participantsMax": 4,
+      "contexts": [
+        "team"
+      ],
+      "durationMin": 12,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "light",
+      "setup": "Catcher in full gear, including helmet with mask, throat guard, chest protector, shin guards, and mitt, in a crouch at home plate or on grass. A coach with a bucket of soft or safety balls 25 feet away. Water bottle within reach.",
+      "instructions": [
+        "Gear check by the coach: every piece on, fitted, and fastened before the first toss.",
+        "Receiving: the coach tosses underhand to the middle, each side, then low. The catcher beats the ball to the spot and catches with a quiet mitt, fingers down on low tosses, bare hand hidden.",
+        "Blocking shape with no ball: on 'block', both knees drop, the mitt fills the gap between the knees, bare hand behind the mitt, chin tucked, shoulders rounded. Hold two seconds.",
+        "Rolled blocks: the coach rolls soft balls at the knees, then to each side so the catcher angles back toward the plate. The catcher blocks, finds the ball, and picks it up with the bare hand.",
+        "Tossed blocks: the coach tosses easy one-bounce soft balls from 25 feet. Block first, catch never.",
+        "Water break, then ten quiet receives to finish on a clean catch."
+      ],
+      "reps": "20 receives, 6 no-ball blocking shapes, 12 rolled blocks, 8 tossed blocks; cap at 20 blocks per session. Return throws to the coach are easy and count toward the catcher's throwing total.",
+      "cues": [
+        "Beat the ball to the spot",
+        "Knees down, chin down",
+        "Quiet mitt"
+      ],
+      "parentTip": "If you are not sure the gear fits or is complete, do not toss a ball; practice the stance and the blocking shape only. Watch for a head that turns away on blocks, which means slow down and go back to rolled balls.",
+      "safety": [
+        "Full catcher's gear, including the throat guard, for every thrown ball taken in a crouch, including practice. Check your league's current Little League rulebook for the gear list for your division.",
+        "Soft or safety balls only for blocking until the form is solid; real baseballs from a pitcher come much later.",
+        "Water every 15 minutes; gear holds heat. Stop at any dizziness or nausea and tell an adult."
+      ],
+      "funVariation": "Wall Keeper: the coach tosses ten soft balls in the dirt and the catcher is the goalkeeper. Every ball that stays within one step of the plate is a save. Beat your save record from last week.",
+      "lessonId": "pos-06"
+    },
+    {
+      "id": "drill-pos-07",
+      "name": "Balance Point Pause Throws",
+      "category": "positions",
+      "skillFocus": [
+        "balance",
+        "throwing_motion",
+        "accuracy"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "glove",
+        "ball"
+      ],
+      "equipmentFreeVariant": "Shadow version with no ball: lift to the balance point, hold for one count, stride onto a chalk line, and finish with the chest over the front knee. Ten slow reps, or snap a small towel at a target for the finish.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 50,
+      "participantsMin": 2,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 10,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "moderate",
+      "setup": "A chalk line or towel laid from the pitcher's pivot foot straight toward a partner standing 40 feet away with a glove, giving a chest-high target. The partner stands, not crouched, unless wearing full catcher's gear. The pitcher is fully warmed up from the throwing routine.",
+      "instructions": [
+        "Five no-ball reps: lift to the balance point and hold for a count of one without wobbling, then stride onto the line and finish.",
+        "Set one: five throws at 60 to 70 percent effort, pausing one count at the balance point before each throw. Count each throw out loud.",
+        "Set two: five throws with the same easy effort, pausing at the balance point, with a one-second freeze in the fielding position after each throw.",
+        "Set three: five throws with no pause, same effort, checking that the stride lands on the line and the toes point at the target.",
+        "Stop at 15 throws, or 20 at most if everything feels good, and write the number down.",
+        "The pitcher tells the adult how the arm feels before leaving."
+      ],
+      "reps": "3 sets of 5 throws at 60 to 70 percent effort from 40 feet, 15 throws total. Hard cap: 20 throws including misses. Not on a day the player pitched in a game or will pitch the next day.",
+      "cues": [
+        "Balance, then go",
+        "Stride to the line",
+        "Chest over knee"
+      ],
+      "parentTip": "Film the balance point from the side. A lean back toward second base or a wobble means slow down and repeat the no-ball reps before any throw. Count the throws yourself as a backup.",
+      "safety": [
+        "Hard cap of 20 throws including misses; stop earlier if balance or stride starts to wander. Never run this drill on a day the player pitched or is scheduled to pitch within the league's rest window.",
+        "Any pain in the arm, elbow, or shoulder ends the drill immediately and the player tells a coach or parent.",
+        "The receiving partner stands and catches chest high unless wearing full catcher's gear."
+      ],
+      "funVariation": "Statue Contest: after each pause at the balance point, the partner counts 'one' and judges whether the pitcher was a perfect statue. Five perfect statues in a set earns the pitcher the right to pick the warm-up song next practice.",
+      "lessonId": "pos-07"
+    },
+    {
+      "id": "drill-pos-08",
+      "name": "Flat-Ground Strike Zone Targets",
+      "category": "positions",
+      "skillFocus": [
+        "accuracy",
+        "throwing_motion",
+        "footwork"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "glove",
+        "ball",
+        "net"
+      ],
+      "equipmentFreeVariant": "Chalk a strike-zone rectangle, about 17 inches wide from the knees to the chest, on a fence or garage wall and throw a tennis ball or sock ball at it from 30 feet. Same sets, same pitch cap.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 50,
+      "participantsMin": 1,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 10,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "moderate",
+      "setup": "A net or fence with a strike zone marked by tape or a hanging towel, set 40 to 46 feet from a flat throwing spot marked with chalk. A bucket of balls beside the pitcher. The pitcher has completed the throwing warm-up routine.",
+      "instructions": [
+        "Round one: five pitches at 70 percent effort aiming for the middle of the zone from the stretch, each one counted out loud.",
+        "Round two: five pitches to the glove-side half of the zone.",
+        "Round three: five pitches to the arm-side half of the zone.",
+        "Round four: five pitches where the partner or the pitcher calls a spot before each throw. Score one point per hit spot.",
+        "Freeze in the fielding position for one second after every pitch; a pitch where the pitcher falls off to the side does not count even if it hits the target.",
+        "Stop at 20 pitches, write the number and the score down, and report how the arm feels."
+      ],
+      "reps": "4 rounds of 5 pitches at 70 percent effort, 20 pitches total. Hard cap: 25 pitches including misses, counted out loud. Not on a game-pitching day or within the league's rest window.",
+      "cues": [
+        "Count every pitch",
+        "Lead with the hip",
+        "Finish ready to field"
+      ],
+      "parentTip": "Your job is the count and the arm check. Say the number after every pitch, stop at the cap even when the pitcher is hot, and ask how the arm feels before packing up.",
+      "safety": [
+        "Hard cap of 25 pitches including misses. This drill is never run on a game-pitching day or inside the league's required rest days from the pitch-count table.",
+        "Stop immediately at any arm, elbow, or shoulder pain and tell a coach or parent.",
+        "Fastball and changeup only; many coaches recommend that young pitchers wait on breaking pitches, and this drill never includes them."
+      ],
+      "funVariation": "Around the Zone: divide the target into four corners and try to hit each corner once within the 20-pitch cap. Hitting all four is a perfect round; most players need a few weeks to get there.",
+      "lessonId": "pos-07"
+    },
+    {
+      "id": "drill-mnt-01",
+      "name": "Next-Pitch Reset Reps",
+      "category": "mental",
+      "skillFocus": [
+        "confidence"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "This drill already uses nothing. It works standing in a line, in the dugout, in a living room, or sitting in the car.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 5,
+      "participantsMin": 1,
+      "participantsMax": 15,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Players stand with space to step out and back in, as if at the plate. Each player has already chosen a cue word and a spot to look at. No bats.",
+      "instructions": [
+        "The adult or a teammate calls a pretend situation, such as 'you just swung at a pitch over your head' or 'you just booted a ground ball'.",
+        "The player runs the full reset at once: step out, eyes to the spot, one slow breath in and out, cue word, step back in, hands set or ready position.",
+        "The caller counts the seconds; the goal is about five.",
+        "After eight situations, switch roles so the child calls situations and the adult or a teammate resets, with the child catching any skipped step.",
+        "Finish with two resets after pretend good results, so the routine is tied to every pitch, not only to mistakes."
+      ],
+      "reps": "8 situations followed by one full reset each, then roles switch for 4 more. One round per practice.",
+      "cues": [
+        "Eyes to your spot",
+        "One breath",
+        "Say your word"
+      ],
+      "parentTip": "Watch where the eyes go. If they drift to you or to teammates during the reset, the spot needs to be something that cannot talk back, like the bat label or home plate.",
+      "safety": [
+        "No bats in hand during reset practice in the dugout or any crowded space.",
+        "If a player seems upset rather than playful, pause the drill and check in."
+      ],
+      "funVariation": "Reset Relay: teams line up and the first player cannot tag the next until a teammate judges their reset complete with all five pieces. The first team to finish the line with no skipped steps wins.",
+      "lessonId": "mnt-01"
+    },
+    {
+      "id": "drill-mnt-02",
+      "name": "The Handshake Line",
+      "category": "mental",
+      "skillFocus": [
+        "teamwork",
+        "confidence"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "This drill already uses nothing. Family members stand in as the other team and the umpire.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 10,
+      "participantsMin": 2,
+      "participantsMax": 15,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "cooldown",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Two lines facing each other, or one line with an adult as the opponent. One adult stands to the side as the umpire walking off the field.",
+      "instructions": [
+        "Walk the line slowly as the team that just won. Each player makes eye contact, says 'good game', and uses the handshake, high five, or fist bump the league asks for.",
+        "Walk the line again as the team that just lost a close game. Same eye contact, same words, same pace.",
+        "Each player passes the umpire and says 'thank you, umpire' or 'thanks, Blue'.",
+        "Role-play a call that went against the team: a player walks back quietly and asks the coach 'what did you see?' instead of saying anything to the umpire.",
+        "Each player names one sportsmanship action they will do at the next game."
+      ],
+      "reps": "Two passes through the line, once as winners and once as the losing team, then one umpire thank-you per player.",
+      "cues": [
+        "Eyes up, good game",
+        "Thank you, umpire",
+        "Coach talks, players play"
+      ],
+      "parentTip": "Listen for the tone on the losing-team pass. If 'good game' sounds different after a pretend loss, run that pass again until it sounds the same.",
+      "safety": [
+        "Follow whatever contact the league currently asks for in the handshake line: handshake, high five, or fist bump.",
+        "Players never approach the umpire about a call; that conversation belongs to the coach."
+      ],
+      "funVariation": "Umpire Appreciation Day: every player invents a different polite thank-you for the umpire, and the umpire picks the most sincere one. Sarcasm loses automatically.",
+      "lessonId": "mnt-02"
+    },
+    {
+      "id": "drill-mnt-03",
+      "name": "Flush It: Mistake Reset",
+      "category": "mental",
+      "skillFocus": [
+        "confidence",
+        "teamwork"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "This drill already uses nothing. Pretend mistakes are called by a parent or teammate anywhere.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 5,
+      "participantsMin": 1,
+      "participantsMax": 15,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Players spread out an arm's length apart in a ready position. Each player has chosen a small flush gesture. One adult or teammate is the caller with a watch or a count.",
+      "instructions": [
+        "The caller names a pretend mistake, such as 'you just threw the ball over the first baseman'.",
+        "The player runs all five steps: say 'that's done', one slow breath, the flush gesture, say the next job out loud such as 'ground ball, throw to first', then ready position.",
+        "The caller counts seconds; ten or fewer is the goal.",
+        "Vary the mistakes across hitting, fielding, baserunning, and a call that went against the player.",
+        "Switch roles so the player calls mistakes and checks that the adult or a teammate completes all five steps."
+      ],
+      "reps": "6 pretend mistakes per player, each followed by the five-step flush in under 10 seconds; then 3 as the caller.",
+      "cues": [
+        "That's done",
+        "Flush it",
+        "What's my job"
+      ],
+      "parentTip": "Check the fourth step. Players often breathe and flush but forget to name the next job, and that step is the one that turns the mind toward the next pitch.",
+      "safety": [
+        "Flush gestures never involve throwing a glove, ball, or helmet.",
+        "If a real mistake has left a player upset, talk first and drill later."
+      ],
+      "funVariation": "Flush Bingo: the caller names mistakes from a bingo card and players cover a square each time they complete the routine in under ten seconds. Five in a row wins a round.",
+      "lessonId": "mnt-03"
+    },
+    {
+      "id": "drill-mnt-04",
+      "name": "Dugout Cheer Captain",
+      "category": "mental",
+      "skillFocus": [
+        "teamwork",
+        "communication",
+        "fun"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "This drill already uses nothing. At home, family members stand in as teammates at the pretend fence.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 10,
+      "participantsMin": 2,
+      "participantsMax": 15,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "warmup",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Players stand in a line as if at the dugout fence. One player is the pretend hitter, one is named cheer captain for the round, and a coach or parent writes a pretend batting order on paper.",
+      "instructions": [
+        "The cheer captain starts a cheer that uses the pretend hitter's name, and the whole line joins in for one pretend at-bat.",
+        "The coach calls a name from the batting order and the line answers who is on deck and who is in the hole.",
+        "The pretend hitter walks back as if they struck out, and the first three players in the line each say one encouraging sentence or give a glove tap.",
+        "Rotate the cheer captain and the hitter so every player leads one cheer and receives one pick-up.",
+        "End by naming any cheer that was aimed at the other team and replacing it with a cheer for a teammate."
+      ],
+      "reps": "One cheer led and one pick-up received per player; 10 batting-order questions for the group.",
+      "cues": [
+        "Cheer by name",
+        "Pick them up",
+        "Know who is on deck"
+      ],
+      "parentTip": "Count how many different teammates get cheered by name. A great dugout spreads the noise around instead of cheering only for the best hitter or a best friend.",
+      "safety": [
+        "No bats in the line during this drill; bats come out only in the on-deck area the league allows.",
+        "Keep cheers positive and aimed at your own team, as most league codes of conduct require."
+      ],
+      "funVariation": "Loudest Positive Dugout: the coach scores each round on volume and on whether every cheer used a teammate's name. A cheer aimed at the other team scores zero for the whole round.",
+      "lessonId": "mnt-04"
+    },
+    {
+      "id": "drill-mnt-05",
+      "name": "Pre-Game Routine Walkthrough",
+      "category": "mental",
+      "skillFocus": [
+        "warmup",
+        "confidence"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "This drill already uses nothing. The bag, the field, and the throwing warm-up are all pretended with shadow movements.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 10,
+      "participantsMin": 1,
+      "participantsMax": 15,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "warmup",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Each player has their written pre-game checklist, or the coach reads a team version aloud. Enough space to jog a few steps and shadow throw.",
+      "instructions": [
+        "The player names every item that goes in the bag the night before, in order, and says why it matters.",
+        "The player describes the morning: familiar meal a couple of hours before, water through the day, leave on time.",
+        "Walk through arrival in motion: pretend to greet the coach, place gear, jog in place, do high knees, skips, and arm circles.",
+        "Shadow the throwing warm-up from close to far with no ball, then take one quiet minute and say the focus word.",
+        "The player recites the whole routine from memory while a partner checks the written list for skipped items."
+      ],
+      "reps": "One full walkthrough plus one recitation from memory; repeat the night before each of the first three games.",
+      "cues": [
+        "Pack it the night before",
+        "Same warm-up every time",
+        "Say your word, then play"
+      ],
+      "parentTip": "Resist the urge to fill in items your child forgets. Let them check the list themselves; a routine only works if it belongs to the player.",
+      "safety": [
+        "Shadow throws only in this drill; the real throwing warm-up follows the throwing routine lesson with a gradual build from close to far.",
+        "Water is on the checklist every time."
+      ],
+      "funVariation": "Mystery Bag: a parent secretly removes one item from the packed bag and the player has to spot what is missing before leaving for the pretend game.",
+      "lessonId": "mnt-05"
+    },
+    {
+      "id": "drill-mnt-06",
+      "name": "Effort Scoreboard",
+      "category": "mental",
+      "skillFocus": [
+        "confidence",
+        "teamwork"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "This drill already uses nothing beyond a conversation. A sticky note or a phone note is optional.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 5,
+      "participantsMin": 2,
+      "participantsMax": 15,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "cooldown",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Done in two short parts: a minute before a game or practice and a few minutes after. Players sit or stand in a circle with a parent or coach.",
+      "instructions": [
+        "Before: each player names three effort goals they control, such as 'sprint every ball', 'ready position every pitch', or 'cheer each teammate by name'. The adult writes them down.",
+        "Play the game or practice. Adults say nothing about results while play is going on.",
+        "After: each player scores each goal two for every time, one for most of the time, zero for forgot, and adds them up out of six.",
+        "Each player picks one goal to keep and one new one to try next time.",
+        "Nobody mentions the final score or anyone's statistics until the effort scores are done."
+      ],
+      "reps": "3 effort goals set before and scored after; one round per game or practice, tracked for a month.",
+      "cues": [
+        "Three goals I control",
+        "Score the effort",
+        "One thing to try next time"
+      ],
+      "parentTip": "Listen for outcome goals disguised as effort goals, like 'get a hit'. Ask whether the goal could be done even if the other team played perfectly; if not, help pick a new one.",
+      "safety": [
+        "Effort goals never include throwing more or harder; pitch counts and arm care always come first.",
+        "Hustle goals follow the running and sliding rules taught in baserunning lessons."
+      ],
+      "funVariation": "Team Six: the whole team adds up its effort scores and tries to beat the team total from last game. The coach announces the team effort score before anyone mentions who won.",
+      "lessonId": "mnt-06"
+    }
+  ]
+}

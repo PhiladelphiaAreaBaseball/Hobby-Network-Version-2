@@ -1,0 +1,671 @@
+{
+  "$schema": "glossary_term",
+  "items": [
+    {
+      "id": "gl-001",
+      "term": "At bat",
+      "definition": "One batter's turn at home plate, from the first pitch until they get out, reach a base, or are otherwise finished. In official statistics, walks and sacrifices are not counted as at bats, but at the field people simply mean a turn.",
+      "example": "Maya had three at bats today and hit the ball hard in two of them.",
+      "relatedLessonIds": [
+        "hit-10",
+        "hit-02"
+      ]
+    },
+    {
+      "id": "gl-002",
+      "term": "Ball",
+      "definition": "A pitch that misses the strike zone and that the batter does not swing at. Four balls in one at bat send the batter to first base for free, which is called a walk.",
+      "example": "The umpire called 'ball three,' so one more and Leo gets to walk to first.",
+      "relatedLessonIds": [
+        "hit-10"
+      ]
+    },
+    {
+      "id": "gl-003",
+      "term": "Strike",
+      "definition": "A pitch the batter swings at and misses, a pitch that crosses the strike zone without a swing, or a foul ball hit when the batter has fewer than two strikes. Three strikes make an out.",
+      "example": "That foul ball counted as strike two, but the next foul ball did not count as strike three.",
+      "relatedLessonIds": [
+        "hit-18",
+        "hit-10"
+      ]
+    },
+    {
+      "id": "gl-004",
+      "term": "Strike zone",
+      "definition": "The invisible box over home plate, roughly from the batter's knees up to the middle of the chest, where a pitch counts as a strike if the batter does not swing. The umpire judges it on every pitch, and it is a little different for every batter's height.",
+      "example": "Because Sam is small, his strike zone is small too, and he walked twice.",
+      "relatedLessonIds": [
+        "hit-10",
+        "hit-18"
+      ]
+    },
+    {
+      "id": "gl-005",
+      "term": "Count",
+      "definition": "The number of balls and strikes on the batter right now, always said with balls first. A 'full count' is three balls and two strikes, when the next pitch usually ends the at bat.",
+      "example": "With a 2-1 count, the batter was ahead and could wait for a good pitch.",
+      "relatedLessonIds": [
+        "hit-18",
+        "hit-12"
+      ]
+    },
+    {
+      "id": "gl-006",
+      "term": "Out",
+      "definition": "What the defense earns when it ends a batter's or runner's turn. Three outs end a team's half of the inning. Common outs are the strikeout, the fly out (a batted ball caught in the air), the force out, and the tag out.",
+      "example": "There were two outs, so when the fly ball was caught the inning was over.",
+      "relatedLessonIds": [
+        "run-07"
+      ]
+    },
+    {
+      "id": "gl-007",
+      "term": "Strikeout",
+      "definition": "An out that happens when a batter gets three strikes. Young players have many of these; it is a normal part of learning to hit a moving ball.",
+      "example": "Jordan struck out twice, then hit a line drive in her last at bat.",
+      "relatedLessonIds": [
+        "hit-18",
+        "mnt-03"
+      ]
+    },
+    {
+      "id": "gl-008",
+      "term": "Walk",
+      "definition": "When a batter gets four balls in one at bat and goes to first base for free. Also called a 'base on balls.' In divisions where kids pitch, walks are very common.",
+      "example": "Noah did not swing once and still ended up on first base with a walk.",
+      "relatedLessonIds": [
+        "hit-18"
+      ]
+    },
+    {
+      "id": "gl-009",
+      "term": "Hit by pitch",
+      "definition": "When a pitch hits the batter, the batter is usually awarded first base. The umpire may rule otherwise if the batter did not try to avoid the ball; ask your league how it handles this at younger ages.",
+      "example": "The pitch bounced and hit Ava on the shin, so she jogged to first base.",
+      "relatedLessonIds": [
+        "fld-20",
+        "mnt-01"
+      ]
+    },
+    {
+      "id": "gl-010",
+      "term": "Inning",
+      "definition": "One round of the game in which each team gets a turn to bat until it makes three outs. The visiting team bats in the top half and the home team in the bottom half. Little League games are often six innings, but the number varies by division; check your league's current Little League rulebook.",
+      "example": "It is the top of the fourth inning, so the visitors are batting.",
+      "relatedLessonIds": []
+    },
+    {
+      "id": "gl-011",
+      "term": "Run",
+      "definition": "One point. A runner scores a run by touching first, second, third, and home plate in order without being put out.",
+      "example": "Eli came all the way around from first base and scored our third run.",
+      "relatedLessonIds": [
+        "run-10",
+        "run-02"
+      ]
+    },
+    {
+      "id": "gl-012",
+      "term": "RBI",
+      "definition": "Short for 'run batted in.' A batter is credited with an RBI when their hit, walk, or sacrifice causes a runner to score.",
+      "example": "Her double drove in two runners, so she got two RBIs.",
+      "relatedLessonIds": [
+        "hit-19"
+      ]
+    },
+    {
+      "id": "gl-013",
+      "term": "Home run",
+      "definition": "A fair ball hit over the outfield fence, or one that lets the batter run all the way around the bases before the defense can make a play. The batter and every runner on base all score.",
+      "example": "The ball cleared the fence in left field for a two-run home run.",
+      "relatedLessonIds": [
+        "hit-09",
+        "hit-07"
+      ]
+    },
+    {
+      "id": "gl-014",
+      "term": "Base hit",
+      "definition": "A batted ball that lets the batter reach a base safely without the help of an error or a fielder's choice. A single reaches first base, a double reaches second, and a triple reaches third.",
+      "example": "Owen hit a single, then the next batter's double sent him to third.",
+      "relatedLessonIds": [
+        "run-02",
+        "hit-11"
+      ]
+    },
+    {
+      "id": "gl-015",
+      "term": "Force out",
+      "definition": "An out made when a runner must advance because the batter became a runner behind them, and a fielder holding the ball touches the base before the runner arrives. No tag is needed.",
+      "example": "With a runner on first, the shortstop stepped on second base for the force out.",
+      "relatedLessonIds": [
+        "run-07",
+        "fld-15"
+      ]
+    },
+    {
+      "id": "gl-016",
+      "term": "Tag play",
+      "definition": "A play in which a fielder must touch the runner with the ball, or with the glove holding the ball, while the runner is not touching a base. A tag is needed whenever the runner is not forced to run.",
+      "example": "The runner on second was not forced, so the third baseman had to tag him when he tried to advance.",
+      "relatedLessonIds": [
+        "run-07",
+        "run-06"
+      ]
+    },
+    {
+      "id": "gl-017",
+      "term": "Fielder's choice",
+      "definition": "When a fielder takes a ground ball and chooses to get a different runner out instead of the batter, so the batter reaches first base because of that choice. It is not counted as a hit.",
+      "example": "The shortstop threw to second for the out, and Lily reached first on a fielder's choice.",
+      "relatedLessonIds": [
+        "run-07",
+        "fld-15"
+      ]
+    },
+    {
+      "id": "gl-018",
+      "term": "Double play",
+      "definition": "Two outs made on one batted ball. The common kind is a ground ball to an infielder who throws to second base for one out, and then the second baseman or shortstop throws to first for the other.",
+      "example": "A 6-4-3 double play: shortstop to second base to first base, and the inning was over.",
+      "relatedLessonIds": [
+        "fld-16",
+        "pos-02"
+      ]
+    },
+    {
+      "id": "gl-019",
+      "term": "Error",
+      "definition": "A mistake by a fielder, like a dropped ball or a bad throw, that lets a batter or runner get a base they would not have gotten otherwise. The official scorer decides; in youth baseball, errors are part of learning.",
+      "example": "The throw to first sailed over the first baseman's head, and the runner took second on the error.",
+      "relatedLessonIds": [
+        "mnt-03",
+        "thr-08"
+      ]
+    },
+    {
+      "id": "gl-020",
+      "term": "Fly ball",
+      "definition": "A ball hit high into the air. If a fielder catches it before it touches the ground, the batter is out, and runners must tag up before advancing.",
+      "example": "The center fielder got under the fly ball and caught it with two hands.",
+      "relatedLessonIds": [
+        "fld-10",
+        "fld-11",
+        "run-03"
+      ]
+    },
+    {
+      "id": "gl-021",
+      "term": "Pop up",
+      "definition": "A short, very high fly ball, usually to the infield or just behind it. It is easy to see but surprisingly hard to catch because it comes almost straight down.",
+      "example": "The catcher took off her mask and caught the pop up next to home plate.",
+      "relatedLessonIds": [
+        "fld-10",
+        "fld-12"
+      ]
+    },
+    {
+      "id": "gl-022",
+      "term": "Line drive",
+      "definition": "A ball hit hard and nearly straight, without much arc. Also called a 'liner.' It reaches a fielder fast, so these are caught or missed in a blink.",
+      "example": "That line drive to the shortstop was caught before the runner could react.",
+      "relatedLessonIds": [
+        "hit-06",
+        "fld-19"
+      ]
+    },
+    {
+      "id": "gl-023",
+      "term": "Ground ball",
+      "definition": "A ball hit onto the ground that rolls or bounces through the infield. Also called a 'grounder.' Fielding ground balls is the most common play in youth baseball.",
+      "example": "A slow ground ball to third base; the third baseman charged it and threw to first.",
+      "relatedLessonIds": [
+        "fld-02",
+        "fld-03",
+        "fld-13"
+      ]
+    },
+    {
+      "id": "gl-024",
+      "term": "Bunt",
+      "definition": "A soft hit made by holding the bat still over the plate and letting the ball tap it, so the ball rolls a short way into the infield. It is used to move a runner or to surprise the defense.",
+      "example": "With a runner on first, the batter bunted toward third base to move him to second.",
+      "relatedLessonIds": [
+        "hit-17"
+      ]
+    },
+    {
+      "id": "gl-025",
+      "term": "Sacrifice",
+      "definition": "A bunt or fly ball that gets the batter out on purpose so a runner can advance or score. A 'sacrifice fly' is a caught fly ball deep enough for a runner on third to tag up and score.",
+      "example": "Her sacrifice fly to right field brought home the tying run.",
+      "relatedLessonIds": [
+        "hit-17",
+        "hit-19",
+        "run-03"
+      ]
+    },
+    {
+      "id": "gl-026",
+      "term": "Tag up",
+      "definition": "When a fly ball is caught, a runner must be touching the base they started on, or go back to it, before running to the next base. If they leave early and the defense throws to that base, they are out.",
+      "example": "The runner on third tagged up, waited for the catch, and then ran home.",
+      "relatedLessonIds": [
+        "run-03",
+        "run-04"
+      ]
+    },
+    {
+      "id": "gl-027",
+      "term": "Infield fly rule",
+      "definition": "A rule that calls the batter out automatically on an easy pop up to the infield when there are runners on first and second, or the bases are loaded, with fewer than two outs. It stops the defense from dropping the ball on purpose to get an easy double play. The umpire calls it out loud, and runners may advance at their own risk.",
+      "example": "The umpire shouted 'infield fly, batter's out!' so the runners stayed on their bases.",
+      "relatedLessonIds": [
+        "run-04"
+      ]
+    },
+    {
+      "id": "gl-028",
+      "term": "Fair ball",
+      "definition": "A batted ball that lands and stays between the two foul lines, or passes first or third base inside the lines, or goes over the fence in fair territory. A fair ball is in play and the batter must run.",
+      "example": "The ball landed on the foul line, which counts as fair, so the batter ran.",
+      "relatedLessonIds": [
+        "run-04"
+      ]
+    },
+    {
+      "id": "gl-029",
+      "term": "Foul ball",
+      "definition": "A batted ball that goes outside the foul lines before passing first or third base, or lands outside the lines in the outfield. It counts as a strike unless the batter already has two strikes, and runners cannot advance on it.",
+      "example": "He fouled off four pitches in a row with two strikes and stayed alive.",
+      "relatedLessonIds": [
+        "hit-18"
+      ]
+    },
+    {
+      "id": "gl-030",
+      "term": "Foul tip",
+      "definition": "A pitch the bat barely nicks straight back into the catcher's glove, where it is caught. Unlike a regular foul ball, it counts as a strike even when it is the third strike.",
+      "example": "The bat ticked the ball into the catcher's mitt for a foul tip, strike three.",
+      "relatedLessonIds": [
+        "pos-06"
+      ]
+    },
+    {
+      "id": "gl-031",
+      "term": "Cutoff man",
+      "definition": "The infielder who stands between an outfielder and the base the throw is going to, so the outfielder can make a shorter throw and the cutoff can relay it or hold it. It is usually the first or third baseman on throws to home plate, and the shortstop or second baseman on throws to second or third.",
+      "example": "The right fielder hit the cutoff man, who turned and threw the runner out at third.",
+      "relatedLessonIds": [
+        "fld-18",
+        "pos-05",
+        "pos-01"
+      ]
+    },
+    {
+      "id": "gl-032",
+      "term": "Relay",
+      "definition": "A long throw from the outfield broken into two shorter throws: the outfielder throws to an infielder, who turns and throws to the base. Kids cannot throw far, so relays are how youth teams get the ball home.",
+      "example": "The ball rolled to the fence, and the relay went center fielder to shortstop to home.",
+      "relatedLessonIds": [
+        "fld-18",
+        "thr-06",
+        "pos-03"
+      ]
+    },
+    {
+      "id": "gl-033",
+      "term": "Lead off",
+      "definition": "When a runner steps a few feet off the base before the pitch to get a head start. Leads are not allowed in most of the younger Little League divisions, where runners must stay on the base until the pitch reaches the batter; they are allowed in Intermediate and older. Check your league's current Little League rulebook.",
+      "example": "In Majors she waited on the bag, but in Intermediate she could take a lead off first.",
+      "relatedLessonIds": [
+        "run-05"
+      ]
+    },
+    {
+      "id": "gl-034",
+      "term": "Steal",
+      "definition": "When a runner advances to the next base during a pitch without the ball being hit. Whether and when stealing is allowed depends on the division and on local league rules.",
+      "example": "He stole second base when the catcher's throw was late.",
+      "relatedLessonIds": [
+        "run-05",
+        "pos-06"
+      ]
+    },
+    {
+      "id": "gl-035",
+      "term": "Balk",
+      "definition": "An illegal motion by the pitcher that is meant to deceive the runners, such as starting the pitch and then stopping. When a balk is called, each runner moves up one base. Balks are generally only called in divisions that allow leading off, so you may not hear the word for years. Check your league's current rulebook.",
+      "example": "The pitcher flinched toward first without throwing, and the umpire called a balk.",
+      "relatedLessonIds": [
+        "run-05",
+        "pos-07"
+      ]
+    },
+    {
+      "id": "gl-036",
+      "term": "Pickoff",
+      "definition": "A quick throw from the pitcher or catcher to a base to catch a runner who has stepped too far off it. Pickoffs matter in divisions that allow leading off.",
+      "example": "The first baseman tagged her out on a pickoff when she wandered off the bag.",
+      "relatedLessonIds": [
+        "run-05",
+        "pos-01"
+      ]
+    },
+    {
+      "id": "gl-037",
+      "term": "Passed ball and wild pitch",
+      "definition": "A pitch that gets past the catcher and lets runners advance. It is called a 'wild pitch' when the pitcher's throw was too wild to catch, and a 'passed ball' when the catcher should have caught it.",
+      "example": "The pitch skipped in the dirt and rolled to the backstop, a wild pitch that scored a run.",
+      "relatedLessonIds": [
+        "pos-06",
+        "pos-07"
+      ]
+    },
+    {
+      "id": "gl-038",
+      "term": "Dropped third strike",
+      "definition": "In some divisions, if the catcher does not catch the third strike, the batter may try to run to first base before being tagged or thrown out. This rule is not used in the youngest divisions; check your league's current Little League rulebook for yours.",
+      "example": "The catcher dropped strike three and the batter sprinted to first before the throw arrived.",
+      "relatedLessonIds": [
+        "pos-06"
+      ]
+    },
+    {
+      "id": "gl-039",
+      "term": "Batter's box",
+      "definition": "The two rectangles drawn in the dirt on either side of home plate where the batter must stand while hitting. Right-handed hitters stand in the box on the catcher's left; left-handed hitters use the box on the catcher's right.",
+      "example": "The umpire asked the batter to step back into the batter's box before the pitch.",
+      "relatedLessonIds": [
+        "hit-02"
+      ]
+    },
+    {
+      "id": "gl-040",
+      "term": "Home plate",
+      "definition": "The five-sided white rubber plate the batter stands beside and that a runner must touch to score a run. The foul lines start from its back corner.",
+      "example": "The catcher blocked the plate and tagged the runner before he could touch home.",
+      "relatedLessonIds": [
+        "run-10"
+      ]
+    },
+    {
+      "id": "gl-041",
+      "term": "Pitcher's mound",
+      "definition": "The small dirt hill in the middle of the infield with a rubber strip on top that the pitcher must touch when pitching. The distance to home plate changes by division, often 46 feet for younger players and longer for older divisions.",
+      "example": "The coach walked out to the mound to calm the pitcher down.",
+      "relatedLessonIds": [
+        "pos-07",
+        "thr-13"
+      ]
+    },
+    {
+      "id": "gl-042",
+      "term": "Infield and outfield",
+      "definition": "The infield is the dirt area around the bases where the pitcher, catcher, first, second, and third basemen, and the shortstop play. The outfield is the grass beyond the infield where the left, center, and right fielders play.",
+      "example": "He played in the infield at shortstop last year and moved to the outfield in center this year.",
+      "relatedLessonIds": [
+        "fld-15",
+        "fld-17",
+        "pos-05"
+      ]
+    },
+    {
+      "id": "gl-043",
+      "term": "Dugout",
+      "definition": "The bench area beside the field where a team sits when it is not batting or in the field. Players are expected to stay in it, cheer for teammates, and keep track of the batting order.",
+      "example": "The whole dugout was chanting her name when she came up to bat.",
+      "relatedLessonIds": [
+        "mnt-04"
+      ]
+    },
+    {
+      "id": "gl-044",
+      "term": "On-deck circle",
+      "definition": "The marked spot near the dugout where the next batter waits and takes practice swings. Only the on-deck batter should swing a bat there, and only when nobody is close.",
+      "example": "Take your helmet to the on-deck circle; you're hitting next.",
+      "relatedLessonIds": [
+        "mnt-05",
+        "hit-13"
+      ]
+    },
+    {
+      "id": "gl-045",
+      "term": "Umpire",
+      "definition": "The official who runs the game, calls balls and strikes, and rules on outs and safe calls. Many youth umpires are teenagers or volunteers; treating them with respect is part of the game.",
+      "example": "The umpire signaled 'out' with a fist pump at first base.",
+      "relatedLessonIds": [
+        "mnt-02"
+      ]
+    },
+    {
+      "id": "gl-046",
+      "term": "Base coach",
+      "definition": "A coach who stands in a box next to first base or third base while their team bats and tells the runners when to run, stop, or slide. Runners should look at the base coach, not the ball.",
+      "example": "The third-base coach windmilled his arm, so Zoe kept running home.",
+      "relatedLessonIds": [
+        "run-08",
+        "run-02"
+      ]
+    },
+    {
+      "id": "gl-047",
+      "term": "Position numbers",
+      "definition": "Each defensive position has a number used in scorebooks: 1 pitcher, 2 catcher, 3 first base, 4 second base, 5 third base, 6 shortstop, 7 left field, 8 center field, 9 right field. A '6-4-3 double play' means shortstop to second base to first base.",
+      "example": "The scorekeeper wrote '5-3' for the ground ball to third thrown to first.",
+      "relatedLessonIds": [
+        "pos-03",
+        "pos-02"
+      ]
+    },
+    {
+      "id": "gl-048",
+      "term": "Tee ball",
+      "definition": "The youngest division, usually ages 4 to 6, where the ball is hit off a waist-high stand called a tee instead of being pitched. Soft safety balls are used, and the focus is on fun and basic skills.",
+      "example": "In tee ball, every player on the team bats each inning.",
+      "relatedLessonIds": [
+        "hit-13",
+        "fld-03",
+        "run-10"
+      ]
+    },
+    {
+      "id": "gl-049",
+      "term": "Coach pitch",
+      "definition": "A division, usually around ages 6 to 8, where a coach (or sometimes a pitching machine) pitches slowly to the batters so they can learn to hit a moving ball. Kids still play all the fielding positions.",
+      "example": "In coach pitch, the coach tosses a few pitches, and if the batter misses, some leagues let them hit off a tee.",
+      "relatedLessonIds": [
+        "hit-20",
+        "hit-15"
+      ]
+    },
+    {
+      "id": "gl-050",
+      "term": "Pitch count",
+      "definition": "The number of pitches a child throws in a game. Little League limits pitches per day by age and requires rest days afterward to protect young arms. The exact numbers are in your league's current Little League rulebook.",
+      "example": "He reached his pitch count in the fourth inning, so the coach brought in a new pitcher.",
+      "relatedLessonIds": [
+        "thr-13",
+        "thr-11"
+      ]
+    },
+    {
+      "id": "gl-051",
+      "term": "Rest days",
+      "definition": "Days a pitcher must not pitch after throwing a certain number of pitches; more pitches mean more required rest days. Rest applies at home too: a child who pitched should not throw a lot in the backyard the next day.",
+      "example": "After throwing 50 pitches on Saturday, she needed several rest days before pitching again.",
+      "relatedLessonIds": [
+        "thr-13"
+      ]
+    },
+    {
+      "id": "gl-052",
+      "term": "Mercy run rule",
+      "definition": "A rule that ends a game early when one team is ahead by a large number of runs after a certain inning, so the losing team does not play out a long, lopsided game. The number of runs and innings vary by division and league; check your league's current rulebook.",
+      "example": "The game ended after four innings on the run rule because our team was up by twelve.",
+      "relatedLessonIds": [
+        "mnt-02",
+        "mnt-06"
+      ]
+    },
+    {
+      "id": "gl-053",
+      "term": "Continuous batting order",
+      "definition": "A lineup in which every player on the roster bats in turn all game long, not only the nine playing the field. Many youth divisions use it so everyone hits; whether your league does is in its local rules.",
+      "example": "With a continuous batting order, all twelve kids got to hit even though only nine played the field at a time.",
+      "relatedLessonIds": [
+        "mnt-04"
+      ]
+    },
+    {
+      "id": "gl-054",
+      "term": "All-Star",
+      "definition": "A player chosen at the end of the regular season to play on a league team in tournaments against other leagues' All-Star teams. Selection methods and ages are set by the league within Little League rules.",
+      "example": "The All-Star team practices for two weeks before the district tournament.",
+      "relatedLessonIds": [
+        "mnt-06"
+      ]
+    },
+    {
+      "id": "gl-055",
+      "term": "Chartered league",
+      "definition": "A local league that is officially registered with Little League International and agrees to follow its rules and safety requirements. Chartered leagues can take part in the official tournament.",
+      "example": "Because ours is a chartered league, our All-Stars can compete for a spot in the regional tournament.",
+      "relatedLessonIds": []
+    },
+    {
+      "id": "gl-056",
+      "term": "Boundary map",
+      "definition": "The map that shows the streets and areas a Little League is allowed to draw players from. Families usually must live or attend school inside the boundary to register with that league.",
+      "example": "We checked the boundary map online to be sure our house was inside the league's area.",
+      "relatedLessonIds": []
+    },
+    {
+      "id": "gl-057",
+      "term": "Waiver",
+      "definition": "Official permission to do something outside the normal rules, most often letting a child play in a league whose boundary they live outside of. Leagues and Little League decide these case by case.",
+      "example": "Because they moved mid-season, the family needed a waiver to keep playing for the same team.",
+      "relatedLessonIds": []
+    },
+    {
+      "id": "gl-058",
+      "term": "League age",
+      "definition": "The age Little League uses to place a child in a division, based on the birthdate and a cutoff date set each year, not simply the child's age today. Check the current age chart on your league's page.",
+      "example": "He is 8 now, but his league age is 9, so he plays in the higher division.",
+      "relatedLessonIds": []
+    },
+    {
+      "id": "gl-059",
+      "term": "Local rules",
+      "definition": "Rules a league adds or adjusts within what Little League allows, such as time limits, run rules, or whether a tee is used after a few coach pitches. They differ from league to league and are posted on the league's own pages.",
+      "example": "Our league's local rules say coach-pitch games end after 90 minutes.",
+      "relatedLessonIds": []
+    },
+    {
+      "id": "gl-060",
+      "term": "Ready position",
+      "definition": "The athletic stance a fielder takes before every pitch: feet wider than the shoulders, knees bent, weight forward, hands in front. It lets the player move in any direction quickly.",
+      "example": "Every infielder got into the ready position as the pitcher started to throw.",
+      "relatedLessonIds": [
+        "fld-01",
+        "fld-02"
+      ]
+    },
+    {
+      "id": "gl-061",
+      "term": "Knocking knuckles",
+      "definition": "The middle knuckles of the hands, the ones you knock on a door with. Lining them up roughly when gripping the bat helps the wrists move freely through the swing.",
+      "example": "Coach checked her grip by asking her to show him her knocking knuckles.",
+      "relatedLessonIds": [
+        "hit-01"
+      ]
+    },
+    {
+      "id": "gl-062",
+      "term": "Choke up",
+      "definition": "To slide the hands up the bat handle, away from the knob, by an inch or two. It makes the bat feel shorter and lighter and gives the hitter more control.",
+      "example": "With two strikes he choked up to make sure he put the ball in play.",
+      "relatedLessonIds": [
+        "hit-16",
+        "hit-18"
+      ]
+    },
+    {
+      "id": "gl-063",
+      "term": "Bat drop",
+      "definition": "The difference between a bat's length in inches and its weight in ounces, written as a negative number. A 28-inch, 18-ounce bat is a 'drop 10' (-10). A bigger drop number means a lighter bat for its length, which is usually what young hitters need.",
+      "example": "The store had drop 10 and drop 12 bats, and we chose the lighter drop 12 for our seven-year-old.",
+      "relatedLessonIds": [
+        "hit-01"
+      ]
+    },
+    {
+      "id": "gl-064",
+      "term": "Four-seam grip",
+      "definition": "Holding the ball with the first two fingers across the wide part of the horseshoe-shaped seam, thumb underneath, with a little space between the ball and the palm. It makes throws straighter and is the first grip children learn.",
+      "example": "He turned the ball in his glove to find the four-seam grip before throwing to first.",
+      "relatedLessonIds": [
+        "thr-01"
+      ]
+    },
+    {
+      "id": "gl-065",
+      "term": "Crow hop",
+      "definition": "A small hop-step an outfielder takes after catching the ball to build momentum for a long throw. It also protects the arm by letting the legs do more of the work.",
+      "example": "She caught the fly ball, took a crow hop, and threw to the cutoff man.",
+      "relatedLessonIds": [
+        "thr-06",
+        "fld-17"
+      ]
+    },
+    {
+      "id": "gl-066",
+      "term": "Backhand",
+      "definition": "Catching a ball on the opposite side of the body from the glove by turning the glove over, thumb down. A right-handed fielder backhands balls hit to their right.",
+      "example": "The shortstop made a backhand stop in the hole and threw to first.",
+      "relatedLessonIds": [
+        "fld-06"
+      ]
+    },
+    {
+      "id": "gl-067",
+      "term": "Short hop",
+      "definition": "A ball that bounces just in front of the fielder right before it is caught. It is easier to handle than a ball that bounces a few feet away, because there is less time for it to change direction.",
+      "example": "The first baseman scooped the short hop and saved the throw.",
+      "relatedLessonIds": [
+        "fld-14",
+        "pos-01"
+      ]
+    },
+    {
+      "id": "gl-068",
+      "term": "Soft toss and front toss",
+      "definition": "Two ways to practice hitting a moving ball without a pitcher. In soft toss, a helper kneels to the side of the hitter and tosses the ball underhand into the hitting zone. In front toss, the helper tosses underhand from in front of the hitter, behind a screen.",
+      "example": "We did ten minutes of soft toss into a net in the backyard before the game.",
+      "relatedLessonIds": [
+        "hit-15",
+        "hit-10"
+      ]
+    },
+    {
+      "id": "gl-069",
+      "term": "Safety ball",
+      "definition": "A baseball with a softer core, used in tee ball and young divisions so that a ball that hits a child hurts far less. Also called a soft training ball or a 'reduced injury factor' ball.",
+      "example": "The coach handed out safety balls for the fielding drill.",
+      "relatedLessonIds": [
+        "fld-20",
+        "fld-03"
+      ]
+    },
+    {
+      "id": "gl-070",
+      "term": "Running through first",
+      "definition": "Sprinting across first base at full speed and slowing down afterward instead of stopping on the base. A runner may run past first base without being tagged out as long as they turn back without trying for second.",
+      "example": "He ran through first, beat the throw, and jogged back to the bag.",
+      "relatedLessonIds": [
+        "run-01"
+      ]
+    }
+  ]
+}

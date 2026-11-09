@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "planSections": [
+    { "id": "officer", "title": "Safety officer and contacts", "prompt": "Name the safety officer, how to reach them on game days, and who covers when they are away.", "starter": "Our safety officer is the board member listed under Board & contact. Coaches reach them by phone on game days; the league president covers when they are unavailable." },
+    { "id": "distribution", "title": "Distribution of the plan", "prompt": "How every manager, coach and umpire receives this plan each season and confirms they read it.", "starter": "The plan is posted in GamePlanIQ under Documents & policies and reviewed in the preseason coaches meeting. Completion of the Coach certification modules records that each volunteer read the safety material." },
+    { "id": "emergency", "title": "Emergency action plan and phone numbers", "prompt": "Field addresses and ambulance entrances, who calls 911, who meets the ambulance, who stays with the team.", "starter": "Each field's address and entrance is listed in Fields & weather. In an emergency one adult stays with the injured player, one calls 911 and gives the address, one meets the ambulance and one gathers the team." },
+    { "id": "screening", "title": "Volunteer screening", "prompt": "Background checks for every manager, coach, board member and volunteer with repetitive access to players; how status is tracked.", "starter": "Every adult with repetitive access to players completes a background check through the league's authorized provider before the season. Only the status and expiry are recorded, in Volunteers." },
+    { "id": "training", "title": "Fundamentals and first-aid training", "prompt": "Required training for coaches: fundamentals clinic, first aid, concussion awareness, abuse awareness.", "starter": "Coaches complete the Coach certification modules (abuse awareness, concussion, first aid and emergency plan, pitch counts and arm care, heat and lightning) and attend the preseason fundamentals clinic." },
+    { "id": "inspection", "title": "Field and equipment inspection", "prompt": "Who walks each field before every game and practice, what they look for, and how hazards are reported.", "starter": "The home team's manager walks the field before every game and practice and reports hazards to the safety officer. Helmets, bats and catcher's gear are inspected at the first practice and monthly after that." },
+    { "id": "concessions", "title": "Concession stand safety", "prompt": "Food handling, hand washing, fire extinguisher, propane and electrical checks.", "starter": "Concession volunteers wash hands on arrival, keep hot foods hot and cold foods cold, and know where the fire extinguisher is. The stand is inspected at the start of each season." },
+    { "id": "firstaid", "title": "First aid kits", "prompt": "Where kits are kept, who restocks them and how often they are checked.", "starter": "A first aid kit is kept at every field and in every team bag. The safety officer checks field kits monthly using the kit checklist in GamePlanIQ and restocks from the league supply." },
+    { "id": "reporting", "title": "Accident and incident reporting", "prompt": "How incidents are reported, how quickly, and who follows up with the family and the insurer.", "starter": "Any injury, behavior or facility incident is reported in GamePlanIQ the same day by the adult who saw it. The safety officer reviews within 48 hours, follows up with the family, and files insurance paperwork when care was needed." },
+    { "id": "weather", "title": "Weather, heat and lightning policy", "prompt": "When play stops for lightning, how long to wait, heat guidelines and water breaks.", "starter": "Thunder clears the field; play resumes 30 minutes after the last thunder. Water breaks every 15 to 20 minutes in warm weather. Field decisions are posted in Field status, never left to a forecast app." },
+    { "id": "conduct", "title": "Code of conduct and bullying prevention", "prompt": "Expectations for players, parents, coaches and umpires, and how violations are handled.", "starter": "Players, parents, coaches and umpires treat each other with respect. No arguing balls and strikes. One warning, then removal from the complex. Bullying is reported to the coach or safety officer and addressed with the families involved." },
+    { "id": "pitching", "title": "Pitch counts and arm care", "prompt": "Confirm the league follows the current pitch-count and rest regulations and how they are tracked.", "starter": "Pitch counts and rest days follow the current Little League regulations entered in Seasons & settings and are tracked for every appearance in GamePlanIQ." }
+  ],
+  "kitItems": [
+    { "id": "gloves", "label": "Disposable gloves (several pairs)" },
+    { "id": "coldpacks", "label": "Instant cold packs (at least 4)" },
+    { "id": "bandages", "label": "Adhesive bandages, assorted" },
+    { "id": "gauze", "label": "Sterile gauze pads and roll" },
+    { "id": "tape", "label": "Athletic and medical tape" },
+    { "id": "antiseptic", "label": "Antiseptic wipes" },
+    { "id": "scissors", "label": "Scissors and tweezers" },
+    { "id": "splint", "label": "Finger splints or SAM splint" },
+    { "id": "wrap", "label": "Elastic wrap" },
+    { "id": "eyewash", "label": "Saline eyewash" },
+    { "id": "cpr", "label": "CPR face shield" },
+    { "id": "contacts", "label": "Roster emergency contact list (printed)" },
+    { "id": "card", "label": "Field address and ambulance entrance card" },
+    { "id": "log", "label": "Incident report cards or app access" }
+  ],
+  "incidentTypes": [
+    { "id": "injury", "label": "Injury", "hint": "Any injury needing attention, including head contact" },
+    { "id": "behavior", "label": "Behavior or conduct", "hint": "Players, parents, coaches, umpires" },
+    { "id": "facility", "label": "Field or facility hazard", "hint": "Holes, fences, lights, dugouts, stands" },
+    { "id": "weather", "label": "Weather stoppage", "hint": "Lightning or heat decisions" },
+    { "id": "other", "label": "Other", "hint": "Anything the safety officer should know" }
+  ]
+}

@@ -1,0 +1,1080 @@
+{
+  "$schema": "drill",
+  "items": [
+    {
+      "id": "drill-thr-01",
+      "name": "Horseshoe Grip Finder",
+      "category": "throwing",
+      "skillFocus": [
+        "throwing_grip"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "ball"
+      ],
+      "equipmentFreeVariant": "A tennis ball with a marker line drawn around it, or a rolled sock with a loop of tape as the seam. Place two fingertips across the line.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 5,
+      "participantsMin": 1,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Players sit or kneel in a circle or across from a parent, each with a baseball or safety ball. No throwing happens in this drill.",
+      "instructions": [
+        "Turn the ball until the stitches make a U shape, the horseshoe.",
+        "Lay the pointer and middle fingertips across the top of the horseshoe, thumb underneath on the smooth leather.",
+        "Check the gap: a partner slides a pencil or pinky between the ball and the palm. If it does not fit, loosen the grip like holding an egg.",
+        "Close your eyes, let a partner hand you the ball, find the grip by feel, then open and check.",
+        "Hold the grip up high for the partner or coach to see and say 'four seams!'"
+      ],
+      "reps": "10 eyes-closed grip finds, checking each one",
+      "cues": [
+        "Find the horseshoe",
+        "Two fingers across the stitches",
+        "Hold it like an egg"
+      ],
+      "parentTip": "Three fingers on top is normal for small hands. The thing to check every time is the gap under the ball; a palmed ball is the habit to prevent.",
+      "safety": [
+        "No throwing in this drill; the ball stays in hands.",
+        "Safety ball or soft training ball for ages 4 to 8."
+      ],
+      "funVariation": "Grip Race: the adult counts 'one, two, three' and the player tries to show a correct four-seam grip before the count ends. Make the count faster each round.",
+      "lessonId": "thr-01",
+      "diagram": {
+        "items": [
+          {
+            "id": "p1",
+            "kind": "player",
+            "x": 120,
+            "y": 220,
+            "label": "A"
+          },
+          {
+            "id": "p2",
+            "kind": "player",
+            "x": 280,
+            "y": 220,
+            "label": "B"
+          },
+          {
+            "id": "p3",
+            "kind": "player",
+            "x": 120,
+            "y": 280,
+            "label": "A"
+          },
+          {
+            "id": "p4",
+            "kind": "player",
+            "x": 280,
+            "y": 280,
+            "label": "B"
+          },
+          {
+            "id": "k1",
+            "kind": "cone",
+            "x": 120,
+            "y": 250
+          },
+          {
+            "id": "k2",
+            "kind": "cone",
+            "x": 280,
+            "y": 250
+          },
+          {
+            "id": "c1",
+            "kind": "coach",
+            "x": 200,
+            "y": 330,
+            "label": "C"
+          }
+        ],
+        "arrows": [
+          {
+            "id": "a1",
+            "from": {
+              "x": 132,
+              "y": 220
+            },
+            "to": {
+              "x": 268,
+              "y": 220
+            },
+            "kind": "throw"
+          },
+          {
+            "id": "a2",
+            "from": {
+              "x": 268,
+              "y": 280
+            },
+            "to": {
+              "x": 132,
+              "y": 280
+            },
+            "kind": "throw"
+          }
+        ],
+        "note": "Partners in two lines, cones mark the distance; step back a cone every five good throws."
+      }
+    },
+    {
+      "id": "drill-thr-02",
+      "name": "Point, Step, Throw With a Sock Ball",
+      "category": "throwing",
+      "skillFocus": [
+        "throwing_motion",
+        "footwork"
+      ],
+      "ageGroups": [
+        "a4_6"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "soft_ball"
+      ],
+      "equipmentFreeVariant": "Roll two socks into a ball and throw into a laundry basket or at a pillow leaned against a wall.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 12,
+      "participantsMin": 2,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "light",
+      "setup": "Adult kneels 10 to 12 feet from the child with a glove or open hands at chest height. Child stands sideways with the glove shoulder toward the adult, soft ball in the throwing hand.",
+      "instructions": [
+        "Say 'point' and point the glove at the adult's chest.",
+        "Say 'step' and step toward the adult with the glove-side foot, toes at the target.",
+        "Say 'throw' and throw to the glove, letting the hand finish by the opposite knee.",
+        "Adult tosses the ball back gently to the child's glove or hands.",
+        "Freeze after 'point' and after 'step' for one second on the first five throws, then let it flow.",
+        "For a team, pairs stand 10 feet apart in two lines with a coach walking behind the throwers saying the three words."
+      ],
+      "reps": "15 throws saying the words, then 3 throws thinking the words",
+      "cues": [
+        "Point",
+        "Step",
+        "Throw",
+        "Elbow up by your ear"
+      ],
+      "parentTip": "Watch for a low elbow at the moment before the throw. If the elbow hangs by the ribs and the ball comes out sideways, say 'show me your elbow' and have the child freeze in the ready-to-throw shape.",
+      "safety": [
+        "Soft or safety ball only.",
+        "Stop at about 20 to 25 total throws for young arms.",
+        "Clear the lane of toys, pets, and other children."
+      ],
+      "funVariation": "Basket Ball: replace the adult's glove with a laundry basket. Three in a row in the basket earns a step back; a miss means a step forward.",
+      "lessonId": "thr-02"
+    },
+    {
+      "id": "drill-thr-03",
+      "name": "Shadow Circles and Towel Snaps",
+      "category": "throwing",
+      "skillFocus": [
+        "throwing_motion",
+        "arm_care"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "This drill already needs nothing but a hand towel; without a towel, do shadow circles only and finish each one by touching the opposite hip.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 8,
+      "participantsMin": 1,
+      "participantsMax": 14,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 6,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "light",
+      "setup": "Player stands sideways to an imaginary target with a hand towel held by one corner in the throwing hand. A partner holds an open hand or glove at chest height, one long stride plus an arm's length in front of the player's front foot.",
+      "instructions": [
+        "Shadow circles with no towel: hand out of the glove thumb down past the back pocket, up to the L with the elbow level with the shoulder, freeze two seconds, then through to the opposite hip. Ten slow reps.",
+        "Partner checks the L from the side: elbow at shoulder height, fingers on top, ball-hand above the head.",
+        "Pick up the towel. Step with the glove-side foot and make the same circle, snapping the towel so it slaps the partner's hand at the finish.",
+        "If the towel misses high, the release was early or the elbow dropped. If it misses short, the step or the finish was short. Adjust and repeat.",
+        "For a team, pairs in two lines with coaches checking L positions; rotate partner and snapper every ten reps."
+      ],
+      "reps": "10 slow shadow circles, then 2 sets of 10 towel snaps",
+      "cues": [
+        "Thumb down out of the glove",
+        "Up to the L",
+        "Snap it to the hand",
+        "Finish at the hip"
+      ],
+      "parentTip": "Take a photo at the L. The elbow should be level with the shoulder; if it points at the ground, that is the fault to fix before any live throwing today.",
+      "safety": [
+        "No ball is thrown, so this is safe in a garage or living room with the lane clear.",
+        "Stop the day's throwing if anything in the arm or shoulder hurts and tell a parent or coach."
+      ],
+      "funVariation": "Towel Target Trail: the partner moves the hand to a new height after each snap, chest, knee, then head, and the thrower earns a point for each snap that lands on the hand.",
+      "lessonId": "thr-03"
+    },
+    {
+      "id": "drill-thr-04",
+      "name": "Knee-to-Knee Sock-Ball Throws",
+      "category": "throwing",
+      "skillFocus": [
+        "throwing_motion"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "soft_ball"
+      ],
+      "equipmentFreeVariant": "A rolled-up sock ball and bare hands; kneel on a folded towel or carpet.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 15,
+      "participantsMin": 2,
+      "participantsMax": 14,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 6,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "light",
+      "setup": "Two players kneel 12 to 15 feet apart on grass, carpet, or folded towels, each on the throwing-side knee with the glove-side knee up and pointing at the partner.",
+      "instructions": [
+        "Point the front shoulder and the back of the glove at the partner's chest; look over the front shoulder.",
+        "Take the ball out thumb down, up to the L, and throw to the partner's chest, pulling the glove in to the chest as the arm comes through.",
+        "Finish with the throwing hand at the opposite hip while staying balanced on the knee; do not fall forward.",
+        "Partner catches with two hands and throws back the same way.",
+        "Partner or coach stands behind the catcher sometimes to call 'good line' or 'open early' on the front shoulder.",
+        "For a team, two lines kneeling in pairs with a coach walking the line behind the throwers."
+      ],
+      "reps": "2 sets of 10 throws each, with a 30-second rest between sets",
+      "cues": [
+        "Front shoulder at the target",
+        "Glove out, glove in",
+        "Stay closed, then fire"
+      ],
+      "parentTip": "Kneeling removes the legs so you can see the upper body. Watch whether the chest opens toward you before the arm comes through; that early turn is the fault that sends balls to the glove side.",
+      "safety": [
+        "Kneel on grass, carpet, or a towel, never on bare concrete.",
+        "Soft ball or sock ball so misses do not matter indoors."
+      ],
+      "funVariation": "Knee Catch Streak: count consecutive catches without the ball touching the ground. A miss resets the count; beat last session's record.",
+      "lessonId": "thr-04"
+    },
+    {
+      "id": "drill-thr-05",
+      "name": "Footprint Step Drill",
+      "category": "throwing",
+      "skillFocus": [
+        "footwork",
+        "throwing_motion"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "soft_ball"
+      ],
+      "equipmentFreeVariant": "No ball: a shoe or paper plate marks where the front foot lands; step and shadow-throw, ten in a row landing on the marker.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 15,
+      "participantsMin": 1,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "light",
+      "setup": "Draw a chalk line (or lay painter's tape or a jump rope) from the thrower to a target 10 to 15 feet away. Put a paper plate or chalk footprint on the line about one shoe-length ahead of the glove-side foot. Tape the plate down indoors.",
+      "instructions": [
+        "Stand sideways on the line, glove shoulder toward the target, soft ball in the throwing hand.",
+        "Step onto the plate with the glove-side foot, toes pointed at the target. Freeze and check: on the plate, toes at the target, knee slightly bent.",
+        "Throw over the bent front leg and let the back foot drag forward.",
+        "Five step-and-freeze reps with no throw first, then throws from the same setup.",
+        "If the foot lands across the line, move the plate a little toward the glove side and say 'open the gate.'",
+        "For a team, chalk a line and plate for every pair and have coaches call 'plate!' on good landings."
+      ],
+      "reps": "5 step-and-freeze reps, then 15 to 20 throws landing on the plate",
+      "cues": [
+        "Glove-side foot",
+        "Step on the plate",
+        "Toes at the target"
+      ],
+      "parentTip": "Say the foot by name ('left foot' for a right-handed child) rather than 'the other foot.' Watch for a giant lunge, which drops the body and sails the ball; move the plate closer if you see it.",
+      "safety": [
+        "Tape the plate down on smooth floors so it cannot slide.",
+        "Soft ball and a clear 15-foot lane.",
+        "Keep throws under 25 and fill extra time with no-ball step reps."
+      ],
+      "funVariation": "Ten Plates: the partner calls 'plate!' only when the foot lands on it. Ten plates in a row earns the right to move the plate and challenge the adult.",
+      "lessonId": "thr-05"
+    },
+    {
+      "id": "drill-thr-06",
+      "name": "Crow Hop Line",
+      "category": "throwing",
+      "skillFocus": [
+        "footwork",
+        "outfield"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "ball",
+        "glove"
+      ],
+      "equipmentFreeVariant": "Footwork only with no ball: jog three steps, hop onto the back foot turning sideways, step, shadow throw. In a small yard use a tennis ball to a partner 30 feet away at half effort.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 60,
+      "participantsMin": 2,
+      "participantsMax": 14,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 10,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "moderate",
+      "setup": "A roller stands 20 feet in front of the fielder; the catcher (cutoff) stands 40 to 60 feet from the fielder with a glove. On a team, make two or three lines so nobody waits long.",
+      "instructions": [
+        "Walk through with no ball: jog to the spot, hop forward onto the throwing-side foot while turning sideways, step with the glove-side foot at the cutoff, shadow throw. Five reps, then five at a jog saying 'hop, step, throw.'",
+        "Roller rolls a ground ball. Fielder fields it in front while moving toward the cutoff.",
+        "Fielder pushes off the glove-side foot and hops low and forward onto the throwing-side foot, front shoulder pointing at the cutoff on landing.",
+        "Step straight at the cutoff and throw with a full arm circle, aiming for the chest on a line.",
+        "Cutoff calls 'line!' for a chest-high throw and 'rainbow!' for a high arc.",
+        "Rotate roller, fielder, and cutoff every five throws."
+      ],
+      "reps": "15 to 20 crow hop throws per player, then 5 easy short throws to finish",
+      "cues": [
+        "Hop low, go forward",
+        "Turn in the air",
+        "Line drive to the chest"
+      ],
+      "parentTip": "Watch the hop. It should travel a foot or two forward and stay low. A high bouncy hop and a chest that faces you on landing are the two things to fix, and both are fixed at jog speed with no ball.",
+      "safety": [
+        "These are long throws; cap at 15 to 20 and finish with short, easy throws.",
+        "Open grass with no one in the throwing lane; the catcher wears a glove.",
+        "Skip the drill on wet or slippery grass."
+      ],
+      "funVariation": "Cutoff Points: 3 points for a chest-high throw the cutoff catches without moving, 1 point for a catch with a step, 0 for a rainbow. First to 15 wins.",
+      "lessonId": "thr-06"
+    },
+    {
+      "id": "drill-thr-07",
+      "name": "Quick Feet Box",
+      "category": "throwing",
+      "skillFocus": [
+        "footwork",
+        "infield",
+        "transfers"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "ball",
+        "glove",
+        "cones"
+      ],
+      "equipmentFreeVariant": "Tennis ball off a wall: roll it against the wall, field the rebound, shuffle right-left, and throw to a wall target at half speed. Footwork alone can be rehearsed in a hallway.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 40,
+      "participantsMin": 2,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 10,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "moderate",
+      "setup": "A cone marks the fielding spot and a receiver with a glove stands at 'first base' 30 to 40 feet away. On a team, set up a square of four cones 40 feet apart with a player at each corner so throws go around the box.",
+      "instructions": [
+        "No ball: pretend to field, bring hands to chest, shuffle right-left (left-right for lefties) toward the receiver, shadow throw. Ten reps.",
+        "Receiver (or coach) rolls an easy ground ball. Fielder fields out front, glove and bare hand, and brings the ball to the chest.",
+        "Shuffle: back foot replaces front foot while turning sideways, then step with the front foot at the receiver and throw with a full arm circle to the chest.",
+        "Receiver calls 'line' or 'tail' so the fielder can adjust the front foot.",
+        "Box version: field, shuffle, throw to the next corner, then follow the throw to that corner's line. Keep the ball moving around the square.",
+        "Time the last ten reps from glove to release; aim to beat two seconds without rushing the arm."
+      ],
+      "reps": "20 throws per player, the last 10 timed",
+      "cues": [
+        "Catch, chest, feet, throw",
+        "Right-left, release",
+        "Quick feet, full arm"
+      ],
+      "parentTip": "Watch the order: ball secured at the chest first, then the feet, then the arm. A child who starts the throw before the ball is secured will drop it and then rush even more.",
+      "safety": [
+        "Roll grounders gently on smooth grass; use a soft ball on rough ground.",
+        "20 to 25 throws from 30 to 40 feet is the session; the stopwatch is for feet, never for throwing harder.",
+        "Receivers stay alert with gloves up; quick throws arrive faster than expected."
+      ],
+      "funVariation": "Around the Horn Clock: the team times how fast the ball can travel around the four-cone box with good footwork at every corner. A dropped ball adds five seconds.",
+      "lessonId": "thr-07"
+    },
+    {
+      "id": "drill-thr-08",
+      "name": "Wall Target: Tennis Ball From 10 Feet",
+      "category": "throwing",
+      "skillFocus": [
+        "accuracy"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "tennis_ball",
+        "wall"
+      ],
+      "equipmentFreeVariant": "A sock ball thrown at a pillow leaned against the couch with a taped square on it, or at a hula hoop hung from a branch.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park"
+      ],
+      "minSpaceFt": 10,
+      "participantsMin": 1,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "moderate",
+      "setup": "Tape or chalk a target square about the size of a sheet of paper on a garage wall, fence, or gym wall at the thrower's chest height. Thrower starts 10 feet away with a tennis ball; nothing breakable nearby and no one between the thrower and the wall.",
+      "instructions": [
+        "Point the front shoulder and glove at the square and say out loud the exact spot you are aiming for.",
+        "Step at the target with the glove-side foot and throw with a full arm circle at about 70 percent effort, finishing at the opposite hip.",
+        "Call the result: hit, high, low, glove side, or arm side. Decide what to fix before the next throw.",
+        "Catch the rebound or let it roll back, and throw again. After ten throws, six or more hits means back up to 15 feet; fewer means stay.",
+        "Stop at 25 throws and write down the best distance with six of ten hits.",
+        "For a team station, chalk one square per player on a gym or dugout wall, 10 feet apart, and rotate every ten throws."
+      ],
+      "reps": "Sets of 10 throws, 25 throws total",
+      "cues": [
+        "Aim small, miss small",
+        "Pick a spot",
+        "Let it finish"
+      ],
+      "parentTip": "Do not back up too soon. Six of ten at 10 feet before 15 feet, and six of ten at 15 before 20. If misses turn low and sidearm late in the set, the arm is tired; stop for the day.",
+      "safety": [
+        "Tennis ball or soft ball only indoors or near windows and cars; never a hard baseball.",
+        "Stop at 25 throws; accuracy drops with fatigue.",
+        "Make sure rebounds cannot roll into a street."
+      ],
+      "funVariation": "Four Corners: split the square into four smaller squares and have a partner call which one to hit before each throw. One point per called hit; ten throws, keep score across sessions.",
+      "lessonId": "thr-08"
+    },
+    {
+      "id": "drill-thr-09",
+      "name": "Bucket Bullseye",
+      "category": "throwing",
+      "skillFocus": [
+        "accuracy",
+        "teamwork"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "ball",
+        "glove",
+        "bucket",
+        "cones"
+      ],
+      "equipmentFreeVariant": "A laundry basket or a hula hoop on the ground as the target, tennis balls or sock balls to throw, and chalk marks for distances.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 40,
+      "participantsMin": 2,
+      "participantsMax": 14,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 10,
+      "phase": "game",
+      "intensity": "medium",
+      "throwingLoad": "moderate",
+      "setup": "Stand a bucket on its side with the opening facing the throwers, or set an upright bucket on a base, 30 to 40 feet from a throwing line marked with cones. Teams of two to four line up behind the line with a pile of balls; a retriever with a glove stands beside the bucket.",
+      "instructions": [
+        "First thrower points the front shoulder at the bucket, names the aiming spot ('the rim'), steps, and throws with a full arm circle.",
+        "Scoring: 3 points for a ball that goes in or hits the bucket on the fly, 1 point for a ball that hits the bucket on one bounce, 0 for a miss. The retriever calls the score.",
+        "Next thrower goes while the retriever collects. Each player throws five per round.",
+        "After each round, teams may choose to move the line back 5 feet for double points or stay.",
+        "Play three rounds. Everyone's throws stay at 70 to 80 percent effort; a wild hard throw costs the team a point.",
+        "At home, one child and one parent alternate throws and try to beat last week's team total."
+      ],
+      "reps": "3 rounds of 5 throws per player (15 throws), plus a few warm-up tosses",
+      "cues": [
+        "Pick the rim",
+        "Shoulder and step at the bucket",
+        "Smooth, not hard"
+      ],
+      "parentTip": "This is a game, so kids will want to fire the ball. Keep the scoring rule that a wild hard throw costs a point; accuracy is the only way to win.",
+      "safety": [
+        "Total throws per player stay around 15 to 20 including warm-up tosses.",
+        "The retriever stands beside the bucket, never behind it in the line of fire, and wears a glove.",
+        "Throwing line is a line; nobody steps in front of it while others throw."
+      ],
+      "funVariation": "Moving Bucket: a coach slowly walks the bucket (on its side, opening forward) across the field like a runner, and throwers must lead it. Coach stays well off the line of any throw.",
+      "lessonId": "thr-08"
+    },
+    {
+      "id": "drill-thr-10",
+      "name": "Catch Basics: Ready, Two Hands, Streak",
+      "category": "throwing",
+      "skillFocus": [
+        "playing_catch",
+        "glove_work"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "soft_ball",
+        "glove"
+      ],
+      "equipmentFreeVariant": "A rolled sock ball with bare hands indoors; the ready position and two-hand catch are identical. Alone, toss a tennis ball to yourself off a wall and catch with two hands.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 15,
+      "participantsMin": 2,
+      "participantsMax": 14,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "light",
+      "setup": "Partners face each other 10 to 15 feet apart on grass or a soft indoor space with a soft ball. The adult or coach kneels so the target is at the child's eye level.",
+      "instructions": [
+        "Child shows the ready position: knees bent, glove open at the chest, bare hand beside the glove. Partner does not throw until they see it.",
+        "Partner throws an easy ball to the glove. Child watches it all the way in and catches with two hands, saying 'thumbs' for a ball above the waist or 'pinkies' for a ball below.",
+        "Child takes the ball out with a four-seam grip, turns sideways, steps with the glove-side foot, and throws to the partner's chest, finishing at the opposite hip.",
+        "Child returns to the ready position before the next throw.",
+        "Count catches in a row without the ball touching the ground; the streak resets on a drop or a wild throw.",
+        "For a team, pairs in two lines 12 feet apart with a coach walking behind the catchers calling 'ready?' and 'two hands.'"
+      ],
+      "reps": "20 to 25 throws per child, about 8 minutes",
+      "cues": [
+        "Show me you're ready",
+        "Two hands",
+        "Thumbs high, pinkies low",
+        "Turn, step, throw"
+      ],
+      "parentTip": "Make catching easy and throwing the practice. If your child turns their head away as the ball comes, move closer and use a softer ball; fear fades with hundreds of easy catches.",
+      "safety": [
+        "Soft or safety ball for ages 4 to 8; move back only when catches are easy.",
+        "Keep the child's throws to 20 to 25 per session."
+      ],
+      "funVariation": "Streak Record: write the longest catch streak on the fridge or the team whiteboard and try to beat it every session. A throw the partner cannot catch ends the streak, so everyone throws to be caught.",
+      "lessonId": "thr-09"
+    },
+    {
+      "id": "drill-thr-11",
+      "name": "Back-Up Catch Ladder",
+      "category": "throwing",
+      "skillFocus": [
+        "playing_catch",
+        "accuracy"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "ball",
+        "glove",
+        "cones"
+      ],
+      "equipmentFreeVariant": "Alone with a tennis ball and a wall: throw from 10, 15, and 20 feet, moving back only after five throws that return to your chest from a chalk target.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 90,
+      "participantsMin": 2,
+      "participantsMax": 14,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 12,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "moderate",
+      "setup": "Cones at 30, 45, 60, and 75 feet from a start cone. Partners begin at 30 feet after a body warm-up. On a team, pairs line up side by side so every pair moves back on its own count.",
+      "instructions": [
+        "Ten easy throws at 30 feet focusing on the arm circle and the step.",
+        "Throw until five in a row reach the partner's chest without a step. Count out loud. Then both back up to the next cone.",
+        "At 45 and 60 feet, throw at about 70 to 80 percent effort, keeping the ball on a line. If a throw starts to rainbow, stop backing up for today.",
+        "Try 75 feet only if the 60-foot throws are still on a line and the arm feels loose.",
+        "Return to 60 feet for five firm, quick throws to the chest at about 80 percent, then walk in to 45 and 30 feet for five easy throws at each.",
+        "Two misses in a row at any cone means move up one cone."
+      ],
+      "reps": "About 30 to 35 total throws including the easy throws coming back in",
+      "cues": [
+        "Five clean, then back up",
+        "Keep it on a line",
+        "Walk it back in"
+      ],
+      "parentTip": "Hold your glove still and judge honestly: a clean throw hits your glove at the chest without you moving. If you cannot throw far back, roll or bounce the ball to your child; only their throws matter.",
+      "safety": [
+        "Keep the total around 30 to 35 throws; more distance is not better for a growing arm.",
+        "A clear 90-foot lane on grass with nobody behind either player.",
+        "If the arm feels tight or heavy, come in to 30 feet, finish easy, and tell a coach or parent."
+      ],
+      "funVariation": "Ladder Record: write down the farthest cone reached with five clean throws and try to beat it next week. A new record is only valid if the throws stayed on a line.",
+      "lessonId": "thr-10"
+    },
+    {
+      "id": "drill-thr-12",
+      "name": "Eight-Minute Throwing Warm-Up",
+      "category": "throwing",
+      "skillFocus": [
+        "warmup",
+        "arm_care",
+        "playing_catch"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "ball",
+        "glove"
+      ],
+      "equipmentFreeVariant": "Do the body warm-up and arm circles, then towel snaps or sock-ball tosses against a wall from 10 to 15 feet, moving back as the arm loosens.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 45,
+      "participantsMin": 2,
+      "participantsMax": 16,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "warmup",
+      "intensity": "low",
+      "throwingLoad": "light",
+      "setup": "Open grass with room to back up to 45 feet (60 for ages 11 and up). Partners pair up after a one-minute jog and dynamic movements. Use the same order every time.",
+      "instructions": [
+        "Body first: one minute of jogging, then 20 yards each of skips, high knees, and side shuffles.",
+        "Arm circles: 10 small and 10 big forward, then backward, plus 10 trunk twists with hands on hips.",
+        "Kneel on the throwing-side knee 15 feet apart and make 5 soft upper-body throws, feeling the arm circle and the fingers on top of the ball.",
+        "Stand at 20 feet for 5 easy throws using the legs and a full step.",
+        "Back up to 30 feet for 5 throws at about 60 percent, then 45 feet for 5 throws at 70 to 80 percent with unchanged mechanics.",
+        "Ages 11 and up may finish with 3 to 5 throws at 60 feet at game pace. Younger players stop at 45 feet."
+      ],
+      "reps": "About 20 to 25 throws total, same order every session",
+      "cues": [
+        "Body first, then arm",
+        "Start on a knee",
+        "Soft to firm, close to far"
+      ],
+      "parentTip": "The first ten throws should not pop your glove. If they do, say 'half speed, we are just waking up.' Use the warm-up to look at the elbow height from the side while nobody is tired.",
+      "safety": [
+        "Never throw hard with a cold arm; the jog and one-knee tosses are not optional.",
+        "These 20 to 25 throws count toward the day's total.",
+        "Any pinch or sharp feeling during the warm-up means stop and tell the coach or parent."
+      ],
+      "funVariation": "Captain's Warm-Up: a different player leads the routine each practice, calling the steps and distances. The team earns a point every time the captain runs it in the right order.",
+      "lessonId": "thr-11"
+    },
+    {
+      "id": "drill-thr-13",
+      "name": "Long-Toss Progression",
+      "category": "throwing",
+      "skillFocus": [
+        "arm_care",
+        "throwing_motion"
+      ],
+      "ageGroups": [
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "ball",
+        "glove",
+        "cones"
+      ],
+      "equipmentFreeVariant": null,
+      "locations": [
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 150,
+      "participantsMin": 2,
+      "participantsMax": 14,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 15,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "high",
+      "setup": "A field or large park with at least 150 feet of clear grass. Cones at 60, 75, 90, 105, 120, and 150 feet. Players must complete the full eight-minute warm-up first and must not be pitching today or tomorrow.",
+      "instructions": [
+        "Start at 60 feet with five throws using a crow hop and a full arm circle.",
+        "Back up one cone after five smooth throws at each. Let the ball arc slightly as the distance grows while the mechanics stay identical to 60 feet.",
+        "Stop backing up at the first cone where a throw needs strain. Make five to eight throws there, no more. That cone is today's distance, not a score.",
+        "Pull down: come in one cone at a time and throw on a line to the partner's chest at the same effort, five throws per cone.",
+        "Finish at 60 feet with five easy throws, then do the arm care cool-down.",
+        "Record the farthest cone and the total count, which should stay between 35 and 45 including the warm-up."
+      ],
+      "reps": "35 to 45 total throws including warm-up; 5 to 8 at the farthest distance",
+      "cues": [
+        "Five smooth, then back up",
+        "Same mechanics, more legs",
+        "Stop at the first strain",
+        "Pull down on a line"
+      ],
+      "parentTip": "Watch for the signs of too far: a short arm circle, a dropping elbow, a big rainbow, or a straining face. Any one of them means come in 15 feet. You do not need to throw far yourself; roll or bounce the ball back.",
+      "safety": [
+        "Ages 13 to 16 only, after the full warm-up, never on a pitching day or the day before one, and never with a tired or sore arm.",
+        "Total throws stay between 35 and 45; the farthest distance gets only five to eight throws.",
+        "Clear lane of at least 150 feet with no one between the partners; both wear gloves and track every throw."
+      ],
+      "funVariation": "Pull-Down Targets: during the pull-down, the partner calls 'chest' or 'knee' before each throw and the thrower earns a point for hitting the called spot on a line.",
+      "lessonId": "thr-12"
+    },
+    {
+      "id": "drill-thr-14",
+      "name": "Arm Care Cool-Down Check-In",
+      "category": "throwing",
+      "skillFocus": [
+        "arm_care",
+        "cooldown"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "This drill needs nothing. A notebook, a calendar, or the GamePlanIQ log is used to record the day's throwing.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 6,
+      "participantsMin": 1,
+      "participantsMax": 16,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "cooldown",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Players stand in a loose circle or beside a parent after the last throw of the day. No ball is used.",
+      "instructions": [
+        "Easy movement: walk or jog slowly for one minute while swinging the arms gently.",
+        "Gentle arm circles: 10 small forward, 10 small backward, slow and relaxed, then hold the throwing arm across the chest with the other hand for 15 to 20 seconds, and reach overhead for 15 to 20 seconds. No bouncing, nothing that pinches.",
+        "Check-in: each player says how the arm feels in one word: 'fresh,' 'tired,' or 'sore.' The adult thanks every honest answer the same way.",
+        "Count: each player says roughly how many throws they made today, including warm-up and catch. The adult writes it in the log with the date.",
+        "Plan: say out loud what tomorrow is, a rest day, a light day, or a throwing day, based on the league's pitch-count table and today's work.",
+        "Any player who said 'sore' or has arm pain stops throwing for the day; the adult tells the parent, and the family decides whether to see a doctor."
+      ],
+      "reps": "1 round, about 5 minutes",
+      "cues": [
+        "Count everything you threw",
+        "Sore means say so",
+        "Heavy day, light day"
+      ],
+      "parentTip": "Respond to 'sore' with 'thank you for telling me' and nothing else in the moment. This routine only works if the honest answer is always the easy answer.",
+      "safety": [
+        "No medical advice is given here; arm pain or soreness that lasts beyond the day is a conversation with a doctor, not a coach or an app.",
+        "Stretches are gentle and short with no bouncing; stop any that pinch.",
+        "Pitch-count and rest rules come from the league's configured table and the current Little League rulebook."
+      ],
+      "funVariation": "Log Streak: the team or family earns a sticker for every day the log is filled in after throwing. Ten stickers earns a no-throwing fun day of the players' choosing.",
+      "lessonId": "thr-13"
+    },
+    {
+      "id": "drill-thr-15",
+      "name": "Slow Roller: Throw on the Run",
+      "category": "throwing",
+      "skillFocus": [
+        "footwork",
+        "infield",
+        "throwing_motion"
+      ],
+      "ageGroups": [
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "ball",
+        "glove",
+        "cones"
+      ],
+      "equipmentFreeVariant": "Footwork with no ball: jog to a cone, pretend to scoop at the glove-side foot, and shadow throw on the next step. Outdoors, roll a tennis ball slowly yourself and throw to a wall target at half effort.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 50,
+      "participantsMin": 2,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 10,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "moderate",
+      "setup": "Full warm-up first. A cone 20 feet in front of the fielder marks where slow rollers stop; a receiver with a glove stands at 'first base' 40 to 50 feet away. Dry, even grass or dirt only.",
+      "instructions": [
+        "Walk-through with no ball: approach the cone, scoop at the glove-side foot, plant the throwing-side foot, throw on the next step. Five reps.",
+        "Roller rolls a very slow ball. Fielder jogs to it with small steps, fields with the glove or bare hand, and throws to the receiver's chest on the next step.",
+        "Fielder calls 'throw' or 'hold' as they field, based on whether momentum is toward the receiver. A 'hold' is a good rep.",
+        "Ten reps at jog speed. Game speed only after the jog-speed throws are accurate, and then only five.",
+        "Flip version: fielder starts 30 feet from the receiver, fields a rolled ball moving toward them, and flips underhand chest-high from 15 feet, continuing to move after the flip.",
+        "Finish with five easy set-feet throws from 40 feet."
+      ],
+      "reps": "15 to 20 throws total, most at jog speed",
+      "cues": [
+        "Small steps, still head",
+        "Scoop at the front foot, throw on the next step",
+        "Throw or hold"
+      ],
+      "parentTip": "Watch the head. If it bounces or the eyes leave the target, the steps are too long or the child is rushing; slow the drill back down to a jog.",
+      "safety": [
+        "Ages 11 and up, after a full warm-up, never on a pitching or long-toss day; off-balance throws load the arm more than set-feet throws.",
+        "Dry, even surface only; running throws on wet grass cause slips.",
+        "Receiver wears a glove and stands still; running throws arrive from odd angles."
+      ],
+      "funVariation": "Beat the Runner: a coach with a stopwatch sets a 'runner time' of about 4.5 seconds from the roll to the catch at first. The fielder scores when the catch beats the clock with an accurate throw; a wild throw scores for the runner.",
+      "lessonId": "thr-14"
+    },
+    {
+      "id": "drill-thr-16",
+      "name": "Fault-Fix Station",
+      "category": "throwing",
+      "skillFocus": [
+        "throwing_motion",
+        "footwork"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "soft_ball"
+      ],
+      "equipmentFreeVariant": "A hand towel, a chalk or tape line, and a mirror or a phone camera. No ball is needed to fix any of the four faults.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 15,
+      "participantsMin": 1,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "light",
+      "setup": "A chalk or tape line from the thrower to a target 15 to 20 feet away, a marker just to the glove side of the line for the front foot, a hand towel, and a soft ball. On a team, four cones label four stations: elbow, step, weight, snap.",
+      "instructions": [
+        "Pick one fault from film or a partner's eyes: sidearm/short-arm, stepping across, throwing off the back foot, or pushing the ball.",
+        "Elbow station (sidearm or short-arm): ten slow arm circles in front of a mirror freezing at the L with the elbow level with the shoulder, then ten towel snaps. Cue 'thumb down, L up.'",
+        "Step station (stepping across): ten step-and-freeze reps landing on the marker just to the glove side of the line, toes at the target. Cue 'open the gate.'",
+        "Weight station (off the back foot): ten step-pause-throw reps with a sock ball, nose over the bent front knee before the throw, back heel lifting at the finish. Cue 'nose over your knee.'",
+        "Snap station (pushing): ten wrist-flip throws from one knee at 10 feet so the fingers whip over the top, then ten towel snaps finishing at the opposite hip. Cue 'snap it.'",
+        "Finish with 15 soft-ball throws from 15 to 20 feet while a partner calls the one cue before each throw."
+      ],
+      "reps": "10 repair reps at the chosen station, then 15 soft-ball throws",
+      "cues": [
+        "One fault, one cue",
+        "Thumb down, L up",
+        "Open the gate",
+        "Snap it"
+      ],
+      "parentTip": "Film three throws from the side and three from behind before and after. You do not need baseball knowledge to compare the picture to the four faults, and kids fix what they can see.",
+      "safety": [
+        "Repair work is done with a towel and sock ball; live throws stay around 15 to 25 at soft-ball distance.",
+        "Indoors, face a wall or net with nothing breakable nearby.",
+        "A new arm feeling during a fix is normal, but pain is not; stop and tell a coach or parent."
+      ],
+      "funVariation": "Coach the Coach: the player diagnoses the adult's deliberately bad throw (a sidearm, a cross-body step, a lean-back, a shot put) and gives the right cue. One point for each correct diagnosis.",
+      "lessonId": "thr-15"
+    }
+  ]
+}

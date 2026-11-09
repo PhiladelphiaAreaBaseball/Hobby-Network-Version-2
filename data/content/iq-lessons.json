@@ -1,0 +1,2106 @@
+{
+  "$schema": "iq_lesson",
+  "items": [
+    {
+      "id": "iq-01",
+      "title": "The Nine Positions and Their Numbers",
+      "topic": "positions",
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10"
+      ],
+      "summary": "Where each of the nine fielders stands, what each one does on a routine play, and the 1 through 9 numbers scorekeepers use for them.",
+      "sections": [
+        {
+          "heading": "The infield: the battery plus four fielders around the bases",
+          "body": [
+            "A baseball team puts nine players on the field. Six of them play in the infield, the dirt diamond with the four bases. The pitcher stands on the mound in the middle and throws the ball to the batter. The catcher squats behind home plate, wearing a mask, chest protector, and shin guards, and catches every pitch. Together the pitcher and catcher are called the battery.",
+            "Around the bases are four more infielders. The first baseman stands near first base and catches most of the throws that get batters out. The second baseman stands between first and second base, not on the base. The shortstop stands between second and third base; it is the only infield position not named after a base. The third baseman stands near third base, which is sometimes called the hot corner because hard-hit balls get there fast.",
+            "Notice that nobody stands on a base while waiting for the pitch. Fielders stand a few steps away so they can move in any direction, then run to the base when they need to cover it."
+          ],
+          "diagram": {
+            "highlight": [
+              "P",
+              "C",
+              "1B",
+              "2B",
+              "SS",
+              "3B"
+            ],
+            "runners": [],
+            "arrows": [],
+            "caption": "The six infielders: pitcher and catcher (the battery) plus first base, second base, shortstop, and third base. Nobody stands on a bag before the pitch."
+          }
+        },
+        {
+          "heading": "The outfield: three players in the grass",
+          "body": [
+            "Behind the infield, three outfielders stand in the grass. The left fielder is on the side of third base, the center fielder is straight out behind second base, and the right fielder is on the side of first base. If you stand at home plate and look out, left field is on your left.",
+            "Outfielders catch fly balls, chase down hits that get past the infield, and throw the ball back in. The center fielder is usually the fastest and is the captain of the outfield: when two outfielders can both reach a fly ball, the center fielder calls for it and the other player gives way.",
+            "In tee ball and coach pitch, leagues often put extra players in the outfield so everyone plays. Those extra outfielders have the same jobs: catch, chase, and throw it in."
+          ],
+          "diagram": {
+            "highlight": [
+              "LF",
+              "CF",
+              "RF"
+            ],
+            "runners": [],
+            "arrows": [],
+            "caption": "Left field, center field, and right field, named from the batter's point of view looking out from home plate."
+          }
+        },
+        {
+          "heading": "Position numbers: how scorekeepers write a play",
+          "body": [
+            "Every position has a number so scorekeepers can write a whole play in a few characters. Pitcher is 1, catcher is 2, first base is 3, second base is 4, third base is 5, shortstop is 6, left field is 7, center field is 8, and right field is 9.",
+            "The two that trip people up are second base (4) and shortstop (6), because shortstop is out of order compared with how the bases are laid out. A good memory trick: the numbers go around the infield 3-4-5 from first to third, and then the shortstop gets the leftover 6.",
+            "A play written 6-3 means the shortstop (6) fielded the ball and threw to the first baseman (3) for the out. A 4-6-3 double play means second baseman to shortstop to first baseman. Coaches say these numbers out loud all the time, so knowing them helps you understand what the coach wants."
+          ],
+          "diagram": {
+            "highlight": [
+              "SS",
+              "1B",
+              "first"
+            ],
+            "runners": [],
+            "arrows": [
+              {
+                "from": "SS",
+                "to": "first",
+                "kind": "throw"
+              },
+              {
+                "from": "home",
+                "to": "first",
+                "kind": "run"
+              }
+            ],
+            "caption": "A 6-3 ground out: the shortstop (6) throws to the first baseman (3) before the batter reaches first."
+          }
+        },
+        {
+          "heading": "Everybody has a job on every play",
+          "body": [
+            "The ball is only hit to one player, but all nine fielders move on every play. On a ground ball to the shortstop with nobody on base, the first baseman runs to first base to catch the throw, the second baseman covers second in case the batter keeps running, the right fielder jogs in behind first base to back up the throw, and the pitcher moves toward first to help.",
+            "Young players sometimes watch the ball instead of doing their job. A simple rule for ages 4 to 8: if the ball is not hit to you, run to your base. For first, second, and third basemen, that means the base you are named for. For the shortstop, it usually means second base. Outfielders run toward the ball to back up the infielder in front of them.",
+            "Before every pitch, say your job to yourself: 'Ground ball to me, I throw to first. Ground ball to someone else, I cover my base.' Players who do this look like they know what they are doing, because they do."
+          ],
+          "diagram": {
+            "highlight": [
+              "SS",
+              "first",
+              "RF",
+              "2B"
+            ],
+            "runners": [],
+            "arrows": [
+              {
+                "from": "SS",
+                "to": "first",
+                "kind": "throw"
+              },
+              {
+                "from": "RF",
+                "to": "first",
+                "kind": "move"
+              },
+              {
+                "from": "2B",
+                "to": "second",
+                "kind": "move"
+              }
+            ],
+            "caption": "Ground ball to the shortstop: the first baseman takes the throw, the right fielder backs up, and the second baseman covers second."
+          }
+        }
+      ],
+      "keyTakeaways": [
+        "Nine fielders: pitcher, catcher, first base, second base, shortstop, third base, left field, center field, right field.",
+        "Shortstop plays between second and third and is the only infield spot not named after a base.",
+        "Position numbers are 1 through 9: P1, C2, 1B3, 2B4, 3B5, SS6, LF7, CF8, RF9. Second base is 4 and shortstop is 6.",
+        "Nobody stands on a base before the pitch; you move to your base when the ball is hit to someone else.",
+        "The center fielder is the captain of the outfield and calls for fly balls that two outfielders can reach."
+      ],
+      "questionIds": [
+        "iqq-01",
+        "iqq-02",
+        "iqq-03",
+        "iqq-04",
+        "iqq-05",
+        "iqq-06"
+      ]
+    },
+    {
+      "id": "iq-02",
+      "title": "Outs, Strikes, Balls, and Innings",
+      "topic": "rules",
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10"
+      ],
+      "summary": "How strikes, balls, outs, and innings fit together, how a run is scored, and where tee ball and coach pitch change the basic rules.",
+      "sections": [
+        {
+          "heading": "Strikes and balls: the count",
+          "body": [
+            "Every pitch is either a strike or a ball, unless the batter hits it. A strike is a pitch the batter swings at and misses, a pitch in the strike zone that the batter lets go by, or a foul ball when the batter has fewer than two strikes. The strike zone is the space over home plate roughly between the batter's knees and the middle of the chest.",
+            "A ball is a pitch outside the strike zone that the batter does not swing at. Three strikes make an out. Four balls make a walk, and the batter gets to go to first base for free. The count is said balls first, then strikes: a 2-1 count means two balls and one strike. A full count is 3-2.",
+            "Tee ball and coach pitch often change these rules. There are usually no walks when a coach is pitching, and many tee-ball leagues do not call strikeouts. Check your league's current Little League rulebook and local rules so you know what applies to your division."
+          ],
+          "diagram": {
+            "highlight": [
+              "P",
+              "home",
+              "C"
+            ],
+            "runners": [],
+            "arrows": [
+              {
+                "from": "P",
+                "to": "home",
+                "kind": "throw"
+              }
+            ],
+            "caption": "Every pitch that is not hit is called a strike or a ball by the umpire standing behind the catcher."
+          }
+        },
+        {
+          "heading": "Three ways to make an out",
+          "body": [
+            "The fielding team wants outs. There are three common ways to get one. A strikeout: the batter gets three strikes. A catch: a fielder catches a batted ball before it touches the ground, fair or foul. A force out or tag out: the batter hits the ball on the ground and the fielders either get the ball to first base before the batter arrives, or tag a runner with the ball while he is off his base.",
+            "On a ground ball, the batter must run to first. If the first baseman catches the throw while touching the base before the batter gets there, the batter is out. That is the most common out in youth baseball, and it is why fielders practice throwing to first so much.",
+            "A runner who is standing on a base is safe. A runner who is off the base can be tagged out, so runners should touch the base and stay on it until the next pitch or until a coach tells them to go."
+          ],
+          "diagram": {
+            "highlight": [
+              "SS",
+              "1B",
+              "first"
+            ],
+            "runners": [],
+            "arrows": [
+              {
+                "from": "SS",
+                "to": "first",
+                "kind": "throw"
+              },
+              {
+                "from": "home",
+                "to": "first",
+                "kind": "run"
+              }
+            ],
+            "caption": "Ground ball to the shortstop. If the throw beats the runner to first base, that is one out."
+          }
+        },
+        {
+          "heading": "Three outs and the teams switch",
+          "body": [
+            "When the fielding team gets three outs, the half-inning is over and the teams switch: the batting team goes out to the field and the fielding team comes in to bat. When both teams have batted once, a full inning is complete.",
+            "Little League games in Majors and younger divisions are six innings long; Intermediate (50/70), Junior, and Senior games are seven. Many leagues also use time limits or run-ahead (mercy) rules that end a game early, and tee ball and coach pitch often bat the whole lineup or a set number of batters each inning instead of counting three outs. Check your league's current rulebook.",
+            "Players should know the outs at all times. A good habit is to hold up fingers and say the number of outs with a teammate after every out."
+          ],
+          "diagram": null
+        },
+        {
+          "heading": "Scoring a run",
+          "body": [
+            "A run scores when a runner touches first, second, third, and home plate in order before the third out. The runner has to touch every base; a missed base can be appealed by the defense and the runner called out.",
+            "There is one tricky exception. If the third out of the inning is a force out, or the batter is thrown out at first base, no run scores on that play even if a runner crossed home plate first. That is why a team with two outs and the bases loaded does not get a run when the batter is thrown out at first.",
+            "The team with more runs after the last inning wins. If the game is tied, extra innings are played until one team is ahead at the end of a full inning, unless your league's time limit or local rules say otherwise."
+          ],
+          "diagram": {
+            "highlight": [
+              "home",
+              "first",
+              "second",
+              "third"
+            ],
+            "runners": [],
+            "arrows": [
+              {
+                "from": "home",
+                "to": "first",
+                "kind": "run"
+              },
+              {
+                "from": "first",
+                "to": "second",
+                "kind": "run"
+              },
+              {
+                "from": "second",
+                "to": "third",
+                "kind": "run"
+              },
+              {
+                "from": "third",
+                "to": "home",
+                "kind": "run"
+              }
+            ],
+            "caption": "A run: touch first, second, third, and home in order, before the third out."
+          }
+        }
+      ],
+      "keyTakeaways": [
+        "Three strikes make an out; four balls make a walk. Say the count balls first: 2-1 is two balls, one strike.",
+        "A foul ball is a strike only when the batter has fewer than two strikes (a foul bunt with two strikes is strike three).",
+        "Outs come from strikeouts, caught balls, getting the ball to the base before a forced runner, and tagging a runner who is off the base.",
+        "Three outs end a half-inning; Little League Majors and below play six innings, older divisions play seven.",
+        "No run scores when the third out is a force out or the batter is thrown out at first."
+      ],
+      "questionIds": [
+        "iqq-07",
+        "iqq-08"
+      ]
+    },
+    {
+      "id": "iq-03",
+      "title": "Force Plays Explained",
+      "topic": "force_plays",
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "summary": "Why some runners have to run, which bases are force plays in every situation, and how fielders get an out just by touching the base.",
+      "sections": [
+        {
+          "heading": "Why a force exists",
+          "body": [
+            "When a batter hits a ground ball, he must run to first base. He has nowhere else to go. If there is already a runner on first, that runner must leave, because two runners cannot stand on the same base. He is forced to run to second. That is a force play.",
+            "A force only exists when a runner has to give up his base for the runner behind him. If the base behind a runner is empty, nobody is pushing him and he can stay where he is. Ask one question about any runner: is there a runner (or the batter) coming to take his base? If yes, he is forced.",
+            "Forces matter because they change how the defense gets the out. On a force play the fielder only has to touch the base while holding the ball before the runner gets there. No tag is needed."
+          ],
+          "diagram": {
+            "highlight": [
+              "first",
+              "second"
+            ],
+            "runners": [
+              "first"
+            ],
+            "arrows": [
+              {
+                "from": "home",
+                "to": "first",
+                "kind": "run"
+              },
+              {
+                "from": "first",
+                "to": "second",
+                "kind": "run"
+              }
+            ],
+            "caption": "The batter is running to first, so the runner on first must go to second. Both are forced."
+          }
+        },
+        {
+          "heading": "Where the forces are in every situation",
+          "body": [
+            "Nobody on: a force at first only (the batter). Runner on first: forces at first and second. Runners on first and second: forces at first, second, and third. Bases loaded: forces at every base, including home plate.",
+            "Runner on second only: a force at first only. The runner on second does not have to move because first base was empty, so a play on him at third is a tag play. Runner on third only, or runners on second and third: again only the batter is forced. Runners on first and third: forces at first and second, but not at home, because second base was empty and the chain is broken.",
+            "A simple rule: start at the batter and walk up the chain of runners. Every runner connected to the batter by occupied bases is forced. The first empty base breaks the chain."
+          ],
+          "diagram": {
+            "highlight": [
+              "first",
+              "second",
+              "third",
+              "home"
+            ],
+            "runners": [
+              "first",
+              "second",
+              "third"
+            ],
+            "arrows": [
+              {
+                "from": "home",
+                "to": "first",
+                "kind": "run"
+              },
+              {
+                "from": "first",
+                "to": "second",
+                "kind": "run"
+              },
+              {
+                "from": "second",
+                "to": "third",
+                "kind": "run"
+              },
+              {
+                "from": "third",
+                "to": "home",
+                "kind": "run"
+              }
+            ],
+            "caption": "Bases loaded: every runner is forced, so a fielder can get an out at any base, including home, just by touching it with the ball."
+          }
+        },
+        {
+          "heading": "How to make a force out",
+          "body": [
+            "To make a force out, a fielder holds the ball and touches the base the runner is forced to reach before the runner gets there. Any part of the body can touch the base, usually a foot. The fielder does not need to tag the runner.",
+            "This is why the double play works. With a runner on first, the shortstop fields a ground ball and throws to the second baseman standing on second base. The runner from first is forced out. The second baseman then throws to first base, where the batter is also forced. Two outs on one ground ball: a 6-4-3.",
+            "The thrower's job is to deliver a chest-high throw to the fielder at the base. The receiver's job is to get to the base early, touch it, and catch the ball. Beginners should find the base first, then look for the ball."
+          ],
+          "diagram": {
+            "highlight": [
+              "SS",
+              "second",
+              "first"
+            ],
+            "runners": [
+              "first"
+            ],
+            "arrows": [
+              {
+                "from": "SS",
+                "to": "second",
+                "kind": "throw"
+              },
+              {
+                "from": "second",
+                "to": "first",
+                "kind": "throw"
+              },
+              {
+                "from": "first",
+                "to": "second",
+                "kind": "run"
+              },
+              {
+                "from": "home",
+                "to": "first",
+                "kind": "run"
+              }
+            ],
+            "caption": "6-4-3 double play: force at second on the runner from first, then force at first on the batter."
+          }
+        },
+        {
+          "heading": "When the force goes away",
+          "body": [
+            "A force disappears the moment the runner behind is no longer coming. If the batter is out first, for example on a caught fly ball or because the first baseman stepped on first base, the runner who was on first is no longer forced to second. A play on him at second now requires a tag.",
+            "This is the trap on a ground ball to the first baseman with a runner on first. If the first baseman steps on first and then throws to second, the shortstop has to tag the runner coming into second. If the first baseman throws to second first, it is a force, and the throw back to first is a force on the batter: a 3-6-3 double play.",
+            "On a caught fly ball, no runner is forced to advance. Instead, runners must tag up, meaning they have to be touching their base after the catch before they can try for the next one. A runner who left early can be put out if the defense throws to the base he left before he gets back."
+          ],
+          "diagram": {
+            "highlight": [
+              "1B",
+              "first",
+              "second"
+            ],
+            "runners": [
+              "first"
+            ],
+            "arrows": [
+              {
+                "from": "1B",
+                "to": "first",
+                "kind": "move"
+              },
+              {
+                "from": "first",
+                "to": "second",
+                "kind": "throw"
+              },
+              {
+                "from": "first",
+                "to": "second",
+                "kind": "run"
+              }
+            ],
+            "caption": "If the first baseman steps on first before throwing to second, the force is gone and the runner going to second must be tagged."
+          }
+        }
+      ],
+      "keyTakeaways": [
+        "A runner is forced only when the runner (or batter) behind him must take his base.",
+        "Runner on first: forces at first and second. First and second: add third. Bases loaded: every base including home.",
+        "Runner on second only, or runners on first and third: no force at third or home. Those are tag plays.",
+        "On a force the fielder just touches the base with the ball before the runner arrives. No tag needed.",
+        "Once the batter is out, the runners behind him are no longer forced, and plays on them need a tag."
+      ],
+      "questionIds": [
+        "iqq-12",
+        "iqq-13",
+        "iqq-15",
+        "iqq-17"
+      ]
+    },
+    {
+      "id": "iq-04",
+      "title": "Tag Plays vs. Force Plays",
+      "topic": "force_plays",
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "summary": "How to tell a tag play from a force play with one question, why tag plays are harder, and what that means for fielders and runners.",
+      "sections": [
+        {
+          "heading": "A tag play: the runner must be touched",
+          "body": [
+            "A tag play means the fielder has to touch the runner with the ball, or with the glove holding the ball, while the runner is not touching a base. Touching the base does nothing on a tag play. The ball must be held securely; if it pops out as the tag is made, the runner is safe.",
+            "Tag plays happen whenever a runner is not forced: a runner on second going to third with first base empty, a runner on third trying to score on a ground ball when the bases are not loaded, a runner stealing a base, or a runner tagging up on a fly ball.",
+            "To make a tag, catch the ball first, then put the glove down in front of the base and let the runner slide into it. Reaching for the runner before catching the ball is how fielders drop throws."
+          ],
+          "diagram": {
+            "highlight": [
+              "SS",
+              "third",
+              "3B"
+            ],
+            "runners": [
+              "second"
+            ],
+            "arrows": [
+              {
+                "from": "SS",
+                "to": "third",
+                "kind": "throw"
+              },
+              {
+                "from": "second",
+                "to": "third",
+                "kind": "run"
+              }
+            ],
+            "caption": "Runner on second only, ground ball to the shortstop: a throw to third is a tag play, because nobody is pushing the runner off second."
+          }
+        },
+        {
+          "heading": "The one question that tells you which it is",
+          "body": [
+            "Ask: is there a runner behind this runner who must take his base? If yes, it is a force play: touch the base. If no, it is a tag play: touch the runner. The batter running to first always counts as the runner behind the runner on first.",
+            "Runner on second with first base empty: nobody is behind him, so third is a tag play. Runners on first and second: the batter pushes the runner on first, who pushes the runner on second, so third is a force play. Same base, different play, all because of who is standing on first.",
+            "Say the force plays out loud before the pitch. 'Runner on first: force at second and first.' 'Runner on second only: force at first only, tag everywhere else.' Infielders who do this never freeze with the ball in their hand."
+          ],
+          "diagram": {
+            "highlight": [
+              "second",
+              "third"
+            ],
+            "runners": [
+              "second"
+            ],
+            "arrows": [
+              {
+                "from": "second",
+                "to": "third",
+                "kind": "run"
+              }
+            ],
+            "caption": "Runner on second, first base empty. Nobody is behind him, so he does not have to run, and a play on him at third needs a tag."
+          }
+        },
+        {
+          "heading": "Why tag plays change the fielder's decision",
+          "body": [
+            "Tag plays are harder than force plays. The throw must arrive exactly where the fielder can catch it and sweep the tag down, the fielder must hold on, and the runner can slide away from the glove. A force play just needs the ball to beat the runner to the base.",
+            "That is why infielders take the force when they can. With a runner on second only and a ground ball to the shortstop, the lead runner heading to third is a tag play with a head start, while the batter running to first is a sure force. Smart players look the runner back toward second, then throw to first.",
+            "The exception is when the runner makes a mistake: if he breaks late or stops halfway, a quick throw can get him with a tag. Take the lead runner only when you are sure."
+          ],
+          "diagram": {
+            "highlight": [
+              "SS",
+              "first",
+              "third"
+            ],
+            "runners": [
+              "second"
+            ],
+            "arrows": [
+              {
+                "from": "SS",
+                "to": "first",
+                "kind": "throw"
+              },
+              {
+                "from": "second",
+                "to": "third",
+                "kind": "run"
+              },
+              {
+                "from": "home",
+                "to": "first",
+                "kind": "run"
+              }
+            ],
+            "caption": "No force at third, so the shortstop glances the runner back and takes the sure force at first."
+          }
+        },
+        {
+          "heading": "Steals, tag-ups, and sliding safely",
+          "body": [
+            "Stolen bases and tag-ups are always tag plays, because the runner is advancing on his own, not because he is forced. The fielder covering the base catches the throw and puts the tag down; the runner slides to beat it.",
+            "Little League has an important safety rule here: a runner must slide or attempt to get around a fielder who has the ball and is waiting to make the tag. Runners who crash into a fielder on purpose are out. Teach the bent-leg (feet-first) slide early; in Little League Majors and below, a runner who slides head-first while advancing is out, although diving back to a base is allowed. Check your league's current rulebook.",
+            "Fielders should let the runner come to the tag rather than lunging at him, keep the glove low, and stay out of the baseline unless they have the ball."
+          ],
+          "diagram": null
+        }
+      ],
+      "keyTakeaways": [
+        "Force play: touch the base with the ball. Tag play: touch the runner with the ball (or the glove holding it).",
+        "Ask one question: is a runner behind him forced to take his base? Yes means force, no means tag.",
+        "Runner on second with first base empty: third is a tag play. Add a runner on first and third becomes a force.",
+        "Take the sure force over a risky tag unless the runner makes a mistake.",
+        "Little League requires runners to slide or avoid a fielder waiting with the ball; head-first slides while advancing are not allowed in Majors and below."
+      ],
+      "questionIds": [
+        "iqq-14",
+        "iqq-16",
+        "iqq-18"
+      ]
+    },
+    {
+      "id": "iq-05",
+      "title": "The Infield Fly Rule",
+      "topic": "rules",
+      "ageGroups": [
+        "a11_12",
+        "a13_16"
+      ],
+      "summary": "What the infield fly rule prevents, the four conditions that must all be true, what happens after the call, and what runners and fielders should do.",
+      "sections": [
+        {
+          "heading": "The problem the rule solves",
+          "body": [
+            "Picture runners on first and second with one out and a high pop-up to the shortstop. The runners have to stay near their bases, because if the ball is caught they must tag up. Now imagine the shortstop lets the ball drop on purpose. Both runners are suddenly forced to run, and he picks up the ball, steps on third, and throws to second for a cheap double play.",
+            "The infield fly rule stops that trick. When the rule applies, the umpire declares the batter out while the ball is still in the air. Because the batter is already out, the runners are not forced to go anywhere, and the defense gains nothing by dropping the ball.",
+            "The rule protects the offense. It is not a penalty on anyone; it just takes away a trick that would turn an easy pop-up into two outs."
+          ],
+          "diagram": {
+            "highlight": [
+              "SS",
+              "second",
+              "third"
+            ],
+            "runners": [
+              "first",
+              "second"
+            ],
+            "arrows": [
+              {
+                "from": "SS",
+                "to": "third",
+                "kind": "throw"
+              },
+              {
+                "from": "third",
+                "to": "second",
+                "kind": "throw"
+              }
+            ],
+            "caption": "Without the rule, a shortstop could drop this pop-up on purpose and force out two runners who were stuck near their bases."
+          }
+        },
+        {
+          "heading": "The four conditions",
+          "body": [
+            "All four of these must be true at the same time. One: fewer than two outs. Two: runners on first and second, or the bases loaded. Three: a fair fly ball that is not a line drive and not a bunt. Four: an infielder could catch the ball with ordinary effort, in the umpire's judgment.",
+            "Ordinary effort is the key judgment. A towering pop-up over the shortstop qualifies. A fly ball that an outfielder runs in for can also qualify if an infielder could have caught it comfortably; the rule is about the kind of play, not about who ends up under the ball. A ball that an infielder has to sprint and dive for does not qualify.",
+            "If the ball is near a foul line, the umpire says 'Infield fly, if fair.' If it lands foul and stays foul, it is just a foul ball and the batter keeps hitting. If it is fair, the batter is out."
+          ],
+          "diagram": {
+            "highlight": [
+              "P",
+              "1B",
+              "2B",
+              "SS",
+              "3B",
+              "first",
+              "second"
+            ],
+            "runners": [
+              "first",
+              "second"
+            ],
+            "arrows": [],
+            "caption": "Runners on first and second (or bases loaded), fewer than two outs, and a pop-up any infielder can handle with ordinary effort."
+          }
+        },
+        {
+          "heading": "What happens after the call",
+          "body": [
+            "The batter is out whether the ball is caught or not. The runners are no longer forced, so they may stay on their bases safely. The ball stays live, so runners may also try to advance at their own risk.",
+            "If the ball is caught, runners must tag up before advancing, exactly like any other caught fly ball. If the ball is dropped, runners may run, but since nobody is forced, a runner who leaves his base can be put out only by a tag, not by a throw to the base.",
+            "If the umpire forgets to call it, the rule still applies: an infield fly is a matter of fact, and the umpires can correct it once the play is over. Players should play the ball normally and let the umpires sort out the call."
+          ],
+          "diagram": {
+            "highlight": [
+              "SS",
+              "first",
+              "second"
+            ],
+            "runners": [
+              "first",
+              "second"
+            ],
+            "arrows": [],
+            "caption": "After the call, runners stay close to their bases and watch: tag up if it is caught, run only if a drop leaves the ball far away."
+          }
+        },
+        {
+          "heading": "What runners and fielders should do",
+          "body": [
+            "Fielders: catch the ball. The batter is out either way, but a dropped ball gives the runners a chance to advance. Call it loudly, make the catch, and look at the runners.",
+            "Runners: stay close to your base and listen. The batter is out, you are not forced, and the only way to be out is a tag. Advance only if the ball is dropped and gets far enough away that you are certain to make it, or if the ball is caught and the throw goes somewhere else.",
+            "The infield fly rule is in the Little League rulebook for every division, but tee-ball and coach-pitch leagues often play under local rules that skip it, and umpires in those divisions may not call it. Check your league's current Little League rulebook and local rules."
+          ],
+          "diagram": null
+        }
+      ],
+      "keyTakeaways": [
+        "The rule stops a fielder from dropping an easy pop-up on purpose to start a double play on forced runners.",
+        "Four conditions: fewer than two outs; runners on first and second or bases loaded; a fair fly ball that is not a line drive or bunt; catchable by an infielder with ordinary effort.",
+        "The batter is out whether the ball is caught or dropped; the umpire calls it while the ball is in the air.",
+        "Runners are not forced and the ball is live: tag up if caught, and if dropped, run only at your own risk of being tagged.",
+        "Tee ball and coach pitch often skip the rule under local rules; check your league's current rulebook."
+      ],
+      "questionIds": [
+        "iqq-19",
+        "iqq-20",
+        "iqq-21",
+        "iqq-22"
+      ]
+    },
+    {
+      "id": "iq-06",
+      "title": "Cutoffs: Who Is the Cutoff and Why",
+      "topic": "cutoffs",
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "summary": "What a cutoff man is, which infielder takes the job on throws to each base, how the outfielder should throw, and how the cutoff man and catcher decide where the ball goes.",
+      "sections": [
+        {
+          "heading": "What a cutoff man is",
+          "body": [
+            "A cutoff man is the infielder who runs to a spot in the straight line between the outfielder and the base the throw is going to, usually about 40 to 50 feet from that base. The outfielder throws to him, or through him, instead of trying to reach the base with one long throw.",
+            "There are two reasons. First, two short throws arrive faster and more accurately than one long, high throw that bounces three times. Second, the cutoff man can change where the ball goes: let it through if the runner will be out, cut it and throw to another base if the runner will score anyway, or cut it and hold if there is no play at all.",
+            "A throw with no cutoff man is a gamble. If the runner is safe anyway, the batter-runner takes an extra base while the ball is in the air, and now two runners are in scoring position instead of one."
+          ],
+          "diagram": {
+            "highlight": [
+              "LF",
+              "cutoff3B",
+              "home"
+            ],
+            "runners": [
+              "second"
+            ],
+            "arrows": [
+              {
+                "from": "LF",
+                "to": "cutoff3B",
+                "kind": "throw"
+              },
+              {
+                "from": "cutoff3B",
+                "to": "home",
+                "kind": "throw"
+              },
+              {
+                "from": "second",
+                "to": "home",
+                "kind": "run"
+              }
+            ],
+            "caption": "Single to left with a runner on second: the cutoff man lines up between the left fielder and home plate."
+          }
+        },
+        {
+          "heading": "Who takes the cutoff",
+          "body": [
+            "On throws home from right field, the first baseman is the cutoff man in nearly every system. On throws home from center field, most teams also use the first baseman. On throws home from left field, many teams use the shortstop and many others use the third baseman, with the other player covering third. Both work; what matters is that your team picks one and everyone knows it.",
+            "On throws to third base from the outfield, the shortstop is usually the cutoff man, lining up between the outfielder and third. On a throw to second base from the outfield there is normally no cutoff; the ball goes straight to the middle infielder covering the bag while the other middle infielder backs him up.",
+            "Ask your coach which system your team uses and say your job before the pitch: 'Runner on second, base hit to right, I am the cutoff to home.' The cutoff man should start moving the moment the ball is hit so he is set before the outfielder throws."
+          ],
+          "diagram": {
+            "highlight": [
+              "RF",
+              "cutoff1B",
+              "home",
+              "1B"
+            ],
+            "runners": [
+              "second"
+            ],
+            "arrows": [
+              {
+                "from": "RF",
+                "to": "cutoff1B",
+                "kind": "throw"
+              },
+              {
+                "from": "cutoff1B",
+                "to": "home",
+                "kind": "throw"
+              },
+              {
+                "from": "1B",
+                "to": "cutoff1B",
+                "kind": "move"
+              },
+              {
+                "from": "second",
+                "to": "home",
+                "kind": "run"
+              }
+            ],
+            "caption": "Single to right, runner on second: the first baseman runs to the cutoff spot and the right fielder throws through him toward home."
+          }
+        },
+        {
+          "heading": "The outfielder's job: throw through the cutoff man",
+          "body": [
+            "The outfielder does not throw to the cutoff man's glove and stop there. He throws through him: a hard, low throw aimed at the cutoff man's chest, on a straight line toward the base, so that if the cutoff man steps aside the ball still reaches the base on one hop or in the air.",
+            "Height is everything. A throw at chest height or on one long hop can be cut off and redirected. A high, arching throw sails over the cutoff man's head, cannot be caught in time, and arrives at the base late anyway. Young outfielders should think 'low and hard' every time.",
+            "Field the ball first. A clean pickup and a crow hop (a small hop onto the throwing-side foot to build momentum) make a better throw than rushing. The best outfielders are already lined up with the cutoff man when they pick up the ball because they looked before the pitch."
+          ],
+          "diagram": {
+            "highlight": [
+              "CF",
+              "cutoff1B",
+              "home"
+            ],
+            "runners": [
+              "second"
+            ],
+            "arrows": [
+              {
+                "from": "CF",
+                "to": "cutoff1B",
+                "kind": "throw"
+              },
+              {
+                "from": "cutoff1B",
+                "to": "home",
+                "kind": "throw"
+              }
+            ],
+            "caption": "Center fielder to home: low and hard through the first baseman, who can let it go, cut it, or hold it."
+          }
+        },
+        {
+          "heading": "The decision: the catcher's words and the cutoff man's ears",
+          "body": [
+            "The catcher sees the whole play, so the catcher calls it. If the runner is going to be out, the catcher says nothing or yells 'Let it go!' and the cutoff man lets the ball pass. If the run is going to score, the catcher yells 'Cut!' plus a base: 'Cut two!' means catch it and throw to second, 'Cut three!' means third, and 'Cut four!' or 'Cut home!' means relay it to the plate because the throw is off line.",
+            "If there is no play anywhere, the call is 'Cut! Cut!' with no base, or 'Cut, hold!' The cutoff man catches the ball and does not throw. Never throw to a base just because you caught the ball; a throw to a base with no play is how extra runs score.",
+            "The cutoff man should catch the ball on his glove side, already turned sideways toward the next target, so he can catch and throw in one motion. Practice this with the catcher yelling different calls so the reaction becomes automatic."
+          ],
+          "diagram": {
+            "highlight": [
+              "cutoff1B",
+              "second",
+              "home",
+              "C"
+            ],
+            "runners": [
+              "second"
+            ],
+            "arrows": [
+              {
+                "from": "RF",
+                "to": "cutoff1B",
+                "kind": "throw"
+              },
+              {
+                "from": "cutoff1B",
+                "to": "second",
+                "kind": "throw"
+              },
+              {
+                "from": "second",
+                "to": "home",
+                "kind": "run"
+              },
+              {
+                "from": "home",
+                "to": "first",
+                "kind": "run"
+              }
+            ],
+            "caption": "The run is going to score anyway, so the catcher yells 'Cut two!' and the ball goes to second to keep the batter-runner at first."
+          }
+        }
+      ],
+      "keyTakeaways": [
+        "The cutoff man lines up between the outfielder and the base, 40 to 50 feet from the base, so the throw can be shortened or redirected.",
+        "Throws home from right and center: first baseman. From left: shortstop or third baseman, depending on your team's system. Throws to third: shortstop.",
+        "Outfielders throw through the cutoff man: hard and low, at the chest, on a line to the base.",
+        "The catcher makes the call: nothing or 'Let it go!' means through; 'Cut two!' means throw to second; 'Cut, hold!' means no throw.",
+        "Never throw to a base where there is no play; holding the ball is a good play."
+      ],
+      "questionIds": [
+        "iqq-23",
+        "iqq-24",
+        "iqq-27"
+      ]
+    },
+    {
+      "id": "iq-07",
+      "title": "Relays From the Outfield",
+      "topic": "relays",
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "summary": "How a relay differs from a cutoff, which middle infielder goes out on balls to each part of the outfield, and how to be a relay man the outfielder can find.",
+      "sections": [
+        {
+          "heading": "Relay vs. cutoff",
+          "body": [
+            "A cutoff is for a base hit that an outfielder fields in front of him: the cutoff man stays near the infield, close to the base the throw is going to. A relay is for a ball that gets past the outfielders, to the gap or the fence: a middle infielder runs out into the outfield grass to be a halfway point between the ball and the base.",
+            "The relay exists because a 250-foot throw from the fence is slow, high, and rarely accurate. Two throws of 125 feet each arrive sooner and give the defense a chance to change the target. The outfielder's only job is to get the ball to the relay man quickly; the relay man and the trail man make the decision.",
+            "A relay is a race against the runners, so everyone sprints: the outfielder to the ball, the relay man to his spot, the other infielders to their bases, and the pitcher to back up the base where the play will be."
+          ],
+          "diagram": {
+            "highlight": [
+              "LCgap",
+              "shallowLF",
+              "third"
+            ],
+            "runners": [],
+            "arrows": [
+              {
+                "from": "LCgap",
+                "to": "shallowLF",
+                "kind": "throw"
+              },
+              {
+                "from": "shallowLF",
+                "to": "third",
+                "kind": "throw"
+              },
+              {
+                "from": "home",
+                "to": "third",
+                "kind": "run"
+              },
+              {
+                "from": "SS",
+                "to": "shallowLF",
+                "kind": "move"
+              }
+            ],
+            "caption": "Ball to the left-center fence: the shortstop runs out as the relay man, and two throws reach third faster than one long throw."
+          }
+        },
+        {
+          "heading": "Who goes out",
+          "body": [
+            "Balls to left field and left-center: the shortstop goes out as the relay man and the second baseman trails him as a backup, about 20 to 30 feet behind, then covers second. Balls to right field and right-center: the second baseman goes out and the shortstop trails, then covers second. Balls to straightaway center vary by team; many send the shortstop.",
+            "Everyone else has a job. The third baseman covers third. The first baseman makes sure the batter-runner touches first, then covers first or, in some systems, moves to be the cutoff for a throw home. The catcher stays at home. The pitcher backs up third or home, whichever base the lead runner is heading for.",
+            "The trail man is more than a backup. He watches the runners while the relay man watches the ball, and he yells where the throw should go: 'Three! Three!' for third, 'Four!' or 'Home!' for the plate, or 'Hold!' when there is no play."
+          ],
+          "diagram": {
+            "highlight": [
+              "RCgap",
+              "shallowRF",
+              "second",
+              "home"
+            ],
+            "runners": [
+              "first"
+            ],
+            "arrows": [
+              {
+                "from": "RCgap",
+                "to": "shallowRF",
+                "kind": "throw"
+              },
+              {
+                "from": "shallowRF",
+                "to": "home",
+                "kind": "throw"
+              },
+              {
+                "from": "2B",
+                "to": "shallowRF",
+                "kind": "move"
+              },
+              {
+                "from": "SS",
+                "to": "second",
+                "kind": "move"
+              },
+              {
+                "from": "first",
+                "to": "home",
+                "kind": "run"
+              }
+            ],
+            "caption": "Ball to the right-center gap with a runner on first: the second baseman relays, the shortstop trails and covers second, and the throw goes home."
+          }
+        },
+        {
+          "heading": "How to be a good relay man",
+          "body": [
+            "Sprint to a spot in line between the ball and the base where the play will be, far enough out that both throws are about the same length. Put both hands up and yell 'Hit me! Hit me!' so the outfielder can find you fast. Stay in motion: adjust as the outfielder picks up the ball so the line stays straight.",
+            "Catch the throw on your glove side, chest high, with your body already turned sideways so you can turn toward your glove side and throw in one motion. A throw that arrives on your throwing-arm side costs you a full turn, which is a full extra base for the runner.",
+            "Listen before you throw. The trail man or the catcher tells you where the play is. If nobody is calling and you are not sure, run the ball toward the infield rather than guessing with a throw to a base where nobody is waiting."
+          ],
+          "diagram": {
+            "highlight": [
+              "shallowLF",
+              "third",
+              "3B"
+            ],
+            "runners": [],
+            "arrows": [
+              {
+                "from": "SS",
+                "to": "shallowLF",
+                "kind": "move"
+              },
+              {
+                "from": "shallowLF",
+                "to": "third",
+                "kind": "throw"
+              }
+            ],
+            "caption": "The shortstop sprints out, lines up with third base, shows both hands, and catches on the glove side to turn and throw."
+          }
+        },
+        {
+          "heading": "The outfielder's part",
+          "body": [
+            "On a ball to the fence, the outfielder's job is speed and a clean pickup, not a hero throw. Get to the ball, pick it up with two hands if it is rolling, and find the relay man's hands. Throw hard and chest high to him, never over his head toward the base.",
+            "The other outfielders have jobs too. The nearest outfielder backs up the one fielding the ball in case it kicks off the fence at a strange angle. The far outfielder moves toward the infield to back up the base nearest him.",
+            "Practice relays with a stopwatch: time the ball from the fence to third base with a relay and without one. Players believe in the relay once they see the clock."
+          ],
+          "diagram": null
+        }
+      ],
+      "keyTakeaways": [
+        "Cutoff: a single, with the cutoff man near the infield. Relay: a ball past the outfielders, with a middle infielder running out into the grass.",
+        "Left and left-center: shortstop relays, second baseman trails. Right and right-center: second baseman relays, shortstop trails. Center varies by team.",
+        "The relay man lines up between the ball and the base, shows both hands, and catches chest high on the glove side to turn and throw in one motion.",
+        "The trail man watches the runners and calls the base; the relay man watches the ball.",
+        "Outfielders throw hard and chest high to the relay man, never over his head."
+      ],
+      "questionIds": [
+        "iqq-25",
+        "iqq-26",
+        "iqq-28"
+      ]
+    },
+    {
+      "id": "iq-08",
+      "title": "Defending the Bunt",
+      "topic": "defense",
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "summary": "How the whole infield moves when the batter squares to bunt, where the sure out is with a runner on first or second, and how fielders and the catcher communicate.",
+      "sections": [
+        {
+          "heading": "Reading the bunt and moving as a unit",
+          "body": [
+            "A bunt is a soft tap that the batter puts on the ground, usually to move a runner up a base. When the batter squares around (turns to face the pitcher with the bat held out), every infielder has a new job. The corner infielders (first and third basemen) charge toward the plate. The middle infielders (second baseman and shortstop) run to cover bases. The pitcher finishes his pitch and gets ready to field anything near the mound. The catcher fields bunts right in front of the plate and calls out which base to throw to.",
+            "The defense should expect a bunt in bunting situations: a runner on first or second with fewer than two outs, a close game, and a batter who is not a power hitter. Corners can creep in a few steps before the pitch so the charge is shorter.",
+            "Communication wins bunt plays. The catcher sees everything, so the catcher yells the base: 'One! One!' for first or 'Two! Two!' for second. Fielders should trust the call instead of looking up and deciding on their own."
+          ],
+          "diagram": {
+            "highlight": [
+              "1B",
+              "3B",
+              "P",
+              "C",
+              "bunt3B",
+              "bunt1B"
+            ],
+            "runners": [
+              "first"
+            ],
+            "arrows": [
+              {
+                "from": "1B",
+                "to": "bunt1B",
+                "kind": "move"
+              },
+              {
+                "from": "3B",
+                "to": "bunt3B",
+                "kind": "move"
+              },
+              {
+                "from": "2B",
+                "to": "first",
+                "kind": "move"
+              },
+              {
+                "from": "SS",
+                "to": "second",
+                "kind": "move"
+              }
+            ],
+            "caption": "Runner on first, batter squares: the corners charge, the second baseman covers first, and the shortstop covers second."
+          }
+        },
+        {
+          "heading": "Runner on first: get the sure out",
+          "body": [
+            "With a runner on first only, the standard defense is simple. First baseman and third baseman charge. Second baseman covers first base. Shortstop covers second base. Pitcher covers the middle of the infield. Catcher takes anything in front of the plate.",
+            "The sure out is at first base. Whoever fields the bunt turns and throws to the second baseman covering first, unless the bunt is hit hard and right at a charging fielder who is facing second base with the shortstop already on the bag. Only then is the force at second a good play. A bunt that is fielded cleanly and thrown to first is a success for the defense: one out, runner on second.",
+            "The worst result is no out at all. A rushed throw to second that arrives late, or a throw to first that nobody is covering, turns a sacrifice into runners on first and second with nobody out. When in doubt, take the sure out."
+          ],
+          "diagram": {
+            "highlight": [
+              "bunt1B",
+              "first",
+              "second",
+              "2B"
+            ],
+            "runners": [
+              "first"
+            ],
+            "arrows": [
+              {
+                "from": "bunt1B",
+                "to": "first",
+                "kind": "throw"
+              },
+              {
+                "from": "2B",
+                "to": "first",
+                "kind": "move"
+              },
+              {
+                "from": "first",
+                "to": "second",
+                "kind": "run"
+              },
+              {
+                "from": "home",
+                "to": "first",
+                "kind": "run"
+              }
+            ],
+            "caption": "The first baseman fields the bunt and throws to the second baseman covering first for the sure out."
+          }
+        },
+        {
+          "heading": "Runner on second: protect third base",
+          "body": [
+            "With a runner on second, the runner is trying to reach third, and a bunt toward third base creates a problem: if the third baseman charges, nobody is covering third. Teams solve it in one of two ways. In the simplest system, the third baseman stays near the bag and the pitcher fields every bunt he can reach on the third-base side; the third baseman charges only if the bunt is too far down the line for the pitcher. In a more advanced rotation, the shortstop runs over to cover third while the third baseman charges.",
+            "Either way, the first baseman still charges, the second baseman still covers first, and the sure out is still at first base. A play on the lead runner at third is a tag play with no force, so it works only when the bunt is fielded quickly by the pitcher with the third baseman waiting on the bag.",
+            "If the third baseman does have to field the ball, he should take the out at first and accept the runner at third. One out with a runner on third is far better than nobody out with runners on first and third."
+          ],
+          "diagram": {
+            "highlight": [
+              "third",
+              "3B",
+              "P",
+              "bunt3B",
+              "first"
+            ],
+            "runners": [
+              "second"
+            ],
+            "arrows": [
+              {
+                "from": "P",
+                "to": "bunt3B",
+                "kind": "move"
+              },
+              {
+                "from": "bunt3B",
+                "to": "first",
+                "kind": "throw"
+              },
+              {
+                "from": "second",
+                "to": "third",
+                "kind": "run"
+              },
+              {
+                "from": "home",
+                "to": "first",
+                "kind": "run"
+              }
+            ],
+            "caption": "Runner on second: the pitcher takes the bunt on the third-base side so the third baseman can stay home, and the throw goes to first."
+          }
+        },
+        {
+          "heading": "Fielding technique and the catcher's voice",
+          "body": [
+            "Charge under control. Field a rolling bunt with two hands, glove and bare hand together, so the ball does not squirt away. Pick up a stopped ball with the bare hand only. Set your feet before you throw; a bunt fielded in a hurry and thrown off balance ends up in right field.",
+            "The catcher's call tells the fielder where to throw before he even looks up. If there is no play at any base, the call is 'Hold! Hold!' and the fielder keeps the ball. Eating the ball is a good play; a throw to a base with nobody covering is never a good play.",
+            "Little League allows bunting in every baseball division, but some tee-ball and coach-pitch leagues do not allow it under local rules. Check your league's current rulebook."
+          ],
+          "diagram": null
+        }
+      ],
+      "keyTakeaways": [
+        "When the batter squares, corners charge, middle infielders cover bases, the pitcher fields the middle, and the catcher calls the base.",
+        "Runner on first: second baseman covers first, shortstop covers second, and the sure out is at first.",
+        "Runner on second: protect third. The pitcher fields the third-base side or the shortstop rotates to cover third; the out is still at first.",
+        "Field with two hands, set your feet, and throw only to a base where someone is covering.",
+        "No play? Hold the ball. One out is a win on a sacrifice bunt."
+      ],
+      "questionIds": [
+        "iqq-29",
+        "iqq-30",
+        "iqq-34"
+      ]
+    },
+    {
+      "id": "iq-09",
+      "title": "Covering Bases and Backing Up Throws",
+      "topic": "defense",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "summary": "Who covers each base on ground balls, when the pitcher covers first, and how outfielders and the pitcher back up throws so one bad throw never becomes two extra bases.",
+      "sections": [
+        {
+          "heading": "Every base needs a body",
+          "body": [
+            "On every ground ball, each base should have a fielder on it before the throw arrives. First base belongs to the first baseman, unless he fields the ball far from the bag, in which case the pitcher covers. Third base belongs to the third baseman. Home belongs to the catcher. Second base is shared by the two middle infielders.",
+            "The rule for second base: ball hit to the left side (shortstop or third baseman), the second baseman covers second. Ball hit to the right side (first or second baseman), the shortstop covers second. Say it before the pitch so you do not have to think when the ball is hit.",
+            "Get to the base before the throw, put a foot on the bag, and give the thrower a target with your glove. Then catch the ball. Fielders who arrive at the same time as the throw drop it."
+          ],
+          "diagram": {
+            "highlight": [
+              "SS",
+              "second",
+              "2B",
+              "first"
+            ],
+            "runners": [
+              "first"
+            ],
+            "arrows": [
+              {
+                "from": "SS",
+                "to": "second",
+                "kind": "throw"
+              },
+              {
+                "from": "2B",
+                "to": "second",
+                "kind": "move"
+              },
+              {
+                "from": "second",
+                "to": "first",
+                "kind": "throw"
+              },
+              {
+                "from": "first",
+                "to": "second",
+                "kind": "run"
+              }
+            ],
+            "caption": "Ground ball to the left side with a runner on first: the second baseman covers second for the force, then throws to first."
+          }
+        },
+        {
+          "heading": "Pitcher covers first",
+          "body": [
+            "When a ground ball is hit to the right side, the first baseman often has to field it and cannot get back to the bag. The pitcher covers first. The pitcher breaks toward first on every ball hit to the right side, even if he thinks the first baseman can make the play, because it costs nothing when it is not needed and saves an out when it is.",
+            "Run to a spot on the first-base line about 10 feet before the bag, then turn and run up the line toward the base so you are moving alongside the runner, not across his path. Catch the toss with two hands, find the bag, and touch the inside edge with your right foot. Then get out of the way.",
+            "The first baseman's toss should be soft, chest high, and early enough that the pitcher can catch it a step before the bag. An underhand flip from close range or a firm overhand throw from farther away both work."
+          ],
+          "diagram": {
+            "highlight": [
+              "1B",
+              "P",
+              "first"
+            ],
+            "runners": [],
+            "arrows": [
+              {
+                "from": "P",
+                "to": "first",
+                "kind": "move"
+              },
+              {
+                "from": "1B",
+                "to": "first",
+                "kind": "throw"
+              },
+              {
+                "from": "home",
+                "to": "first",
+                "kind": "run"
+              }
+            ],
+            "caption": "Ground ball to the first baseman away from the bag: the pitcher runs over to cover first and takes the toss."
+          }
+        },
+        {
+          "heading": "Backing up: the hidden job",
+          "body": [
+            "Backing up means getting in line behind the fielder who is receiving a throw, about 20 to 30 feet behind him, so a throw that sails or skips past him stops with you instead of rolling to the fence. Every throw needs a backup. Teams that back up every throw rarely give up extra bases on errors.",
+            "The pitcher is the backup for throws to home and to third. On a base hit with a runner trying to score, the pitcher sprints behind home plate. On a throw to third, the pitcher backs up third. Some coaches teach the pitcher to run to a spot between third and home and then read the throw. Either way, the pitcher never stands on the mound and watches.",
+            "Line up with the throw, not with the base. The ball travels in a straight line from the thrower, so the backup belongs on the far end of that line. Stay deep enough to react to a bad bounce."
+          ],
+          "diagram": {
+            "highlight": [
+              "LF",
+              "cutoff3B",
+              "home",
+              "P"
+            ],
+            "runners": [
+              "second"
+            ],
+            "arrows": [
+              {
+                "from": "LF",
+                "to": "cutoff3B",
+                "kind": "throw"
+              },
+              {
+                "from": "cutoff3B",
+                "to": "home",
+                "kind": "throw"
+              },
+              {
+                "from": "P",
+                "to": "home",
+                "kind": "move"
+              },
+              {
+                "from": "second",
+                "to": "home",
+                "kind": "run"
+              }
+            ],
+            "caption": "Throw home from left field: the pitcher runs behind the catcher to back up the throw."
+          }
+        },
+        {
+          "heading": "Outfielders back up the infield",
+          "body": [
+            "Outfielders are not spectators on ground balls. On every ball hit to the infield, each outfielder moves toward the base on his side to back up the throw. The right fielder backs up throws to first base, especially from the shortstop and third baseman. The center fielder backs up throws to second base, including the catcher's throw on a stolen base. The left fielder backs up throws to third base.",
+            "Outfielders also back up each other on fly balls and ground balls to the outfield. The nearest outfielder runs behind the one making the play so a ball that gets past him does not roll to the fence.",
+            "Stealing rules change what the center fielder sees. In Little League Majors and below, runners cannot leave the base until the pitch reaches the batter, so steals start late and the catcher's throw is often close. In tee ball and most coach-pitch divisions there is no stealing at all. Check your league's current rulebook."
+          ],
+          "diagram": {
+            "highlight": [
+              "C",
+              "second",
+              "CF",
+              "SS"
+            ],
+            "runners": [
+              "first"
+            ],
+            "arrows": [
+              {
+                "from": "C",
+                "to": "second",
+                "kind": "throw"
+              },
+              {
+                "from": "CF",
+                "to": "second",
+                "kind": "move"
+              },
+              {
+                "from": "SS",
+                "to": "second",
+                "kind": "move"
+              },
+              {
+                "from": "first",
+                "to": "second",
+                "kind": "run"
+              }
+            ],
+            "caption": "Steal of second: the catcher throws, the shortstop covers the bag, and the center fielder charges in to back up."
+          }
+        }
+      ],
+      "keyTakeaways": [
+        "Second base is shared: ball to the left side, second baseman covers; ball to the right side, shortstop covers.",
+        "The pitcher breaks toward first on every ball hit to the right side and covers the bag when the first baseman fields the ball.",
+        "Every throw needs a backup 20 to 30 feet behind the receiver, in line with the throw.",
+        "The pitcher backs up home and third; right field backs up first, center field backs up second, left field backs up third.",
+        "Backing up turns one bad throw into one base instead of two."
+      ],
+      "questionIds": [
+        "iqq-31",
+        "iqq-32",
+        "iqq-33",
+        "iqq-35"
+      ]
+    },
+    {
+      "id": "iq-10",
+      "title": "Runner on Third, Fewer Than Two Outs",
+      "topic": "situations",
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "summary": "Why a runner on third with fewer than two outs changes everything, how the infield chooses between playing in and playing back, and how fly balls and tag-ups work for both teams.",
+      "sections": [
+        {
+          "heading": "Why this spot is special",
+          "body": [
+            "A runner on third with fewer than two outs can score without a hit: on a ground ball to the infield, on a fly ball deep enough to tag up, on a wild pitch, on a passed ball, or on a bad throw. The offense is one small play away from a run, and the defense has to decide how badly it wants to stop that run.",
+            "With two outs the situation is different. The runner cannot tag up and score on a fly ball because the catch ends the inning, and a ground ball to the infield almost always becomes the third out at first. That is why coaches treat runner on third, fewer than two outs as its own situation.",
+            "Before the pitch, every infielder should know the plan: are we playing in or back? If the ball is hit to me, am I throwing home or to first? The coach usually sets this with a word or a hand signal."
+          ],
+          "diagram": {
+            "highlight": [
+              "third",
+              "home"
+            ],
+            "runners": [
+              "third"
+            ],
+            "arrows": [
+              {
+                "from": "third",
+                "to": "home",
+                "kind": "run"
+              }
+            ],
+            "caption": "Runner on third with fewer than two outs: 90 feet from a run that does not need a hit."
+          }
+        },
+        {
+          "heading": "Infield back: trade the run for an out",
+          "body": [
+            "When the defense is ahead by several runs, or it is early in the game, the infield plays at normal depth. Normal depth gives fielders the most range, so more ground balls get fielded. The trade is that a runner who breaks for home on contact scores, because from normal depth the throw home is too long.",
+            "The play from normal depth is simple: field the ball, throw to first, take the out, and let the run score. One run for one out is a fine trade when you are ahead by four. Do not panic and throw home late; that is how you end up with the run scored and the batter on first.",
+            "The exception: if the runner stops or breaks late and you field the ball cleanly moving toward home, you can throw home for a tag play. Otherwise, first base."
+          ],
+          "diagram": {
+            "highlight": [
+              "2B",
+              "first",
+              "home"
+            ],
+            "runners": [
+              "third"
+            ],
+            "arrows": [
+              {
+                "from": "2B",
+                "to": "first",
+                "kind": "throw"
+              },
+              {
+                "from": "third",
+                "to": "home",
+                "kind": "run"
+              },
+              {
+                "from": "home",
+                "to": "first",
+                "kind": "run"
+              }
+            ],
+            "caption": "Infield back: the second baseman takes the sure out at first and the run scores. One run for one out."
+          }
+        },
+        {
+          "heading": "Infield in: cut off the run",
+          "body": [
+            "In a tie game or a one-run game late, the defense cannot afford the run, so the infield moves in onto the edge of the grass. From there, a ground ball hit firmly at an infielder can be thrown home in time to get the runner. The cost: infielders have less time to react, so hard ground balls that would have been outs go through for hits.",
+            "With the infield in, the plan is: ground ball hit firmly at you, throw home. Remember that with only a runner on third it is a tag play at the plate, so the throw should be chest high and slightly to the third-base side so the catcher can catch and tag in one motion. If the runner holds at third, look him back and then throw to first.",
+            "Halfway is an option too: corners in and middle infielders back, or the infield at double-play depth, depending on the batter and the runner. Your coach decides; your job is to know the plan before the pitch."
+          ],
+          "diagram": {
+            "highlight": [
+              "SS",
+              "home",
+              "C"
+            ],
+            "runners": [
+              "third"
+            ],
+            "arrows": [
+              {
+                "from": "SS",
+                "to": "home",
+                "kind": "throw"
+              },
+              {
+                "from": "third",
+                "to": "home",
+                "kind": "run"
+              }
+            ],
+            "caption": "Infield in: the shortstop fields a firm ground ball on the grass and throws home for the tag."
+          }
+        },
+        {
+          "heading": "Fly balls and the tag-up",
+          "body": [
+            "On a fly ball to the outfield with fewer than two outs, the runner on third tags up: he touches third until the ball is caught, then runs home. The batter is out and the run scores, which is called a sacrifice fly. The deeper the fly ball, the easier the run.",
+            "For the defense, the outfielder catches the ball moving forward, takes a crow hop, and throws hard and low through the cutoff man toward home. On a shallow fly ball with a runner who will not go, the outfielder should still catch it cleanly and get the ball to the cutoff man quickly rather than rushing a throw nobody needs.",
+            "Runners on third also watch every pitch for a ball in the dirt. A wild pitch or passed ball that gets a few feet from the catcher is a chance to score, but only if the runner has already decided what distance is far enough. Coaches should set that rule in practice."
+          ],
+          "diagram": {
+            "highlight": [
+              "CF",
+              "cutoff1B",
+              "home",
+              "third"
+            ],
+            "runners": [
+              "third"
+            ],
+            "arrows": [
+              {
+                "from": "CF",
+                "to": "cutoff1B",
+                "kind": "throw"
+              },
+              {
+                "from": "cutoff1B",
+                "to": "home",
+                "kind": "throw"
+              },
+              {
+                "from": "third",
+                "to": "home",
+                "kind": "run"
+              }
+            ],
+            "caption": "Sacrifice fly: the runner tags at third and scores while the center fielder throws through the cutoff man toward home."
+          }
+        }
+      ],
+      "keyTakeaways": [
+        "A runner on third with fewer than two outs can score without a hit, so the defense must choose a plan before the pitch.",
+        "Infield back: take the out at first and give up the run. Use it with a big lead or early in the game.",
+        "Infield in: throw home on a firm ground ball hit at you. Use it when one run decides the game. It is a tag play at the plate unless the bases are loaded.",
+        "On fly balls the runner tags up; outfielders catch moving forward and throw low through the cutoff man.",
+        "Know the plan, in or back and home or first, before the ball is hit."
+      ],
+      "questionIds": [
+        "iqq-36",
+        "iqq-37",
+        "iqq-40"
+      ]
+    },
+    {
+      "id": "iq-11",
+      "title": "Situational Hitting: What the Moment Asks For",
+      "topic": "hitting",
+      "ageGroups": [
+        "a11_12",
+        "a13_16"
+      ],
+      "summary": "How the outs, runners, score, and count change what a good at-bat looks like, from moving a runner to driving one in to battling with two strikes.",
+      "sections": [
+        {
+          "heading": "Before you step in, know the moment",
+          "body": [
+            "A good at-bat is not always a hit. Sometimes the team needs a runner moved 90 feet, sometimes a fly ball, sometimes just a ball in play. Before stepping into the box, a hitter should know the outs, where the runners are, the score, the inning, and what the coach has signaled. Then ask one question: what is the one thing the team needs from me right now?",
+            "The answer changes the plan. Nobody on and nobody out: look for your pitch and hit it hard. Runner on second and nobody out: move him to third. Runner on third with fewer than two outs: get him home with a ball in play. Two outs: a hit or a walk is all that helps, so do not give away the at-bat on a bad pitch.",
+            "Hitters who know the moment swing at better pitches, because they know which pitches help the team and which do not."
+          ],
+          "diagram": {
+            "highlight": [
+              "home",
+              "second",
+              "third"
+            ],
+            "runners": [
+              "second"
+            ],
+            "arrows": [
+              {
+                "from": "second",
+                "to": "third",
+                "kind": "run"
+              }
+            ],
+            "caption": "Runner on second, nobody out: the team needs this runner on third, where he can score without a hit."
+          }
+        },
+        {
+          "heading": "Moving the runner: hit behind him",
+          "body": [
+            "With a runner on second and nobody out, the goal is a runner on third with one out or fewer. The best way to do it without giving up an out is to hit the ball to the right side of the field, behind the runner. A ground ball to the second baseman or first baseman makes the fielder throw a long way to third, so the runner advances easily; a fly ball to right field lets him tag up.",
+            "For a right-handed hitter, that means waiting for a pitch on the outer half and hitting it where it is pitched, toward right-center, instead of pulling it. For a left-handed hitter, pulling the ball naturally goes to the right side. A ball hit to the left side, in front of the runner, is the one result that does not move him, because the shortstop or third baseman can look him back or throw him out.",
+            "The sacrifice bunt is the other way to move the runner. It costs an out on purpose, so coaches call it when the pitcher is tough, the hitter is struggling, or one run is all the team needs. When the sign comes, bunt only strikes, deaden the ball, and direct it toward first or third, away from the pitcher."
+          ],
+          "diagram": {
+            "highlight": [
+              "home",
+              "RCgap",
+              "2B",
+              "third"
+            ],
+            "runners": [
+              "second"
+            ],
+            "arrows": [
+              {
+                "from": "home",
+                "to": "RCgap",
+                "kind": "move"
+              },
+              {
+                "from": "second",
+                "to": "third",
+                "kind": "run"
+              }
+            ],
+            "caption": "A ball hit to the right side forces a long throw to third, so the runner on second moves up even if the batter is out."
+          }
+        },
+        {
+          "heading": "Getting the runner home from third",
+          "body": [
+            "With a runner on third and fewer than two outs, the defense's positioning tells the hitter what to do. If the infield is back at normal depth, they are trading the run for an out: a ground ball almost anywhere, or a fly ball deep enough to the outfield, scores the run. Avoid the two results that do not: a strikeout and an infield pop-up.",
+            "If the infield is in, a ground ball goes to a drawn-in infielder who throws home, so the hitter wants the ball in the air to the outfield or a hard ground ball through the smaller gaps. Look for a pitch up in the zone that you can lift, and be patient; a pitcher trying to get a ground ball often misses low for balls.",
+            "The squeeze bunt is a coach's weapon here: the runner breaks for home and the batter bunts the ball on the ground anywhere fair. It is risky, because a missed bunt leaves the runner hung out to dry, so it is a sign play, never the batter's own idea."
+          ],
+          "diagram": {
+            "highlight": [
+              "home",
+              "deepCF",
+              "third"
+            ],
+            "runners": [
+              "third"
+            ],
+            "arrows": [
+              {
+                "from": "home",
+                "to": "deepCF",
+                "kind": "move"
+              },
+              {
+                "from": "third",
+                "to": "home",
+                "kind": "run"
+              }
+            ],
+            "caption": "Sacrifice fly: a fly ball deep enough to the outfield lets the runner tag up at third and score."
+          }
+        },
+        {
+          "heading": "Two strikes: shorten up and compete",
+          "body": [
+            "With two strikes, the strikeout is one pitch away, and a strikeout never moves a runner or forces the defense to make a play. The two-strike approach: choke up an inch, widen the stance a little, shorten the swing, and think about hitting the ball hard up the middle or to the opposite field instead of pulling it for power.",
+            "Expand the zone a little. A pitch an inch off the plate is a called strike three if you take it, so with two strikes, swing at anything close and try to put it in play or foul it off. Fouling off a tough pitch is a win; it makes the pitcher throw again.",
+            "Remember that a walk is a good at-bat too, especially with two outs or with the tying run on base. The two-strike hitter who fights off pitches and finally draws a walk has done his job."
+          ],
+          "diagram": null
+        }
+      ],
+      "keyTakeaways": [
+        "Know the outs, runners, score, and signs before you step in, then ask what the team needs from this at-bat.",
+        "Runner on second, nobody out: hit behind the runner to the right side, or bunt him over when the sign comes.",
+        "Runner on third, fewer than two outs, infield back: a ground ball or fly ball scores him; avoid strikeouts and pop-ups. Infield in: get the ball in the air.",
+        "With two strikes, choke up, shorten the swing, and put the ball in play. Fouling off tough pitches is a win.",
+        "A productive out that moves or scores a runner is a good at-bat."
+      ],
+      "questionIds": [
+        "iqq-42",
+        "iqq-43",
+        "iqq-44",
+        "iqq-45"
+      ]
+    },
+    {
+      "id": "iq-12",
+      "title": "Baserunning Decisions: Go or Stay?",
+      "topic": "baserunning",
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "summary": "The reads a runner makes on ground balls and fly balls, why two outs change everything, how to run through first base, and the Little League rules on leads and slides.",
+      "sections": [
+        {
+          "heading": "Know before the pitch",
+          "body": [
+            "Good baserunning starts before the ball is hit. Know the outs, know who is on base ahead of you, know where the outfielders are playing, and know what your coach wants. Then decide in advance: 'If it is a ground ball to the left side, I freeze. If it is a fly ball, I tag.' A runner who has already decided reacts a full step faster.",
+            "Two outs changes everything. With two outs, run on contact: the moment the bat hits the ball, go, because any out ends the inning and there is nothing to protect. There is no tagging up and no freezing with two outs.",
+            "With fewer than two outs, the runner has to read the ball. The rest of this lesson is about those reads."
+          ],
+          "diagram": {
+            "highlight": [
+              "second",
+              "third",
+              "home"
+            ],
+            "runners": [
+              "second"
+            ],
+            "arrows": [
+              {
+                "from": "second",
+                "to": "third",
+                "kind": "run"
+              }
+            ],
+            "caption": "Two outs: the runner on second goes on contact, no matter where the ball is hit."
+          }
+        },
+        {
+          "heading": "Ground ball reads",
+          "body": [
+            "Runner on first: a ground ball means you are forced to second, so run hard and slide if the play is close. Runner on second with fewer than two outs: if the ball is hit in front of you, to the shortstop or third baseman, freeze and wait for the throw to first, then take third. If the ball is hit behind you, to the second baseman or first baseman, go to third immediately, because the fielder's throw to third is long.",
+            "Runner on third with fewer than two outs: the coach usually gives one of two instructions. 'Contact' means go on any ground ball. 'Read it' means go only if the ball is hit through the infield or to a fielder who cannot throw home in time. Know which one is on before the pitch.",
+            "Balls hit to the pitcher are the trickiest. With a runner on second or third, treat a ball to the pitcher as a ball hit in front of you: freeze unless the coach has called contact."
+          ],
+          "diagram": {
+            "highlight": [
+              "second",
+              "2B",
+              "third",
+              "SS"
+            ],
+            "runners": [
+              "second"
+            ],
+            "arrows": [
+              {
+                "from": "home",
+                "to": "2B",
+                "kind": "move"
+              },
+              {
+                "from": "second",
+                "to": "third",
+                "kind": "run"
+              }
+            ],
+            "caption": "Ground ball to the right side with a runner on second: the ball is behind him, so he goes to third right away."
+          }
+        },
+        {
+          "heading": "Fly ball reads: tag up or go partway",
+          "body": [
+            "On a fly ball with fewer than two outs, a runner has two choices. Tag up: stay on the base (or get back to it) until the ball is caught, then run. Go partway: move a few steps toward the next base, far enough to score or advance if the ball drops, close enough to get back if it is caught.",
+            "Tag up on fly balls deep enough that you can make the next base after the catch: a runner on third tags on almost any fly ball to the outfield, and a runner on second tags on a deep fly ball, especially to right field, where the throw to third is longest. Go partway on shallow fly balls and line drives that might be caught or might drop.",
+            "Watch the catch yourself or listen to your coach. The third-base coach watches the ball for the runner on third; the runner on first or second usually reads the ball himself. Leave early and the defense can throw to your base for an appeal."
+          ],
+          "diagram": {
+            "highlight": [
+              "second",
+              "third",
+              "RF"
+            ],
+            "runners": [
+              "second"
+            ],
+            "arrows": [
+              {
+                "from": "RF",
+                "to": "third",
+                "kind": "throw"
+              },
+              {
+                "from": "second",
+                "to": "third",
+                "kind": "run"
+              }
+            ],
+            "caption": "Deep fly ball to right, one out: tag at second, go after the catch, and beat the long throw to third."
+          }
+        },
+        {
+          "heading": "Running through first, and Little League rules to know",
+          "body": [
+            "Run through first base at full speed: hit the front edge of the bag, keep running a few steps, then turn toward foul territory and look right for an overthrow. You cannot be tagged out for overrunning first unless you make a move toward second. Never slow down or leap at the bag.",
+            "Little League rules change baserunning in Majors and below. Runners may not leave the base until the pitched ball reaches the batter, so there are no leads; stealing starts as the pitch crosses the plate. A runner who slides head-first while advancing is out, although diving back to a base is allowed. Runners must slide or try to get around a fielder who has the ball and is waiting to tag.",
+            "In Intermediate (50/70), Junior, and Senior divisions, runners may lead off and head-first slides are allowed. Tee ball and coach pitch often use local rules that limit advancing, for example no advancing on overthrows. Check your league's current Little League rulebook for your division."
+          ],
+          "diagram": {
+            "highlight": [
+              "home",
+              "first",
+              "shallowRF"
+            ],
+            "runners": [],
+            "arrows": [
+              {
+                "from": "home",
+                "to": "first",
+                "kind": "run"
+              },
+              {
+                "from": "first",
+                "to": "shallowRF",
+                "kind": "move"
+              }
+            ],
+            "caption": "Run through first at full speed, then turn toward foul territory and look right in case the throw got away."
+          }
+        }
+      ],
+      "keyTakeaways": [
+        "Decide before the pitch: outs, runners ahead of you, outfield depth, and the coach's instruction.",
+        "Two outs: run on contact. Fewer than two outs: read the ball.",
+        "Runner on second: ball in front of you, freeze; ball behind you, go.",
+        "Fly balls: tag up when the ball is deep enough to advance after the catch; go partway on shallow ones.",
+        "Run through first base. In Little League Majors and below there are no leads, and head-first slides while advancing are not allowed."
+      ],
+      "questionIds": [
+        "iqq-46",
+        "iqq-47",
+        "iqq-48",
+        "iqq-49",
+        "iqq-50"
+      ]
+    },
+    {
+      "id": "iq-13",
+      "title": "Fair or Foul? Reading Batted Balls",
+      "topic": "rules",
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "summary": "The rules that decide fair or foul for balls in the infield and past the bases, why the lines are fair, and what batters and runners should do before the call.",
+      "sections": [
+        {
+          "heading": "The lines are fair",
+          "body": [
+            "The foul lines run from home plate through first base and third base out to the foul poles. Everything between the lines, and the lines themselves, is fair territory. Everything outside the lines is foul territory. The word foul can be confusing: a ball on the foul line is a fair ball.",
+            "The bases are in fair territory too. A batted ball that hits first or third base is fair. The foul poles are fair as well: a fly ball that hits the pole is a fair ball, and over the fence it is a home run.",
+            "Many youth fields have chalk lines that fade during a game. Umpires use the base and the pole as reference points when the chalk is gone."
+          ],
+          "diagram": {
+            "highlight": [
+              "home",
+              "first",
+              "third",
+              "LF",
+              "RF"
+            ],
+            "runners": [],
+            "arrows": [
+              {
+                "from": "home",
+                "to": "LF",
+                "kind": "move"
+              }
+            ],
+            "caption": "A fly ball that lands on the chalk line past third base is a fair ball; the lines belong to fair territory."
+          }
+        },
+        {
+          "heading": "Balls that stay in the infield",
+          "body": [
+            "For a batted ball that stays between home plate and first or third base, where it first lands does not matter. The ball is fair if it comes to rest in fair territory, if a fielder touches it while it is over fair territory, or if it is over fair territory when it passes first or third base. It is foul if it comes to rest in foul territory, if a fielder touches it while it is over foul territory, or if it passes the base in foul territory.",
+            "A ground ball that lands fair in front of the plate and rolls into foul territory before reaching the base, untouched, is foul. A ball that lands foul and spins back into fair territory before the base, untouched, is fair. That is why fielders sometimes let a slow roller go: they are waiting to see where it ends up.",
+            "Touching the ball settles it. If a fielder touches the ball while it is over fair ground, it is fair, even if it was about to roll foul. Fielders should think before they grab a ball that is rolling toward foul territory."
+          ],
+          "diagram": {
+            "highlight": [
+              "home",
+              "first",
+              "bunt1B",
+              "shallowRF"
+            ],
+            "runners": [],
+            "arrows": [
+              {
+                "from": "home",
+                "to": "bunt1B",
+                "kind": "move"
+              },
+              {
+                "from": "bunt1B",
+                "to": "shallowRF",
+                "kind": "move"
+              }
+            ],
+            "caption": "A ground ball that lands fair but rolls into foul territory before reaching first base, untouched, is a foul ball."
+          }
+        },
+        {
+          "heading": "Balls that go past the bases",
+          "body": [
+            "Once a batted ball gets past first or third base, the rule changes to where the ball lands or is touched. A fly ball that lands in fair territory past the base is fair even if it then rolls or bounces foul. A fly ball that lands in foul territory past the base is foul even if it spins back fair. A bouncing ball that passes the base over fair territory is fair.",
+            "A fly ball that goes over the fence is judged by where it crosses the fence: inside the foul pole or hitting the pole is a home run, outside the pole is foul.",
+            "The umpire's point tells everyone the call. A point toward fair territory with no words means fair; both arms up and a shout of 'Foul!' means foul. Umpires do not say 'fair' out loud, because it sounds too much like 'foul.'"
+          ],
+          "diagram": {
+            "highlight": [
+              "third",
+              "shallowLF",
+              "LF"
+            ],
+            "runners": [],
+            "arrows": [
+              {
+                "from": "home",
+                "to": "shallowLF",
+                "kind": "move"
+              }
+            ],
+            "caption": "A fly ball that lands in fair territory past third base and then rolls foul is a fair ball; it is judged where it landed."
+          }
+        },
+        {
+          "heading": "What batters and runners should do",
+          "body": [
+            "Run on everything until the umpire calls foul. Balls that look foul off the bat often land on the line, and a batter who stands and watches turns a double into a single. If the ball is called foul, the play is dead, runners go back, and the batter returns to the box.",
+            "A foul ball is a strike when the batter has fewer than two strikes. With two strikes, a foul ball keeps the at-bat going, except that a foul bunt with two strikes is strike three. A foul tip, a ball that nicks the bat and goes straight into the catcher's glove, is a strike on any count and is a live ball.",
+            "A foul ball caught in the air is an out, and runners can tag up on it just like any other caught fly ball. That is why a catcher chases a pop-up near the backstop and why a runner on third watches it closely."
+          ],
+          "diagram": null
+        }
+      ],
+      "keyTakeaways": [
+        "The foul lines, the bases, and the foul poles are all in fair territory. On the line is fair.",
+        "Between home and the bases, it is where the ball stops, is touched, or passes the base that counts, not where it first lands.",
+        "Past the bases, it is where the ball first lands (or is touched) that counts.",
+        "Run on everything until the umpire calls foul. The umpire points for fair and raises both arms for foul.",
+        "A foul ball is a strike only with fewer than two strikes; a foul bunt with two strikes is strike three; a caught foul ball is an out."
+      ],
+      "questionIds": [
+        "iqq-09",
+        "iqq-10"
+      ]
+    },
+    {
+      "id": "iq-14",
+      "title": "Know the Situation Before Every Pitch",
+      "topic": "situations",
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "summary": "The three questions every fielder answers before each pitch, how the score and inning change the answers, and a simple routine that makes it automatic.",
+      "sections": [
+        {
+          "heading": "The three questions",
+          "body": [
+            "Before every pitch, every fielder should know three things: how many outs there are, where the runners are, and what he will do with the ball if it comes to him, both on the ground and in the air. Those three answers tell you whether a play is a force or a tag, which base needs the throw, and whether a catch ends the inning.",
+            "The third question has two parts because ground balls and fly balls lead to different plays. A shortstop with a runner on first and one out might say: 'Ground ball to me, I throw to second. Fly ball to me, I catch it and check the runner.' An outfielder with a runner on second might say: 'Base hit to me, I throw through the cutoff man to home. Fly ball, I catch and throw to third.'",
+            "Players who answer the questions react a step faster, because the decision is already made when the ball is hit. Players who do not often freeze with the ball, and a frozen fielder is how runners take extra bases."
+          ],
+          "diagram": {
+            "highlight": [
+              "SS",
+              "second",
+              "first"
+            ],
+            "runners": [
+              "first"
+            ],
+            "arrows": [
+              {
+                "from": "SS",
+                "to": "second",
+                "kind": "throw"
+              },
+              {
+                "from": "second",
+                "to": "first",
+                "kind": "throw"
+              },
+              {
+                "from": "first",
+                "to": "second",
+                "kind": "run"
+              }
+            ],
+            "caption": "Runner on first, one out: the shortstop who has already decided 'ground ball to me, throw to second' turns the double play."
+          }
+        },
+        {
+          "heading": "The score and the inning change the answer",
+          "body": [
+            "The three questions tell you where the play is. The score and inning tell you how much risk to take. With a big lead, take the sure out every time and let a run score if you have to; the goal is to avoid a big inning. In a close game late, the defense gives up the sure out to stop the run: infield in with a runner on third, throws home instead of to first.",
+            "Two outs simplifies everything for the defense. Any force out ends the inning, so take the closest one. Runners will be moving on contact, so outfielders should expect a runner from second to try to score on any single and throw through the cutoff man.",
+            "The count matters too. With two outs and a full count, runners on base go as the pitch is thrown, since a walk advances them and a strikeout ends the inning anyway. With a runner on first and fewer than two outs, a bunt is possible, so the corners creep in."
+          ],
+          "diagram": {
+            "highlight": [
+              "2B",
+              "first",
+              "home"
+            ],
+            "runners": [
+              "third"
+            ],
+            "arrows": [
+              {
+                "from": "2B",
+                "to": "first",
+                "kind": "throw"
+              },
+              {
+                "from": "third",
+                "to": "home",
+                "kind": "run"
+              }
+            ],
+            "caption": "Up by four with a runner on third: the second baseman takes the sure out at first and lets the run score."
+          }
+        },
+        {
+          "heading": "What to expect from the runners",
+          "body": [
+            "Reading the offense is part of knowing the situation. Runner on first, fewer than two outs, weak hitter, close game: expect a bunt. Runner on third, fewer than two outs: expect him to go on a ground ball or tag on a fly ball. Two outs, full count: expect every runner to be running. Fast runner on first in a division that allows stealing: expect a steal, and the middle infielders should decide who covers before the pitch.",
+            "In Little League Majors and below, runners cannot leave the base until the pitch reaches the batter, so steals start later and the catcher often has a play. In tee ball and most coach-pitch divisions there is no stealing. Check your league's current rulebook so you know what the runners are allowed to do.",
+            "Expecting a play does not mean guessing. It means being ready for the most likely play while still doing your job if something else happens."
+          ],
+          "diagram": {
+            "highlight": [
+              "first",
+              "second",
+              "C"
+            ],
+            "runners": [
+              "first"
+            ],
+            "arrows": [
+              {
+                "from": "first",
+                "to": "second",
+                "kind": "run"
+              }
+            ],
+            "caption": "Two outs, full count, runner on first: he is moving as the pitch is thrown, so the defense should expect him to try to score on a hit to the gap."
+          }
+        },
+        {
+          "heading": "A routine for every pitch",
+          "body": [
+            "Make it a habit. After every pitch, before the next one: look at the scoreboard or ask the umpire for the count and outs, hold up fingers and say the outs with a teammate, say your plan quietly to yourself ('ground ball, throw to first; fly ball, catch and check the runner on second'), then get into the ready position as the pitcher starts his motion.",
+            "Coaches can help by calling out the situation from the dugout between batters and by asking players in practice: 'Runner on second, one out, ball hit to you, where does it go?' The players who answer fastest are the ones who already have the habit.",
+            "Parents can play the same game at home or while watching any baseball game on television: pause before a pitch and ask what each fielder should do if the ball comes to him. It is the cheapest baseball lesson there is."
+          ],
+          "diagram": null
+        }
+      ],
+      "keyTakeaways": [
+        "Three questions before every pitch: how many outs, where are the runners, and what do I do with the ball on a ground ball or a fly ball.",
+        "The score and inning set the risk: big lead, take the sure out; close and late, stop the run.",
+        "Two outs means any force ends the inning and runners go on contact; a full count with two outs means they are running on the pitch.",
+        "Expect the likely play (bunt, steal, tag-up) while staying ready for anything.",
+        "Build the habit: check outs and count, say your plan, get ready."
+      ],
+      "questionIds": [
+        "iqq-38",
+        "iqq-39",
+        "iqq-41"
+      ]
+    },
+    {
+      "id": "iq-15",
+      "title": "Umpire Signals and Common Calls",
+      "topic": "rules",
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "summary": "What the umpire's arms are telling you, the difference between a live ball and a dead ball, and how players should treat umpires.",
+      "sections": [
+        {
+          "heading": "Out, safe, and the count",
+          "body": [
+            "Umpires signal with their arms so the whole field can see the call. Out is a raised fist, often pumped like a hammer. Safe is both arms spread straight out to the sides, palms down, usually with the word 'Safe!' A strike is signaled by the plate umpire with a raised right hand or a point to the side, often with a loud 'Strike!' A ball usually has no signal; the umpire just says 'Ball' or says nothing.",
+            "The plate umpire shows the count with fingers: balls on the left hand, strikes on the right, and often says it out loud, balls first: 'Two and one.' If you are not sure of the count, ask the umpire politely between pitches; that is allowed and encouraged.",
+            "Keep playing until you see or hear the call. On a close play at first, run through the bag and then look at the umpire. A fist means head back to the dugout; arms out means stay on the base and find your coach."
+          ],
+          "diagram": {
+            "highlight": [
+              "first",
+              "1B",
+              "home"
+            ],
+            "runners": [],
+            "arrows": [
+              {
+                "from": "SS",
+                "to": "first",
+                "kind": "throw"
+              },
+              {
+                "from": "home",
+                "to": "first",
+                "kind": "run"
+              }
+            ],
+            "caption": "Close play at first: run through the bag, then look at the umpire. Fist means out, arms spread wide means safe."
+          }
+        },
+        {
+          "heading": "Fair, foul, and time",
+          "body": [
+            "On a ball near a foul line, the umpire points toward fair territory to signal fair, without saying anything. For foul, the umpire raises both arms straight up and yells 'Foul!' Umpires do not shout 'fair' because it sounds like 'foul,' so when you hear nothing and see a point, keep running.",
+            "Time is both hands raised with the call 'Time!' The ball is dead: runners cannot advance, fielders cannot make outs, and play does not start again until the umpire points at the pitcher and says 'Play.' Players should not ask for time in the middle of a play; a runner who wants time asks for it after the play has stopped, and the umpire decides whether to grant it.",
+            "A foul ball is also a dead ball. Runners return to their bases, the batter goes back to the box, and nothing that happened after the foul counts."
+          ],
+          "diagram": {
+            "highlight": [
+              "third",
+              "shallowLF",
+              "home"
+            ],
+            "runners": [],
+            "arrows": [
+              {
+                "from": "home",
+                "to": "shallowLF",
+                "kind": "move"
+              }
+            ],
+            "caption": "Ball down the line: the umpire points toward fair ground for fair, or raises both arms and yells 'Foul!'"
+          }
+        },
+        {
+          "heading": "Infield fly, delayed calls, and appeals",
+          "body": [
+            "For an infield fly, the umpire points straight up with the right arm and yells 'Infield fly, batter is out!' (or 'Infield fly, if fair' near a line) while the ball is in the air. The batter is out whether the ball is caught or not, and the runners are not forced.",
+            "Some calls are delayed. For catcher's interference (the catcher's mitt touching the bat during a swing), and for obstruction (a fielder without the ball blocking a runner) when no play is being made on that runner, the umpire extends an arm to the side with a fist and lets the play finish before deciding what to award. The play is not dead, so keep playing. When a fielder obstructs a runner who is being played on, the ball is dead right away and the umpire awards bases.",
+            "An appeal is when the defense asks the umpire to rule on something the umpire does not call on his own, such as a runner missing a base or leaving early on a tag-up. The defense makes a live-ball appeal by throwing to the base and touching it; then the umpire rules. A missed base is only an out if the defense appeals."
+          ],
+          "diagram": null
+        },
+        {
+          "heading": "How to treat umpires",
+          "body": [
+            "Little League umpires are volunteers, and many of them are parents or teenagers learning the job. Players never argue calls. If a player has a question about a rule, the coach asks the umpire politely at the right time, usually between innings or during a time out. Judgment calls, such as safe or out and ball or strike, cannot be argued at all.",
+            "Hustle on and off the field, say thank you to the umpire after the game, and remember that the umpire is part of what makes the game fair for both teams. A team that respects umpires gets more respect in return, and its players learn how to handle calls that do not go their way.",
+            "Signals and mechanics can differ slightly from league to league and umpire to umpire. This lesson describes the common ones; it is not the official rulebook. Check your league's current Little League rulebook and umpire guidance for anything specific to your division."
+          ],
+          "diagram": null
+        }
+      ],
+      "keyTakeaways": [
+        "Out is a raised fist; safe is both arms spread wide; foul and time are both arms up with the word called out; fair is a silent point.",
+        "Keep playing until you see or hear the call; umpires do not say 'fair' out loud.",
+        "Time and foul balls make the ball dead; nothing counts until the umpire says 'Play.'",
+        "Infield fly is signaled with an arm straight up; a missed base is an out only if the defense appeals.",
+        "Players never argue calls; coaches ask rule questions politely, and everyone thanks the umpire."
+      ],
+      "questionIds": [
+        "iqq-11"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1340 @@
+{
+  "$schema": "lesson",
+  "items": [
+    {
+      "id": "pos-01",
+      "title": "First Base: Footwork at the Bag and Receiving Throws",
+      "category": "positions",
+      "subcategory": "First base",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to sprint to first base, find the bag with the heel without looking down, and stretch toward a throw only after seeing where it is going.",
+      "summary": "Most infield outs end at first base. Learn how to beat the runner to the bag, find it by feel, give a big target, and catch good throws and bad ones.",
+      "video": {
+        "status": "placeholder",
+        "note": "The production video will show a first baseman sprinting to the bag, tapping the inside edge with the heel, waiting with a chest-high target, and stretching toward three different throws: straight, wide, and a short hop."
+      },
+      "explanation": [
+        "The first baseman's main job is to catch throws from the other infielders for the force out at first. A force out happens when the fielder holding the ball touches first base before the batter-runner gets there. Nobody needs to tag the runner; the base is enough. Because so many plays end this way, a reliable first baseman makes every other infielder look better.",
+        "When the ball is hit to someone else, the first baseman sprints to the bag right away. Get there before the throw, turn to face the fielder with the ball, and find the bag with your heel instead of your eyes. Put the heel of your throwing-side foot against the inside edge of the bag, the edge closest to the pitcher. A right-handed player uses the right foot, a left-handed player uses the left foot. Your glove-side foot stays free so you can step toward the throw.",
+        "Give the fielder a big target with the glove open at chest height, knees bent, and shoulders square to the thrower. Stay tall and still until the ball leaves the fielder's hand. Only then do you stretch: step with your glove-side foot straight toward the ball and reach out to catch it. Stretching early is the most common mistake at first base, because a player who is already stretched cannot move when the throw sails or tails.",
+        "Bad throws are part of the job. On a throw in the dirt, drop low and play it like a ground ball with the glove fingers down. On a wide throw, catch the ball first and worry about the bag second. Coming off the bag to catch the ball keeps the runner at first; letting it get past you can turn an out into a runner on second. On a high throw, jump straight up and try to land on the bag.",
+        "The first baseman also has fielding jobs. On a ground ball hit to you far from the bag, the pitcher covers first; flip the ball underhand, chest high, and lead the pitcher to the bag so they can catch it while running. On a bunt toward first, charge and let the second baseman cover the bag. Where your division uses a cutoff man, the infielder who stands between the outfielder and the base to catch a long throw, the first baseman is often the cutoff on throws home from right field. Ask your coach what your league uses."
+      ],
+      "parentInstructions": [
+        "Set up a base or folded towel and start 20 feet away. Have your child jog to it, turn to face you, and find the inside edge with the heel while looking at you the whole time. Repeat until they never look down.",
+        "Throw underhand at first. Watch that the glove-side foot does not move until the ball has left your hand. Say 'see it' as you throw so the stretch happens on the ball, not before.",
+        "Mix your throws on purpose: some straight, some a step to the left, some a step to the right, and some low. Celebrate the catch more than the out.",
+        "Use a soft or safety ball for short hops until the catch is consistent, then move to a regular ball at easy speed.",
+        "Keep sessions short, about 15 minutes. Footwork drills are about repetition without fatigue.",
+        "Remind your child that catching the ball and keeping it in front always beats reaching for a base they cannot hold."
+      ],
+      "equipment": [
+        "glove",
+        "ball",
+        "bases"
+      ],
+      "equipmentFreeAlternative": "Use a folded towel, a flat cushion, or a chalk square as the bag. Practice sprinting to it, finding it with your heel while keeping your eyes up, and stretching toward an imaginary throw. A parent points left, right, high, or low and the player stretches that way with an empty glove or bare hands.",
+      "steps": [
+        "Place a base 60 feet from a partner who has a bucket of balls, or a parent with a few balls at 20 to 30 feet to start.",
+        "Start three steps off the bag in the ready position. On 'go', sprint to the bag and turn to face the thrower.",
+        "Find the inside edge of the bag with the heel of your throwing-side foot. Do not look down. Set your glove-side foot free.",
+        "Show a chest-high target with the glove wide open and knees bent. Freeze there until the ball leaves the thrower's hand.",
+        "When you see the ball, step with the glove-side foot toward it and reach. Catch, then come off the bag and reset.",
+        "Repeat with throws to the glove side, the arm side, high, and in the dirt. On wide throws, leave the bag to catch the ball.",
+        "Finish with five underhand flips: field a rolled ball away from the bag, then flip chest-high to a partner jogging to first.",
+        "Rotate thrower and first baseman every six throws so arms stay fresh."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Stretching before the ball is thrown.",
+          "fix": "Say 'see it' out loud. The glove-side foot does not move until the ball is in the air."
+        },
+        {
+          "mistake": "Looking down to find the bag.",
+          "fix": "Practice the heel tap with eyes on the thrower ten times in a row before any throw is made."
+        },
+        {
+          "mistake": "Standing on top of the bag instead of the edge.",
+          "fix": "Heel touches the inside edge only. That leaves the rest of the bag for the runner and keeps feet from getting stepped on."
+        },
+        {
+          "mistake": "Staying on the bag on a wide throw and letting the ball get past.",
+          "fix": "Ball first, bag second. Come off, catch, and look for a tag if the runner is close."
+        },
+        {
+          "mistake": "Catching with a closed, flat glove.",
+          "fix": "Open the glove wide like a target. Fingers up for chest-high throws, fingers down for anything below the knees."
+        }
+      ],
+      "cues": [
+        "Heel finds the bag",
+        "See it, then stretch",
+        "Ball first, bag second",
+        "Big target, chest high",
+        "Fingers down on low throws"
+      ],
+      "safety": [
+        "Keep your foot on the inside edge of the bag so the runner has the outside of the bag and your feet are out of the base path.",
+        "Use a soft or safety ball for short-hop practice until the player handles them cleanly, then move to a regular ball at easy speed.",
+        "Throwers should warm up before this drill and should stay under about 25 throws each. Rotate roles often.",
+        "Never practice stretches with a runner coming down the line until the heel-and-stretch footwork is automatic."
+      ],
+      "progression": {
+        "easier": "Parent stands 20 feet away and tosses underhand. The player only practices sprinting to the bag, finding it with the heel, and catching straight throws.",
+        "harder": "Throws come from 60 feet at game speed, mixed with short hops and wide throws, and a runner jogs down the line so the first baseman learns to stretch and stay out of the way.",
+        "nextLessonId": "pos-02"
+      },
+      "tags": [
+        "first base",
+        "first baseman",
+        "footwork",
+        "stretch",
+        "heel on the bag",
+        "receiving throws",
+        "short hop",
+        "force out",
+        "infield",
+        "kid keeps looking at the base",
+        "catching bad throws",
+        "where to stand at first"
+      ],
+      "drillIds": [
+        "drill-pos-01"
+      ]
+    },
+    {
+      "id": "pos-02",
+      "title": "Second Base: Range and Double-Play Feeds",
+      "category": "positions",
+      "subcategory": "Second base",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to cover the ground between first and second base, make a firm underhand feed to a partner covering second, and get one sure out before trying for two.",
+      "summary": "Second base asks for quick feet and smart decisions. Learn where to stand, how to get to balls on both sides, and how to feed and pivot on a double play.",
+      "video": {
+        "status": "placeholder",
+        "note": "The production video will show a second baseman reading a ground ball, making a short underhand feed to the shortstop at the bag, and then receiving a feed and pivoting to throw to first."
+      },
+      "explanation": [
+        "The second baseman plays between first and second base, usually a few steps toward second and a few steps back toward the outfield grass. From there you field ground balls on the right side of the infield, cover second base when the ball is hit to the left side, and act as the relay on long hits to right field. A relay is a player who catches the outfielder's throw and makes a second throw toward a base. The throw to first is short, so the second baseman can afford to take an extra step to field the ball cleanly.",
+        "Range means how much ground you can cover, and it starts with a good ready position and a quick first step. On a ball to your glove side, cross your throwing-side foot over and run; on a ball to your throwing side, open your glove-side hip and go. Try to get around the ball so you can field it moving toward first base. If you cannot get there cleanly, knock it down and keep it in front of you. A ball stopped in the dirt is still an out most of the time because the throw is so short.",
+        "A double play is two outs on one batted ball. With a runner on first and fewer than two outs, a ground ball to the second baseman starts with a feed, a short throw to the shortstop covering second. When you are close to the bag, use an underhand feed: take the ball out of the glove, show it to your partner, and push it firmly, chest high, with a stiff wrist while stepping toward the bag. Never flip it softly or with a bent wrist, because a floating feed arrives late. When you are farther away, turn your hips and make a short overhand throw to the chest.",
+        "When the shortstop fields the ball, the second baseman becomes the pivot player at the bag. Get to the bag early, catch the feed with both hands out front, touch the bag with your left foot as you catch, then step toward first with your right foot and throw. At younger ages the sure out comes first: if the feed is late or the runner is close, take the one out at second or first and do not rush a wild throw.",
+        "On steal attempts, which division rules allow at different ages, the second baseman and shortstop decide before the pitch who covers the bag. A common rule is that the second baseman covers when a left-handed batter is up and the shortstop covers when a right-handed batter is up. Whoever covers straddles the back of the bag, catches the throw, and puts the glove down in front of the bag for the tag. Check your league's current Little League rulebook for when runners may leave the base in your division."
+      ],
+      "parentInstructions": [
+        "Roll ground balls to both sides from 30 feet and have your child call out 'glove side' or 'arm side' before moving. This builds the crossover first step.",
+        "Set a towel as second base 20 feet from where your child fields. Roll a ball and have them feed it to you at the towel with an underhand push, chest high. Catch it with your hands at your chest so they learn the target.",
+        "Look for a stiff wrist and a step toward you on the feed. A soft, floating feed means the wrist is bending; say 'push it, don't toss it'.",
+        "Switch roles so your child practices the pivot: you roll a ball to yourself, feed them at the towel, and they catch, touch the towel with the left foot, step, and make an easy throw to a target.",
+        "Count throws. Keep the pivot throws to about 15 and make them at easy speed. The footwork matters more than the arm.",
+        "Praise the decision to take one sure out when you deliberately make a late feed."
+      ],
+      "equipment": [
+        "glove",
+        "ball",
+        "bases"
+      ],
+      "equipmentFreeAlternative": "Use chalk or a towel for second base and a rolled-up sock ball. Shadow the crossover first step to both sides, then practice the underhand feed motion to a parent's hands and the left-foot touch, step, and throw with no ball. The sock ball lets you practice the push feed indoors.",
+      "steps": [
+        "Set bases 60 feet apart, or use towels at a shorter distance at home. One player at second base position, one at shortstop position, one at first base if available.",
+        "Warm up with 10 rolled ground balls, five to each side, focusing on the crossover first step and fielding out front.",
+        "Underhand feeds: the coach rolls a ball to the second baseman from 10 to 15 feet from the bag. Field, show the ball, push it chest high to the partner at the bag. Eight reps.",
+        "Overhand feeds: the coach rolls a ball farther toward first base. Field, turn the hips toward second, and make a short overhand throw to the chest. Six reps.",
+        "Pivots: the shortstop fields a rolled ball and feeds the second baseman at the bag. Catch with both hands, left foot on the bag, step with the right foot toward first, and make an easy throw. Eight reps.",
+        "Sure-out decisions: the coach announces 'runner is fast' or 'feed is late' on some reps and the players must take the one out at the nearest base. Six reps.",
+        "Rotate positions so every player feeds and pivots. Finish with five slow-motion feeds to lock in the push motion."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Flipping the feed with a bent wrist so it floats.",
+          "fix": "Keep the wrist stiff and push the ball from the chest, following through with the hand toward the partner's chest."
+        },
+        {
+          "mistake": "Hiding the ball in the glove on the feed.",
+          "fix": "Take the ball out early and show it to the partner so they can see it coming."
+        },
+        {
+          "mistake": "Rushing the double play and throwing the ball away.",
+          "fix": "One sure out first. Make the second throw only if the feet are set and the runner is not on top of you."
+        },
+        {
+          "mistake": "Arriving at the bag late on the pivot.",
+          "fix": "Move toward the bag the moment the ball is hit to the left side; be there waiting before the feed."
+        },
+        {
+          "mistake": "Backing up on ground balls instead of coming through them.",
+          "fix": "First step forward or across, never back. Field the ball moving toward the target."
+        }
+      ],
+      "cues": [
+        "Push it, don't toss it",
+        "Show the ball",
+        "One sure out first",
+        "Be at the bag early",
+        "Chest-high feed"
+      ],
+      "safety": [
+        "Practice feeds and pivots without a runner until the footwork is smooth. Add a jogging runner only with a coach watching and tell the runner to slide or peel off well before the bag.",
+        "Keep pivot throws at easy speed and under about 15 per player; the drill is about feet and hands, not arm strength.",
+        "Use a soft or safety ball for the first week of pivot practice so a feed that arrives at the face does not hurt."
+      ],
+      "progression": {
+        "easier": "Remove the throw to first. Field, feed, and have the partner simply catch at the bag. Use a sock ball or soft ball indoors.",
+        "harder": "Feeds come off a fungo bat at game speed, the coach calls out the runner's speed, and the pivot player must choose between the double play and the sure out in one second.",
+        "nextLessonId": "fld-16"
+      },
+      "tags": [
+        "second base",
+        "second baseman",
+        "double play",
+        "feed",
+        "pivot",
+        "underhand flip",
+        "range",
+        "crossover step",
+        "covering second",
+        "steal coverage",
+        "infield",
+        "kid floats the toss"
+      ],
+      "drillIds": [
+        "drill-pos-02"
+      ]
+    },
+    {
+      "id": "pos-03",
+      "title": "Shortstop: Running the Infield",
+      "category": "positions",
+      "subcategory": "Shortstop",
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to call out the situation before every pitch, know which base to cover on steals, bunts, and ground balls, and take charge of pop-ups between infielders.",
+      "summary": "The shortstop covers the most ground and talks the most. Learn the coverage rules, the relay job on balls to left and center, and how to lead teammates with your voice.",
+      "video": {
+        "status": "placeholder",
+        "note": "The production video will show a shortstop calling outs with fingers up before a pitch, covering second on a steal, covering third when the third baseman charges a bunt, and calling off an infielder on a pop-up."
+      },
+      "explanation": [
+        "The shortstop stands between second and third base, deeper than the other infielders because the long throw to first means you need an extra step to field cleanly. You field more ground balls than anyone, cover second base on many plays, and serve as the relay on hits to left and center field. A relay is the player who catches the outfielder's long throw and makes the next throw toward a base. Because the shortstop can see the whole field, the shortstop is also expected to lead.",
+        "Leading starts before each pitch. Hold up fingers and call the number of outs so every fielder hears it. Say where the play is: 'force at second' with a runner on first, or 'get the out at first' with the bases empty. Remind the outfielders how many outs there are. This is not bossy; it is the shortstop's job, and teammates come to depend on it.",
+        "Coverage means knowing which base is yours. On a ground ball to the right side of the infield, the shortstop covers second. On a bunt, the third baseman charges, so the shortstop covers third. On steal attempts, the shortstop and second baseman agree before the pitch who takes the bag; a common rule is the shortstop covers when a right-handed batter is up. Where your division allows runners to lead off or steal is set by the rulebook, so check your league's current Little League rulebook and ask your coach what your team uses.",
+        "Pop-ups between fielders need one clear voice. The rule most teams use is simple: the player moving toward the ball with the easiest catch calls it, and an outfielder coming in has priority over an infielder going back. As shortstop, call 'ball, ball, ball' early and loudly on anything in your area, and call 'you, you' when the outfielder has it. Once a ball is called, everyone else peels away and backs up.",
+        "Shortstops make long throws, so footwork matters more than arm strength. Field the ball out front, take a small shuffle or crow hop toward first base, and throw with the whole body. On a ball deep in the hole toward third, plant and throw hard only if you have a play; otherwise hold the ball and keep the runner from taking an extra base. A smart shortstop knows when not to throw."
+      ],
+      "parentInstructions": [
+        "Before every rolled ball, ask your child to call the outs and the play out loud: 'One out, force at second.' Make it a habit before you start any fielding practice.",
+        "Set towels as second and third base. Call out 'bunt' or 'ground ball to the right side' and have your child sprint to the base they must cover. No ball needed for this part.",
+        "Toss high pop-ups and have your child call 'ball, ball, ball' three times before catching. If you call 'ball' first, your child must say 'you, you' and back off.",
+        "Roll ground balls to both sides from 40 feet. Look for a shuffle toward you before the throw instead of a flat-footed arm throw.",
+        "Count long throws and stop at about 20. Mix in no-throw reps where your child fields and holds the ball with a shout of 'no play'.",
+        "Ask your child to explain one coverage rule to you at the end of practice. Teaching it back is the best check that they know it."
+      ],
+      "equipment": [
+        "glove",
+        "ball",
+        "bases"
+      ],
+      "equipmentFreeAlternative": "Use chalk bases or towels in a yard or park. Practice the outs call and coverage sprints with no ball, then use a tennis ball for ground balls against a wall and a sock ball for pop-up calls indoors.",
+      "steps": [
+        "Set up a full infield or towels at second and third. The shortstop starts in the normal position, deeper than the baseline.",
+        "Situation call: the coach announces runners and outs. The shortstop repeats it loudly with fingers up and names the play. Six reps with different situations.",
+        "Coverage sprints: the coach calls 'bunt', 'ball to the right side', or 'steal'. The shortstop sprints to the correct base and straddles the back of it. Eight reps.",
+        "Ground balls: the coach rolls or hits easy ground balls to both sides. Field out front, shuffle toward first, and make an easy throw to a partner. Ten reps.",
+        "Pop-up priority: the coach throws pop-ups between the shortstop and a second fielder. Whoever has the easier catch calls 'ball' three times; the other says 'you' and backs up. Eight reps.",
+        "Relay position: an outfielder throws from the grass to the shortstop, who catches with both hands turned toward the glove side and makes an easy throw toward third. Six reps.",
+        "No-play reps: the coach calls 'no play' after some ground balls. The shortstop fields, holds the ball, and looks the runner back. Four reps.",
+        "Rotate shortstops every eight reps so each player practices the calls."
+      ],
+      "durationMin": 20,
+      "commonMistakes": [
+        {
+          "mistake": "Silent shortstop who knows the play but does not say it.",
+          "fix": "Make the outs call a required part of every rep. Nothing is rolled until the shortstop speaks."
+        },
+        {
+          "mistake": "Forgetting to cover third when the third baseman charges a bunt.",
+          "fix": "Say 'bunt means third' out loud during coverage sprints until it is automatic."
+        },
+        {
+          "mistake": "Throwing every ball no matter what.",
+          "fix": "Practice no-play reps where fielding and holding the ball is the correct answer."
+        },
+        {
+          "mistake": "Infielder drifting back on a pop-up the outfielder should take.",
+          "fix": "Outfielder coming in has priority. Infielder calls 'you' as soon as the outfielder calls 'ball'."
+        },
+        {
+          "mistake": "Flat-footed long throws that sail.",
+          "fix": "Shuffle or crow hop toward the target before every throw so the legs do the work."
+        }
+      ],
+      "cues": [
+        "Outs up, say the play",
+        "Bunt means third",
+        "Ball, ball, ball",
+        "Shuffle, then throw",
+        "Know when not to throw"
+      ],
+      "safety": [
+        "Pop-up priority practice prevents collisions; never run this with players who have not learned the calling rules.",
+        "Limit long throws to about 20 per player per session and keep them at easy speed; the lesson is about positioning and voice.",
+        "Use an easy fungo or rolled balls for ground balls. Save hard-hit balls for players who have shown clean fielding on rolled balls.",
+        "Steal coverage with live runners happens only in a coach-supervised team practice and only in divisions where the rulebook allows runners to leave early."
+      ],
+      "progression": {
+        "easier": "No ball at all: practice the outs call and coverage sprints only, then add rolled balls straight at the player.",
+        "harder": "The coach hits fungo ground balls while calling live situations, and the shortstop must call the outs, field, and make the right throw or hold the ball, all in one rep.",
+        "nextLessonId": "pos-04"
+      },
+      "tags": [
+        "shortstop",
+        "infield leader",
+        "covering second",
+        "covering third",
+        "pop-up priority",
+        "calling the ball",
+        "relay",
+        "outs call",
+        "coverage",
+        "infield communication",
+        "kid is quiet on the field",
+        "where should the shortstop go"
+      ],
+      "drillIds": [
+        "drill-pos-03"
+      ]
+    },
+    {
+      "id": "pos-04",
+      "title": "Third Base: Reactions at the Hot Corner",
+      "category": "positions",
+      "subcategory": "Third base",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to knock down hard-hit balls from a low ready position, charge a slow roller under control, and make a tag at third base.",
+      "summary": "Third base is called the hot corner because the ball gets there fast. Learn the low ready position, how to knock the ball down, how to charge slow rollers, and how to tag a runner.",
+      "video": {
+        "status": "placeholder",
+        "note": "The production video will show a third baseman in a low ready position knocking down a hard ground ball, then charging a slow roller, fielding it off the glove-side foot, and throwing on the run to first."
+      },
+      "explanation": [
+        "Third base is called the hot corner because right-handed hitters pull the ball there hard and fast. You stand even with the bag or a step behind it, a few steps off the foul line, and you have less time to react than anyone else in the infield. That is why the third baseman uses a lower ready position than other fielders: feet wider than the shoulders, glove out front and open, weight on the balls of the feet, and eyes locked on the bat.",
+        "On a hard-hit ball, the first job is to keep it in front of you. If you can field it cleanly, great. If not, get your body behind it and knock it down. The throw across to first is long, so you will not always get the out, but a ball that stays in front of you keeps runners from taking extra bases. Coaches say 'knock it down, then pick it up' because a blocked ball is still a live play.",
+        "The slow roller is the third baseman's special play. A bunt or a weakly hit ball that dribbles toward you has to be charged, or the runner will beat any throw. Run hard toward the ball under control, bend at the knees, and field it with the glove just outside your glove-side foot. Take one step and throw while moving toward first, often sidearm or three-quarters because there is no time to stand up. Picking the ball up with the bare hand is an advanced skill for older players with a coach watching; younger players use the glove every time.",
+        "On a bunt, the third baseman charges and the shortstop covers third behind you. Shout 'I got it' so the pitcher and catcher know you are taking it, and listen for the catcher, who can see the whole field and will call which base to throw to. If there is no play, hold the ball. A wild throw on a bunt gives the other team more than the bunt ever would.",
+        "Tag plays at third happen when a runner tries to go from first to third or tags up on a fly ball. Straddle the bag with one foot on each side facing the throw, catch the ball with two hands, and sweep the glove down to the front edge of the bag where the runner's foot or hand will arrive. Let the ball travel to you; reaching out for it pulls you off the bag."
+      ],
+      "parentInstructions": [
+        "Start with a soft or safety ball for all reaction work. Stand 25 to 30 feet away and toss firm ground balls so your child practices staying low and getting the body in front of the ball.",
+        "Say 'knock it down' and praise any ball that stays in front, even if the glove did not catch it cleanly. Clean picks will come; blocking is the first habit.",
+        "For slow rollers, roll the ball gently toward your child from 40 feet and have them charge it, field it off the glove-side foot, and make an easy throw to you or at a target. Watch for a controlled charge, not a sprint that runs past the ball.",
+        "Hold a towel as the bag and jog toward it slowly so your child can practice the straddle and sweep tag with a soft ball in the glove.",
+        "Keep sessions to about 15 minutes and under 20 throws. Reaction drills are tiring, and tired fielders get hit by the ball.",
+        "Do not toss hard balls at close range. Distance and ball type make this drill safe."
+      ],
+      "equipment": [
+        "glove",
+        "soft_ball",
+        "bases"
+      ],
+      "equipmentFreeAlternative": "Use a tennis ball against a wall or a rolled-up sock ball tossed by a parent for reaction work, and a towel for the bag. Slow rollers can be a tennis ball rolled on a driveway with the throw replaced by a step and a shadow throw.",
+      "steps": [
+        "Mark third base with a bag or towel and a throwing target or partner about 60 feet away, closer for younger players.",
+        "Low ready position check: feet wide, glove out front and open, weight forward, eyes on the tosser. Hold for three seconds and bounce once.",
+        "Reaction balls: the coach tosses firm ground balls with a soft ball from 30 feet to both sides and straight on. Knock it down or field it; pick it up and make an easy throw. Eight reps.",
+        "Slow rollers: the coach rolls a ball softly toward the player. Charge under control, field off the glove-side foot, one step, and throw on the move at easy speed. Eight reps.",
+        "Bunt call: the coach rolls a bunt and a partner pretends to be the catcher, calling 'one' or 'three'. The third baseman shouts 'I got it', fields, and throws to the called base or holds the ball on 'no play'. Six reps.",
+        "Tag plays: a partner throws from 40 feet while another jogs toward the bag. Straddle, catch with two hands, sweep the tag to the front of the bag. Six reps.",
+        "Finish with three slow-motion slow rollers to lock in the footwork."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Standing up tall in the ready position.",
+          "fix": "Hands below the knees and glove open before the ball is hit. Say 'low and ready' on every pitch."
+        },
+        {
+          "mistake": "Turning the head or body away from a hard ball.",
+          "fix": "Go back to soft balls and shorter distance until getting in front of the ball feels safe again."
+        },
+        {
+          "mistake": "Charging a slow roller too fast and running past it.",
+          "fix": "Charge hard for the first steps, then shorten the steps as you get near the ball. Control beats speed."
+        },
+        {
+          "mistake": "Reaching out for the throw on a tag play.",
+          "fix": "Let the ball come to you. Catch first, then sweep down. The runner is not out until the glove touches them."
+        },
+        {
+          "mistake": "Throwing a bunt away when there is no play.",
+          "fix": "Listen for the catcher's call and hold the ball when you hear 'no play'."
+        }
+      ],
+      "cues": [
+        "Low and ready",
+        "Knock it down, then pick it up",
+        "Charge under control",
+        "Field off the glove-side foot",
+        "Straddle and sweep"
+      ],
+      "safety": [
+        "Use a soft or safety ball for all close-range reaction tosses. Regular baseballs only come from a fungo at game distance once the player blocks soft balls confidently.",
+        "Never toss reaction balls from closer than 25 feet, and never aim at the player's face.",
+        "Keep total throws under about 20 per session and stop the drill when the player's ready position starts to rise, a sign of fatigue.",
+        "Runners in tag-play practice jog and stop before the bag; no sliding into a fielder's legs during this drill."
+      ],
+      "progression": {
+        "easier": "Slow, rolled soft balls straight at the player from 30 feet with no throw afterward; add slow rollers with a shadow throw.",
+        "harder": "Fungo ground balls at game speed from home plate, slow rollers with a runner jogging to first, and bunt plays with a live catcher calling the base.",
+        "nextLessonId": "fld-13"
+      },
+      "tags": [
+        "third base",
+        "hot corner",
+        "slow roller",
+        "charging the ball",
+        "knock it down",
+        "tag play",
+        "bunt defense",
+        "low ready position",
+        "reactions",
+        "infield",
+        "kid is scared of hard grounders",
+        "sidearm throw on the run"
+      ],
+      "drillIds": [
+        "drill-pos-04"
+      ]
+    },
+    {
+      "id": "pos-05",
+      "title": "Outfield: Positioning, Angles, and Backing Up",
+      "category": "positions",
+      "subcategory": "Outfield",
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to take a correct first step and angle to balls hit to the side, name their backup job on every play, and move to the right backup spot without being told.",
+      "summary": "Outfielders have a job on every single play, even when the ball is not hit to them. Learn where to stand, how to take an angle to the ball, and which base you back up.",
+      "video": {
+        "status": "placeholder",
+        "note": "The production video will show an outfielder taking an angled route to a ball in the gap, then three outfielders sprinting to their backup spots behind first, second, and third on an infield ground ball."
+      },
+      "explanation": [
+        "An outfielder starts in a spot the coach chooses, usually straight away, meaning lined up with the middle of the field for that position, and deep enough that most fly balls land in front of you. Before each pitch, get into a relaxed ready position with the weight on the balls of your feet. Know the outs and the runners, because they decide where you throw. An outfielder who is ready on every pitch is already ahead of most players their age.",
+        "The first step decides the play. On a ball hit to your side, do not run straight at where the ball is now; it is moving away from you. Instead, take an angle, a route that aims for where the ball will be, so you meet it while moving toward the infield. On a ball hit over your head, turn and run with your back to the infield using the drop step, the quick step back with the foot on the side the ball is hit. On a line drive straight at you, the hardest ball to read, take a small step back first; it is easier to come in than to go back.",
+        "Ground balls in the outfield must be kept in front of you. Get in front of the ball and drop to one knee when there is no runner trying to advance, or field it on the move like an infielder when a runner is running. Then throw to the cutoff man, the infielder standing between you and the base, with a crow hop so the throw is low and strong. A ball that rolls past an outfielder usually costs two bases.",
+        "Backing up is the outfielder's hidden job. Every throw in the infield can get past the fielder, and the outfielder is the last line. A common set of jobs: the left fielder backs up third base on throws from the right side and second base on throws from the catcher, the center fielder backs up second base on throws from the pitcher or catcher and backs up both other outfielders, and the right fielder backs up first base on throws from the infielders. Stand about 20 to 30 feet behind the base in line with the throw and be ready to stop the ball.",
+        "Outfielders also help the infield on fly balls. A ball between an infielder and an outfielder belongs to the outfielder if the outfielder calls for it, because the outfielder is moving in and has the easier catch. Call 'ball, ball, ball' early and loudly, and expect the infielder to peel away. If you are not calling it, you are backing it up."
+      ],
+      "parentInstructions": [
+        "In a yard or park, stand 40 feet from your child and throw fly balls to one side. Watch the first step: a turn and angle away from the throw is right; a straight-line chase is wrong.",
+        "Say 'angle' before you throw and point where the ball will land. Soon your child will see the angle without the point.",
+        "Roll ground balls and have your child get in front, drop to one knee, and come up throwing to you at easy speed. Count throws and stop at 20.",
+        "Quiz the backup jobs: call out 'ground ball to shortstop' and have your child sprint to where the right fielder would stand behind first base. Use towels for bases in a yard.",
+        "Practice calling 'ball' three times on every fly ball, even when alone. Loud calls become a habit only with repetition.",
+        "Keep outfield sessions fun and short. Angles improve with hundreds of easy reps over a season, not a long session in one day."
+      ],
+      "equipment": [
+        "glove",
+        "ball"
+      ],
+      "equipmentFreeAlternative": "Use a tennis ball thrown by a parent for fly balls and ground balls in a yard or park, and towels or chalk marks as bases for backup sprints. Angles and backup positions can be practiced with no ball at all by pointing and running.",
+      "steps": [
+        "Set up three bases, or towels, and have outfielders stand in left, center, and right at a depth the coach chooses. A coach stands at home with a bucket of balls.",
+        "Ready check: before each rep the coach calls outs and runners, and each outfielder repeats where they will throw if the ball comes to them.",
+        "Angle balls: the coach throws or hits fly balls to the side of each outfielder. Take an angle, catch with two hands moving toward the infield, and throw to a cutoff partner at easy speed. Six reps each.",
+        "Over-the-head balls: the coach throws balls over the shoulder. Drop step, turn, run, and catch. Six reps each.",
+        "Ground balls: the coach rolls or hits ground balls. Get in front, knee down when there is no runner, field on the move when the coach shouts 'runner', and throw to the cutoff with a crow hop. Six reps each.",
+        "Backup sprints: the coach calls an infield play such as 'ground ball to second, throw to first'. All three outfielders sprint to their backup spots. The coach checks the spots and resets. Eight reps.",
+        "Fly ball between infield and outfield: an infielder joins and the coach throws balls in between. The outfielder calls 'ball' and the infielder peels off. Six reps.",
+        "Rotate positions so each player learns the backup jobs for left, center, and right."
+      ],
+      "durationMin": 20,
+      "commonMistakes": [
+        {
+          "mistake": "Running straight at the ball instead of taking an angle.",
+          "fix": "Point to the landing spot before the throw and have the player run to the spot, not the ball."
+        },
+        {
+          "mistake": "Standing and watching infield plays.",
+          "fix": "Make backup sprints part of every practice until moving on every play is automatic."
+        },
+        {
+          "mistake": "Letting ground balls roll under the glove.",
+          "fix": "Knee down and glove on the grass when no runner is advancing; the body becomes a wall."
+        },
+        {
+          "mistake": "Catching fly balls with one hand off to the side.",
+          "fix": "Get under the ball, catch above the throwing-side shoulder with two hands, and be moving toward the target."
+        },
+        {
+          "mistake": "Throwing high rainbow throws that skip the cutoff.",
+          "fix": "Crow hop and aim for the cutoff's chest; a low throw can be caught and relayed, a high one cannot."
+        }
+      ],
+      "cues": [
+        "Angle to the spot",
+        "First step back on line drives",
+        "Knee down, be a wall",
+        "Hit the cutoff's chest",
+        "Every play, every time"
+      ],
+      "safety": [
+        "Keep plenty of space between outfielders during angle drills so two players chasing the same ball do not collide; one fielder per ball unless practicing calls.",
+        "Use tennis balls or soft balls for fly balls with players who are still learning to track the ball.",
+        "Limit throws to about 20 per player and keep them at easy speed; this lesson is about feet and position.",
+        "Check the outfield for holes, sprinkler heads, and wet spots before running angle drills."
+      ],
+      "progression": {
+        "easier": "Parent throws soft fly balls a few steps to each side from 30 feet with no throw afterward; backup jobs are practiced by pointing to the spot.",
+        "harder": "Fungo balls at game speed into the gaps with a live cutoff and runners jogging, and backup sprints called off live infield ground balls.",
+        "nextLessonId": "fld-18"
+      },
+      "tags": [
+        "outfield",
+        "outfielder",
+        "angles",
+        "routes",
+        "drop step",
+        "backing up bases",
+        "cutoff man",
+        "crow hop",
+        "calling the ball",
+        "where to stand in the outfield",
+        "kid watches the game from the outfield",
+        "ground balls in the outfield"
+      ],
+      "drillIds": [
+        "drill-pos-05"
+      ]
+    },
+    {
+      "id": "pos-06",
+      "title": "Catching: Stance, Receiving, and Blocking Basics",
+      "category": "positions",
+      "subcategory": "Catching",
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to set up in a balanced catcher's stance, receive pitches with a quiet glove, and block a ball in the dirt with the body while wearing full catcher's gear.",
+      "summary": "The catcher touches the ball on every pitch and sees the whole field. Learn the stance, how to catch quietly, and how to block balls in the dirt, always in full gear.",
+      "video": {
+        "status": "placeholder",
+        "note": "The production video will show a fully geared catcher moving from the primary stance to the runners-on stance, receiving pitches with a still glove, and dropping to both knees to block three soft balls in the dirt."
+      },
+      "explanation": [
+        "The catcher is the only player who faces the whole field, and the only one in gear from head to shin. Full catcher's gear is required every time a catcher takes a thrown or pitched ball, in games, in practice, and when warming up a pitcher. That means a catcher's helmet with a face mask and a dangling throat guard, a chest protector, shin guards, a catcher's mitt, and a protective cup where required. Your league's current Little League rulebook lists the exact gear for each division, and the rule is the floor, not the ceiling.",
+        "The primary stance, used with no runners on base, is a low, comfortable squat. Feet are a little wider than the shoulders with the toes turned slightly out, weight on the inside of the feet, and the backside low. Hold the mitt out in front of your body as a target with the elbow slightly bent, and tuck the bare hand behind the back or behind the mitt so a foul tip cannot hit the fingers. With runners on base, raise the hips a little so you can throw or block quickly; this is the secondary stance.",
+        "Receiving means catching the pitch with a quiet glove. Watch the ball out of the pitcher's hand, beat the ball to the spot, and let it come to the mitt instead of stabbing at it. Keep the mitt fingers up for pitches at the belt or higher and turn the fingers down for pitches below the knees. A quiet catch gives the umpire a clear look at the pitch; a mitt that jerks or drags makes a strike look like a ball.",
+        "Blocking is what catchers do when a pitch is heading for the dirt. Instead of trying to catch it, drop both knees to the ground, put the mitt on the ground between the knees to close the gap, put the bare hand behind the mitt, round the shoulders forward, and tuck the chin so the mask takes the ball. Angle your body back toward home plate so the ball bounces in front of you. The goal is not to catch the ball but to keep it close so runners cannot move. Learn blocking with soft balls rolled and then tossed before any pitcher throws real balls in the dirt.",
+        "Catchers work harder than anyone else in gear that holds heat, so drink water every half inning and tell a coach if you feel dizzy or sick. Many leagues also connect catching to pitching rest: in Little League, how many innings a player catches in a day can affect whether that player may pitch, and a pitcher who throws past a certain pitch count may not move to catcher. The exact numbers change by division and year, so coaches track both jobs and check the current rulebook before switching a player between them."
+      ],
+      "parentInstructions": [
+        "Never let your child take a thrown ball in a crouch without full catcher's gear, including the throat guard. If you do not have gear at home, practice the stance and blocking shape only, with no ball.",
+        "Check the stance with your child in a mirror or by photo: feet wide, backside low, mitt out front as a target, bare hand hidden. Hold it for ten seconds, stand up, and repeat five times.",
+        "With gear on, toss soft balls underhand from 20 feet into the mitt and praise a still mitt. Say 'beat it there' and watch for stabbing or dragging the glove.",
+        "Roll soft balls slowly toward the knees so your child practices dropping to both knees with the mitt closing the gap and the chin tucked. Speed comes much later.",
+        "Keep blocking sessions short, about 15 blocks, and stop when the knees or form get sloppy.",
+        "Make water breaks part of the drill. Gear is hot, and a tired catcher learns bad habits."
+      ],
+      "equipment": [
+        "catcher_gear",
+        "glove",
+        "soft_ball",
+        "ball"
+      ],
+      "equipmentFreeAlternative": "Without gear there are no thrown balls. Rehearse only the stance and the blocking shape on grass or a mat: squat with the hands out front, drop to both knees, round the shoulders, tuck the chin, and hold for a count of two. Five slow reps build the movement safely.",
+      "steps": [
+        "Put on full gear and have a coach or parent check the fit of the helmet, mask, throat guard, chest protector, and shin guards.",
+        "Primary stance: squat with feet a little wider than the shoulders, toes turned out, mitt out front, bare hand behind the back. Hold for ten seconds, stand, repeat five times.",
+        "Secondary stance: same setup with the hips a little higher. Practice sliding from primary to secondary on the word 'runner'. Five reps.",
+        "Receiving: a partner tosses soft balls underhand from 25 feet to the middle, then to each side, then low. Beat the ball to the spot and catch with a quiet mitt. Twenty tosses.",
+        "Blocking shape with no ball: on 'block', drop both knees, mitt between the knees, bare hand behind the mitt, chin down, shoulders rounded. Hold for two seconds and stand. Six reps.",
+        "Blocking with rolled soft balls: the partner rolls balls toward the knees, then to each side so the catcher angles the body back toward the plate. Twelve blocks total.",
+        "Blocking with tossed soft balls: the partner tosses easy one-bounce balls from 25 feet. Block, find the ball, and pick it up with the bare hand. Eight blocks.",
+        "Take a water break, then finish with ten quiet receives so the last thing practiced is a clean catch."
+      ],
+      "durationMin": 20,
+      "commonMistakes": [
+        {
+          "mistake": "Stabbing at the pitch so the mitt jerks.",
+          "fix": "Beat the ball to the spot and let it travel into a still mitt. Go back to slow underhand tosses."
+        },
+        {
+          "mistake": "Trying to catch a ball in the dirt instead of blocking it.",
+          "fix": "On any pitch heading for the dirt, knees go down first. Catching comes second."
+        },
+        {
+          "mistake": "Bare hand exposed in front of the body.",
+          "fix": "Hide the bare hand behind the back or behind the mitt on every pitch, even in practice."
+        },
+        {
+          "mistake": "Head turning away on a block.",
+          "fix": "Tuck the chin so the mask faces the ball. Start with rolled soft balls until the head stays still."
+        },
+        {
+          "mistake": "Standing too tall with the mitt low and hidden.",
+          "fix": "Lower the hips and push the mitt out as a target the pitcher can see from the mound."
+        }
+      ],
+      "cues": [
+        "Gear on, every time",
+        "Beat the ball to the spot",
+        "Quiet mitt",
+        "Knees down, chin down",
+        "Hide the bare hand"
+      ],
+      "safety": [
+        "Full catcher's gear, including the throat guard, is required for every thrown or pitched ball taken in a crouch, including bullpen sessions and warm-ups. Check your league's current Little League rulebook for the exact gear list for your division.",
+        "Learn blocking with soft or safety balls rolled by hand. Move to tossed soft balls, then to real baseballs from a pitcher, only when the form holds up.",
+        "Catchers heat up fast. Schedule water every half inning and every 15 minutes in practice, and stop at any sign of dizziness or nausea and tell an adult.",
+        "Track innings caught alongside pitches thrown. Rules in many leagues limit whether a player may catch and pitch in the same day."
+      ],
+      "progression": {
+        "easier": "Stance and blocking shape with no ball, then rolled soft balls straight at the knees only.",
+        "harder": "Receive from a pitcher at game distance, block tossed baseballs to both sides, and add the throw-down footwork to second base.",
+        "nextLessonId": "pos-07"
+      },
+      "tags": [
+        "catcher",
+        "catching",
+        "catcher stance",
+        "receiving",
+        "blocking",
+        "ball in the dirt",
+        "catcher gear",
+        "throat guard",
+        "framing",
+        "quiet glove",
+        "kid wants to catch",
+        "is catching safe"
+      ],
+      "drillIds": [
+        "drill-pos-06"
+      ]
+    },
+    {
+      "id": "pos-07",
+      "title": "Pitching: A Balanced, Repeatable Delivery",
+      "category": "positions",
+      "subcategory": "Pitching",
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to hold a balance point, stride in a straight line toward the target, finish in a fielding position, and explain the arm-care rules that come with pitching.",
+      "summary": "Good pitching is doing the same simple delivery over and over. Learn the balance point, direction, and finish, and the arm-care habits every young pitcher must follow.",
+      "video": {
+        "status": "placeholder",
+        "note": "The production video will show a young pitcher pausing at the balance point, striding toward a catcher's target, finishing with the chest over the front knee, and then a coach marking a pitch on a pitch-count card."
+      },
+      "explanation": [
+        "Pitching is throwing with a plan. The best young pitchers are not the ones who throw hardest; they are the ones who can repeat the same delivery and throw strikes. A delivery is the whole set of movements from the first step to the finish. This lesson breaks it into three checkpoints: the balance point, direction, and the finish. Every pitch you throw in practice should pass through all three.",
+        "Start in the stretch position, which is simpler than a full windup and is what many youth coaches teach first. Stand sideways to the target with the pivot foot, the foot on your throwing side, parallel to and in front of the pitching rubber and both hands together at the chest. Lift the front knee until the thigh is about level with the ground. This is the balance point: you should be able to hold it for a count of one without wobbling or leaning back toward second base. If you cannot, slow down; balance comes before speed.",
+        "Direction means everything moves in a straight line to the target. From the balance point, lead with the front hip toward the catcher, separate the hands with the thumbs pointing down, and stride so the front foot lands with the toes pointed at the target, not closed off toward third or open toward first. The glove-side arm points at the target and the front shoulder stays closed until the foot lands. A straight stride is the single biggest fix for pitchers who miss to the same side every time.",
+        "The finish is where the energy goes. After the front foot lands, the chest comes forward over the front knee, the throwing arm finishes down across the body near the opposite hip, and the back foot comes around so you land square to the hitter in a fielding position. A pitcher who falls off to one side or stays tall and stiff loses both control and protection: the ball might be hit back at you, and you are the closest fielder. Finish every pitch ready to field.",
+        "Arm care is part of pitching, not something separate. Count every pitch in every game, and follow the pitch-count and rest table your league has configured in the GamePlanIQ tracker, which follows your league's current Little League rules; the official current Little League regulation is always the authority. Rest days are required after a certain number of pitches, and pitching for more than one team or playing catcher the same day can change what is allowed. Pain is a stop sign: if anything hurts in the arm, elbow, or shoulder, stop throwing right away and tell a coach or parent, and soreness that is still there the next day means no throwing until an adult has been told. Many coaches and youth baseball organizations recommend that young pitchers master the fastball and a changeup before learning a curveball or other breaking pitch, and GamePlanIQ teaches only those two pitches.",
+        "In this lesson, throw no more than 20 to 25 pitches total, including misses, at about 70 percent effort. Pitching practice is not a workout for the arm; it is a rehearsal for the body. Stop sooner if the balance point gets wobbly or the stride starts to wander, because tired pitchers practice bad habits."
+      ],
+      "parentInstructions": [
+        "Start with no ball. Have your child hold the balance point for a count of one, five times in a row, without wobbling. Film it from the side so they can see whether they lean back.",
+        "Lay a towel or a chalk line from the pivot foot straight toward the target. Every stride foot should land on or next to the line with the toes pointed at the target.",
+        "Catch at 40 to 46 feet with a glove, crouching only if you have catcher's gear; otherwise stand and give a chest-high target. Count every pitch out loud and stop at 20, or 25 at most.",
+        "Watch the finish: chest over the front knee and glove ready. If your child falls off to the side, slow the delivery down and repeat the no-ball version.",
+        "Ask 'how does the arm feel' before, during, and after. Any answer other than 'fine' ends the session, and you tell the coach before the next practice.",
+        "Keep pitching practice to a day when your child did not pitch in a game and is not scheduled to pitch the next day. Check the league's rest table in the tracker when unsure.",
+        "Do not ask for a curveball. Celebrate strikes with a fastball and a changeup, which is a slower pitch thrown with the same arm speed and a deeper grip."
+      ],
+      "equipment": [
+        "glove",
+        "ball"
+      ],
+      "equipmentFreeAlternative": "Shadow the delivery with no ball: balance point hold, straight stride onto a chalk line, and finish in a fielding position, ten slow reps. Add a small towel held in the throwing hand and snap it toward a target at the end of the stride to feel the finish without a single throw.",
+      "steps": [
+        "Warm up with the throwing routine from the throwing lessons: jogging, arm circles, and easy catch building from 20 to 60 feet.",
+        "No-ball reps: from the stretch, lift to the balance point and hold for one count. Five reps. Then add the stride onto a chalk line and the finish. Five reps.",
+        "Towel reps: hold a small towel and go through the full delivery, snapping the towel toward a target held by a partner at the finish. Five reps.",
+        "Balance-point throws: lift, pause for one count at the balance point, then stride and throw to a partner at 40 feet at 60 to 70 percent effort. Eight pitches, counted out loud.",
+        "Full-speed-of-motion throws without the pause, at the same easy effort, to a chest-high target. Eight pitches, counted out loud.",
+        "Finish check: after each throw, freeze in the fielding position for one second. If the pitcher falls off to one side, do the next rep with no ball.",
+        "Stop at 20 pitches, or 25 if everything feels good; write the number down. Finish with an easy jog and a few arm circles.",
+        "Pitcher tells the parent or coach how the arm feels before leaving the field."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Rushing through the balance point and leaning toward the target early.",
+          "fix": "Hold the balance point for a count of one with no ball until it is steady, then add the ball."
+        },
+        {
+          "mistake": "Stride foot landing closed, toward third base for a right-hander.",
+          "fix": "Stride onto a chalk line and point the toes at the target. A closed stride makes the arm drag and pitches miss to the arm side."
+        },
+        {
+          "mistake": "Standing tall at the finish instead of bending forward over the front knee.",
+          "fix": "Say 'chest over knee' and have the pitcher touch the glove to the front knee at the end of no-ball reps."
+        },
+        {
+          "mistake": "Throwing too many pitches because practice is going well.",
+          "fix": "Set the cap before the first pitch and count out loud. Good practice ends on a good pitch, not an exhausted one."
+        },
+        {
+          "mistake": "Hiding a sore arm so they can keep pitching.",
+          "fix": "Make honesty the rule: telling an adult about pain is what good pitchers do, and it never gets a player in trouble."
+        }
+      ],
+      "cues": [
+        "Balance, then go",
+        "Lead with the hip",
+        "Stride to the line",
+        "Chest over knee",
+        "Finish ready to field",
+        "Count every pitch"
+      ],
+      "safety": [
+        "Cap this lesson at 20 to 25 pitches total, including misses, at about 70 percent effort. Count out loud and write the number down.",
+        "Follow the league's configured pitch-count and rest table in the GamePlanIQ tracker for all game pitches, and treat the official current Little League regulation as the authority when anything differs. Do not pitch on a required rest day or on a day the player also catches beyond what the rulebook allows.",
+        "Any pain in the arm, elbow, or shoulder means stop throwing immediately and tell a coach or parent. Soreness that lasts into the next day means no throwing until an adult has been told.",
+        "A partner receiving pitches in a crouch must wear full catcher's gear; otherwise the receiver stands and catches at chest height."
+      ],
+      "progression": {
+        "easier": "No-ball balance point and stride reps only, then towel reps. Add throws from 30 feet only when the balance point is steady.",
+        "harder": "Pitch from the full distance for your division to a geared catcher, pause the balance point on every other pitch, and add a changeup grip with the same arm speed, keeping the same pitch cap.",
+        "nextLessonId": "thr-13"
+      },
+      "tags": [
+        "pitching",
+        "pitcher",
+        "delivery",
+        "balance point",
+        "stride",
+        "pitch count",
+        "arm care",
+        "sore arm",
+        "curveball",
+        "changeup",
+        "kid wants to pitch",
+        "throws strikes"
+      ],
+      "drillIds": [
+        "drill-pos-07",
+        "drill-pos-08"
+      ]
+    },
+    {
+      "id": "mnt-01",
+      "title": "Confidence: The Next-Pitch Mentality",
+      "category": "mental",
+      "subcategory": "Confidence",
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to use a short reset routine between pitches so that the last pitch, good or bad, does not change how they play the next one.",
+      "summary": "Confidence is not a feeling you wait for; it is a routine you do. Learn the next-pitch reset: look, breathe, say your word, get ready.",
+      "video": {
+        "status": "placeholder",
+        "note": "The production video will show a batter stepping out after a swing and miss, looking at a spot on the bat, taking one breath, saying 'next pitch', and stepping back in with a relaxed face."
+      },
+      "explanation": [
+        "In baseball, something goes wrong on most plays. Hitters make an out far more often than they get a hit, fielders bobble balls, and pitchers miss the zone. Players who look confident are not players who never fail; they are players who know what to do after a bad pitch so it does not follow them to the next one. That is the next-pitch mentality: the only pitch you can do anything about is the one coming.",
+        "The next-pitch reset is a routine, a set of steps you do the same way every time. For a hitter it looks like this: step out of the batter's box with one foot, look at one spot such as the label on the bat or the foul pole, take one slow breath in through the nose and out through the mouth, say your cue word quietly, and step back in. Your cue word is a short phrase that tells your body it is time to play, like 'next pitch', 'see it', or 'ready'. The whole reset takes about five seconds.",
+        "Fielders and pitchers use the same idea. A fielder taps the glove, takes one breath, says the cue word, and gets into the ready position before the pitcher starts. A pitcher steps off the rubber, looks at the glove, breathes, and steps back on. The steps are different, but the job is the same: close the door on the last pitch and open the door on the next one.",
+        "Why does this work for kids? Because a busy brain cannot do two things at once. When your eyes are on one spot and you are counting a breath, there is no room left for 'I always miss' or 'everyone is watching'. The routine is not magic and it does not make the ball easier to hit. It just gives you a clean start on every pitch, and clean starts add up to better swings and better plays.",
+        "Parents and coaches help most by using the same words. Instead of 'shake it off', which does not tell the player what to do, say 'next pitch' or 'reset'. Praise the reset when you see it, especially after a strikeout or an error, because that is when it is hardest. A player who hears 'great reset' learns that the routine itself is the thing to be proud of."
+      ],
+      "parentInstructions": [
+        "Help your child choose one cue word or short phrase and one spot to look at. Let them pick; the routine belongs to them.",
+        "Practice the full reset five times at home with no ball: step out, look at the spot, one breath, cue word, step in. Time it; aim for about five seconds.",
+        "At practice or games, watch for the reset after a bad result. When you see it, that is what you mention on the way home, not the result.",
+        "Use the words 'next pitch' yourself instead of 'shake it off' or 'come on'.",
+        "Do not coach mechanics between pitches from the stands. The reset only works if the player's mind is quiet.",
+        "If your child forgets the routine, say nothing in the moment and practice it again at home. Routines take weeks to become habits."
+      ],
+      "equipment": [
+        "none"
+      ],
+      "equipmentFreeAlternative": "This lesson needs nothing. The reset can be practiced standing in line, in the backyard, in the dugout, or sitting in the car on the way to a game.",
+      "steps": [
+        "Choose a cue word or two-word phrase and one spot to look at. Say the word out loud three times so it feels normal.",
+        "Walk through the hitter's reset slowly with no bat: step out with one foot, eyes to the spot, one slow breath in and out, cue word, step back in, hands set.",
+        "Repeat five times, a little faster each time, until the whole routine takes about five seconds.",
+        "Now the fielder's version: glove tap, one breath, cue word, ready position. Five reps.",
+        "Add pretend situations. A parent or coach calls out 'you just swung at a pitch over your head' or 'you just booted a ground ball', and the player does the reset immediately.",
+        "Switch roles. The child calls out situations and the parent or teammate does the reset. Catch each other skipping a step.",
+        "Finish by having the player say the routine in their own words. If they can teach it, they own it."
+      ],
+      "durationMin": 10,
+      "commonMistakes": [
+        {
+          "mistake": "Skipping the reset after a good result and only using it after a bad one.",
+          "fix": "Do it every pitch. A routine that happens only after failure starts to feel like a punishment."
+        },
+        {
+          "mistake": "Looking at the parents or the dugout during the reset.",
+          "fix": "The spot must be something that does not talk back: the bat label, home plate, the foul pole."
+        },
+        {
+          "mistake": "Rushing the breath so it becomes a sniff.",
+          "fix": "Count 'in, two, three' and 'out, two, three' during practice until the slow breath is natural."
+        },
+        {
+          "mistake": "Choosing a long sentence as the cue.",
+          "fix": "Two words or fewer. The cue is a switch, not a speech."
+        }
+      ],
+      "cues": [
+        "Next pitch",
+        "Eyes to your spot",
+        "One breath",
+        "Say your word",
+        "Ready"
+      ],
+      "safety": [
+        "The reset is practiced with no ball and no bat swinging in the dugout or stands; swinging a bat in a crowded space is never part of the routine.",
+        "If a player seems upset rather than frustrated, stop the drill and talk. The reset is for the small stuff, not a reason to ignore a child who needs a break."
+      ],
+      "progression": {
+        "easier": "Just the breath and the cue word, practiced sitting down, with a parent saying the word first and the child repeating it.",
+        "harder": "Use the reset during live batting practice after every swing, and have a teammate score how many resets were completed in a row.",
+        "nextLessonId": "mnt-03"
+      },
+      "tags": [
+        "confidence",
+        "next pitch",
+        "reset routine",
+        "cue word",
+        "breathing",
+        "focus",
+        "gets down on himself",
+        "nervous at the plate",
+        "shake it off",
+        "mental skills for kids"
+      ],
+      "drillIds": [
+        "drill-mnt-01"
+      ]
+    },
+    {
+      "id": "mnt-02",
+      "title": "Sportsmanship: Teammates, Opponents, and Umpires",
+      "category": "mental",
+      "subcategory": "Sportsmanship",
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to go through the handshake line, thank the umpires, treat opponents with respect, and let the coach handle any disagreement about a call.",
+      "summary": "How you act toward teammates, opponents, and umpires is part of the game. Learn the handshake line, the thank-you to umpires, and what to do when a call goes against you.",
+      "video": {
+        "status": "placeholder",
+        "note": "The production video will show two teams going through the handshake line with eye contact and 'good game', then players stopping to thank the umpires and a coach calmly asking an umpire a question while players stay in the dugout."
+      },
+      "explanation": [
+        "Sportsmanship means treating everyone on the field the way you would want to be treated when you are the one who made the error or lost the game. Little League has a pledge that many leagues recite before games, and a big part of it is doing your best whether you win or lose. Sportsmanship is not something you have or do not have; it is a set of small actions you can practice like any other skill.",
+        "The handshake line happens after every game: line up with your team, walk slowly, look each opponent in the eye, and say 'good game'. Use a handshake, high five, or fist bump, whatever your league currently asks for. Say it the same way whether you won by ten or lost by ten. If you lost, this is the hardest and most important thirty seconds of the day. If you won, it is the moment to be humble, which means not bragging or celebrating in the other team's face.",
+        "Umpires are volunteers or paid officials who make dozens of fast decisions in every game, and some of those calls will go against you. On the field, umpires are often called 'Blue' because of their traditional uniform color. The rule for players is simple: you do not argue calls. If you think a call was wrong, you can ask your coach about it in the dugout, and the coach decides whether to talk to the umpire. After the game, walk past the umpires and say 'thank you, umpire' or 'thanks, Blue'; most players never do this, and umpires remember the ones who do.",
+        "Opponents are the reason you get to play. Help an opponent up if they fall near you, hand them a bat or helmet they dropped, and never say anything meant to make them feel bad. Cheering for your own team is great; chanting at the other team's hitter or pitcher is not, and many leagues have rules against it. Check your league's code of conduct for what is allowed in your division.",
+        "Teammates get your best sportsmanship too. Nobody on your team makes a mistake on purpose. When a teammate strikes out or makes an error, the first words they hear should be encouragement, like 'you battled' or 'next one is yours'. A team that picks each other up plays looser and has more fun, and that usually means playing better."
+      ],
+      "parentInstructions": [
+        "Practice the handshake line at home with the family. Eye contact, 'good game', and a handshake or high five. Make it silly and fun, then make it serious once.",
+        "Teach the exact words 'thank you, umpire'. Have your child say it to you while you pretend to be the umpire walking off the field.",
+        "Model it. Never yell at an umpire from the stands, and never discuss a bad call in the car in a way that blames the umpire for the result.",
+        "After a loss, your first comment to your child should be about their effort or their sportsmanship, not the score or the calls.",
+        "Explain that asking the coach a question about a call is fine, but arguing with the umpire is not, and that this is a rule even for grown-ups.",
+        "Point out great sportsmanship when you see it on TV or at other games so your child learns what it looks like."
+      ],
+      "equipment": [
+        "none"
+      ],
+      "equipmentFreeAlternative": "This lesson needs nothing. The handshake line and the umpire thank-you can be practiced in a living room with family members playing the other team and the umpire.",
+      "steps": [
+        "Line up two groups facing each other, or a family in a line with one person as the opponent.",
+        "Walk the line slowly. Each player makes eye contact, says 'good game', and uses the handshake, high five, or fist bump the league uses.",
+        "Run the line again as the team that just lost a close game. Same eye contact, same words, same pace.",
+        "Place one adult as the umpire walking off the field. Each player stops and says 'thank you, umpire' or 'thanks, Blue'.",
+        "Role-play a close call that goes against the team. The player walks back to the dugout quietly and asks the coach, 'What did you see on that play?' The coach answers, and the player says 'okay' and moves on.",
+        "Practice picking up a teammate: one player pretends to strike out, and the next three players each say one encouraging sentence.",
+        "Finish by asking each player to name one sportsmanship action they will do at the next game."
+      ],
+      "durationMin": 10,
+      "commonMistakes": [
+        {
+          "mistake": "Rushing through the handshake line without looking at anyone.",
+          "fix": "Slow the walk and make eye contact the rule. Say 'good game' to each person, not to the air."
+        },
+        {
+          "mistake": "Saying 'good game' sarcastically after a loss.",
+          "fix": "Practice the line as the losing team until the words sound the same either way."
+        },
+        {
+          "mistake": "Arguing a call or showing frustration at the umpire with body language.",
+          "fix": "Turn and walk to your position or dugout, do the next-pitch reset, and ask the coach later."
+        },
+        {
+          "mistake": "Chanting at the other team's pitcher or batter.",
+          "fix": "Cheer for your own teammate by name instead. Positive noise is still noise."
+        }
+      ],
+      "cues": [
+        "Eyes up, good game",
+        "Thank you, umpire",
+        "Coach talks, players play",
+        "Pick up your teammate",
+        "Win humble, lose proud"
+      ],
+      "safety": [
+        "Handshakes, high fives, or fist bumps follow whatever your league currently asks for. Follow the league's policy.",
+        "Players never approach an umpire to argue. Any discussion of a call happens between the coach and the umpire, with players in the dugout."
+      ],
+      "progression": {
+        "easier": "Practice only the handshake line and 'good game' with family members. Add the umpire thank-you when that is automatic.",
+        "harder": "Players lead the handshake line for the team without a coach reminding them and take turns being the player who talks to the coach about a call calmly.",
+        "nextLessonId": "mnt-04"
+      },
+      "tags": [
+        "sportsmanship",
+        "handshake line",
+        "good game",
+        "thank the umpire",
+        "blue",
+        "respect opponents",
+        "arguing calls",
+        "code of conduct",
+        "losing gracefully",
+        "kid is a sore loser",
+        "trash talk"
+      ],
+      "drillIds": [
+        "drill-mnt-02"
+      ]
+    },
+    {
+      "id": "mnt-03",
+      "title": "Handling Mistakes: The Flush Routine",
+      "category": "mental",
+      "subcategory": "Handling mistakes",
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to perform a five-step flush routine within ten seconds of a mistake and return to the ready position focused on the next play.",
+      "summary": "Every player makes errors. The flush routine is a quick way to let a mistake go: notice it, breathe, flush it with a gesture, name your next job, get ready.",
+      "video": {
+        "status": "placeholder",
+        "note": "The production video will show an infielder booting a ground ball, pausing to take a breath, making a small flush gesture with the glove hand, saying their next job out loud, and dropping back into the ready position before the next pitch."
+      },
+      "explanation": [
+        "Mistakes are part of baseball at every level. Big league infielders make errors, and big league hitters fail most of the time. The difference between players who get better and players who get stuck is not how many mistakes they make; it is what happens in the ten seconds after one. A mistake you keep thinking about tends to turn into a second mistake, because your eyes and mind are on the last play instead of this one.",
+        "The flush routine has five steps, and it takes less time than the pitcher needs to get the ball back. Step one, notice: say to yourself 'that's done', and step two, breathe: one slow breath in through the nose and out through the mouth. Step three, flush: make a small physical gesture that means 'gone', such as pulling an imaginary handle, brushing your shoulder, or picking up a pebble and tossing it off the field. Step four, next job: say out loud or in your head what you do on the next pitch, like 'ground ball, throw to first'. Step five, ready: get back into the ready position.",
+        "The gesture matters more than it seems. A body that does something sends a clear signal that the moment is over, and teammates can see you did it. Pick one gesture and use it every time, in practice and in games, so it becomes automatic. Keep it small and quiet; the flush is for you, not for the crowd.",
+        "The flush does not mean you do not care. Caring is why you want to fix things, and the right time to fix a mistake is at the next practice, not during the next pitch. After the game, you can ask the coach what to work on. During the game, your only job is the next play, and the flush is how you get there.",
+        "Parents can help by not re-coaching the mistake from the stands or in the first minute after the game. If your child did the flush and got back to ready, that is the thing to notice. A good question for the ride home is 'What did you flush today?' It turns the mistake into a story about recovery instead of a story about failure."
+      ],
+      "parentInstructions": [
+        "Help your child pick one flush gesture. Let them choose something small that they would be comfortable doing in front of teammates.",
+        "Practice the five steps at home with pretend mistakes. Call out 'you just dropped a fly ball' and time how long the routine takes. Ten seconds or less is the goal.",
+        "When you see a mistake in a game, watch for the flush instead of reacting to the error. Stay quiet in the moment.",
+        "On the ride home, ask 'What did you flush today?' before you ask about anything else that went wrong.",
+        "Save any coaching about the mistake itself for the next practice day, when you can work on the skill.",
+        "Use the routine yourself when you drop something or make a wrong turn. Kids copy what they see."
+      ],
+      "equipment": [
+        "none"
+      ],
+      "equipmentFreeAlternative": "This lesson needs nothing. Practice the five steps in the kitchen, the yard, or the dugout; the pretend mistakes are called out by a parent or teammate.",
+      "steps": [
+        "Learn the five steps in order: notice, breathe, flush, next job, ready. Say them out loud as a list three times.",
+        "Pick the flush gesture. Try two or three options and choose the one that feels natural.",
+        "Walk through the routine slowly with a parent or coach calling out one pretend mistake, such as 'you just threw the ball over the first baseman'.",
+        "Repeat with six different pretend mistakes covering hitting, fielding, and baserunning. Count the seconds; aim for under ten.",
+        "Add the next-job step for different positions: a shortstop says 'ground ball, throw to first', a hitter says 'see the ball, hit it hard', a runner says 'watch the coach'.",
+        "Switch roles so the child calls pretend mistakes for the adult or a teammate and checks that all five steps happen.",
+        "Use the routine during the next catch session or batting practice after every miss, with the adult saying only 'flush' as the reminder."
+      ],
+      "durationMin": 10,
+      "commonMistakes": [
+        {
+          "mistake": "Slamming the glove or kicking dirt instead of a small flush gesture.",
+          "fix": "The gesture is quiet and small. Big displays are a sign the mistake is still in charge."
+        },
+        {
+          "mistake": "Skipping the next-job step and just saying 'forget it'.",
+          "fix": "Naming the next job is the step that moves the mind forward. Always say what you do on the next pitch."
+        },
+        {
+          "mistake": "Flushing the mistake but then explaining it to teammates for the next three pitches.",
+          "fix": "Flushed means done. Talk about the play after the inning if you need to."
+        },
+        {
+          "mistake": "Parent or coach shouting corrections while the player is trying to flush.",
+          "fix": "Adults stay quiet for ten seconds after any mistake. Say 'flush' and nothing else."
+        }
+      ],
+      "cues": [
+        "That's done",
+        "Breathe",
+        "Flush it",
+        "What's my job",
+        "Ready"
+      ],
+      "safety": [
+        "The flush gesture never involves throwing equipment or a ball; throwing a glove or bat in frustration is unsafe and against most codes of conduct.",
+        "If a player is upset after a mistake, the adult talks with them away from the field before any more reps. The routine is a tool, not a substitute for checking in."
+      ],
+      "progression": {
+        "easier": "Just two steps: breathe and flush. Add the other three once the gesture is automatic.",
+        "harder": "Run the routine during live scrimmages after every mistake and have a teammate count completed flushes; add the routine after an umpire's call that goes against you.",
+        "nextLessonId": "mnt-05"
+      },
+      "tags": [
+        "handling mistakes",
+        "flush routine",
+        "errors",
+        "bounce back",
+        "frustration",
+        "next play",
+        "kid cries after errors",
+        "throws his glove",
+        "gets angry at himself",
+        "resilience",
+        "mental reset"
+      ],
+      "drillIds": [
+        "drill-mnt-03"
+      ]
+    },
+    {
+      "id": "mnt-04",
+      "title": "Teamwork: Being a Great Dugout Teammate",
+      "category": "mental",
+      "subcategory": "Teamwork",
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to cheer teammates by name, know the batting order and dugout jobs, and keep the dugout safe and organized during a game.",
+      "summary": "Half of every game is spent in the dugout. Learn how to cheer the right way, pick up a teammate after a strikeout, know who is up next, and keep the dugout safe.",
+      "video": {
+        "status": "placeholder",
+        "note": "The production video will show a dugout where players stand at the fence cheering a hitter by name, the on-deck hitter puts on a helmet in the right spot, and three teammates greet a player returning after a strikeout."
+      },
+      "explanation": [
+        "A baseball team bats half of every inning, which means every player spends about half the game in the dugout. A great dugout teammate makes the team better from the bench. That player is watching the game, knows how many outs there are, knows who hits next, and is the first voice a teammate hears after a good play or a bad one.",
+        "Cheering works best when it is loud, positive, and aimed at your own team. Cheer by name: 'Let's go, Maya' or 'Good eye, Jordan' tells a teammate you are watching them specifically. Chanting at the other team's pitcher or hitter is not cheering, and many leagues ban it; check your league's code of conduct. Noise that puts a teammate up is always allowed and always welcome.",
+        "Picking up a teammate means being the first to say something kind after a mistake or a strikeout. Keep it short and true: 'You battled', 'Good swing, next one is yours', or just a glove tap. Never tell a teammate what they did wrong when they come back to the dugout; the coach will handle that at practice. If every player is picked up by three teammates, nobody walks back to the bench alone.",
+        "Dugout jobs keep the game moving. Know the batting order, the list of who hits in what order, and listen for 'on deck', which means you hit next, and 'in the hole', which means you hit after that. The on-deck hitter gets a helmet on and waits in the spot the league allows. Bats stay in the rack or against the fence, never swung in the dugout. Some divisions do not allow on-deck hitters to swing at all; check your league's current Little League rulebook.",
+        "Safety in the dugout is a teamwork job too. Stay behind the fence with your fingers off the fence when a ball is in play, keep helmets and bats off the floor where someone could trip, and tell a coach right away if a teammate is hurt or feeling sick. A tidy, loud, friendly dugout is the sign of a team that likes playing together."
+      ],
+      "parentInstructions": [
+        "Practice three cheers at home that use a teammate's name. Make them short and fun so your child has them ready.",
+        "Role-play picking up a teammate: you walk in pretending you just struck out, and your child has to say one encouraging sentence before you sit down.",
+        "Review the words 'on deck' and 'in the hole' and quiz your child on what to do when they hear each one.",
+        "Before a game, ask your child what their dugout job will be today: cheering, tracking outs, or helping with helmets.",
+        "Notice the dugout on game day. If your child was cheering and picking up teammates, say so on the ride home; it counts as much as a hit.",
+        "Agree on a no-negative-chatter rule as a family and explain why: teams that cheer for each other have more fun."
+      ],
+      "equipment": [
+        "none"
+      ],
+      "equipmentFreeAlternative": "This lesson needs nothing. Cheers, pick-up phrases, and batting-order practice work at a kitchen table or on a couch with the family as the team.",
+      "steps": [
+        "Make a list of five positive cheers that use a teammate's name. Each player says all five out loud.",
+        "Practice the pick-up: one player walks in pretending they just struck out, and the next three players each say one kind sentence or give a glove tap.",
+        "Write a pretend batting order on paper. The coach calls out a hitter's name and the players say who is on deck and who is in the hole.",
+        "Walk through the on-deck routine: find the helmet, put it on, go to the spot the league allows, and watch the pitcher while waiting.",
+        "Set up a pretend dugout with bats and helmets in a safe spot. Practice putting gear back where it belongs after each pretend at-bat.",
+        "Track outs: the coach describes plays and the players hold up fingers for the number of outs. Ten plays.",
+        "Finish by having each player name their dugout job for the next game."
+      ],
+      "durationMin": 10,
+      "commonMistakes": [
+        {
+          "mistake": "Sitting silently at the end of the bench watching something else.",
+          "fix": "Stand at the fence when your team is hitting and give each hitter one cheer by name."
+        },
+        {
+          "mistake": "Telling a returning teammate what they did wrong.",
+          "fix": "Only encouragement in the dugout. Coaching happens at practice from the coach."
+        },
+        {
+          "mistake": "Not knowing you are on deck until someone yells.",
+          "fix": "Check the batting order every inning and say to yourself who is up before and after you."
+        },
+        {
+          "mistake": "Swinging a bat in the dugout or near teammates.",
+          "fix": "Bats are swung only in the on-deck area the league allows, and only when the coach says it is safe."
+        },
+        {
+          "mistake": "Chanting at the other team.",
+          "fix": "Turn the same energy into a cheer for your own hitter by name."
+        }
+      ],
+      "cues": [
+        "Cheer by name",
+        "Pick them up",
+        "Know who is on deck",
+        "Bats stay down",
+        "Watch the game"
+      ],
+      "safety": [
+        "Bats are never swung in the dugout. On-deck swinging happens only where and when your league's current Little League rulebook allows it for your division.",
+        "Keep helmets and bats off the dugout floor and fingers off the fence while the ball is in play.",
+        "Tell a coach immediately if a teammate is hurt, overheated, or not acting like themselves."
+      ],
+      "progression": {
+        "easier": "Learn one cheer and one pick-up phrase and use them at the next game. Add dugout jobs later.",
+        "harder": "Players run the dugout themselves: one keeps the batting order, one tracks outs, and each player cheers every hitter with no coach reminders for a full game.",
+        "nextLessonId": "mnt-06"
+      },
+      "tags": [
+        "teamwork",
+        "dugout",
+        "cheering",
+        "on deck",
+        "in the hole",
+        "batting order",
+        "picking up teammates",
+        "dugout safety",
+        "team chemistry",
+        "kid sits alone in the dugout",
+        "chatter"
+      ],
+      "drillIds": [
+        "drill-mnt-04"
+      ]
+    },
+    {
+      "id": "mnt-05",
+      "title": "Preparation: Building a Pre-Game Routine",
+      "category": "mental",
+      "subcategory": "Preparation",
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevel": "intermediate",
+      "objective": "The player will be able to follow a written pre-game checklist from the night before through the first pitch so that arriving at the field feels calm and ready.",
+      "summary": "Being ready is a routine, not luck. Build a pre-game checklist for the night before, the morning of, and the first thirty minutes at the field.",
+      "video": {
+        "status": "placeholder",
+        "note": "The production video will show a player packing a bag the night before, arriving at the field and greeting the coach, jogging and stretching, going through the throwing warm-up, and taking a quiet breath before the first pitch."
+      },
+      "explanation": [
+        "A pre-game routine is a set of steps you do the same way before every game so that your body and mind know it is time to play. Players who have a routine arrive calm because nothing is a surprise: the bag is packed, the warm-up is familiar, and the first pitch arrives on schedule. Players without a routine spend the first inning looking for a batting glove and wondering if they are ready. The routine is how you answer that question before it is asked.",
+        "The routine starts the night before. Pack the bag with glove, cleats, hat, water bottle, a protective cup where required, sunscreen, and any batting gloves or your own helmet; set the uniform out; charge nothing except yourself by going to bed at a normal time. In the morning, eat the kind of familiar meal you would eat on any day a couple of hours before you play, and drink water during the day. This is not a diet plan; it is simply not trying anything new on game day.",
+        "At the field, arrive when the coach asks, usually 30 to 45 minutes before the first pitch. Greet the coach, put your gear where the team keeps it, and start moving: a jog, then dynamic stretches such as high knees, skips, and arm circles. Then the throwing warm-up, starting close and easy and backing up as the arm loosens, the same way every time. A few swings with a bat only in the area the league allows. Then sit for one minute, take a breath, and think about your job in the first inning: what you do if the ball is hit to you with nobody on base.",
+        "The last part of the routine is a focus word or short phrase that you say to yourself when the umpire says 'play ball'. It can be the same cue word you use for the next-pitch reset. The point is that your routine has a clear end, and after that moment you are playing, not preparing.",
+        "Parents help by protecting the routine, not running it. Leave on time, do not add last-minute instructions in the car, and let your child pack the bag themselves with a checklist on the wall. A forgotten glove once is a better teacher than a parent who packs the bag forever."
+      ],
+      "parentInstructions": [
+        "Write the checklist with your child and post it where the equipment lives. Let your child check boxes; you only check the list the first few times.",
+        "Keep game-day meals and drinks ordinary and familiar. Game day is not the day to try a new food or a new sports drink.",
+        "Plan to arrive when the coach asks, not at first pitch. The warm-up is part of the game, not optional.",
+        "In the car, talk about anything except baseball instructions. Music, school, or a joke keeps the mind calm.",
+        "After the game, ask which part of the routine helped and which part got skipped. Adjust the checklist together.",
+        "If your child is nervous, the routine is the answer: 'You packed the bag, you warmed up, you are ready. Now go play.'"
+      ],
+      "equipment": [
+        "none"
+      ],
+      "equipmentFreeAlternative": "This lesson needs nothing. Build the checklist on paper, then rehearse arriving at the field, jogging, stretching, and shadow throwing in the yard without a ball.",
+      "steps": [
+        "Divide a page into three sections: night before, morning of, and at the field.",
+        "Night before: list the bag contents one item at a time, the uniform, and bedtime. Have the player say why each item matters.",
+        "Morning of: list a familiar meal a couple of hours before, water through the day, and leaving on time.",
+        "At the field: list greet the coach, gear in its place, jog, dynamic stretches, throwing warm-up from close to far, a few swings where allowed, one quiet minute, and the focus word.",
+        "Walk through the at-the-field section in the yard with no ball: jog, stretch, shadow throws from short to long, then the quiet minute.",
+        "Rehearse the night-before section for real before the next game using the written checklist.",
+        "After the game, review the checklist and change anything that did not work. Keep the routine as short as possible while still complete.",
+        "Repeat for three games until the checklist is memorized, then keep it posted as a backup."
+      ],
+      "durationMin": 15,
+      "commonMistakes": [
+        {
+          "mistake": "Arriving at first pitch and skipping the warm-up.",
+          "fix": "Put the coach's arrival time on the checklist and plan backward from it."
+        },
+        {
+          "mistake": "Trying a new food, drink, or piece of equipment on game day.",
+          "fix": "Game day is for familiar things only. Test anything new at practice."
+        },
+        {
+          "mistake": "Parents packing the bag so the child never learns the routine.",
+          "fix": "Hand the checklist to the player. A forgotten item once teaches more than a reminder every week."
+        },
+        {
+          "mistake": "A routine so long it causes stress.",
+          "fix": "Cut it to the items that matter. Short and repeatable beats long and perfect."
+        }
+      ],
+      "cues": [
+        "Pack it the night before",
+        "Same warm-up every time",
+        "Close to far",
+        "One quiet minute",
+        "Say your word, then play"
+      ],
+      "safety": [
+        "The throwing part of the warm-up follows the warm-up throwing routine from the throwing lessons: start close and easy, back up gradually, and never throw hard with a cold arm.",
+        "Swings happen only in the area your league allows, with a helmet on, and with nobody within two bat lengths.",
+        "Water goes in the bag every time, and the routine includes drinking before the game begins, not just after."
+      ],
+      "progression": {
+        "easier": "A three-item checklist: bag packed, arrive on time, warm up with the team. Add items as they become habits.",
+        "harder": "The player writes and runs the full routine alone, including leading the team's dynamic warm-up when the coach asks.",
+        "nextLessonId": "thr-11"
+      },
+      "tags": [
+        "pre-game routine",
+        "preparation",
+        "checklist",
+        "packing the bag",
+        "warm-up",
+        "game day",
+        "nervous before games",
+        "forgets equipment",
+        "arrives late",
+        "focus word",
+        "mental preparation"
+      ],
+      "drillIds": [
+        "drill-mnt-05"
+      ]
+    },
+    {
+      "id": "mnt-06",
+      "title": "Healthy Competition: Effort Over Outcome",
+      "category": "mental",
+      "subcategory": "Healthy competition",
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevel": "beginner",
+      "objective": "The player will be able to set three effort goals before a game or practice and score themselves on those goals afterward instead of on the scoreboard.",
+      "summary": "Competing hard is good; judging yourself only by the score is not. Learn to set effort goals you control and to measure your day by them, with words parents can echo.",
+      "video": {
+        "status": "placeholder",
+        "note": "The production video will show a player and parent choosing three effort goals before a game, the player sprinting out a routine ground ball, and the two of them scoring the goals together afterward with the final score never mentioned."
+      },
+      "explanation": [
+        "Baseball is a game, and games have winners and losers. Wanting to win is healthy; it is why you practice. The problem comes when the score is the only way you judge yourself, because the score depends on the other team, your teammates, the umpire, and plain luck. You can play your best game of the year and lose. Effort over outcome means measuring yourself by the things you control and letting the score be the score.",
+        "Effort goals are specific actions you can do on purpose no matter what the other team does. Good ones are things like 'sprint to first base on every ball I hit', 'be in the ready position on every pitch', 'call for every fly ball near me', or 'cheer each teammate by name'. A bad effort goal is 'get two hits', because a hard-hit ball can land in a glove. Pick three before every game or practice and say them out loud to a parent or coach.",
+        "After the game, score your effort goals, not the game. Give yourself a two if you did it every time, a one if you did it most of the time, and a zero if you forgot. Six is a perfect day, and a perfect effort day can happen in a loss. Then pick one thing to try next time. This is how players get better: one controllable thing at a time.",
+        "Competing against yourself does not mean going easy. Play hard, run hard, and try to win every inning. The difference is what you say when it is over. 'We lost but I sprinted every ball and called every fly' is a true sentence that makes you want to play again. 'We lost so I was bad' is not true and makes you want to quit.",
+        "Parents have the most powerful voice here. Three sentences that work: 'I loved watching you play.' 'You ran hard on that ground ball.' 'What did you try today that was hard?' Avoid making 'Did you win?' the first question after a game, and avoid comparing your child to teammates. When the adults at home talk about effort, the child learns to measure effort."
+      ],
+      "parentInstructions": [
+        "Before each game or practice, ask your child to tell you their three effort goals. Write them on a sticky note and keep it in the car.",
+        "During the game, notice the effort goals when they happen. A thumbs-up from the stands when your child sprints out a ground ball is enough.",
+        "After the game, score the three goals together before anyone mentions the final score or anyone's statistics.",
+        "Use the three sentences: 'I loved watching you play', 'You ran hard on that ground ball', and 'What did you try today that was hard?'",
+        "When your child is upset about a loss, let them be upset for a bit, then return to the effort scoreboard. Do not pretend the loss did not matter; show that it is not the only thing that matters.",
+        "Do not compare your child to a teammate or an older sibling. Compare them only to their own last game."
+      ],
+      "equipment": [
+        "none"
+      ],
+      "equipmentFreeAlternative": "This lesson needs nothing. Effort goals are set and scored with a conversation and a sticky note, at the field, at home, or in the car.",
+      "steps": [
+        "Explain the difference between an outcome, something that depends on other people and luck, and an effort, something you can choose to do. Sort five examples together.",
+        "Brainstorm ten effort goals for hitting, fielding, baserunning, and the dugout. Cross out any that depend on results.",
+        "Pick three for the next game or practice and say them out loud to a parent or coach.",
+        "Play or practice. Parents and coaches watch for the goals and say nothing about results during play.",
+        "Afterward, score each goal zero, one, or two and add them up. Six is a perfect effort day.",
+        "Choose one goal to keep and one new goal to try next time.",
+        "Repeat for a month and look back at the scores. Effort scores that climb are the real sign of improvement."
+      ],
+      "durationMin": 10,
+      "commonMistakes": [
+        {
+          "mistake": "Choosing effort goals that are really outcome goals, like 'get a hit'.",
+          "fix": "Ask, 'Can you do this even if the other team plays perfectly?' If not, it is an outcome."
+        },
+        {
+          "mistake": "Scoring the goals only after wins.",
+          "fix": "Score every game and every practice, especially the losses. That is when the effort scoreboard matters most."
+        },
+        {
+          "mistake": "Parents asking 'Did you win?' as the first question.",
+          "fix": "Make 'How did your three goals go?' the first question every time."
+        },
+        {
+          "mistake": "Giving a two for every goal to be nice.",
+          "fix": "Honest scores teach more. A one with a plan to improve is better than a fake two."
+        }
+      ],
+      "cues": [
+        "Three goals I control",
+        "Sprint every ball",
+        "Score the effort",
+        "One thing to try next time",
+        "I loved watching you play"
+      ],
+      "safety": [
+        "Effort goals never include throwing more or harder, since pitch counts and arm care still apply; 'count my pitches' is a good effort goal.",
+        "Hustle goals like sprinting to first are done with the same running-through-the-bag rules taught in baserunning lessons so that effort never means playing unsafely."
+      ],
+      "progression": {
+        "easier": "One effort goal per game, scored with a simple yes or no.",
+        "harder": "The player sets goals for a whole week of practices and games, tracks them in a notebook, and explains to the coach which goal has improved most.",
+        "nextLessonId": null
+      },
+      "tags": [
+        "effort over outcome",
+        "healthy competition",
+        "effort goals",
+        "process goals",
+        "winning and losing",
+        "what to say after the game",
+        "car ride home",
+        "kid only cares about winning",
+        "quits when losing",
+        "growth",
+        "parent language"
+      ],
+      "drillIds": [
+        "drill-mnt-06"
+      ]
+    }
+  ]
+}

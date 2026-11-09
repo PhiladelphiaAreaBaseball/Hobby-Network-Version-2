@@ -1,0 +1,1423 @@
+{
+  "$schema": "drill",
+  "items": [
+    {
+      "id": "drill-fld-01",
+      "name": "Ready Position Freeze Game",
+      "category": "fielding",
+      "skillFocus": [
+        "ready_position",
+        "warmup",
+        "fun"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8",
+        "a9_10"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "This drill needs nothing but a voice. If you want a visual, draw a chalk home plate so players know which way to face.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "indoor_small",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 10,
+      "participantsMin": 2,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "warmup",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Players spread out at arm's length from each other, all facing the parent or coach who will do the calling. No ball is needed.",
+      "instructions": [
+        "Call 'Pitcher's ready!' Every player hops into the ready position: feet wider than the shoulders, knees bent, bottom down, hands out in front with palms facing the caller.",
+        "Count out loud to three while they freeze. Walk around and check gently: feet wider than shoulders, weight on the balls of the feet, hands floating in front of the knees instead of resting on them.",
+        "Call 'Relax!' and let everyone stand tall and shake out their legs for a few seconds.",
+        "Repeat, mixing in silly words like 'Pizza!' or 'Statue!' that do not mean get ready, so players have to listen for the real cue.",
+        "Add the little hop: on 'Pitcher's ready!' players take a tiny two-foot hop and land in the ready position, the way a fielder lands as the pitch crosses the plate."
+      ],
+      "reps": "8 to 10 freezes with a 5-second shake-out between each",
+      "cues": [
+        "Bottom down, hands out",
+        "Weight on your toes, not your heels",
+        "Freeze like a statue"
+      ],
+      "parentTip": "Watch the hands. Many kids rest their hands on their knees, which looks ready but is not; the hands should float in front of the body so they can drop straight to the ground.",
+      "safety": [
+        "Keep players at least an arm's length apart so nobody bumps into a neighbor while hopping.",
+        "Use a flat, dry surface; a wet garage floor or driveway is a slip hazard for a hopping child."
+      ],
+      "funVariation": "Make it an elimination game: anyone who wobbles during the freeze, or gets ready on a fake word, does three jumping jacks and rejoins. The last statue standing picks the next silly word.",
+      "lessonId": "fld-01",
+      "diagram": {
+        "items": [
+          {
+            "id": "c1",
+            "kind": "coach",
+            "x": 200,
+            "y": 330,
+            "label": "C"
+          },
+          {
+            "id": "b1",
+            "kind": "bucket",
+            "x": 225,
+            "y": 330
+          },
+          {
+            "id": "p1",
+            "kind": "player",
+            "x": 150,
+            "y": 210,
+            "label": "1"
+          },
+          {
+            "id": "p2",
+            "kind": "player",
+            "x": 200,
+            "y": 200,
+            "label": "2"
+          },
+          {
+            "id": "p3",
+            "kind": "player",
+            "x": 250,
+            "y": 210,
+            "label": "3"
+          },
+          {
+            "id": "k1",
+            "kind": "cone",
+            "x": 130,
+            "y": 225
+          },
+          {
+            "id": "k2",
+            "kind": "cone",
+            "x": 270,
+            "y": 225
+          },
+          {
+            "id": "g1",
+            "kind": "glove",
+            "x": 300,
+            "y": 245,
+            "label": "target"
+          }
+        ],
+        "arrows": [
+          {
+            "id": "a1",
+            "from": {
+              "x": 200,
+              "y": 318
+            },
+            "to": {
+              "x": 200,
+              "y": 215
+            },
+            "kind": "move"
+          },
+          {
+            "id": "a2",
+            "from": {
+              "x": 212,
+              "y": 200
+            },
+            "to": {
+              "x": 288,
+              "y": 243
+            },
+            "kind": "throw"
+          }
+        ],
+        "note": "Coach rolls from home; fielder charges, fields with the triangle, throws to the target glove at first."
+      }
+    },
+    {
+      "id": "drill-fld-02",
+      "name": "Driveway Triangle Rolls",
+      "category": "fielding",
+      "skillFocus": [
+        "ground_balls",
+        "glove_work"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "tennis_ball"
+      ],
+      "equipmentFreeVariant": "Roll a tightly wound sock ball instead of a tennis ball and field it with bare hands. The triangle shape and the watch-it-in habit are exactly the same.",
+      "locations": [
+        "driveway",
+        "garage",
+        "indoor_small",
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 15,
+      "participantsMin": 2,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "light",
+      "setup": "The child stands in the ready position, with or without a glove. The parent kneels or crouches 12 to 15 feet away holding a tennis ball. At team practice one roller works a short line of up to three fielders who rotate after every ball.",
+      "instructions": [
+        "Before every roll the child sets the triangle: feet wider than the shoulders, bottom down, glove reaching out in front so the two feet and the glove make three points of a triangle on the ground.",
+        "Roll the ball underhand with a bowling motion, slow and straight at the glove. Aim for the glove side first and add the bare-hand side only after five clean catches in a row.",
+        "The child watches the ball all the way into the glove, closes the bare hand on top like an alligator mouth, and brings the ball to the belly.",
+        "The child rolls or flips the ball back underhand. No hard throws on a driveway or inside a garage.",
+        "Every fifth ball, say 'Freeze!' at the moment of the catch and check three things: glove out front, bottom down, head still."
+      ],
+      "reps": "3 sets of 8 rolls, standing up to shake out the legs between sets",
+      "cues": [
+        "Make the triangle",
+        "Glove out front, fingers down",
+        "Watch it in, alligator chomp"
+      ],
+      "parentTip": "If the glove is tucked between the feet or under the belly, the child cannot see the ball into it. Ask them to reach toward you until you can see the whole pocket from where you kneel.",
+      "safety": [
+        "Tennis balls only on concrete; a tennis ball that skips into a face stings but does no harm.",
+        "Clear bikes, toys, and cars out of the way, and never roll toward the street."
+      ],
+      "funVariation": "Count streaks out loud. A clean catch adds one, a bobble resets to zero, and a new record earns the child the right to roll five balls to the parent and grade the parent's triangle.",
+      "lessonId": "fld-02"
+    },
+    {
+      "id": "drill-fld-03",
+      "name": "Sock Ball Rolls for Little Ones",
+      "category": "fielding",
+      "skillFocus": [
+        "ground_balls",
+        "confidence",
+        "fun"
+      ],
+      "ageGroups": [
+        "a4_6"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "Make the ball by rolling two socks tightly into each other; that is the whole kit. Add a glove later only if the child asks for one.",
+      "locations": [
+        "indoor_small",
+        "garage",
+        "driveway",
+        "backyard"
+      ],
+      "minSpaceFt": 8,
+      "participantsMin": 2,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 6,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "light",
+      "setup": "Sit or kneel 6 to 8 feet from the child on carpet, grass, or a smooth floor. The child stands with feet wide, bottom down, and both hands open in front like a bucket.",
+      "instructions": [
+        "Show your own hands first: palms up, pinkies touching, fingers pointing at the floor. Have the child copy you and say 'bucket hands' together.",
+        "Roll the sock ball slowly along the ground straight into the bucket. Say 'ball!' as it leaves your hand so the child knows it is coming.",
+        "The child scoops with both hands, hugs the ball to the belly, then holds it up to show you.",
+        "The child rolls it back any way they like; the return roll is not being graded today.",
+        "After ten scoops in a row, roll one a single step to the left and the next a single step to the right so the child learns to slide the feet to the ball."
+      ],
+      "reps": "15 to 20 rolls total, stopping while the child still wants more",
+      "cues": [
+        "Bucket hands",
+        "Hug it to your belly",
+        "Feet first, then hands"
+      ],
+      "parentTip": "Watch the head. If the child looks up at you before the ball arrives, slow the roll down and ask them to tell you what color the ball is as it reaches their hands.",
+      "safety": [
+        "A sock ball is the right first ball because it cannot hurt even if it hits a face.",
+        "Choose a spot away from table corners and stairs; four-year-olds chase anything that gets past them."
+      ],
+      "funVariation": "Name each roll after an animal: a turtle roll is slow and straight, a bunny roll gets a little hop, a snake roll wiggles to one side. The child calls out which animal they caught.",
+      "lessonId": "fld-03"
+    },
+    {
+      "id": "drill-fld-04",
+      "name": "Fingers Down, Fingers Up Flip Game",
+      "category": "fielding",
+      "skillFocus": [
+        "glove_work",
+        "ready_position"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "soft_ball",
+        "glove"
+      ],
+      "equipmentFreeVariant": "Use a sock ball and bare hands. Below the waist the pinkies touch with fingers pointing down; above the waist the thumbs touch with fingers pointing up.",
+      "locations": [
+        "indoor_small",
+        "garage",
+        "driveway",
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 10,
+      "participantsMin": 2,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 6,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "light",
+      "setup": "The parent stands 8 feet from the child with a soft safety ball. The child wears a glove and starts in the ready position.",
+      "instructions": [
+        "Call 'Down!' and toss an easy underhand ball that arrives below the child's waist. The glove turns so the fingers point at the ground and the pocket faces you.",
+        "Call 'Up!' and toss a ball that arrives at chest height. The glove turns so the fingers point at the sky.",
+        "The child shows you the catch, then flips the ball back underhand.",
+        "After six called tosses, stop calling and let the child read the ball and choose: fingers down for anything below the belly button, fingers up for anything above it.",
+        "Add the bare hand: it covers the ball on top for low balls and slides in beside the glove for high ones."
+      ],
+      "reps": "2 rounds of 10 tosses, half low and half high, mixed up in the second round",
+      "cues": [
+        "Below the belt, fingers down",
+        "Above the belt, fingers up",
+        "Turn the glove, not your face"
+      ],
+      "parentTip": "The classic error is a glove that stays fingers-up on a low ball so the ball rolls under it. If you see that, stop and toss three low balls in a row until the glove turns on its own.",
+      "safety": [
+        "Soft safety balls only for ages 4-8; a real baseball off the chin ends the fun for weeks.",
+        "Toss from the front at close range so every ball is easy to see coming."
+      ],
+      "funVariation": "Score it like a quiz show: one point for the right glove position even if the ball drops, two points for position plus a catch. First to 15 wins and becomes the tosser.",
+      "lessonId": "fld-04"
+    },
+    {
+      "id": "drill-fld-05",
+      "name": "Right-Left-Throw Shadow Footwork",
+      "category": "fielding",
+      "skillFocus": [
+        "footwork",
+        "transfers"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "This is a no-ball drill by design. Put a shoe or a chalk X on the ground to mark where the pretend ball is.",
+      "locations": [
+        "indoor_small",
+        "garage",
+        "driveway",
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 10,
+      "participantsMin": 1,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "Players line up facing an imaginary first base, each with a shoe or chalk mark on the ground in front of them to stand in for the ball.",
+      "instructions": [
+        "Start in the fielding triangle over the mark: feet wider than the shoulders, bottom down, glove hand out front with fingers down, bare hand hovering on top.",
+        "Say 'field' and pretend to funnel the ball to the belly while rising to a tall athletic position.",
+        "Say 'right' and step the right foot in front of the left, pointing the toes toward the target. Left-handed throwers mirror everything: left foot first, then right.",
+        "Say 'left' and step the left foot straight at the target so the front shoulder points there too.",
+        "Say 'throw' and shadow a gentle throw with no ball, finishing with the chest over the front knee.",
+        "Speed up only when the steps come in the right order every single time. Slow and correct beats fast and sloppy."
+      ],
+      "reps": "3 sets of 8 slow repetitions, then 1 set of 8 at game speed",
+      "cues": [
+        "Field, right, left, throw",
+        "Toes to the target",
+        "Stay low through the steps"
+      ],
+      "parentTip": "Stand where the target would be and watch the front foot. If the last step lands pointing at you, the throw will come to you; if it points off to the side, the throw will sail that way.",
+      "safety": [
+        "Give each player a full arm span of room so shadow throws do not clip a neighbor.",
+        "Shadow throws are easy motions, not full-effort dry throws, which can strain a cold arm."
+      ],
+      "funVariation": "Play Simon Says with the four words. Anyone who moves on a word that did not start with 'Simon says' sits out one round and then jumps back in.",
+      "lessonId": "fld-05"
+    },
+    {
+      "id": "drill-fld-06",
+      "name": "Cone Angle Grounders",
+      "category": "fielding",
+      "skillFocus": [
+        "footwork",
+        "ground_balls",
+        "reading_ball"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "tennis_ball",
+        "cones"
+      ],
+      "equipmentFreeVariant": "Use two shoes or sweatshirts as the cones and a sock ball or tennis ball; the roller just has to roll a little harder on grass.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 40,
+      "participantsMin": 2,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 10,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "moderate",
+      "setup": "Place two cones 15 feet apart on a line. The fielder starts 10 feet behind the cones, centered between them. The roller stands 30 to 40 feet in front with several tennis balls.",
+      "instructions": [
+        "Roll a firm ground ball toward the left cone. The fielder moves on a curve, not a straight line, so the last two steps come forward and slightly toward the throwing side, finishing in the triangle just inside the cone.",
+        "The fielder fields the ball, does the right-left footwork, and throws to the roller's chest at an easy pace.",
+        "The next ball goes toward the right cone. The fielder rounds the ball again so the body ends up behind it instead of reaching sideways.",
+        "Alternate sides for eight balls, then mix them up so the fielder has to read the direction off your hand.",
+        "After each throw the fielder jogs back behind the cones and resets in the ready position."
+      ],
+      "reps": "2 rounds of 8 ground balls (4 to each side), resting while a partner takes a round",
+      "cues": [
+        "Round it, don't reach for it",
+        "Get behind the ball, then through it",
+        "Right, left, throw"
+      ],
+      "parentTip": "Watch the path of the feet. A straight sideways run leaves the child reaching across the body; a banana-shaped path puts the chest behind the ball and the momentum toward you.",
+      "safety": [
+        "Tennis balls or soft balls only in a backyard; firm grounders with a hard baseball belong on a field with good footing.",
+        "The throws back are real throws, so run this after a few minutes of easy catch, never with a cold arm."
+      ],
+      "funVariation": "Call a color before each roll: 'blue' means the left cone, 'red' means the right. A clean field plus a chest-high throw earns a point; throwing before the feet are set loses one.",
+      "lessonId": "fld-05"
+    },
+    {
+      "id": "drill-fld-07",
+      "name": "Backhand Rolls Across the Body",
+      "category": "fielding",
+      "skillFocus": [
+        "footwork",
+        "glove_work",
+        "ground_balls"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "soft_ball",
+        "glove"
+      ],
+      "equipmentFreeVariant": "Use a tennis ball and the bare glove hand: turn the thumb down and the palm toward the ball, which teaches the same wrist position the glove needs.",
+      "locations": [
+        "driveway",
+        "garage",
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 20,
+      "participantsMin": 2,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "light",
+      "setup": "The child waits in the ready position wearing a glove. The roller kneels 15 to 20 feet away, offset toward the child's glove side, so every roll travels across the body to the throwing-hand side.",
+      "instructions": [
+        "Roll a slow ball two steps to the child's throwing-hand side (the right side for a right-handed thrower).",
+        "The child crosses over with the glove-side foot, plants the throwing-side foot, and drops the glove low with the thumb pointing down and the fingers pointing at the ground, so the pocket faces the ball like a shovel blade.",
+        "Head down, eyes to the pocket. The bare hand cannot help on a true backhand, so the eyes do all the work.",
+        "The child stands up, flips the ball back underhand, and resets.",
+        "Progress from a slow roll to a medium roll, then from two steps away to three steps away."
+      ],
+      "reps": "3 sets of 6 backhands, with easy flips as the rest between sets",
+      "cues": [
+        "Thumb down, fingers down",
+        "Cross over, then plant",
+        "Eyes to the pocket"
+      ],
+      "parentTip": "Look at the glove at the instant the ball arrives. If you can see the back of the child's hand, the glove is tilted and the ball will roll off; the pocket should be a flat wall facing you.",
+      "safety": [
+        "Soft balls or tennis balls for backhand work at home; a hard baseball skipping past the glove side can catch the ribs.",
+        "On a driveway, roll gently and face the child toward the garage so a missed ball never heads for the street."
+      ],
+      "funVariation": "Shovel Game: every clean backhand is one scoop of dirt into an imaginary wheelbarrow. Fill it with ten scoops before three balls get past and the wheelbarrow tips over.",
+      "lessonId": "fld-06"
+    },
+    {
+      "id": "drill-fld-08",
+      "name": "Forehand Reach, Plant, and Throw",
+      "category": "fielding",
+      "skillFocus": [
+        "footwork",
+        "ground_balls",
+        "throwing_motion"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "soft_ball",
+        "glove"
+      ],
+      "equipmentFreeVariant": "Use a tennis ball bare-handed and have the fielder jog the ball back instead of throwing it; the reach, the plant, and the push back toward the target are the parts that matter.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 40,
+      "participantsMin": 2,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 10,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "moderate",
+      "setup": "The fielder starts in the ready position. The roller stands 30 to 40 feet away with several soft balls, offset toward the fielder's glove side. A target (parent, teammate, or bucket) waits where first base would be.",
+      "instructions": [
+        "Roll a ground ball three steps to the glove side (the left side for a right-handed thrower).",
+        "The fielder shuffles two steps, then reaches with the glove, fingers down, while the glove-side foot plants on the far side of the ball.",
+        "Field the ball in front of the planted foot, then push off that foot back toward the target.",
+        "Hop onto the throwing-side foot, step at the target with the glove-side foot, and throw.",
+        "Jog back to the start, reset, and take the next roll one step farther away."
+      ],
+      "reps": "2 rounds of 6 forehands with a full reset between balls",
+      "cues": [
+        "Plant outside the ball",
+        "Push back to the target",
+        "Chest to the base before you throw"
+      ],
+      "parentTip": "Watch the plant foot stop the body. A fielder who keeps drifting toward the glove side after the catch throws late and off line; the planted foot should work like a brake and then a spring.",
+      "safety": [
+        "Play easy catch for a few minutes first; these throws come right after a change of direction and need loose muscles.",
+        "Soft balls in a backyard, hard baseballs only on a field."
+      ],
+      "funVariation": "Range Ladder: start with rolls two steps away and move one step farther after every two clean plays. See how many steps the fielder can cover before a ball gets by.",
+      "lessonId": "fld-07"
+    },
+    {
+      "id": "drill-fld-09",
+      "name": "Sock Ball Transfer Flips",
+      "category": "fielding",
+      "skillFocus": [
+        "transfers",
+        "glove_work"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "Already equipment-free: a rolled sock is the ball, and bare hands work if there is no glove. With bare hands, catch in the non-throwing hand and pass to the throwing hand.",
+      "locations": [
+        "indoor_small",
+        "garage",
+        "driveway",
+        "backyard"
+      ],
+      "minSpaceFt": 6,
+      "participantsMin": 1,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 5,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "none",
+      "setup": "The child stands anywhere with a sock ball resting in the glove (or in the non-throwing hand). Nothing else is needed.",
+      "instructions": [
+        "Toss the sock ball six inches up out of the glove and catch it back in the glove with the bare hand covering on top.",
+        "Pull both hands straight to the belly button and pop the ball into the throwing hand, feeling for a grip across the sock seam as if it were a four-seam grip.",
+        "Show the ball up by the ear with the fingers on top, then put it back in the glove and repeat.",
+        "Count how many transfers you finish in 20 seconds, keeping every one clean and never squeezing the glove shut around the ball.",
+        "Older players: do five reps with the eyes closed to teach the hands where the pocket is without looking."
+      ],
+      "reps": "3 rounds of 20 seconds, resting 20 seconds between rounds",
+      "cues": [
+        "Two hands, then belly",
+        "Find the grip at the belly",
+        "Fast hands, soft glove"
+      ],
+      "parentTip": "Watch for a hand that digs the ball out. The glove should tip the ball into the throwing hand; if the fingers are fishing around in the pocket, the ball is buried too deep.",
+      "safety": [
+        "A sock ball cannot break anything, so this is one drill that is genuinely safe inside the house.",
+        "Keep the tosses low so nobody is reaching up toward a light fixture or ceiling fan."
+      ],
+      "funVariation": "Transfer Race: two players count clean transfers for 20 seconds, then swap and judge each other. A transfer where the ball touches the ground restarts that player's count.",
+      "lessonId": "fld-08"
+    },
+    {
+      "id": "drill-fld-10",
+      "name": "Quick Hands Catch and Transfer",
+      "category": "fielding",
+      "skillFocus": [
+        "transfers",
+        "playing_catch"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "glove",
+        "soft_ball"
+      ],
+      "equipmentFreeVariant": "Two players toss a tennis ball bare-handed from 10 feet, catching in two hands and passing to the throwing hand before every return toss.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "garage",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 15,
+      "participantsMin": 2,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 6,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "light",
+      "setup": "Partners face each other 15 feet apart, each wearing a glove, with one soft ball per pair. At team practice the pairs line up side by side with 8 feet between pairs.",
+      "instructions": [
+        "One partner tosses an easy chest-high ball. The receiver catches with two hands, the bare hand closing over the top.",
+        "The receiver pulls the ball to the belly, moves it to the throwing hand, and shows a four-seam grip up by the ear before tossing back.",
+        "After ten clean transfers, add the feet: the receiver steps right-left (left-right for a lefty) toward the partner while the hands work.",
+        "Then speed up: the partner tosses the next ball the moment the previous one arrives, so there is a reason to be quick.",
+        "Finish with a round of knee-high tosses to practice fingers-down catches flowing into the same transfer."
+      ],
+      "reps": "4 rounds of 10 catches, swapping roles after each round",
+      "cues": [
+        "Catch, belly, grip",
+        "Feet move while hands move",
+        "Soft catch, quick hands"
+      ],
+      "parentTip": "Quick does not mean rushed. If the drops start piling up, the transfer has gotten faster than the catch; slow the tosses down and rebuild from a clean catch.",
+      "safety": [
+        "Soft safety balls for ages 7-8; a glove-to-hand drill at speed produces misses, and misses with a hard ball bruise.",
+        "In a garage, keep the distance at 10 feet and the tosses soft."
+      ],
+      "funVariation": "Thirty-Second Challenge: count the pair's clean catch-and-transfers in 30 seconds. Every drop costs two. Beat last week's number and write it on the garage wall in chalk.",
+      "lessonId": "fld-08"
+    },
+    {
+      "id": "drill-fld-11",
+      "name": "Funnel-and-Throw Line",
+      "category": "fielding",
+      "skillFocus": [
+        "transfers",
+        "footwork",
+        "accuracy"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "glove",
+        "ball"
+      ],
+      "equipmentFreeVariant": "Roll a tennis ball with the parent as the target: the fielder funnels, steps right-left, and throws the tennis ball at the parent's glove-side shoulder from 30 feet.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 45,
+      "participantsMin": 2,
+      "participantsMax": 8,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 10,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "moderate",
+      "setup": "The roller stands 20 feet from the fielder. A target with a glove stands 40 to 45 feet to the fielder's throwing side, where first base would be. At team practice run a line of three or four fielders with one roller and one target.",
+      "instructions": [
+        "Roll a medium-speed ground ball straight at the fielder.",
+        "The fielder sets the triangle, watches the ball in, and funnels both hands to the belly in one smooth motion while rising to a tall position.",
+        "As the hands reach the belly the feet start: right foot in front of left, left foot steps at the target, throw. Lefties mirror it.",
+        "Throw to the target's chest with the fingers on top of the ball. The target yells 'Good!' only for a throw caught without moving the feet.",
+        "The fielder goes to the back of the line (or resets, at home) and the next player steps up.",
+        "Each round, roll a little harder, but never harder than the fielder can field cleanly."
+      ],
+      "reps": "Each fielder takes 3 rounds of 5 ground balls, about 15 throws in total",
+      "cues": [
+        "Funnel to the belly",
+        "Rise and step, don't stand and throw",
+        "Chest-high throws win"
+      ],
+      "parentTip": "Watch for the pause. If the child catches, stops, and then throws, the play is broken into pieces. The catch should flow straight into the feet like a wave rolling through the body.",
+      "safety": [
+        "This drill has real throws, so warm up with five minutes of easy catch first.",
+        "Soft balls for 9-year-olds who are new to it; hard baseballs only on a field with a target who can catch them."
+      ],
+      "funVariation": "Around the Hat: the target sets an upside-down cap on the ground at their feet. A chest-high throw scores one; a throw that makes the target leave the hat scores zero. First fielder to 7 wins.",
+      "lessonId": "fld-09"
+    },
+    {
+      "id": "drill-fld-12",
+      "name": "Rainbow Toss Pop-Ups",
+      "category": "fielding",
+      "skillFocus": [
+        "fly_balls",
+        "glove_work",
+        "fun"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "soft_ball"
+      ],
+      "equipmentFreeVariant": "A sock ball works even better for the first lessons because it floats down slowly; catch it in bare hands with the thumbs together.",
+      "locations": [
+        "driveway",
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 12,
+      "participantsMin": 2,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "game",
+      "intensity": "low",
+      "throwingLoad": "light",
+      "setup": "The parent stands 6 to 8 feet in front of the child holding a soft safety ball. The child stands with feet apart and hands up by the chin. Pick a spot with no low branches, wires, or basketball hoops overhead.",
+      "instructions": [
+        "Toss the ball underhand so it peaks a foot or two above the child's head and floats down right at the hands. Say 'Up!' as you let go.",
+        "The child keeps the eyes on the ball the whole way, moves the feet so the ball comes down in front of the face, and catches with fingers up, thumbs together, bare hand helping.",
+        "The child tosses the ball back underhand.",
+        "After five catches in a row, toss one a step to the left, then one a step to the right, so the child learns to move the feet before raising the hands.",
+        "For 7-8 year olds who are catching easily, back up to 12 feet and toss so the ball peaks four or five feet above the head. Players 9 and up graduate to real fly balls on a field in the Drop Step and Go drill."
+      ],
+      "reps": "3 rounds of 10 tosses, switching who tosses between rounds",
+      "cues": [
+        "Eyes on the ball",
+        "Feet first, then hands",
+        "Thumbs together, fingers up"
+      ],
+      "parentTip": "Watch the chin. A child who turns the head away or shuts the eyes is scared, not clumsy. Lower the toss until the eyes stay open, then build back up a few inches at a time.",
+      "safety": [
+        "Soft safety balls or sock balls only for pop-ups at ages 4-8; never a hard baseball.",
+        "Toss straight up and let it fall to the hands; a ball that drifts in toward the face teaches flinching.",
+        "Check overhead for branches, wires, and hoops before the first toss."
+      ],
+      "funVariation": "Pop-Up Points: a catch is one point, a two-handed catch is two, a catch after moving the feet is three. Ten points earns the child a turn to toss to the parent, who must catch with two hands or lose a point.",
+      "lessonId": "fld-10"
+    },
+    {
+      "id": "drill-fld-13",
+      "name": "Drop Step and Go",
+      "category": "fielding",
+      "skillFocus": [
+        "fly_balls",
+        "footwork",
+        "reading_ball"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "glove",
+        "ball",
+        "cones"
+      ],
+      "equipmentFreeVariant": "Throw a tennis ball by hand, use two sweatshirts as the cones, and have the fielder jog the ball back instead of throwing it.",
+      "locations": [
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 90,
+      "participantsMin": 2,
+      "participantsMax": 8,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 10,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "moderate",
+      "setup": "The fielder starts at a cone with the thrower 40 feet in front. A second cone sits 30 feet behind the fielder, off to one side. A cutoff partner or an empty bucket waits about 60 feet from where the catches will happen.",
+      "instructions": [
+        "The thrower points to a side, then throws a fly ball over the fielder's head toward that side. For ages 9-10 start with a soft safety ball thrown high and easy; players 11 and up use a real baseball on a field.",
+        "The fielder drop-steps: the foot on the side the ball is going steps straight back, the hips open, and the fielder runs on the balls of the feet with the glove down until the last three steps.",
+        "Get behind the ball so the last steps come forward, and catch above the throwing-side shoulder with two hands.",
+        "Crow hop and throw to the cutoff partner's chest, or roll the ball into the bucket if nobody is there to catch.",
+        "Jog back, reset at the cone, and go the other direction on the next ball.",
+        "After eight balls, stop pointing and make the fielder read the direction off the thrower's hand."
+      ],
+      "reps": "2 rounds of 6 fly balls (3 to each side), with the thrower rotating after each round",
+      "cues": [
+        "Drop the foot, open the hip",
+        "Run with the glove down",
+        "Catch it coming forward"
+      ],
+      "parentTip": "Watch the first step. A fielder who steps forward or hops in place before turning has to recover, and that half-second is the difference between a catch and a ball over the head. The first movement should be straight back.",
+      "safety": [
+        "Throws to the cutoff are long, so warm the arm first and cap the drill at about 12 throws per player.",
+        "Walk the outfield before starting and move bags, sprinkler heads, and anything else out of the running lane.",
+        "Soft safety balls for 9-10 year olds until they track the ball well over the head."
+      ],
+      "funVariation": "Liar's Pop-Up: the thrower yells 'Left!' or 'Right!' as the ball leaves the hand, but might be lying. The fielder must go where the ball actually goes. Three catches in a row on a lie wins the round.",
+      "lessonId": "fld-11"
+    },
+    {
+      "id": "drill-fld-14",
+      "name": "Mine, Mine, Mine: Pop-Up Communication",
+      "category": "fielding",
+      "skillFocus": [
+        "communication",
+        "fly_balls",
+        "teamwork"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "soft_ball",
+        "glove"
+      ],
+      "equipmentFreeVariant": "A sock ball tossed by hand works for two kids and a parent in a yard; the talking is the skill, not the ball.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 30,
+      "participantsMin": 3,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "light",
+      "setup": "Two fielders stand 20 feet apart facing the tosser, who stands 25 feet in front of them with soft balls. Extra players wait behind the fielders and rotate in after each ball.",
+      "instructions": [
+        "Lob a high pop-up into the space between the two fielders. Ages 7-8 get a soft ball tossed underhand that peaks about 10 feet up; ages 9 and up can take a harder throw or a fungo on a field.",
+        "Both fielders move toward the ball. The one who sees it best yells 'Mine! Mine! Mine!' three times, loud, while the ball is still going up.",
+        "The other fielder answers 'Take it! Take it!' and peels off to a spot 10 feet behind the catcher as the backup.",
+        "Catch with two hands, flip the ball back to the tosser, and the pair rotates to the back of the line.",
+        "Drill rule: if nobody calls it, the ball does not count, even if somebody catches it.",
+        "Mix in balls clearly closer to one fielder so players practice calling fast when the answer is obvious."
+      ],
+      "reps": "Each pair takes 6 pop-ups, rotates, and continues until every player has fielded 6",
+      "cues": [
+        "Call it early, call it loud",
+        "Mine means you are the backup",
+        "Nobody calls, nobody catches"
+      ],
+      "parentTip": "Listen for the timing. 'Mine' called as the ball lands is too late to help anyone. Praise the loudest early call more than the catch itself.",
+      "safety": [
+        "Soft safety balls for ages 7-8 and for any group new to the drill, because collisions happen when two kids chase one ball.",
+        "Teach the backup to peel off behind the catcher, never beside them."
+      ],
+      "funVariation": "Silent Movie: run one round where fielders may only call with hand signals, then a normal round. The difference makes the point better than any speech.",
+      "lessonId": "fld-12"
+    },
+    {
+      "id": "drill-fld-15",
+      "name": "Slow Roller Charge",
+      "category": "fielding",
+      "skillFocus": [
+        "infield",
+        "ground_balls",
+        "footwork"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "soft_ball",
+        "glove"
+      ],
+      "equipmentFreeVariant": "Roll a tennis ball slowly on grass and have the fielder charge, bare-hand it, and jog it back instead of throwing.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 60,
+      "participantsMin": 2,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 10,
+      "phase": "skill",
+      "intensity": "high",
+      "throwingLoad": "moderate",
+      "setup": "The fielder starts 50 feet from the roller, about where a third baseman stands. The roller is at the home plate spot with several soft balls. A target waits 40 to 60 feet to the fielder's left, toward first base.",
+      "instructions": [
+        "Dribble a slow ball about halfway toward the fielder.",
+        "The fielder charges hard on the balls of the feet, under control, reading the hops on the way in.",
+        "If the ball is still rolling, field it with the glove outside the glove-side foot and throw from a low position without standing all the way up. If it has stopped, scoop it bare-handed with the fingers, not the palm.",
+        "Throw on the run, stepping with the glove-side foot toward the target; the arm angle will be lower than a normal throw, and that is fine.",
+        "Jog back to the starting spot and reset in the ready position."
+      ],
+      "reps": "2 rounds of 6 slow rollers, alternating glove plays and bare-hand plays",
+      "cues": [
+        "Charge under control",
+        "Glove outside the front foot",
+        "Fingers under the ball, not the palm"
+      ],
+      "parentTip": "Watch the last three steps. Most kids sprint and then stop dead to field, which gives back all the time they gained; the good play slows a little on the way in and never fully stops.",
+      "safety": [
+        "Soft balls in a backyard; throwing on the run should be learned with a forgiving ball.",
+        "Warm up the arm first, because low-angle throws on the run ask more of a cold arm than a normal throw does."
+      ],
+      "funVariation": "Beat the Runner: a parent or teammate starts at home when the ball is rolled and sprints to a cone 60 feet away. The fielder wins if the throw reaches the target before the runner reaches the cone.",
+      "lessonId": "fld-13"
+    },
+    {
+      "id": "drill-fld-16",
+      "name": "Wall Ball Twenty-One",
+      "category": "fielding",
+      "skillFocus": [
+        "ground_balls",
+        "glove_work",
+        "fun"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "tennis_ball",
+        "wall"
+      ],
+      "equipmentFreeVariant": "A sock ball will not bounce back off a wall, so have a partner toss short hops from 10 feet with any soft ball instead.",
+      "locations": [
+        "garage",
+        "driveway",
+        "backyard",
+        "park"
+      ],
+      "minSpaceFt": 12,
+      "participantsMin": 1,
+      "participantsMax": 4,
+      "contexts": [
+        "home"
+      ],
+      "durationMin": 10,
+      "phase": "game",
+      "intensity": "medium",
+      "throwingLoad": "light",
+      "setup": "Stand 10 to 12 feet from a solid wall (closed garage door, brick wall, or handball wall) on a surface where a tennis ball bounces true. Check that the wall is fine to hit; wooden garage doors can dent.",
+      "instructions": [
+        "Throw the tennis ball softly at the base of the wall so it comes back as a ground ball. Field it in the triangle with two hands for one point.",
+        "Throw a little harder so it comes back as a short hop right in front of the feet. Reach out and catch it just after the bounce for two points.",
+        "Throw higher on the wall so it comes back as a line drive at the chest. Catch with two hands, fingers up, for three points.",
+        "Choose your own throws, but every miss (ball past you or dropped) costs two points. First to exactly 21 wins; going over sends you back to 15.",
+        "Alternate turns if two or more are playing, or race a 10-minute clock alone."
+      ],
+      "reps": "One game to 21, or 10 minutes, whichever comes first",
+      "cues": [
+        "Soft wrist, soft glove",
+        "Pick the hop out front",
+        "Two hands every time"
+      ],
+      "parentTip": "Watch the glove on the short hop. If the glove waits back by the body, the ball eats the child up; the glove should reach out and catch the ball right off the ground before it rises.",
+      "safety": [
+        "Tennis balls only; a hard ball or even a safety baseball off a wall at 10 feet comes back too fast for the eyes.",
+        "A tennis ball can still sting an eye at close range, so throw softly, keep the eyes on the ball, and consider sport glasses for players who wear glasses.",
+        "Never play near windows or where a missed ball rolls into a street."
+      ],
+      "funVariation": "Alphabet Wall Ball: shout a word that starts with the next letter of the alphabet as you field each ball. Freeze on a letter and your turn passes.",
+      "lessonId": "fld-14"
+    },
+    {
+      "id": "drill-fld-17",
+      "name": "Full Infield Ground Ball Rotation",
+      "category": "fielding",
+      "skillFocus": [
+        "infield",
+        "ground_balls",
+        "communication"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "ball",
+        "glove",
+        "bases"
+      ],
+      "equipmentFreeVariant": null,
+      "locations": [
+        "field"
+      ],
+      "minSpaceFt": 90,
+      "participantsMin": 5,
+      "participantsMax": 12,
+      "contexts": [
+        "team"
+      ],
+      "durationMin": 15,
+      "phase": "skill",
+      "intensity": "high",
+      "throwingLoad": "high",
+      "setup": "Players at first, second, shortstop, third, and pitcher. A coach at home plate with a bucket of balls and a fungo bat (or rolling by hand for younger groups), plus a catcher or second coach receiving at home. Extra players line up behind each spot and rotate in after every ball.",
+      "instructions": [
+        "Call the situation out loud before each ball, starting with 'Nobody on, nobody out.' Every infielder says where they are going before the ball is hit.",
+        "Hit or roll a ground ball to one infielder, who fields and throws to first. Everyone else moves to a coverage: on a ball to the left side the second baseman covers second; on a ball the first baseman fields, the pitcher breaks to cover first; the catcher backs up first on throws from the left side.",
+        "The first baseman returns the ball to the catcher or the bucket, and the fielders rotate one spot in their lines.",
+        "After one time around the infield, change the situation to 'Runner on first, one out,' so throws go to second for the force with the correct player covering.",
+        "Stop play after any ball where someone forgot a coverage and ask the group, not the individual, where that player belonged.",
+        "Finish with a round of 'Runner on third, infield in,' where every throw comes home."
+      ],
+      "reps": "3 situations, with each infielder fielding 3 balls per situation (about 9 throws per player)",
+      "cues": [
+        "Know your job before the pitch",
+        "Everybody moves on every ball",
+        "Chest-high to the bag"
+      ],
+      "parentTip": "Coaches: watch the players who did not get the ball, because the drill is really about them. A shortstop who stands still while the ball goes to third did not do the drill, even if the throw to first was perfect.",
+      "safety": [
+        "Full-distance throws across the diamond need a warmed-up arm; run a catch warm-up first and cap each player at about 10 hard throws.",
+        "Fungo ground balls with a hard baseball are for ages 9 and up on a groomed field; for 7-8 year olds roll a safety ball by hand instead.",
+        "The coach waits to hit the next ball until the first baseman has returned the previous one."
+      ],
+      "funVariation": "Twenty-One Outs: the infield has to record 21 clean plays (good field, catchable throw, correct coverage by everyone) before making 3 errors. Let the group argue about what counts as an error, then the coach rules.",
+      "lessonId": "fld-15"
+    },
+    {
+      "id": "drill-fld-18",
+      "name": "Around the Horn Double Plays",
+      "category": "fielding",
+      "skillFocus": [
+        "infield",
+        "transfers",
+        "footwork"
+      ],
+      "ageGroups": [
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "ball",
+        "glove",
+        "bases"
+      ],
+      "equipmentFreeVariant": null,
+      "locations": [
+        "field"
+      ],
+      "minSpaceFt": 90,
+      "participantsMin": 4,
+      "participantsMax": 10,
+      "contexts": [
+        "team"
+      ],
+      "durationMin": 15,
+      "phase": "skill",
+      "intensity": "high",
+      "throwingLoad": "moderate",
+      "setup": "A shortstop, a second baseman, a first baseman, and a coach with a bucket at home plate. Extras line up behind shortstop and second. No runner is used until the feeds and pivots are smooth.",
+      "instructions": [
+        "Roll or hit a medium ground ball to the shortstop, who fields, takes a step toward second, and makes a firm chest-high feed to the second baseman, who is already moving to the bag.",
+        "The second baseman catches with two hands, touches the bag with the left foot (or drags the right foot across the back of the bag, whichever the coach teaches), and throws to first from inside the baseline.",
+        "Switch sides: hit to the second baseman, who fields and feeds the shortstop. On a close ball, an underhand flip with the glove hand held open so the shortstop can see the ball; on a far ball, a short overhand throw after turning the body.",
+        "The shortstop takes the feed across the bag with the right foot, pushes off, and throws to first.",
+        "Rotate after every two feeds so each player feeds from both positions and pivots from both positions.",
+        "Add a live runner from home only in the last round, and tell the runner to peel off into foul ground past first, never toward the middle infielders."
+      ],
+      "reps": "Each middle infielder gets 6 feeds and 6 pivots (about 8 full-distance throws); first basemen rotate every 6 balls",
+      "cues": [
+        "Feed to the chest",
+        "Show the ball on every flip",
+        "Catch, touch, throw: three beats"
+      ],
+      "parentTip": "Coaches: watch the pivot player's feet before the feed arrives. A player who catches standing still and then hunts for the bag will be slow every time; the feet should already be carrying the player to the base as the feed is thrown.",
+      "safety": [
+        "Pivot throws to first are full-distance throws, so warm up first and keep the rep count capped; this is a skill drill, not conditioning.",
+        "No sliding runners until the pivots are automatic, and never a slide into a fielder's legs.",
+        "Hard baseballs only on a field with a first baseman who is comfortable catching full throws."
+      ],
+      "funVariation": "Turn-Two Clock: time from the coach's hit to the ball hitting the first baseman's glove. The group tries to shave a tenth of a second off its best time each round while keeping every throw catchable.",
+      "lessonId": "fld-16"
+    },
+    {
+      "id": "drill-fld-19",
+      "name": "Outfield Do-or-Die Grounders",
+      "category": "fielding",
+      "skillFocus": [
+        "outfield",
+        "ground_balls",
+        "footwork"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "glove",
+        "ball"
+      ],
+      "equipmentFreeVariant": "Roll a tennis ball across grass by hand and have the outfielder jog the ball back to you after each play; the knee-down block and the do-or-die footwork are the same.",
+      "locations": [
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 90,
+      "participantsMin": 2,
+      "participantsMax": 8,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 10,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "moderate",
+      "setup": "The outfielder starts 60 feet from the roller or fungo hitter. A cutoff partner with a glove stands 60 feet to the side, about where the shortstop would be on a relay. Extra players line up behind the outfielder.",
+      "instructions": [
+        "Round one is the safe play, used when no runner is trying to score. Roll a ground ball at the outfielder, who gets in front of it, drops the throwing-side knee to the ground so the body blocks the ball, and fields it with two hands.",
+        "The outfielder stands, crow hops, and throws to the cutoff partner's chest.",
+        "Round two is do-or-die, used when a run is about to score. Roll the ball and have the outfielder charge it, field it outside the glove-side foot while moving forward, and throw in one motion without stopping.",
+        "Call out which play you want before each roll so the fielder practices choosing: 'Block it!' or 'Do or die!'",
+        "Rotate fielders after every two balls. The cutoff partner rotates every round so nobody takes too many throws.",
+        "On a field, a coach can hit fungo ground balls for ages 11 and up once the roll version is clean."
+      ],
+      "reps": "2 rounds of 5 balls per fielder (5 blocks, 5 do-or-die), about 10 throws each",
+      "cues": [
+        "Knee down, wall up",
+        "Through the ball on do-or-die",
+        "Hit the cutoff in the chest"
+      ],
+      "parentTip": "Watch which knee goes down on the block. The throwing-side knee drops so the glove-side leg stays bent and the fielder can pop up and throw quickly; the wrong knee down means a slow, awkward throw.",
+      "safety": [
+        "Warm the arm first, because outfield throws are the longest throws in the game; cap the drill at 10 to 12 throws per player.",
+        "Hard baseballs only on a mowed field; use a tennis ball or soft ball in a park with uneven grass.",
+        "Check the grass for holes and sprinkler heads before any charging drill."
+      ],
+      "funVariation": "Runner on Third: a parent stands at an imaginary third base and starts running home when the ball is rolled. The outfielder wins the point if the throw reaches the cutoff before the parent crosses the plate.",
+      "lessonId": "fld-17"
+    },
+    {
+      "id": "drill-fld-20",
+      "name": "Cutoff Relay Race",
+      "category": "fielding",
+      "skillFocus": [
+        "outfield",
+        "accuracy",
+        "teamwork"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "glove",
+        "ball",
+        "cones"
+      ],
+      "equipmentFreeVariant": null,
+      "locations": [
+        "field"
+      ],
+      "minSpaceFt": 150,
+      "participantsMin": 6,
+      "participantsMax": 12,
+      "contexts": [
+        "team"
+      ],
+      "durationMin": 12,
+      "phase": "game",
+      "intensity": "high",
+      "throwingLoad": "high",
+      "setup": "Two teams of three to six players. Each team forms a line down the outfield with 50 to 60 feet between players (a cone marks each spot), starting at the fence and ending at a cone near the infield. One ball per team.",
+      "instructions": [
+        "On 'Go!' the deepest player throws to the next player in line, who has both hands up as a target and is lined up directly between the thrower and the next spot.",
+        "Each relay player catches on the glove-side shoulder, turns toward the glove side, and throws in one motion to the next player. Nobody holds the ball.",
+        "When the ball reaches the last player, it comes back down the line to the fence. First team to finish down and back wins the round.",
+        "A dropped or missed ball must be picked up and thrown from where it stopped, so accuracy beats speed.",
+        "Between rounds, move each player one spot so everyone relays from every distance.",
+        "Run three rounds at most, then stop; the arms have done enough."
+      ],
+      "reps": "3 rounds, each player making 2 throws per round (6 throws total)",
+      "cues": [
+        "Hands up, be a big target",
+        "Catch on the glove side, turn to the glove side",
+        "Line up between the ball and the base"
+      ],
+      "parentTip": "Coaches: watch the cutoff player's feet while waiting for the ball. Both hands should be up over the head and the body should be sideways and ready to turn, not square to the thrower with the glove at the hip.",
+      "safety": [
+        "Relay throws are long and at full effort, so this is the last throwing drill of the day and follows a complete warm-up.",
+        "Space the two lines at least 30 feet apart so a wild throw from one line cannot hit a player in the other.",
+        "Hard baseballs only with players who have shown they can catch full-effort throws; otherwise use safety balls."
+      ],
+      "funVariation": "Handicap Race: the team that won the last round has to add one extra relay player, stretching their line longer. The losing team stays the same. See how many spots the champions can give away and still win.",
+      "lessonId": "fld-18"
+    },
+    {
+      "id": "drill-fld-21",
+      "name": "Alligator Hands Catch",
+      "category": "fielding",
+      "skillFocus": [
+        "glove_work",
+        "playing_catch",
+        "confidence"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "soft_ball",
+        "glove"
+      ],
+      "equipmentFreeVariant": "Use a sock ball and bare hands: one hand is the bottom jaw, the other is the top jaw, and the alligator chomps the ball in the middle.",
+      "locations": [
+        "indoor_small",
+        "garage",
+        "driveway",
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 10,
+      "participantsMin": 2,
+      "participantsMax": 6,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 6,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "light",
+      "setup": "The parent kneels 6 to 8 feet from the child, who wears a glove and holds the bare hand open above it like the top jaw of an alligator.",
+      "instructions": [
+        "Show the alligator: glove open on the bottom, bare hand open on top, and chomp them together three times while saying 'alligator.'",
+        "Toss a soft ball underhand so it arrives at the child's belly. The glove catches, the bare hand chomps down on top, and both hands pull the ball into the belly.",
+        "The child says 'got it' and flips the ball back underhand.",
+        "After ten chomps at the belly, toss five balls that arrive at the knees, where the alligator points its nose at the ground, and five at the chest, where the alligator points its nose at the sky.",
+        "End with three tosses where you say nothing and watch whether the top jaw shows up on its own."
+      ],
+      "reps": "2 rounds of 10 tosses with a water break between rounds",
+      "cues": [
+        "Alligator chomp",
+        "Top hand covers, bottom hand catches",
+        "Pull it to your belly"
+      ],
+      "parentTip": "Watch the bare hand. If it hangs down by the side, the child is trying to trap the ball with the glove alone, and the ball will pop out. Remind them the alligator needs both jaws.",
+      "safety": [
+        "Soft safety balls for ages 4-8, every time, even when the child begs for a real one.",
+        "Keep tosses below the shoulders at this age so no ball drifts toward the face."
+      ],
+      "funVariation": "Hungry Alligator: every catch is a bite of pretend food the child names out loud. Ten bites and the alligator is full, so the child gets to be the feeder and toss to the parent.",
+      "lessonId": "fld-19"
+    },
+    {
+      "id": "drill-fld-22",
+      "name": "Brave Steps: Sock Ball to Safety Ball",
+      "category": "fielding",
+      "skillFocus": [
+        "confidence",
+        "glove_work",
+        "ready_position"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "none"
+      ],
+      "equipmentFreeVariant": "Step one of this drill uses a rolled-up pair of socks and nothing else. Later steps add a tennis ball and a soft safety ball only when the child is ready.",
+      "locations": [
+        "indoor_small",
+        "garage",
+        "driveway",
+        "backyard"
+      ],
+      "minSpaceFt": 8,
+      "participantsMin": 2,
+      "participantsMax": 2,
+      "contexts": [
+        "home"
+      ],
+      "durationMin": 8,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "light",
+      "setup": "Sit on the floor 6 feet from the child with a sock ball. Keep a tennis ball and a soft safety ball nearby but out of sight. Tell the child this is a game about being brave, and that nobody is ever in trouble for being scared.",
+      "instructions": [
+        "Step one: roll the sock ball to the child along the ground. When ten in a row are scooped with eyes open, let the child decide whether to move on.",
+        "Step two: lob the sock ball underhand so it lands softly in the child's hands at belly height. Have the child squeeze it and say 'soft' after every catch.",
+        "Step three: switch to the tennis ball, and go back to rolling on the ground first. Then lob it to the belly. Let the child bounce it off a leg once on purpose to prove it does not hurt.",
+        "Step four: bring out the soft safety ball, and again start with rolls before any toss. The child wears a glove now if they want one.",
+        "At every step, if the head turns away or the eyes close, drop back one step without comment and try again tomorrow.",
+        "End each session with five catches the child is sure to make, so the last memory of the day is a success."
+      ],
+      "reps": "10 catches per step, moving on only when the child chooses to",
+      "cues": [
+        "Eyes open, hands open",
+        "Soft ball, soft hands",
+        "You get to pick when we move up"
+      ],
+      "parentTip": "Watch the eyes, not the hands. Open eyes at the moment the ball arrives mean the fear is fading; a catch made with closed eyes is luck and will not repeat. Praise the open eyes out loud.",
+      "safety": [
+        "Never skip steps or sneak in a harder ball; one surprise sting can undo weeks of progress.",
+        "No hard baseballs at all during this progression, including for the parent's own catches, so the child never hears a hard ball smack a glove."
+      ],
+      "funVariation": "Brave Chart: the child draws a ladder with four rungs, one per ball, and colors a rung each time they choose to move up. The child is always the one holding the crayon.",
+      "lessonId": "fld-20"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "tasks": [
+    { "id": "standings", "group": "Games", "label": "Confirm final standings and any forfeits", "hint": "Every game should show a final score or a cancellation." },
+    { "id": "pitching", "group": "Games", "label": "Review pitch-count records for the season", "hint": "Every pitcher's appearances are recorded; nothing outstanding from the last week." },
+    { "id": "allstars", "group": "Games", "label": "Finalize All-Star selections and notify families", "hint": "Only selected and alternate families are told." },
+    { "id": "awards", "group": "Celebration", "label": "Order awards and trophies", "hint": "Use the awards list below; one per player in participation divisions." },
+    { "id": "banquet", "group": "Celebration", "label": "Book the banquet or picnic", "hint": "Date, location, food, volunteers." },
+    { "id": "photos", "group": "Celebration", "label": "Share team photos with consent", "hint": "Albums are visible to team families only." },
+    { "id": "uniforms", "group": "Equipment", "label": "Collect uniforms and league equipment", "hint": "Track returns per player below." },
+    { "id": "inventory", "group": "Equipment", "label": "Count and condition-check equipment", "hint": "Helmets, catcher's gear, bats, balls, bases." },
+    { "id": "fields", "group": "Fields", "label": "Close down fields", "hint": "Bases pulled, sheds locked, water off, lights scheduled off." },
+    { "id": "finance", "group": "Office", "label": "Close the books and reconcile balances", "hint": "Outstanding registration balances, umpire pay, refunds." },
+    { "id": "sponsors", "group": "Office", "label": "Thank sponsors and confirm renewals", "hint": "Send the season summary and next year's packages." },
+    { "id": "survey", "group": "Office", "label": "Send the end-of-season survey", "hint": "Parents and coaches; results feed the annual meeting." },
+    { "id": "reports", "group": "Players", "label": "Publish end-of-season report cards", "hint": "Coaches write them in team tools." },
+    { "id": "rollover", "group": "Next season", "label": "Create next season and roll over", "hint": "Seasons & settings → Roll over to the next season." }
+  ],
+  "awardTemplates": ["Most Improved", "Hustle Award", "Team Spirit", "Golden Glove", "Coaches' Award", "Participation"]
+}

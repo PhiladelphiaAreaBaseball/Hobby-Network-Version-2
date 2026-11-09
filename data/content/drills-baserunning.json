@@ -1,0 +1,595 @@
+{
+  "$schema": "drill",
+  "items": [
+    {
+      "id": "drill-run-01",
+      "name": "Cone Past the Bag",
+      "category": "baserunning",
+      "skillFocus": [
+        "running_bases"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "bases",
+        "cones"
+      ],
+      "equipmentFreeVariant": "Use a folded jacket or chalk square as first base and a shoe or water bottle as the cone ten feet past it.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 60,
+      "participantsMin": 1,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "none",
+      "setup": "Place a start marker (home) and a flat first base 40 to 50 feet apart, with a cone 10 feet past the base. The adult stands beyond the cone, to the right of the line.",
+      "instructions": [
+        "Runner takes a pretend swing at home and sprints toward the cone, not the base.",
+        "Runner steps on the front edge of the base without slowing or jumping and keeps running to the cone.",
+        "After the cone, runner slows down over a few steps, turns right into foul territory, and looks over the right shoulder.",
+        "Adult calls 'through!' if the runner did not slow down and 'front edge!' if the foot hit the front of the bag.",
+        "Walk back to home and repeat. For a team, run two lines side by side with two bases and two cones."
+      ],
+      "reps": "6 to 8 full-speed runs with a walk back between each",
+      "cues": [
+        "Run to the cone",
+        "Front edge",
+        "Turn right, look right"
+      ],
+      "parentTip": "Watch the last three steps before the base. Any slowing down means the cone needs to move farther out or the child needs to hear 'through!' more often.",
+      "safety": [
+        "Flat base marker only, never a raised or hard base on concrete.",
+        "Clear a lane 20 feet past the base for slowing down."
+      ],
+      "funVariation": "Beat the Ball: the adult tosses a soft ball toward a bucket at first base as the runner leaves home. The runner wins if the foot touches the bag before the ball lands in the bucket.",
+      "lessonId": "run-01"
+    },
+    {
+      "id": "drill-run-02",
+      "name": "Banana Path Form Runs",
+      "category": "baserunning",
+      "skillFocus": [
+        "running_bases",
+        "warmup"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "bases",
+        "cones"
+      ],
+      "equipmentFreeVariant": "Chalk squares or jackets for home, first, and second, and a shoe for the drift cone in foul territory.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 90,
+      "participantsMin": 1,
+      "participantsMax": 14,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 6,
+      "phase": "warmup",
+      "intensity": "medium",
+      "throwingLoad": "none",
+      "setup": "Set home, first, and second base at 50 to 60 feet (shorter for younger players). Put a cone in foul territory about 20 feet from home where the drift begins.",
+      "instructions": [
+        "First two runs at a jog: swing, run to the cone, drift right, bend back to the bag, touch the inside corner, lean toward second, stop 10 feet past first.",
+        "Next two runs at three-quarter speed with a hard turn of 10 to 15 feet and a shuffle back to first facing the field.",
+        "Last two runs at full speed from home all the way to second, rounding first without slowing.",
+        "Focus on form: pump the arms, head still, eyes up to find the inside corner early.",
+        "For a team, send runners every five seconds in a line so everyone is moving."
+      ],
+      "reps": "6 runs: 2 jog, 2 three-quarter speed, 2 full speed",
+      "cues": [
+        "Out to the cone, bend to the bag",
+        "Inside corner",
+        "Lean to second"
+      ],
+      "parentTip": "This is a warm-up as well as a skill run, so the first two reps should be easy. Watch for choppy steps right before the bag; that means the curve started too late.",
+      "safety": [
+        "Flat base markers so a runner leaning into the turn cannot roll an ankle.",
+        "Start at a jog; cold legs should not sprint."
+      ],
+      "funVariation": "Stopwatch Day: time the full-speed home-to-second run and let the player try to beat their own best by one tenth of a second each week.",
+      "lessonId": "run-02"
+    },
+    {
+      "id": "drill-run-03",
+      "name": "Tag-Up Toss",
+      "category": "baserunning",
+      "skillFocus": [
+        "tagging_up",
+        "reading_ball"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "bases",
+        "tennis_ball"
+      ],
+      "equipmentFreeVariant": "A rolled sock tossed into the air and a jacket as the base. The runner reads the catch the same way.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 60,
+      "participantsMin": 2,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "light",
+      "setup": "One base and a 'next base' 60 feet apart. The tosser stands 30 to 40 feet from the base as the outfielder with a tennis ball.",
+      "instructions": [
+        "Runner stands on the base in a sprinter stance: back foot on the edge, body turned toward the next base.",
+        "Tosser calls the number of outs, then tosses the ball high to themselves.",
+        "With fewer than two outs, the runner keeps the foot on the base and leaves the instant the ball touches the hands. On a drop, the runner goes as soon as the drop is clear.",
+        "With two outs, the runner sprints on the toss.",
+        "Tosser calls 'early!' any time the foot leaves before the catch. Early reps are repeated.",
+        "For a team, use two or three bases with a tosser at each and rotate runners."
+      ],
+      "reps": "8 to 10 reps mixing catches, drops, and out counts",
+      "cues": [
+        "Foot on the bag",
+        "Watch the ball into the glove",
+        "Go on the catch"
+      ],
+      "parentTip": "Be strict about 'early.' In a game an early break is an out, and kids fix their timing fast when every early break is called.",
+      "safety": [
+        "Tennis ball or soft ball only for the toss.",
+        "Flat base markers and a clear path to the next base."
+      ],
+      "funVariation": "Beat the Relay: add a second player with a glove at the next base. The tosser catches and throws there while the runner tags and races the throw. Soft ball, no body tags.",
+      "lessonId": "run-03"
+    },
+    {
+      "id": "drill-run-04",
+      "name": "Go, Freeze, Halfway",
+      "category": "baserunning",
+      "skillFocus": [
+        "reading_ball",
+        "running_bases"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "bases",
+        "tennis_ball"
+      ],
+      "equipmentFreeVariant": "Rolled sock and chalk bases, or no ball at all with the adult calling 'ground ball,' 'line drive,' or 'fly ball' for the first few reps.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 60,
+      "participantsMin": 2,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "light",
+      "setup": "First and second base 60 feet apart. The 'batter' stands near home, 40 to 50 feet from the runner, with a tennis ball.",
+      "instructions": [
+        "Runner takes a ready stance on first. Batter calls the outs.",
+        "Batter throws a ground ball (roller), a line drive (hard, low, past the runner), or a fly ball (high toss).",
+        "Runner reacts and says the word: ground ball 'go' toward second, line drive 'freeze' then read, fly ball 'halfway' and watch.",
+        "With two outs the runner sprints on anything and says 'go.'",
+        "Start slow so the reads are correct, then speed up and randomize.",
+        "For a team, line runners up at first and send the next runner after each read."
+      ],
+      "reps": "12 to 15 reps with a random mix of balls and out counts",
+      "cues": [
+        "Ground ball go",
+        "Line drive freeze",
+        "Fly ball halfway"
+      ],
+      "parentTip": "Watch the first step, not the finish. The first step tells you whether the read happened or the child is guessing.",
+      "safety": [
+        "Tennis ball or soft ball only; a thrown 'line drive' passes near the runner.",
+        "Walk back between reps; this is a thinking drill."
+      ],
+      "funVariation": "Read Streak: count how many correct reads in a row the runner can make. Ten in a row earns the right to be the batter for the next round.",
+      "lessonId": "run-04"
+    },
+    {
+      "id": "drill-run-05",
+      "name": "Pitch Reaches the Batter: Timed Release",
+      "category": "baserunning",
+      "skillFocus": [
+        "running_bases",
+        "baseball_iq"
+      ],
+      "ageGroups": [
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "bases",
+        "soft_ball"
+      ],
+      "equipmentFreeVariant": "Chalk bases and a pretend pitch, with the adult calling 'now' when the imaginary pitch would reach the batter.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 60,
+      "participantsMin": 2,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 10,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "light",
+      "setup": "A base and a next base 60 feet apart, a 'pitcher' 45 feet from the base with a soft ball, and a target (bucket, glove, or partner) at the batter's spot. Confirm the division's rule before starting.",
+      "instructions": [
+        "No-lead divisions: runner stands on the base, foot on the edge toward the next base, eyes on the pitcher. Pitcher throws slowly to the target.",
+        "Runner's first movement happens as the ball reaches the target, followed by a hard first step and two shuffles, then a read: go on a dropped or missed ball, get back on a clean catch.",
+        "Pitcher calls 'early!' if the foot leaves before the ball arrives; early reps are repeated.",
+        "Lead divisions only: runner takes a two- or three-shuffle primary lead, then two shuffles as the pitcher's motion starts, landing balanced as the ball reaches the target.",
+        "Lead divisions only: on a soft-ball pickoff toss, runner steps back fast and low to the far corner of the base.",
+        "For a team, run two bases at once with a pitcher for each and rotate every four reps."
+      ],
+      "reps": "10 to 12 reps mixing pitches, pickoff tosses, and go-or-get-back calls",
+      "cues": [
+        "Pitch reaches the batter, then go",
+        "Shuffle, never cross",
+        "Back fast and low"
+      ],
+      "parentTip": "Only teach the lead portion if the coach or the league's current rulebook confirms leads are allowed in your child's division. Otherwise, the whole drill is about honest timing of the first step.",
+      "safety": [
+        "Soft ball only for pitches and pickoff tosses, at half speed.",
+        "Step back before any dive; many divisions restrict head-first slides.",
+        "Flat base markers so quick returns to the bag do not turn an ankle."
+      ],
+      "funVariation": "Catcher's Challenge: a partner at the batter's spot sometimes drops the ball on purpose. Runner scores a point for reaching the next base on a drop and a point for getting back cleanly on a catch; two early breaks and the score resets.",
+      "lessonId": "run-05"
+    },
+    {
+      "id": "drill-run-06",
+      "name": "Cardboard Slide Progression",
+      "category": "baserunning",
+      "skillFocus": [
+        "sliding"
+      ],
+      "ageGroups": [
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "intermediate"
+      ],
+      "equipmentRequired": [
+        "bases"
+      ],
+      "equipmentFreeVariant": "A flattened cardboard box on grass and a folded towel as the base. The figure-four shape can be practiced sitting on a living room floor with no sliding.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 30,
+      "participantsMin": 1,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 12,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "none",
+      "setup": "Soft, dry or slightly damp grass checked for rocks and sprinkler heads, or a large flattened cardboard box laid on grass. A folded towel or loose flat base as the target and a cone two to three body lengths out.",
+      "instructions": [
+        "Sitting still: make the figure-four, one leg bent and tucked, the other extended with a slight knee bend and toe up. Lie back on the side of the bent leg, hands up, chin tucked. Hold three times.",
+        "Two-step slide: walk two steps and sit into the figure-four so the heel reaches the towel.",
+        "Jog to the cone and sit into the slide, hands up.",
+        "Run at three-quarter speed to the cone and slide, heel to the towel, then roll to the knee and stand up ready to run.",
+        "Adult checks three things each rep: hands up, chin tucked, sitting on the side of the leg not the tailbone.",
+        "For a team, lay out two or three cardboard lanes and rotate; one coach watches each lane."
+      ],
+      "reps": "About 8 slides total across the stages, with rest between each",
+      "cues": [
+        "Sit down at the cone",
+        "Hands up",
+        "Heel to the bag"
+      ],
+      "parentTip": "Move slowly through the stages and stay at the sit-down stage as long as the child needs. Fear of sliding fades when nothing hurts, so the base should be a towel and the ground should be soft.",
+      "safety": [
+        "Grass or cardboard on grass only; never dirt with an anchored base, concrete, or a garage floor.",
+        "Long pants or sliding shorts; check the area for rocks, sticks, and sprinkler heads.",
+        "Feet first only. Most divisions prohibit head-first slides for younger players; check the league's current rulebook."
+      ],
+      "funVariation": "Slip Slide Day: on a hot day, lightly wet the grass or cardboard with a hose and let the kids slide into a pile of soft towels, scoring points for hands up and chin tucked.",
+      "lessonId": "run-06"
+    },
+    {
+      "id": "drill-run-07",
+      "name": "Force or Tag? Call It",
+      "category": "baserunning",
+      "skillFocus": [
+        "baseball_iq",
+        "running_bases"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "bases",
+        "soft_ball"
+      ],
+      "equipmentFreeVariant": "Chalk squares or jackets for bases, shoes as the other runners, and a rolled sock as the ball. Can also be played at a table with coins on a napkin diamond.",
+      "locations": [
+        "backyard",
+        "driveway",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 40,
+      "participantsMin": 2,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "skill",
+      "intensity": "low",
+      "throwingLoad": "light",
+      "setup": "A small diamond with four flat markers 30 to 40 feet apart. Shoes or extra players stand on some bases as runners; the adult stands at home with a soft ball.",
+      "instructions": [
+        "Runner stands on a base. Adult sets other 'runners' on bases and asks: 'Is there a runner on every base behind you, including the batter?'",
+        "Runner answers 'forced' or 'not forced' out loud before the ball is rolled.",
+        "Adult rolls a ground ball. Forced: runner sprints to the next base. Not forced: runner holds, watches, and says 'my choice.'",
+        "Adult tosses a fly ball instead: runner steps back toward the base and says 'no force, go back.'",
+        "Adult calls 'two outs' before some rolls: runner sprints on anything.",
+        "Rotate so the runner sets up the shoes and asks the question of the adult or a teammate."
+      ],
+      "reps": "10 to 12 reps with different runner setups",
+      "cues": [
+        "Anyone behind me?",
+        "Forced means go",
+        "Fly ball erases the force"
+      ],
+      "parentTip": "Get the word right before the feet. A child who says 'forced' and runs a little late is learning; a child who sprints without knowing why is guessing.",
+      "safety": [
+        "Soft ball for all rolls and tosses.",
+        "Keep the small diamond clear so late decisions do not cause collisions."
+      ],
+      "funVariation": "Umpire Switch: the child becomes the umpire. The adult runs (or does not) on each roll, and the child calls 'safe,' 'out,' or 'you didn't have to run!' with the explanation.",
+      "lessonId": "run-07"
+    },
+    {
+      "id": "drill-run-08",
+      "name": "Find the Coach",
+      "category": "baserunning",
+      "skillFocus": [
+        "running_bases",
+        "communication"
+      ],
+      "ageGroups": [
+        "a7_8",
+        "a9_10",
+        "a11_12"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "bases"
+      ],
+      "equipmentFreeVariant": "Chalk, jackets, or shoes as bases. No ball is needed; the adult's arms are the only equipment.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 60,
+      "participantsMin": 2,
+      "participantsMax": 14,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "none",
+      "setup": "First, second, and third base 40 to 60 feet apart. The adult stands in the third base coach's spot, a few steps toward the outfield from third and off the base line.",
+      "instructions": [
+        "Review the signals standing still: windmill means go, both hands up means stop, hands pushed to the ground means slide.",
+        "Runner starts on first. Adult says 'ball to right field, go!' and the runner sprints toward second, finding the coach as they round the bag.",
+        "Adult gives one signal, sometimes late. Runner reacts immediately: continue to third, stop at second with a shuffle facing the field, or call 'slide' (slide only on soft grass).",
+        "Add the first base coach: runner starts at home, adult stands in the first base box and calls 'run through' or 'make a turn.' Runner reacts without turning the head.",
+        "For a team, one coach at third, one at first, runners in two lines alternating."
+      ],
+      "reps": "8 to 10 runs with the signals mixed and sometimes delayed",
+      "cues": [
+        "Ball behind, find the coach",
+        "Windmill means go",
+        "Hands up means stop"
+      ],
+      "parentTip": "Give the signal late once in a while. If the child's eyes are on the imaginary ball instead of on you, they will miss it, and that is the lesson.",
+      "safety": [
+        "Slide only on soft grass with a flat marker; otherwise say 'slide' out loud instead.",
+        "Clear base paths so a runner watching the coach does not collide with anyone."
+      ],
+      "funVariation": "Silent Coach: the adult gives signals with arms only and no voice. The runner earns a point for every correct reaction and loses one for every peek at the 'ball.'",
+      "lessonId": "run-08"
+    },
+    {
+      "id": "drill-run-09",
+      "name": "Runner on Second Reads",
+      "category": "baserunning",
+      "skillFocus": [
+        "reading_ball",
+        "baseball_iq"
+      ],
+      "ageGroups": [
+        "a11_12",
+        "a13_16"
+      ],
+      "skillLevels": [
+        "advanced"
+      ],
+      "equipmentRequired": [
+        "bases",
+        "tennis_ball",
+        "cones"
+      ],
+      "equipmentFreeVariant": "Chalk bases, shoes as fielders, and a rolled sock for the ball. First reps can be done on paper with a drawn diamond and arrows.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 90,
+      "participantsMin": 2,
+      "participantsMax": 12,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 10,
+      "phase": "skill",
+      "intensity": "medium",
+      "throwingLoad": "light",
+      "setup": "Second and third base 60 feet apart with markers where the pitcher, shortstop, third baseman, second baseman, and first baseman stand. The adult is the batter at home with a tennis ball.",
+      "instructions": [
+        "Runner takes a ready stance on second. Batter calls the outs.",
+        "Batter rolls a ground ball toward a marker. Right side (second or first baseman): runner goes to third and says 'go.' Left side (shortstop or third baseman): runner steps back, says 'wait,' and goes only when the batter says 'through' or 'to first.' Pitcher: runner stays.",
+        "Batter throws a hard, low ball as a line drive: runner freezes. High toss as a fly ball: runner tags or goes halfway and says which.",
+        "Batter calls 'two outs' before some rolls: runner sprints on anything.",
+        "Team version: live fielders with gloves field the tennis ball and either hold it, look the runner back, or flip to a partner at first. No hard throws.",
+        "Runner explains one go and one wait decision at the end."
+      ],
+      "reps": "12 to 15 reps with a random mix of locations, ball types, and out counts",
+      "cues": [
+        "Right side go",
+        "Left side wait",
+        "Pitcher stay"
+      ],
+      "parentTip": "Praise the correct hold as loudly as the correct go. Holding on a ball to the shortstop is the harder discipline and the one that saves outs.",
+      "safety": [
+        "Tennis ball or soft ball only; fielders flip rather than throw hard.",
+        "Flat base markers on grass for hard stops and starts."
+      ],
+      "funVariation": "Third Base Bank: the runner banks a point for every correct read and loses all banked points on a wrong 'go.' See how many points can be banked in 15 reps.",
+      "lessonId": "run-09"
+    },
+    {
+      "id": "drill-run-10",
+      "name": "Touch-Every-Base Relay",
+      "category": "baserunning",
+      "skillFocus": [
+        "running_bases",
+        "fun",
+        "teamwork"
+      ],
+      "ageGroups": [
+        "a4_6",
+        "a7_8"
+      ],
+      "skillLevels": [
+        "beginner"
+      ],
+      "equipmentRequired": [
+        "bases"
+      ],
+      "equipmentFreeVariant": "Four jackets, chalk squares, or shoes as bases. Any soft object can be the relay baton; a rolled sock works.",
+      "locations": [
+        "backyard",
+        "park",
+        "field"
+      ],
+      "minSpaceFt": 60,
+      "participantsMin": 2,
+      "participantsMax": 16,
+      "contexts": [
+        "home",
+        "team"
+      ],
+      "durationMin": 8,
+      "phase": "game",
+      "intensity": "high",
+      "throwingLoad": "none",
+      "setup": "A mini diamond with four flat bases 30 to 40 feet apart (closer for 4- to 6-year-olds). Split players into two teams at home plate, or at home one parent and one child take turns against the clock.",
+      "instructions": [
+        "First runner on each team runs the bases in order, first, second, third, home, touching each base with a foot.",
+        "When the runner touches home, the next teammate goes. A missed base means the runner must go back and touch it before continuing.",
+        "An adult at second base watches for missed bases and for runners cutting across the infield.",
+        "The first team to get every runner home wins the round. Play best of three.",
+        "At home with one child, run against the stopwatch and try to beat the best time while touching every base."
+      ],
+      "reps": "3 rounds, each player running the bases 3 times",
+      "cues": [
+        "First is right",
+        "Touch every base",
+        "Missed it? Go back"
+      ],
+      "parentTip": "Watch the feet, not the race. A fast runner who skips second base is practicing the wrong thing; make the go-back rule automatic and cheerful.",
+      "safety": [
+        "Flat base markers only and a clear infield.",
+        "Runners wait at home until the teammate ahead has touched home to avoid collisions.",
+        "Walk between rounds; it is a sprint game for little legs."
+      ],
+      "funVariation": "Backwards Base Day (coach call only): run the diamond with a silly rule each round, such as touching each base with a high five from a coach standing beside it, to keep attention on the bases.",
+      "lessonId": "run-10"
+    }
+  ]
+}

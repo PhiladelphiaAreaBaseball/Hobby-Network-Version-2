@@ -1,0 +1,74 @@
+/* Layout concept: a stadium control room. Dark-navy chrome frames bright, calm work surfaces; a persistent
+   left rail on desktop collapses to a bottom tab bar on phones. Infield clay and outfield green appear only
+   as meaning (categories, status), never as decoration. */
+:root {
+  --bg: #F4F6F9;
+  --surface: #FFFFFF;
+  --surface-2: #EDF1F6;
+  --surface-3: #E2E8F0;
+  --fg: #0E1A2B;
+  --fg-muted: #56657A;
+  --fg-faint: #8A97AA;
+  --border: #D9E0EA;
+  --border-strong: #BAC5D4;
+  --primary: #0D5BD9;
+  --primary-hover: #1A6AEB;
+  --primary-fg: #FFFFFF;
+  --primary-soft: #E4ECFB;
+  --primary-soft-fg: #0B4BB5;
+  --chrome: #0B1A30;
+  --chrome-2: #11253F;
+  --chrome-fg: #E8EEF6;
+  --chrome-muted: #93A6C2;
+  --chrome-active: #15396E;
+  --clay: #B5542A;
+  --clay-soft: #F6E6DE;
+  --grass: #2F7D4E;
+  --grass-soft: #DFF1E6;
+  --stitch: #C8102E;
+  --stitch-soft: #FBE3E7;
+  --gold: #B8860B;
+  --gold-soft: #FBF1D6;
+  --sky: #2B7BBF;
+  --sky-soft: #DFEEFA;
+  --focus: #0D5BD9;
+  --shadow-1: 0 1px 2px rgba(14, 26, 43, 0.06), 0 1px 3px rgba(14, 26, 43, 0.08);
+  --shadow-2: 0 6px 20px rgba(14, 26, 43, 0.10);
+  --shadow-3: 0 18px 50px rgba(14, 26, 43, 0.18);
+  --font-display: "Barlow Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Source Sans 3", "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --radius-sm: 6px;
+  --radius: 10px;
+  --radius-lg: 16px;
+  --rail-w: 248px;
+  --topbar-h: 56px;
+  --tabbar-h: 60px;
+  --gutter-l: max(16px, env(safe-area-inset-left, 0px));
+  --gutter-r: max(16px, env(safe-area-inset-right, 0px));
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0B1626; --surface: #122238; --surface-2: #182C47; --surface-3: #213856;
+    --fg: #E8EEF6; --fg-muted: #A3B4CA; --fg-faint: #7487A2;
+    --border: #243A58; --border-strong: #35507A;
+    --primary: #5B8DEF; --primary-hover: #76A3F5; --primary-fg: #06112A; --primary-soft: #1B3358; --primary-soft-fg: #BBD2FA;
+    --chrome: #070F1C; --chrome-2: #0D1A2E; --chrome-fg: #E8EEF6; --chrome-muted: #8AA0BF; --chrome-active: #1A3358;
+    --clay: #E07A4A; --clay-soft: #3A251C; --grass: #4FB07A; --grass-soft: #173426; --stitch: #F0516B; --stitch-soft: #3D1A22;
+    --gold: #E0B341; --gold-soft: #3A2F13; --sky: #5FB0F0; --sky-soft: #15314A; --focus: #5FB0F0;
+    --shadow-1: 0 1px 2px rgba(0,0,0,.4); --shadow-2: 0 6px 20px rgba(0,0,0,.45); --shadow-3: 0 18px 50px rgba(0,0,0,.6);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0B1626; --surface: #122238; --surface-2: #182C47; --surface-3: #213856;
+  --fg: #E8EEF6; --fg-muted: #A3B4CA; --fg-faint: #7487A2;
+  --border: #243A58; --border-strong: #35507A;
+  --primary: #5B8DEF; --primary-hover: #76A3F5; --primary-fg: #06112A; --primary-soft: #1B3358; --primary-soft-fg: #BBD2FA;
+  --chrome: #070F1C; --chrome-2: #0D1A2E; --chrome-fg: #E8EEF6; --chrome-muted: #8AA0BF; --chrome-active: #1A3358;
+  --clay: #E07A4A; --clay-soft: #3A251C; --grass: #4FB07A; --grass-soft: #173426; --stitch: #F0516B; --stitch-soft: #3D1A22;
+  --gold: #E0B341; --gold-soft: #3A2F13; --sky: #5FB0F0; --sky-soft: #15314A; --focus: #5FB0F0;
+  --shadow-1: 0 1px 2px rgba(0,0,0,.4); --shadow-2: 0 6px 20px rgba(0,0,0,.45); --shadow-3: 0 18px 50px rgba(0,0,0,.6);
+  color-scheme: dark;
+}
