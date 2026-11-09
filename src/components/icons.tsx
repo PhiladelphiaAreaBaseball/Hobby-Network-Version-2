@@ -16,6 +16,7 @@ export const I = {
   user: (p: P) => <svg {...base(p)}><circle cx="12" cy="8" r="4" /><path d="M4 21a8 8 0 0 1 16 0" /></svg>,
   search: (p: P) => <svg {...base(p)}><circle cx="11" cy="11" r="6" /><path d="m20 20-4-4" /></svg>,
   menu: (p: P) => <svg {...base(p)}><path d="M4 7h16M4 12h16M4 17h16" /></svg>,
+  compass: (p: P) => <svg {...base(p)}><circle cx="12" cy="12" r="9" /><path d="m15.5 8.5-2 5-5 2 2-5z" fill="currentColor" /></svg>,
   close: (p: P) => <svg {...base(p)}><path d="m6 6 12 12M18 6 6 18" /></svg>,
   chevronRight: (p: P) => <svg {...base(p)}><path d="m9 6 6 6-6 6" /></svg>,
   chevronLeft: (p: P) => <svg {...base(p)}><path d="m15 6-6 6 6 6" /></svg>,

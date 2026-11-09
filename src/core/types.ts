@@ -176,6 +176,9 @@ export interface CertQuestion { id: ID; prompt: string; options: string[]; corre
 export interface CertModule { id: ID; title: string; summary: string; durationMin: number; required: boolean; renewMonths: number; audience: Role[]; sections: { heading: string; body: string[] }[]; keyPoints: string[]; resourceIds: ID[]; quiz: CertQuestion[]; }
 export interface Certification { id: ID; leagueId: ID; userId: ID; moduleId: ID; completedAt: ISODateTime; expiresAt: ISODate; score: number; passed: boolean; attempts: number; }
 export interface DemoGuideStep { id: ID; title: string; route: string; minutes: number; say: string[]; click: string[]; }
+export interface TourStep { id: ID; title: string; route: string; explain: string[]; try?: string[]; target?: string; }
+export interface TourSection { id: ID; title: string; persona: string; summary: string; steps: TourStep[]; }
+export interface TourContent { title: string; intro: string; controls: string[]; sections: TourSection[]; closing: { title: string; lines: string[] }; }
 export interface DemoGuide { title: string; intro: string; acts: { id: ID; title: string; persona: string; minutes: number; steps: DemoGuideStep[] }[]; closing: string[]; }
 export interface SafetyContent { planSections: { id: ID; title: string; prompt: string; starter: string }[]; kitItems: { id: ID; label: string }[]; incidentTypes: { id: Incident["type"]; label: string; hint: string }[]; }
 export interface SeasonCloseContent { tasks: { id: ID; group: string; label: string; hint: string }[]; awardTemplates: string[]; }
@@ -256,7 +259,7 @@ export interface SiteContent {
 export interface ContentBundle {
   lessons: Lesson[]; drills: Drill[]; parentGuides: ParentGuide[]; coachPlans: CoachPlan[]; iqLessons: IQLesson[]; iqQuestions: IQQuestion[];
   curricula: Curriculum[]; challenges: Challenge[]; badges: Badge[]; resources: Resource[]; glossary: GlossaryTerm[]; drillVideos: DrillVideo[];
-  certModules: CertModule[]; certPassingPct: number; demoGuide: DemoGuide | null; safety: SafetyContent; seasonClose: SeasonCloseContent; surveyTemplates: SurveyTemplate[];
+  certModules: CertModule[]; certPassingPct: number; demoGuide: DemoGuide | null; tour: TourContent | null; safety: SafetyContent; seasonClose: SeasonCloseContent; surveyTemplates: SurveyTemplate[];
   manifest: { ageGroups: { id: AgeGroupId; label: string; min: number; max: number }[] };
 }
 export interface DemoBundle {

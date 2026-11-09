@@ -165,3 +165,24 @@ test("demo dates shift forward by whole days while birth dates and the determina
   assert.ok(demo.meta?.seededOn, "seed records its date"); const shifted = shiftDemo(demo, shiftDateString(demo.meta.seededOn, 7)); assert.equal(shifted.shiftedDays, 7); const ev0 = demo.events[0]; const ev1 = shifted.demo.events[0]; assert.equal(ev1.start, shiftDateString(ev0.start, 7)); assert.equal(shifted.demo.players[0].birthDate, demo.players[0].birthDate); assert.equal(shifted.demo.leagues[0].settings.eligibility.ageDeterminationDate, demo.leagues[0].settings.eligibility.ageDeterminationDate); assert.equal(shifted.demo.meta.shiftedDays, 7);
   const same = shiftDemo(demo, demo.meta.seededOn); assert.equal(same.shiftedDays, 0); assert.strictEqual(same.demo, demo, "no copy when nothing moves");
 });
+
+// ---- guided tour content: every stop opens a real route for a real persona
+import { parseRoute } from "../../dist/test/core/router.mjs";
+test("guided tour stops resolve to real routes, personas and demo records", () => {
+  const tour = JSON.parse(readFileSync("data/content/tour.json", "utf8")); const demo = JSON.parse(readFileSync("data/demo/demo.json", "utf8")); const personas = new Set(demo.personas.map((p) => p.id));
+  const stops = tour.sections.flatMap((s) => s.steps.map((st) => ({ ...st, persona: s.persona })));
+  assert.ok(stops.length >= 40, "the tour should cover the whole app");
+  for (const st of stops) {
+    assert.ok(personas.has(st.persona), `${st.id}: persona ${st.persona}`);
+    const r = parseRoute("#" + st.route); assert.ok(r.name !== "home" || st.route === "home", `${st.id}: route ${st.route} fell through to home`);
+    if (r.name === "team") assert.ok(demo.teams.some((t) => t.id === r.id), `${st.id}: team ${r.id}`);
+    if (r.name === "coaches-team") assert.ok(demo.teams.some((t) => t.id === r.id), `${st.id}: team ${r.id}`);
+    if (r.name === "report") assert.ok(demo.reportCards.some((c) => c.id === r.id), `${st.id}: report ${r.id}`);
+    if (r.name === "tryout") assert.ok(demo.tryouts.some((t) => t.id === r.id), `${st.id}: tryout ${r.id}`);
+    if (r.name === "allstars") assert.ok(demo.allStarPools.some((p) => p.id === r.id), `${st.id}: pool ${r.id}`);
+    if (r.name === "practice-plan") assert.ok(demo.practicePlans.some((p) => p.id === r.id), `${st.id}: plan ${r.id}`);
+    if (r.name === "site") assert.ok(demo.leagues.some((l) => l.slug === r.id), `${st.id}: league slug ${r.id}`);
+  }
+  const sectionIds = tour.sections.map((s) => s.id); assert.equal(new Set(sectionIds).size, sectionIds.length);
+  assert.ok(tour.sections.some((s) => s.persona === "persona_parent") && tour.sections.some((s) => s.persona === "persona_coach") && tour.sections.some((s) => s.persona === "persona_admin") && tour.sections.some((s) => s.persona === "persona_player") && tour.sections.some((s) => s.persona === "persona_platform"), "families, players, coaches, office and platform all covered");
+});

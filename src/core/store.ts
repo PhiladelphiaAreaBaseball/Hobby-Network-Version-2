@@ -23,15 +23,16 @@ export interface AppState {
   session: Session | null; route: Route;
   persistence: PersistenceStatus; viewer: ViewerInfo | null;
   caps: { db: boolean; user: boolean; sample: boolean; assets: boolean; downloads: boolean; resolved: boolean };
-  ui: { railOpen: boolean; toasts: Toast[]; theme: "system" | "light" | "dark"; activeChildId: string | null };
+  ui: { railOpen: boolean; toasts: Toast[]; theme: "system" | "light" | "dark"; activeChildId: string | null; tour: TourState | null };
 }
 
+export interface TourState { section: number; step: number; hidden: boolean; done: boolean }
 type Listener = () => void;
 let state: AppState = {
   booted: false, content: null, demo: null, tenantOverlays: {}, platformOverlays: {}, overlayTenantId: null, session: null,
   route: { name: "home", raw: "home" }, persistence: { mode: "memory", status: "connecting" }, viewer: null,
   caps: { db: false, user: false, sample: false, assets: false, downloads: false, resolved: false },
-  ui: { railOpen: false, toasts: [], theme: "system", activeChildId: null },
+  ui: { railOpen: false, toasts: [], theme: "system", activeChildId: null, tour: null },
 };
 const listeners = new Set<Listener>();
 export const store = {
