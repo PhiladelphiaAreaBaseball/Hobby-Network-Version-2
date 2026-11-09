@@ -80,6 +80,29 @@ gap · **Integration** = architecture in place, needs an external service or cre
 | Reports and exports | Done | |
 | Platform super admin (leagues, subscriptions, plans, usage, support, health) | Done | |
 
+## Families, coaches and the league office (round four)
+| Area | Status | Notes |
+|---|---|---|
+| Carpool coordination | Done | Team page → Carpool: guardians offer rides per game (seats, pickup area, note); only a guardian adds their own child; driver notified; cancel notifies riders |
+| Team photo albums | Done | Team page → Photos: uploads through the assets capability, tagged players require photo consent, hidden automatically when consent is withdrawn; uploader, tagged guardian or coach can remove |
+| Message the coach from the team page | Done | Opens or creates the direct thread; falls back to the team thread when the league disables direct messages |
+| Equipment buying guide | Done | Resource `res-23`, by division, with bat-stamp explanation and what the league provides |
+| Run-mode attendance | Done | Take attendance from the practice runner when a team event is on today's schedule |
+| Season recap per player | Done | `#recap-<playerId>` with lessons, practices, badges, IQ, attendance, playing time, skills from report cards and change since mid-season; PDF |
+| Lesson video lead | Done | Lessons lead with their verified drill video; placeholder is a one-line note |
+| Team, sponsor and league logos | Done | Uploads through assets (editors in Claude); marks fall back to initials |
+| Incident reports | Done | Coaches, umpires, volunteers and staff file; safety officer (`league.safety`) reviews with status and follow-up; CSV export; Administration → Safety |
+| Safety plan builder | Done | Twelve sections with starters, completion, approval and export; content in `data/content/safety.json` |
+| First aid kit checks | Done | Per-field checklist with missing items, last check and overdue flags |
+| Umpire scheduling and pay | Done | Administration → Umpires: availability-aware assignment with conflict and weekly-load hints, two-umpire divisions, per-division pay rates, pay tally and recorded payments; umpires edit availability and see pay |
+| Season close-out | Done | Checklist from content, awards with engraving export, uniform returns, equipment inventory, banquet; season archive page with final standings |
+| Surveys | Done | Templates, draft/open/closed, anonymous-to-the-board results by division with year-over-year comparison; home card for open surveys |
+| Budget vs actuals | Done | Finance → Budget tab: planned lines by revenue kind and expense category, actuals from transactions, variance |
+| Background-check expiry reminders | Done | Volunteers and Communications; through the rules engine |
+| Content versions and league overrides | Done | Academy content → League changes: what the league overrides or added, revert to platform, version history with restore |
+| Board overview share link | Done | Read-only `#view-<slug>-<token>` page with standings, upcoming games, fields, sponsors and summary figures; no names; rotate or disable from Branding |
+| President and coach demo links | Done | `#demo-president`, `#demo-coach` |
+
 ## Demo readiness
 | Area | Status | Notes |
 |---|---|---|
@@ -95,7 +118,7 @@ gap · **Integration** = architecture in place, needs an external service or cre
 - Browser (`npm run e2e`): 134 routes across 10 personas render with no console errors or dead ends; tenant isolation; board-member denial (including tryouts);
   parent workflows (complete lesson, generate and log practice, answer an IQ question, register a child, send a message, search);
   coach workflows (assign home practice, attendance, pitch count rest calculation, tryout scoring, publish a report card, lineup card, scorebook through
-  a finalized game, certification quiz to a certificate, run-mode timer to completion, planner); commissioner draft pick; coach All-Star nomination and digest card; commissioner All-Star tally and finalize; platform onboarding wizard through to the new league's pages and public site; presenter guide Go and demo reset; admin workflows (field status, announcement, approve registration, create event, CMS change visible
+  a finalized game, certification quiz to a certificate, run-mode timer to completion, planner); commissioner draft pick; coach All-Star nomination and digest card; commissioner All-Star tally and finalize; platform onboarding wizard through to the new league's pages and public site; presenter guide Go and demo reset; carpool offer, survey answer, share view (with wrong-token rejection), incident filing, recap page, umpire availability, safety plan and kit check, umpire assignment and pay tally, close-out task toggle, survey results, budget tab, share-link controls, content changes tab; admin workflows (field status, announcement, approve registration, create event, CMS change visible
   on the public site, tryout rankings, certification readiness tab, CSV import with preview, play-rules editor, rollover preview); parent team-duty sign-up, report-card acknowledgement, notification center (open and mark all read), family calendar export and single-event calendar file; phone-width overflow checks on 22 pages; dark theme render;
   calculator interactions including PDF bytes and saved scenario.
 

@@ -20,6 +20,7 @@ export const NOTIFY_RULES: NotifyRule[] = [
   { kind: "tryout", label: "Assigned as an evaluator", category: "tryouts", audience: "Named evaluators", urgent: false, digestible: true },
   { kind: "draft", label: "Draft live, on the clock", category: "tryouts", audience: "Coaches of the teams in the draft", urgent: true, digestible: false },
   { kind: "certification", label: "Certification expiring", category: "safety", audience: "The coach or volunteer", urgent: false, digestible: true },
+  { kind: "safety", label: "Incident reported, background check due", category: "safety", audience: "Safety officer and league president; the volunteer for a check", urgent: false, digestible: true },
   { kind: "announcement", label: "League, division or team announcement", category: "league", audience: "Everyone in the audience the author chose", urgent: false, digestible: true },
 ];
 export const CATEGORY_LABEL: Record<NotifyCategory, string> = { schedule: "Schedule", messages: "Messages", assignments: "Home practice", registration: "Registration", volunteer: "Duties", fundraising: "Fundraising", development: "Development", tryouts: "Tryouts & draft", safety: "Safety", league: "League news" };

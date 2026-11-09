@@ -27,7 +27,7 @@ export type Permission =
   | "division.manage" | "team.manage" | "team.view" | "team.attendance" | "team.notes" | "team.assign" | "team.message" | "team.pitching" | "team.video_review"
   | "family.manage" | "family.register" | "family.pay" | "family.academy" | "family.messages" | "family.video_upload"
   | "player.academy" | "umpire.assignments" | "volunteer.shifts"
-  | "league.tryouts" | "tryout.evaluate" | "team.gameday";
+  | "league.tryouts" | "tryout.evaluate" | "team.gameday" | "league.safety" | "league.umpires";
 
 export interface Membership {
   id: ID; userId: ID; leagueId: ID; role: Role;
@@ -51,7 +51,7 @@ export interface League {
   contactEmail: string; address?: string; founded?: number;
   subscription: { planId: ID; status: "trial" | "active" | "past_due" | "cancelled"; trialEndsAt?: ISODate; renewsAt?: ISODate; seats?: number };
   settings: LeagueSettings;
-  ageGroupLabels: Record<AgeGroupId, string>;
+  ageGroupLabels: Record<AgeGroupId, string>; logoAssetId?: string;
   createdAt: ISODateTime;
 }
 export interface LeagueSettings {
@@ -60,6 +60,8 @@ export interface LeagueSettings {
   registration: { familyDiscountPct: number; lateFee: number; refundPolicy: string; financialAssistance: boolean; paymentPlans: boolean };
   safety: { requireBackgroundCheck: boolean; photoConsentRequired: boolean; videoReviewEnabled: boolean; videoRetentionDays: number; maxVideoUploadsPerPlayer: number };
   communications: { allowCoachToParentDM: boolean; quietHoursStart: string; quietHoursEnd: string };
+  umpires?: { payByDivision: Record<ID, number>; twoUmpireDivisions: ID[] };
+  shareToken?: string | null;
 }
 export interface EligibilityConfig {
   ageDeterminationDate: ISODate; // league age = age on this date (configured per season from the current rulebook)
@@ -86,7 +88,7 @@ export interface Division {
 export interface PlayRules { minFieldInnings: number; maxConsecutiveBench: number; everyoneBats: boolean; note: string; }
 export interface Team {
   id: ID; leagueId: ID; seasonId: ID; divisionId: ID; name: string; color: string; abbreviation: string;
-  headCoachUserId?: ID; assistantCoachUserIds: ID[]; sponsorId?: ID; practiceSlot?: string;
+  headCoachUserId?: ID; assistantCoachUserIds: ID[]; sponsorId?: ID; practiceSlot?: string; logoAssetId?: string;
   record?: { wins: number; losses: number; ties: number };
 }
 export interface Player {
@@ -107,7 +109,7 @@ export interface Registration {
   verification: { residency: "pending" | "verified" | "school" | "waiver" | "rejected"; notes?: string };
   submittedAt?: ISODateTime; updatedAt: ISODateTime; medicalNotes?: string; emergencyContact?: { name: string; phone: string; relation: string };
 }
-export interface Payment { id: ID; leagueId: ID; registrationId?: ID; userId: ID; amount: number; kind: "registration" | "refund" | "donation" | "sponsorship" | "fundraiser" | "fee"; method: "card" | "check" | "cash" | "assistance" | "offline"; status: "pending" | "succeeded" | "failed" | "refunded"; processorRef?: string; createdAt: ISODateTime; note?: string; }
+export interface Payment { id: ID; leagueId: ID; registrationId?: ID; userId: ID; amount: number; kind: "registration" | "refund" | "donation" | "sponsorship" | "fundraiser" | "fee" | "umpire_pay" | "expense_reimbursement"; method: "card" | "check" | "cash" | "assistance" | "offline"; status: "pending" | "succeeded" | "failed" | "refunded"; processorRef?: string; createdAt: ISODateTime; note?: string; }
 export interface Expense { id: ID; leagueId: ID; category: string; amount: number; vendor: string; date: ISODate; note?: string; }
 
 export interface Field { id: ID; leagueId: ID; name: string; address: string; type: "60ft" | "70ft" | "90ft" | "tee_ball" | "multi"; lights: boolean; status: "open" | "closed" | "under_review" | "delayed"; statusNote?: string; statusUpdatedAt?: ISODateTime; mapHint?: string; }
@@ -123,7 +125,7 @@ export interface PitchingAppearance { id: ID; leagueId: ID; playerId: ID; teamId
 
 export interface Volunteer { id: ID; leagueId: ID; userId: ID; roles: string[]; backgroundCheck: { status: "not_started" | "submitted" | "cleared" | "expired" | "flagged"; expiresAt?: ISODate }; trainingComplete: string[]; availability?: string; }
 export interface VolunteerShift { id: ID; leagueId: ID; title: string; kind: "concessions" | "field_prep" | "umpire" | "scorekeeper" | "team_parent" | "event" | "other" | "snack" | "dugout" | "pitch_count"; start: ISODateTime; end: ISODateTime; fieldId?: ID; slots: number; assignedUserIds: ID[]; teamId?: ID; eventId?: ID; note?: string; createdByUserId?: ID; }
-export interface Sponsor { id: ID; leagueId: ID; name: string; tier: "platinum" | "gold" | "silver" | "bronze" | "team"; amount: number; contactName: string; contactEmail: string; website?: string; logoText: string; color: string; teamId?: ID; status: "prospect" | "applied" | "active" | "renewing" | "lapsed"; placements: ("website_home" | "field_banner" | "jersey" | "newsletter" | "scoreboard")[]; since: number; }
+export interface Sponsor { id: ID; leagueId: ID; name: string; tier: "platinum" | "gold" | "silver" | "bronze" | "team"; amount: number; contactName: string; contactEmail: string; website?: string; logoText: string; logoAssetId?: string; color: string; teamId?: ID; status: "prospect" | "applied" | "active" | "renewing" | "lapsed"; placements: ("website_home" | "field_banner" | "jersey" | "newsletter" | "scoreboard")[]; since: number; }
 export interface Fundraiser { id: ID; leagueId: ID; title: string; kind: "event" | "campaign" | "product"; goal: number; raised: number; date?: ISODate; description: string; status: "planned" | "active" | "complete"; }
 
 export interface Announcement { id: ID; leagueId: ID; title: string; body: string; audience: { scope: "league" | "division" | "team"; id?: ID }; authorUserId: ID; publishedAt: ISODateTime; pinned: boolean; kind: "news" | "alert" | "rainout" | "registration" | "schedule" | "volunteer" | "fundraising"; }
@@ -175,6 +177,9 @@ export interface CertModule { id: ID; title: string; summary: string; durationMi
 export interface Certification { id: ID; leagueId: ID; userId: ID; moduleId: ID; completedAt: ISODateTime; expiresAt: ISODate; score: number; passed: boolean; attempts: number; }
 export interface DemoGuideStep { id: ID; title: string; route: string; minutes: number; say: string[]; click: string[]; }
 export interface DemoGuide { title: string; intro: string; acts: { id: ID; title: string; persona: string; minutes: number; steps: DemoGuideStep[] }[]; closing: string[]; }
+export interface SafetyContent { planSections: { id: ID; title: string; prompt: string; starter: string }[]; kitItems: { id: ID; label: string }[]; incidentTypes: { id: Incident["type"]; label: string; hint: string }[]; }
+export interface SeasonCloseContent { tasks: { id: ID; group: string; label: string; hint: string }[]; awardTemplates: string[]; }
+export interface SurveyTemplate { id: ID; title: string; audience: Survey["audience"]; questions: SurveyQuestion[]; }
 export interface GlossaryTerm { id: ID; term: string; definition: string; example: string; relatedLessonIds: string[]; }
 
 /* ---------- Player development state (tenant-owned, mutable) ---------- */
@@ -210,6 +215,26 @@ export interface AllStarPool { id: ID; leagueId: ID; seasonId: ID; divisionId: I
 export interface AllStarNomination { id: ID; leagueId: ID; poolId: ID; playerId: ID; teamId: ID; nominatedByUserId: ID; note: string; createdAt: ISODateTime; }
 export interface AllStarVote { id: ID; leagueId: ID; poolId: ID; voterUserId: ID; teamId: ID; playerIds: ID[]; updatedAt: ISODateTime; }
 
+/* ---------- Families: carpools and photos ---------- */
+export interface Carpool { id: ID; leagueId: ID; teamId: ID; eventId: ID; driverUserId: ID; seats: number; pickupArea: string; note: string; riderPlayerIds: ID[]; createdAt: ISODateTime; updatedAt: ISODateTime; }
+export interface Photo { id: ID; leagueId: ID; teamId: ID; assetId: string; caption: string; uploadedByUserId: ID; uploadedAt: ISODateTime; playerIds: ID[]; eventId?: ID; }
+/* ---------- Safety ---------- */
+export interface Incident { id: ID; leagueId: ID; date: ISODate; time: string; fieldId?: ID; eventId?: ID; type: "injury" | "behavior" | "facility" | "weather" | "other"; severity: "minor" | "moderate" | "serious"; playerIds: ID[]; involved: string; description: string; actionTaken: string; firstAidGiven: boolean; emsCalled: boolean; parentNotified: boolean; reportedByUserId: ID; status: "open" | "reviewed" | "closed"; followUp: string; reviewedByUserId?: ID; createdAt: ISODateTime; updatedAt: ISODateTime; }
+export interface SafetyPlan { id: ID; leagueId: ID; sections: Record<string, string>; updatedAt: ISODateTime; updatedByUserId: ID; approvedAt?: ISODate; approvedByUserId?: ID; year: number; }
+export interface KitCheck { id: ID; leagueId: ID; fieldId: ID; checkedAt: ISODateTime; byUserId: ID; items: Record<string, boolean>; notes: string; }
+/* ---------- Umpires ---------- */
+export interface UmpireProfile { id: ID; leagueId: ID; userId: ID; availability: string[]; maxGamesPerWeek: number; divisionsOk: ID[]; notes: string; updatedAt: ISODateTime; }
+/* ---------- Season close-out ---------- */
+export interface SeasonCloseout { id: ID; leagueId: ID; seasonId: ID; tasks: Record<string, { done: boolean; byUserId: ID; at: ISODateTime }>; awards: { id: ID; teamId: ID; playerId?: ID; title: string }[]; uniformReturns: Record<ID, "returned" | "missing" | "kept">; equipment: { id: ID; item: string; qty: number; condition: "good" | "fair" | "replace" }[]; banquet: { date?: ISODate; location: string; notes: string }; notes: string; updatedAt: ISODateTime; }
+/* ---------- Surveys ---------- */
+export interface SurveyQuestion { id: ID; type: "rating" | "choice" | "text"; text: string; options?: string[]; }
+export interface Survey { id: ID; leagueId: ID; seasonId: ID; templateId: string | null; title: string; audience: "guardian" | "coach" | "all"; questions: SurveyQuestion[]; status: "draft" | "open" | "closed"; opensAt: ISODate; closesAt: ISODate; createdByUserId: ID; createdAt: ISODateTime; }
+export interface SurveyResponse { id: ID; leagueId: ID; surveyId: ID; userId: ID; divisionId?: ID; answers: Record<string, number | string>; submittedAt: ISODateTime; }
+/* ---------- Budget ---------- */
+export interface Budget { id: ID; leagueId: ID; seasonId: ID; lines: { id: ID; kind: "revenue" | "expense"; category: string; planned: number }[]; updatedAt: ISODateTime; }
+/* ---------- Content versions ---------- */
+export interface ContentVersion { id: ID; leagueId: ID; entityType: "lesson" | "iqQuestion" | "curriculum"; entityId: ID; snapshot: unknown; savedByUserId: ID; savedAt: ISODateTime; note: string; }
+
 /* ---------- Report cards ---------- */
 export type SkillRating = 1 | 2 | 3; // 1 not yet · 2 developing · 3 consistent
 export interface ReportCard { id: ID; leagueId: ID; teamId: ID; playerId: ID; seasonId: ID; coachUserId: ID; period: "mid" | "end"; ratings: Record<string, SkillRating>; strengths: string; focus: string; focusSkillId: string | null; recommendedLessonIds: ID[]; coachNote: string; status: "draft" | "published"; createdAt: ISODateTime; updatedAt: ISODateTime; publishedAt?: ISODateTime; parentAcknowledgedAt?: ISODateTime; }
@@ -231,13 +256,13 @@ export interface SiteContent {
 export interface ContentBundle {
   lessons: Lesson[]; drills: Drill[]; parentGuides: ParentGuide[]; coachPlans: CoachPlan[]; iqLessons: IQLesson[]; iqQuestions: IQQuestion[];
   curricula: Curriculum[]; challenges: Challenge[]; badges: Badge[]; resources: Resource[]; glossary: GlossaryTerm[]; drillVideos: DrillVideo[];
-  certModules: CertModule[]; certPassingPct: number; demoGuide: DemoGuide | null;
+  certModules: CertModule[]; certPassingPct: number; demoGuide: DemoGuide | null; safety: SafetyContent; seasonClose: SeasonCloseContent; surveyTemplates: SurveyTemplate[];
   manifest: { ageGroups: { id: AgeGroupId; label: string; min: number; max: number }[] };
 }
 export interface DemoBundle {
   leagues: League[]; users: User[]; memberships: Membership[]; seasons: Season[]; divisions: Division[]; teams: Team[]; players: Player[]; registrations: Registration[]; payments: Payment[]; expenses: Expense[];
   fields: Field[]; events: ScheduleEvent[]; attendance: Attendance[]; pitching: PitchingAppearance[]; volunteers: Volunteer[]; shifts: VolunteerShift[]; sponsors: Sponsor[]; fundraisers: Fundraiser[]; announcements: Announcement[]; threads: MessageThread[];
   completions: LessonCompletion[]; assignments: Assignment[]; iqProgress: IQProgress[]; awards: AchievementAward[]; enrollments: CurriculumEnrollment[]; notes: PlayerNote[]; practicePlans: PracticePlan[]; videos: VideoSubmission[]; plans: SubscriptionPlan[]; siteContent: SiteContent[]; personas: Persona[];
-  tryouts?: Tryout[]; evaluations?: Evaluation[]; drafts?: Draft[]; reportCards?: ReportCard[]; gameSheets?: GameSheet[]; certifications?: Certification[]; allStarPools?: AllStarPool[]; allStarNominations?: AllStarNomination[]; allStarVotes?: AllStarVote[]; meta?: { seededOn?: string; shiftedTo?: string; shiftedDays?: number };
+  tryouts?: Tryout[]; evaluations?: Evaluation[]; drafts?: Draft[]; reportCards?: ReportCard[]; gameSheets?: GameSheet[]; certifications?: Certification[]; allStarPools?: AllStarPool[]; allStarNominations?: AllStarNomination[]; allStarVotes?: AllStarVote[]; carpools?: Carpool[]; photos?: Photo[]; incidents?: Incident[]; safetyPlans?: SafetyPlan[]; kitChecks?: KitCheck[]; umpireProfiles?: UmpireProfile[]; closeouts?: SeasonCloseout[]; surveys?: Survey[]; surveyResponses?: SurveyResponse[]; budgets?: Budget[]; contentVersions?: ContentVersion[]; meta?: { seededOn?: string; shiftedTo?: string; shiftedDays?: number };
 }
 export interface Persona { id: ID; userId: ID; leagueId: ID | null; label: string; role: Role; description: string; playerId?: ID; teamId?: ID; }

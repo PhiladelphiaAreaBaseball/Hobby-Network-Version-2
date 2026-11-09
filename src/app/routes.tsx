@@ -31,13 +31,21 @@ import { CertificationPage, CertModulePage } from "../features/coaches/Certifica
 import { NotificationsPage } from "../features/account/NotificationsPage";
 import { AllStarPage } from "../features/tryouts/AllStarPages";
 import { DemoGuidePage } from "../features/auth/DemoGuidePage";
+import { RecapPage } from "../features/reports/RecapPage";
+import { SurveyPage } from "../features/admin/AdminSurveys";
+import { SeasonArchivePage } from "../features/admin/AdminSeasonClose";
+import { ShareViewPage } from "../features/league/ShareView";
 export function routeView(r: Route): { frame: "app" | "public" | "none"; element: ReactNode } {
   switch (r.name) {
     case "marketing": return { frame: "public", element: <MarketingPage /> };
     case "pricing": return { frame: "public", element: <PricingPage /> };
     case "directory": return { frame: "public", element: <DirectoryPage /> };
     case "site": return { frame: "public", element: <PublicSitePage slug={r.id ?? "dvyaa"} /> };
-    case "demo": return r.id === "guide" ? { frame: "app", element: <DemoGuidePage /> } : { frame: "none", element: <DemoEntry /> };
+    case "demo": return r.id === "guide" ? { frame: "app", element: <DemoGuidePage /> } : r.id === "president" || r.id === "coach" ? { frame: "none", element: <DemoEntry persona={r.id === "president" ? "persona_admin" : "persona_coach"} /> } : { frame: "none", element: <DemoEntry /> };
+    case "recap": return { frame: "app", element: <RecapPage id={r.id!} /> };
+    case "survey": return { frame: "app", element: <SurveyPage id={r.id!} /> };
+    case "season": return { frame: "app", element: <SeasonArchivePage id={r.id!} /> };
+    case "view": return { frame: "public", element: <ShareViewPage token={r.id ?? ""} /> };
     case "home": return { frame: "app", element: <HomePage /> };
     case "league": return { frame: "app", element: <MyLeaguePage section={r.id} /> };
     case "teams": return { frame: "app", element: <TeamsPage /> };

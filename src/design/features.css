@@ -136,3 +136,7 @@ input[type="range"].slider:focus-visible { outline: none; } input[type="range"].
 .guide-step { display: grid; grid-template-columns: 32px minmax(0, 1fr) auto; gap: .8rem; align-items: start; padding: .75rem 0; border-top: 1px solid var(--border); } .guide-step:first-child { border-top: 0; }
 .guide-num { width: 30px; height: 30px; border-radius: 50%; background: var(--surface-3); display: grid; place-items: center; font-family: var(--font-display); font-weight: 700; } .guide-step.done .guide-num { background: var(--grass); color: #fff; }
 .guide-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .75rem; } .guide-label { font-family: var(--font-display); text-transform: uppercase; letter-spacing: .08em; font-size: .7rem; font-weight: 600; color: var(--fg-muted); display: block; margin-bottom: .2rem; }
+
+/* ---- Photos ---- */
+.photo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: .75rem; }
+.photo-tile { margin: 0; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; display: grid; } .photo-tile img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; background: var(--surface-2); } .photo-tile figcaption { display: flex; gap: .5rem; align-items: center; padding: .45rem .6rem; font-size: .85rem; flex-wrap: wrap; }

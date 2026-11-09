@@ -8,6 +8,15 @@
 - **Repository branches:** `claude/gameplaniq-restore-source-ceah9g` (current session) and `claude/little-league-platform-hkhs8v` point at the same tree and are pushed to GitHub. No pull request to `main` has been opened yet.
 - **Source snapshot inside the artifact:** asset `36f409687132973b001bc71cc0b6e3bd` (`gameplaniq-src-latest.tar.gz.b64.txt`) is a base64 git archive of commit `7725431` (demo readiness). GitHub is the primary copy; snapshots are a backup. Older: `8fae46aa91cc16ddd60d5198d1f9360f` (`48d1243`), `abedcec1840412e788b8a00d06cfe00f` (`c15c4a3`), `ca93130d219b2680246105d8342a6006` (`a14f253`), `0e8b890c0eb0987522b65080df24e293` (`ffeb88f`), `68b479f81639291736dbd6f555ba7ee9` (`f61bbe1`), `4120a9218e4441eb8a9f9d57ac612f07` (`01f9ed6`).
 
+## Round-four features (where they live)
+- Safety: `#admin-safety` (incidents, safety plan, kit checks); `IncidentModal` is reused from Coaches' HQ and the umpire page. Permission `league.safety` (Kwame Mbeki has it as the safety officer).
+- Umpires: `#admin-umpires`; pay rates in league settings `umpires`; payments of kind `umpire_pay`. Permission `league.umpires`.
+- Season close-out: `#admin-season`; archive at `#season-<seasonId>`; content in `data/content/season-close.json`.
+- Surveys: `#admin-surveys`; families answer at `#survey-<id>`; templates in `data/content/surveys.json`.
+- Budget: Finance → Budget vs actual (`budgets` collection). Recap: `#recap-<playerId>`. Carpool and Photos: team page tabs.
+- Share link: Branding tab; demo token `board2026demo` → `#view-dvyaa-board2026demo`.
+- Content versions: Academy content → League changes (`contentVersions` collection).
+
 ## Running a demo
 - Open `#demo-guide` (Presenter guide in the rail, or from the welcome page) for the 20-minute script; every step has a Go button.
 - Reset demo data from the persona switcher or the guide before presenting. Shared-database resets need the artifact owner.

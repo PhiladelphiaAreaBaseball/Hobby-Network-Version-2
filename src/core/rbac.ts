@@ -5,7 +5,7 @@ export const ROLE_LABELS: Record<Role, string> = {
   head_coach: "Head Coach", assistant_coach: "Assistant Coach", guardian: "Parent / Guardian", player: "Player", umpire: "Umpire", volunteer: "Volunteer",
 };
 
-const ALL_LEAGUE: Permission[] = ["league.manage", "league.settings", "league.website", "league.finance", "league.finance.view", "league.registrations", "league.schedule", "league.fields", "league.volunteers", "league.sponsors", "league.communications", "league.content", "league.reports", "league.members", "division.manage", "team.manage", "team.view", "team.attendance", "team.notes", "team.assign", "team.message", "team.pitching", "team.video_review", "league.tryouts", "tryout.evaluate", "team.gameday"];
+const ALL_LEAGUE: Permission[] = ["league.manage", "league.settings", "league.website", "league.finance", "league.finance.view", "league.registrations", "league.schedule", "league.fields", "league.volunteers", "league.sponsors", "league.communications", "league.content", "league.reports", "league.members", "division.manage", "team.manage", "team.view", "team.attendance", "team.notes", "team.assign", "team.message", "team.pitching", "team.video_review", "league.tryouts", "tryout.evaluate", "team.gameday", "league.safety", "league.umpires"];
 const COACH: Permission[] = ["team.manage", "team.view", "team.attendance", "team.notes", "team.assign", "team.message", "team.pitching", "team.video_review", "team.gameday", "tryout.evaluate", "player.academy"];
 
 export const ROLE_PERMISSIONS: Record<Role, Permission[]> = {
@@ -17,7 +17,7 @@ export const ROLE_PERMISSIONS: Record<Role, Permission[]> = {
   assistant_coach: ["team.view", "team.attendance", "team.message", "team.assign", "team.gameday", "tryout.evaluate", "player.academy"],
   guardian: ["family.manage", "family.register", "family.pay", "family.academy", "family.messages", "family.video_upload", "team.view", "player.academy"],
   player: ["player.academy"],
-  umpire: ["umpire.assignments", "team.view"],
+  umpire: ["umpire.assignments", "team.view", "tryout.evaluate"],
   volunteer: ["volunteer.shifts"],
 };
 

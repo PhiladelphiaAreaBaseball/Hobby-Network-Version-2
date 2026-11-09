@@ -6,6 +6,10 @@ import { AdminFinance, AdminSponsors, AdminReports } from "./AdminMoney";
 import { AdminWebsite, AdminCommunications, AdminContent, AdminSettings } from "./AdminContent";
 import { AdminVolunteers } from "./AdminVolunteers";
 import { AdminTryouts } from "../tryouts/TryoutPages";
+import { AdminSafety } from "./AdminSafety";
+import { AdminUmpires } from "./AdminUmpires";
+import { AdminSeasonClose } from "./AdminSeasonClose";
+import { AdminSurveys } from "./AdminSurveys";
 import { useAppStore, currentMemberships } from "../../core/store";
 import { useTenant } from "../../core/select";
 import { visibleAdminNav } from "../../app/nav";
@@ -21,7 +25,7 @@ export function AdminRouter({ sub }: { sub?: string }) {
   if (!nav.some((n) => n.route === `admin-${sub}`)) return <Denied />;
   switch (sub) {
     case "registrations": return <AdminRegistrations />; case "players": return <AdminPlayers />; case "teams": return <AdminTeams />; case "members": return <AdminMembers />;
-    case "tryouts": return <AdminTryouts />; case "schedule": return <AdminSchedule />; case "fields": return <AdminFields />; case "volunteers": return <AdminVolunteers />;
+    case "tryouts": return <AdminTryouts />; case "safety": return <AdminSafety />; case "umpires": return <AdminUmpires />; case "season": return <AdminSeasonClose />; case "surveys": return <AdminSurveys />; case "schedule": return <AdminSchedule />; case "fields": return <AdminFields />; case "volunteers": return <AdminVolunteers />;
     case "finance": return <AdminFinance />; case "sponsors": return <AdminSponsors />; case "reports": return <AdminReports />;
     case "website": return <AdminWebsite />; case "communications": return <AdminCommunications />; case "content": return <AdminContent />; case "settings": return <AdminSettings />;
     default: return <Denied />;

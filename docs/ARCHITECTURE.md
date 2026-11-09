@@ -28,7 +28,8 @@ src/engines/                   pure logic: practice generator, coach planner, sc
                                certification (quiz grading, per-role status and renewals), importer (CSV parsing and validation), season (rollover preview),
                                notify (audience, preferences, quiet hours, link resolution), familyCalendar (one .ics feed with alarms), digest (daily/weekly summary), allstars (eligibility, ranked tally, ballot rules)
 src/components/                design system (ui.tsx), icons, Diamond (SVG field), Calendar, Brand
-src/features/                  one folder per product area (home, academy, parents, practice, iq, coaches, league, admin, tryouts, reports, gameday, …)
+src/features/                  one folder per product area (home, academy, parents, practice, iq, coaches, league, admin, tryouts, reports, gameday, …);
+                               admin/ now also holds safety, umpires, season close-out, surveys and the budget tab
 data/content/                  educational library (validated by scripts/validate-content.mjs)
 data/demo/demo.json            DVYAA + Harbor Point fictional data (scripts/seed-demo.mjs)
 ```
